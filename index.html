@@ -566,15 +566,31 @@ function renderLesson(){
 }
 
 /* ---------- Múltipla escolha por item ---------- */
+/* Ordem embaralhada das alternativas; evita repetir a ordem anterior. */
+function shuffledIdx(n, avoid){
+  let a;
+  for(let tries=0; tries<10; tries++){
+    a = [...Array(n).keys()];
+    for(let k=n-1;k>0;k--){ const r=new Uint32Array(1); crypto.getRandomValues(r); const m=r[0]%(k+1); [a[k],a[m]]=[a[m],a[k]]; }
+    if(!avoid || a.join()!==avoid.join()) break;
+  }
+  return a;
+}
 function renderMC(l, ex){
   const p = prog(l.id, ex.id);
   const box = $("#exBody");
+  if(!Array.isArray(p.order) || p.order.length!==ex.items.length){
+    const prev = p.prevOrder || [];
+    p.order = ex.items.map((it,i)=>shuffledIdx(it.o.length, prev[i]));
+    delete p.prevOrder; persist();
+  }
   box.innerHTML = ex.items.map((it,i)=>{
     const ans = p.answers[i]; const answered = ans!==undefined;
     const q = esc(it.q).replace("___",'<b style="letter-spacing:2px">_____</b>');
-    const opts = it.o.map((o,j)=>{
+    const opts = p.order[i].map((j,pos)=>{
+      const o = it.o[j];
       let cls="opt"; if(answered){ if(j===it.a) cls+=" right"; else if(j===ans) cls+=" wrong"; }
-      return `<button class="${cls}" data-q="${i}" data-o="${j}" ${answered?"disabled":""}>${String.fromCharCode(97+j)}) ${esc(o)}</button>`;
+      return `<button class="${cls}" data-q="${i}" data-o="${j}" ${answered?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
     }).join("");
     const why = answered ? `<div class="why ${ans===it.a?"ok":"no"}"><b>${ans===it.a?"Correto.":"Não é essa."}</b> ${it.why}</div>` : "";
     return `<div class="q"><div><span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
@@ -658,7 +674,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { p.answers={}; p.checked=false; persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
+  const doReset = () => { p.answers={}; p.checked=false; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
