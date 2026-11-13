@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>English Practice — protótipo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f5f4ef; --card:#ffffff; --ink:#1c2230; --muted:#687083; --line:#e4e2da;
+  --accent:#2f47c9; --accent-soft:#e8ecfc; --ok:#1d7f48; --ok-soft:#e3f4ea;
+  --bad:#c0392b; --bad-soft:#fbe9e6; --warn-soft:#fff6dc;
+  --r:14px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,sans-serif;font-size:17px;line-height:1.55}
+html{color-scheme:light}
+button{font:inherit;cursor:pointer;color:inherit;-webkit-text-fill-color:currentColor}
+.top{position:sticky;top:0;z-index:20;background:var(--ink);color:#fff}
+.top .in{max-width:820px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:12px}
+.brand{white-space:nowrap;font-weight:800;letter-spacing:-.01em;font-size:18px;cursor:pointer;display:flex;align-items:center;gap:8px}
+.brand .dot{width:22px;height:22px;border-radius:7px;background:var(--accent);display:grid;place-items:center;font-size:13px}
+.spacer{flex:1}
+.codepill{font-size:13px;background:rgba(255,255,255,.12);border:0;color:#fff;padding:6px 10px;border-radius:999px;max-width:46vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+main{max-width:820px;margin:0 auto;padding:20px 16px 120px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px}
+h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.02em}
+h2{font-size:21px;margin:0 0 8px;letter-spacing:-.01em}
+h3{font-size:17px;margin:18px 0 8px}
+.muted{color:var(--muted)}
+.small{font-size:14px}
+.btn{border:0;border-radius:10px;padding:12px 18px;font-weight:700;background:var(--accent);color:#fff}
+.btn.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent)}
+.btn.plain{background:#eceae3;color:var(--ink)}
+.btn:disabled{opacity:.45;cursor:default}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+input.code{width:100%;font:inherit;font-size:18px;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:#fbfaf7}
+input.code:focus{outline:2px solid var(--accent);border-color:transparent}
+.bigcode{font-size:22px;font-weight:800;letter-spacing:.01em;background:var(--accent-soft);color:var(--accent);padding:14px 16px;border-radius:12px;word-spacing:6px;text-align:center}
+.note{background:var(--warn-soft);border-radius:10px;padding:10px 14px;font-size:14px}
+.err{color:var(--bad);font-size:14px;min-height:20px;margin-top:6px}
+/* library */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-top:16px}
+.lcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;cursor:pointer;text-align:left;padding:0;display:flex;flex-direction:column;transition:transform .12s, box-shadow .12s}
+.lcard:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(28,34,48,.08)}
+.lcard .art{height:96px;display:flex;align-items:center;justify-content:center;font-size:44px}
+.lcard .body{padding:14px 16px 16px}
+.lcard .t{font-weight:700;font-size:17px;line-height:1.3}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.tag{font-size:12px;font-weight:700;padding:3px 8px;border-radius:999px;background:#eceae3;color:#4a5160}
+.tag.lv{background:var(--accent-soft);color:var(--accent)}
+.bar{height:6px;border-radius:9px;background:#eceae3;margin-top:12px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--ok)}
+/* lesson */
+.crumb{font-size:14px;color:var(--muted);margin-bottom:8px}
+.crumb a{color:var(--accent);cursor:pointer;text-decoration:none;font-weight:600}
+.tabs{display:flex;gap:6px;margin:16px 0 0}
+.tab{border:1px solid var(--line);border-bottom:0;background:#eceae3;padding:10px 16px;border-radius:12px 12px 0 0;font-weight:700;color:#4a5160}
+.tab.on{background:var(--card);color:var(--accent)}
+.panel{border-top-left-radius:0}
+.pager{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.pg{width:36px;height:36px;border-radius:9px;border:1px solid var(--line);background:#fff;font-weight:700;position:relative}
+.pg.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pg.done::after{content:"";position:absolute;right:-3px;top:-3px;width:10px;height:10px;border-radius:50%;background:var(--ok);border:2px solid #fff}
+.instr{background:#f3f2ed;border-radius:10px;padding:12px 14px;margin:12px 0 18px;font-size:15px}
+/* MC */
+.q{padding:16px 0;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:0}
+.qn{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:#fff;font-size:13px;font-weight:800;margin-right:8px;vertical-align:1px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+@media (max-width:520px){.opts{grid-template-columns:1fr}}
+.opt{border:1.5px solid #cfd2dc;background:#fff;color:var(--ink);border-radius:10px;padding:10px 12px;text-align:left;font-size:16px;font-weight:500}
+.opt:hover:not(:disabled){border-color:var(--accent)}
+.opt:disabled{cursor:default;color:#4a5160;opacity:1}
+.opt.right{background:var(--ok-soft);border-color:var(--ok);color:#0f5130;font-weight:600}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad);color:#7d1f15;text-decoration:line-through}
+.why{margin-top:10px;font-size:14.5px;padding:9px 12px;border-radius:9px}
+.why.ok{background:var(--ok-soft)} .why.no{background:var(--bad-soft)}
+/* gap */
+.lines p{margin:0 0 10px}
+.lines.list p{display:flex;gap:10px}
+.lines.list .num{color:var(--muted);font-weight:700;min-width:22px}
+.sp{font-weight:700}
+.scene{font-style:italic;color:var(--muted);font-size:15px;margin-bottom:14px}
+.blank{display:inline-flex;align-items:center;gap:6px;border:0;background:transparent;padding:0;margin:0 2px;vertical-align:baseline}
+.blank .n{display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font-size:12px;font-weight:800;padding:0 5px}
+.blank .v{display:inline-block;min-width:92px;border-bottom:2px solid #b9bccb;padding:0 4px;font-weight:600;color:var(--accent);text-align:left}
+.blank.active .v{border-color:var(--accent);background:var(--accent-soft);border-radius:5px 5px 0 0}
+.blank.ok .v{color:var(--ok);border-color:var(--ok)}
+.blank.no .v{color:var(--bad);border-color:var(--bad);text-decoration:line-through}
+.blank .fix{color:var(--ok);font-weight:700}
+.blank:disabled{cursor:default}
+.center{text-align:center;margin-top:22px}
+.score{display:flex;align-items:center;gap:14px;background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin-top:20px}
+.score b{font-size:26px;color:var(--accent)}
+.corr{margin-top:16px;font-size:15px}
+.corr div{padding:8px 0;border-top:1px solid var(--line)}
+.corr .k{font-weight:800;margin-right:6px}
+.corr .ok{color:var(--ok)} .corr .no{color:var(--bad)}
+/* sheet */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(28,34,48,.12);transform:translateY(110%);transition:transform .18s}
+.sheet.open{transform:none}
+.sheet .in{max-width:820px;margin:0 auto;padding:12px 16px 18px}
+.sheet .hd{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px;max-height:38vh;overflow:auto}
+.chip{border:1.5px solid #cfd2dc;background:#fafaf7;color:var(--ink);border-radius:999px;padding:8px 14px;font-size:15.5px;font-weight:600}
+.chip:hover{border-color:var(--accent)}
+.chip.sel{background:var(--accent);color:#fff;border-color:var(--accent)}
+.x{border:0;background:#eceae3;border-radius:8px;padding:6px 10px;font-weight:700}
+/* explanation */
+.expl table{width:100%;border-collapse:collapse;margin:8px 0 18px;font-size:15px}
+.expl th,.expl td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.expl th{background:#f3f2ed}
+.expl ul{padding-left:20px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
+.toast.on{opacity:1}
+</style>
+</head>
+<body>
+<header class="top"><div class="in">
+  <div class="brand" id="brand"><span class="dot">✓</span>English Practice</div>
+  <div class="spacer"></div>
+  <button class="codepill" id="codepill" hidden></button>
+</div></header>
+<main id="app"></main>
+<div class="sheet" id="sheet"><div class="in">
+  <div class="hd"><span id="sheetTitle">Escolha a opção</span><span class="spacer"></span><button class="x" id="sheetClear">Limpar</button><button class="x" id="sheetClose">Fechar</button></div>
+  <div class="chips" id="chips"></div>
+</div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   CONTEÚDO
+   ============================================================ */
+const LESSONS = [
+{
+  id:"there-be-have",
+  title:"There Be vs. Have",
+  area:"Medicina de Família", icon:"🩺", color:"#e4f1ee", level:"B2",
+  explanation:`
+    <h2>There be or have?</h2>
+    <p>In Portuguese, <i>ter</i> covers two different ideas. English splits them:</p>
+    <table>
+      <tr><th>Idea</th><th>English</th><th>Example</th></tr>
+      <tr><td>Someone possesses or experiences something</td><td><b>HAVE</b> (the sentence has a subject)</td><td>The patient <b>has</b> a cough.</td></tr>
+      <tr><td>Something exists in a place or time</td><td><b>THERE BE</b></td><td><b>There is</b> a patient in room 4.</td></tr>
+    </table>
+    <p class="note">The trap: <i>“Tem um paciente na sala 4”</i> is <b>There's a patient in room 4</b>, never <s>Has a patient</s> or <s>It has a patient</s>.</p>
+    <h3>THERE BE changes tense like any verb</h3>
+    <ul>
+      <li>there is / there are → there was / there were</li>
+      <li>there has been / there have been · there had been</li>
+      <li>there will be · there's going to be · there will have been</li>
+      <li>there used to be · there must be · there must have been · there would be</li>
+    </ul>
+    <h3>Agreement</h3>
+    <p>The verb agrees with the noun that comes after it: <b>there is</b> a problem · <b>there are</b> problems · <b>there have been</b> many cases.</p>
+    <h3>Dynamic HAVE</h3>
+    <p>When <i>have</i> means an action (<i>have lunch, have a meeting, have trouble</i>), it can be continuous: <b>She is having</b> a meeting. <b>We were having</b> lunch.</p>`,
+  exercises:[
+    { id:"mc", title:"Multiple choice", type:"mc",
+      instructions:"Choose the correct option. Pay attention to tense, agreement (singular/plural) and whether the sentence needs a subject (HAVE) or an existence structure (THERE BE).",
+      items:[
+        {q:"The patient in room 3 ___ a persistent cough for six weeks, so I've ordered a chest X-ray.",o:["there has been","has had","is having","has"],a:1,why:"has had — present perfect, possession of a symptom with <i>for</i>."},
+        {q:"___ any changes in your mother's medication since her last appointment?",o:["Has there been","Did there have","Have there been","There have been"],a:2,why:"Have there been — plural <i>changes</i> + <i>since</i>."},
+        {q:"When I got to the clinic this morning, ___ already fifteen patients in the waiting room.",o:["there were","there had","it had","they had"],a:0,why:"there were — existence, plural, past."},
+        {q:"By the time the ambulance arrived, the patient ___ two seizures.",o:["has had","there had been","had been","had had"],a:3,why:"had had — past perfect of <i>have</i>."},
+        {q:"Next Monday ___ a vaccination campaign at the health center, so we'll need extra nurses.",o:["it will have","there's going to be","will have","there are going to have"],a:1,why:"there's going to be — planned event; <i>“vai ter”</i> ≠ <i>will have</i>."},
+        {q:"Mr. Souza ___ trouble sleeping lately — he wakes up at 3 a.m. almost every night.",o:["has been having","there has been","is having had","has been had"],a:0,why:"has been having — ongoing experience + <i>lately</i>."},
+        {q:"The test came back negative, so ___ a mistake with the first result.",o:["it must have had","must have been","there must have been","there must have"],a:2,why:"there must have been — deduction about the past."},
+        {q:"In the 1990s, ___ only one family doctor for the whole neighborhood.",o:["it used to have","there used to have","used to have","there used to be"],a:3,why:"there used to be — past state that no longer exists."},
+        {q:"While we ___ lunch, the nurse called us about a patient with chest pain.",o:["had","were having","there was","have been having"],a:1,why:"were having — dynamic <i>have</i> (= eat), past continuous."},
+        {q:"At this rate, ___ more than fifty dengue cases in this area by the end of the month.",o:["there will have been","it will have had","there will be had","will have been"],a:0,why:"there will have been — future perfect, existence."},
+        {q:"If ___ a pediatrician on duty yesterday, we wouldn't have sent the child to the hospital.",o:["there was","we had","it had had","there had been"],a:3,why:"there had been — third conditional; <i>we had had</i> would also work, but <i>we had</i> doesn't."},
+        {q:"Dr. Costa can't see you right now; she ___ a meeting with the community health agents.",o:["there is","has been","is having","is had"],a:2,why:"is having — dynamic <i>have</i> (= hold a meeting)."},
+        {q:"___ no record of allergies in her chart, but always confirm with the patient.",o:["It has","There is","Has","There has"],a:1,why:"There is — existence, singular <i>record</i>."},
+        {q:"The lab just called: ___ a problem with the blood samples, so we need to collect them again.",o:["there's been","it has had","has been","there has"],a:0,why:"there's been — recent event with a present result."},
+        {q:"How long ___ these headaches, Mrs. Almeida?",o:["are you having","do you have","have you been having","there have been"],a:2,why:"have you been having — duration up to now."},
+        {q:"___ any side effects if she stops taking the antidepressant suddenly?",o:["Will it have","Will have","Is going to have","Will there be"],a:3,why:"Will there be — future existence, question."},
+        {q:"The elderly patient told us that ___ nobody at home to help her with her insulin for weeks.",o:["she had been","there had been","it had","there has"],a:1,why:"there had been — reported speech, past perfect."},
+        {q:"Last year our clinic ___ a shortage of antibiotics for almost two months.",o:["had","there was","had been","has had"],a:0,why:"had — <i>the clinic</i> is the subject; <i>our clinic there was</i> is the Portuguese-style trap."},
+        {q:"___ a lot of flu cases since the weather turned cold.",o:["There has","It has had","There were","There have been"],a:3,why:"There have been — plural + <i>since</i>."},
+        {q:"This time next year, I ___ my residency interviews, so wish me luck!",o:["will be had","there will be","will be having","am going to be"],a:2,why:"will be having — future continuous, an event in progress at a future time."}
+      ]},
+    { id:"dialogue", title:"Dialogue: The Headache in Room 4", type:"gap", layout:"dialogue",
+      instructions:"Complete the dialogue with THERE BE or HAVE in the correct tense. Some blanks need a negative, a question form or a modal. Tap a blank to choose.",
+      scene:"A Family Health Unit (UBS) in São Paulo, Friday afternoon. Dr. Helena Prado, family physician and preceptor, talks to Lucas, a first-year resident who dreams of becoming a neurosurgeon.",
+      lines:[
+        ["Dr. Prado","Lucas, [[1]] a minute? [[2]] a patient in room 4 I'd like you to see before he goes home."],
+        ["Lucas","Sure. What's his story?"],
+        ["Dr. Prado","Mr. Antônio Ferreira, 54, bus driver. He [[3]] headaches for about three weeks. He came in today because last night he [[4]] an episode of projectile vomiting."],
+        ["Lucas","[[5]] anything like this before?"],
+        ["Dr. Prado","Never. He told me he [[6]] a headache like this in his entire life."],
+        ["Lucas","Any red flags?"],
+        ["Dr. Prado","Several. The pain is worse in the morning, and when I examined him, [[7]] some weakness in his left hand. His wife also says that over the past week [[8]] moments when he seems confused."],
+        ["Lucas","That's worrying. [[9]] any history of cancer in the family?"],
+        ["Dr. Prado","His father [[10]] lung cancer, and Mr. Ferreira himself smoked for thirty years."],
+        ["Lucas","So we could be looking at a metastasis... or a primary brain tumor. Honestly, this is exactly the kind of case that made me want to become a neurosurgeon."],
+        ["Dr. Prado","I know — you remind me every day. But remember: [[11]] no neurosurgical cases at all if family doctors didn't catch the red flags first."],
+        ["Lucas","Fair point. What's the plan?"],
+        ["Dr. Prado","I've already called the regional hospital. [[12]] a CT slot for him tomorrow at 8 a.m."],
+        ["Lucas","And if [[13]] a mass?"],
+        ["Dr. Prado","Then he [[14]] an urgent appointment with neurosurgery. I'll make sure of it."],
+        ["Lucas","Could I go with him? Surely [[15]] another resident who can cover my patients here."],
+        ["Dr. Prado","Nice try. You [[16]] plenty of time in the operating room in a few years. Right now, [[17]] eleven patients waiting for you."],
+        ["Lucas","Eleven? When I left for lunch, [[18]] only four!"],
+        ["Dr. Prado","Welcome to primary care. While you [[19]] lunch, a school van full of kids with conjunctivitis showed up."],
+        ["Lucas","By the end of this rotation, I [[20]] more patients than I saw in all of med school."],
+        ["Dr. Prado","Good. Last year I [[21]] a resident just like you — obsessed with neurosurgery."],
+        ["Lucas","What happened to him?"],
+        ["Dr. Prado","He's a neurosurgery R3 now. He told me that if he [[22]] his rotation here, he would never have learned to really listen to patients."],
+        ["Lucas","[[23]] many residents like him over the years?"],
+        ["Dr. Prado","Plenty. When I started here, [[24]] only two doctors in this unit. Now we're six, and half of the residents I've trained [[25]] big plans for surgery."],
+        ["Lucas","Then I'm in good company. Let's go see Mr. Ferreira."],
+        ["Dr. Prado","Go. And Lucas — [[26]] a good neurosurgeon who wasn't a good clinician first."]
+      ],
+      answers:{
+        1:["do you have"],2:["there's","there is"],3:["has been having"],4:["had"],5:["has he had"],
+        6:["had never had"],7:["there was"],8:["there have been"],9:["is there"],10:["had"],
+        11:["there would be"],12:["there's going to be","there will be","there is","there's"],13:["there is","there's"],
+        14:["will have"],15:["there must be","there will be","there's","there is"],16:["will have"],17:["there are"],
+        18:["there were"],19:["were having"],20:["will have had"],21:["had"],22:["hadn't had","had not had"],
+        23:["have there been"],24:["there used to be","there were"],25:["have had"],
+        26:["there's never been","there has never been","there will never be"]
+      },
+      why:{
+        1:"HAVE = possess (time). Simple present question.",
+        2:"Existence: a patient is in room 4.",
+        3:"Ongoing experience up to now + <i>for about three weeks</i>.",
+        4:"Finished past event: <i>last night</i>.",
+        5:"Life experience up to now + <i>before</i>.",
+        6:"Reported speech: <i>has never had</i> → <i>had never had</i>.",
+        7:"Existence in the past: when I examined him.",
+        8:"Repeated existence up to now (<i>over the past week</i>), plural <i>moments</i>.",
+        9:"Question about existence, present.",
+        10:"Finished past: his father had the disease.",
+        11:"Hypothetical: there would be no cases if…",
+        12:"Planned, already arranged: <i>there's going to be</i>.",
+        13:"First conditional: present after <i>if</i>.",
+        14:"Future result; <i>he</i> is the subject.",
+        15:"Deduction: there must be.",
+        16:"Future; <i>you</i> is the subject.",
+        17:"Existence now, plural.",
+        18:"Existence in the past, plural.",
+        19:"Dynamic <i>have</i> (= eat) in progress in the past.",
+        20:"Future perfect: completed by the end of the rotation.",
+        21:"Finished past: I had a resident.",
+        22:"Third conditional: if he hadn't had…",
+        23:"Existence up to now, plural, question.",
+        24:"Past situation that has changed.",
+        25:"Experience up to now; <i>the residents</i> is the subject.",
+        26:"Never existed, up to today."
+      }}
+  ]
+},
+{
+  id:"phrasal-verbs",
+  title:"Phrasal Verbs — Particles",
+  area:"Geral", icon:"↕️", color:"#fdf0dc", level:"B1",
+  explanation:`
+    <h2>The particle keeps its idea</h2>
+    <p>The particle often keeps an idea of its direction, even when there is no real movement. If you know the idea, you can often guess the meaning of a new phrasal verb.</p>
+    <h3>Up · Down · Out · In · By</h3>
+    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
+      <tr><td>up</td><td>completely / more</td><td>eat up, clean up, speak up</td></tr>
+      <tr><td>down</td><td>less / slower / stop</td><td>slow down, calm down, cut down on</td></tr>
+      <tr><td>out</td><td>until nothing is left / discover</td><td>run out, sell out, find out</td></tr>
+      <tr><td>in</td><td>enter a group / take part</td><td>join in, fit in, check in</td></tr>
+      <tr><td>by</td><td>pass / visit quickly</td><td>stop by, go by, get by</td></tr></table>
+    <h3>On · Off</h3>
+    <p><b>On</b> means contact or connection: something is touching, attached, working. <b>Off</b> is the opposite: separation, disconnection, stopping.</p>
+    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
+      <tr><td>on</td><td>contact / connection</td><td>put on, try on, get on, turn on</td></tr>
+      <tr><td>on</td><td>continue</td><td>go on, carry on, keep on, hold on</td></tr>
+      <tr><td>off</td><td>separation / removal</td><td>take off, get off, turn off, drop off</td></tr>
+      <tr><td>off</td><td>stop / cancel / leave</td><td>call off, set off</td></tr></table>
+    <h3>Over · Away · Back · Around · Through · Along · Apart</h3>
+    <table><tr><th>Particle</th><th>Basic idea</th><th>Examples</th></tr>
+      <tr><td>over</td><td>from one side to the other / end of something</td><td>come over, hand over, get over, take over</td></tr>
+      <tr><td>away</td><td>distance / disappearing</td><td>go away, run away, throw away, give away</td></tr>
+      <tr><td>back</td><td>return to the start</td><td>come back, give back, call back, pay back</td></tr>
+      <tr><td>around</td><td>in a circle / with no fixed direction</td><td>turn around, look around, walk around</td></tr>
+      <tr><td>through</td><td>from beginning to end</td><td>go through, read through, get through</td></tr>
+      <tr><td>along</td><td>together / moving forward</td><td>get along, come along</td></tr>
+      <tr><td>apart</td><td>into pieces / separate</td><td>fall apart, take apart, tell apart</td></tr></table>`,
+  exercises:[
+    { id:"p1", title:"Up, down, in, out, by", type:"gap", layout:"list",
+      instructions:"Complete each sentence with up, down, in, out or by. Tap a blank to choose.",
+      lines:[
+        "It's cold outside. Come [[1]] and close the door.",
+        "Please sit [[2]]. The doctor will see you in a minute.",
+        "The elevator is broken, so we have to walk [[3]] to the 10th floor.",
+        "I was driving [[4]] your house this morning and saw your car.",
+        "Can you take the trash [[5]] before you go to bed?",
+        "Can you turn the music [[6]]? I'm trying to sleep.",
+        "Time goes [[7]] so fast when you're on vacation.",
+        "Please fill [[8]] this form with your name and address.",
+        "He picked [[9]] the phone and called his mother.",
+        "Let's eat [[10]] tonight. I don't want to cook."
+      ],
+      answers:{1:["in"],2:["down"],3:["up"],4:["by"],5:["out"],6:["down"],7:["by"],8:["in","out"],9:["up"],10:["out"]},
+      why:{1:"in = enter.",2:"down = to a lower position.",3:"up = to a higher place.",4:"by = pass without stopping.",5:"out = to the outside.",6:"down = less (lower volume).",7:"by = pass.",8:"<i>Fill in</i> and <i>fill out</i> mean the same: <i>out</i> is more common in American English, <i>in</i> in British English.",9:"up = lift to a higher position.",10:"out = outside the home (at a restaurant)."}},
+    { id:"p2", title:"What does the particle add?", type:"gap", layout:"list",
+      instructions:"Complete each sentence with the correct particle: up, down, in, out or by.",
+      lines:[
+        "Could you speak [[1]]? We can't hear you in the back.",
+        "You're driving too fast. Slow [[2]]!",
+        "The concert tickets sold [[3]] in two hours.",
+        "I'm new at the company, but I'm trying to fit [[4]].",
+        "Why don't you stop [[5]] my house after work?",
+        "Don't leave food on your plate. Eat it all [[6]].",
+        "I need to find [[7]] what time the train leaves.",
+        "Take a deep breath and calm [[8]].",
+        "The kids are playing a game. Do you want to join [[9]]?",
+        "Money is short this month, but we'll get [[10]]."
+      ],
+      answers:{1:["up"],2:["down"],3:["out"],4:["in"],5:["by"],6:["up"],7:["out"],8:["down"],9:["in"],10:["by"]},
+      why:{1:"up = more (louder).",2:"down = slower.",3:"out = until nothing is left.",4:"in = be part of a group.",5:"by = visit quickly.",6:"up = completely.",7:"out = discover.",8:"down = less (less agitated).",9:"in = take part.",10:"by = pass through a difficult time; manage."}},
+    { id:"p3", title:"On or off?", type:"gap", layout:"list",
+      instructions:"Complete each sentence with on or off.",
+      lines:[
+        "Please take [[1]] your shoes before you come in.",
+        "Can I try [[2]] these jeans?",
+        "We got [[3]] the train at the wrong station.",
+        "Hold [[4]] a second. I need to find my keys.",
+        "The plane took [[5]] two hours late.",
+        "Turn [[6]] the oven. The cake is ready.",
+        "Keep [[7]] walking. The hotel is just around the corner.",
+        "I'll drop you [[8]] at school on my way to work.",
+        "It's dark in here. Can you switch [[9]] the light?",
+        "The wedding was called [[10]] at the last minute."
+      ],
+      answers:{1:["off"],2:["on"],3:["off"],4:["on"],5:["off"],6:["off"],7:["on"],8:["off"],9:["on"],10:["off"]},
+      why:{1:"off = removal.",2:"on = contact (clothes on your body).",3:"off = leave a vehicle (separation).",4:"on = continue (wait).",5:"off = separation: the plane leaves the ground.",6:"off = disconnection.",7:"on = continue.",8:"off = leave someone at a place.",9:"on = connection.",10:"off = cancel."}},
+    { id:"p4", title:"Over, away, back, around, through, along, apart", type:"gap", layout:"list",
+      instructions:"Complete each sentence with over, away, back, around, through, along or apart.",
+      lines:[
+        "My old shoes are falling [[1]].",
+        "Can you give me [[2]] my pen? I need it.",
+        "Come [[3]] to my place for dinner tonight!",
+        "I need to go [[4]] my notes before the test.",
+        "Don't throw [[5]] that box. We can use it.",
+        "Do you get [[6]] well with your neighbors?",
+        "Turn [[7]]! You're going the wrong way.",
+        "I'm busy now. I'll call you [[8]] in ten minutes.",
+        "The twins are identical. I can't tell them [[9]].",
+        "It took her a long time to get [[10]] the breakup.",
+        "The cat ran [[11]] when it saw the dog.",
+        "It was a difficult year, but we got [[12]] it.",
+        "We have some free time. Let's walk [[13]] the city center.",
+        "We're going to the beach. Do you want to come [[14]]?"
+      ],
+      answers:{1:["apart"],2:["back"],3:["over"],4:["through"],5:["away"],6:["along"],7:["around"],8:["back"],9:["apart"],10:["over"],11:["away"],12:["through"],13:["around"],14:["along"]},
+      why:{1:"apart = into pieces.",2:"back = return.",3:"over = from one place to another (a visit).",4:"through = from beginning to end.",5:"away = disappear (discard).",6:"along = together.",7:"around = in a circle (the other way).",8:"back = return (the call).",9:"apart = separate (distinguish).",10:"over = the end of something (recover).",11:"away = distance.",12:"through = from beginning to end (survive it).",13:"around = with no fixed direction.",14:"along = together."}}
+  ]
+}
+];
+
+/* ============================================================
+   SESSÃO POR CÓDIGO (Supabase; cópia de segurança neste navegador)
+   ============================================================ */
+const WORDS = "able acid actor agent album angle apple arena arrow atom autumn baby badge baker bamboo banana basket beach bean bell bird blanket boat bonus book bottle brain bread brick bridge brush bubble cable cactus camera candle canoe canvas carbon carpet castle cattle cereal chair cheese cherry circle citizen clock cloud coffee comet copper corn cotton crane crystal desert diamond dolphin donkey dragon drum eagle earth echo engine falcon feather fiber field flute forest fossil fruit galaxy garden giant ginger glass globe grape guitar hammer harbor helmet honey horse island ivory jacket jungle kettle ladder lemon library lion lizard magnet mango marble meadow melon mirror monkey motor needle ocean olive orange orbit oyster panda paper parrot peanut pepper piano pillow planet pocket potato pumpkin puzzle rabbit radio rocket saddle salmon silver spider spoon sugar summer tiger tomato tunnel turtle valley violin wagon walnut whale window winter wizard yogurt zebra".split(" ");
+const STORE_KEY = "englishPractice.sessions.v1";
+const LAST_KEY = "englishPractice.lastCode.v1";
+let memStore = {};
+function loadAll(){ try{ return JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); }catch(e){ return memStore; } }
+function saveAll(all){ memStore = all; try{ localStorage.setItem(STORE_KEY, JSON.stringify(all)); }catch(e){} }
+function getLast(){ try{ return localStorage.getItem(LAST_KEY); }catch(e){ return null; } }
+function setLast(c){ try{ c ? localStorage.setItem(LAST_KEY,c) : localStorage.removeItem(LAST_KEY); }catch(e){} }
+function normCode(s){ return (s||"").toLowerCase().replace(/[^a-z\s-]/g," ").split(/[\s-]+/).filter(Boolean).join(" "); }
+const SB_URL = "https://xmvjxzqpwnwxjouxaoar.supabase.co";
+const SB_KEY = "sb_publishable_FKNyXJrsHPjt0dHnn_rsBQ_HVb2ipA_";
+async function rpc(fn, args){
+  const r = await fetch(`${SB_URL}/rest/v1/rpc/${fn}`, {method:"POST", headers:{"apikey":SB_KEY,"Content-Type":"application/json"}, body:JSON.stringify(args)});
+  if(!r.ok) throw new Error("HTTP "+r.status);
+  const t = await r.text(); return t ? JSON.parse(t) : null;
+}
+async function hashCode(c){
+  const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("english-practice:"+c));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+}
+async function newCode(){
+  const rnd = n => { const a = new Uint32Array(1); crypto.getRandomValues(a); return a[0] % n; };
+  for(let i=0;i<5;i++){
+    const c = [0,1,2,3].map(()=>WORDS[rnd(WORDS.length)]).join(" ");
+    if(await rpc("create_session", {p_hash: await hashCode(c)})) return c;
+  }
+  throw new Error("não foi possível gerar um código");
+}
+
+const S = { code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false };
+let saveTimer=null, warned=false;
+function persist(){
+  if(!S.code) return;
+  const all = loadAll(); all[S.code] = S.data; saveAll(all);
+  S.dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(pushRemote, 700);
+}
+async function pushRemote(){
+  if(!S.hash || !S.dirty) return;
+  try{ await rpc("save_session", {p_hash:S.hash, p_data:S.data}); S.dirty=false; warned=false; }
+  catch(e){ if(!warned){ toast("Sem conexão: progresso salvo neste aparelho. Envio quando a internet voltar."); warned=true; } }
+}
+window.addEventListener("online", pushRemote);
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="hidden") pushRemote(); });
+function prog(lid, eid){
+  S.data.progress[lid] = S.data.progress[lid] || {};
+  return S.data.progress[lid][eid] = S.data.progress[lid][eid] || {answers:{}, checked:false};
+}
+
+/* ============================================================
+   UTILIDADES
+   ============================================================ */
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => String(s||"").toLowerCase().replace(/[’‘]/g,"'").replace(/\s+/g," ").trim();
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"),1800); }
+function copyCode(){
+  navigator.clipboard.writeText(S.code).then(()=>toast("Código copiado"),()=>toast("Não deu para copiar — anote o código"));
+}
+function exDone(lesson, ex){
+  const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
+  if(ex.type==="mc") return Object.keys(p.answers).length === ex.items.length;
+  return p.checked;
+}
+function exScore(ex, p){
+  if(ex.type==="mc"){ let c=0; ex.items.forEach((it,i)=>{ if(p.answers[i]===it.a) c++; }); return [c, ex.items.length]; }
+  const keys = Object.keys(ex.answers); let c=0;
+  keys.forEach(k=>{ if(ex.answers[k].map(norm).includes(norm(p.answers[k]))) c++; });
+  return [c, keys.length];
+}
+
+/* ============================================================
+   TELAS
+   ============================================================ */
+function route(){
+  closeSheet();
+  if(!S.code){ renderGate(); return; }
+  const h = location.hash.replace("#","");
+  const l = LESSONS.find(x=>x.id===h);
+  if(l){ if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; } renderLesson(); }
+  else { S.lesson=null; renderLibrary(); }
+  window.scrollTo(0,0);
+}
+function setHeader(){
+  const p = $("#codepill");
+  if(S.code){ p.hidden=false; p.textContent="🔑 "+S.code; } else p.hidden=true;
+}
+
+function renderGate(msg){
+  setHeader();
+  app.innerHTML = `
+  <div class="card" style="max-width:520px;margin:24px auto">
+    <h1>Pratique inglês com o seu código</h1>
+    <p class="muted">Sem login e sem senha. Seu código guarda o seu progresso.</p>
+    <h3>Já tem um código?</h3>
+    <input class="code" id="codeIn" placeholder="ex.: piano tiger orbit honey" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <div class="err" id="err">${msg||""}</div>
+    <div class="row"><button class="btn" id="enter">Entrar</button></div>
+    <h3 style="margin-top:26px">Primeira vez?</h3>
+    <button class="btn ghost" id="new">Gerar meu código</button>
+    <p class="small muted" style="margin-top:22px">O mesmo código funciona em qualquer aparelho.</p>
+  </div>`;
+  const busy = (on, label) => { ["#enter","#new"].forEach(id=>$(id).disabled=on); if(label) $("#err").textContent=label; };
+  const go = async () => {
+    const c = normCode($("#codeIn").value);
+    if(c.split(" ").length!==4){ $("#err").textContent="O código tem 4 palavras."; return; }
+    busy(true, "Entrando…");
+    const msg = await login(c);
+    if(msg){ busy(false); $("#err").textContent = msg; }
+  };
+  $("#enter").onclick = go;
+  $("#codeIn").onkeydown = e => { if(e.key==="Enter") go(); };
+  $("#new").onclick = async () => {
+    busy(true, "Gerando…");
+    try{ const c = await newCode(); await login(c, true); }
+    catch(e){ busy(false); $("#err").textContent="Sem conexão com o servidor. Tente de novo em instantes."; }
+  };
+}
+
+/* Devolve uma mensagem de erro, ou nada se entrou. */
+async function login(c, isNew){
+  const hash = await hashCode(c);
+  let data;
+  if(isNew){ data = {progress:{}}; }
+  else {
+    try{
+      data = await rpc("get_session", {p_hash:hash});
+      if(data===null) return "Código não encontrado. Confira as 4 palavras.";
+    }catch(e){
+      const cached = loadAll()[c];
+      if(!cached) return "Sem conexão com o servidor. Tente de novo em instantes.";
+      data = cached; toast("Sem conexão: usando o progresso salvo neste aparelho.");
+    }
+  }
+  if(!data.progress) data.progress = {};
+  S.code=c; S.hash=hash; S.data=data; setLast(c);
+  const all=loadAll(); all[c]=data; saveAll(all);
+  if(isNew) renderNewCode(); else route();
+}
+
+function renderNewCode(){
+  setHeader();
+  app.innerHTML = `
+  <div class="card" style="max-width:520px;margin:24px auto">
+    <h1>Este é o seu código</h1>
+    <p class="muted">Anote em algum lugar seguro. É com ele que você volta ao seu progresso. Quem tiver o código vê a sua sessão.</p>
+    <div class="bigcode">${esc(S.code)}</div>
+    <div class="row" style="margin-top:16px">
+      <button class="btn plain" id="cp">Copiar código</button>
+      <button class="btn" id="go">Anotei, continuar</button>
+    </div>
+  </div>`;
+  $("#cp").onclick = copyCode;
+  $("#go").onclick = () => { location.hash=""; route(); };
+}
+
+function renderLibrary(){
+  setHeader();
+  const cards = LESSONS.map(l=>{
+    const done = l.exercises.filter(e=>exDone(l,e)).length;
+    return `<button class="lcard" data-id="${l.id}">
+      <div class="art" style="background:${l.color}">${l.icon}</div>
+      <div class="body">
+        <div class="t">${esc(l.title)}</div>
+        <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>
+        <div class="bar"><i style="width:${Math.round(100*done/l.exercises.length)}%"></i></div>
+        <div class="small muted" style="margin-top:6px">${done} de ${l.exercises.length} exercícios feitos</div>
+      </div></button>`;
+  }).join("");
+  app.innerHTML = `<h1>Lições</h1><p class="muted">Gramática praticada com o vocabulário da sua área.</p><div class="grid">${cards}</div>`;
+  app.querySelectorAll(".lcard").forEach(b=> b.onclick = () => { location.hash = b.dataset.id; });
+}
+
+function renderLesson(){
+  setHeader();
+  const l = S.lesson, ex = l.exercises[S.ex];
+  const pager = l.exercises.length>1 ? `<div class="pager"><span class="small muted">Exercícios:</span>${
+    l.exercises.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(e.title)}">${i+1}</button>`).join("")}</div>` : "";
+  let body;
+  if(S.tab==="expl"){ body = `<div class="expl">${l.explanation}</div>`; }
+  else {
+    body = `${pager}<h2 style="margin-top:6px">${esc(ex.title)}</h2>
+      <div class="instr">${esc(ex.instructions)}</div>
+      <div id="exBody"></div>
+      ${l.exercises.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
+  }
+  app.innerHTML = `
+    <div class="crumb"><a id="back">Lições</a> › ${esc(l.title)}</div>
+    <h1>${l.icon} ${esc(l.title)}</h1>
+    <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>
+    <div class="tabs"><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">Exercícios</button><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">Explicação</button></div>
+    <div class="card panel">${body}</div>`;
+  $("#back").onclick = () => { location.hash=""; };
+  app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
+  app.querySelectorAll(".pg").forEach(b=> b.onclick=()=>{ S.ex=+b.dataset.i; closeSheet(); renderLesson(); window.scrollTo(0,0); });
+  if(S.tab==="ex"){ ex.type==="mc" ? renderMC(l,ex) : renderGap(l,ex); }
+}
+
+/* ---------- Múltipla escolha por item ---------- */
+function renderMC(l, ex){
+  const p = prog(l.id, ex.id);
+  const box = $("#exBody");
+  box.innerHTML = ex.items.map((it,i)=>{
+    const ans = p.answers[i]; const answered = ans!==undefined;
+    const q = esc(it.q).replace("___",'<b style="letter-spacing:2px">_____</b>');
+    const opts = it.o.map((o,j)=>{
+      let cls="opt"; if(answered){ if(j===it.a) cls+=" right"; else if(j===ans) cls+=" wrong"; }
+      return `<button class="${cls}" data-q="${i}" data-o="${j}" ${answered?"disabled":""}>${String.fromCharCode(97+j)}) ${esc(o)}</button>`;
+    }).join("");
+    const why = answered ? `<div class="why ${ans===it.a?"ok":"no"}"><b>${ans===it.a?"Correto.":"Não é essa."}</b> ${it.why}</div>` : "";
+    return `<div class="q"><div><span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
+  }).join("") + mcSummary(ex,p);
+  box.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
+    const i=+b.dataset.q; if(p.answers[i]!==undefined) return;
+    p.answers[i]=+b.dataset.o; persist();
+    const y = window.scrollY; renderLesson(); window.scrollTo(0,y);
+  });
+  const r = $("#redo"); if(r) r.onclick=()=>{ p.answers={}; persist(); renderLesson(); window.scrollTo(0,0); };
+}
+function mcSummary(ex,p){
+  const n = Object.keys(p.answers).length;
+  if(n<ex.items.length) return `<p class="small muted center">${n} de ${ex.items.length} respondidas</p>`;
+  const [c,t]=exScore(ex,p);
+  return `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":c>=t*0.7?"Bom resultado. Revise os itens marcados em vermelho.":"Vale revisar a aba Explicação e tentar de novo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
+}
+
+/* ---------- Preencher texto/diálogo com banco de opções ---------- */
+function bankOf(ex){
+  if(ex._bank) return ex._bank;
+  const set = new Set(); Object.values(ex.answers).forEach(a=>set.add(a[0]));
+  if(ex.layout==="dialogue"){ ex._bank = [...set].sort((a,b)=>a.localeCompare(b)); }
+  else { const order=["up","down","in","out","by","on","off","over","away","back","around","through","along","apart"]; ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); }
+  return ex._bank;
+}
+function capIfStart(before, val){
+  const t = before.replace(/<[^>]*>/g,"").trim();
+  if(t==="" || /[.?!]$/.test(t)) return val.charAt(0).toUpperCase()+val.slice(1);
+  return val;
+}
+function renderGap(l, ex){
+  const p = prog(l.id, ex.id);
+  const box = $("#exBody");
+  const blankHTML = (n, before) => {
+    const v = p.answers[n]; const accepted = ex.answers[n];
+    let cls="blank", inner;
+    if(p.checked){
+      const ok = accepted.map(norm).includes(norm(v));
+      cls += ok ? " ok":" no";
+      inner = ok ? `<span class="v">${esc(capIfStart(before, v))}</span>`
+                 : `${v?`<span class="v">${esc(capIfStart(before,v))}</span>`:""}<span class="fix">${esc(capIfStart(before, accepted[0]))}</span>`;
+    } else {
+      if(S.activeBlank===n) cls+=" active";
+      inner = `<span class="v">${v?esc(capIfStart(before,v)):"&nbsp;"}</span>`;
+    }
+    return `<button class="${cls}" data-n="${n}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>`;
+  };
+  const fill = text => {
+    const parts = text.split(/\[\[(\d+)\]\]/); let out="", before="";
+    parts.forEach((seg,i)=>{ if(i%2===0){ out+=esc(seg); before+=seg; } else { out+=blankHTML(+seg, before); before+="x"; } });
+    return out;
+  };
+  let html = ex.scene ? `<div class="scene">${esc(ex.scene)}</div>` : "";
+  if(ex.layout==="dialogue"){
+    html += `<div class="lines">${ex.lines.map(([sp,t])=>`<p><span class="sp">${esc(sp)}:</span> ${fill(t)}</p>`).join("")}</div>`;
+  } else {
+    html += `<div class="lines list">${ex.lines.map((t,i)=>`<p><span class="num">${i+1}.</span><span>${fill(t)}</span></p>`).join("")}</div>`;
+  }
+  const total = Object.keys(ex.answers).length, filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
+  if(!p.checked){
+    html += `<div class="center"><p class="small muted">${filled} de ${total} preenchidas</p><button class="btn" id="check" ${filled===0?"disabled":""}>Corrigir respostas</button></div>`;
+  } else {
+    const [c,t] = exScore(ex,p);
+    html += `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":"Veja a correção abaixo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
+    html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
+      const acc=ex.answers[k], v=p.answers[k], ok=acc.map(norm).includes(norm(v));
+      const alt = acc.length>1 ? ` <span class="muted small">(also: ${esc(acc.slice(1).join(" / "))})</span>` : "";
+      return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span>${ok?"":`<s class="muted">${esc(v||"—")}</s> → `}<b>${esc(acc[0])}</b>${alt} — ${ex.why[k]||""}</div>`;
+    }).join("")}</div>`;
+  }
+  box.innerHTML = html;
+  box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
+  const ck=$("#check"); if(ck) ck.onclick=()=>{
+    if(filled<total){ toast(`Faltam ${total-filled} lacunas — corrigindo assim mesmo`); }
+    p.checked=true; persist(); closeSheet(); renderLesson();
+    const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
+  };
+  const r=$("#redo"); if(r) r.onclick=()=>{ p.answers={}; p.checked=false; persist(); renderLesson(); window.scrollTo(0,0); };
+}
+
+/* ---------- Painel de opções ---------- */
+let sheetCtx=null;
+function openSheet(l, ex, n){
+  sheetCtx={l,ex}; S.activeBlank=n;
+  const p = prog(l.id, ex.id);
+  $("#sheetTitle").textContent = `Lacuna ${n}`;
+  $("#chips").innerHTML = bankOf(ex).map(o=>`<button class="chip ${norm(p.answers[n])===norm(o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
+  $("#chips").querySelectorAll(".chip").forEach(c=> c.onclick=()=> pick(c.dataset.v));
+  $("#sheet").classList.add("open");
+  refreshGap();
+}
+function pick(v){
+  const {l,ex}=sheetCtx; const p=prog(l.id,ex.id);
+  p.answers[S.activeBlank]=v; persist();
+  const keys=Object.keys(ex.answers).map(Number);
+  const next = keys.find(k=>k>S.activeBlank && !p.answers[k]) ?? keys.find(k=>!p.answers[k]);
+  if(next!==undefined){ openSheet(l,ex,next); scrollToBlank(next); } else { closeSheet(); refreshGap(); }
+}
+function scrollToBlank(n){
+  const b=document.querySelector(`.blank[data-n="${n}"]`); if(!b) return;
+  const r=b.getBoundingClientRect(), sh=$("#sheet").getBoundingClientRect().height;
+  if(r.bottom > window.innerHeight - sh - 20 || r.top < 70) window.scrollBy({top: r.top - 140, behavior:"smooth"});
+}
+function refreshGap(){ const y=window.scrollY; if(S.lesson && S.tab==="ex"){ renderLesson(); window.scrollTo(0,y); } }
+function closeSheet(){ $("#sheet").classList.remove("open"); S.activeBlank=null; }
+$("#sheetClose").onclick=()=>{ closeSheet(); refreshGap(); };
+$("#sheetClear").onclick=()=>{ if(!sheetCtx) return; const p=prog(sheetCtx.l.id,sheetCtx.ex.id); delete p.answers[S.activeBlank]; persist(); openSheet(sheetCtx.l,sheetCtx.ex,S.activeBlank); };
+
+/* ---------- Cabeçalho ---------- */
+$("#brand").onclick=()=>{ if(S.code){ if(location.hash.length>1) location.hash=""; else route(); } };
+$("#codepill").onclick=()=>{
+  closeSheet();
+  app.innerHTML = `<div class="card" style="max-width:520px;margin:24px auto">
+    <h2>Seu código</h2><div class="bigcode">${esc(S.code)}</div>
+    <div class="row" style="margin-top:16px"><button class="btn plain" id="cp">Copiar</button><button class="btn ghost" id="out">Sair</button><span class="spacer"></span><button class="btn" id="bk">Voltar</button></div>
+    <p class="small muted" style="margin-top:14px">Ao sair, o progresso continua guardado com este código.</p></div>`;
+  $("#cp").onclick=copyCode;
+  $("#out").onclick=async()=>{ await pushRemote(); S.code=null; S.hash=null; S.data=null; setLast(null); if(location.hash.length>1) location.hash=""; else route(); };
+  $("#bk").onclick=route;
+};
+
+window.addEventListener("hashchange", route);
+(async function init(){
+  const last=getLast();
+  if(last){
+    app.innerHTML = `<p class="muted center">Carregando…</p>`;
+    const msg = await login(last);
+    if(msg){ setLast(null); renderGate(); }
+  } else route();
+})();
+</script>
+</body>
+</html>
