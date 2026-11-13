@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>English Practice — protótipo</title>
+<title>English Practice</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -114,6 +114,10 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .expl th,.expl td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 .expl th{background:#f3f2ed}
 .expl ul{padding-left:20px}
+.resetbar{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:8px;align-items:center;margin:-6px 0 14px;font-size:14.5px;min-height:8px}
+.linkbtn{border:0;background:none;color:var(--bad);font-weight:700;padding:6px 2px}
+.btn.sm{padding:8px 14px;font-size:14.5px}
+.btn.danger{background:var(--bad)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
 .toast.on{opacity:1}
 </style>
@@ -545,6 +549,7 @@ function renderLesson(){
   else {
     body = `${pager}<h2 style="margin-top:6px">${esc(ex.title)}</h2>
       <div class="instr">${esc(ex.instructions)}</div>
+      <div class="resetbar" id="resetbar"></div>
       <div id="exBody"></div>
       ${l.exercises.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
   }
@@ -579,7 +584,7 @@ function renderMC(l, ex){
     p.answers[i]=+b.dataset.o; persist();
     const y = window.scrollY; renderLesson(); window.scrollTo(0,y);
   });
-  const r = $("#redo"); if(r) r.onclick=()=>{ p.answers={}; persist(); renderLesson(); window.scrollTo(0,0); };
+  wireReset(p);
 }
 function mcSummary(ex,p){
   const n = Object.keys(p.answers).length;
@@ -648,7 +653,24 @@ function renderGap(l, ex){
     p.checked=true; persist(); closeSheet(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
-  const r=$("#redo"); if(r) r.onclick=()=>{ p.answers={}; p.checked=false; persist(); renderLesson(); window.scrollTo(0,0); };
+  wireReset(p);
+}
+
+/* ---------- Apagar progresso do exercício ---------- */
+function wireReset(p){
+  const doReset = () => { p.answers={}; p.checked=false; persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
+  const r = $("#redo"); if(r) r.onclick = doReset;
+  const bar = $("#resetbar"); if(!bar) return;
+  const has = p.checked || Object.keys(p.answers).length>0;
+  if(!has){ bar.innerHTML=""; return; }
+  const idle = () => {
+    bar.innerHTML = `<button class="linkbtn" id="rsAsk">↺ Apagar respostas e recomeçar</button>`;
+    $("#rsAsk").onclick = () => {
+      bar.innerHTML = `<span>Apagar todas as suas respostas deste exercício?</span><button class="btn plain sm" id="rsNo">Cancelar</button><button class="btn danger sm" id="rsYes">Apagar</button>`;
+      $("#rsNo").onclick = idle; $("#rsYes").onclick = doReset;
+    };
+  };
+  idle();
 }
 
 /* ---------- Painel de opções ---------- */
