@@ -94,8 +94,10 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .blank .fix{color:var(--ok);font-weight:700}
 .blank:disabled{cursor:default}
 .center{text-align:center;margin-top:22px}
-.score{display:flex;align-items:center;gap:14px;background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin-top:20px}
+.score{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin-top:20px}
 .score b{font-size:26px;color:var(--accent)}
+.score .msg{flex:1 1 170px}
+.score .btn{margin-left:auto}
 .corr{margin-top:16px;font-size:15px}
 .corr div{padding:8px 0;border-top:1px solid var(--line)}
 .corr .k{font-weight:800;margin-right:6px}
@@ -130,6 +132,7 @@ h2.area{margin:28px 0 12px}
 .langsw button.on{background:var(--accent);color:#fff}
 @media (max-width:520px){.expl table{font-size:14px}.expl th,.expl td{padding:6px 7px}}
 @media (max-width:380px){.expl table{font-size:13px}.expl th,.expl td{padding:5px 5px}}
+@media (max-width:520px){.tabs{gap:4px}.tab{padding:9px 11px;font-size:15px}}
 </style>
 </head>
 <body>
@@ -208,7 +211,7 @@ function persist(){
 async function pushRemote(){
   if(!S.hash || !S.dirty) return;
   try{ await rpc("save_session", {p_hash:S.hash, p_data:S.data}); S.dirty=false; warned=false; }
-  catch(e){ if(!warned){ toast("Sem conexão: progresso salvo neste aparelho. Envio quando a internet voltar."); warned=true; } }
+  catch(e){ if(!warned){ toast("Sem conexão. O progresso foi salvo neste aparelho e será enviado quando a internet voltar."); warned=true; } }
 }
 window.addEventListener("online", pushRemote);
 document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="hidden") pushRemote(); });
@@ -232,9 +235,9 @@ const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
 const tx = v => v==null ? "" : (typeof v==="string" ? v : (v[S.lang]||v.en||v.pt||""));
 const isBi = v => v && typeof v==="object" && (v.pt||v.en);
 function lessonLang(l){ return (S.data.prefs&&S.data.prefs.lang) || (/^A[12]/.test(l.level)?"pt":"en"); }
-function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"),1800); }
+function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"),3200); }
 function copyCode(){
-  navigator.clipboard.writeText(S.code).then(()=>toast("Código copiado"),()=>toast("Não deu para copiar — anote o código"));
+  navigator.clipboard.writeText(S.code).then(()=>toast("Código copiado."),()=>toast("Não foi possível copiar. Anote o código."));
 }
 function exDone(lesson, ex){
   const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
@@ -262,7 +265,7 @@ function route(){
   setHeader();
   app.innerHTML = `<p class="muted center">Carregando a lição…</p>`;
   loadLesson(meta).then(show).catch(()=>{
-    app.innerHTML = `<div class="card center" style="max-width:520px;margin:24px auto"><p>Não foi possível carregar a lição. Verifique a internet.</p><div class="row" style="justify-content:center"><button class="btn" id="retry">Tentar de novo</button><button class="btn plain" id="bk2">Voltar</button></div></div>`;
+    app.innerHTML = `<div class="card center" style="max-width:520px;margin:24px auto"><p>Não foi possível carregar a lição. Verifique a conexão com a internet.</p><div class="row" style="justify-content:center"><button class="btn" id="retry">Tentar novamente</button><button class="btn plain" id="bk2">Voltar</button></div></div>`;
     $("#retry").onclick = route; $("#bk2").onclick = () => { location.hash=""; };
   });
 }
@@ -298,7 +301,7 @@ function renderGate(msg){
   $("#new").onclick = async () => {
     busy(true, "Gerando…");
     try{ const c = await newCode(); await login(c, true); }
-    catch(e){ busy(false); $("#err").textContent="Sem conexão com o servidor. Tente de novo em instantes."; }
+    catch(e){ busy(false); $("#err").textContent="Sem conexão com o servidor. Tente novamente em instantes."; }
   };
 }
 
@@ -313,8 +316,8 @@ async function login(c, isNew){
       if(data===null) return "Código não encontrado. Confira as 4 palavras.";
     }catch(e){
       const cached = loadAll()[c];
-      if(!cached) return "Sem conexão com o servidor. Tente de novo em instantes.";
-      data = cached; toast("Sem conexão: usando o progresso salvo neste aparelho.");
+      if(!cached) return "Sem conexão com o servidor. Tente novamente em instantes.";
+      data = cached; toast("Sem conexão. Usando o progresso salvo neste aparelho.");
     }
   }
   if(!data.progress) data.progress = {};
@@ -380,7 +383,7 @@ function renderLesson(){
     <div class="crumb"><a id="back">Lições</a> › ${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
     <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>${bi?`<div class="langsw" title="Idioma das explicações"><button data-l="en" class="${S.lang==="en"?"on":""}">EN</button><button data-l="pt" class="${S.lang==="pt"?"on":""}">PT</button></div>`:""}</div>
-    <div class="tabs"><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">Exercícios</button><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">Explicação</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">Vocabulário</button>`:""}</div>
+    <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">Explicação</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">Prática</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">Vocabulário</button>`:""}</div>
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { location.hash=""; };
   app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
@@ -432,11 +435,15 @@ function renderMC(l, ex){
   });
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     const left = ex.items.length-Object.keys(p.answers).length;
-    if(left>0) toast(`Faltam ${left} itens — corrigindo assim mesmo`);
+    if(left>0) toast(`${left===1?"Há 1 item sem resposta; ele conta como erro.":`Há ${left} itens sem resposta; eles contam como erros.`}`);
     p.checked=true; persist(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
   wireReset(p);
+}
+function scoreBox(c,t){
+  const msg = c===t ? "Perfeito." : c>=t*0.7 ? "Bom resultado. Revise os itens marcados em vermelho." : "Revisite a explicação e tente novamente.";
+  return `<div class="score"><b>${c}/${t}</b><span class="msg">${msg}</span><button class="btn plain" id="redo">Refazer</button></div>`;
 }
 function mcSummary(ex,p){
   const n = Object.keys(p.answers).length, total = ex.items.length;
@@ -444,7 +451,7 @@ function mcSummary(ex,p){
     return `<div class="center"><p class="small muted">${n} de ${total} respondidas</p><button class="btn" id="check" ${n===0?"disabled":""}>Corrigir respostas</button></div>`;
   if(ex.reveal!=="end" && n<total) return `<p class="small muted center">${n} de ${total} respondidas</p>`;
   const [c,t]=exScore(ex,p);
-  return `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":c>=t*0.7?"Bom resultado. Revise os itens marcados em vermelho.":"Vale revisar a aba Explicação e tentar de novo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
+  return scoreBox(c,t);
 }
 
 /* ---------- Preencher texto/diálogo com banco de opções ---------- */
@@ -506,7 +513,7 @@ function renderGap(l, ex){
     html += `<div class="center"><p class="small muted">${filled} de ${total} preenchidas</p><button class="btn" id="check" ${filled===0?"disabled":""}>Corrigir respostas</button></div>`;
   } else {
     const [c,t] = exScore(ex,p);
-    html += `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":"Veja a correção abaixo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
+    html += scoreBox(c,t);
     html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
       const acc=ex.answers[k], v=p.answers[k], ok=accepts(ex, acc, v);
       const alt = acc.length>1 ? ` <span class="muted small">(also: ${esc(acc.slice(1).join(" / "))})</span>` : "";
@@ -516,7 +523,7 @@ function renderGap(l, ex){
   box.innerHTML = html;
   box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
   const ck=$("#check"); if(ck) ck.onclick=()=>{
-    if(filled<total){ toast(`Faltam ${total-filled} lacunas — corrigindo assim mesmo`); }
+    if(filled<total){ toast(`${total-filled===1?"Há 1 lacuna sem resposta; ela conta como erro.":`Há ${total-filled} lacunas sem resposta; elas contam como erros.`}`); }
     p.checked=true; persist(); closeSheet(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
@@ -525,7 +532,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
+  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas."); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
