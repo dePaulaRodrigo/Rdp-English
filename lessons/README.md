@@ -18,6 +18,13 @@ gera `lessons/catalog.js`, que é o índice usado na tela inicial. Sem esse pass
 - `vocab` (opcional): HTML da aba Vocabulário
 - `exercises`: lista de exercícios
 
+## Idiomas
+- Conteúdo: hoje em português (`pt`) e inglês (`en`), ambos obrigatórios. O site já aceita `es`, `it` e `fr` no mesmo
+  objeto (`{pt, en, es}`); o seletor mostra todos os idiomas presentes na explicação da lição.
+- Padrão no A1–A2: o idioma nativo do aluno (`prefs.native`, hoje sempre `pt`); do B1 em diante, inglês.
+- Interface (botões, avisos): tabela `UI` no `index.html`. Para um idioma novo, copie o bloco `pt`, traduza e acrescente o código em `UI_LANGS`.
+- Um idioma novo não é tradução direta: as explicações e alertas precisam ser adaptados aos erros típicos de quem fala aquela língua.
+
 ## Textos bilíngues
 `explanation`, `vocab`, `instructions`, `scene`, `title` e cada `why` aceitam texto simples ou `{pt:"...", en:"..."}`.
 Se a explicação for bilíngue, aparece o botão EN | PT. Idioma padrão: português no A1–A2, inglês do B1 em diante;
