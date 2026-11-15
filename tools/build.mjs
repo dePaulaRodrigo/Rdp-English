@@ -5,7 +5,15 @@ import path from "node:path";
 import vm from "node:vm";
 import crypto from "node:crypto";
 
-const DIR = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "lessons");
+const ROOT = path.join(path.dirname(new URL(import.meta.url).pathname), "..");
+const DIR = path.join(ROOT, "lessons");
+const AUDIO = path.join(ROOT, "audio");
+// Áudios: audio/<id-da-lição>/<id-do-exercício>-<n>.mp3 (n = número do item ou da fala, a partir de 1).
+const audioOf = (lid, eid) => {
+  const d = path.join(AUDIO, lid); if (!fs.existsSync(d)) return [];
+  return fs.readdirSync(d).map(f => f.match(new RegExp("^" + eid + "-(\\d+)\\.mp3$"))).filter(Boolean).map(m => +m[1]).sort((a, b) => a - b);
+};
+const script = [];   // roteiro de gravação (audio/_roteiro.md)
 const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalog.js" && !f.startsWith("_")).sort();
 const PARTS = JSON.parse(fs.readFileSync(path.join(DIR, "_parts.json"), "utf8"));
 const errors = [];
@@ -36,6 +44,7 @@ for (const f of files) {
     if (!ex.id) err(where, "falta id"); else if (exIds.has(ex.id)) err(where, "id de exercício repetido"); exIds.add(ex.id);
     if (ex.type === "mc") {
       (ex.items || []).forEach((it, i) => {
+        if (ex.listen && !it.say) err(where, `item ${i + 1}: exercício de áudio sem o texto falado (say)`);
         if (!it.q || !it.q.includes("___")) err(where, `item ${i + 1}: falta ___ na frase`);
         if (!Array.isArray(it.o) || it.o.length < 2) err(where, `item ${i + 1}: poucas opções`);
         else if (!(it.a >= 0 && it.a < it.o.length)) err(where, `item ${i + 1}: resposta "a" fora das opções`);
@@ -63,12 +72,23 @@ for (const f of files) {
       if (ex.bank) keys.forEach(k => { if (!ex.bank.includes(ex.answers[k][0])) err(where, `resposta da lacuna ${k} não está no bank`); });
     } else err(where, `tipo desconhecido "${ex.type}"`);
     if (!textOk(ex.instructions)) err(where, "falta instructions ou falta pt/en");
+    // Roteiro: falas dos diálogos (com as respostas) e frases dos exercícios de áudio.
+    const have = audioOf(L.id, ex.id);
+    let rows = [];
+    if (ex.type === "gap" && ex.layout === "dialogue")
+      rows = ex.lines.map(([sp, line], i) => [i + 1, sp, line.replace(/\[\[(\d+)\]\]/g, (_, n) => ex.answers[n][0])]);
+    else if (ex.listen) rows = ex.items.map((it, i) => [i + 1, "", it.say]);
+    if (rows.length) script.push({ lesson: L.id, ex: ex.id, rows, have });
+    ex._au = have;
+    ex._ready = !ex.listen || (ex.items || []).every((_, i) => have.includes(i + 1));
   });
   catalog.push({
     id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,
     part: L.part, order: L.order, tags: L.tags || [],
     v: crypto.createHash("sha1").update(src).digest("hex").slice(0, 8),
-    exercises: L.exercises.map(e => ({ id: e.id, type: e.type, ...(e.reveal ? { reveal: e.reveal } : {}), n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length }))
+    // Exercícios de áudio (listen) só entram no catálogo quando todos os áudios existem.
+    exercises: L.exercises.filter(e => e._ready).map(e => ({ id: e.id, type: e.type, ...(e.reveal ? { reveal: e.reveal } : {}), ...(e.listen ? { listen: true } : {}),
+      n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length, ...(e._au.length ? { au: e._au } : {}) }))
   });
 }
 
@@ -76,4 +96,11 @@ if (errors.length) { console.error("ERROS:\n- " + errors.join("\n- ")); process.
 catalog.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 fs.writeFileSync(path.join(DIR, "catalog.js"),
   "// Gerado por tools/build.mjs — não editar à mão.\nconst PARTS = " + JSON.stringify(PARTS) + ";\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
+let md = "# Roteiro de áudios\n\nGerado por tools/build.mjs — não editar à mão.\n\nSalve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.mjs`. Os botões de áudio aparecem sozinhos.\n";
+for (const g of script) {
+  md += `\n## ${g.lesson} › ${g.ex}  (${g.rows.filter(r => g.have.includes(r[0])).length}/${g.rows.length})\n\n| Arquivo | Voz | Texto | Feito |\n| --- | --- | --- | --- |\n`;
+  for (const [n, sp, text] of g.rows) md += `| ${g.ex}-${n}.mp3 | ${sp} | ${text.replace(/\|/g, "\\|")} | ${g.have.includes(n) ? "✓" : ""} |\n`;
+}
+fs.mkdirSync(AUDIO, { recursive: true });
+fs.writeFileSync(path.join(AUDIO, "_roteiro.md"), md);
 console.log(`OK: ${catalog.length} lições, ${catalog.reduce((s, l) => s + l.exercises.length, 0)} exercícios.`);

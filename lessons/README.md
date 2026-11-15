@@ -56,3 +56,12 @@ Só a regra, curta. Não repetir a resposta certa (ela já aparece na correção
 ## Progresso guardado por exercício
 `answers`, `checked`, `order`/`optOrder` (estado atual) e `best` (melhor nota em %, com `bestAt`), que não é apagada pelo "Refazer".
 A trilha considera a lição concluída quando os quatro exercícios têm `best` ≥ 70.
+
+## Áudio
+Os áudios ficam em `audio/<id-da-lição>/<id-do-exercício>-<n>.mp3`, em que `n` é o número da fala (diálogos) ou do item (múltipla escolha), a partir de 1.
+Nada precisa mudar na lição: depois de salvar os arquivos, rode `node tools/build.mjs` e os botões ▶ aparecem sozinhos.
+- **Diálogos:** um áudio por fala. Os botões e o "Ouvir o diálogo inteiro" só aparecem depois de "Corrigir respostas", porque o áudio entrega as respostas.
+- **Múltipla escolha comum:** se houver áudio para um item, o botão aparece depois que o item é corrigido.
+- **Exercícios de escuta** (`listen:true`, tipo `mc`): cada item tem `say:"frase falada"`. O exercício fica escondido até existirem os áudios de todos os itens; só então entra na lição.
+
+`node tools/build.mjs` gera `audio/_roteiro.md`: a lista de todos os arquivos a gravar, com a voz (quem fala) e o texto exato de cada um, e marca os que já existem.

@@ -104,6 +104,13 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .corr div{padding:8px 0;border-top:1px solid var(--line)}
 .corr .k{font-weight:800;margin-right:6px}
 .corr .ok{color:var(--ok)} .corr .no{color:var(--bad)}
+/* áudio */
+.play{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--accent);background:#fff;color:var(--accent);font-size:12px;font-weight:800;padding:0;margin-right:8px;vertical-align:middle;flex:none}
+.play.on{background:var(--accent);color:#fff}
+.lines p.au{display:flex;align-items:flex-start;gap:0}
+.lines p.au .play{margin-top:-3px}
+.lines p.au.on{background:var(--accent-soft);border-radius:8px}
+.playall{margin:0 0 14px}
 /* sheet */
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(28,34,48,.12);transform:translateY(110%);transition:transform .18s}
 .sheet.open{transform:none}
@@ -181,6 +188,7 @@ const UI = { pt:{
   missingBlank1:"Há 1 lacuna sem resposta; ela conta como erro.", missingBlankN:"Há {n} lacunas sem resposta; elas contam como erros.",
   perfect:"Perfeito.", good:"Bom resultado. Revise os itens marcados em vermelho.", retryExpl:"Revisite a explicação e tente novamente.", redo:"Refazer",
   resetAsk:"↺ Apagar respostas e recomeçar", resetConfirm:"Apagar todas as suas respostas deste exercício?", cancel:"Cancelar", erase:"Apagar", erased:"Respostas apagadas.",
+  listen:"Ouvir", playAll:"▶ Ouvir o diálogo inteiro", stopAll:"■ Parar", audioFail:"Não foi possível tocar o áudio.",
   blank:"Lacuna {n}", also:"também aceito", chooseOption:"Escolha a opção", clear:"Limpar", close:"Fechar"
 }};
 function uiLang(){ const l = S.data && S.data.prefs && S.data.prefs.ui; return UI_LANGS.includes(l) ? l : UI_LANGS[0]; }
@@ -377,6 +385,43 @@ function toast(msg){ const el=$("#toast"); el.textContent=msg; el.classList.add(
 function copyCode(){
   navigator.clipboard.writeText(S.code).then(()=>toast(t("copied")),()=>toast(t("copyFail")));
 }
+/* Exercícios visíveis: os que estão no catálogo (os de áudio só entram quando todos os áudios existem). */
+function metaOf(l){ return CATALOG.find(c=>c.id===l.id); }
+function exsOf(l){ const m = metaOf(l); return m ? l.exercises.filter(e=>m.exercises.some(x=>x.id===e.id)) : l.exercises; }
+/* Números dos itens/falas que têm áudio: audio/<lição>/<exercício>-<n>.mp3 */
+function auOf(l, ex){ const m = metaOf(l); const e = m && m.exercises.find(x=>x.id===ex.id); return (e && e.au) || []; }
+const player = { el:null, btn:null, queue:null };
+function stopAudio(){
+  if(player.el){ player.el.pause(); player.el.onended=null; }
+  document.querySelectorAll(".play.on, .lines p.au.on").forEach(e=>e.classList.remove("on"));
+  const pa = $("#playAll"); if(pa) pa.textContent = t("playAll");
+  player.btn = null; player.queue = null;
+}
+function playFile(src, btn, done){
+  if(!player.el) player.el = new Audio();
+  const a = player.el; a.onended = null; a.pause();
+  document.querySelectorAll(".play.on, .lines p.au.on").forEach(e=>e.classList.remove("on"));
+  player.btn = btn; if(btn){ btn.classList.add("on"); const row = btn.closest("p.au"); if(row) row.classList.add("on"); }
+  a.src = src;
+  a.onended = () => { if(btn){ btn.classList.remove("on"); const row = btn.closest("p.au"); if(row) row.classList.remove("on"); } player.btn=null; if(done) done(); };
+  a.play().catch(()=>{ toast(t("audioFail")); stopAudio(); });
+}
+function wirePlay(root, l, ex){
+  root.querySelectorAll(".play").forEach(b=> b.onclick = e => {
+    e.stopPropagation();
+    if(player.btn===b){ stopAudio(); return; }
+    player.queue = null; const pa = $("#playAll"); if(pa) pa.textContent = t("playAll");
+    playFile(`audio/${l.id}/${ex.id}-${b.dataset.au}.mp3`, b);
+  });
+  const pa = $("#playAll"); if(pa) pa.onclick = () => {
+    if(player.queue){ stopAudio(); return; }
+    const btns = [...root.querySelectorAll(".lines .play")]; let i = 0;
+    player.queue = true; pa.textContent = t("stopAll");
+    const next = () => { if(!player.queue || i>=btns.length){ stopAudio(); return; } const b = btns[i++]; b.scrollIntoView({block:"nearest",behavior:"smooth"}); playFile(`audio/${l.id}/${ex.id}-${b.dataset.au}.mp3`, b, next); };
+    next();
+  };
+}
+const playBtn = n => `<button class="play" data-au="${n}" title="${t("listen")}" aria-label="${t("listen")}">▶</button>`;
 function exDone(lesson, ex){
   const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
   if(ex.type==="mc") return ex.reveal==="end" ? !!p.checked : Object.keys(p.answers).length === (ex.items ? ex.items.length : ex.n);
@@ -393,7 +438,7 @@ function exScore(ex, p){
    TELAS
    ============================================================ */
 function route(){
-  closeSheet();
+  closeSheet(); stopAudio();
   if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
   const meta = CATALOG.find(x=>x.id===h);
@@ -505,12 +550,15 @@ function renderLibrary(){
 
 function renderLesson(){
   setHeader();
-  const l = S.lesson, ex = l.exercises[S.ex];
+  stopAudio();
+  const l = S.lesson, exs = exsOf(l);
+  if(!(S.ex < exs.length)) S.ex = 0;
+  const ex = exs[S.ex];
   S.lang = lessonLang(l);
   const langs = langsOf(l.explanation), bi = langs.length > 1;
   if(S.tab==="vocab" && !l.vocab) S.tab="ex";
-  const pager = l.exercises.length>1 ? `<div class="pager"><span class="small muted">${t("exercises")}</span>${
-    l.exercises.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(tx(e.title))}">${i+1}</button>`).join("")}</div>` : "";
+  const pager = exs.length>1 ? `<div class="pager"><span class="small muted">${t("exercises")}</span>${
+    exs.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(tx(e.title))}">${i+1}</button>`).join("")}</div>` : "";
   let body;
   if(S.tab==="expl"){ body = `<div class="expl">${tx(l.explanation)}</div>`; }
   else if(S.tab==="vocab"){ body = `<div class="expl">${tx(l.vocab)}</div>`; }
@@ -519,7 +567,7 @@ function renderLesson(){
       <div class="instr">${esc(tx(ex.instructions))}</div>
       <div class="resetbar" id="resetbar"></div>
       <div id="exBody"></div>
-      ${l.exercises.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
+      ${exs.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
   }
   app.innerHTML = `
     <div class="crumb"><a id="back">${t("lessons")}</a> › ${esc(l.title)}</div>
@@ -565,9 +613,11 @@ function renderMC(l, ex){
       else if(j===ans) cls+=" sel";
       return `<button class="${cls}" data-q="${i}" data-o="${j}" ${shown?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
     }).join("");
+    const au = auOf(l, ex), hasAu = au.includes(i+1) && (ex.listen || shown);
     const why = shown ? `<div class="why ${ans===it.a?"ok":"no"}">${ans===it.a?`<b>${t("correct")}</b> `:""}${tx(it.why)}</div>` : "";
-    return `<div class="q"><div><span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
+    return `<div class="q"><div>${hasAu?playBtn(i+1):""}<span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
   }).join("") + mcSummary(ex,p);
+  wirePlay(box, l, ex);
   box.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
     const i=+b.dataset.q;
     if(atEnd){ if(p.checked) return; }
@@ -652,7 +702,12 @@ function renderGap(l, ex){
   };
   let html = ex.scene ? `<div class="scene">${esc(tx(ex.scene))}</div>` : "";
   if(ex.layout==="dialogue"){
-    html += `<div class="lines">${ex.lines.map(([sp,line])=>`<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
+    /* O áudio entrega as respostas, então só aparece depois da correção. */
+    const au = p.checked ? auOf(l, ex) : [];
+    if(au.length) html += `<button class="btn plain sm playall" id="playAll">${t("playAll")}</button>`;
+    html += `<div class="lines">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
+      ? `<p class="au">${playBtn(i+1)}<span><span class="sp">${esc(sp)}:</span> ${fill(line)}</span></p>`
+      : `<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
   } else {
     html += `<div class="lines list">${ex.lines.map((line,i)=>`<p><span class="num">${i+1}.</span><span>${fill(line)}</span></p>`).join("")}</div>`;
   }
@@ -671,6 +726,7 @@ function renderGap(l, ex){
   }
   box.innerHTML = html;
   box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
+  wirePlay(box, l, ex);
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
     p.checked=true; persist(p); closeSheet(); renderLesson();

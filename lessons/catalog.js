@@ -42,6 +42,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "numbers",
+  "title": "Numbers",
+  "area": "Inglês Cotidiano",
+  "icon": "🔢",
+  "color": "#fdf1dc",
+  "level": "A1",
+  "part": 1,
+  "order": 3,
+  "tags": [
+   "numbers",
+   "prices",
+   "years",
+   "dates",
+   "ordinal numbers",
+   "math",
+   "market",
+   "birthdays"
+  ],
+  "v": "cd0551e8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 15
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 15
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 12
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "Medicina de Família",
