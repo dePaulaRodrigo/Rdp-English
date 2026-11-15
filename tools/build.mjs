@@ -1,0 +1,61 @@
+// Gera lessons/catalog.js a partir dos arquivos lessons/*.js e confere erros de conteúdo.
+// Uso: node tools/build.mjs   (rodar sempre que uma lição for criada ou alterada)
+import fs from "node:fs";
+import path from "node:path";
+import vm from "node:vm";
+import crypto from "node:crypto";
+
+const DIR = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "lessons");
+const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalog.js").sort();
+const errors = [];
+const err = (f, m) => errors.push(`${f}: ${m}`);
+const catalog = [];
+const ids = new Set();
+
+for (const f of files) {
+  const src = fs.readFileSync(path.join(DIR, f), "utf8");
+  let L = null;
+  try { vm.runInNewContext(src, { addLesson: o => { L = o; } }, { filename: f }); }
+  catch (e) { err(f, "erro de sintaxe — " + e.message); continue; }
+  if (!L) { err(f, "não chama addLesson(...)"); continue; }
+  if (L.id + ".js" !== f) err(f, `id "${L.id}" diferente do nome do arquivo`);
+  if (ids.has(L.id)) err(f, `id repetido "${L.id}"`); ids.add(L.id);
+  for (const k of ["title", "area", "level", "icon", "color"]) if (!L[k]) err(f, `falta o campo ${k}`);
+  if (!Array.isArray(L.exercises) || !L.exercises.length) { err(f, "sem exercícios"); continue; }
+  const exIds = new Set();
+  L.exercises.forEach((ex, xi) => {
+    const where = `${f} › exercício ${ex.id || xi + 1}`;
+    if (!ex.id) err(where, "falta id"); else if (exIds.has(ex.id)) err(where, "id de exercício repetido"); exIds.add(ex.id);
+    if (ex.type === "mc") {
+      (ex.items || []).forEach((it, i) => {
+        if (!it.q || !it.q.includes("___")) err(where, `item ${i + 1}: falta ___ na frase`);
+        if (!Array.isArray(it.o) || it.o.length < 2) err(where, `item ${i + 1}: poucas opções`);
+        else if (!(it.a >= 0 && it.a < it.o.length)) err(where, `item ${i + 1}: resposta "a" fora das opções`);
+        else if (new Set(it.o).size !== it.o.length) err(where, `item ${i + 1}: opções repetidas`);
+        if (!it.why) err(where, `item ${i + 1}: falta explicação (why)`);
+      });
+      if (!ex.items || !ex.items.length) err(where, "sem itens");
+    } else if (ex.type === "gap") {
+      const text = ex.layout === "dialogue" ? (ex.lines || []).map(l => l[1]).join(" ") : (ex.lines || []).join(" ");
+      const blanks = [...text.matchAll(/\[\[(\d+)\]\]/g)].map(m => m[1]);
+      const keys = Object.keys(ex.answers || {});
+      if (new Set(blanks).size !== blanks.length) err(where, "lacuna com número repetido");
+      blanks.forEach(b => { if (!keys.includes(b)) err(where, `lacuna ${b} sem resposta`); });
+      keys.forEach(k => { if (!blanks.includes(k)) err(where, `resposta ${k} sem lacuna no texto`); });
+      keys.forEach(k => { if (!(ex.why || {})[k]) err(where, `lacuna ${k} sem explicação (why)`); });
+      if (ex.bank) keys.forEach(k => { if (!ex.bank.includes(ex.answers[k][0])) err(where, `resposta da lacuna ${k} não está no bank`); });
+    } else err(where, `tipo desconhecido "${ex.type}"`);
+  });
+  catalog.push({
+    id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,
+    order: L.order ?? 999, tags: L.tags || [],
+    v: crypto.createHash("sha1").update(src).digest("hex").slice(0, 8),
+    exercises: L.exercises.map(e => ({ id: e.id, type: e.type, n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length }))
+  });
+}
+
+if (errors.length) { console.error("ERROS:\n- " + errors.join("\n- ")); process.exit(1); }
+catalog.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
+fs.writeFileSync(path.join(DIR, "catalog.js"),
+  "// Gerado por tools/build.mjs — não editar à mão.\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
+console.log(`OK: ${catalog.length} lições, ${catalog.reduce((s, l) => s + l.exercises.length, 0)} exercícios.`);

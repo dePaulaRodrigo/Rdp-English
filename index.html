@@ -120,6 +120,7 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .btn.danger{background:var(--bad)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
 .toast.on{opacity:1}
+h2.area{margin:28px 0 12px}
 </style>
 </head>
 <body>
@@ -135,233 +136,26 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 </div></div>
 <div class="toast" id="toast"></div>
 
+<script src="lessons/catalog.js"></script>
 <script>
 /* ============================================================
    CONTEÚDO
    ============================================================ */
-const LESSONS = [
-{
-  id:"there-be-have",
-  title:"There Be vs. Have",
-  area:"Medicina de Família", icon:"🩺", color:"#e4f1ee", level:"B2",
-  explanation:`
-    <h2>There be or have?</h2>
-    <p>In Portuguese, <i>ter</i> covers two different ideas. English splits them:</p>
-    <table>
-      <tr><th>Idea</th><th>English</th><th>Example</th></tr>
-      <tr><td>Someone possesses or experiences something</td><td><b>HAVE</b> (the sentence has a subject)</td><td>The patient <b>has</b> a cough.</td></tr>
-      <tr><td>Something exists in a place or time</td><td><b>THERE BE</b></td><td><b>There is</b> a patient in room 4.</td></tr>
-    </table>
-    <p class="note">The trap: <i>“Tem um paciente na sala 4”</i> is <b>There's a patient in room 4</b>, never <s>Has a patient</s> or <s>It has a patient</s>.</p>
-    <h3>THERE BE changes tense like any verb</h3>
-    <ul>
-      <li>there is / there are → there was / there were</li>
-      <li>there has been / there have been · there had been</li>
-      <li>there will be · there's going to be · there will have been</li>
-      <li>there used to be · there must be · there must have been · there would be</li>
-    </ul>
-    <h3>Agreement</h3>
-    <p>The verb agrees with the noun that comes after it: <b>there is</b> a problem · <b>there are</b> problems · <b>there have been</b> many cases.</p>
-    <h3>Dynamic HAVE</h3>
-    <p>When <i>have</i> means an action (<i>have lunch, have a meeting, have trouble</i>), it can be continuous: <b>She is having</b> a meeting. <b>We were having</b> lunch.</p>`,
-  exercises:[
-    { id:"mc", title:"Multiple choice", type:"mc",
-      instructions:"Choose the correct option. Pay attention to tense, agreement (singular/plural) and whether the sentence needs a subject (HAVE) or an existence structure (THERE BE).",
-      items:[
-        {q:"The patient in room 3 ___ a persistent cough for six weeks, so I've ordered a chest X-ray.",o:["there has been","has had","is having","has"],a:1,why:"has had — present perfect, possession of a symptom with <i>for</i>."},
-        {q:"___ any changes in your mother's medication since her last appointment?",o:["Has there been","Did there have","Have there been","There have been"],a:2,why:"Have there been — plural <i>changes</i> + <i>since</i>."},
-        {q:"When I got to the clinic this morning, ___ already fifteen patients in the waiting room.",o:["there were","there had","it had","they had"],a:0,why:"there were — existence, plural, past."},
-        {q:"By the time the ambulance arrived, the patient ___ two seizures.",o:["has had","there had been","had been","had had"],a:3,why:"had had — past perfect of <i>have</i>."},
-        {q:"Next Monday ___ a vaccination campaign at the health center, so we'll need extra nurses.",o:["it will have","there's going to be","will have","there are going to have"],a:1,why:"there's going to be — planned event; <i>“vai ter”</i> ≠ <i>will have</i>."},
-        {q:"Mr. Souza ___ trouble sleeping lately — he wakes up at 3 a.m. almost every night.",o:["has been having","there has been","is having had","has been had"],a:0,why:"has been having — ongoing experience + <i>lately</i>."},
-        {q:"The test came back negative, so ___ a mistake with the first result.",o:["it must have had","must have been","there must have been","there must have"],a:2,why:"there must have been — deduction about the past."},
-        {q:"In the 1990s, ___ only one family doctor for the whole neighborhood.",o:["it used to have","there used to have","used to have","there used to be"],a:3,why:"there used to be — past state that no longer exists."},
-        {q:"While we ___ lunch, the nurse called us about a patient with chest pain.",o:["had","were having","there was","have been having"],a:1,why:"were having — dynamic <i>have</i> (= eat), past continuous."},
-        {q:"At this rate, ___ more than fifty dengue cases in this area by the end of the month.",o:["there will have been","it will have had","there will be had","will have been"],a:0,why:"there will have been — future perfect, existence."},
-        {q:"If ___ a pediatrician on duty yesterday, we wouldn't have sent the child to the hospital.",o:["there was","we had","it had had","there had been"],a:3,why:"there had been — third conditional; <i>we had had</i> would also work, but <i>we had</i> doesn't."},
-        {q:"Dr. Costa can't see you right now; she ___ a meeting with the community health agents.",o:["there is","has been","is having","is had"],a:2,why:"is having — dynamic <i>have</i> (= hold a meeting)."},
-        {q:"___ no record of allergies in her chart, but always confirm with the patient.",o:["It has","There is","Has","There has"],a:1,why:"There is — existence, singular <i>record</i>."},
-        {q:"The lab just called: ___ a problem with the blood samples, so we need to collect them again.",o:["there's been","it has had","has been","there has"],a:0,why:"there's been — recent event with a present result."},
-        {q:"How long ___ these headaches, Mrs. Almeida?",o:["are you having","do you have","have you been having","there have been"],a:2,why:"have you been having — duration up to now."},
-        {q:"___ any side effects if she stops taking the antidepressant suddenly?",o:["Will it have","Will have","Is going to have","Will there be"],a:3,why:"Will there be — future existence, question."},
-        {q:"The elderly patient told us that ___ nobody at home to help her with her insulin for weeks.",o:["she had been","there had been","it had","there has"],a:1,why:"there had been — reported speech, past perfect."},
-        {q:"Last year our clinic ___ a shortage of antibiotics for almost two months.",o:["had","there was","had been","has had"],a:0,why:"had — <i>the clinic</i> is the subject; <i>our clinic there was</i> is the Portuguese-style trap."},
-        {q:"___ a lot of flu cases since the weather turned cold.",o:["There has","It has had","There were","There have been"],a:3,why:"There have been — plural + <i>since</i>."},
-        {q:"This time next year, I ___ my residency interviews, so wish me luck!",o:["will be had","there will be","will be having","am going to be"],a:2,why:"will be having — future continuous, an event in progress at a future time."}
-      ]},
-    { id:"dialogue", title:"Dialogue: The Headache in Room 4", type:"gap", layout:"dialogue",
-      instructions:"Complete the dialogue with THERE BE or HAVE in the correct tense. Some blanks need a negative, a question form or a modal. Tap a blank to choose.",
-      scene:"A Family Health Unit (UBS) in São Paulo, Friday afternoon. Dr. Helena Prado, family physician and preceptor, talks to Lucas, a first-year resident who dreams of becoming a neurosurgeon.",
-      lines:[
-        ["Dr. Prado","Lucas, [[1]] a minute? [[2]] a patient in room 4 I'd like you to see before he goes home."],
-        ["Lucas","Sure. What's his story?"],
-        ["Dr. Prado","Mr. Antônio Ferreira, 54, bus driver. He [[3]] headaches for about three weeks. He came in today because last night he [[4]] an episode of projectile vomiting."],
-        ["Lucas","[[5]] anything like this before?"],
-        ["Dr. Prado","Never. He told me he [[6]] a headache like this in his entire life."],
-        ["Lucas","Any red flags?"],
-        ["Dr. Prado","Several. The pain is worse in the morning, and when I examined him, [[7]] some weakness in his left hand. His wife also says that over the past week [[8]] moments when he seems confused."],
-        ["Lucas","That's worrying. [[9]] any history of cancer in the family?"],
-        ["Dr. Prado","His father [[10]] lung cancer, and Mr. Ferreira himself smoked for thirty years."],
-        ["Lucas","So we could be looking at a metastasis... or a primary brain tumor. Honestly, this is exactly the kind of case that made me want to become a neurosurgeon."],
-        ["Dr. Prado","I know — you remind me every day. But remember: [[11]] no neurosurgical cases at all if family doctors didn't catch the red flags first."],
-        ["Lucas","Fair point. What's the plan?"],
-        ["Dr. Prado","I've already called the regional hospital. [[12]] a CT slot for him tomorrow at 8 a.m."],
-        ["Lucas","And if [[13]] a mass?"],
-        ["Dr. Prado","Then he [[14]] an urgent appointment with neurosurgery. I'll make sure of it."],
-        ["Lucas","Could I go with him? Surely [[15]] another resident who can cover my patients here."],
-        ["Dr. Prado","Nice try. You [[16]] plenty of time in the operating room in a few years. Right now, [[17]] eleven patients waiting for you."],
-        ["Lucas","Eleven? When I left for lunch, [[18]] only four!"],
-        ["Dr. Prado","Welcome to primary care. While you [[19]] lunch, a school van full of kids with conjunctivitis showed up."],
-        ["Lucas","By the end of this rotation, I [[20]] more patients than I saw in all of med school."],
-        ["Dr. Prado","Good. Last year I [[21]] a resident just like you — obsessed with neurosurgery."],
-        ["Lucas","What happened to him?"],
-        ["Dr. Prado","He's a neurosurgery R3 now. He told me that if he [[22]] his rotation here, he would never have learned to really listen to patients."],
-        ["Lucas","[[23]] many residents like him over the years?"],
-        ["Dr. Prado","Plenty. When I started here, [[24]] only two doctors in this unit. Now we're six, and half of the residents I've trained [[25]] big plans for surgery."],
-        ["Lucas","Then I'm in good company. Let's go see Mr. Ferreira."],
-        ["Dr. Prado","Go. And Lucas — [[26]] a good neurosurgeon who wasn't a good clinician first."]
-      ],
-      answers:{
-        1:["do you have"],2:["there's","there is"],3:["has been having"],4:["had"],5:["has he had"],
-        6:["had never had"],7:["there was"],8:["there have been"],9:["is there"],10:["had"],
-        11:["there would be"],12:["there's going to be","there will be","there is","there's"],13:["there is","there's"],
-        14:["will have"],15:["there must be","there will be","there's","there is"],16:["will have"],17:["there are"],
-        18:["there were"],19:["were having"],20:["will have had"],21:["had"],22:["hadn't had","had not had"],
-        23:["have there been"],24:["there used to be","there were"],25:["have had"],
-        26:["there's never been","there has never been","there will never be"]
-      },
-      why:{
-        1:"HAVE = possess (time). Simple present question.",
-        2:"Existence: a patient is in room 4.",
-        3:"Ongoing experience up to now + <i>for about three weeks</i>.",
-        4:"Finished past event: <i>last night</i>.",
-        5:"Life experience up to now + <i>before</i>.",
-        6:"Reported speech: <i>has never had</i> → <i>had never had</i>.",
-        7:"Existence in the past: when I examined him.",
-        8:"Repeated existence up to now (<i>over the past week</i>), plural <i>moments</i>.",
-        9:"Question about existence, present.",
-        10:"Finished past: his father had the disease.",
-        11:"Hypothetical: there would be no cases if…",
-        12:"Planned, already arranged: <i>there's going to be</i>.",
-        13:"First conditional: present after <i>if</i>.",
-        14:"Future result; <i>he</i> is the subject.",
-        15:"Deduction: there must be.",
-        16:"Future; <i>you</i> is the subject.",
-        17:"Existence now, plural.",
-        18:"Existence in the past, plural.",
-        19:"Dynamic <i>have</i> (= eat) in progress in the past.",
-        20:"Future perfect: completed by the end of the rotation.",
-        21:"Finished past: I had a resident.",
-        22:"Third conditional: if he hadn't had…",
-        23:"Existence up to now, plural, question.",
-        24:"Past situation that has changed.",
-        25:"Experience up to now; <i>the residents</i> is the subject.",
-        26:"Never existed, up to today."
-      }}
-  ]
-},
-{
-  id:"phrasal-verbs",
-  title:"Phrasal Verbs — Particles",
-  area:"Geral", icon:"↕️", color:"#fdf0dc", level:"B1",
-  explanation:`
-    <h2>The particle keeps its idea</h2>
-    <p>The particle often keeps an idea of its direction, even when there is no real movement. If you know the idea, you can often guess the meaning of a new phrasal verb.</p>
-    <h3>Up · Down · Out · In · By</h3>
-    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
-      <tr><td>up</td><td>completely / more</td><td>eat up, clean up, speak up</td></tr>
-      <tr><td>down</td><td>less / slower / stop</td><td>slow down, calm down, cut down on</td></tr>
-      <tr><td>out</td><td>until nothing is left / discover</td><td>run out, sell out, find out</td></tr>
-      <tr><td>in</td><td>enter a group / take part</td><td>join in, fit in, check in</td></tr>
-      <tr><td>by</td><td>pass / visit quickly</td><td>stop by, go by, get by</td></tr></table>
-    <h3>On · Off</h3>
-    <p><b>On</b> means contact or connection: something is touching, attached, working. <b>Off</b> is the opposite: separation, disconnection, stopping.</p>
-    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
-      <tr><td>on</td><td>contact / connection</td><td>put on, try on, get on, turn on</td></tr>
-      <tr><td>on</td><td>continue</td><td>go on, carry on, keep on, hold on</td></tr>
-      <tr><td>off</td><td>separation / removal</td><td>take off, get off, turn off, drop off</td></tr>
-      <tr><td>off</td><td>stop / cancel / leave</td><td>call off, set off</td></tr></table>
-    <h3>Over · Away · Back · Around · Through · Along · Apart</h3>
-    <table><tr><th>Particle</th><th>Basic idea</th><th>Examples</th></tr>
-      <tr><td>over</td><td>from one side to the other / end of something</td><td>come over, hand over, get over, take over</td></tr>
-      <tr><td>away</td><td>distance / disappearing</td><td>go away, run away, throw away, give away</td></tr>
-      <tr><td>back</td><td>return to the start</td><td>come back, give back, call back, pay back</td></tr>
-      <tr><td>around</td><td>in a circle / with no fixed direction</td><td>turn around, look around, walk around</td></tr>
-      <tr><td>through</td><td>from beginning to end</td><td>go through, read through, get through</td></tr>
-      <tr><td>along</td><td>together / moving forward</td><td>get along, come along</td></tr>
-      <tr><td>apart</td><td>into pieces / separate</td><td>fall apart, take apart, tell apart</td></tr></table>`,
-  exercises:[
-    { id:"p1", title:"Up, down, in, out, by", type:"gap", layout:"list",
-      instructions:"Complete each sentence with up, down, in, out or by. Tap a blank to choose.",
-      lines:[
-        "It's cold outside. Come [[1]] and close the door.",
-        "Please sit [[2]]. The doctor will see you in a minute.",
-        "The elevator is broken, so we have to walk [[3]] to the 10th floor.",
-        "I was driving [[4]] your house this morning and saw your car.",
-        "Can you take the trash [[5]] before you go to bed?",
-        "Can you turn the music [[6]]? I'm trying to sleep.",
-        "Time goes [[7]] so fast when you're on vacation.",
-        "Please fill [[8]] this form with your name and address.",
-        "He picked [[9]] the phone and called his mother.",
-        "Let's eat [[10]] tonight. I don't want to cook."
-      ],
-      answers:{1:["in"],2:["down"],3:["up"],4:["by"],5:["out"],6:["down"],7:["by"],8:["in","out"],9:["up"],10:["out"]},
-      why:{1:"in = enter.",2:"down = to a lower position.",3:"up = to a higher place.",4:"by = pass without stopping.",5:"out = to the outside.",6:"down = less (lower volume).",7:"by = pass.",8:"<i>Fill in</i> and <i>fill out</i> mean the same: <i>out</i> is more common in American English, <i>in</i> in British English.",9:"up = lift to a higher position.",10:"out = outside the home (at a restaurant)."}},
-    { id:"p2", title:"What does the particle add?", type:"gap", layout:"list",
-      instructions:"Complete each sentence with the correct particle: up, down, in, out or by.",
-      lines:[
-        "Could you speak [[1]]? We can't hear you in the back.",
-        "You're driving too fast. Slow [[2]]!",
-        "The concert tickets sold [[3]] in two hours.",
-        "I'm new at the company, but I'm trying to fit [[4]].",
-        "Why don't you stop [[5]] my house after work?",
-        "Don't leave food on your plate. Eat it all [[6]].",
-        "I need to find [[7]] what time the train leaves.",
-        "Take a deep breath and calm [[8]].",
-        "The kids are playing a game. Do you want to join [[9]]?",
-        "Money is short this month, but we'll get [[10]]."
-      ],
-      answers:{1:["up"],2:["down"],3:["out"],4:["in"],5:["by"],6:["up"],7:["out"],8:["down"],9:["in"],10:["by"]},
-      why:{1:"up = more (louder).",2:"down = slower.",3:"out = until nothing is left.",4:"in = be part of a group.",5:"by = visit quickly.",6:"up = completely.",7:"out = discover.",8:"down = less (less agitated).",9:"in = take part.",10:"by = pass through a difficult time; manage."}},
-    { id:"p3", title:"On or off?", type:"gap", layout:"list",
-      instructions:"Complete each sentence with on or off.",
-      lines:[
-        "Please take [[1]] your shoes before you come in.",
-        "Can I try [[2]] these jeans?",
-        "We got [[3]] the train at the wrong station.",
-        "Hold [[4]] a second. I need to find my keys.",
-        "The plane took [[5]] two hours late.",
-        "Turn [[6]] the oven. The cake is ready.",
-        "Keep [[7]] walking. The hotel is just around the corner.",
-        "I'll drop you [[8]] at school on my way to work.",
-        "It's dark in here. Can you switch [[9]] the light?",
-        "The wedding was called [[10]] at the last minute."
-      ],
-      answers:{1:["off"],2:["on"],3:["off"],4:["on"],5:["off"],6:["off"],7:["on"],8:["off"],9:["on"],10:["off"]},
-      why:{1:"off = removal.",2:"on = contact (clothes on your body).",3:"off = leave a vehicle (separation).",4:"on = continue (wait).",5:"off = separation: the plane leaves the ground.",6:"off = disconnection.",7:"on = continue.",8:"off = leave someone at a place.",9:"on = connection.",10:"off = cancel."}},
-    { id:"p4", title:"Over, away, back, around, through, along, apart", type:"gap", layout:"list",
-      instructions:"Complete each sentence with over, away, back, around, through, along or apart.",
-      lines:[
-        "My old shoes are falling [[1]].",
-        "Can you give me [[2]] my pen? I need it.",
-        "Come [[3]] to my place for dinner tonight!",
-        "I need to go [[4]] my notes before the test.",
-        "Don't throw [[5]] that box. We can use it.",
-        "Do you get [[6]] well with your neighbors?",
-        "Turn [[7]]! You're going the wrong way.",
-        "I'm busy now. I'll call you [[8]] in ten minutes.",
-        "The twins are identical. I can't tell them [[9]].",
-        "It took her a long time to get [[10]] the breakup.",
-        "The cat ran [[11]] when it saw the dog.",
-        "It was a difficult year, but we got [[12]] it.",
-        "We have some free time. Let's walk [[13]] the city center.",
-        "We're going to the beach. Do you want to come [[14]]?"
-      ],
-      answers:{1:["apart"],2:["back"],3:["over"],4:["through"],5:["away"],6:["along"],7:["around"],8:["back"],9:["apart"],10:["over"],11:["away"],12:["through"],13:["around"],14:["along"]},
-      why:{1:"apart = into pieces.",2:"back = return.",3:"over = from one place to another (a visit).",4:"through = from beginning to end.",5:"away = disappear (discard).",6:"along = together.",7:"around = in a circle (the other way).",8:"back = return (the call).",9:"apart = separate (distinguish).",10:"over = the end of something (recover).",11:"away = distance.",12:"through = from beginning to end (survive it).",13:"around = with no fixed direction.",14:"along = together."}}
-  ]
+/* O catálogo (lessons/catalog.js) traz só o resumo de cada lição.
+   O conteúdo completo de cada uma fica em lessons/<id>.js e só é baixado quando o aluno abre a lição. */
+const LOADED = {}, pending = {};
+function addLesson(o){ LOADED[o.id] = o; if(pending[o.id]){ pending[o.id].res(o); delete pending[o.id]; } }
+function loadLesson(meta){
+  if(LOADED[meta.id]) return Promise.resolve(LOADED[meta.id]);
+  if(pending[meta.id]) return pending[meta.id].p;
+  let res, rej; const p = new Promise((a,b)=>{ res=a; rej=b; });
+  pending[meta.id] = {p, res};
+  const sc = document.createElement("script");
+  sc.src = `lessons/${meta.id}.js?v=${meta.v}`;
+  sc.onerror = () => { delete pending[meta.id]; sc.remove(); rej(new Error("load")); };
+  document.head.appendChild(sc);
+  return p;
 }
-];
 
 /* ============================================================
    SESSÃO POR CÓDIGO (Supabase; cópia de segurança neste navegador)
@@ -427,7 +221,7 @@ function copyCode(){
 }
 function exDone(lesson, ex){
   const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
-  if(ex.type==="mc") return Object.keys(p.answers).length === ex.items.length;
+  if(ex.type==="mc") return Object.keys(p.answers).length === (ex.items ? ex.items.length : ex.n);
   return p.checked;
 }
 function exScore(ex, p){
@@ -444,10 +238,16 @@ function route(){
   closeSheet();
   if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
-  const l = LESSONS.find(x=>x.id===h);
-  if(l){ if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; } renderLesson(); }
-  else { S.lesson=null; renderLibrary(); }
-  window.scrollTo(0,0);
+  const meta = CATALOG.find(x=>x.id===h);
+  if(!meta){ S.lesson=null; renderLibrary(); window.scrollTo(0,0); return; }
+  const show = l => { if(location.hash.replace("#","")!==h) return; if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; } renderLesson(); window.scrollTo(0,0); };
+  if(LOADED[h]){ show(LOADED[h]); return; }
+  setHeader();
+  app.innerHTML = `<p class="muted center">Carregando a lição…</p>`;
+  loadLesson(meta).then(show).catch(()=>{
+    app.innerHTML = `<div class="card center" style="max-width:520px;margin:24px auto"><p>Não foi possível carregar a lição. Verifique a internet.</p><div class="row" style="justify-content:center"><button class="btn" id="retry">Tentar de novo</button><button class="btn plain" id="bk2">Voltar</button></div></div>`;
+    $("#retry").onclick = route; $("#bk2").onclick = () => { location.hash=""; };
+  });
 }
 function setHeader(){
   const p = $("#codepill");
@@ -524,7 +324,7 @@ function renderNewCode(){
 
 function renderLibrary(){
   setHeader();
-  const cards = LESSONS.map(l=>{
+  const card = l=>{
     const done = l.exercises.filter(e=>exDone(l,e)).length;
     return `<button class="lcard" data-id="${l.id}">
       <div class="art" style="background:${l.color}">${l.icon}</div>
@@ -534,8 +334,10 @@ function renderLibrary(){
         <div class="bar"><i style="width:${Math.round(100*done/l.exercises.length)}%"></i></div>
         <div class="small muted" style="margin-top:6px">${done} de ${l.exercises.length} exercícios feitos</div>
       </div></button>`;
-  }).join("");
-  app.innerHTML = `<h1>Lições</h1><p class="muted">Gramática praticada com o vocabulário da sua área.</p><div class="grid">${cards}</div>`;
+  };
+  const areas = [...new Set(CATALOG.map(l=>l.area))];
+  const sections = areas.map(a=>`<h2 class="area">${esc(a)}</h2><div class="grid">${CATALOG.filter(l=>l.area===a).map(card).join("")}</div>`).join("");
+  app.innerHTML = `<h1>Lições</h1><p class="muted">Gramática praticada com o vocabulário da sua área.</p>${sections}`;
   app.querySelectorAll(".lcard").forEach(b=> b.onclick = () => { location.hash = b.dataset.id; });
 }
 
@@ -612,9 +414,11 @@ function mcSummary(ex,p){
 /* ---------- Preencher texto/diálogo com banco de opções ---------- */
 function bankOf(ex){
   if(ex._bank) return ex._bank;
+  if(ex.bank){ ex._bank = ex.bank.slice(); return ex._bank; }
   const set = new Set(); Object.values(ex.answers).forEach(a=>set.add(a[0]));
-  if(ex.layout==="dialogue"){ ex._bank = [...set].sort((a,b)=>a.localeCompare(b)); }
-  else { const order=["up","down","in","out","by","on","off","over","away","back","around","through","along","apart"]; ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); }
+  const order=["up","down","in","out","by","on","off","over","away","back","around","through","along","apart"];
+  if(ex.layout==="dialogue" || ![...set].every(w=>order.includes(w))){ ex._bank = [...set].sort((a,b)=>a.localeCompare(b)); }
+  else { ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); }
   return ex._bank;
 }
 function capIfStart(before, val){
