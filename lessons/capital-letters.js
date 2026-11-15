@@ -11,19 +11,19 @@ pt:`
     <p>Em inglês, o adjetivo de nacionalidade é <b>sempre</b> escrito com maiúscula.</p>
     <table>
       <tr><th>País</th><th>Nacionalidade</th></tr>
-      <tr><td>Japan</td><td>Japanese</td></tr>
-      <tr><td>Brazil</td><td>Brazilian</td></tr>
-      <tr><td>Italy</td><td>Italian</td></tr>
-      <tr><td>England</td><td>English</td></tr>
-      <tr><td>France</td><td>French</td></tr>
-      <tr><td>Germany</td><td>German</td></tr>
-      <tr><td>Spain</td><td>Spanish</td></tr>
-      <tr><td>USA</td><td>American</td></tr>
-      <tr><td>Canada</td><td>Canadian</td></tr>
-      <tr><td>China</td><td>Chinese</td></tr>
-      <tr><td>Korea</td><td>Korean</td></tr>
-      <tr><td>Taiwan</td><td>Taiwanese</td></tr>
-      <tr><td>Paraguay</td><td>Paraguayan</td></tr>
+      <tr><td>🇯🇵 Japan</td><td>Japanese</td></tr>
+      <tr><td>🇧🇷 Brazil</td><td>Brazilian</td></tr>
+      <tr><td>🇮🇹 Italy</td><td>Italian</td></tr>
+      <tr><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</td><td>English</td></tr>
+      <tr><td>🇫🇷 France</td><td>French</td></tr>
+      <tr><td>🇩🇪 Germany</td><td>German</td></tr>
+      <tr><td>🇪🇸 Spain</td><td>Spanish</td></tr>
+      <tr><td>🇺🇸 USA</td><td>American</td></tr>
+      <tr><td>🇨🇦 Canada</td><td>Canadian</td></tr>
+      <tr><td>🇨🇳 China</td><td>Chinese</td></tr>
+      <tr><td>🇰🇷 Korea</td><td>Korean</td></tr>
+      <tr><td>🇹🇼 Taiwan</td><td>Taiwanese</td></tr>
+      <tr><td>🇵🇾 Paraguay</td><td>Paraguayan</td></tr>
     </table>
     <ul>
       <li>I am from <b>Brazil</b>. I am <b>Brazilian</b>.</li>
@@ -47,19 +47,19 @@ en:`
     <p>In English, nationality adjectives <b>always</b> start with a capital letter.</p>
     <table>
       <tr><th>Country</th><th>Nationality</th></tr>
-      <tr><td>Japan</td><td>Japanese</td></tr>
-      <tr><td>Brazil</td><td>Brazilian</td></tr>
-      <tr><td>Italy</td><td>Italian</td></tr>
-      <tr><td>England</td><td>English</td></tr>
-      <tr><td>France</td><td>French</td></tr>
-      <tr><td>Germany</td><td>German</td></tr>
-      <tr><td>Spain</td><td>Spanish</td></tr>
-      <tr><td>USA</td><td>American</td></tr>
-      <tr><td>Canada</td><td>Canadian</td></tr>
-      <tr><td>China</td><td>Chinese</td></tr>
-      <tr><td>Korea</td><td>Korean</td></tr>
-      <tr><td>Taiwan</td><td>Taiwanese</td></tr>
-      <tr><td>Paraguay</td><td>Paraguayan</td></tr>
+      <tr><td>🇯🇵 Japan</td><td>Japanese</td></tr>
+      <tr><td>🇧🇷 Brazil</td><td>Brazilian</td></tr>
+      <tr><td>🇮🇹 Italy</td><td>Italian</td></tr>
+      <tr><td>🏴󠁧󠁢󠁥󠁮󠁧󠁿 England</td><td>English</td></tr>
+      <tr><td>🇫🇷 France</td><td>French</td></tr>
+      <tr><td>🇩🇪 Germany</td><td>German</td></tr>
+      <tr><td>🇪🇸 Spain</td><td>Spanish</td></tr>
+      <tr><td>🇺🇸 USA</td><td>American</td></tr>
+      <tr><td>🇨🇦 Canada</td><td>Canadian</td></tr>
+      <tr><td>🇨🇳 China</td><td>Chinese</td></tr>
+      <tr><td>🇰🇷 Korea</td><td>Korean</td></tr>
+      <tr><td>🇹🇼 Taiwan</td><td>Taiwanese</td></tr>
+      <tr><td>🇵🇾 Paraguay</td><td>Paraguayan</td></tr>
     </table>
     <ul>
       <li>I am from <b>Brazil</b>. I am <b>Brazilian</b>.</li>
@@ -118,26 +118,26 @@ pt:`
     <h2>Países</h2>
     <table class="countries">
       <tr><th>Nacionalidade</th><th>Idioma</th><th>Moeda</th></tr>
-      <tr class="c"><td colspan="3">Brazil</td></tr><tr><td>Brazilian</td><td>Portuguese</td><td>real</td></tr>
-      <tr class="c"><td colspan="3">Portugal</td></tr><tr><td>Portuguese</td><td>Portuguese</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">the United States (USA)</td></tr><tr><td>American</td><td>English</td><td>US dollar</td></tr>
-      <tr class="c"><td colspan="3">the United Kingdom (UK)</td></tr><tr><td>British</td><td>English</td><td>pound</td></tr>
-      <tr class="c"><td colspan="3">Ireland</td></tr><tr><td>Irish</td><td>English, Irish</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Canada</td></tr><tr><td>Canadian</td><td>English, French</td><td>Canadian dollar</td></tr>
-      <tr class="c"><td colspan="3">Australia</td></tr><tr><td>Australian</td><td>English</td><td>Australian dollar</td></tr>
-      <tr class="c"><td colspan="3">Argentina</td></tr><tr><td>Argentinian (ou Argentine)</td><td>Spanish</td><td>Argentine peso</td></tr>
-      <tr class="c"><td colspan="3">Chile</td></tr><tr><td>Chilean</td><td>Spanish</td><td>Chilean peso</td></tr>
-      <tr class="c"><td colspan="3">Colombia</td></tr><tr><td>Colombian</td><td>Spanish</td><td>Colombian peso</td></tr>
-      <tr class="c"><td colspan="3">Mexico</td></tr><tr><td>Mexican</td><td>Spanish</td><td>Mexican peso</td></tr>
-      <tr class="c"><td colspan="3">Spain</td></tr><tr><td>Spanish</td><td>Spanish</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">France</td></tr><tr><td>French</td><td>French</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Italy</td></tr><tr><td>Italian</td><td>Italian</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Germany</td></tr><tr><td>German</td><td>German</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Japan</td></tr><tr><td>Japanese</td><td>Japanese</td><td>yen</td></tr>
-      <tr class="c"><td colspan="3">China</td></tr><tr><td>Chinese</td><td>Chinese (Mandarin)</td><td>yuan</td></tr>
-      <tr class="c"><td colspan="3">South Korea</td></tr><tr><td>South Korean</td><td>Korean</td><td>won</td></tr>
-      <tr class="c"><td colspan="3">India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
-      <tr class="c"><td colspan="3">Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
+      <tr class="c"><td colspan="3">🇧🇷 Brazil</td></tr><tr><td>Brazilian</td><td>Portuguese</td><td>real</td></tr>
+      <tr class="c"><td colspan="3">🇵🇹 Portugal</td></tr><tr><td>Portuguese</td><td>Portuguese</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇺🇸 the United States (USA)</td></tr><tr><td>American</td><td>English</td><td>US dollar</td></tr>
+      <tr class="c"><td colspan="3">🇬🇧 the United Kingdom (UK)</td></tr><tr><td>British</td><td>English</td><td>pound</td></tr>
+      <tr class="c"><td colspan="3">🇮🇪 Ireland</td></tr><tr><td>Irish</td><td>English, Irish</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇨🇦 Canada</td></tr><tr><td>Canadian</td><td>English, French</td><td>Canadian dollar</td></tr>
+      <tr class="c"><td colspan="3">🇦🇺 Australia</td></tr><tr><td>Australian</td><td>English</td><td>Australian dollar</td></tr>
+      <tr class="c"><td colspan="3">🇦🇷 Argentina</td></tr><tr><td>Argentinian (ou Argentine)</td><td>Spanish</td><td>Argentine peso</td></tr>
+      <tr class="c"><td colspan="3">🇨🇱 Chile</td></tr><tr><td>Chilean</td><td>Spanish</td><td>Chilean peso</td></tr>
+      <tr class="c"><td colspan="3">🇨🇴 Colombia</td></tr><tr><td>Colombian</td><td>Spanish</td><td>Colombian peso</td></tr>
+      <tr class="c"><td colspan="3">🇲🇽 Mexico</td></tr><tr><td>Mexican</td><td>Spanish</td><td>Mexican peso</td></tr>
+      <tr class="c"><td colspan="3">🇪🇸 Spain</td></tr><tr><td>Spanish</td><td>Spanish</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇫🇷 France</td></tr><tr><td>French</td><td>French</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇮🇹 Italy</td></tr><tr><td>Italian</td><td>Italian</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇩🇪 Germany</td></tr><tr><td>German</td><td>German</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇯🇵 Japan</td></tr><tr><td>Japanese</td><td>Japanese</td><td>yen</td></tr>
+      <tr class="c"><td colspan="3">🇨🇳 China</td></tr><tr><td>Chinese</td><td>Chinese (Mandarin)</td><td>yuan</td></tr>
+      <tr class="c"><td colspan="3">🇰🇷 South Korea</td></tr><tr><td>South Korean</td><td>Korean</td><td>won</td></tr>
+      <tr class="c"><td colspan="3">🇮🇳 India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
+      <tr class="c"><td colspan="3">🇷🇺 Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
     </table>
     <p class="note">Dentro do Reino Unido: England → English · Scotland → Scottish · Wales → Welsh. Os nomes das moedas ficam com minúscula: dollar, euro, real.</p>`,
 en:`
@@ -180,26 +180,26 @@ en:`
     <h2>Countries</h2>
     <table class="countries">
       <tr><th>Nationality</th><th>Language</th><th>Currency</th></tr>
-      <tr class="c"><td colspan="3">Brazil</td></tr><tr><td>Brazilian</td><td>Portuguese</td><td>real</td></tr>
-      <tr class="c"><td colspan="3">Portugal</td></tr><tr><td>Portuguese</td><td>Portuguese</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">the United States (USA)</td></tr><tr><td>American</td><td>English</td><td>US dollar</td></tr>
-      <tr class="c"><td colspan="3">the United Kingdom (UK)</td></tr><tr><td>British</td><td>English</td><td>pound</td></tr>
-      <tr class="c"><td colspan="3">Ireland</td></tr><tr><td>Irish</td><td>English, Irish</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Canada</td></tr><tr><td>Canadian</td><td>English, French</td><td>Canadian dollar</td></tr>
-      <tr class="c"><td colspan="3">Australia</td></tr><tr><td>Australian</td><td>English</td><td>Australian dollar</td></tr>
-      <tr class="c"><td colspan="3">Argentina</td></tr><tr><td>Argentinian (or Argentine)</td><td>Spanish</td><td>Argentine peso</td></tr>
-      <tr class="c"><td colspan="3">Chile</td></tr><tr><td>Chilean</td><td>Spanish</td><td>Chilean peso</td></tr>
-      <tr class="c"><td colspan="3">Colombia</td></tr><tr><td>Colombian</td><td>Spanish</td><td>Colombian peso</td></tr>
-      <tr class="c"><td colspan="3">Mexico</td></tr><tr><td>Mexican</td><td>Spanish</td><td>Mexican peso</td></tr>
-      <tr class="c"><td colspan="3">Spain</td></tr><tr><td>Spanish</td><td>Spanish</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">France</td></tr><tr><td>French</td><td>French</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Italy</td></tr><tr><td>Italian</td><td>Italian</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Germany</td></tr><tr><td>German</td><td>German</td><td>euro</td></tr>
-      <tr class="c"><td colspan="3">Japan</td></tr><tr><td>Japanese</td><td>Japanese</td><td>yen</td></tr>
-      <tr class="c"><td colspan="3">China</td></tr><tr><td>Chinese</td><td>Chinese (Mandarin)</td><td>yuan</td></tr>
-      <tr class="c"><td colspan="3">South Korea</td></tr><tr><td>South Korean</td><td>Korean</td><td>won</td></tr>
-      <tr class="c"><td colspan="3">India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
-      <tr class="c"><td colspan="3">Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
+      <tr class="c"><td colspan="3">🇧🇷 Brazil</td></tr><tr><td>Brazilian</td><td>Portuguese</td><td>real</td></tr>
+      <tr class="c"><td colspan="3">🇵🇹 Portugal</td></tr><tr><td>Portuguese</td><td>Portuguese</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇺🇸 the United States (USA)</td></tr><tr><td>American</td><td>English</td><td>US dollar</td></tr>
+      <tr class="c"><td colspan="3">🇬🇧 the United Kingdom (UK)</td></tr><tr><td>British</td><td>English</td><td>pound</td></tr>
+      <tr class="c"><td colspan="3">🇮🇪 Ireland</td></tr><tr><td>Irish</td><td>English, Irish</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇨🇦 Canada</td></tr><tr><td>Canadian</td><td>English, French</td><td>Canadian dollar</td></tr>
+      <tr class="c"><td colspan="3">🇦🇺 Australia</td></tr><tr><td>Australian</td><td>English</td><td>Australian dollar</td></tr>
+      <tr class="c"><td colspan="3">🇦🇷 Argentina</td></tr><tr><td>Argentinian (or Argentine)</td><td>Spanish</td><td>Argentine peso</td></tr>
+      <tr class="c"><td colspan="3">🇨🇱 Chile</td></tr><tr><td>Chilean</td><td>Spanish</td><td>Chilean peso</td></tr>
+      <tr class="c"><td colspan="3">🇨🇴 Colombia</td></tr><tr><td>Colombian</td><td>Spanish</td><td>Colombian peso</td></tr>
+      <tr class="c"><td colspan="3">🇲🇽 Mexico</td></tr><tr><td>Mexican</td><td>Spanish</td><td>Mexican peso</td></tr>
+      <tr class="c"><td colspan="3">🇪🇸 Spain</td></tr><tr><td>Spanish</td><td>Spanish</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇫🇷 France</td></tr><tr><td>French</td><td>French</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇮🇹 Italy</td></tr><tr><td>Italian</td><td>Italian</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇩🇪 Germany</td></tr><tr><td>German</td><td>German</td><td>euro</td></tr>
+      <tr class="c"><td colspan="3">🇯🇵 Japan</td></tr><tr><td>Japanese</td><td>Japanese</td><td>yen</td></tr>
+      <tr class="c"><td colspan="3">🇨🇳 China</td></tr><tr><td>Chinese</td><td>Chinese (Mandarin)</td><td>yuan</td></tr>
+      <tr class="c"><td colspan="3">🇰🇷 South Korea</td></tr><tr><td>South Korean</td><td>Korean</td><td>won</td></tr>
+      <tr class="c"><td colspan="3">🇮🇳 India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
+      <tr class="c"><td colspan="3">🇷🇺 Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
     </table>
     <p class="note">Inside the UK: England → English · Scotland → Scottish · Wales → Welsh. Currency names are lowercase: dollar, euro, real.</p>`
   },
