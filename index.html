@@ -93,7 +93,8 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .blank.active .v{border-color:var(--accent);background:var(--accent-soft);border-radius:5px 5px 0 0}
 .blank.ok .v{color:var(--ok);border-color:var(--ok)}
 .blank.no .v{color:var(--bad);border-color:var(--bad);text-decoration:line-through}
-.blank .fix{color:var(--ok);font-weight:700}
+.blank.rev .v{color:var(--ok);border-color:var(--ok);border-bottom-style:dashed;font-style:italic}
+.revealbar{display:flex;justify-content:flex-end;margin-top:10px}
 .blank:disabled{cursor:default}
 .center{text-align:center;margin-top:22px}
 .score{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin-top:20px}
@@ -189,6 +190,7 @@ const UI = { pt:{
   perfect:"Perfeito.", good:"Bom resultado. Revise os itens marcados em vermelho.", retryExpl:"Revisite a explicação e tente novamente.", redo:"Refazer",
   resetAsk:"↺ Apagar respostas e recomeçar", resetConfirm:"Apagar todas as suas respostas deste exercício?", cancel:"Cancelar", erase:"Apagar", erased:"Respostas apagadas.",
   listen:"Ouvir", playAll:"▶ Ouvir o diálogo inteiro", stopAll:"■ Parar", audioFail:"Não foi possível tocar o áudio.",
+  showAnswers:"Revelar respostas certas", hideAnswers:"Mostrar minhas respostas",
   blank:"Lacuna {n}", also:"também aceito", chooseOption:"Escolha a opção", clear:"Limpar", close:"Fechar"
 }};
 function uiLang(){ const l = S.data && S.data.prefs && S.data.prefs.ui; return UI_LANGS.includes(l) ? l : UI_LANGS[0]; }
@@ -681,14 +683,16 @@ function renderGap(l, ex){
   sheetCaseSensitive = !!ex.caseSensitive;
   const p = prog(l.id, ex.id);
   const box = $("#exBody");
+  const reveal = p.checked && S.reveal === l.id+"/"+ex.id;
   const blankHTML = (n, before) => {
     const v = p.answers[n]; const accepted = ex.answers[n];
     let cls="blank", inner;
     if(p.checked){
+      /* Depois da correção, o texto mantém as respostas do aluno; as certas só aparecem se ele pedir. */
       const ok = accepts(ex, accepted, v);
-      cls += ok ? " ok":" no";
-      inner = ok ? `<span class="v">${esc(capIfStart(before, v))}</span>`
-                 : `${v?`<span class="v">${esc(capIfStart(before,v))}</span>`:""}<span class="fix">${esc(capIfStart(before, accepted[0]))}</span>`;
+      if(ok){ cls += " ok"; inner = `<span class="v">${esc(capIfStart(before, v))}</span>`; }
+      else if(reveal){ cls += " rev"; inner = `<span class="v">${esc(capIfStart(before, accepted[0]))}</span>`; }
+      else { cls += " no"; inner = v ? `<span class="v">${esc(capIfStart(before,v))}</span>` : `<span class="v" style="text-decoration:none">&nbsp;</span>`; }
     } else {
       if(S.activeBlank===n) cls+=" active";
       inner = `<span class="v">${v?esc(capIfStart(before,v)):"&nbsp;"}</span>`;
@@ -718,14 +722,16 @@ function renderGap(l, ex){
     const [c,tot] = exScore(ex,p);
     recordBest(p, c, tot);
     html += scoreBox(c,tot);
+    if(c<tot) html += `<div class="revealbar"><button class="btn plain sm" id="reveal">${reveal?t("hideAnswers"):t("showAnswers")}</button></div>`;
     html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
-      const acc=ex.answers[k], v=p.answers[k], ok=accepts(ex, acc, v);
+      const acc=ex.answers[k], ok=accepts(ex, acc, p.answers[k]);
       const alt = acc.length>1 ? ` <span class="muted small">(${t("also")}: ${esc(acc.slice(1).join(" / "))})</span>` : "";
-      return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span>${ok?"":`<s class="muted">${esc(v||"—")}</s> → `}<b>${esc(acc[0])}</b>${alt} — ${tx(ex.why[k])}</div>`;
+      return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span> ${tx(ex.why[k])}${alt}</div>`;
     }).join("")}</div>`;
   }
   box.innerHTML = html;
   box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
+  const rv=$("#reveal"); if(rv) rv.onclick=()=>{ S.reveal = reveal ? null : l.id+"/"+ex.id; const y=window.scrollY; renderLesson(); window.scrollTo(0,y); };
   wirePlay(box, l, ex);
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
@@ -737,7 +743,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
+  const doReset = () => { S.reveal=null; p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;

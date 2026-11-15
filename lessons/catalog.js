@@ -60,7 +60,7 @@ const CATALOG = [
    "market",
    "birthdays"
   ],
-  "v": "cd0551e8",
+  "v": "d9be1716",
   "exercises": [
    {
     "id": "mc-easy",
