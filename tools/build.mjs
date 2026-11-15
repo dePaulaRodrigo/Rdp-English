@@ -10,6 +10,8 @@ const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalo
 const errors = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);
 const catalog = [];
+// Texto simples ou bilíngue {pt, en}: o bilíngue precisa das duas versões.
+const textOk = v => typeof v === "string" ? v.trim() !== "" : !!(v && typeof v === "object" && v.pt && v.en);
 const ids = new Set();
 
 for (const f of files) {
@@ -21,6 +23,8 @@ for (const f of files) {
   if (L.id + ".js" !== f) err(f, `id "${L.id}" diferente do nome do arquivo`);
   if (ids.has(L.id)) err(f, `id repetido "${L.id}"`); ids.add(L.id);
   for (const k of ["title", "area", "level", "icon", "color"]) if (!L[k]) err(f, `falta o campo ${k}`);
+  if (!textOk(L.explanation)) err(f, "explanation vazia ou bilíngue sem pt/en");
+  if (L.vocab !== undefined && !textOk(L.vocab)) err(f, "vocab vazio ou bilíngue sem pt/en");
   if (!Array.isArray(L.exercises) || !L.exercises.length) { err(f, "sem exercícios"); continue; }
   const exIds = new Set();
   L.exercises.forEach((ex, xi) => {
@@ -32,7 +36,7 @@ for (const f of files) {
         if (!Array.isArray(it.o) || it.o.length < 2) err(where, `item ${i + 1}: poucas opções`);
         else if (!(it.a >= 0 && it.a < it.o.length)) err(where, `item ${i + 1}: resposta "a" fora das opções`);
         else if (new Set(it.o).size !== it.o.length) err(where, `item ${i + 1}: opções repetidas`);
-        if (!it.why) err(where, `item ${i + 1}: falta explicação (why)`);
+        if (!textOk(it.why)) err(where, `item ${i + 1}: falta explicação (why) ou falta pt/en`);
       });
       if (!ex.items || !ex.items.length) err(where, "sem itens");
     } else if (ex.type === "gap") {
@@ -42,9 +46,11 @@ for (const f of files) {
       if (new Set(blanks).size !== blanks.length) err(where, "lacuna com número repetido");
       blanks.forEach(b => { if (!keys.includes(b)) err(where, `lacuna ${b} sem resposta`); });
       keys.forEach(k => { if (!blanks.includes(k)) err(where, `resposta ${k} sem lacuna no texto`); });
-      keys.forEach(k => { if (!(ex.why || {})[k]) err(where, `lacuna ${k} sem explicação (why)`); });
+      keys.forEach(k => { if (!textOk((ex.why || {})[k])) err(where, `lacuna ${k} sem explicação (why) ou falta pt/en`); });
+      if (ex.bank && new Set(ex.bank).size !== ex.bank.length) err(where, "bank com opções repetidas");
       if (ex.bank) keys.forEach(k => { if (!ex.bank.includes(ex.answers[k][0])) err(where, `resposta da lacuna ${k} não está no bank`); });
     } else err(where, `tipo desconhecido "${ex.type}"`);
+    if (!textOk(ex.instructions)) err(where, "falta instructions ou falta pt/en");
   });
   catalog.push({
     id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,

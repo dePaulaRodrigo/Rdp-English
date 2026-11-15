@@ -1,6 +1,44 @@
 // Gerado por tools/build.mjs — não editar à mão.
 const CATALOG = [
  {
+  "id": "capital-letters",
+  "title": "Capital Letters",
+  "area": "Inglês Cotidiano",
+  "icon": "🔠",
+  "color": "#e8eefb",
+  "level": "A1",
+  "order": 2,
+  "tags": [
+   "capital letters",
+   "countries and nationalities",
+   "days and months",
+   "travel"
+  ],
+  "v": "e0c7965e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 15
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "n": 15
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 19
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

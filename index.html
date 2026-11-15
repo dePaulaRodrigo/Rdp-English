@@ -57,7 +57,7 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .crumb{font-size:14px;color:var(--muted);margin-bottom:8px}
 .crumb a{color:var(--accent);cursor:pointer;text-decoration:none;font-weight:600}
 .tabs{display:flex;gap:6px;margin:16px 0 0}
-.tab{border:1px solid var(--line);border-bottom:0;background:#eceae3;padding:10px 16px;border-radius:12px 12px 0 0;font-weight:700;color:#4a5160}
+.tab{white-space:nowrap;border:1px solid var(--line);border-bottom:0;background:#eceae3;padding:10px 16px;border-radius:12px 12px 0 0;font-weight:700;color:#4a5160}
 .tab.on{background:var(--card);color:var(--accent)}
 .panel{border-top-left-radius:0}
 .pager{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
@@ -121,6 +121,10 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
 .toast.on{opacity:1}
 h2.area{margin:28px 0 12px}
+.metarow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.langsw{display:flex;margin-left:auto;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.langsw button{border:0;background:transparent;padding:6px 12px;font-weight:700;font-size:13px;color:#4a5160;cursor:pointer}
+.langsw button.on{background:var(--accent);color:#fff}
 </style>
 </head>
 <body>
@@ -189,7 +193,7 @@ async function newCode(){
   throw new Error("não foi possível gerar um código");
 }
 
-const S = { code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false };
+const S = { lang:"en", code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false };
 let saveTimer=null, warned=false;
 function persist(){
   if(!S.code) return;
@@ -215,6 +219,14 @@ const $ = s => document.querySelector(s);
 const app = $("#app");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => String(s||"").toLowerCase().replace(/[’‘]/g,"'").replace(/\s+/g," ").trim();
+const normC = s => String(s||"").replace(/[’‘]/g,"'").replace(/\s+/g," ").trim();
+/* Compara respostas; em exercícios com caseSensitive, maiúsculas e minúsculas contam. */
+const same = (ex,a,b) => ex.caseSensitive ? normC(a)===normC(b) : norm(a)===norm(b);
+const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
+/* Texto bilíngue: aceita "texto" ou {pt:"...", en:"..."}. */
+const tx = v => v==null ? "" : (typeof v==="string" ? v : (v[S.lang]||v.en||v.pt||""));
+const isBi = v => v && typeof v==="object" && (v.pt||v.en);
+function lessonLang(l){ return (S.data.prefs&&S.data.prefs.lang) || (/^A[12]/.test(l.level)?"pt":"en"); }
 function toast(msg){ const t=$("#toast"); t.textContent=msg; t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"),1800); }
 function copyCode(){
   navigator.clipboard.writeText(S.code).then(()=>toast("Código copiado"),()=>toast("Não deu para copiar — anote o código"));
@@ -227,7 +239,7 @@ function exDone(lesson, ex){
 function exScore(ex, p){
   if(ex.type==="mc"){ let c=0; ex.items.forEach((it,i)=>{ if(p.answers[i]===it.a) c++; }); return [c, ex.items.length]; }
   const keys = Object.keys(ex.answers); let c=0;
-  keys.forEach(k=>{ if(ex.answers[k].map(norm).includes(norm(p.answers[k]))) c++; });
+  keys.forEach(k=>{ if(accepts(ex, ex.answers[k], p.answers[k])) c++; });
   return [c, keys.length];
 }
 
@@ -344,13 +356,17 @@ function renderLibrary(){
 function renderLesson(){
   setHeader();
   const l = S.lesson, ex = l.exercises[S.ex];
+  S.lang = lessonLang(l);
+  const bi = isBi(l.explanation);
+  if(S.tab==="vocab" && !l.vocab) S.tab="ex";
   const pager = l.exercises.length>1 ? `<div class="pager"><span class="small muted">Exercícios:</span>${
-    l.exercises.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(e.title)}">${i+1}</button>`).join("")}</div>` : "";
+    l.exercises.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(tx(e.title))}">${i+1}</button>`).join("")}</div>` : "";
   let body;
-  if(S.tab==="expl"){ body = `<div class="expl">${l.explanation}</div>`; }
+  if(S.tab==="expl"){ body = `<div class="expl">${tx(l.explanation)}</div>`; }
+  else if(S.tab==="vocab"){ body = `<div class="expl">${tx(l.vocab)}</div>`; }
   else {
-    body = `${pager}<h2 style="margin-top:6px">${esc(ex.title)}</h2>
-      <div class="instr">${esc(ex.instructions)}</div>
+    body = `${pager}<h2 style="margin-top:6px">${esc(tx(ex.title))}</h2>
+      <div class="instr">${esc(tx(ex.instructions))}</div>
       <div class="resetbar" id="resetbar"></div>
       <div id="exBody"></div>
       ${l.exercises.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
@@ -358,11 +374,12 @@ function renderLesson(){
   app.innerHTML = `
     <div class="crumb"><a id="back">Lições</a> › ${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
-    <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>
-    <div class="tabs"><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">Exercícios</button><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">Explicação</button></div>
+    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>${bi?`<div class="langsw" title="Idioma das explicações"><button data-l="en" class="${S.lang==="en"?"on":""}">EN</button><button data-l="pt" class="${S.lang==="pt"?"on":""}">PT</button></div>`:""}</div>
+    <div class="tabs"><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">Exercícios</button><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">Explicação</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">Vocabulário</button>`:""}</div>
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { location.hash=""; };
   app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
+  app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
   app.querySelectorAll(".pg").forEach(b=> b.onclick=()=>{ S.ex=+b.dataset.i; closeSheet(); renderLesson(); window.scrollTo(0,0); });
   if(S.tab==="ex"){ ex.type==="mc" ? renderMC(l,ex) : renderGap(l,ex); }
 }
@@ -394,7 +411,7 @@ function renderMC(l, ex){
       let cls="opt"; if(answered){ if(j===it.a) cls+=" right"; else if(j===ans) cls+=" wrong"; }
       return `<button class="${cls}" data-q="${i}" data-o="${j}" ${answered?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
     }).join("");
-    const why = answered ? `<div class="why ${ans===it.a?"ok":"no"}"><b>${ans===it.a?"Correto.":"Não é essa."}</b> ${it.why}</div>` : "";
+    const why = answered ? `<div class="why ${ans===it.a?"ok":"no"}"><b>${ans===it.a?"Correto.":"Não é essa."}</b> ${tx(it.why)}</div>` : "";
     return `<div class="q"><div><span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
   }).join("") + mcSummary(ex,p);
   box.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
@@ -422,18 +439,21 @@ function bankOf(ex){
   return ex._bank;
 }
 function capIfStart(before, val){
+  if(sheetCaseSensitive) return val;
   const t = before.replace(/<[^>]*>/g,"").trim();
   if(t==="" || /[.?!]$/.test(t)) return val.charAt(0).toUpperCase()+val.slice(1);
   return val;
 }
+let sheetCaseSensitive = false;
 function renderGap(l, ex){
+  sheetCaseSensitive = !!ex.caseSensitive;
   const p = prog(l.id, ex.id);
   const box = $("#exBody");
   const blankHTML = (n, before) => {
     const v = p.answers[n]; const accepted = ex.answers[n];
     let cls="blank", inner;
     if(p.checked){
-      const ok = accepted.map(norm).includes(norm(v));
+      const ok = accepts(ex, accepted, v);
       cls += ok ? " ok":" no";
       inner = ok ? `<span class="v">${esc(capIfStart(before, v))}</span>`
                  : `${v?`<span class="v">${esc(capIfStart(before,v))}</span>`:""}<span class="fix">${esc(capIfStart(before, accepted[0]))}</span>`;
@@ -448,7 +468,7 @@ function renderGap(l, ex){
     parts.forEach((seg,i)=>{ if(i%2===0){ out+=esc(seg); before+=seg; } else { out+=blankHTML(+seg, before); before+="x"; } });
     return out;
   };
-  let html = ex.scene ? `<div class="scene">${esc(ex.scene)}</div>` : "";
+  let html = ex.scene ? `<div class="scene">${esc(tx(ex.scene))}</div>` : "";
   if(ex.layout==="dialogue"){
     html += `<div class="lines">${ex.lines.map(([sp,t])=>`<p><span class="sp">${esc(sp)}:</span> ${fill(t)}</p>`).join("")}</div>`;
   } else {
@@ -461,9 +481,9 @@ function renderGap(l, ex){
     const [c,t] = exScore(ex,p);
     html += `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":"Veja a correção abaixo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
     html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
-      const acc=ex.answers[k], v=p.answers[k], ok=acc.map(norm).includes(norm(v));
+      const acc=ex.answers[k], v=p.answers[k], ok=accepts(ex, acc, v);
       const alt = acc.length>1 ? ` <span class="muted small">(also: ${esc(acc.slice(1).join(" / "))})</span>` : "";
-      return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span>${ok?"":`<s class="muted">${esc(v||"—")}</s> → `}<b>${esc(acc[0])}</b>${alt} — ${ex.why[k]||""}</div>`;
+      return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span>${ok?"":`<s class="muted">${esc(v||"—")}</s> → `}<b>${esc(acc[0])}</b>${alt} — ${tx(ex.why[k])}</div>`;
     }).join("")}</div>`;
   }
   box.innerHTML = html;
@@ -499,7 +519,7 @@ function openSheet(l, ex, n){
   sheetCtx={l,ex}; S.activeBlank=n;
   const p = prog(l.id, ex.id);
   $("#sheetTitle").textContent = `Lacuna ${n}`;
-  $("#chips").innerHTML = bankOf(ex).map(o=>`<button class="chip ${norm(p.answers[n])===norm(o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
+  $("#chips").innerHTML = bankOf(ex).map(o=>`<button class="chip ${p.answers[n]!==undefined && same(ex,p.answers[n],o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
   $("#chips").querySelectorAll(".chip").forEach(c=> c.onclick=()=> pick(c.dataset.v));
   $("#sheet").classList.add("open");
   refreshGap();
