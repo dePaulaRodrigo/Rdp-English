@@ -6,7 +6,8 @@ import vm from "node:vm";
 import crypto from "node:crypto";
 
 const DIR = path.join(path.dirname(new URL(import.meta.url).pathname), "..", "lessons");
-const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalog.js").sort();
+const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalog.js" && !f.startsWith("_")).sort();
+const PARTS = JSON.parse(fs.readFileSync(path.join(DIR, "_parts.json"), "utf8"));
 const errors = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);
 const catalog = [];
@@ -23,6 +24,8 @@ for (const f of files) {
   if (L.id + ".js" !== f) err(f, `id "${L.id}" diferente do nome do arquivo`);
   if (ids.has(L.id)) err(f, `id repetido "${L.id}"`); ids.add(L.id);
   for (const k of ["title", "area", "level", "icon", "color"]) if (!L[k]) err(f, `falta o campo ${k}`);
+  if (!PARTS.some(p => p.n === L.part)) err(f, `part "${L.part}" não existe em _parts.json`);
+  if (!Number.isInteger(L.order)) err(f, "falta order (número do capítulo no ebook)");
   if (!textOk(L.explanation)) err(f, "explanation vazia ou bilíngue sem pt/en");
   if (L.vocab !== undefined && !textOk(L.vocab)) err(f, "vocab vazio ou bilíngue sem pt/en");
   if (!Array.isArray(L.exercises) || !L.exercises.length) { err(f, "sem exercícios"); continue; }
@@ -62,7 +65,7 @@ for (const f of files) {
   });
   catalog.push({
     id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,
-    order: L.order ?? 999, tags: L.tags || [],
+    part: L.part, order: L.order, tags: L.tags || [],
     v: crypto.createHash("sha1").update(src).digest("hex").slice(0, 8),
     exercises: L.exercises.map(e => ({ id: e.id, type: e.type, ...(e.reveal ? { reveal: e.reveal } : {}), n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length }))
   });
@@ -71,5 +74,5 @@ for (const f of files) {
 if (errors.length) { console.error("ERROS:\n- " + errors.join("\n- ")); process.exit(1); }
 catalog.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 fs.writeFileSync(path.join(DIR, "catalog.js"),
-  "// Gerado por tools/build.mjs — não editar à mão.\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
+  "// Gerado por tools/build.mjs — não editar à mão.\nconst PARTS = " + JSON.stringify(PARTS) + ";\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
 console.log(`OK: ${catalog.length} lições, ${catalog.reduce((s, l) => s + l.exercises.length, 0)} exercícios.`);

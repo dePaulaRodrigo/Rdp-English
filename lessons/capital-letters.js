@@ -1,7 +1,7 @@
 addLesson({
   id:"capital-letters",
   title:"Capital Letters",
-  area:"Inglês Cotidiano", icon:"🔠", color:"#e8eefb", level:"A1", order:2,
+  area:"Inglês Cotidiano", icon:"🔠", color:"#e8eefb", level:"A1", part:1, order:2,
   tags:["capital letters","countries and nationalities","days and months","travel"],
   explanation:{
 pt:`

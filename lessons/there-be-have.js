@@ -1,7 +1,7 @@
 addLesson({
   id:"there-be-have",
   title:"There Be vs. Have",
-  area:"Medicina de Família", icon:"🩺", color:"#e4f1ee", level:"B2",
+  area:"Medicina de Família", icon:"🩺", color:"#e4f1ee", level:"B2", part:2, order:14,
   explanation:`
     <h2>There be or have?</h2>
     <p>In Portuguese, <i>ter</i> covers two different ideas. English splits them:</p>

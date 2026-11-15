@@ -493,6 +493,11 @@ function renderMC(l, ex){
   };
   wireReset(p);
 }
+/* Guarda a melhor nota de cada exercício (em %), que sobrevive ao "Refazer". Usada pela trilha. */
+function recordBest(p, c, tot){
+  const pct = tot ? Math.round(100*c/tot) : 0;
+  if(!(p.best >= pct)){ p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(); }
+}
 function scoreBox(c,tt){
   const msg = c===tt ? t("perfect") : c>=tt*0.7 ? t("good") : t("retryExpl");
   return `<div class="score"><b>${c}/${tt}</b><span class="msg">${msg}</span><button class="btn plain" id="redo">${t("redo")}</button></div>`;
@@ -503,6 +508,7 @@ function mcSummary(ex,p){
     return `<div class="center"><p class="small muted">${t("answered",{n,total})}</p><button class="btn" id="check" ${n===0?"disabled":""}>${t("check")}</button></div>`;
   if(ex.reveal!=="end" && n<total) return `<p class="small muted center">${t("answered",{n,total})}</p>`;
   const [c,tot]=exScore(ex,p);
+  recordBest(p, c, tot);
   return scoreBox(c,tot);
 }
 
@@ -565,6 +571,7 @@ function renderGap(l, ex){
     html += `<div class="center"><p class="small muted">${t("filled",{n:filled,total})}</p><button class="btn" id="check" ${filled===0?"disabled":""}>${t("check")}</button></div>`;
   } else {
     const [c,tot] = exScore(ex,p);
+    recordBest(p, c, tot);
     html += scoreBox(c,tot);
     html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
       const acc=ex.answers[k], v=p.answers[k], ok=accepts(ex, acc, v);

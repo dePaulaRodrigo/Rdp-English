@@ -12,7 +12,8 @@ gera `lessons/catalog.js`, que é o índice usado na tela inicial. Sem esse pass
 
 ## Campos da lição
 - `id`, `title`, `area` (ex.: "Inglês Cotidiano", "Medicina de Família"), `level` (CEFR), `icon`, `color`
-- `order` (opcional): posição na lista; menor aparece antes. Use o número do tópico no ebook.
+- `part`: número da parte do ebook (lista em `lessons/_parts.json`).
+- `order`: número do capítulo no ebook. Define a ordem no catálogo e na trilha.
 - `tags` (opcional): ex. `["future simple", "planning a trip"]`
 - `explanation`: HTML da aba Explicação
 - `vocab` (opcional): HTML da aba Vocabulário
@@ -51,3 +52,7 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
 
 ## Estilo das explicações (why)
 Só a regra, curta. Não repetir a resposta certa (ela já aparece na correção) e não comentar as opções erradas.
+
+## Progresso guardado por exercício
+`answers`, `checked`, `order`/`optOrder` (estado atual) e `best` (melhor nota em %, com `bestAt`), que não é apagada pelo "Refazer".
+A trilha considera a lição concluída quando os quatro exercícios têm `best` ≥ 70.
