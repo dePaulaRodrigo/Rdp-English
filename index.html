@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://xmvjxzqpwnwxjouxaoar.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="no-referrer">
 <title>English Practice</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -163,6 +165,8 @@ const UI = { pt:{
   firstTime:"Primeira vez?", generate:"Gerar meu código", generating:"Gerando…", anyDevice:"O mesmo código funciona em qualquer aparelho.",
   codeWords:"O código tem 4 palavras.", codeNotFound:"Código não encontrado. Confira as 4 palavras.",
   serverDown:"Sem conexão com o servidor. Tente novamente em instantes.",
+  tooManyTries:"Muitas tentativas com códigos inexistentes a partir desta conexão. Aguarde uma hora e tente novamente.",
+  noNewCodes:"Não é possível gerar códigos novos neste momento. Tente novamente mais tarde.",
   offlineCached:"Sem conexão. Usando o progresso salvo neste aparelho.",
   offlineSaved:"Sem conexão. O progresso foi salvo neste aparelho e será enviado quando a internet voltar.",
   newCodeTitle:"Este é o seu código", newCodeSub:"Anote em algum lugar seguro. É com ele que você volta ao seu progresso. Quem tiver o código vê a sua sessão.",
@@ -219,7 +223,12 @@ const SB_URL = "https://xmvjxzqpwnwxjouxaoar.supabase.co";
 const SB_KEY = "sb_publishable_FKNyXJrsHPjt0dHnn_rsBQ_HVb2ipA_";
 async function rpc(fn, args){
   const r = await fetch(`${SB_URL}/rest/v1/rpc/${fn}`, {method:"POST", headers:{"apikey":SB_KEY,"Content-Type":"application/json"}, body:JSON.stringify(args)});
-  if(!r.ok) throw new Error("HTTP "+r.status);
+  if(!r.ok){
+    /* Limites do banco (supabase-protecao.sql) chegam como "limite: ..." */
+    let msg = "HTTP "+r.status;
+    try{ const j = await r.json(); if(j && j.message) msg = j.message; }catch(e){}
+    const err = new Error(msg); err.limit = /^limite:/.test(msg); throw err;
+  }
   const body = await r.text(); return body ? JSON.parse(body) : null;
 }
 async function hashCode(c){
@@ -343,7 +352,7 @@ function renderGate(msg){
   $("#new").onclick = async () => {
     busy(true, t("generating"));
     try{ const c = await newCode(); await login(c, true); }
-    catch(e){ busy(false); $("#err").textContent=t("serverDown"); }
+    catch(e){ busy(false); $("#err").textContent = e.limit ? t("noNewCodes") : t("serverDown"); }
   };
 }
 
@@ -357,6 +366,7 @@ async function login(c, isNew){
       data = await rpc("get_session", {p_hash:hash});
       if(data===null) return t("codeNotFound");
     }catch(e){
+      if(e.limit) return t("tooManyTries");
       const cached = loadAll()[c];
       if(!cached) return t("serverDown");
       data = cached; toast(t("offlineCached"));
