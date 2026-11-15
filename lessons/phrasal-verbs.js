@@ -1,7 +1,7 @@
 addLesson({
   id:"phrasal-verbs",
   title:"Phrasal Verbs — Particles",
-  area:"Geral", icon:"↕️", color:"#fdf0dc", level:"B1",
+  area:"Inglês Cotidiano", icon:"↕️", color:"#fdf0dc", level:"B1",
   explanation:`
     <h2>The particle keeps its idea</h2>
     <p>The particle often keeps an idea of its direction, even when there is no real movement. If you know the idea, you can often guess the meaning of a new phrasal verb.</p>

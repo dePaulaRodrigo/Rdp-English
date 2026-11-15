@@ -3,13 +3,13 @@ const CATALOG = [
  {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
-  "area": "Geral",
+  "area": "Inglês Cotidiano",
   "icon": "↕️",
   "color": "#fdf0dc",
   "level": "B1",
   "order": 999,
   "tags": [],
-  "v": "c8a369a5",
+  "v": "61cf00df",
   "exercises": [
    {
     "id": "p1",
