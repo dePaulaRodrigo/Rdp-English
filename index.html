@@ -169,6 +169,8 @@ const UI = { pt:{
   noNewCodes:"Não é possível gerar códigos novos neste momento. Tente novamente mais tarde.",
   offlineCached:"Sem conexão. Usando o progresso salvo neste aparelho.",
   offlineSaved:"Sem conexão. O progresso foi salvo neste aparelho e será enviado quando a internet voltar.",
+  saveRejected:"O servidor recusou o envio do progresso. Ele continua salvo neste aparelho.",
+  logoutPending:"Sem conexão: o progresso ainda não enviado fica neste aparelho e será enviado na próxima vez que você entrar com este código aqui.",
   newCodeTitle:"Este é o seu código", newCodeSub:"Anote em algum lugar seguro. É com ele que você volta ao seu progresso. Quem tiver o código vê a sua sessão.",
   copyCode:"Copiar código", copy:"Copiar", noted:"Anotei, continuar", copied:"Código copiado.", copyFail:"Não foi possível copiar. Anote o código.",
   yourCode:"Seu código", logout:"Sair", logoutNote:"Ao sair, o progresso continua guardado com este código.",
@@ -211,25 +213,40 @@ function loadLesson(meta){
    SESSÃO POR CÓDIGO (Supabase; cópia de segurança neste navegador)
    ============================================================ */
 const WORDS = "able acid actor agent album angle apple arena arrow atom autumn baby badge baker bamboo banana basket beach bean bell bird blanket boat bonus book bottle brain bread brick bridge brush bubble cable cactus camera candle canoe canvas carbon carpet castle cattle cereal chair cheese cherry circle citizen clock cloud coffee comet copper corn cotton crane crystal desert diamond dolphin donkey dragon drum eagle earth echo engine falcon feather fiber field flute forest fossil fruit galaxy garden giant ginger glass globe grape guitar hammer harbor helmet honey horse island ivory jacket jungle kettle ladder lemon library lion lizard magnet mango marble meadow melon mirror monkey motor needle ocean olive orange orbit oyster panda paper parrot peanut pepper piano pillow planet pocket potato pumpkin puzzle rabbit radio rocket saddle salmon silver spider spoon sugar summer tiger tomato tunnel turtle valley violin wagon walnut whale window winter wizard yogurt zebra".split(" ");
-const STORE_KEY = "englishPractice.sessions.v1";
+/* Cópia local: { [hash do código]: {d: dados, dirty: true se ainda não foi enviada ao servidor} }.
+   O código em si não fica guardado aqui; só em LAST_KEY, enquanto a sessão está aberta. */
+const STORE_KEY = "englishPractice.sessions.v2";
+const OLD_STORE_KEY = "englishPractice.sessions.v1";
 const LAST_KEY = "englishPractice.lastCode.v1";
 let memStore = {};
-function loadAll(){ try{ return JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); }catch(e){ return memStore; } }
+function loadAll(){ try{ const v = JSON.parse(localStorage.getItem(STORE_KEY)||"{}"); return (v && typeof v==="object") ? v : {}; }catch(e){ return memStore; } }
 function saveAll(all){ memStore = all; try{ localStorage.setItem(STORE_KEY, JSON.stringify(all)); }catch(e){} }
+function localGet(hash){ const e = loadAll()[hash]; return e && typeof e==="object" ? e : null; }
+function localPut(hash, d, dirty){ const all = loadAll(); all[hash] = {d, dirty: !!dirty}; saveAll(all); }
+function localDel(hash){ const all = loadAll(); delete all[hash]; saveAll(all); }
+/* Versão anterior guardava os dados pelo código em texto: converte para o hash e apaga. */
+async function migrateOldStore(){
+  let old; try{ old = JSON.parse(localStorage.getItem(OLD_STORE_KEY)||"null"); }catch(e){ return; }
+  if(!old || typeof old!=="object") return;
+  for(const c of Object.keys(old)){ if(!localGet(await hashCode(c))) localPut(await hashCode(c), old[c], true); }
+  try{ localStorage.removeItem(OLD_STORE_KEY); }catch(e){}
+}
 function getLast(){ try{ return localStorage.getItem(LAST_KEY); }catch(e){ return null; } }
 function setLast(c){ try{ c ? localStorage.setItem(LAST_KEY,c) : localStorage.removeItem(LAST_KEY); }catch(e){} }
 function normCode(s){ return (s||"").toLowerCase().replace(/[^a-z\s-]/g," ").split(/[\s-]+/).filter(Boolean).join(" "); }
 const SB_URL = "https://xmvjxzqpwnwxjouxaoar.supabase.co";
 const SB_KEY = "sb_publishable_FKNyXJrsHPjt0dHnn_rsBQ_HVb2ipA_";
-async function rpc(fn, args){
-  const r = await fetch(`${SB_URL}/rest/v1/rpc/${fn}`, {method:"POST", headers:{"apikey":SB_KEY,"Content-Type":"application/json"}, body:JSON.stringify(args)});
+async function rpc(fn, args, keepalive){
+  const body = JSON.stringify(args);
+  const r = await fetch(`${SB_URL}/rest/v1/rpc/${fn}`, {method:"POST", headers:{"apikey":SB_KEY,"Content-Type":"application/json"}, body,
+    keepalive: !!keepalive && body.length < 60000});
   if(!r.ok){
     /* Limites do banco (supabase-protecao.sql) chegam como "limite: ..." */
     let msg = "HTTP "+r.status;
     try{ const j = await r.json(); if(j && j.message) msg = j.message; }catch(e){}
     const err = new Error(msg); err.limit = /^limite:/.test(msg); throw err;
   }
-  const body = await r.text(); return body ? JSON.parse(body) : null;
+  const txt = await r.text(); return txt ? JSON.parse(txt) : null;
 }
 async function hashCode(c){
   const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("english-practice:"+c));
@@ -244,20 +261,90 @@ async function newCode(){
   throw new Error("não foi possível gerar um código");
 }
 
-const S = { lang:"en", code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false };
-let saveTimer=null, warned=false;
-function persist(){
-  if(!S.code) return;
-  const all = loadAll(); all[S.code] = S.data; saveAll(all);
-  S.dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(pushRemote, 700);
+const S = { lang:"en", code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false, rev:0 };
+let saveTimer=null, warned=false, pushing=null;
+
+/* Grava localmente e agenda o envio. "changed" é o trecho alterado pelo aluno (exercício ou preferências):
+   recebe a hora da alteração, usada para juntar progresso feito em aparelhos diferentes. */
+function persist(changed){
+  if(!S.hash) return;
+  if(changed) changed.t = Date.now();
+  localPut(S.hash, S.data, true);
+  S.rev++; S.dirty = true; clearTimeout(saveTimer); saveTimer = setTimeout(pushRemote, 700);
 }
-async function pushRemote(){
-  if(!S.hash || !S.dirty) return;
-  try{ await rpc("save_session", {p_hash:S.hash, p_data:S.data}); S.dirty=false; warned=false; }
-  catch(e){ if(!warned){ toast(t("offlineSaved")); warned=true; } }
+
+const BAD_KEYS = new Set(["__proto__","constructor","prototype"]);
+const isObj = v => v!==null && typeof v==="object" && !Array.isArray(v);
+/* Garante a estrutura esperada, mesmo que os dados venham corrompidos ou adulterados. */
+function sanitize(d){
+  const out = {progress:{}};
+  if(!isObj(d)) return out;
+  if(isObj(d.prefs)){
+    out.prefs = {};
+    for(const k of ["lang","native","ui"]) if(typeof d.prefs[k]==="string" && d.prefs[k].length<=8) out.prefs[k]=d.prefs[k];
+    if(typeof d.prefs.t==="number") out.prefs.t = d.prefs.t;
+  }
+  if(isObj(d.progress)) for(const lid of Object.keys(d.progress)){
+    if(BAD_KEYS.has(lid) || !isObj(d.progress[lid])) continue;
+    for(const eid of Object.keys(d.progress[lid])){
+      const e = d.progress[lid][eid];
+      if(BAD_KEYS.has(eid) || !isObj(e)) continue;
+      const c = {answers:{}, checked: e.checked===true};
+      if(isObj(e.answers)) for(const k of Object.keys(e.answers)){
+        const v = e.answers[k];
+        if(!BAD_KEYS.has(k) && (typeof v==="number" || (typeof v==="string" && v.length<=200))) c.answers[k]=v;
+      }
+      if(Array.isArray(e.order)) c.order = e.order;
+      if(Array.isArray(e.prevOrder)) c.prevOrder = e.prevOrder;
+      if(isObj(e.optOrder)) c.optOrder = e.optOrder;
+      if(typeof e.best==="number" && e.best>=0 && e.best<=100){ c.best = e.best; if(typeof e.bestAt==="string") c.bestAt = e.bestAt.slice(0,10); }
+      if(typeof e.t==="number") c.t = e.t;
+      (out.progress[lid] = out.progress[lid] || {})[eid] = c;
+    }
+  }
+  return out;
 }
-window.addEventListener("online", pushRemote);
-document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="hidden") pushRemote(); });
+/* Junta dois estados: em cada exercício vale a versão alterada por último; a melhor nota é a maior das duas. */
+function merge(a, b){
+  a = sanitize(a); b = sanitize(b);
+  const out = sanitize(a);
+  for(const lid of Object.keys(b.progress)) for(const eid of Object.keys(b.progress[lid])){
+    const x = (out.progress[lid]||{})[eid], y = b.progress[lid][eid];
+    const pick = !x || (y.t||0) > (x.t||0) ? y : x;
+    const best = Math.max(x && x.best>=0 ? x.best : -1, y.best>=0 ? y.best : -1);
+    const merged = Object.assign({}, pick);
+    if(best>=0){ merged.best = best; merged.bestAt = ((x && x.best===best) ? x.bestAt : y.bestAt) || pick.bestAt; }
+    (out.progress[lid] = out.progress[lid] || {})[eid] = merged;
+  }
+  if(b.prefs && (!out.prefs || (b.prefs.t||0) > (out.prefs.t||0))) out.prefs = b.prefs;
+  return out;
+}
+/* Envia ao servidor: lê o que está lá, junta com o local e grava o resultado.
+   Assim, progresso feito em outro aparelho ou outra aba não é sobrescrito.
+   Os dados locais (S.data) não são trocados aqui: as telas abertas guardam referências a eles.
+   O progresso vindo de outro aparelho entra no próximo login. */
+function pushRemote(leaving){
+  if(!S.hash || !S.dirty) return Promise.resolve(true);
+  if(pushing) return pushing.then(()=>pushRemote(leaving));
+  const hash = S.hash, rev = S.rev;
+  pushing = (async()=>{
+    try{
+      const server = await rpc("get_session", {p_hash:hash});
+      const data = server===null ? S.data : merge(server, S.data);
+      let ok = await rpc("save_session", {p_hash:hash, p_data:data}, leaving);
+      if(!ok){ await rpc("create_session", {p_hash:hash}); ok = await rpc("save_session", {p_hash:hash, p_data:data}, leaving); }
+      if(!ok) throw new Error("save");
+      if(S.hash===hash && S.rev===rev){ S.dirty = false; localPut(hash, S.data, false); }
+      warned = false; return true;
+    }catch(e){
+      if(!warned){ toast(e.limit ? t("saveRejected") : t("offlineSaved")); warned = true; }
+      return false;
+    }finally{ pushing = null; }
+  })();
+  return pushing;
+}
+window.addEventListener("online", ()=>pushRemote());
+document.addEventListener("visibilitychange", ()=>{ if(document.visibilityState==="hidden") pushRemote(true); });
 function prog(lid, eid){
   S.data.progress[lid] = S.data.progress[lid] || {};
   return S.data.progress[lid][eid] = S.data.progress[lid][eid] || {answers:{}, checked:false};
@@ -359,22 +446,25 @@ function renderGate(msg){
 /* Devolve uma mensagem de erro, ou nada se entrou. */
 async function login(c, isNew){
   const hash = await hashCode(c);
-  let data;
+  const local = localGet(hash);
+  let data, dirty = false;
   if(isNew){ data = {progress:{}}; }
   else {
     try{
-      data = await rpc("get_session", {p_hash:hash});
-      if(data===null) return t("codeNotFound");
+      const server = await rpc("get_session", {p_hash:hash});
+      if(server===null && !(local && local.dirty)) return t("codeNotFound");
+      /* Progresso feito sem internet neste aparelho e ainda não enviado: junta com o do servidor. */
+      if(local && local.dirty){ data = server===null ? sanitize(local.d) : merge(server, local.d); dirty = true; }
+      else data = sanitize(server);
     }catch(e){
       if(e.limit) return t("tooManyTries");
-      const cached = loadAll()[c];
-      if(!cached) return t("serverDown");
-      data = cached; toast(t("offlineCached"));
+      if(!local) return t("serverDown");
+      data = sanitize(local.d); dirty = !!local.dirty; toast(t("offlineCached"));
     }
   }
-  if(!data.progress) data.progress = {};
-  S.code=c; S.hash=hash; S.data=data; setLast(c);
-  const all=loadAll(); all[c]=data; saveAll(all);
+  S.code=c; S.hash=hash; S.data=data; S.dirty=dirty; setLast(c);
+  localPut(hash, data, dirty);
+  if(dirty) pushRemote();
   if(isNew) renderNewCode(); else route();
 }
 
@@ -439,7 +529,7 @@ function renderLesson(){
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { location.hash=""; };
   app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
-  app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
+  app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(S.data.prefs); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
   app.querySelectorAll(".pg").forEach(b=> b.onclick=()=>{ S.ex=+b.dataset.i; closeSheet(); renderLesson(); window.scrollTo(0,0); });
   if(S.tab==="ex"){ ex.type==="mc" ? renderMC(l,ex) : renderGap(l,ex); }
 }
@@ -482,13 +572,13 @@ function renderMC(l, ex){
     const i=+b.dataset.q;
     if(atEnd){ if(p.checked) return; }
     else if(p.answers[i]!==undefined) return;
-    p.answers[i]=+b.dataset.o; persist();
+    p.answers[i]=+b.dataset.o; persist(p);
     const y = window.scrollY; renderLesson(); window.scrollTo(0,y);
   });
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     const left = ex.items.length-Object.keys(p.answers).length;
     if(left>0) toast(left===1?t("missingItem1"):t("missingItemN",{n:left}));
-    p.checked=true; persist(); renderLesson();
+    p.checked=true; persist(p); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
   wireReset(p);
@@ -496,7 +586,7 @@ function renderMC(l, ex){
 /* Guarda a melhor nota de cada exercício (em %), que sobrevive ao "Refazer". Usada pela trilha. */
 function recordBest(p, c, tot){
   const pct = tot ? Math.round(100*c/tot) : 0;
-  if(!(p.best >= pct)){ p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(); }
+  if(!(p.best >= pct)){ p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(p); }
 }
 function scoreBox(c,tt){
   const msg = c===tt ? t("perfect") : c>=tt*0.7 ? t("good") : t("retryExpl");
@@ -562,9 +652,9 @@ function renderGap(l, ex){
   };
   let html = ex.scene ? `<div class="scene">${esc(tx(ex.scene))}</div>` : "";
   if(ex.layout==="dialogue"){
-    html += `<div class="lines">${ex.lines.map(([sp,t])=>`<p><span class="sp">${esc(sp)}:</span> ${fill(t)}</p>`).join("")}</div>`;
+    html += `<div class="lines">${ex.lines.map(([sp,line])=>`<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
   } else {
-    html += `<div class="lines list">${ex.lines.map((t,i)=>`<p><span class="num">${i+1}.</span><span>${fill(t)}</span></p>`).join("")}</div>`;
+    html += `<div class="lines list">${ex.lines.map((line,i)=>`<p><span class="num">${i+1}.</span><span>${fill(line)}</span></p>`).join("")}</div>`;
   }
   const total = Object.keys(ex.answers).length, filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
   if(!p.checked){
@@ -583,7 +673,7 @@ function renderGap(l, ex){
   box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
-    p.checked=true; persist(); closeSheet(); renderLesson();
+    p.checked=true; persist(p); closeSheet(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
   wireReset(p);
@@ -591,7 +681,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
+  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
@@ -619,7 +709,7 @@ function openSheet(l, ex, n){
 }
 function pick(v){
   const {l,ex}=sheetCtx; const p=prog(l.id,ex.id);
-  p.answers[S.activeBlank]=v; persist();
+  p.answers[S.activeBlank]=v; persist(p);
   const keys=Object.keys(ex.answers).map(Number);
   const next = keys.find(k=>k>S.activeBlank && !p.answers[k]) ?? keys.find(k=>!p.answers[k]);
   if(next!==undefined){ openSheet(l,ex,next); scrollToBlank(next); } else { closeSheet(); refreshGap(); }
@@ -632,7 +722,7 @@ function scrollToBlank(n){
 function refreshGap(){ const y=window.scrollY; if(S.lesson && S.tab==="ex"){ renderLesson(); window.scrollTo(0,y); } }
 function closeSheet(){ $("#sheet").classList.remove("open"); S.activeBlank=null; }
 $("#sheetClose").onclick=()=>{ closeSheet(); refreshGap(); };
-$("#sheetClear").onclick=()=>{ if(!sheetCtx) return; const p=prog(sheetCtx.l.id,sheetCtx.ex.id); delete p.answers[S.activeBlank]; persist(); openSheet(sheetCtx.l,sheetCtx.ex,S.activeBlank); };
+$("#sheetClear").onclick=()=>{ if(!sheetCtx) return; const p=prog(sheetCtx.l.id,sheetCtx.ex.id); delete p.answers[S.activeBlank]; persist(p); openSheet(sheetCtx.l,sheetCtx.ex,S.activeBlank); };
 
 /* ---------- Cabeçalho ---------- */
 $("#brand").onclick=()=>{ if(S.code){ if(location.hash.length>1) location.hash=""; else route(); } };
@@ -643,18 +733,25 @@ $("#codepill").onclick=()=>{
     <div class="row" style="margin-top:16px"><button class="btn plain" id="cp">${t("copy")}</button><button class="btn ghost" id="out">${t("logout")}</button><span class="spacer"></span><button class="btn" id="bk">${t("back")}</button></div>
     <p class="small muted" style="margin-top:14px">${t("logoutNote")}</p></div>`;
   $("#cp").onclick=copyCode;
-  $("#out").onclick=async()=>{ await pushRemote(); S.code=null; S.hash=null; S.data=null; setLast(null); if(location.hash.length>1) location.hash=""; else route(); };
+  $("#out").onclick=async()=>{
+    const ok = await pushRemote();
+    /* Enviado: apaga a cópia deste aparelho. Sem conexão: mantém a cópia (sem o código) para enviar na próxima entrada. */
+    if(ok) localDel(S.hash); else toast(t("logoutPending"));
+    S.code=null; S.hash=null; S.data=null; S.dirty=false; setLast(null);
+    if(location.hash.length>1) location.hash=""; else route();
+  };
   $("#bk").onclick=route;
 };
 
 window.addEventListener("hashchange", route);
 $("#sheetClear").textContent=t("clear"); $("#sheetClose").textContent=t("close");
 (async function init(){
+  await migrateOldStore();
   const last=getLast();
   if(last){
     app.innerHTML = `<p class="muted center">${t("loading")}</p>`;
     const msg = await login(last);
-    if(msg){ setLast(null); renderGate(); }
+    if(msg){ setLast(null); renderGate(msg); }
   } else route();
 })();
 </script>

@@ -22,6 +22,7 @@ for (const f of files) {
   catch (e) { err(f, "erro de sintaxe — " + e.message); continue; }
   if (!L) { err(f, "não chama addLesson(...)"); continue; }
   if (L.id + ".js" !== f) err(f, `id "${L.id}" diferente do nome do arquivo`);
+  if (!/^[a-z0-9-]+$/.test(L.id || "")) err(f, "id só pode ter letras minúsculas, números e hífens");
   if (ids.has(L.id)) err(f, `id repetido "${L.id}"`); ids.add(L.id);
   for (const k of ["title", "area", "level", "icon", "color"]) if (!L[k]) err(f, `falta o campo ${k}`);
   if (!PARTS.some(p => p.n === L.part)) err(f, `part "${L.part}" não existe em _parts.json`);
