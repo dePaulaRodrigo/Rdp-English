@@ -115,6 +115,7 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 /* sheet */
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;background:#fff;border-top:1px solid var(--line);box-shadow:0 -8px 24px rgba(28,34,48,.12);transform:translateY(110%);transition:transform .18s}
 .sheet.open{transform:none}
+.sheet:not(.open){box-shadow:none;visibility:hidden;transition:transform .18s, visibility 0s .18s}
 .sheet .in{max-width:820px;margin:0 auto;padding:12px 16px 18px}
 .sheet .hd{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:8px;max-height:38vh;overflow:auto}
@@ -131,11 +132,20 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .expl ul{padding-left:20px}
 .resetbar{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:8px;align-items:center;margin:-6px 0 14px;font-size:14.5px;min-height:8px}
 .linkbtn{border:0;background:none;color:var(--bad);font-weight:700;padding:6px 2px}
+.linkbtn.about{color:var(--accent)}
 .btn.sm{padding:8px 14px;font-size:14.5px}
 .btn.danger{background:var(--bad)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:40}
 .toast.on{opacity:1}
 h2.area{margin:28px 0 12px}
+.welcome{margin:8px 0 18px}
+.welcome h1{margin-top:0}
+.welcome p{margin:0 0 8px}
+.hometabs{display:flex;gap:6px;margin:6px 0 4px;border-bottom:1px solid var(--line)}
+.hometabs button{border:0;background:transparent;padding:10px 14px;font-size:16px;font-weight:700;color:#4a5160;border-bottom:3px solid transparent;margin-bottom:-1px}
+.hometabs button.on{color:var(--accent);border-color:var(--accent)}
+.homesub{margin:14px 0 4px}
+.lcard .art.soon{filter:grayscale(.6);opacity:.75}
 .metarow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .langsw{display:flex;margin-left:auto;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .langsw button{border:0;background:transparent;padding:6px 12px;font-weight:700;font-size:13px;color:#4a5160;cursor:pointer}
@@ -182,7 +192,14 @@ const UI = { pt:{
   newCodeTitle:"Este é o seu código", newCodeSub:"Anote em algum lugar seguro. É com ele que você volta ao seu progresso. Quem tiver o código vê a sua sessão.",
   copyCode:"Copiar código", copy:"Copiar", noted:"Anotei, continuar", copied:"Código copiado.", copyFail:"Não foi possível copiar. Anote o código.",
   yourCode:"Seu código", logout:"Sair", logoutNote:"Ao sair, o progresso continua guardado com este código.",
-  lessons:"Lições", lessonsSub:"Gramática praticada com o vocabulário da sua área.", exDone:"{done} de {total} exercícios feitos",
+  lessons:"Lições", lessonsSub:"Gramática praticada com o vocabulário da sua área.",
+  welcomeTitle:"Bem-vindo ao English Practice",
+  welcome1:"Aqui você pratica a gramática do inglês com exercícios corrigidos na hora. Cada lição traz a explicação do tópico, exercícios de dificuldade crescente e, em muitos casos, uma lista de vocabulário.",
+  welcome2:"O seu progresso fica guardado no seu código. Com ele, você continua de onde parou em qualquer aparelho.",
+  aboutShow:"Sobre o site", aboutHide:"Ocultar",
+  daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
+  pro:"Inglês Profissional", proSub:"Os mesmos tópicos de gramática, com o vocabulário da sua área de atuação. Escolha a sua área e, quando houver, a sua especialidade.",
+  soon:"Em preparação", fieldEmpty:"Os exercícios desta área estão em preparação.", general:"Geral", nLesson1:"1 lição", nLessonN:"{n} lições", exDone:"{done} de {total} exercícios feitos",
   exercises:"Exercícios:", tabExpl:"Explicação", tabPractice:"Prática", tabVocab:"Vocabulário", explLang:"Idioma das explicações",
   correct:"Correto.", answered:"{n} de {total} respondidas", filled:"{n} de {total} preenchidas", check:"Corrigir respostas",
   missingItem1:"Há 1 item sem resposta; ele conta como erro.", missingItemN:"Há {n} itens sem resposta; eles contam como erros.",
@@ -443,6 +460,7 @@ function route(){
   closeSheet(); stopAudio();
   if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
+  if(h.startsWith("area/")){ const f = fieldOf(h.slice(5)); if(f){ S.lesson=null; renderField(f); window.scrollTo(0,0); return; } }
   const meta = CATALOG.find(x=>x.id===h);
   if(!meta){ S.lesson=null; renderLibrary(); window.scrollTo(0,0); return; }
   const show = l => { if(location.hash.replace("#","")!==h) return; if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; } renderLesson(); window.scrollTo(0,0); };
@@ -531,23 +549,68 @@ function renderNewCode(){
   $("#go").onclick = () => { location.hash=""; route(); };
 }
 
+/* Nome legível da área (Inglês Cotidiano ou uma das áreas profissionais) e da especialidade. */
+const fieldOf = id => FIELDS.find(f=>f.id===id);
+const nameOf = o => o ? (o[uiLang()] || o.pt) : "";
+function areaLabel(l){
+  const f = fieldOf(l.area); if(!f) return l.area;
+  const sb = l.sub && f.subs.find(x=>x.id===l.sub);
+  return sb ? nameOf(sb) : nameOf(f);
+}
+function lessonCard(l){
+  const done = l.exercises.filter(e=>exDone(l,e)).length;
+  return `<button class="lcard" data-id="${l.id}">
+    <div class="art" style="background:${l.color}">${l.icon}</div>
+    <div class="body">
+      <div class="t">${esc(l.title)}</div>
+      <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span></div>
+      <div class="bar"><i style="width:${Math.round(100*done/l.exercises.length)}%"></i></div>
+      <div class="small muted" style="margin-top:6px">${t("exDone",{done, total:l.exercises.length})}</div>
+    </div></button>`;
+}
+function wireCards(){ app.querySelectorAll(".lcard[data-id]").forEach(b=> b.onclick = () => { location.hash = b.dataset.id; }); }
 function renderLibrary(){
   setHeader();
-  const card = l=>{
-    const done = l.exercises.filter(e=>exDone(l,e)).length;
-    return `<button class="lcard" data-id="${l.id}">
-      <div class="art" style="background:${l.color}">${l.icon}</div>
-      <div class="body">
-        <div class="t">${esc(l.title)}</div>
-        <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>
-        <div class="bar"><i style="width:${Math.round(100*done/l.exercises.length)}%"></i></div>
-        <div class="small muted" style="margin-top:6px">${t("exDone",{done, total:l.exercises.length})}</div>
-      </div></button>`;
-  };
-  const areas = [...new Set(CATALOG.map(l=>l.area))];
-  const sections = areas.map(a=>`<h2 class="area">${esc(a)}</h2><div class="grid">${CATALOG.filter(l=>l.area===a).map(card).join("")}</div>`).join("");
-  app.innerHTML = `<h1>${t("lessons")}</h1><p class="muted">${t("lessonsSub")}</p>${sections}`;
-  app.querySelectorAll(".lcard").forEach(b=> b.onclick = () => { location.hash = b.dataset.id; });
+  const isNew = !Object.keys(S.data.progress||{}).length;
+  const about = isNew || S.about;
+  const tab = S.home || "daily";
+  let body;
+  if(tab==="daily"){
+    body = `<p class="muted homesub">${t("dailySub")}</p><div class="grid">${CATALOG.filter(l=>l.area==="Inglês Cotidiano").map(lessonCard).join("")}</div>`;
+  } else {
+    body = `<p class="muted homesub">${t("proSub")}</p><div class="grid">${FIELDS.map(f=>{
+      const n = CATALOG.filter(l=>l.area===f.id).length;
+      return `<button class="lcard" data-field="${f.id}">
+        <div class="art ${n?"":"soon"}" style="background:${f.color}">${f.icon}</div>
+        <div class="body"><div class="t">${esc(nameOf(f))}</div>
+        <div class="small muted" style="margin-top:6px">${n ? (n===1?t("nLesson1"):t("nLessonN",{n})) : t("soon")}</div></div></button>`;
+    }).join("")}</div>`;
+  }
+  app.innerHTML = `
+    ${about ? `<div class="card welcome"><h1>${t("welcomeTitle")}</h1><p>${t("welcome1")}</p><p>${t("welcome2")}</p>${isNew?"":`<button class="linkbtn about" id="aboutBtn">${t("aboutHide")}</button>`}</div>`
+            : `<div style="text-align:right"><button class="linkbtn about" id="aboutBtn">${t("aboutShow")}</button></div>`}
+    <div class="hometabs"><button data-h="daily" class="${tab==="daily"?"on":""}">${t("daily")}</button><button data-h="pro" class="${tab==="pro"?"on":""}">${t("pro")}</button></div>
+    ${body}`;
+  const ab = $("#aboutBtn"); if(ab) ab.onclick = () => { S.about = !S.about; renderLibrary(); };
+  app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { S.home = b.dataset.h; renderLibrary(); });
+  app.querySelectorAll(".lcard[data-field]").forEach(b=> b.onclick = () => { location.hash = "area/"+b.dataset.field; });
+  wireCards();
+}
+/* Página de uma área profissional: especialidades (quando houver) e lições. */
+function renderField(f){
+  setHeader();
+  const ls = CATALOG.filter(l=>l.area===f.id);
+  const grid = arr => `<div class="grid">${arr.map(lessonCard).join("")}</div>`;
+  let body;
+  if(!ls.length) body = `<p class="muted">${t("fieldEmpty")}</p>`;
+  else {
+    const general = ls.filter(l=>!l.sub);
+    body = (general.length ? (f.subs.length ? `<h2 class="area">${t("general")}</h2>` : "") + grid(general) : "")
+      + f.subs.map(sb=>{ const a = ls.filter(l=>l.sub===sb.id); return a.length ? `<h2 class="area">${esc(nameOf(sb))}</h2>${grid(a)}` : ""; }).join("");
+  }
+  app.innerHTML = `<div class="crumb"><a id="back">${t("lessons")}</a> › ${t("pro")}</div><h1>${f.icon} ${esc(nameOf(f))}</h1>${body}`;
+  $("#back").onclick = () => { S.home="pro"; location.hash=""; };
+  wireCards();
 }
 
 function renderLesson(){
@@ -572,12 +635,13 @@ function renderLesson(){
       ${exs.length>1 ? `<div style="margin-top:24px">${pager}</div>`:""}`;
   }
   app.innerHTML = `
-    <div class="crumb"><a id="back">${t("lessons")}</a> › ${esc(l.title)}</div>
+    <div class="crumb"><a id="back">${t("lessons")}</a> › ${fieldOf(l.area)?`<a id="backField">${esc(nameOf(fieldOf(l.area)))}</a> › `:""}${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
-    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(l.area)}</span></div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
+    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span></div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
     <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">${t("tabExpl")}</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">${t("tabPractice")}</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">${t("tabVocab")}</button>`:""}</div>
     <div class="card panel">${body}</div>`;
-  $("#back").onclick = () => { location.hash=""; };
+  $("#back").onclick = () => { S.home = fieldOf(l.area) ? "pro" : "daily"; location.hash=""; };
+  const bf = $("#backField"); if(bf) bf.onclick = () => { location.hash = "area/"+l.area; };
   app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
   app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(S.data.prefs); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
   app.querySelectorAll(".pg").forEach(b=> b.onclick=()=>{ S.ex=+b.dataset.i; closeSheet(); renderLesson(); window.scrollTo(0,0); });

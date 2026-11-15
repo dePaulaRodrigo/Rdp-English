@@ -1,5 +1,6 @@
 // Gerado por tools/build.mjs — não editar à mão.
 const PARTS = [{"n":1,"pt":"Fundamentos","en":"Fundamentals"},{"n":2,"pt":"Os verbos To Be e There Be","en":"To Be and There Be"},{"n":3,"pt":"O presente","en":"The present"},{"n":4,"pt":"O passado","en":"The past"},{"n":5,"pt":"O Present Perfect","en":"The Present Perfect"},{"n":6,"pt":"O futuro","en":"The future"},{"n":7,"pt":"Verbos modais","en":"Modal verbs"},{"n":8,"pt":"Adjetivos, advérbios e comparações","en":"Adjectives, adverbs and comparisons"},{"n":9,"pt":"Quantificadores","en":"Quantifiers"},{"n":10,"pt":"Preposições","en":"Prepositions"},{"n":11,"pt":"Padrões verbais e verbos versáteis","en":"Verb patterns and versatile verbs"},{"n":12,"pt":"Voz passiva","en":"The passive voice"},{"n":13,"pt":"Condicionais, desejos e arrependimentos","en":"Conditionals, wishes and regrets"},{"n":14,"pt":"Frases complexas","en":"Complex sentences"},{"n":15,"pt":"Escrita","en":"Writing"}];
+const FIELDS = [{"id":"medicina","pt":"Medicina","en":"Medicine","icon":"🩺","color":"#e4f1ee","subs":[{"id":"medicina-de-familia","pt":"Medicina de Família","en":"Family Medicine"}]},{"id":"advocacia","pt":"Advocacia","en":"Law","icon":"⚖️","color":"#efe9f7","subs":[]},{"id":"ti","pt":"TI","en":"IT","icon":"💻","color":"#e3edf9","subs":[]},{"id":"marketing","pt":"Marketing","en":"Marketing","icon":"📣","color":"#fbe9e4","subs":[]},{"id":"empreendedorismo","pt":"Empreendedorismo","en":"Entrepreneurship","icon":"🚀","color":"#fdf3d8","subs":[]}];
 const CATALOG = [
  {
   "id": "capital-letters",
@@ -88,14 +89,15 @@ const CATALOG = [
  {
   "id": "there-be-have",
   "title": "There Be vs. Have",
-  "area": "Medicina de Família",
+  "area": "medicina",
+  "sub": "medicina-de-familia",
   "icon": "🩺",
   "color": "#e4f1ee",
   "level": "B2",
   "part": 2,
   "order": 14,
   "tags": [],
-  "v": "72a19dcc",
+  "v": "617159e3",
   "exercises": [
    {
     "id": "mc",

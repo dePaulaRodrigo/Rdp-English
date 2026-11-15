@@ -16,6 +16,8 @@ const audioOf = (lid, eid) => {
 const script = [];   // roteiro de gravação (audio/_roteiro.md)
 const files = fs.readdirSync(DIR).filter(f => f.endsWith(".js") && f !== "catalog.js" && !f.startsWith("_")).sort();
 const PARTS = JSON.parse(fs.readFileSync(path.join(DIR, "_parts.json"), "utf8"));
+// Áreas do Inglês Profissional (e especialidades). Lição de Inglês Cotidiano usa area:"Inglês Cotidiano".
+const FIELDS = JSON.parse(fs.readFileSync(path.join(DIR, "_fields.json"), "utf8"));
 const errors = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);
 const catalog = [];
@@ -33,6 +35,11 @@ for (const f of files) {
   if (!/^[a-z0-9-]+$/.test(L.id || "")) err(f, "id só pode ter letras minúsculas, números e hífens");
   if (ids.has(L.id)) err(f, `id repetido "${L.id}"`); ids.add(L.id);
   for (const k of ["title", "area", "level", "icon", "color"]) if (!L[k]) err(f, `falta o campo ${k}`);
+  if (L.area !== "Inglês Cotidiano") {
+    const fd = FIELDS.find(x => x.id === L.area);
+    if (!fd) err(f, `area "${L.area}" não existe: use "Inglês Cotidiano" ou um id de _fields.json`);
+    else if (L.sub && !fd.subs.some(x => x.id === L.sub)) err(f, `sub "${L.sub}" não existe na área ${L.area}`);
+  } else if (L.sub) err(f, "sub só vale para o Inglês Profissional");
   if (!PARTS.some(p => p.n === L.part)) err(f, `part "${L.part}" não existe em _parts.json`);
   if (!Number.isInteger(L.order)) err(f, "falta order (número do capítulo no ebook)");
   if (!textOk(L.explanation)) err(f, "explanation vazia ou bilíngue sem pt/en");
@@ -83,7 +90,7 @@ for (const f of files) {
     ex._ready = !ex.listen || (ex.items || []).every((_, i) => have.includes(i + 1));
   });
   catalog.push({
-    id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,
+    id: L.id, title: L.title, area: L.area, ...(L.sub ? { sub: L.sub } : {}), icon: L.icon, color: L.color, level: L.level,
     part: L.part, order: L.order, tags: L.tags || [],
     v: crypto.createHash("sha1").update(src).digest("hex").slice(0, 8),
     // Exercícios de áudio (listen) só entram no catálogo quando todos os áudios existem.
@@ -95,7 +102,7 @@ for (const f of files) {
 if (errors.length) { console.error("ERROS:\n- " + errors.join("\n- ")); process.exit(1); }
 catalog.sort((a, b) => a.order - b.order || a.title.localeCompare(b.title));
 fs.writeFileSync(path.join(DIR, "catalog.js"),
-  "// Gerado por tools/build.mjs — não editar à mão.\nconst PARTS = " + JSON.stringify(PARTS) + ";\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
+  "// Gerado por tools/build.mjs — não editar à mão.\nconst PARTS = " + JSON.stringify(PARTS) + ";\nconst FIELDS = " + JSON.stringify(FIELDS) + ";\nconst CATALOG = " + JSON.stringify(catalog, null, 1) + ";\n");
 let md = "# Roteiro de áudios\n\nGerado por tools/build.mjs — não editar à mão.\n\nSalve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.mjs`. Os botões de áudio aparecem sozinhos.\n";
 for (const g of script) {
   md += `\n## ${g.lesson} › ${g.ex}  (${g.rows.filter(r => g.have.includes(r[0])).length}/${g.rows.length})\n\n| Arquivo | Voz | Texto | Feito |\n| --- | --- | --- | --- |\n`;

@@ -65,3 +65,8 @@ Nada precisa mudar na lição: depois de salvar os arquivos, rode `node tools/bu
 - **Exercícios de escuta** (`listen:true`, tipo `mc`): cada item tem `say:"frase falada"`. O exercício fica escondido até existirem os áudios de todos os itens; só então entra na lição.
 
 `node tools/build.mjs` gera `audio/_roteiro.md`: a lista de todos os arquivos a gravar, com a voz (quem fala) e o texto exato de cada um, e marca os que já existem.
+
+## Áreas
+- `area:"Inglês Cotidiano"`: aparece na aba Inglês Cotidiano da página inicial.
+- Inglês Profissional: `area` é o id de uma área de `lessons/_fields.json` (medicina, advocacia, ti, marketing, empreendedorismo) e, se houver, `sub` é o id da especialidade (ex.: `area:"medicina", sub:"medicina-de-familia"`). Lições sem `sub` aparecem em "Geral".
+- Para criar uma área ou especialidade, acrescente-a em `_fields.json` e rode o build.

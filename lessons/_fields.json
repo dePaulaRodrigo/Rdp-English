@@ -1,0 +1,7 @@
+[
+ {"id":"medicina","pt":"Medicina","en":"Medicine","icon":"🩺","color":"#e4f1ee","subs":[{"id":"medicina-de-familia","pt":"Medicina de Família","en":"Family Medicine"}]},
+ {"id":"advocacia","pt":"Advocacia","en":"Law","icon":"⚖️","color":"#efe9f7","subs":[]},
+ {"id":"ti","pt":"TI","en":"IT","icon":"💻","color":"#e3edf9","subs":[]},
+ {"id":"marketing","pt":"Marketing","en":"Marketing","icon":"📣","color":"#fbe9e4","subs":[]},
+ {"id":"empreendedorismo","pt":"Empreendedorismo","en":"Entrepreneurship","icon":"🚀","color":"#fdf3d8","subs":[]}
+]
