@@ -229,7 +229,7 @@ en:`
          why:{pt:"Meses levam maiúscula.", en:"Months take a capital letter."}},
         {q:"My grandparents are from ___.", o:["Germany","germany","German"], a:0, sub:"countries",
          why:{pt:"Depois de <i>from</i>, vem o país, que leva maiúscula.", en:"After <i>from</i>, we need the country, which takes a capital letter."}},
-        {q:"Many trees lose their leaves in ___.", o:["autumn","Autumn"], a:0, sub:"seasons",
+        {q:"Many trees lose their leaves in the ___.", o:["fall","Fall"], a:0, sub:"seasons",
          why:{pt:"Estações do ano ficam com minúscula.", en:"Seasons are lowercase."}},
         {q:"Is your friend ___?", o:["Canadian","canadian","Canada"], a:0, sub:"nationality",
          why:{pt:"Depois de <i>Is your friend</i>, vem a nacionalidade, que leva maiúscula.", en:"After <i>Is your friend</i>, we need the nationality, which takes a capital letter."}},

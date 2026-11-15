@@ -16,7 +16,7 @@ const CATALOG = [
    "days and months",
    "travel"
   ],
-  "v": "a236a321",
+  "v": "f75a51d7",
   "exercises": [
    {
     "id": "mc-easy",
