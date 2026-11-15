@@ -27,9 +27,11 @@ a escolha do aluno fica guardada no código dele.
 Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogue-hard`.
 
 ## Tipos de exercício
+- `type:"mc"`, `reveal:"end"` (opcional, usado no `mc-hard`): o aluno responde tudo e só vê a correção no final, com o botão Corrigir respostas.
 - `type:"mc"`: `items:[{q:"frase com ___", o:[opções], a:índice certo, why:"explicação", sub:"subponto"}]`
 - `type:"gap"`, `layout:"dialogue"` (`lines:[["Fala", "texto com [[1]]"]]`) ou `layout:"list"` (`lines:["texto com [[1]]"]`)
   - `answers:{1:["resposta principal","alternativa aceita"]}`, `why:{1:"..."}`
+  - `opts` (opcional): `{1:["Certa","errada",...]}` — opções próprias de cada lacuna, mostradas em ordem embaralhada. Usado em vez do banco geral.
   - `bank` (opcional): lista fixa de opções, permite incluir distratores. Sem ela, o banco são as respostas principais.
   - `sub` (opcional): `{1:"subponto"}`
   - `caseSensitive:true` (opcional): maiúsculas e minúsculas contam na correção (ex.: lição de Capital Letters).
@@ -37,3 +39,6 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
 `sub` marca o subponto gramatical testado em cada item. Assim a versão ESP do mesmo tópico pode cobrir os mesmos subpontos.
 
 **Não mude o `id` de uma lição ou de um exercício depois de publicado**: o progresso dos alunos fica guardado por esses ids.
+
+## Estilo das explicações (why)
+Só a regra, curta. Não repetir a resposta certa (ela já aparece na correção) e não comentar as opções erradas.

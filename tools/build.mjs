@@ -48,6 +48,14 @@ for (const f of files) {
       keys.forEach(k => { if (!blanks.includes(k)) err(where, `resposta ${k} sem lacuna no texto`); });
       keys.forEach(k => { if (!textOk((ex.why || {})[k])) err(where, `lacuna ${k} sem explicação (why) ou falta pt/en`); });
       if (ex.bank && new Set(ex.bank).size !== ex.bank.length) err(where, "bank com opções repetidas");
+      if (ex.opts) keys.forEach(k => {
+        const o = ex.opts[k];
+        if (!Array.isArray(o) || o.length < 2) err(where, `lacuna ${k}: opts precisa de pelo menos 2 opções`);
+        else {
+          if (!o.includes(ex.answers[k][0])) err(where, `lacuna ${k}: resposta principal não está nas opts`);
+          if (new Set(o).size !== o.length) err(where, `lacuna ${k}: opts repetidas`);
+        }
+      });
       if (ex.bank) keys.forEach(k => { if (!ex.bank.includes(ex.answers[k][0])) err(where, `resposta da lacuna ${k} não está no bank`); });
     } else err(where, `tipo desconhecido "${ex.type}"`);
     if (!textOk(ex.instructions)) err(where, "falta instructions ou falta pt/en");
@@ -56,7 +64,7 @@ for (const f of files) {
     id: L.id, title: L.title, area: L.area, icon: L.icon, color: L.color, level: L.level,
     order: L.order ?? 999, tags: L.tags || [],
     v: crypto.createHash("sha1").update(src).digest("hex").slice(0, 8),
-    exercises: L.exercises.map(e => ({ id: e.id, type: e.type, n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length }))
+    exercises: L.exercises.map(e => ({ id: e.id, type: e.type, ...(e.reveal ? { reveal: e.reveal } : {}), n: e.type === "mc" ? e.items.length : Object.keys(e.answers).length }))
   });
 }
 

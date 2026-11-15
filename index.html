@@ -74,6 +74,7 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .opt{border:1.5px solid #cfd2dc;background:#fff;color:var(--ink);border-radius:10px;padding:10px 12px;text-align:left;font-size:16px;font-weight:500}
 .opt:hover:not(:disabled){border-color:var(--accent)}
 .opt:disabled{cursor:default;color:#4a5160;opacity:1}
+.opt.sel{border-color:var(--accent);background:#eef1fc;font-weight:600}
 .opt.right{background:var(--ok-soft);border-color:var(--ok);color:#0f5130;font-weight:600}
 .opt.wrong{background:var(--bad-soft);border-color:var(--bad);color:#7d1f15;text-decoration:line-through}
 .why{margin-top:10px;font-size:14.5px;padding:9px 12px;border-radius:9px}
@@ -110,6 +111,8 @@ input.code:focus{outline:2px solid var(--accent);border-color:transparent}
 .chip.sel{background:var(--accent);color:#fff;border-color:var(--accent)}
 .x{border:0;background:#eceae3;border-radius:8px;padding:6px 10px;font-weight:700}
 /* explanation */
+.expl{overflow-x:auto}
+.expl table.countries tr.c td{background:#f3f2ed;font-weight:700;border-bottom:0}
 .expl table{width:100%;border-collapse:collapse;margin:8px 0 18px;font-size:15px}
 .expl th,.expl td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 .expl th{background:#f3f2ed}
@@ -125,6 +128,8 @@ h2.area{margin:28px 0 12px}
 .langsw{display:flex;margin-left:auto;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .langsw button{border:0;background:transparent;padding:6px 12px;font-weight:700;font-size:13px;color:#4a5160;cursor:pointer}
 .langsw button.on{background:var(--accent);color:#fff}
+@media (max-width:520px){.expl table{font-size:14px}.expl th,.expl td{padding:6px 7px}}
+@media (max-width:380px){.expl table{font-size:13px}.expl th,.expl td{padding:5px 5px}}
 </style>
 </head>
 <body>
@@ -233,7 +238,7 @@ function copyCode(){
 }
 function exDone(lesson, ex){
   const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
-  if(ex.type==="mc") return Object.keys(p.answers).length === (ex.items ? ex.items.length : ex.n);
+  if(ex.type==="mc") return ex.reveal==="end" ? !!p.checked : Object.keys(p.answers).length === (ex.items ? ex.items.length : ex.n);
   return p.checked;
 }
 function exScore(ex, p){
@@ -398,32 +403,46 @@ function shuffledIdx(n, avoid){
 function renderMC(l, ex){
   const p = prog(l.id, ex.id);
   const box = $("#exBody");
+  const atEnd = ex.reveal==="end";   /* difícil: correção só no final, de uma vez */
   if(!Array.isArray(p.order) || p.order.length!==ex.items.length){
     const prev = p.prevOrder || [];
     p.order = ex.items.map((it,i)=>shuffledIdx(it.o.length, prev[i]));
     delete p.prevOrder; persist();
   }
   box.innerHTML = ex.items.map((it,i)=>{
-    const ans = p.answers[i]; const answered = ans!==undefined;
+    const ans = p.answers[i];
+    const shown = atEnd ? p.checked : ans!==undefined;
     const q = esc(it.q).replace("___",'<b style="letter-spacing:2px">_____</b>');
     const opts = p.order[i].map((j,pos)=>{
       const o = it.o[j];
-      let cls="opt"; if(answered){ if(j===it.a) cls+=" right"; else if(j===ans) cls+=" wrong"; }
-      return `<button class="${cls}" data-q="${i}" data-o="${j}" ${answered?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
+      let cls="opt";
+      if(shown){ if(j===it.a) cls+=" right"; else if(j===ans) cls+=" wrong"; }
+      else if(j===ans) cls+=" sel";
+      return `<button class="${cls}" data-q="${i}" data-o="${j}" ${shown?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
     }).join("");
-    const why = answered ? `<div class="why ${ans===it.a?"ok":"no"}"><b>${ans===it.a?"Correto.":"Não é essa."}</b> ${tx(it.why)}</div>` : "";
+    const why = shown ? `<div class="why ${ans===it.a?"ok":"no"}">${ans===it.a?"<b>Correto.</b> ":""}${tx(it.why)}</div>` : "";
     return `<div class="q"><div><span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
   }).join("") + mcSummary(ex,p);
   box.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
-    const i=+b.dataset.q; if(p.answers[i]!==undefined) return;
+    const i=+b.dataset.q;
+    if(atEnd){ if(p.checked) return; }
+    else if(p.answers[i]!==undefined) return;
     p.answers[i]=+b.dataset.o; persist();
     const y = window.scrollY; renderLesson(); window.scrollTo(0,y);
   });
+  const ck=$("#check"); if(ck) ck.onclick=()=>{
+    const left = ex.items.length-Object.keys(p.answers).length;
+    if(left>0) toast(`Faltam ${left} itens — corrigindo assim mesmo`);
+    p.checked=true; persist(); renderLesson();
+    const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
+  };
   wireReset(p);
 }
 function mcSummary(ex,p){
-  const n = Object.keys(p.answers).length;
-  if(n<ex.items.length) return `<p class="small muted center">${n} de ${ex.items.length} respondidas</p>`;
+  const n = Object.keys(p.answers).length, total = ex.items.length;
+  if(ex.reveal==="end" && !p.checked)
+    return `<div class="center"><p class="small muted">${n} de ${total} respondidas</p><button class="btn" id="check" ${n===0?"disabled":""}>Corrigir respostas</button></div>`;
+  if(ex.reveal!=="end" && n<total) return `<p class="small muted center">${n} de ${total} respondidas</p>`;
   const [c,t]=exScore(ex,p);
   return `<div class="score"><b>${c}/${t}</b><span>${c===t?"Perfeito.":c>=t*0.7?"Bom resultado. Revise os itens marcados em vermelho.":"Vale revisar a aba Explicação e tentar de novo."}</span><span class="spacer"></span><button class="btn plain" id="redo">Refazer</button></div>`;
 }
@@ -437,6 +456,14 @@ function bankOf(ex){
   if(ex.layout==="dialogue" || ![...set].every(w=>order.includes(w))){ ex._bank = [...set].sort((a,b)=>a.localeCompare(b)); }
   else { ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); }
   return ex._bank;
+}
+/* Opções da lacuna: as da própria lacuna (ex.opts[n], em ordem embaralhada e fixa) ou o banco geral. */
+function optionsFor(ex, p, n){
+  const own = ex.opts && ex.opts[n];
+  if(!own) return bankOf(ex);
+  p.optOrder = p.optOrder || {};
+  if(!Array.isArray(p.optOrder[n]) || p.optOrder[n].length!==own.length){ p.optOrder[n] = shuffledIdx(own.length); persist(); }
+  return p.optOrder[n].map(j=>own[j]);
 }
 function capIfStart(before, val){
   if(sheetCaseSensitive) return val;
@@ -498,7 +525,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { p.answers={}; p.checked=false; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
+  const doReset = () => { p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(); closeSheet(); renderLesson(); window.scrollTo(0,0); toast("Respostas apagadas. Bom recomeço!"); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
@@ -519,7 +546,7 @@ function openSheet(l, ex, n){
   sheetCtx={l,ex}; S.activeBlank=n;
   const p = prog(l.id, ex.id);
   $("#sheetTitle").textContent = `Lacuna ${n}`;
-  $("#chips").innerHTML = bankOf(ex).map(o=>`<button class="chip ${p.answers[n]!==undefined && same(ex,p.answers[n],o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
+  $("#chips").innerHTML = optionsFor(ex, p, n).map(o=>`<button class="chip ${p.answers[n]!==undefined && same(ex,p.answers[n],o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
   $("#chips").querySelectorAll(".chip").forEach(c=> c.onclick=()=> pick(c.dataset.v));
   $("#sheet").classList.add("open");
   refreshGap();
