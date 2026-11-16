@@ -196,6 +196,7 @@ const UI = { pt:{
   welcomeTitle:"Bem-vindo ao English Practice",
   welcome1:"Aqui você pratica a gramática do inglês com exercícios corrigidos na hora. Cada lição traz a explicação do tópico, exercícios de dificuldade crescente e, em muitos casos, uma lista de vocabulário.",
   welcome2:"O seu progresso fica guardado no seu código. Com ele, você continua de onde parou em qualquer aparelho.",
+  welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet.",
   aboutShow:"Sobre o site", aboutHide:"Ocultar",
   daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
   pro:"Inglês Profissional", proSub:"Os mesmos tópicos de gramática, com o vocabulário da sua área de atuação. Escolha a sua área e, quando houver, a sua especialidade.",
@@ -286,6 +287,36 @@ async function newCode(){
     if(await rpc("create_session", {p_hash: await hashCode(c)})) return c;
   }
   throw new Error("não foi possível gerar um código");
+}
+
+/* ---------- Estatísticas anônimas ----------
+   Só contadores (supabase-estatisticas.sql): nenhum código, hash ou endereço é enviado.
+   Campos: k tipo · l lição · x exercício · i item · d detalhe · ok 1 certo/2 errado · s nota % · t segundos · g idioma · v aparelho */
+const STQ = []; let stTimer = null;
+const DEVICE = (window.matchMedia && matchMedia("(pointer:coarse)").matches) || innerWidth < 700 ? "celular" : "computador";
+function track(k, o){
+  const e = Object.assign({k, v:DEVICE}, o||{});
+  if(S.lesson && e.l && !e.g) e.g = S.lang;
+  STQ.push(e);
+  if(STQ.length >= 40) flushStats(); else if(!stTimer) stTimer = setTimeout(flushStats, 60000);
+}
+function flushStats(leaving){
+  clearTimeout(stTimer); stTimer = null;
+  if(!STQ.length) return;
+  rpc("log_events", {p_events: STQ.splice(0, 60)}, leaving).catch(()=>{});
+  if(STQ.length) stTimer = setTimeout(flushStats, 5000);
+}
+document.addEventListener("visibilitychange", () => { if(document.visibilityState==="hidden") flushStats(true); });
+/* Abertura de exercício: conta uma vez por visita ao exercício e marca o início, para o tempo de conclusão. */
+function trackEx(l, ex){
+  const key = l.id+"/"+ex.id;
+  if(S.exKey===key) return;
+  S.exKey = key; S.exStart = Date.now();
+  track("ex", {l:l.id, x:ex.id});
+}
+function trackDone(l, ex, p){
+  const [c,tot] = exScore(ex,p);
+  track("done", {l:l.id, x:ex.id, s: tot ? Math.round(100*c/tot) : 0, t: S.exStart ? Math.min(3600, Math.round((Date.now()-S.exStart)/1000)) : 0});
 }
 
 const S = { lang:"en", code:null, hash:null, data:null, lesson:null, ex:0, tab:"ex", activeBlank:null, dirty:false, rev:0 };
@@ -443,6 +474,7 @@ function wirePlay(root, l, ex){
     e.stopPropagation();
     if(player.btn===b){ stopAudio(); return; }
     player.queue = null; const pa = $("#playAll"); if(pa) pa.textContent = t("playAll");
+    track("audio",{l:l.id, x:ex.id, i:+b.dataset.au});
     playFile(`audio/${l.id}/${ex.id}-${b.dataset.au}.mp3`, b);
   });
   const pa = $("#playAll"); if(pa) pa.onclick = () => {
@@ -473,10 +505,10 @@ function route(){
   closeSheet(); stopAudio();
   if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
-  if(h.startsWith("area/")){ const f = fieldOf(h.slice(5)); if(f){ S.lesson=null; renderField(f); window.scrollTo(0,0); return; } }
+  if(h.startsWith("area/")){ const f = fieldOf(h.slice(5)); if(f){ S.lesson=null; S.exKey=null; track("area",{d:f.id}); renderField(f); window.scrollTo(0,0); return; } }
   const meta = CATALOG.find(x=>x.id===h);
-  if(!meta){ S.lesson=null; renderLibrary(); window.scrollTo(0,0); return; }
-  const show = l => { if(location.hash.replace("#","")!==h) return; if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; } renderLesson(); window.scrollTo(0,0); };
+  if(!meta){ S.lesson=null; S.exKey=null; track("home",{d:S.home||"daily"}); renderLibrary(); window.scrollTo(0,0); return; }
+  const show = l => { if(location.hash.replace("#","")!==h) return; if(S.lesson!==l){ S.lesson=l; S.ex=0; S.tab="ex"; S.exKey=null; S.lang=lessonLang(l); track("lesson",{l:l.id}); track("tab",{l:l.id, d:"ex"}); } renderLesson(); window.scrollTo(0,0); };
   if(LOADED[h]){ show(LOADED[h]); return; }
   setHeader();
   app.innerHTML = `<p class="muted center">${t("loadingLesson")}</p>`;
@@ -510,13 +542,13 @@ function renderGate(msg){
     if(c.split(" ").length!==4){ $("#err").textContent=t("codeWords"); return; }
     busy(true, t("entering"));
     const msg = await login(c);
-    if(msg){ busy(false); $("#err").textContent = msg; }
+    if(msg){ busy(false); $("#err").textContent = msg; } else track("code",{d:"login"});
   };
   $("#enter").onclick = go;
   $("#codeIn").onkeydown = e => { if(e.key==="Enter") go(); };
   $("#new").onclick = async () => {
     busy(true, t("generating"));
-    try{ const c = await newCode(); await login(c, true); }
+    try{ const c = await newCode(); await login(c, true); track("code",{d:"new"}); }
     catch(e){ busy(false); $("#err").textContent = e.limit ? t("noNewCodes") : t("serverDown"); }
   };
 }
@@ -600,12 +632,12 @@ function renderLibrary(){
     }).join("")}</div>`;
   }
   app.innerHTML = `
-    ${about ? `<div class="card welcome"><h1>${t("welcomeTitle")}</h1><p>${t("welcome1")}</p><p>${t("welcome2")}</p>${isNew?"":`<button class="linkbtn about" id="aboutBtn">${t("aboutHide")}</button>`}</div>`
+    ${about ? `<div class="card welcome"><h1>${t("welcomeTitle")}</h1><p>${t("welcome1")}</p><p>${t("welcome2")}</p><p class="small muted">${t("welcome3")}</p>${isNew?"":`<button class="linkbtn about" id="aboutBtn">${t("aboutHide")}</button>`}</div>`
             : `<div style="text-align:right"><button class="linkbtn about" id="aboutBtn">${t("aboutShow")}</button></div>`}
     <div class="hometabs"><button data-h="daily" class="${tab==="daily"?"on":""}">${t("daily")}</button><button data-h="pro" class="${tab==="pro"?"on":""}">${t("pro")}</button></div>
     ${body}`;
   const ab = $("#aboutBtn"); if(ab) ab.onclick = () => { S.about = !S.about; renderLibrary(); };
-  app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { S.home = b.dataset.h; renderLibrary(); });
+  app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { S.home = b.dataset.h; track("home",{d:S.home}); renderLibrary(); });
   app.querySelectorAll(".lcard[data-field]").forEach(b=> b.onclick = () => { location.hash = "area/"+b.dataset.field; });
   wireCards();
 }
@@ -655,10 +687,10 @@ function renderLesson(){
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { S.home = fieldOf(l.area) ? "pro" : "daily"; location.hash=""; };
   const bf = $("#backField"); if(bf) bf.onclick = () => { location.hash = "area/"+l.area; };
-  app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ S.tab=b.dataset.t; closeSheet(); renderLesson(); });
-  app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(S.data.prefs); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
+  app.querySelectorAll(".tab").forEach(b=> b.onclick=()=>{ if(S.tab!==b.dataset.t) track("tab",{l:l.id, d:b.dataset.t}); S.tab=b.dataset.t; closeSheet(); renderLesson(); });
+  app.querySelectorAll(".langsw button").forEach(b=> b.onclick=()=>{ S.data.prefs = Object.assign({}, S.data.prefs, {lang:b.dataset.l}); persist(S.data.prefs); track("lang",{l:l.id, g:b.dataset.l}); const y=window.scrollY; renderLesson(); window.scrollTo(0,y); });
   app.querySelectorAll(".pg").forEach(b=> b.onclick=()=>{ S.ex=+b.dataset.i; closeSheet(); renderLesson(); window.scrollTo(0,0); });
-  if(S.tab==="ex"){ ex.type==="mc" ? renderMC(l,ex) : renderGap(l,ex); }
+  if(S.tab==="ex"){ trackEx(l, ex); ex.type==="mc" ? renderMC(l,ex) : renderGap(l,ex); }
 }
 
 /* ---------- Múltipla escolha por item ---------- */
@@ -702,11 +734,17 @@ function renderMC(l, ex){
     if(atEnd){ if(p.checked) return; }
     else if(p.answers[i]!==undefined) return;
     p.answers[i]=+b.dataset.o; persist(p);
+    if(!atEnd){
+      track("answer", {l:l.id, x:ex.id, i:i+1, ok: p.answers[i]===ex.items[i].a ? 1 : 2, d: ex.items[i].o[p.answers[i]]});
+      if(Object.keys(p.answers).length===ex.items.length) trackDone(l, ex, p);
+    }
     const y = window.scrollY; renderLesson(); window.scrollTo(0,y);
   });
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     const left = ex.items.length-Object.keys(p.answers).length;
     if(left>0) toast(left===1?t("missingItem1"):t("missingItemN",{n:left}));
+    ex.items.forEach((it,i)=>{ const a=p.answers[i]; track("answer", {l:l.id, x:ex.id, i:i+1, ok: a===it.a ? 1 : 2, d: a===undefined ? "" : it.o[a]}); });
+    trackDone(l, ex, p);
     p.checked=true; persist(p); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
@@ -808,10 +846,12 @@ function renderGap(l, ex){
   }
   box.innerHTML = html;
   box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
-  const rv=$("#reveal"); if(rv) rv.onclick=()=>{ S.reveal = reveal ? null : l.id+"/"+ex.id; const y=window.scrollY; renderLesson(); window.scrollTo(0,y); };
+  const rv=$("#reveal"); if(rv) rv.onclick=()=>{ if(!reveal) track("reveal",{l:l.id, x:ex.id}); S.reveal = reveal ? null : l.id+"/"+ex.id; const y=window.scrollY; renderLesson(); window.scrollTo(0,y); };
   wirePlay(box, l, ex);
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
+    Object.keys(ex.answers).forEach(k=>{ const v=p.answers[k]; track("answer", {l:l.id, x:ex.id, i:+k, ok: accepts(ex, ex.answers[k], v) ? 1 : 2, d: v||""}); });
+    trackDone(l, ex, p);
     p.checked=true; persist(p); closeSheet(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
@@ -820,7 +860,7 @@ function renderGap(l, ex){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { S.reveal=null; p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
+  const doReset = () => { if(S.lesson){ const e=exsOf(S.lesson)[S.ex]; if(e){ track("redo",{l:S.lesson.id, x:e.id}); S.exStart=Date.now(); } } S.reveal=null; p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
@@ -887,6 +927,7 @@ $("#sheetClear").textContent=t("clear"); $("#sheetClose").textContent=t("close")
 (async function init(){
   await migrateOldStore();
   const last=getLast();
+  track("visit", {d: String(navigator.language||"").slice(0,10), ok: last ? 1 : 2});
   if(last){
     app.innerHTML = `<p class="muted center">${t("loading")}</p>`;
     const msg = await login(last);
