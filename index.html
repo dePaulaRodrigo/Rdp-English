@@ -326,6 +326,7 @@ function sanitize(d){
       if(isObj(e.optOrder)) c.optOrder = e.optOrder;
       if(typeof e.best==="number" && e.best>=0 && e.best<=100){ c.best = e.best; if(typeof e.bestAt==="string") c.bestAt = e.bestAt.slice(0,10); }
       if(typeof e.t==="number") c.t = e.t;
+      if(Number.isInteger(e.rev)) c.rev = e.rev;
       (out.progress[lid] = out.progress[lid] || {})[eid] = c;
     }
   }
@@ -376,6 +377,16 @@ function prog(lid, eid){
   S.data.progress[lid] = S.data.progress[lid] || {};
   return S.data.progress[lid][eid] = S.data.progress[lid][eid] || {answers:{}, checked:false};
 }
+/* Exercício reformulado (campo rev): respostas antigas não valem para os itens novos. A melhor nota fica. */
+function progEx(l, ex){
+  const p = prog(l.id, ex.id), r = ex.rev||0;
+  if((p.rev||0)!==r){
+    p.answers={}; p.checked=false; delete p.order; delete p.prevOrder; delete p.optOrder;
+    if(r) p.rev=r; else delete p.rev;
+    persist(p);
+  }
+  return p;
+}
 
 /* ============================================================
    UTILIDADES
@@ -389,6 +400,8 @@ const normC = s => String(s||"").replace(/[’‘]/g,"'").replace(/\s+/g," ").tr
 const same = (ex,a,b) => ex.caseSensitive ? normC(a)===normC(b) : norm(a)===norm(b);
 const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
 /* Texto bilíngue: aceita "texto" ou {pt:"...", en:"..."}. */
+/* "Correto." acompanha o idioma das explicações, não o da interface. */
+const CORRECT = {pt:"Correto.", en:"Correct.", es:"Correcto.", it:"Corretto.", fr:"Correct."};
 const tx = v => v==null ? "" : (typeof v==="string" ? v : (v[S.lang]||v.en||v.pt||""));
 const isBi = v => v && typeof v==="object" && (v.pt||v.en);
 /* Idiomas de conteúdo, na ordem do seletor. O idioma nativo padrão do aluno é o português. */
@@ -660,10 +673,10 @@ function shuffledIdx(n, avoid){
   return a;
 }
 function renderMC(l, ex){
-  const p = prog(l.id, ex.id);
+  const p = progEx(l, ex);
   const box = $("#exBody");
   const atEnd = ex.reveal==="end";   /* difícil: correção só no final, de uma vez */
-  if(!Array.isArray(p.order) || p.order.length!==ex.items.length){
+  if(!Array.isArray(p.order) || p.order.length!==ex.items.length || p.order.some((o,i)=>!Array.isArray(o) || o.length!==ex.items[i].o.length)){
     const prev = p.prevOrder || [];
     p.order = ex.items.map((it,i)=>shuffledIdx(it.o.length, prev[i]));
     delete p.prevOrder; persist();
@@ -680,7 +693,7 @@ function renderMC(l, ex){
       return `<button class="${cls}" data-q="${i}" data-o="${j}" ${shown?"disabled":""}>${String.fromCharCode(97+pos)}) ${esc(o)}</button>`;
     }).join("");
     const au = auOf(l, ex), hasAu = au.includes(i+1) && (ex.listen || shown);
-    const why = shown ? `<div class="why ${ans===it.a?"ok":"no"}">${ans===it.a?`<b>${t("correct")}</b> `:""}${tx(it.why)}</div>` : "";
+    const why = shown ? `<div class="why ${ans===it.a?"ok":"no"}">${ans===it.a?`<b>${CORRECT[S.lang]||t("correct")}</b> `:""}${tx(it.why)}</div>` : "";
     return `<div class="q"><div>${hasAu?playBtn(i+1):""}<span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
   }).join("") + mcSummary(ex,p);
   wirePlay(box, l, ex);
@@ -745,7 +758,7 @@ function capIfStart(before, val){
 let sheetCaseSensitive = false;
 function renderGap(l, ex){
   sheetCaseSensitive = !!ex.caseSensitive;
-  const p = prog(l.id, ex.id);
+  const p = progEx(l, ex);
   const box = $("#exBody");
   const reveal = p.checked && S.reveal === l.id+"/"+ex.id;
   const blankHTML = (n, before) => {

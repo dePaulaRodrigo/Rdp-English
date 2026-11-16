@@ -61,18 +61,18 @@ const CATALOG = [
    "market",
    "birthdays"
   ],
-  "v": "d9be1716",
+  "v": "7a010ac5",
   "exercises": [
    {
     "id": "mc-easy",
     "type": "mc",
-    "n": 15
+    "n": 16
    },
    {
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 15
+    "n": 16
    },
    {
     "id": "dialogue-medium",
