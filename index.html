@@ -367,7 +367,46 @@ function sanitize(d){
       (out.progress[lid] = out.progress[lid] || {})[eid] = c;
     }
   }
+  const lv = cleanLevels(d.levels); if(lv) out.levels = lv;
   return out;
+}
+/* ---------- Níveis do aluno (preparado para o teste de nivelamento e a trilha) ----------
+   levels.start: nível inicial (primeiro resultado do teste de nivelamento; não muda depois).
+   levels.cur:   nível atual (último teste refeito ou avanço na trilha).
+   levels.hist:  histórico de mudanças, para medir o tempo entre um nível e outro (até 30 registros).
+   Cada registro: {l:"A2", at:"AAAA-MM-DD", src:"test"|"trail"}. Ficam nos dados do código, como o progresso. */
+const CEFR = ["A1","A2","B1","B2","C1","C2"];
+function cleanLvl(e){
+  if(!isObj(e) || !CEFR.includes(e.l) || typeof e.at!=="string" || !/^\d{4}-\d{2}-\d{2}$/.test(e.at)) return null;
+  const o = {l:e.l, at:e.at}; if(e.src==="test" || e.src==="trail") o.src = e.src; return o;
+}
+function cleanLevels(v){
+  if(!isObj(v)) return null;
+  const o = {}, st = cleanLvl(v.start), cu = cleanLvl(v.cur);
+  if(st) o.start = st; if(cu) o.cur = cu;
+  if(Array.isArray(v.hist)) o.hist = v.hist.map(cleanLvl).filter(Boolean).slice(-30);
+  return Object.keys(o).length ? o : null;
+}
+function mergeLevels(a, b){
+  if(!a) return b; if(!b) return a;
+  const o = {};
+  const st = [a.start, b.start].filter(Boolean).sort((x,y)=>x.at.localeCompare(y.at));
+  const cu = [a.cur, b.cur].filter(Boolean).sort((x,y)=>y.at.localeCompare(x.at));
+  if(st.length) o.start = st[0]; if(cu.length) o.cur = cu[0];
+  const seen = new Set(), h = [];
+  [...(a.hist||[]), ...(b.hist||[])].sort((x,y)=>x.at.localeCompare(y.at)).forEach(e=>{ const k=e.l+e.at+(e.src||""); if(!seen.has(k)){ seen.add(k); h.push(e); } });
+  if(h.length) o.hist = h.slice(-30);
+  return o;
+}
+/* A chamar pelo teste de nivelamento (src "test") ou pela trilha (src "trail"). */
+function setLevel(l, src){
+  if(!CEFR.includes(l) || !S.data) return;
+  const e = {l, at: new Date().toISOString().slice(0,10), src};
+  const lv = S.data.levels = S.data.levels || {};
+  if(!lv.start && src==="test") lv.start = e;
+  lv.cur = e;
+  lv.hist = (lv.hist||[]).concat(e).slice(-30);
+  persist();
 }
 /* Junta dois estados: em cada exercício vale a versão alterada por último; a melhor nota é a maior das duas. */
 function merge(a, b){
@@ -382,6 +421,7 @@ function merge(a, b){
     (out.progress[lid] = out.progress[lid] || {})[eid] = merged;
   }
   if(b.prefs && (!out.prefs || (b.prefs.t||0) > (out.prefs.t||0))) out.prefs = b.prefs;
+  const lv = mergeLevels(out.levels, b.levels); if(lv) out.levels = lv;
   return out;
 }
 /* Envia ao servidor: lê o que está lá, junta com o local e grava o resultado.

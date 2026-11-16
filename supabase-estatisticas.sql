@@ -202,4 +202,42 @@ select device as dispositivo, sum(n) as acessos
 from public.stats_daily where kind = 'visit'
 group by device order by acessos desc;
 
+-- ---------- Níveis dos alunos (preenchidos quando o teste de nivelamento e a trilha existirem) ----------
+-- Lidos dos dados de cada código (data.levels): start = nível inicial (teste de nivelamento), cur = nível atual.
+-- Só totais: nenhuma consulta mostra códigos. O código de professor (#nao-contar) fica de fora.
+create or replace function estatisticas._date(v text) returns date
+language plpgsql immutable as $$
+begin
+  return case when v ~ '^\d{4}-\d{2}-\d{2}$' then v::date end;
+exception when others then return null;
+end $$;
+
+create or replace view estatisticas._niveis as
+select data->'levels'->'start'->>'l'                                   as inicial,
+       coalesce(data->'levels'->'cur'->>'l', data->'levels'->'start'->>'l') as atual,
+       estatisticas._date(data->'levels'->'start'->>'at')              as inicial_em,
+       estatisticas._date(data->'levels'->'cur'->>'at')                as atual_em,
+       updated_at > now() - interval '30 days'                         as ativo_30_dias
+from public.sessions
+where data ? 'levels'
+  and coalesce(data->'prefs'->>'noStats', '') <> 'true';
+
+create or replace view estatisticas.niveis_iniciais as
+select inicial as nivel, count(*) as alunos, count(*) filter (where ativo_30_dias) as ativos_30_dias
+from estatisticas._niveis where inicial is not null
+group by inicial order by inicial;
+
+create or replace view estatisticas.niveis_atuais as
+select atual as nivel, count(*) as alunos, count(*) filter (where ativo_30_dias) as ativos_30_dias
+from estatisticas._niveis where atual is not null
+group by atual order by atual;
+
+-- De que nível os alunos partiram e onde estão agora, com o tempo médio entre os dois.
+create or replace view estatisticas.niveis_evolucao as
+select inicial, atual, count(*) as alunos,
+       round(avg(atual_em - inicial_em) / 30.0, 1) as meses_em_media
+from estatisticas._niveis where inicial is not null
+group by inicial, atual order by inicial, atual;
+
 revoke all on all tables in schema estatisticas from public, anon, authenticated;
+revoke all on all functions in schema estatisticas from public, anon, authenticated;
