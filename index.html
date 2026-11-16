@@ -196,6 +196,8 @@ const UI = { pt:{
   welcomeTitle:"Bem-vindo ao English Practice",
   welcome1:"Aqui você pratica a gramática do inglês com exercícios corrigidos na hora. Cada lição traz a explicação do tópico, exercícios de dificuldade crescente e, em muitos casos, uma lista de vocabulário.",
   welcome2:"O seu progresso fica guardado no seu código. Com ele, você continua de onde parou em qualquer aparelho.",
+  noStatsOn:"Este código não entra mais nas estatísticas.", noStatsOff:"Este código voltou a entrar nas estatísticas.",
+  noStatsNote:"Código de professor: o uso dele não entra nas estatísticas.",
   welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet.",
   aboutShow:"Sobre o site", aboutHide:"Ocultar",
   daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
@@ -294,7 +296,10 @@ async function newCode(){
    Campos: k tipo · l lição · x exercício · i item · d detalhe · ok 1 certo/2 errado · s nota % · t segundos · g idioma · v aparelho */
 const STQ = []; let stTimer = null;
 const DEVICE = (window.matchMedia && matchMedia("(pointer:coarse)").matches) || innerWidth < 700 ? "celular" : "computador";
+/* Código do professor (marcado com #nao-contar): nada do que ele faz entra nas estatísticas. */
+const noStats = () => !!(S.data && S.data.prefs && S.data.prefs.noStats);
 function track(k, o){
+  if(noStats()) return;
   const e = Object.assign({k, v:DEVICE}, o||{});
   if(S.lesson && e.l && !e.g) e.g = S.lang;
   STQ.push(e);
@@ -341,6 +346,7 @@ function sanitize(d){
     out.prefs = {};
     for(const k of ["lang","native","ui"]) if(typeof d.prefs[k]==="string" && d.prefs[k].length<=8) out.prefs[k]=d.prefs[k];
     if(typeof d.prefs.t==="number") out.prefs.t = d.prefs.t;
+    if(d.prefs.noStats===true) out.prefs.noStats = true;
   }
   if(isObj(d.progress)) for(const lid of Object.keys(d.progress)){
     if(BAD_KEYS.has(lid) || !isObj(d.progress[lid])) continue;
@@ -505,6 +511,12 @@ function route(){
   closeSheet(); stopAudio();
   if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
+  if(h==="nao-contar" || h==="contar"){
+    const on = h==="nao-contar";
+    S.data.prefs = Object.assign({}, S.data.prefs);
+    if(on){ S.data.prefs.noStats = true; STQ.length = 0; } else delete S.data.prefs.noStats;
+    persist(S.data.prefs); toast(t(on?"noStatsOn":"noStatsOff")); location.hash = ""; return;
+  }
   if(h.startsWith("area/")){ const f = fieldOf(h.slice(5)); if(f){ S.lesson=null; S.exKey=null; track("area",{d:f.id}); renderField(f); window.scrollTo(0,0); return; } }
   const meta = CATALOG.find(x=>x.id===h);
   if(!meta){ S.lesson=null; S.exKey=null; track("home",{d:S.home||"daily"}); renderLibrary(); window.scrollTo(0,0); return; }
@@ -573,6 +585,7 @@ async function login(c, isNew){
     }
   }
   S.code=c; S.hash=hash; S.data=data; S.dirty=dirty; setLast(c);
+  if(noStats()) STQ.length = 0;   /* descarta a abertura do site, registrada antes da entrada */
   localPut(hash, data, dirty);
   if(dirty) pushRemote();
   if(isNew) renderNewCode(); else route();
@@ -910,7 +923,7 @@ $("#codepill").onclick=()=>{
   app.innerHTML = `<div class="card" style="max-width:520px;margin:24px auto">
     <h2>${t("yourCode")}</h2><div class="bigcode">${esc(S.code)}</div>
     <div class="row" style="margin-top:16px"><button class="btn plain" id="cp">${t("copy")}</button><button class="btn ghost" id="out">${t("logout")}</button><span class="spacer"></span><button class="btn" id="bk">${t("back")}</button></div>
-    <p class="small muted" style="margin-top:14px">${t("logoutNote")}</p></div>`;
+    <p class="small muted" style="margin-top:14px">${t("logoutNote")}</p>${noStats()?`<p class="small muted">${t("noStatsNote")}</p>`:""}</div>`;
   $("#cp").onclick=copyCode;
   $("#out").onclick=async()=>{
     const ok = await pushRemote();
