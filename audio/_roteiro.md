@@ -834,6 +834,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Davis | Excellent. See you on Thursday. |  |
 | dialogue-hard-11.mp3 | Laura | Thank you. Have a good day! |  |
 
+## ing-after-prepositions › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Renata | I'm tired of doing spreadsheets all day. (do) |  |
+| dialogue-medium-2.mp3 | Diego | So what are you thinking about doing? (do) |  |
+| dialogue-medium-3.mp3 | Renata | I'm interested in learning to code. (learn) |  |
+| dialogue-medium-4.mp3 | Diego | Great! Are you good at solving problems? (solve) |  |
+| dialogue-medium-5.mp3 | Renata | I think so. I'm an accountant, after all! |  |
+| dialogue-medium-6.mp3 | Diego | Then start by taking an online course. (take) |  |
+| dialogue-medium-7.mp3 | Renata | I signed up for one. But I'm afraid of failing. (fail) |  |
+| dialogue-medium-8.mp3 | Diego | Everybody is. Instead of worrying, just practice every day. (worry) |  |
+| dialogue-medium-9.mp3 | Renata | OK. Thanks for encouraging me. (encourage) |  |
+| dialogue-medium-10.mp3 | Diego | Anytime. I look forward to seeing your first app! (see) |  |
+
+## ing-after-prepositions › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Tom | So, now that you're forty, what's on your bucket list? |  |
+| dialogue-hard-2.mp3 | Paula | I want to see the Northern Lights. |  |
+| dialogue-hard-3.mp3 | Tom | Nice. Anything else? |  |
+| dialogue-hard-4.mp3 | Paula | I'm keen on learning how to sail. And I'd love to run a marathon. |  |
+| dialogue-hard-5.mp3 | Tom | A marathon? You hate running! |  |
+| dialogue-hard-6.mp3 | Paula | I know. But Running a marathon is a big challenge. That's the point. |  |
+| dialogue-hard-7.mp3 | Tom | Fair enough. What about me? Am I on the list? |  |
+| dialogue-hard-8.mp3 | Paula | Of course. I look forward to growing old with you. |  |
+| dialogue-hard-9.mp3 | Tom | Aww. And I promise to join all your adventures. |  |
+| dialogue-hard-10.mp3 | Paula | Even the sailing? You get seasick! |  |
+| dialogue-hard-11.mp3 | Tom | I'll get used to being seasick. For you! |  |
+
 ## like › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |

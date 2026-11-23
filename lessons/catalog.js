@@ -2373,6 +2373,51 @@ const CATALOG = [
   ]
  },
  {
+  "id": "ing-after-prepositions",
+  "title": "-ING After Prepositions",
+  "area": "Inglês Cotidiano",
+  "icon": "🎯",
+  "color": "#f2efe4",
+  "level": "B1",
+  "part": 11,
+  "order": 55,
+  "tags": [
+   "-ing after prepositions",
+   "interested in learning",
+   "look forward to seeing",
+   "instead of",
+   "without saying",
+   "by doing",
+   "to as a preposition",
+   "-ing as subject",
+   "interests and plans"
+  ],
+  "v": "b1c20249",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
