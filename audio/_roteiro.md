@@ -39,6 +39,44 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Helena | Mine too. Well, I have to go home now. I'm cooking dinner for my parents tonight. |  |
 | dialogue-hard-14.mp3 | Jorge | Enjoy! life is short. Eat well! |  |
 
+## be-used-to › dialogue-medium  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Davi | So, how's life in Toronto? |  |
+| dialogue-medium-2.mp3 | Bia | Good, but I'm still getting used to the cold. |  |
+| dialogue-medium-3.mp3 | Davi | Ha! You used to live in Fortaleza. Of course it's hard. |  |
+| dialogue-medium-4.mp3 | Bia | Exactly. I was used to thirty-degree weather, not minus twenty! |  |
+| dialogue-medium-5.mp3 | Davi | And the food? |  |
+| dialogue-medium-6.mp3 | Bia | I've gotten used to it. I even like poutine now. |  |
+| dialogue-medium-7.mp3 | Davi | And speaking English all day? |  |
+| dialogue-medium-8.mp3 | Bia | At first, I wasn't used to speaking English at work. It was exhausting. |  |
+| dialogue-medium-9.mp3 | Davi | And now? |  |
+| dialogue-medium-10.mp3 | Bia | Now I'm used to it. |  |
+| dialogue-medium-11.mp3 | Davi | What's the hardest thing? |  |
+| dialogue-medium-12.mp3 | Bia | The sun! In December, it sets at four-forty. I'll never get used to that. |  |
+| dialogue-medium-13.mp3 | Davi | Do you have friends there? |  |
+| dialogue-medium-14.mp3 | Bia | Yes. I used to feel lonely, but now I have a great group. |  |
+| dialogue-medium-15.mp3 | Davi | And your mom? Is she used to making video calls? |  |
+| dialogue-medium-16.mp3 | Bia | She's getting used to them. She calls me every day! |  |
+
+## be-used-to › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mr. Hart | Welcome! Moving to a new country isn't easy. You'll need time to get used to everything. |  |
+| dialogue-hard-2.mp3 | Mr. Hart | For example, here people use Fahrenheit, not Celsius. |  |
+| dialogue-hard-3.mp3 | Rafael | Yes, I'm not used to that yet! When the weather app says ninety, I panic. |  |
+| dialogue-hard-4.mp3 | Mr. Hart | Ha! Don't worry, you'll get used to it. |  |
+| dialogue-hard-5.mp3 | Nadia | In my country, people usually eat dinner at ten. Here, restaurants close so early! |  |
+| dialogue-hard-6.mp3 | Mr. Hart | Many newcomers aren't used to having dinner at six. |  |
+| dialogue-hard-7.mp3 | Rafael | And tipping. I was used to leaving ten percent in Brazil, so twenty felt strange. |  |
+| dialogue-hard-8.mp3 | Mr. Hart | Here's a tip calculator. This card is used to calculate tips: just scan the code. |  |
+| dialogue-hard-9.mp3 | Nadia | Honestly, I'm still getting used to paying for everything with my phone. |  |
+| dialogue-hard-10.mp3 | Mr. Hart | In a few months, you'll be used to it, and it will feel normal. |  |
+| dialogue-hard-11.mp3 | Rafael | I used to be very shy about speaking English, but now I talk to everyone. |  |
+| dialogue-hard-12.mp3 | Mr. Hart | That's the spirit! |  |
+
 ## capital-letters › dialogue-medium  (0/14)
 
 | Arquivo | Voz | Texto | Feito |

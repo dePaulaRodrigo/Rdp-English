@@ -933,6 +933,48 @@ const CATALOG = [
   ]
  },
  {
+  "id": "be-used-to",
+  "title": "Be Used To and Get Used To",
+  "area": "Inglês Cotidiano",
+  "icon": "🧭",
+  "color": "#e8f2ec",
+  "level": "B2",
+  "part": 4,
+  "order": 23,
+  "tags": [
+   "be used to",
+   "get used to",
+   "used to",
+   "-ing after prepositions",
+   "moving abroad",
+   "adaptation"
+  ],
+  "v": "68c9f410",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
