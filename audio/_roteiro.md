@@ -155,6 +155,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Leo | Deep. Is "philosophy at 2 a.m." a thing for you? |  |
 | dialogue-hard-12.mp3 | Maya | Only during exam week! |  |
 
+## have-expressions › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Paula | Let's have my parents over for lunch on Sunday. |  |
+| dialogue-medium-2.mp3 | Marcos | Good idea! What should we have? Lasagna? |  |
+| dialogue-medium-3.mp3 | Paula | My dad doesn't eat pasta. He has a problem with gluten. |  |
+| dialogue-medium-4.mp3 | Marcos | OK, then barbecue. Can you take the kids to the market tomorrow? |  |
+| dialogue-medium-5.mp3 | Paula | Sure. It only takes ten minutes. |  |
+| dialogue-medium-6.mp3 | Marcos | And I'll take a shower and clean the house. |  |
+| dialogue-medium-7.mp3 | Paula | Great. My parents always have coffee after lunch. |  |
+| dialogue-medium-8.mp3 | Marcos | No problem. We can have dessert and coffee on the balcony. |  |
+| dialogue-medium-9.mp3 | Paula | Perfect. Oh, my brother is coming too. He has a new girlfriend. |  |
+| dialogue-medium-10.mp3 | Marcos | Then we're going to have fun! |  |
+| dialogue-medium-11.mp3 | Paula | And don't forget to take photos. Mom loves photos. |  |
+| dialogue-medium-12.mp3 | Marcos | I won't. But first, I'll take a nap. |  |
+
+## have-expressions › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Waiter | Good evening! Please, have a seat. Can I get you something to drink? |  |
+| dialogue-hard-2.mp3 | Lucas | I'll have a glass of red wine. |  |
+| dialogue-hard-3.mp3 | Júlia | Just water for me. I'm taking medicine for a cold. |  |
+| dialogue-hard-4.mp3 | Waiter | Sorry to hear that. Are you ready to order, or do you need to take a look at the menu? |  |
+| dialogue-hard-5.mp3 | Lucas | We need a minute. Júlia, what are you having? |  |
+| dialogue-hard-6.mp3 | Júlia | The salmon. You? |  |
+| dialogue-hard-7.mp3 | Lucas | The steak. Excuse me, how long does it take? |  |
+| dialogue-hard-8.mp3 | Waiter | About twenty minutes. Is tonight a special occasion? |  |
+| dialogue-hard-9.mp3 | Júlia | Yes! We are having a baby in March! |  |
+| dialogue-hard-10.mp3 | Waiter | Congratulations! Then dessert is on the house. |  |
+| dialogue-hard-11.mp3 | Lucas | Thank you! We're having a great time. |  |
+| dialogue-hard-12.mp3 | Júlia | Lucas, can you take a photo of us with the cake? |  |
+| dialogue-hard-13.mp3 | Lucas | Of course. And next Sunday, let's have my parents over and tell them the news. |  |
+| dialogue-hard-14.mp3 | Júlia | Good idea. It takes us an hour to drive to their house, so that's easier. |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
