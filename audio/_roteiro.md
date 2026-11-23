@@ -561,6 +561,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rafael | Yes! I think it's time. |  |
 | dialogue-hard-15.mp3 | Bia | Great! Mom is already planning the menu. |  |
 
+## present-perfect › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Pedro | Have you ever been (be) to Europe? |  |
+| dialogue-medium-2.mp3 | Lin | Yes, I have. I've visited (visit) Spain and Italy. |  |
+| dialogue-medium-3.mp3 | Pedro | Lucky you! I've never left (leave) South America. |  |
+| dialogue-medium-4.mp3 | Lin | Really? But have you traveled (travel) around Brazil? |  |
+| dialogue-medium-5.mp3 | Pedro | Yes! I've seen (see) the Amazon and the Pantanal. |  |
+| dialogue-medium-6.mp3 | Lin | Wow. What's the most amazing place you've ever visited (ever / visit)? |  |
+| dialogue-medium-7.mp3 | Pedro | Lençóis Maranhenses. Have you heard (hear) of it? |  |
+| dialogue-medium-8.mp3 | Lin | No, I haven't. What is it? |  |
+| dialogue-medium-9.mp3 | Pedro | Sand dunes with blue lagoons. I've taken (take) hundreds of photos there. |  |
+| dialogue-medium-10.mp3 | Lin | I've just added (just / add) it to my bucket list! |  |
+
+## present-perfect › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Interviewer | Have you ever worked in a hotel? |  |
+| dialogue-hard-2.mp3 | Carla | Yes, I have. I worked at a resort in Bahia for two years. |  |
+| dialogue-hard-3.mp3 | Interviewer | When did you leave? |  |
+| dialogue-hard-4.mp3 | Carla | I left last March. |  |
+| dialogue-hard-5.mp3 | Interviewer | And what have you done since then? |  |
+| dialogue-hard-6.mp3 | Carla | I've taken an English course and a hospitality course. |  |
+| dialogue-hard-7.mp3 | Interviewer | Great. Have you ever dealt with difficult guests? |  |
+| dialogue-hard-8.mp3 | Carla | Many times! Once, a guest dropped his passport in the pool. |  |
+| dialogue-hard-9.mp3 | Interviewer | Ha! What did you do? |  |
+| dialogue-hard-10.mp3 | Carla | I found a hair dryer and saved it! |  |
+| dialogue-hard-11.mp3 | Interviewer | Have you visited our hotel before? |  |
+| dialogue-hard-12.mp3 | Carla | Not yet, but I've read a lot of reviews online. |  |
+| dialogue-hard-13.mp3 | Interviewer | And have you seen the job description? |  |
+| dialogue-hard-14.mp3 | Carla | Yes, I read it yesterday. |  |
+
 ## present-simple › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

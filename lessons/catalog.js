@@ -1017,6 +1017,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "present-perfect",
+  "title": "Present Perfect",
+  "area": "Inglês Cotidiano",
+  "icon": "🌏",
+  "color": "#e5f0f5",
+  "level": "A2",
+  "part": 5,
+  "order": 25,
+  "tags": [
+   "present perfect",
+   "have + past participle",
+   "ever",
+   "never",
+   "already",
+   "yet",
+   "just",
+   "been vs gone",
+   "life experiences",
+   "travel"
+  ],
+  "v": "1491e701",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 13
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
