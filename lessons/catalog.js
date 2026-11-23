@@ -631,6 +631,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "present-simple",
+  "title": "Present Simple",
+  "area": "Inglês Cotidiano",
+  "icon": "🚇",
+  "color": "#e7eefa",
+  "level": "A1",
+  "part": 3,
+  "order": 16,
+  "tags": [
+   "present simple",
+   "do",
+   "does",
+   "third person -s",
+   "frequency adverbs",
+   "routine",
+   "commute"
+  ],
+  "v": "49338172",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 14
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 15
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

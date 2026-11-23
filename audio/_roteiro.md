@@ -297,6 +297,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rui | I did. And Lia's already scratched it! |  |
 | dialogue-hard-15.mp3 | Gabi | Ha! That's this week's best story. |  |
 
+## present-simple › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ana | How do you get to work, Pedro? |  |
+| dialogue-medium-2.mp3 | Pedro | I take (take) the subway. It takes (take) about forty minutes. |  |
+| dialogue-medium-3.mp3 | Ana | Forty minutes! My husband drives (drive) me, so it's faster. |  |
+| dialogue-medium-4.mp3 | Pedro | Lucky you! does your husband work near here? |  |
+| dialogue-medium-5.mp3 | Ana | Yes, his office is (be) two blocks away. |  |
+| dialogue-medium-6.mp3 | Pedro | And what time do you leave home? |  |
+| dialogue-medium-7.mp3 | Ana | We leave (leave) at seven-thirty. He doesn't like (not like) traffic. |  |
+| dialogue-medium-8.mp3 | Pedro | Me neither. On the subway, I usually read (usually / read). |  |
+| dialogue-medium-9.mp3 | Ana | What do you read? |  |
+| dialogue-medium-10.mp3 | Pedro | History books, mostly. My daughter studies (study) history at university. |  |
+| dialogue-medium-11.mp3 | Ana | Nice! does she live with you? |  |
+| dialogue-medium-12.mp3 | Pedro | No, she doesn't. She has (have) her own apartment. |  |
+
+## present-simple › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Host | Good morning! Today we're with Mr. Joaquim, a baker. What time do you wake up? |  |
+| dialogue-hard-2.mp3 | Joaquim | I wake up at three-thirty. |  |
+| dialogue-hard-3.mp3 | Host | Three-thirty! are you tired all the time? |  |
+| dialogue-hard-4.mp3 | Joaquim | Not really. I always go to bed at eight. Every single night. |  |
+| dialogue-hard-5.mp3 | Host | And who makes the bread with you? |  |
+| dialogue-hard-6.mp3 | Joaquim | My son. He turns on the ovens at four. |  |
+| dialogue-hard-7.mp3 | Host | How many loaves do you make a day? |  |
+| dialogue-hard-8.mp3 | Joaquim | About five hundred. Bread tastes best when it's fresh. |  |
+| dialogue-hard-9.mp3 | Host | is the bakery open on Sundays? |  |
+| dialogue-hard-10.mp3 | Joaquim | Yes, it is. But we don't open on Mondays. |  |
+| dialogue-hard-11.mp3 | Host | What do your customers like most? |  |
+| dialogue-hard-12.mp3 | Joaquim | Pão francês, of course. Everybody loves it. |  |
+| dialogue-hard-13.mp3 | Host | Last question: do you take a vacation every year? |  |
+| dialogue-hard-14.mp3 | Joaquim | Yes, in July. My son runs the bakery when I'm away. |  |
+
 ## pronouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
