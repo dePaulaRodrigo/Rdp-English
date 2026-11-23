@@ -588,6 +588,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "exist-be-a-thing",
+  "title": "Exist × There Be × Be a Thing",
+  "area": "Inglês Cotidiano",
+  "icon": "🌍",
+  "color": "#e5f2f6",
+  "level": "B1",
+  "part": 2,
+  "order": 15,
+  "tags": [
+   "exist",
+   "there be",
+   "be a thing",
+   "such a thing",
+   "existence",
+   "customs",
+   "curiosities"
+  ],
+  "v": "d319947d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

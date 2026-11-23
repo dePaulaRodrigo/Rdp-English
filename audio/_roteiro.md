@@ -120,6 +120,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Seller | Anything else? |  |
 | dialogue-hard-15.mp3 | Arthur | No, that's all, thanks. |  |
 
+## exist-be-a-thing › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Josh | Marina, people here kiss on the cheek when they meet. Is that a thing everywhere in Brazil? |  |
+| dialogue-medium-2.mp3 | Marina | Yes! It's a big thing. In São Paulo, one kiss; in Rio, two. |  |
+| dialogue-medium-3.mp3 | Josh | Wow. In the US, there's no kissing. Just a handshake or a hug. |  |
+| dialogue-medium-4.mp3 | Marina | And tipping? Here, there's a ten percent service charge on the bill. |  |
+| dialogue-medium-5.mp3 | Josh | Back home, people tip fifteen to twenty percent. |  |
+| dialogue-medium-6.mp3 | Marina | What about baby showers? Do they exist in the US? |  |
+| dialogue-medium-7.mp3 | Josh | Of course! there are baby showers all the time. |  |
+| dialogue-medium-8.mp3 | Marina | Here, "chá de bebê" is a thing too. |  |
+| dialogue-medium-9.mp3 | Josh | And is it true that there's a holiday for almost everything in Brazil? |  |
+| dialogue-medium-10.mp3 | Marina | Ha! Not everything. There's no such thing as a national pizza holiday. |  |
+| dialogue-medium-11.mp3 | Josh | But National Pizza Day exists in the US! It's in February. |  |
+| dialogue-medium-12.mp3 | Marina | Is it a real holiday? |  |
+| dialogue-medium-13.mp3 | Josh | No, it's just a thing on social media. |  |
+
+## exist-be-a-thing › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Leo | Do you think aliens exist? |  |
+| dialogue-hard-2.mp3 | Maya | Statistically, there must be life somewhere. The universe is huge. |  |
+| dialogue-hard-3.mp3 | Leo | But we have no proof of their existence. |  |
+| dialogue-hard-4.mp3 | Maya | True. For now, real evidence of alien life is nonexistent. |  |
+| dialogue-hard-5.mp3 | Leo | the thing is, we don't even know all the species on Earth. |  |
+| dialogue-hard-6.mp3 | Maya | Right. Scientists estimate that there are about 8.7 million, and most have no name yet. |  |
+| dialogue-hard-7.mp3 | Leo | And millions more existed in the past. |  |
+| dialogue-hard-8.mp3 | Maya | Like the dinosaurs. there were no humans when they lived. |  |
+| dialogue-hard-9.mp3 | Leo | Our existing theories might change in a hundred years. |  |
+| dialogue-hard-10.mp3 | Maya | Probably. There's no such thing as a final answer in science. |  |
+| dialogue-hard-11.mp3 | Leo | Deep. Is "philosophy at 2 a.m." a thing for you? |  |
+| dialogue-hard-12.mp3 | Maya | Only during exam week! |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
