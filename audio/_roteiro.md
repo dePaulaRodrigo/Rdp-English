@@ -41,6 +41,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Diego | Sure. This is my parents' house. The little white one. |  |
 | dialogue-hard-13.mp3 | Mei | It's lovely! |  |
 
+## adverbs › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Paula | You ran well today, Tiago! (good) |  |
+| dialogue-medium-2.mp3 | Tiago | Thanks! But I started too fast. (fast) |  |
+| dialogue-medium-3.mp3 | Paula | Yes. Next time, start slowly and finish strong. (slow) |  |
+| dialogue-medium-4.mp3 | Tiago | OK. My legs hurt terribly now. (terrible) |  |
+| dialogue-medium-5.mp3 | Paula | That's normal. Did you warm up properly? (proper) |  |
+| dialogue-medium-6.mp3 | Tiago | Not really. I arrived late. (late) |  |
+| dialogue-medium-7.mp3 | Paula | I see. And how often do you train? |  |
+| dialogue-medium-8.mp3 | Tiago | I usually run twice a week. (usual) |  |
+| dialogue-medium-9.mp3 | Paula | Good. You're improving quickly. (quick) |  |
+| dialogue-medium-10.mp3 | Tiago | I want to run a half marathon next year. |  |
+| dialogue-medium-11.mp3 | Paula | You can do it easily. Just train regularly. (easy · regular) |  |
+
+## adverbs › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Caio | So? How did you do? |  |
+| dialogue-hard-2.mp3 | Júlia | Pretty well! I won three games and lost one. |  |
+| dialogue-hard-3.mp3 | Caio | Nice! Have you been practicing a lot lately? |  |
+| dialogue-hard-4.mp3 | Júlia | Every night. I study hard. Openings, endgames, everything. |  |
+| dialogue-hard-5.mp3 | Caio | I could easily beat you last month. Now I can't! |  |
+| dialogue-hard-6.mp3 | Júlia | Ha! The game I lost was really long. Four hours! |  |
+| dialogue-hard-7.mp3 | Caio | Wow. Was your opponent good? |  |
+| dialogue-hard-8.mp3 | Júlia | Very. He played perfectly, with no mistakes. |  |
+| dialogue-hard-9.mp3 | Caio | Did you feel nervous? |  |
+| dialogue-hard-10.mp3 | Júlia | A little. But everybody was very friendly. |  |
+| dialogue-hard-11.mp3 | Caio | You know, computers play chess incredibly well now. Deep Blue beat Kasparov in 1997. |  |
+| dialogue-hard-12.mp3 | Júlia | I know! I train with an app. It hardly ever loses. |  |
+
 ## articles › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |

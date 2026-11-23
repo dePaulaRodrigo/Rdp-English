@@ -1590,6 +1590,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "adverbs",
+  "title": "Adverbs",
+  "area": "Inglês Cotidiano",
+  "icon": "🏃",
+  "color": "#e6eef4",
+  "level": "A2",
+  "part": 8,
+  "order": 38,
+  "tags": [
+   "adverbs",
+   "-ly",
+   "well",
+   "fast",
+   "hard",
+   "hardly",
+   "lately",
+   "adverb position",
+   "pretty",
+   "hobbies and sports"
+  ],
+  "v": "2ddcba85",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
