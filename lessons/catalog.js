@@ -519,6 +519,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "there-be",
+  "title": "There Be",
+  "area": "Inglês Cotidiano",
+  "icon": "🏠",
+  "color": "#eef0fb",
+  "level": "A1",
+  "part": 2,
+  "order": 14,
+  "tags": [
+   "there is",
+   "there are",
+   "there was",
+   "there were",
+   "there be vs have",
+   "home",
+   "neighborhood",
+   "city"
+  ],
+  "v": "8f26576f",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 14
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 12
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",

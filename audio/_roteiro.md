@@ -416,6 +416,43 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-26.mp3 | Lucas | Then I'm in good company. Let's go see Mr. Ferreira. |  |
 | dialogue-27.mp3 | Dr. Prado | Go. And Lucas — there's never been a good neurosurgeon who wasn't a good clinician first. |  |
 
+## there-be › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Agent | Welcome! As you can see, there's a big living room with lots of light. |  |
+| dialogue-medium-2.mp3 | Helena | It's beautiful. How many bedrooms are there? |  |
+| dialogue-medium-3.mp3 | Agent | there are two bedrooms and one bathroom. |  |
+| dialogue-medium-4.mp3 | Helena | is there a balcony? |  |
+| dialogue-medium-5.mp3 | Agent | Yes, there is, next to the kitchen. |  |
+| dialogue-medium-6.mp3 | Helena | And the building? is there a gym? |  |
+| dialogue-medium-7.mp3 | Agent | No, there isn't a gym, but there's a pool on the roof. |  |
+| dialogue-medium-8.mp3 | Helena | Great. are there any schools nearby? I have a son. |  |
+| dialogue-medium-9.mp3 | Agent | Yes, there are two schools and a park on the next block. |  |
+| dialogue-medium-10.mp3 | Helena | And parking? In my old building, there was no parking at all. It was terrible. |  |
+| dialogue-medium-11.mp3 | Agent | Here, there are two parking spots for each apartment. |  |
+| dialogue-medium-12.mp3 | Helena | Perfect. are there any problems with noise? |  |
+| dialogue-medium-13.mp3 | Agent | No, there aren't. It's a very quiet street. |  |
+
+## there-be › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | there are a lot of old churches in Ouro Preto, right? |  |
+| dialogue-hard-2.mp3 | Bruno | Yes, more than ten. And the city has great museums too. |  |
+| dialogue-hard-3.mp3 | Ana | is there a good hotel near the center? |  |
+| dialogue-hard-4.mp3 | Bruno | My cousin stayed at Pousada Ouro. it's right next to the main square. |  |
+| dialogue-hard-5.mp3 | Ana | Nice. is there a festival in July? |  |
+| dialogue-hard-6.mp3 | Bruno | Yes, there's a winter festival every year. It's beautiful. |  |
+| dialogue-hard-7.mp3 | Ana | Do I need a car? |  |
+| dialogue-hard-8.mp3 | Bruno | No. The streets are steep, and there isn't much parking. |  |
+| dialogue-hard-9.mp3 | Ana | OK. Oh, and on my last trip, there was a problem with my bag at the airport. |  |
+| dialogue-hard-10.mp3 | Bruno | What happened? |  |
+| dialogue-hard-11.mp3 | Ana | They sent it to Belém! The airline said there must be a mistake in the system. |  |
+| dialogue-hard-12.mp3 | Bruno | Ha! This time, take a backpack. With a backpack, there are going to be no bags to lose! |  |
+| dialogue-hard-13.mp3 | Ana | Deal! And the food? is there anything special to try? |  |
+| dialogue-hard-14.mp3 | Bruno | Of course. Every town in Minas has its own pão de queijo! |  |
+
 ## to-be-past › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
