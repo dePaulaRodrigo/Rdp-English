@@ -3150,5 +3150,50 @@ const CATALOG = [
     "n": 7
    }
   ]
+ },
+ {
+  "id": "reported-questions",
+  "title": "Reported and Indirect Questions",
+  "area": "Inglês Cotidiano",
+  "icon": "🛎️",
+  "color": "#eae9f3",
+  "level": "B2",
+  "part": 14,
+  "order": 72,
+  "tags": [
+   "reported questions",
+   "asked if",
+   "whether",
+   "indirect questions",
+   "do you know where the station is",
+   "could you tell me",
+   "I was wondering if",
+   "ask vs ask for",
+   "hotel check-in and interviews"
+  ],
+  "v": "9d29c6cc",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
+   }
+  ]
  }
 ];

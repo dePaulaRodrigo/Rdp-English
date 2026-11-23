@@ -1948,6 +1948,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-7.mp3 | Lu | And the old man in the corner? The one — everybody is listening to? |  |
 | dialogue-hard-8.mp3 | Rafa | Grandpa. Everything that he says is a story. You'll love him. |  |
 
+## reported-questions › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Sam | Good evening! How can I help you? |  |
+| dialogue-medium-2.mp3 | Rita | Hi. I have a reservation. Could you tell me if my room is ready? |  |
+| dialogue-medium-3.mp3 | Sam | Let me check. Could you tell me what your last name is? |  |
+| dialogue-medium-4.mp3 | Rita | Souza. S-O-U-Z-A. |  |
+| dialogue-medium-5.mp3 | Sam | Yes, it's ready. Do you know how long you will be staying? |  |
+| dialogue-medium-6.mp3 | Rita | Four nights. I was wondering if breakfast is included. |  |
+| dialogue-medium-7.mp3 | Sam | It is, from 7 to 10. |  |
+| dialogue-medium-8.mp3 | Rita | Great. Do you know where the nearest subway station is? |  |
+| dialogue-medium-9.mp3 | Sam | Two blocks north. Can I ask you for a credit card for incidentals? |  |
+| dialogue-medium-10.mp3 | Rita | Sure. Also, could you tell me what the Wi-Fi password is? |  |
+| dialogue-medium-11.mp3 | Sam | It's on your key card. Enjoy your stay! |  |
+
+## reported-questions › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lia | So? What did they ask you? |  |
+| dialogue-hard-2.mp3 | Bruno | First, they asked me why I wanted to work there. |  |
+| dialogue-hard-3.mp3 | Lia | And then? |  |
+| dialogue-hard-4.mp3 | Bruno | They asked if I had any experience with Python. |  |
+| dialogue-hard-5.mp3 | Lia | Did you say yes? |  |
+| dialogue-hard-6.mp3 | Bruno | Of course. Then they asked me what my biggest weakness was. |  |
+| dialogue-hard-7.mp3 | Lia | Uh-oh. What did you say? |  |
+| dialogue-hard-8.mp3 | Bruno | I said I was a perfectionist. They asked me how I dealt with deadlines. |  |
+| dialogue-hard-9.mp3 | Lia | Classic. Did they mention money? |  |
+| dialogue-hard-10.mp3 | Bruno | Yes. They asked what my salary expectations were. |  |
+| dialogue-hard-11.mp3 | Lia | And at the end? |  |
+| dialogue-hard-12.mp3 | Bruno | I asked them when they would get back to me. They said next week. |  |
+| dialogue-hard-13.mp3 | Lia | I wonder whether you got the job! |  |
+
 ## reported-speech › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
