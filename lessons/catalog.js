@@ -1369,6 +1369,48 @@ const CATALOG = [
   ]
  },
  {
+  "id": "be-able-to",
+  "title": "Can × Be Able To",
+  "area": "Inglês Cotidiano",
+  "icon": "🎯",
+  "color": "#eaf3e8",
+  "level": "B1",
+  "part": 7,
+  "order": 33,
+  "tags": [
+   "be able to",
+   "can",
+   "could",
+   "managed to",
+   "was able to",
+   "personal goals"
+  ],
+  "v": "e54237ca",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

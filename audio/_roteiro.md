@@ -39,6 +39,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Helena | Mine too. Well, I have to go home now. I'm cooking dinner for my parents tonight. |  |
 | dialogue-hard-14.mp3 | Jorge | Enjoy! life is short. Eat well! |  |
 
+## be-able-to › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Coach | So, what are your goals for next year? |  |
+| dialogue-medium-2.mp3 | Marina | I want to be able to run a half marathon. |  |
+| dialogue-medium-3.mp3 | Coach | Great! Can you run ten kilometers now? |  |
+| dialogue-medium-4.mp3 | Marina | Not yet. Last month, I was able to run five. |  |
+| dialogue-medium-5.mp3 | Coach | Good. If you train three times a week, you'll be able to run fifteen by June. |  |
+| dialogue-medium-6.mp3 | Marina | I hope so. I haven't been able to train much lately. |  |
+| dialogue-medium-7.mp3 | Coach | Why not? |  |
+| dialogue-medium-8.mp3 | Marina | Work. But last week I managed to change my schedule. |  |
+| dialogue-medium-9.mp3 | Coach | Excellent. Will you be able to train in the mornings? |  |
+| dialogue-medium-10.mp3 | Marina | Yes. I'd like to be able to run before work. |  |
+| dialogue-medium-11.mp3 | Coach | And your diet? |  |
+| dialogue-medium-12.mp3 | Marina | I can't cook, so I eat a lot of fast food. |  |
+| dialogue-medium-13.mp3 | Coach | Then we can work on that too. |  |
+
+## be-able-to › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Kenji | How long have you been studying Japanese? |  |
+| dialogue-hard-2.mp3 | Clara | Two years. At first, I couldn't read anything. |  |
+| dialogue-hard-3.mp3 | Kenji | And now? |  |
+| dialogue-hard-4.mp3 | Clara | Now I can read simple books. |  |
+| dialogue-hard-5.mp3 | Kenji | Impressive! Have you been able to watch movies without subtitles? |  |
+| dialogue-hard-6.mp3 | Clara | Not yet. My goal is to be able to do that by next year. |  |
+| dialogue-hard-7.mp3 | Kenji | You'll get there. Last year, I finally managed to pass my English exam. |  |
+| dialogue-hard-8.mp3 | Clara | Congratulations! Were you nervous? |  |
+| dialogue-hard-9.mp3 | Kenji | Very. I couldn't sleep the night before. |  |
+| dialogue-hard-10.mp3 | Clara | I understand. I hate not being able to understand fast speakers. |  |
+| dialogue-hard-11.mp3 | Kenji | Me too! But you will be able to understand them soon, I'm sure. |  |
+| dialogue-hard-12.mp3 | Clara | I hope so. Maybe we could practice together every week? |  |
+| dialogue-hard-13.mp3 | Kenji | Great idea! |  |
+
 ## be-used-to › dialogue-medium  (0/16)
 
 | Arquivo | Voz | Texto | Feito |
