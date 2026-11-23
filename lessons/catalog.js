@@ -1724,6 +1724,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "comparatives",
+  "title": "Comparatives and Superlatives",
+  "area": "Inglês Cotidiano",
+  "icon": "🌎",
+  "color": "#e3eef0",
+  "level": "A2",
+  "part": 8,
+  "order": 41,
+  "tags": [
+   "comparatives",
+   "superlatives",
+   "-er",
+   "more",
+   "the most",
+   "better",
+   "worse",
+   "as … as",
+   "less",
+   "fewer",
+   "countries and cities"
+  ],
+  "v": "aca9262d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

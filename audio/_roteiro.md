@@ -288,6 +288,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-17.mp3 | Bruna | Ha! And let's read a book about travel before the trip. My teacher says Around the World in Eighty Days is a classic. |  |
 | dialogue-hard-18.mp3 | Rafael | Great. I can read it on the plane. |  |
 
+## comparatives › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Host | Question one: what is the biggest country in South America? (big) |  |
+| dialogue-medium-2.mp3 | Lu | Brazil! Easy. |  |
+| dialogue-medium-3.mp3 | Host | Correct! Question two: which is longer, the Amazon or the Nile? (long) |  |
+| dialogue-medium-4.mp3 | Davi | Hmm… Scientists don't agree! Some say the Amazon is longer. (long) |  |
+| dialogue-medium-5.mp3 | Host | Good answer. Question three: what is the driest desert outside the poles? (dry) |  |
+| dialogue-medium-6.mp3 | Lu | The Atacama, in Chile! |  |
+| dialogue-medium-7.mp3 | Host | Correct! Question four: is Tokyo more populated than New York? (populated) |  |
+| dialogue-medium-8.mp3 | Davi | Yes, much more. |  |
+| dialogue-medium-9.mp3 | Host | Question five: which city is older, Rome or Paris? (old) |  |
+| dialogue-medium-10.mp3 | Lu | Rome. It's more ancient than Paris. It was founded in 753 BC. (ancient) |  |
+| dialogue-medium-11.mp3 | Host | Great! You're the best team tonight! (good) |  |
+| dialogue-medium-12.mp3 | Davi | We're not as smart as you think. We just read a lot! |  |
+
+## comparatives › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Clara | So, which offer is better? |  |
+| dialogue-hard-2.mp3 | Marcos | The salary in BH is a bit higher. But Floripa has beaches. |  |
+| dialogue-hard-3.mp3 | Clara | And the cost of living? |  |
+| dialogue-hard-4.mp3 | Marcos | Floripa is more expensive. Rent is much higher there. |  |
+| dialogue-hard-5.mp3 | Clara | What about the weather? I hate the cold. |  |
+| dialogue-hard-6.mp3 | Marcos | Floripa is colder in the winter. BH is warmer and drier. |  |
+| dialogue-hard-7.mp3 | Clara | And the food? BH has the best food in Brazil, people say. |  |
+| dialogue-hard-8.mp3 | Marcos | Ha! Every city says that. But the pão de queijo is really good. |  |
+| dialogue-hard-9.mp3 | Clara | What about traffic? |  |
+| dialogue-hard-10.mp3 | Marcos | BH has worse traffic. It's worse and worse every year. |  |
+| dialogue-hard-11.mp3 | Clara | Hmm. It's not an easy choice. It's the most important decision of our lives! |  |
+| dialogue-hard-12.mp3 | Marcos | Let's make a list. The more we think, the clearer it gets. |  |
+
 ## could › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
