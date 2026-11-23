@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src https://xmvjxzqpwnwxjouxaoar.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; connect-src https://xmvjxzqpwnwxjouxaoar.supabase.co; img-src 'self' data:; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="no-referrer">
 <script>(function(){var t=null;try{t=localStorage.getItem("ep-theme");}catch(e){}if(t!=="light"&&t!=="dark")t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";document.documentElement.dataset.theme=t;})();</script>
 <title>English Practice</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/lexend-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
+/* Lexend (SIL Open Font License, fonts/OFL-Lexend.txt), hospedada no próprio site: nenhum dado do aluno vai para terceiros. */
+@font-face{font-family:Lexend;font-style:normal;font-display:swap;font-weight:100 900;src:url(fonts/lexend-latin-wght-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Lexend;font-style:normal;font-display:swap;font-weight:100 900;src:url(fonts/lexend-latin-ext-wght-normal.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
 :root{
   --bg:#eae5e2; --card:#ffffff; --ink:#000000; --muted:#5b5852; --line:#d9d2cc;
   --soft:#f4f1ef; --chip:#ece7e3; --field:#fbfaf9; --optline:#c9c1bb;
@@ -158,6 +159,10 @@ h2.area{margin:28px 0 12px}
 .welcome{margin:8px 0 18px}
 .welcome h1{margin-top:0}
 .welcome p{margin:0 0 8px}
+.foot{max-width:860px;margin:8px auto 28px;padding:0 16px;text-align:center;font-size:14px}
+.foot a{color:var(--muted);text-underline-offset:2px}
+.legal h2{margin-top:26px}
+.legal li{margin-bottom:6px}
 .hometabs{display:flex;gap:6px;margin:6px 0 4px;border-bottom:1px solid var(--line)}
 .hometabs button{border:0;background:transparent;padding:10px 14px;font-size:16px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1px}
 .hometabs button.on{color:var(--ink);border-color:var(--brand)}
@@ -180,6 +185,7 @@ h2.area{margin:28px 0 12px}
   <button class="themebtn" id="themeBtn" type="button"></button>
 </div></header>
 <main id="app"></main>
+<footer class="foot"><a href="#privacidade">Privacidade e termos de uso</a></footer>
 <div class="sheet" id="sheet"><div class="in">
   <div class="hd"><span id="sheetTitle"></span><span class="spacer"></span><button class="x" id="sheetClear"></button><button class="x" id="sheetClose"></button></div>
   <div class="chips" id="chips"></div>
@@ -198,7 +204,7 @@ const UI = { pt:{
   loadFail:"Não foi possível carregar a lição. Verifique a conexão com a internet.", retry:"Tentar novamente", back:"Voltar",
   gateTitle:"Pratique inglês com o seu código", gateSub:"Sem login e sem senha. Seu código guarda o seu progresso.",
   haveCode:"Já tem um código?", codePlaceholder:"ex.: piano tiger orbit honey", enter:"Entrar", entering:"Entrando…",
-  firstTime:"Primeira vez?", generate:"Gerar meu código", generating:"Gerando…", anyDevice:"O mesmo código funciona em qualquer aparelho.",
+  firstTime:"Primeira vez?", generate:"Gerar meu código", generating:"Gerando…", anyDevice:"O mesmo código funciona em qualquer aparelho. Em computadores compartilhados, toque em Sair ao terminar.",
   codeWords:"O código tem 4 palavras.", codeNotFound:"Código não encontrado. Confira as 4 palavras.",
   serverDown:"Sem conexão com o servidor. Tente novamente em instantes.",
   tooManyTries:"Muitas tentativas com códigos inexistentes a partir desta conexão. Aguarde uma hora e tente novamente.",
@@ -217,7 +223,7 @@ const UI = { pt:{
   noStatsOn:"Este código não entra mais nas estatísticas.", noStatsOff:"Este código voltou a entrar nas estatísticas.",
   noStatsNote:"Código de professor: o uso dele não entra nas estatísticas.",
   themeDark:"Ativar o modo escuro", themeLight:"Ativar o modo claro",
-  welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet.",
+  welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet. Detalhes em Privacidade e termos de uso, no fim da página.",
   aboutShow:"Sobre o site", aboutHide:"Ocultar",
   daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
   pro:"Inglês Profissional", proSub:"Os mesmos tópicos de gramática, com o vocabulário da sua área de atuação. Escolha a sua área e, quando houver, a sua especialidade.",
@@ -568,8 +574,9 @@ function exScore(ex, p){
    ============================================================ */
 function route(){
   closeSheet(); stopAudio();
-  if(!S.code){ renderGate(); return; }
   const h = location.hash.replace("#","");
+  if(h==="privacidade"){ renderPrivacy(); window.scrollTo(0,0); return; }
+  if(!S.code){ renderGate(); return; }
   if(h==="nao-contar" || h==="contar"){
     const on = h==="nao-contar";
     S.data.prefs = Object.assign({}, S.data.prefs);
@@ -587,6 +594,47 @@ function route(){
     app.innerHTML = `<div class="card center" style="max-width:520px;margin:24px auto"><p>${t("loadFail")}</p><div class="row" style="justify-content:center"><button class="btn" id="retry">${t("retry")}</button><button class="btn plain" id="bk2">${t("back")}</button></div></div>`;
     $("#retry").onclick = route; $("#bk2").onclick = () => { location.hash=""; };
   });
+}
+/* ---------- Privacidade e termos de uso ----------
+   Contato público do responsável (canal exigido pela LGPD para agentes de pequeno porte). */
+const PRIVACY_CONTACT = "";
+const PRIVACY_UPDATED = "23/11/2026";
+function renderPrivacy(){
+  setHeader();
+  const contact = PRIVACY_CONTACT ? `<a href="mailto:${esc(PRIVACY_CONTACT)}">${esc(PRIVACY_CONTACT)}</a>` : "fale diretamente com o professor Rodrigo de Paula";
+  app.innerHTML = `
+  <div class="card legal" style="max-width:720px;margin:24px auto">
+    <h1>Privacidade e termos de uso</h1>
+    <p class="small muted">Última atualização: ${PRIVACY_UPDATED}</p>
+    <p>O English Practice é um site gratuito de exercícios de inglês, mantido pelo professor Rodrigo de Paula. Ele foi feito para guardar o mínimo possível sobre quem o usa: não há cadastro, e o site não pede nome, e-mail, telefone nem idade.</p>
+    <h2>O que o site guarda</h2>
+    <ul>
+      <li><b>O seu progresso</b>, ligado ao seu código de quatro palavras. O servidor recebe só uma versão embaralhada do código (um <i>hash</i>), nunca o código em si.</li>
+      <li><b>No seu aparelho</b>, uma cópia do progresso e, enquanto a sessão estiver aberta, o código. Ao tocar em Sair, os dois são apagados do aparelho; o progresso continua guardado no servidor.</li>
+      <li><b>Estatísticas anônimas de uso</b>: contadores por dia de lições abertas, respostas certas e erradas, idioma das explicações, país e tipo de aparelho. Elas não guardam o código, o endereço de internet nem nada que identifique você. Com o código de professor, nada é contado.</li>
+      <li><b>Proteção contra abuso</b>: para limitar tentativas de adivinhar códigos, o site usa uma impressão do seu endereço de internet, misturada com um segredo que muda todos os dias. O endereço em si não é guardado, e as impressões são apagadas em até um dia.</li>
+    </ul>
+    <h2>Onde os dados ficam</h2>
+    <ul>
+      <li>O progresso e as estatísticas ficam no Supabase, em servidores em São Paulo.</li>
+      <li>As páginas do site são entregues pelo GitHub Pages. Como qualquer servidor, o GitHub recebe o endereço de internet de quem abre a página, segundo a política de privacidade do próprio GitHub.</li>
+      <li>O site não usa cookies de rastreamento, anúncios nem outros serviços de terceiros. A fonte do texto é hospedada no próprio site.</li>
+    </ul>
+    <h2>Por que os dados são usados</h2>
+    <p>Só para guardar o seu progresso, proteger o site contra abuso e melhorar os exercícios. Nada é vendido nem compartilhado.</p>
+    <h2>Os seus direitos</h2>
+    <p>Pela Lei Geral de Proteção de Dados (Lei 13.709/2018), você pode pedir informações sobre os dados ligados ao seu código e pedir que o progresso seja apagado. Para isso, ${contact}, informando o código. Códigos criados e nunca usados são apagados automaticamente depois de 30 dias.</p>
+    <h2>Termos de uso</h2>
+    <ul>
+      <li>O site é gratuito. As explicações e os exercícios são de autoria de Rodrigo de Paula; não os copie para outros sites ou materiais sem autorização.</li>
+      <li><b>Guarde o seu código.</b> Ele é a única forma de recuperar o progresso, porque o site não tem contas. Quem tiver o código vê e altera o progresso; não o compartilhe.</li>
+      <li>Em computadores compartilhados, toque em Sair ao terminar.</li>
+      <li>Os exercícios podem ser revisados e corrigidos. Quando um exercício muda, as respostas antigas dele são apagadas, mas a sua melhor nota é mantida.</li>
+      <li>O site é oferecido como está e pode mudar ou sair do ar.</li>
+    </ul>
+    <div class="row" style="margin-top:22px"><button class="btn" id="privBack">${t("back")}</button></div>
+  </div>`;
+  $("#privBack").onclick = () => { location.hash = ""; };
 }
 function setHeader(){
   const p = $("#codepill");
@@ -743,7 +791,7 @@ function renderLesson(){
   const pager = exs.length>1 ? `<div class="pager"><span class="small muted">${t("exercises")}</span>${
     exs.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(tx(e.title))}">${i+1}</button>`).join("")}</div>` : "";
   let body;
-  if(S.tab==="expl"){ body = `<div class="expl">${tx(l.explanation)}</div>`; }
+  if(S.tab==="expl"){ body = `<div class="expl" lang="${S.lang==="en"?"en":"pt-BR"}">${tx(l.explanation)}</div>`; }
   else if(S.tab==="vocab"){ body = `<div class="expl">${tx(l.vocab)}</div>`; }
   else {
     body = `${pager}<h2 style="margin-top:6px">${esc(tx(ex.title))}</h2>
@@ -799,7 +847,7 @@ function renderMC(l, ex){
     }).join("");
     const au = auOf(l, ex), hasAu = au.includes(i+1) && (ex.listen || shown);
     const why = shown ? `<div class="why ${ans===it.a?"ok":"no"}">${ans===it.a?`<b>${CORRECT[S.lang]||t("correct")}</b> `:""}${tx(it.why)}</div>` : "";
-    return `<div class="q"><div>${hasAu?playBtn(i+1):""}<span class="qn">${i+1}</span>${q}</div><div class="opts">${opts}</div>${why}</div>`;
+    return `<div class="q"><div lang="en">${hasAu?playBtn(i+1):""}<span class="qn">${i+1}</span>${q}</div><div class="opts" lang="en">${opts}</div>${why}</div>`;
   }).join("") + mcSummary(ex,p);
   wirePlay(box, l, ex);
   box.querySelectorAll(".opt").forEach(b=> b.onclick=()=>{
@@ -885,7 +933,7 @@ function renderGap(l, ex){
       if(S.activeBlank===n) cls+=" active";
       inner = `<span class="v">${v?esc(capIfStart(before,v)):"&nbsp;"}</span>`;
     }
-    return `<button class="${cls}" data-n="${n}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>`;
+    return `<button class="${cls}" data-n="${n}" aria-label="${esc(t("blank",{n})+(v?": "+v:""))}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>`;
   };
   const fill = text => {
     const parts = text.split(/\[\[(\d+)\]\]/); let out="", before="";
@@ -897,11 +945,11 @@ function renderGap(l, ex){
     /* O áudio entrega as respostas, então só aparece depois da correção. */
     const au = p.checked ? auOf(l, ex) : [];
     if(au.length) html += `<button class="btn plain sm playall" id="playAll">${t("playAll")}</button>`;
-    html += `<div class="lines">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
+    html += `<div class="lines" lang="en">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
       ? `<p class="au">${playBtn(i+1)}<span><span class="sp">${esc(sp)}:</span> ${fill(line)}</span></p>`
       : `<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
   } else {
-    html += `<div class="lines list">${ex.lines.map((line,i)=>`<p><span class="num">${i+1}.</span><span>${fill(line)}</span></p>`).join("")}</div>`;
+    html += `<div class="lines list" lang="en">${ex.lines.map((line,i)=>`<p><span class="num">${i+1}.</span><span>${fill(line)}</span></p>`).join("")}</div>`;
   }
   const total = Object.keys(ex.answers).length, filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
   if(!p.checked){
