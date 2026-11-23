@@ -1063,6 +1063,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "for-since-ago",
+  "title": "For, Since, Ago",
+  "area": "Inglês Cotidiano",
+  "icon": "📅",
+  "color": "#fbefe3",
+  "level": "A2",
+  "part": 5,
+  "order": 26,
+  "tags": [
+   "for",
+   "since",
+   "ago",
+   "how long",
+   "it's been",
+   "present perfect",
+   "family",
+   "work"
+  ],
+  "v": "ca4b6164",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

@@ -193,6 +193,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Leo | Deep. Is "philosophy at 2 a.m." a thing for you? |  |
 | dialogue-hard-12.mp3 | Maya | Only during exam week! |  |
 
+## for-since-ago › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Rosa | Look at you! I haven't seen you for years! |  |
+| dialogue-medium-2.mp3 | Bruno | I know! I moved to Canada six years ago. |  |
+| dialogue-medium-3.mp3 | Rosa | Six years! And have you lived in Toronto since then? |  |
+| dialogue-medium-4.mp3 | Bruno | Yes, since 2019. |  |
+| dialogue-medium-5.mp3 | Rosa | And how long have you been married? |  |
+| dialogue-medium-6.mp3 | Bruno | for three years. We met at work. |  |
+| dialogue-medium-7.mp3 | Rosa | when did you get married? |  |
+| dialogue-medium-8.mp3 | Bruno | In 2022. It's been three years since the wedding. |  |
+| dialogue-medium-9.mp3 | Rosa | And your job? |  |
+| dialogue-medium-10.mp3 | Bruno | I've worked at the same company since I arrived. |  |
+| dialogue-medium-11.mp3 | Rosa | Your mom says you haven't visited Brazil for a long time. |  |
+| dialogue-medium-12.mp3 | Bruno | That's true. The last time was two years ago. |  |
+
+## for-since-ago › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | So, how long have you worked in marketing? |  |
+| dialogue-hard-2.mp3 | Leo | I've worked in marketing for about ten years. |  |
+| dialogue-hard-3.mp3 | Ana | And at your current company? |  |
+| dialogue-hard-4.mp3 | Leo | since 2021. Before that, I worked at an agency for five years. |  |
+| dialogue-hard-5.mp3 | Ana | Nice. I joined my company two months ago. |  |
+| dialogue-hard-6.mp3 | Leo | Congratulations! And how long have you lived in São Paulo? |  |
+| dialogue-hard-7.mp3 | Ana | All my life! I have lived here since I was born. |  |
+| dialogue-hard-8.mp3 | Leo | I moved here a year ago. |  |
+| dialogue-hard-9.mp3 | Ana | Do you like it? |  |
+| dialogue-hard-10.mp3 | Leo | Yes. It's been a year since I arrived, and I still find new restaurants every week. |  |
+| dialogue-hard-11.mp3 | Ana | since you're new in town, let me send you my list! |  |
+
 ## have-expressions › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
