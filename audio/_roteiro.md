@@ -296,6 +296,46 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Emma | I'd love that. But between you and me, I'm a little nervous about meeting everyone. |  |
 | dialogue-hard-12.mp3 | Davi | Don't worry. they're going to love you. |  |
 
+## reflexives › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Carla | Bruno, is that guitar in your car yours? |  |
+| dialogue-medium-2.mp3 | Bruno | Yes, it's mine. I play every weekend. |  |
+| dialogue-medium-3.mp3 | Carla | Did you take lessons? |  |
+| dialogue-medium-4.mp3 | Bruno | No, I taught myself with videos. |  |
+| dialogue-medium-5.mp3 | Carla | Impressive! My husband and I are into woodworking. We made our dining table ourselves. |  |
+| dialogue-medium-6.mp3 | Bruno | By yourselves? Nobody helped you? |  |
+| dialogue-medium-7.mp3 | Carla | Well, my brother helped a little. He has the tools, so the workshop is his, not ours. |  |
+| dialogue-medium-8.mp3 | Bruno | Did you ever hurt yourself, Carla? |  |
+| dialogue-medium-9.mp3 | Carla | Once. I cut myself on a saw. Nothing serious. |  |
+| dialogue-medium-10.mp3 | Bruno | My kids want to learn the guitar too. They practice by themselves in their room every night. |  |
+| dialogue-medium-11.mp3 | Carla | That's great. Kids learn fast when they enjoy themselves. |  |
+| dialogue-medium-12.mp3 | Bruno | True. My daughter has her own guitar now. Hers is pink; mine is black. |  |
+| dialogue-medium-13.mp3 | Carla | Cute! Oh, help yourself to some cake. I baked it myself. |  |
+
+## reflexives › dialogue-hard  (0/17)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lia | How was your first pottery class? |  |
+| dialogue-hard-2.mp3 | Nina | Amazing! I felt so relaxed afterward. |  |
+| dialogue-hard-3.mp3 | Lia | Did the teacher make that bowl? |  |
+| dialogue-hard-4.mp3 | Nina | No, I made it myself! |  |
+| dialogue-hard-5.mp3 | Lia | Wow. The class is at eight, right? Did you get up early? |  |
+| dialogue-hard-6.mp3 | Nina | At six. I got dressed, had breakfast and took the bus. |  |
+| dialogue-hard-7.mp3 | Lia | And the other students? |  |
+| dialogue-hard-8.mp3 | Nina | Nice people. Two of them met in the studio and got married last year! |  |
+| dialogue-hard-9.mp3 | Lia | That's sweet. Do they still go together? |  |
+| dialogue-hard-10.mp3 | Nina | Every week. They help each other with the hard pieces. |  |
+| dialogue-hard-11.mp3 | Lia | Aren't you worried about the price? It's expensive. |  |
+| dialogue-hard-12.mp3 | Nina | A little. But I never regret spending money on a good hobby. |  |
+| dialogue-hard-13.mp3 | Lia | Fair. I remember when I painted a lot as a kid. |  |
+| dialogue-hard-14.mp3 | Nina | You should come with me! You'd enjoy yourself. |  |
+| dialogue-hard-15.mp3 | Lia | Maybe. I can't concentrate at home anymore: too many messages. |  |
+| dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
+| dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
+
 ## there-be-have › dialogue  (0/27)
 
 | Arquivo | Voz | Texto | Feito |

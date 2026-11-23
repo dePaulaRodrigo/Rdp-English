@@ -302,6 +302,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "reflexives",
+  "title": "Reflexive and Possessive Pronouns",
+  "area": "Inglês Cotidiano",
+  "icon": "🎸",
+  "color": "#e9f1f8",
+  "level": "B1",
+  "part": 1,
+  "order": 9,
+  "tags": [
+   "reflexive pronouns",
+   "myself",
+   "by myself",
+   "each other",
+   "possessive pronouns",
+   "mine",
+   "hobbies"
+  ],
+  "v": "e881a551",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 13
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 13
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
