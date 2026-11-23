@@ -2556,35 +2556,48 @@ const CATALOG = [
  },
  {
   "id": "phrasal-verbs",
-  "title": "Phrasal Verbs — Particles",
+  "title": "Phrasal Verbs",
   "area": "Inglês Cotidiano",
   "icon": "↕️",
   "color": "#fdf0dc",
   "level": "B1",
   "part": 11,
   "order": 59,
-  "tags": [],
-  "v": "25f4f676",
+  "tags": [
+   "phrasal verbs",
+   "particles",
+   "separable",
+   "turn it off",
+   "look for",
+   "run out of",
+   "come up with",
+   "take off",
+   "pick up",
+   "find out vs discover",
+   "everyday life"
+  ],
+  "v": "d7bf4a59",
   "exercises": [
    {
-    "id": "p1",
-    "type": "gap",
-    "n": 10
-   },
-   {
-    "id": "p2",
-    "type": "gap",
-    "n": 10
-   },
-   {
-    "id": "p3",
-    "type": "gap",
-    "n": 10
-   },
-   {
-    "id": "p4",
-    "type": "gap",
+    "id": "mc-easy",
+    "type": "mc",
     "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
    }
   ]
  }

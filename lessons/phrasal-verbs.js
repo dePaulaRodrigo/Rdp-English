@@ -1,101 +1,242 @@
 addLesson({
   id:"phrasal-verbs",
-  title:"Phrasal Verbs — Particles",
+  title:"Phrasal Verbs",
   area:"Inglês Cotidiano", icon:"↕️", color:"#fdf0dc", level:"B1", part:11, order:59,
-  explanation:`
-    <h2>The particle keeps its idea</h2>
-    <p>The particle often keeps an idea of its direction, even when there is no real movement. If you know the idea, you can often guess the meaning of a new phrasal verb.</p>
-    <h3>Up · Down · Out · In · By</h3>
-    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
-      <tr><td>up</td><td>completely / more</td><td>eat up, clean up, speak up</td></tr>
-      <tr><td>down</td><td>less / slower / stop</td><td>slow down, calm down, cut down on</td></tr>
-      <tr><td>out</td><td>until nothing is left / discover</td><td>run out, sell out, find out</td></tr>
-      <tr><td>in</td><td>enter a group / take part</td><td>join in, fit in, check in</td></tr>
-      <tr><td>by</td><td>pass / visit quickly</td><td>stop by, go by, get by</td></tr></table>
-    <h3>On · Off</h3>
-    <p><b>On</b> means contact or connection: something is touching, attached, working. <b>Off</b> is the opposite: separation, disconnection, stopping.</p>
-    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
-      <tr><td>on</td><td>contact / connection</td><td>put on, try on, get on, turn on</td></tr>
-      <tr><td>on</td><td>continue</td><td>go on, carry on, keep on, hold on</td></tr>
-      <tr><td>off</td><td>separation / removal</td><td>take off, get off, turn off, drop off</td></tr>
-      <tr><td>off</td><td>stop / cancel / leave</td><td>call off, set off</td></tr></table>
-    <h3>Over · Away · Back · Around · Through · Along · Apart</h3>
-    <table><tr><th>Particle</th><th>Basic idea</th><th>Examples</th></tr>
-      <tr><td>over</td><td>from one side to the other / end of something</td><td>come over, hand over, get over, take over</td></tr>
-      <tr><td>away</td><td>distance / disappearing</td><td>go away, run away, throw away, give away</td></tr>
-      <tr><td>back</td><td>return to the start</td><td>come back, give back, call back, pay back</td></tr>
-      <tr><td>around</td><td>in a circle / with no fixed direction</td><td>turn around, look around, walk around</td></tr>
-      <tr><td>through</td><td>from beginning to end</td><td>go through, read through, get through</td></tr>
-      <tr><td>along</td><td>together / moving forward</td><td>get along, come along</td></tr>
-      <tr><td>apart</td><td>into pieces / separate</td><td>fall apart, take apart, tell apart</td></tr></table>`,
+  tags:["phrasal verbs","particles","separable","turn it off","look for","run out of","come up with","take off","pick up","find out vs discover","everyday life"],
+  explanation:{
+pt:`
+    <h2>Phrasal verbs</h2>
+    <p>Um phrasal verb é <b>um verbo só</b>, formado por duas ou três palavras. O sentido costuma ser diferente do de cada palavra separada: <i>look for</i> = procurar · <i>run into</i> = encontrar por acaso.</p>
+    <h3>Separáveis e inseparáveis</h3>
+    <ul>
+      <li>Muitos aceitam o objeto no meio ou no fim: Turn off the light = Turn the light off.</li>
+      <li>Com <b>pronome</b>, ele fica no meio, sempre: Turn <b>it</b> off (<s>turn off it</s>).</li>
+      <li>Outros não se separam: Look <b>for</b> it · I ran <b>into</b> him · She got <b>over</b> it.</li>
+    </ul>
+    <h3>A ideia da partícula</h3>
+    <table>
+      <tr><th>Partícula</th><th>Ideia</th><th>Exemplos</th></tr>
+      <tr><td><b>up</b></td><td>aumentar, completar</td><td>turn up · speak up · eat up · clean up</td></tr>
+      <tr><td><b>down</b></td><td>diminuir, registrar</td><td>slow down · calm down · write down</td></tr>
+      <tr><td><b>out</b></td><td>até o fim, descobrir</td><td>run out · sell out · find out · figure out</td></tr>
+      <tr><td><b>off</b></td><td>desligar, partir, cancelar</td><td>turn off · take off · set off · call off</td></tr>
+      <tr><td><b>on</b></td><td>ligar, continuar, contato</td><td>turn on · go on · put on · try on</td></tr>
+      <tr><td><b>back</b></td><td>volta</td><td>call back · give back · come back</td></tr>
+      <tr><td><b>over</b></td><td>de um lado ao outro, de novo</td><td>come over · think over · get over</td></tr>
+      <tr><td><b>away</b></td><td>afastar, sumir</td><td>go away · throw away · give away</td></tr>
+    </table>
+    <h3>De três palavras</h3>
+    <p>look forward to · get along with · run out of · come up with (ter a ideia) · put up with (aguentar) · look up to (admirar)</p>
+    <h3>Um phrasal verb, vários sentidos</h3>
+    <ul>
+      <li><b>take off</b>: decolar · tirar (roupa) · fazer sucesso</li>
+      <li><b>pick up</b>: buscar · levantar · aprender sem estudar · atender o telefone</li>
+      <li><b>work out</b>: malhar · dar certo · resolver</li>
+      <li><b>turn down</b>: abaixar o volume · recusar</li>
+    </ul>
+    <h3>Informal × formal</h3>
+    <p>O inglês tem uma camada germânica (informal) e uma latina e francesa, que chegou em massa depois de 1066. Os phrasal verbs são informais; o equivalente latino, mais formal e mais fácil para nós:</p>
+    <p>find out → discover · put off → postpone · call off → cancel · look into → investigate · give up → quit · go up → increase</p>
+    <p class="note">Na conversa, prefira o phrasal verb. Em instruções e textos formais, o verbo latino evita ambiguidade.</p>`,
+en:`
+    <h2>Phrasal verbs</h2>
+    <p>A phrasal verb is <b>one verb</b> made of two or three words. The meaning is often different from the meaning of each word: <i>look for</i> = search · <i>run into</i> = meet by chance.</p>
+    <h3>Separable and inseparable</h3>
+    <ul>
+      <li>Many accept the object in the middle or at the end: Turn off the light = Turn the light off.</li>
+      <li>With a <b>pronoun</b>, it always goes in the middle: Turn <b>it</b> off (<s>turn off it</s>).</li>
+      <li>Others never separate: Look <b>for</b> it · I ran <b>into</b> him · She got <b>over</b> it.</li>
+    </ul>
+    <h3>The idea of the particle</h3>
+    <table>
+      <tr><th>Particle</th><th>Idea</th><th>Examples</th></tr>
+      <tr><td><b>up</b></td><td>increase, complete</td><td>turn up · speak up · eat up · clean up</td></tr>
+      <tr><td><b>down</b></td><td>reduce, record</td><td>slow down · calm down · write down</td></tr>
+      <tr><td><b>out</b></td><td>to the end, discover</td><td>run out · sell out · find out · figure out</td></tr>
+      <tr><td><b>off</b></td><td>disconnect, leave, cancel</td><td>turn off · take off · set off · call off</td></tr>
+      <tr><td><b>on</b></td><td>connect, continue, contact</td><td>turn on · go on · put on · try on</td></tr>
+      <tr><td><b>back</b></td><td>return</td><td>call back · give back · come back</td></tr>
+      <tr><td><b>over</b></td><td>across, again</td><td>come over · think over · get over</td></tr>
+      <tr><td><b>away</b></td><td>distance, disappearing</td><td>go away · throw away · give away</td></tr>
+    </table>
+    <h3>Three-word phrasal verbs</h3>
+    <p>look forward to · get along with · run out of · come up with (think of an idea) · put up with (tolerate) · look up to (admire)</p>
+    <h3>One phrasal verb, many meanings</h3>
+    <ul>
+      <li><b>take off</b>: leave the ground · remove (clothes) · become successful</li>
+      <li><b>pick up</b>: collect · lift · learn without studying · answer the phone</li>
+      <li><b>work out</b>: exercise · be successful · solve</li>
+      <li><b>turn down</b>: lower the volume · refuse</li>
+    </ul>
+    <h3>Informal × formal</h3>
+    <p>English has a Germanic layer (informal) and a Latin and French layer that arrived in large numbers after 1066. Phrasal verbs are informal; the Latin equivalent is more formal and easier for Portuguese speakers:</p>
+    <p>find out → discover · put off → postpone · call off → cancel · look into → investigate · give up → quit · go up → increase</p>
+    <p class="note">In conversation, prefer the phrasal verb. In instructions and formal writing, the Latin verb avoids ambiguity.</p>`
+  },
+  vocab:{
+pt:`
+    <h2>O dia a dia</h2>
+    <table>
+      <tr><th>Phrasal verb</th><th>Português</th></tr>
+      <tr><td>wake up · get up</td><td>acordar · levantar</td></tr>
+      <tr><td>put on · take off</td><td>vestir · tirar (roupa)</td></tr>
+      <tr><td>pick up · drop off</td><td>buscar · deixar (alguém)</td></tr>
+      <tr><td>turn on · turn off</td><td>ligar · desligar</td></tr>
+      <tr><td>turn up · turn down</td><td>aumentar · abaixar (volume)</td></tr>
+      <tr><td>look for</td><td>procurar</td></tr>
+      <tr><td>find out</td><td>descobrir</td></tr>
+      <tr><td>run out of</td><td>ficar sem</td></tr>
+      <tr><td>hang out</td><td>sair, passar tempo juntos</td></tr>
+      <tr><td>run into</td><td>encontrar por acaso</td></tr>
+      <tr><td>throw away</td><td>jogar fora</td></tr>
+      <tr><td>catch up</td><td>pôr o papo em dia</td></tr>
+    </table>
+    <p class="note">Em 16 de julho de 1969, a Apollo 11 <i>took off</i> da Flórida. Quatro dias depois, dois astronautas pisaram na Lua.</p>`,
+en:`
+    <h2>Everyday life</h2>
+    <table>
+      <tr><th>Phrasal verb</th><th>Portuguese</th></tr>
+      <tr><td>wake up · get up</td><td>acordar · levantar</td></tr>
+      <tr><td>put on · take off</td><td>vestir · tirar (roupa)</td></tr>
+      <tr><td>pick up · drop off</td><td>buscar · deixar (alguém)</td></tr>
+      <tr><td>turn on · turn off</td><td>ligar · desligar</td></tr>
+      <tr><td>turn up · turn down</td><td>aumentar · abaixar (volume)</td></tr>
+      <tr><td>look for</td><td>procurar</td></tr>
+      <tr><td>find out</td><td>descobrir</td></tr>
+      <tr><td>run out of</td><td>ficar sem</td></tr>
+      <tr><td>hang out</td><td>sair, passar tempo juntos</td></tr>
+      <tr><td>run into</td><td>encontrar por acaso</td></tr>
+      <tr><td>throw away</td><td>jogar fora</td></tr>
+      <tr><td>catch up</td><td>pôr o papo em dia</td></tr>
+    </table>
+    <p class="note">On July 16, 1969, Apollo 11 took off from Florida. Four days later, two astronauts walked on the Moon.</p>`
+  },
   exercises:[
-    { id:"p1", title:"Up, down, in, out, by", type:"gap", layout:"list",
-      instructions:"Complete each sentence with up, down, in, out or by. Tap a blank to choose.",
+    { id:"mc-easy", title:"Multiple choice — everyday phrasal verbs", type:"mc",
+      instructions:{pt:"Escolha a forma correta.", en:"Choose the correct form."},
+      items:[
+        {q:"I ___ up at six every day. (acordo)", o:["wake","get on","turn"], a:0, sub:"everyday",
+         why:{pt:"Wake up = acordar.", en:"Wake up = stop sleeping."}},
+        {q:"It's cold. ___ on a jacket.", o:["Put","Take","Turn"], a:0, sub:"everyday",
+         why:{pt:"Put on = vestir.", en:"Put on = dress in."}},
+        {q:"Can you turn ___ the light? I can't see.", o:["on","off","down"], a:0, sub:"particles",
+         why:{pt:"Turn on = ligar.", en:"Turn on = switch on."}},
+        {q:"The music is too loud. Turn it ___.", o:["down","up","on"], a:0, sub:"particles",
+         why:{pt:"Down = diminuir.", en:"Down = reduce."}},
+        {q:"I'm looking ___ my keys. Have you seen them?", o:["for","at","after"], a:0, sub:"everyday",
+         why:{pt:"Look for = procurar.", en:"Look for = search."}},
+        {q:"We ran ___ of milk. Can you buy some?", o:["out","off","over"], a:0, sub:"three-word",
+         why:{pt:"Run out of = ficar sem.", en:"Run out of = have no more."}},
+        {q:"I'll pick you ___ at the airport.", o:["up","off","on"], a:0, sub:"everyday",
+         why:{pt:"Pick up = buscar.", en:"Pick up = collect."}},
+        {q:"Turn ___ off before you leave.", o:["it","off it","it on"], a:0, sub:"separable",
+         why:{pt:"Pronome no meio: turn it off.", en:"Pronoun in the middle: turn it off."}},
+        {q:"Don't throw that ___! I need it.", o:["away","out of","back"], a:0, sub:"particles",
+         why:{pt:"Throw away = jogar fora.", en:"Throw away = put in the trash."}},
+        {q:"I ran ___ an old friend at the supermarket.", o:["into","out","over"], a:0, sub:"inseparable",
+         why:{pt:"Run into = encontrar por acaso.", en:"Run into = meet by chance."}},
+        {q:"Please call me ___ when you're free.", o:["back","up to","over"], a:0, sub:"particles",
+         why:{pt:"Back = retorno.", en:"Back = return."}},
+        {q:"Slow ___! You're driving too fast.", o:["down","up","off"], a:0, sub:"particles",
+         why:{pt:"Down = diminuir.", en:"Down = reduce."}},
+        {q:"I can't wait to hang ___ with my friends.", o:["out","up","over"], a:0, sub:"everyday",
+         why:{pt:"Hang out = passar tempo juntos.", en:"Hang out = spend time together."}},
+        {q:"Write it ___ so you don't forget.", o:["down","up","off"], a:0, sub:"particles",
+         why:{pt:"Down = registrar.", en:"Down = record."}}
+      ]},
+    { id:"mc-hard", title:"Multiple choice — meaning, order and register", type:"mc", reveal:"end",
+      instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
+      items:[
+        {q:"Correct order: ___", o:["Turn it off.","Turn off it.","It turn off."], a:0, sub:"separable",
+         why:{pt:"Pronome no meio, sempre.", en:"Pronoun always in the middle."}},
+        {q:"\"Her career took off\" means: ___", o:["It became successful.","It ended.","She removed it."], a:0, sub:"many meanings",
+         why:{pt:"Take off = fazer sucesso de repente.", en:"Take off = become successful quickly."}},
+        {q:"\"I picked up some Spanish in Chile\" means: ___", o:["I learned it without studying.","I bought Spanish books.","I collected someone."], a:0, sub:"many meanings",
+         why:{pt:"Pick up = aprender sem estudar.", en:"Pick up = learn informally."}},
+        {q:"She turned ___ the job offer. She didn't want to move.", o:["down","off","up"], a:0, sub:"many meanings",
+         why:{pt:"Turn down = recusar.", en:"Turn down = refuse."}},
+        {q:"I can't put up ___ this noise anymore!", o:["with","for","to"], a:0, sub:"three-word",
+         why:{pt:"Put up with = aguentar.", en:"Put up with = tolerate."}},
+        {q:"She came up ___ a brilliant idea.", o:["with","to","for"], a:0, sub:"three-word",
+         why:{pt:"Come up with = ter a ideia.", en:"Come up with = think of."}},
+        {q:"I look up ___ my grandfather. He's my hero.", o:["to","at","for"], a:0, sub:"three-word",
+         why:{pt:"Look up to = admirar.", en:"Look up to = admire."}},
+        {q:"Formal equivalent of \"find out\": ___", o:["discover","fund","locate out"], a:0, sub:"formal",
+         why:{pt:"Find out = discover.", en:"Find out = discover."}},
+        {q:"Formal equivalent of \"put off\": ___", o:["postpone","put","cancel"], a:0, sub:"formal",
+         why:{pt:"Put off = postpone (adiar).", en:"Put off = postpone."}},
+        {q:"The meeting was called ___. Nobody came.", o:["off","out","up"], a:0, sub:"particles",
+         why:{pt:"Call off = cancelar.", en:"Call off = cancel."}},
+        {q:"It took her months to get ___ the breakup.", o:["over","off","along"], a:0, sub:"inseparable",
+         why:{pt:"Get over = superar.", en:"Get over = recover from."}},
+        {q:"The tickets sold ___ in ten minutes.", o:["out","off","over"], a:0, sub:"particles",
+         why:{pt:"Out = até acabar.", en:"Out = until none are left."}},
+        {q:"I work ___ three times a week. (malho)", o:["out","up","off"], a:0, sub:"many meanings",
+         why:{pt:"Work out = malhar.", en:"Work out = exercise."}},
+        {q:"Can I try ___ these shoes?", o:["on","in","up"], a:0, sub:"particles",
+         why:{pt:"Try on = experimentar roupa.", en:"Try on = put on to test."}}
+      ]},
+    { id:"dialogue-medium", title:"Dialogue: A Busy Saturday", type:"gap", layout:"dialogue",
+      instructions:{pt:"Complete o diálogo com a partícula certa. Toque em uma lacuna e escolha.", en:"Complete the dialogue with the right particle. Tap a blank and choose."},
+      scene:{pt:"Sábado de manhã. Leo e a esposa, Tati, planejam o dia.", en:"Saturday morning. Leo and his wife, Tati, plan their day."},
       lines:[
-        "It's cold outside. Come [[1]] and close the door.",
-        "Please sit [[2]]. The doctor will see you in a minute.",
-        "The elevator is broken, so we have to walk [[3]] to the 10th floor.",
-        "I was driving [[4]] your house this morning and saw your car.",
-        "Can you take the trash [[5]] before you go to bed?",
-        "Can you turn the music [[6]]? I'm trying to sleep.",
-        "Time goes [[7]] so fast when you're on vacation.",
-        "Please fill [[8]] this form with your name and address.",
-        "He picked [[9]] the phone and called his mother.",
-        "Let's eat [[10]] tonight. I don't want to cook."
+        ["Tati","Good morning! You woke [[1]] early today."],
+        ["Leo","Yeah, I couldn't sleep. What's the plan?"],
+        ["Tati","First, I need to pick [[2]] the kids at my mom's."],
+        ["Leo","OK. And I'll drop [[3]] the clothes at the dry cleaner."],
+        ["Tati","Oh, we ran [[4]] of coffee. Can you get some?"],
+        ["Leo","Sure. Let me write it [[5]]."],
+        ["Tati","And can you throw [[6]] those old boxes in the garage?"],
+        ["Leo","Fine. Anything else?"],
+        ["Tati","Yes! My sister is coming [[7]] for dinner tonight."],
+        ["Leo","Great. I haven't seen her in months. We need to catch [[8]]."],
+        ["Tati","And please turn [[9]] the TV. You're not watching it!"],
+        ["Leo","Oops. Sorry!"]
       ],
-      answers:{1:["in"],2:["down"],3:["up"],4:["by"],5:["out"],6:["down"],7:["by"],8:["in","out"],9:["up"],10:["out"]},
-      why:{1:"in = enter.",2:"down = to a lower position.",3:"up = to a higher place.",4:"by = pass without stopping.",5:"out = to the outside.",6:"down = less (lower volume).",7:"by = pass.",8:"<i>Fill in</i> and <i>fill out</i> mean the same: <i>out</i> is more common in American English, <i>in</i> in British English.",9:"up = lift to a higher position.",10:"out = outside the home (at a restaurant)."}},
-    { id:"p2", title:"What does the particle add?", type:"gap", layout:"list",
-      instructions:"Complete each sentence with the correct particle: up, down, in, out or by.",
+      bank:["up","off","out","down","away","over","on","back","in"],
+      answers:{1:["up"],2:["up"],3:["off"],4:["out"],5:["down"],6:["away"],7:["over"],8:["up"],9:["off"]},
+      sub:{1:"everyday",2:"everyday",3:"everyday",4:"three-word",5:"particles",6:"particles",7:"particles",8:"everyday",9:"particles"},
+      why:{
+        1:{pt:"Wake up = acordar.", en:"Wake up = stop sleeping."},
+        2:{pt:"Pick up = buscar.", en:"Pick up = collect."},
+        3:{pt:"Drop off = deixar.", en:"Drop off = leave something somewhere."},
+        4:{pt:"Run out of = ficar sem.", en:"Run out of = have no more."},
+        5:{pt:"Write down = anotar.", en:"Write down = record."},
+        6:{pt:"Throw away = jogar fora.", en:"Throw away = put in the trash."},
+        7:{pt:"Come over = vir à casa de alguém.", en:"Come over = visit someone's home."},
+        8:{pt:"Catch up = pôr o papo em dia.", en:"Catch up = talk about recent news."},
+        9:{pt:"Turn off = desligar.", en:"Turn off = switch off."}
+      }},
+    { id:"dialogue-hard", title:"Dialogue: The Startup Idea", type:"gap", layout:"dialogue",
+      instructions:{pt:"Complete o diálogo sem pistas. O banco tem distratores.", en:"Complete the dialogue without cues. The bank has distractors."},
+      scene:{pt:"Duas amigas, Júlia e Bruna, conversam num café sobre um projeto paralelo.", en:"Two friends, Júlia and Bruna, talk at a café about a side project."},
       lines:[
-        "Could you speak [[1]]? We can't hear you in the back.",
-        "You're driving too fast. Slow [[2]]!",
-        "The concert tickets sold [[3]] in two hours.",
-        "I'm new at the company, but I'm trying to fit [[4]].",
-        "Why don't you stop [[5]] my house after work?",
-        "Don't leave food on your plate. Eat it all [[6]].",
-        "I need to find [[7]] what time the train leaves.",
-        "Take a deep breath and calm [[8]].",
-        "The kids are playing a game. Do you want to join [[9]]?",
-        "Money is short this month, but we'll get [[10]]."
+        ["Bruna","So, did you [[1]] up with a name for your app?"],
+        ["Júlia","Not yet. I'm still thinking it [[2]]."],
+        ["Bruna","What does it do again?"],
+        ["Júlia","It helps people find [[3]] which plants grow well on their balcony."],
+        ["Bruna","Cool! Did you show it to investors?"],
+        ["Júlia","One of them turned it [[4]]. He said the market is too small."],
+        ["Bruna","Don't give [[5]]! Lots of great ideas got rejected at first."],
+        ["Júlia","I know. I won't. I'm going to look [[6]] other options."],
+        ["Bruna","And your job? Can you put [[7]] with working two jobs?"],
+        ["Júlia","For now. If the app takes [[8]], I'll quit."],
+        ["Bruna","I'm sure it'll work [[9]]. I look forward [[10]] using it!"]
       ],
-      answers:{1:["up"],2:["down"],3:["out"],4:["in"],5:["by"],6:["up"],7:["out"],8:["down"],9:["in"],10:["by"]},
-      why:{1:"up = more (louder).",2:"down = slower.",3:"out = until nothing is left.",4:"in = be part of a group.",5:"by = visit quickly.",6:"up = completely.",7:"out = discover.",8:"down = less (less agitated).",9:"in = take part.",10:"by = pass through a difficult time; manage."}},
-    { id:"p3", title:"On or off?", type:"gap", layout:"list",
-      instructions:"Complete each sentence with on or off.",
-      lines:[
-        "Please take [[1]] your shoes before you come in.",
-        "Can I try [[2]] these jeans?",
-        "We got [[3]] the train at the wrong station.",
-        "Hold [[4]] a second. I need to find my keys.",
-        "The plane took [[5]] two hours late.",
-        "Turn [[6]] the oven. The cake is ready.",
-        "Keep [[7]] walking. The hotel is just around the corner.",
-        "I'll drop you [[8]] at school on my way to work.",
-        "It's dark in here. Can you switch [[9]] the light?",
-        "The wedding was called [[10]] at the last minute."
-      ],
-      answers:{1:["off"],2:["on"],3:["off"],4:["on"],5:["off"],6:["off"],7:["on"],8:["off"],9:["on"],10:["off"]},
-      why:{1:"off = removal.",2:"on = contact (clothes on your body).",3:"off = leave a vehicle (separation).",4:"on = continue (wait).",5:"off = separation: the plane leaves the ground.",6:"off = disconnection.",7:"on = continue.",8:"off = leave someone at a place.",9:"on = connection.",10:"off = cancel."}},
-    { id:"p4", title:"Over, away, back, around, through, along, apart", type:"gap", layout:"list",
-      instructions:"Complete each sentence with over, away, back, around, through, along or apart.",
-      lines:[
-        "My old shoes are falling [[1]].",
-        "Can you give me [[2]] my pen? I need it.",
-        "Come [[3]] to my place for dinner tonight!",
-        "I need to go [[4]] my notes before the test.",
-        "Don't throw [[5]] that box. We can use it.",
-        "Do you get [[6]] well with your neighbors?",
-        "Turn [[7]]! You're going the wrong way.",
-        "I'm busy now. I'll call you [[8]] in ten minutes.",
-        "The twins are identical. I can't tell them [[9]].",
-        "It took her a long time to get [[10]] the breakup.",
-        "The cat ran [[11]] when it saw the dog.",
-        "It was a difficult year, but we got [[12]] it.",
-        "We have some free time. Let's walk [[13]] the city center.",
-        "We're going to the beach. Do you want to come [[14]]?"
-      ],
-      answers:{1:["apart"],2:["back"],3:["over"],4:["through"],5:["away"],6:["along"],7:["around"],8:["back"],9:["apart"],10:["over"],11:["away"],12:["through"],13:["around"],14:["along"]},
-      why:{1:"apart = into pieces.",2:"back = return.",3:"over = from one place to another (a visit).",4:"through = from beginning to end.",5:"away = disappear (discard).",6:"along = together.",7:"around = in a circle (the other way).",8:"back = return (the call).",9:"apart = separate (distinguish).",10:"over = the end of something (recover).",11:"away = distance.",12:"through = from beginning to end (survive it).",13:"around = with no fixed direction.",14:"along = together."}}
+      bank:["come","over","out","down","up","into","with","off","to","for","away","on"],
+      answers:{1:["come"],2:["over"],3:["out"],4:["down"],5:["up"],6:["into"],7:["up"],8:["off"],9:["out"],10:["to"]},
+      sub:{1:"three-word",2:"particles",3:"particles",4:"many meanings",5:"particles",6:"inseparable",7:"three-word",8:"many meanings",9:"many meanings",10:"three-word"},
+      why:{
+        1:{pt:"Come up with = ter a ideia.", en:"Come up with = think of."},
+        2:{pt:"Think over = pensar com calma.", en:"Think over = consider carefully."},
+        3:{pt:"Find out = descobrir.", en:"Find out = discover."},
+        4:{pt:"Turn down = recusar.", en:"Turn down = refuse."},
+        5:{pt:"Give up = desistir.", en:"Give up = quit."},
+        6:{pt:"Look into = investigar.", en:"Look into = investigate."},
+        7:{pt:"Put up with = aguentar.", en:"Put up with = tolerate."},
+        8:{pt:"Take off = fazer sucesso.", en:"Take off = become successful."},
+        9:{pt:"Work out = dar certo.", en:"Work out = be successful."},
+        10:{pt:"Look forward to + -ING.", en:"Look forward to + -ING."}
+      }}
   ]
 });

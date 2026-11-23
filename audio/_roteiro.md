@@ -1318,6 +1318,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Leo | I didn't know he liked photography. |  |
 | dialogue-hard-14.mp3 | Mia | Neither did I! He told me it was a hobby from college. |  |
 
+## phrasal-verbs › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Tati | Good morning! You woke up early today. |  |
+| dialogue-medium-2.mp3 | Leo | Yeah, I couldn't sleep. What's the plan? |  |
+| dialogue-medium-3.mp3 | Tati | First, I need to pick up the kids at my mom's. |  |
+| dialogue-medium-4.mp3 | Leo | OK. And I'll drop off the clothes at the dry cleaner. |  |
+| dialogue-medium-5.mp3 | Tati | Oh, we ran out of coffee. Can you get some? |  |
+| dialogue-medium-6.mp3 | Leo | Sure. Let me write it down. |  |
+| dialogue-medium-7.mp3 | Tati | And can you throw away those old boxes in the garage? |  |
+| dialogue-medium-8.mp3 | Leo | Fine. Anything else? |  |
+| dialogue-medium-9.mp3 | Tati | Yes! My sister is coming over for dinner tonight. |  |
+| dialogue-medium-10.mp3 | Leo | Great. I haven't seen her in months. We need to catch up. |  |
+| dialogue-medium-11.mp3 | Tati | And please turn off the TV. You're not watching it! |  |
+| dialogue-medium-12.mp3 | Leo | Oops. Sorry! |  |
+
+## phrasal-verbs › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Bruna | So, did you come up with a name for your app? |  |
+| dialogue-hard-2.mp3 | Júlia | Not yet. I'm still thinking it over. |  |
+| dialogue-hard-3.mp3 | Bruna | What does it do again? |  |
+| dialogue-hard-4.mp3 | Júlia | It helps people find out which plants grow well on their balcony. |  |
+| dialogue-hard-5.mp3 | Bruna | Cool! Did you show it to investors? |  |
+| dialogue-hard-6.mp3 | Júlia | One of them turned it down. He said the market is too small. |  |
+| dialogue-hard-7.mp3 | Bruna | Don't give up! Lots of great ideas got rejected at first. |  |
+| dialogue-hard-8.mp3 | Júlia | I know. I won't. I'm going to look into other options. |  |
+| dialogue-hard-9.mp3 | Bruna | And your job? Can you put up with working two jobs? |  |
+| dialogue-hard-10.mp3 | Júlia | For now. If the app takes off, I'll quit. |  |
+| dialogue-hard-11.mp3 | Bruna | I'm sure it'll work out. I look forward to using it! |  |
+
 ## possessive-s › dialogue-medium  (0/15)
 
 | Arquivo | Voz | Texto | Feito |
