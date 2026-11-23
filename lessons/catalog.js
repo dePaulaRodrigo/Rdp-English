@@ -2869,5 +2869,50 @@ const CATALOG = [
     "n": 6
    }
   ]
+ },
+ {
+  "id": "wish",
+  "title": "Wish, If Only, I'd Rather",
+  "area": "Inglês Cotidiano",
+  "icon": "🌠",
+  "color": "#f0eaf4",
+  "level": "B2",
+  "part": 13,
+  "order": 66,
+  "tags": [
+   "wish + past",
+   "wish + past perfect",
+   "wish + would",
+   "wish + could",
+   "if only",
+   "wish vs hope",
+   "I'd rather you didn't",
+   "it's time we left",
+   "regret and nostalgia"
+  ],
+  "v": "a972a6b4",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];

@@ -2301,3 +2301,35 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-8.mp3 | Caio | They will love it. Kids adapt fast. |  |
 | dialogue-hard-9.mp3 | Bia | I hope so. I will call my mom before we make the final decision. |  |
 | dialogue-hard-10.mp3 | Caio | Good idea. And don't worry: I won't let anything go wrong. |  |
+
+## wish › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ana | Look at us at the beach in 1995! I wish I had that body now. (have) |  |
+| dialogue-medium-2.mp3 | Beto | Ha! I wish I had that much hair! (have) |  |
+| dialogue-medium-3.mp3 | Ana | And look, it's Grandpa. I wish he were here today. (be) |  |
+| dialogue-medium-4.mp3 | Beto | Me too. I wish I had spent more time with him. (spend) |  |
+| dialogue-medium-5.mp3 | Ana | Remember his stories about the farm? |  |
+| dialogue-medium-6.mp3 | Beto | Yes. I wish I had written them down. (write) |  |
+| dialogue-medium-7.mp3 | Ana | Who's this girl? |  |
+| dialogue-medium-8.mp3 | Beto | Carla, my childhood friend. I wish we hadn't lost touch. (not lose) |  |
+| dialogue-medium-9.mp3 | Ana | You could find her online. |  |
+| dialogue-medium-10.mp3 | Beto | Maybe. I hope she remembers me! (hope) |  |
+| dialogue-medium-11.mp3 | Ana | I wish Mom would digitize all these photos. They're falling apart! (digitize) |  |
+
+## wish › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mari | I wish Tiago would wash his dishes. The kitchen is a mess! |  |
+| dialogue-hard-2.mp3 | Lia | Have you talked to him? |  |
+| dialogue-hard-3.mp3 | Mari | Many times. I wish I hadn't moved in with him in the first place. |  |
+| dialogue-hard-4.mp3 | Lia | Why did you? |  |
+| dialogue-hard-5.mp3 | Mari | The rent was cheap. If only I had known how messy he was! |  |
+| dialogue-hard-6.mp3 | Lia | Can you move out? |  |
+| dialogue-hard-7.mp3 | Mari | I wish I could, but my contract ends in May. |  |
+| dialogue-hard-8.mp3 | Lia | Well, I hope things get better until then. |  |
+| dialogue-hard-9.mp3 | Mari | Thanks. Honestly, I'd rather he didn't invite his friends over every night, too. |  |
+| dialogue-hard-10.mp3 | Lia | It's time you set some rules together. |  |
+| dialogue-hard-11.mp3 | Mari | You're right. I wish I were better at confrontation! |  |
