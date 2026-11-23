@@ -496,6 +496,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Bia | Do you want help? I don't have to work tomorrow, so I can go with you. |  |
 | dialogue-hard-11.mp3 | Ana | Really? You're the best! |  |
 
+## modal-verbs › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bia | I'm going to Patagonia in March. Any advice? |  |
+| dialogue-medium-2.mp3 | Leo | You should take warm clothes. It might be very windy. |  |
+| dialogue-medium-3.mp3 | Bia | Good idea. should I rent a car? |  |
+| dialogue-medium-4.mp3 | Leo | Yes, you should. The distances are huge. |  |
+| dialogue-medium-5.mp3 | Bia | Do I need hiking boots? |  |
+| dialogue-medium-6.mp3 | Leo | Definitely. You shouldn't go hiking in sneakers. |  |
+| dialogue-medium-7.mp3 | Bia | OK. What about money? can I pay with cards everywhere? |  |
+| dialogue-medium-8.mp3 | Leo | Not everywhere. You might need cash in small towns. |  |
+| dialogue-medium-9.mp3 | Bia | And the glaciers? Are they worth it? |  |
+| dialogue-medium-10.mp3 | Leo | You must see Perito Moreno. It's incredible! |  |
+| dialogue-medium-11.mp3 | Bia | I'm so excited. I might stay two weeks instead of one. |  |
+| dialogue-medium-12.mp3 | Leo | Then you'd better book the hotels now. They fill up fast. |  |
+
+## modal-verbs › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Rita | My cake is gone! It was in the fridge this morning. |  |
+| dialogue-hard-2.mp3 | Tom | Hmm. It could be Paulo. He loves chocolate. |  |
+| dialogue-hard-3.mp3 | Rita | No, it can't be Paulo. He's on vacation in Bahia! |  |
+| dialogue-hard-4.mp3 | Tom | True. What about Lia? She skipped lunch. She must be very hungry. |  |
+| dialogue-hard-5.mp3 | Rita | Where is she now? |  |
+| dialogue-hard-6.mp3 | Tom | She might be sleeping on the sofa… after eating a whole cake! |  |
+| dialogue-hard-7.mp3 | Rita | Ha! I should ask her. |  |
+| dialogue-hard-8.mp3 | Tom | Wait! Look at that box on the table. It must be your cake! |  |
+| dialogue-hard-9.mp3 | Rita | You're right! But why is it here? |  |
+| dialogue-hard-10.mp3 | Tom | Somebody must be planning a surprise party. |  |
+| dialogue-hard-11.mp3 | Rita | Oh! Then we shouldn't say anything. Act surprised! |  |
+| dialogue-hard-12.mp3 | Tom | And you'd better go back to your desk before they see you! |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

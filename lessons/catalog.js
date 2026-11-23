@@ -1455,6 +1455,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "modal-verbs",
+  "title": "Modal Verbs: Advice and Possibility",
+  "area": "Inglês Cotidiano",
+  "icon": "🗺️",
+  "color": "#e6f1ec",
+  "level": "A2",
+  "part": 7,
+  "order": 35,
+  "tags": [
+   "modal verbs",
+   "should",
+   "may",
+   "might",
+   "must",
+   "had better",
+   "ought to",
+   "deduction",
+   "advice",
+   "planning a trip"
+  ],
+  "v": "a8b7d8d8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
