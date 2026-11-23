@@ -1107,6 +1107,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "present-perfect-continuous",
+  "title": "Present Perfect Continuous",
+  "area": "Inglês Cotidiano",
+  "icon": "🎹",
+  "color": "#eef1fa",
+  "level": "B1",
+  "part": 5,
+  "order": 27,
+  "tags": [
+   "present perfect continuous",
+   "have been + -ing",
+   "duration",
+   "lately",
+   "how long",
+   "hobbies",
+   "projects"
+  ],
+  "v": "8db824e0",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

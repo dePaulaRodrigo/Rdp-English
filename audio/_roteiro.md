@@ -594,6 +594,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rafael | Yes! I think it's time. |  |
 | dialogue-hard-15.mp3 | Bia | Great! Mom is already planning the menu. |  |
 
+## present-perfect-continuous › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mila | Hey, Theo! What have you been doing (do) lately? |  |
+| dialogue-medium-2.mp3 | Theo | I've been learning (learn) to play the piano. |  |
+| dialogue-medium-3.mp3 | Mila | Really? How long have you been taking (take) lessons? |  |
+| dialogue-medium-4.mp3 | Theo | since March. And you? |  |
+| dialogue-medium-5.mp3 | Mila | I've been writing (write) a novel! |  |
+| dialogue-medium-6.mp3 | Theo | Wow! How many chapters have you written (write)? |  |
+| dialogue-medium-7.mp3 | Mila | Twelve. I've been working (work) on it for two years. |  |
+| dialogue-medium-8.mp3 | Theo | That's amazing. Is that why you look tired? |  |
+| dialogue-medium-9.mp3 | Mila | Yes! I haven't been sleeping (sleep) much. |  |
+| dialogue-medium-10.mp3 | Theo | Ha! I've known (know) you for ten years, and you've always loved stories. |  |
+| dialogue-medium-11.mp3 | Mila | True! And your piano? Have you played (play) for anyone yet? |  |
+| dialogue-medium-12.mp3 | Theo | Not yet. I've only been practicing (practice) at home. |  |
+
+## present-perfect-continuous › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Kate | Wow, what happened here? It's a mess! |  |
+| dialogue-hard-2.mp3 | Lu | We've been renovating the house for three months. |  |
+| dialogue-hard-3.mp3 | Kate | How much have you done so far? |  |
+| dialogue-hard-4.mp3 | Dan | We've finished the kitchen and the bathroom. |  |
+| dialogue-hard-5.mp3 | Kate | And this room? |  |
+| dialogue-hard-6.mp3 | Lu | Dan has been painting it all week. Look at his hands! |  |
+| dialogue-hard-7.mp3 | Kate | Ha! Have you hired anyone to help you? |  |
+| dialogue-hard-8.mp3 | Dan | No. We've been watching a lot of videos online. |  |
+| dialogue-hard-9.mp3 | Kate | How long have you been living with all this dust? |  |
+| dialogue-hard-10.mp3 | Lu | Since August. I haven't been sleeping well since then. |  |
+| dialogue-hard-11.mp3 | Kate | When did you start? |  |
+| dialogue-hard-12.mp3 | Dan | We started in August, right after we bought the house. |  |
+| dialogue-hard-13.mp3 | Kate | Well, it's going to be beautiful. I've always loved this street. |  |
+
 ## present-perfect › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |
