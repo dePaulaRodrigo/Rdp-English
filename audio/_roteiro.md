@@ -151,6 +151,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-17.mp3 | Bruna | Ha! And let's read a book about travel before the trip. My teacher says Around the World in Eighty Days is a classic. |  |
 | dialogue-hard-18.mp3 | Rafael | Great. I can read it on the plane. |  |
 
+## could › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Guest | Good evening. could you help me? |  |
+| dialogue-medium-2.mp3 | Receptionist | Of course I can. What's the problem? |  |
+| dialogue-medium-3.mp3 | Guest | I couldn't open my door. The key card isn't working. |  |
+| dialogue-medium-4.mp3 | Receptionist | I'm so sorry. could I see your card? |  |
+| dialogue-medium-5.mp3 | Guest | Here it is. |  |
+| dialogue-medium-6.mp3 | Receptionist | I'll make a new one. could you wait a minute? |  |
+| dialogue-medium-7.mp3 | Guest | Sure. Also, could I have a late checkout tomorrow? |  |
+| dialogue-medium-8.mp3 | Receptionist | Let me check… Yes, you can stay until two. |  |
+| dialogue-medium-9.mp3 | Guest | Great! And could you recommend a restaurant nearby? |  |
+| dialogue-medium-10.mp3 | Receptionist | You could try Casa Azul. It's two blocks away. |  |
+| dialogue-medium-11.mp3 | Guest | Last year I couldn't get a table there. It was full. |  |
+| dialogue-medium-12.mp3 | Receptionist | I can call them and book a table for you, if you want. |  |
+
+## could › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Davi | Grandpa, when you were my age, could you use a computer? |  |
+| dialogue-hard-2.mp3 | Grandpa | No! Computers were huge, and normal people couldn't buy them. |  |
+| dialogue-hard-3.mp3 | Davi | So how did you talk to your friends? |  |
+| dialogue-hard-4.mp3 | Grandpa | We could call them from home, but calls were expensive. Mostly, we just knocked on doors. |  |
+| dialogue-hard-5.mp3 | Davi | could you watch cartoons? |  |
+| dialogue-hard-6.mp3 | Grandpa | Only on Saturday mornings. Today you can watch them any time! |  |
+| dialogue-hard-7.mp3 | Davi | What could you do really well as a kid? |  |
+| dialogue-hard-8.mp3 | Grandpa | I could climb any mango tree in the neighborhood. |  |
+| dialogue-hard-9.mp3 | Davi | Cool! Did you ever fall? |  |
+| dialogue-hard-10.mp3 | Grandpa | Once. I hurt my leg, but I managed to walk home on my own. |  |
+| dialogue-hard-11.mp3 | Davi | Ouch. Can you still climb trees? |  |
+| dialogue-hard-12.mp3 | Grandpa | Ha! These days I can't even touch my toes! |  |
+| dialogue-hard-13.mp3 | Davi | I could teach you some exercises, if you want. |  |
+
 ## demonstratives › dialogue-medium  (0/14)
 
 | Arquivo | Voz | Texto | Feito |

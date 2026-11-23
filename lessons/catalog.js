@@ -1324,6 +1324,51 @@ const CATALOG = [
   ]
  },
  {
+  "id": "could",
+  "title": "Could",
+  "area": "Inglês Cotidiano",
+  "icon": "🛎️",
+  "color": "#f3efe6",
+  "level": "A2",
+  "part": 7,
+  "order": 32,
+  "tags": [
+   "could",
+   "couldn't",
+   "past ability",
+   "polite requests",
+   "suggestions",
+   "possibility",
+   "was able to",
+   "childhood",
+   "hotel"
+  ],
+  "v": "12c9f286",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
