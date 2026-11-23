@@ -218,6 +218,47 @@ const CATALOG = [
   ]
  },
  {
+  "id": "possessive-s",
+  "title": "Possessive 's",
+  "area": "Inglês Cotidiano",
+  "icon": "🌳",
+  "color": "#f1ecdf",
+  "level": "A1",
+  "part": 1,
+  "order": 7,
+  "tags": [
+   "possessive 's",
+   "apostrophe",
+   "of",
+   "family tree",
+   "belongings"
+  ],
+  "v": "f3544c1f",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 12
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",

@@ -183,6 +183,46 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## possessive-s › dialogue-medium  (0/15)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Theo | Mom, I need help with my family tree for school. |  |
+| dialogue-medium-2.mp3 | Marina | Great! Let's start with my grandparents' (grandparents) farm in Minas. Everything started there. |  |
+| dialogue-medium-3.mp3 | Theo | Was it your grandfather's (grandfather) idea to buy it? |  |
+| dialogue-medium-4.mp3 | Marina | Yes. And my grandmother's (grandmother) cheese made the farm famous! |  |
+| dialogue-medium-5.mp3 | Theo | Cool. Who are these two men? |  |
+| dialogue-medium-6.mp3 | Marina | They're my aunts' (aunts) husbands, Uncle Zé and Uncle Beto. |  |
+| dialogue-medium-7.mp3 | Theo | And this baby? |  |
+| dialogue-medium-8.mp3 | Marina | That's your cousin's (cousin) son, Miguel. He was born last month. |  |
+| dialogue-medium-9.mp3 | Theo | Where do I put Dad's family? |  |
+| dialogue-medium-10.mp3 | Marina | Here. Your father's (father) parents go above him. |  |
+| dialogue-medium-11.mp3 | Theo | Grandpa Carlos's (Grandpa Carlos) birthday is next week, right? |  |
+| dialogue-medium-12.mp3 | Marina | Yes! We're having lunch at Grandma's (Grandma) on Sunday. |  |
+| dialogue-medium-13.mp3 | Theo | Can I use the children's (children) photos from the farm? |  |
+| dialogue-medium-14.mp3 | Marina | Of course. They're in the box on Grandpa and Grandma's (Grandpa and Grandma) desk. |  |
+| dialogue-medium-15.mp3 | Theo | This is going to be the best project in the class's (class) history! |  |
+
+## possessive-s › dialogue-hard  (0/15)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Gabi | What a party! Whose sunglasses are these? |  |
+| dialogue-hard-2.mp3 | Rui | They're Aunt Lúcia's. She always forgets something. |  |
+| dialogue-hard-3.mp3 | Gabi | And this tiny jacket? |  |
+| dialogue-hard-4.mp3 | Rui | It's one of the kids'. Six of them were running around the yard all day. |  |
+| dialogue-hard-5.mp3 | Gabi | And the cake plate? Is it ours? |  |
+| dialogue-hard-6.mp3 | Rui | No, it's the Silvas'. Mr. and Mrs. Silva brought the cake. |  |
+| dialogue-hard-7.mp3 | Gabi | I loved the top of the cake: all those strawberries! |  |
+| dialogue-hard-8.mp3 | Rui | Yeah. And she's the best baker on our street, Mrs. Silva. |  |
+| dialogue-hard-9.mp3 | Gabi | True. Hey, did you see today's newspaper? There's a photo of Grandpa's old band! |  |
+| dialogue-hard-10.mp3 | Rui | No way! I'll take it to Grandpa's tomorrow. He's going to love it. |  |
+| dialogue-hard-11.mp3 | Gabi | Take the children's toys too. They forgot them in the yard. |  |
+| dialogue-hard-12.mp3 | Rui | OK. And these keys? They're Mom and Dad's, right? The house keys. |  |
+| dialogue-hard-13.mp3 | Gabi | Yes. Oh, and did you see Ana and Lia's new car? Our cousins bought it together. |  |
+| dialogue-hard-14.mp3 | Rui | I did. And Lia's already scratched it! |  |
+| dialogue-hard-15.mp3 | Gabi | Ha! That's this week's best story. |  |
+
 ## pronouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
