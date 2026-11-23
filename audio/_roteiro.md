@@ -327,6 +327,46 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## past-continuous › dialogue-medium  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Sandra | You're late, Tiago. What happened? |  |
+| dialogue-medium-2.mp3 | Tiago | Sorry! I was waiting (wait) for the bus when it started to rain. |  |
+| dialogue-medium-3.mp3 | Sandra | And? |  |
+| dialogue-medium-4.mp3 | Tiago | While I was running (run) to the subway, I slipped and fell. |  |
+| dialogue-medium-5.mp3 | Sandra | Oh no! Are you OK? |  |
+| dialogue-medium-6.mp3 | Tiago | Yes. Then, while I was getting (get) on the train, my phone fell out of my pocket. |  |
+| dialogue-medium-7.mp3 | Sandra | Did you find it? |  |
+| dialogue-medium-8.mp3 | Tiago | A woman was standing (stand) next to me, and she picked it up. |  |
+| dialogue-medium-9.mp3 | Sandra | Lucky! |  |
+| dialogue-medium-10.mp3 | Tiago | Then the train stopped. The driver said some workers were fixing (fix) the tracks. |  |
+| dialogue-medium-11.mp3 | Sandra | What were you doing while you waited? |  |
+| dialogue-medium-12.mp3 | Tiago | I was answering (answer) your emails, actually! |  |
+| dialogue-medium-13.mp3 | Sandra | Ha! And then? |  |
+| dialogue-medium-14.mp3 | Tiago | When I arrived (arrive) at our building, the elevator was out of order. So I walked (walk) up ten floors. |  |
+| dialogue-medium-15.mp3 | Sandra | Unbelievable. I called you at seven. What were you doing? |  |
+| dialogue-medium-16.mp3 | Tiago | I was taking (take) a shower! |  |
+
+## past-continuous › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | How did you and Paulo meet? |  |
+| dialogue-hard-2.mp3 | Rita | It's a funny story. It was winter, and I was studying in a library in Boston. |  |
+| dialogue-hard-3.mp3 | Ana | OK… |  |
+| dialogue-hard-4.mp3 | Rita | It was snowing outside, and the library was almost empty. while I was reading, the lights went out. |  |
+| dialogue-hard-5.mp3 | Ana | A blackout! |  |
+| dialogue-hard-6.mp3 | Rita | Yes. Everybody was trying to find the exit. when I stood up, I hit someone with my bag. |  |
+| dialogue-hard-7.mp3 | Ana | Paulo! |  |
+| dialogue-hard-8.mp3 | Rita | Exactly. He was sitting on the floor, looking for his glasses. |  |
+| dialogue-hard-9.mp3 | Ana | Ha! What did you say? |  |
+| dialogue-hard-10.mp3 | Rita | I said, "I'm so sorry! I wasn't looking where I was going." |  |
+| dialogue-hard-11.mp3 | Rita | He laughed and said, "Me neither. I was cleaning my glasses when the lights went out." |  |
+| dialogue-hard-12.mp3 | Ana | That's adorable. And then? |  |
+| dialogue-hard-13.mp3 | Rita | We talked for an hour while we were waiting for the lights to come back. |  |
+| dialogue-hard-14.mp3 | Ana | And the rest is history! |  |
+
 ## past-simple › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

@@ -846,6 +846,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "past-continuous",
+  "title": "Past Continuous",
+  "area": "Inglês Cotidiano",
+  "icon": "🌧️",
+  "color": "#e6eef4",
+  "level": "A2",
+  "part": 4,
+  "order": 21,
+  "tags": [
+   "past continuous",
+   "was",
+   "were",
+   "-ing",
+   "when",
+   "while",
+   "interrupted actions",
+   "commute"
+  ],
+  "v": "ed46e7cb",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
