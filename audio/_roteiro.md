@@ -931,6 +931,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Bruno | That sounds like a lot of work! |  |
 | dialogue-hard-12.mp3 | Ana | Ha! I don't feel like thinking about that now. |  |
 
+## make-let-allow › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Clara | Were your parents strict? |  |
+| dialogue-medium-2.mp3 | Fábio | Very. They didn't let me watch TV on weekdays. |  |
+| dialogue-medium-3.mp3 | Clara | Wow. Mine let me watch TV, but only after homework. |  |
+| dialogue-medium-4.mp3 | Fábio | And my mom made me do the dishes every night. |  |
+| dialogue-medium-5.mp3 | Clara | Every night? I only had to make my bed. |  |
+| dialogue-medium-6.mp3 | Fábio | Lucky you! Were you allowed to have sleepovers? |  |
+| dialogue-medium-7.mp3 | Clara | Yes, on weekends. And you? |  |
+| dialogue-medium-8.mp3 | Fábio | Never. I wasn't allowed to sleep at friends' houses. |  |
+| dialogue-medium-9.mp3 | Clara | Did you ever sneak out? |  |
+| dialogue-medium-10.mp3 | Fábio | Once. I got grounded for a month. My dad made me clean the garage. |  |
+| dialogue-medium-11.mp3 | Clara | Ha! Well, it made you a responsible adult. |  |
+| dialogue-medium-12.mp3 | Fábio | True. Now I make my kids do chores too! |  |
+
+## make-let-allow › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Sandra | The kids spend too much time on their phones. We need to make some rules. |  |
+| dialogue-hard-2.mp3 | Alex | Agreed. What do you suggest? |  |
+| dialogue-hard-3.mp3 | Sandra | No phones at dinner. And they're not allowed to use them after ten. |  |
+| dialogue-hard-4.mp3 | Alex | They'll hate that. Can we let them choose one hour on weekends? |  |
+| dialogue-hard-5.mp3 | Sandra | OK. But they have to do their homework first. |  |
+| dialogue-hard-6.mp3 | Alex | Fair. And chores? Lucas never does the laundry. |  |
+| dialogue-hard-7.mp3 | Sandra | We'll make him do it on Saturdays. |  |
+| dialogue-hard-8.mp3 | Alex | Good. And Bia can make dinner on Wednesdays. She loves cooking. |  |
+| dialogue-hard-9.mp3 | Sandra | She does. She made a great lasagna last week. |  |
+| dialogue-hard-10.mp3 | Alex | Let's tell them together tonight. |  |
+| dialogue-hard-11.mp3 | Sandra | Yes. And let's not let them change our minds! |  |
+
 ## many-much › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |

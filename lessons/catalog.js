@@ -2465,6 +2465,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "make-let-allow",
+  "title": "Make, Let, Allow (and Make × Do)",
+  "area": "Inglês Cotidiano",
+  "icon": "🚸",
+  "color": "#f4ede4",
+  "level": "B1",
+  "part": 11,
+  "order": 57,
+  "tags": [
+   "make",
+   "let",
+   "allow",
+   "be allowed to",
+   "was made to",
+   "let's vs let us",
+   "make vs do",
+   "make a mistake",
+   "do homework",
+   "childhood rules"
+  ],
+  "v": "94ca5061",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
