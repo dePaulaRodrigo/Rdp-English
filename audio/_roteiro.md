@@ -416,6 +416,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-26.mp3 | Lucas | Then I'm in good company. Let's go see Mr. Ferreira. |  |
 | dialogue-27.mp3 | Dr. Prado | Go. And Lucas — there's never been a good neurosurgeon who wasn't a good clinician first. |  |
 
+## to-be-past › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Paula | Hi, Marcos! How was your weekend? |  |
+| dialogue-medium-2.mp3 | Marcos | It was great! We were in Paraty. |  |
+| dialogue-medium-3.mp3 | Paula | Paraty! was it crowded? |  |
+| dialogue-medium-4.mp3 | Marcos | No, it wasn't. There were a few tourists, but the streets were quiet. |  |
+| dialogue-medium-5.mp3 | Paula | And the weather? |  |
+| dialogue-medium-6.mp3 | Marcos | Saturday was sunny, but Sunday was rainy. |  |
+| dialogue-medium-7.mp3 | Paula | were your kids with you? |  |
+| dialogue-medium-8.mp3 | Marcos | Yes, they were. They loved the old town. |  |
+| dialogue-medium-9.mp3 | Paula | My weekend wasn't so exciting. I was at home with a cold. |  |
+| dialogue-medium-10.mp3 | Marcos | Oh no! are you better now? |  |
+| dialogue-medium-11.mp3 | Paula | Yes, thanks. I am fine today. |  |
+
+## to-be-past › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Clara | Grandpa, where were you born? |  |
+| dialogue-hard-2.mp3 | Grandpa | I was born in a small town in Minas, in 1950. |  |
+| dialogue-hard-3.mp3 | Clara | What was the town like? |  |
+| dialogue-hard-4.mp3 | Grandpa | It was tiny. There was only one school and one church. |  |
+| dialogue-hard-5.mp3 | Clara | was there a movie theater? |  |
+| dialogue-hard-6.mp3 | Grandpa | No, there wasn't. But there was a radio in every house. |  |
+| dialogue-hard-7.mp3 | Clara | were your parents farmers? |  |
+| dialogue-hard-8.mp3 | Grandpa | My father was a farmer. My mother was the town's only teacher. |  |
+| dialogue-hard-9.mp3 | Clara | were you a good student? |  |
+| dialogue-hard-10.mp3 | Grandpa | Not really! I was always late for class. |  |
+| dialogue-hard-11.mp3 | Clara | Ha! And how old were you when you met Grandma? |  |
+| dialogue-hard-12.mp3 | Grandpa | Twenty. And she will be seventy-five next month! |  |
+
 ## to-be › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |

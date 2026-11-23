@@ -476,6 +476,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "to-be-past",
+  "title": "To Be in the Past",
+  "area": "Inglês Cotidiano",
+  "icon": "🕰️",
+  "color": "#f3ece2",
+  "level": "A1",
+  "part": 2,
+  "order": 13,
+  "tags": [
+   "was",
+   "were",
+   "be born",
+   "past",
+   "will be",
+   "last weekend",
+   "memories"
+  ],
+  "v": "1e7731e8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 15
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 15
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
