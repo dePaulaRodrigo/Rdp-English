@@ -639,6 +639,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Leo | Deep. Is "philosophy at 2 a.m." a thing for you? |  |
 | dialogue-hard-12.mp3 | Maya | Only during exam week! |  |
 
+## first-conditional › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Gabi | So, Ubatuba this weekend? |  |
+| dialogue-medium-2.mp3 | Rafa | Yes! If the weather is good, we'll go on Friday night. (be) |  |
+| dialogue-medium-3.mp3 | Gabi | And if it rains? |  |
+| dialogue-medium-4.mp3 | Rafa | If it rains, we will stay at home and watch movies. (stay) |  |
+| dialogue-medium-5.mp3 | Gabi | OK. But if we leave on Friday, we'll get stuck in traffic. (get) |  |
+| dialogue-medium-6.mp3 | Rafa | True. If we leave at 5 a.m. on Saturday, the road will be empty. (leave) |  |
+| dialogue-medium-7.mp3 | Gabi | 5 a.m.? If I wake up that early, I will be grumpy all day! (be) |  |
+| dialogue-medium-8.mp3 | Rafa | Ha! I'll drive. You can sleep in the car. |  |
+| dialogue-medium-9.mp3 | Gabi | Deal. Should we book a hotel? |  |
+| dialogue-medium-10.mp3 | Rafa | Yes. If we don't book now, we won't find a room. (not find) |  |
+| dialogue-medium-11.mp3 | Gabi | I'll do it as soon as I get home. (get) |  |
+| dialogue-medium-12.mp3 | Rafa | Great. And take a jacket in case it gets cold at night. (get) |  |
+
+## first-conditional › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Léo | I'm so nervous about tomorrow. |  |
+| dialogue-hard-2.mp3 | Vivi | You'll be fine as long as you prepare. |  |
+| dialogue-hard-3.mp3 | Léo | What if they ask me about my weaknesses? |  |
+| dialogue-hard-4.mp3 | Vivi | If they ask, tell the truth, but show how you're improving. |  |
+| dialogue-hard-5.mp3 | Léo | OK. And if I don't know an answer? |  |
+| dialogue-hard-6.mp3 | Vivi | Say you'll find out. They won't mind if you're honest. |  |
+| dialogue-hard-7.mp3 | Léo | Should I take a printed résumé? |  |
+| dialogue-hard-8.mp3 | Vivi | Yes, take one in case they ask for it. |  |
+| dialogue-hard-9.mp3 | Léo | And the traffic? The interview is at nine. |  |
+| dialogue-hard-10.mp3 | Vivi | Unless you leave by seven, you'll be late. Traffic is crazy downtown. |  |
+| dialogue-hard-11.mp3 | Léo | Right. I'll leave at seven-thirty, then. |  |
+| dialogue-hard-12.mp3 | Vivi | No! At seven. And call me as soon as it ends! |  |
+| dialogue-hard-13.mp3 | Léo | I will. If I get the job, dinner's on me! |  |
+
 ## for-since-ago › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

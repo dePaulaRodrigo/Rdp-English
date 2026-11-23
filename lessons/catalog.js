@@ -2690,5 +2690,50 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "first-conditional",
+  "title": "Zero and First Conditional",
+  "area": "Inglês Cotidiano",
+  "icon": "🔀",
+  "color": "#e5f0ea",
+  "level": "A2",
+  "part": 13,
+  "order": 62,
+  "tags": [
+   "zero conditional",
+   "first conditional",
+   "if it rains",
+   "no will after if",
+   "when vs if",
+   "unless",
+   "as long as",
+   "in case",
+   "plans and consequences"
+  ],
+  "v": "31594263",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
