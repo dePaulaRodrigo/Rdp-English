@@ -2511,6 +2511,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "causative",
+  "title": "Causative: Have / Get Something Done",
+  "area": "Inglês Cotidiano",
+  "icon": "💇",
+  "color": "#ece6f2",
+  "level": "B2",
+  "part": 11,
+  "order": 58,
+  "tags": [
+   "causative",
+   "have something done",
+   "get something done",
+   "had my hair cut",
+   "had my wallet stolen",
+   "have someone do",
+   "get someone to do",
+   "services"
+  ],
+  "v": "6b47e5aa",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

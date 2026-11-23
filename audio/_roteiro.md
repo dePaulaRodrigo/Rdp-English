@@ -288,6 +288,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-17.mp3 | Bruna | Ha! And let's read a book about travel before the trip. My teacher says Around the World in Eighty Days is a classic. |  |
 | dialogue-hard-18.mp3 | Rafael | Great. I can read it on the plane. |  |
 
+## causative › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Sofia | So, is everything ready for the wedding? |  |
+| dialogue-medium-2.mp3 | Daniela | Almost! I had my dress fitted last week. (fit) |  |
+| dialogue-medium-3.mp3 | Sofia | And your hair? |  |
+| dialogue-medium-4.mp3 | Daniela | I'm going to get it done on the morning of the wedding. |  |
+| dialogue-medium-5.mp3 | Sofia | And the nails? |  |
+| dialogue-medium-6.mp3 | Daniela | I'll have them done the day before. (do) |  |
+| dialogue-medium-7.mp3 | Sofia | What about the cake? |  |
+| dialogue-medium-8.mp3 | Daniela | We're having it made by a bakery in Embu. (make) |  |
+| dialogue-medium-9.mp3 | Sofia | And the invitations? |  |
+| dialogue-medium-10.mp3 | Daniela | We had them printed in June. (print) |  |
+| dialogue-medium-11.mp3 | Sofia | Wow, you're organized! Is Pedro ready? |  |
+| dialogue-medium-12.mp3 | Daniela | He needs to have his suit dry-cleaned. And get a haircut! |  |
+| dialogue-medium-13.mp3 | Sofia | Ha! I'll get him to do it this week. (do) |  |
+
+## causative › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Rafa | You look tired. What happened? |  |
+| dialogue-hard-2.mp3 | Marcelo | Terrible week. On Monday, I had my phone stolen on the subway. |  |
+| dialogue-hard-3.mp3 | Rafa | No way! Did you get a new one? |  |
+| dialogue-hard-4.mp3 | Marcelo | Yes, but I had to have all my apps installed again. |  |
+| dialogue-hard-5.mp3 | Rafa | That's annoying. |  |
+| dialogue-hard-6.mp3 | Marcelo | Then on Wednesday, my car broke down. I had it towed to a garage. |  |
+| dialogue-hard-7.mp3 | Rafa | How much was it? |  |
+| dialogue-hard-8.mp3 | Marcelo | They haven't given me a quote yet. I'm having the brakes checked too. |  |
+| dialogue-hard-9.mp3 | Rafa | Ouch. Anything else? |  |
+| dialogue-hard-10.mp3 | Marcelo | My kitchen sink started leaking. I had a plumber look at it. |  |
+| dialogue-hard-11.mp3 | Rafa | At least you didn't try to fix it yourself! |  |
+| dialogue-hard-12.mp3 | Marcelo | No way. Last time I did that, I had to have the whole kitchen floor replaced. |  |
+| dialogue-hard-13.mp3 | Rafa | OK, this round's on me. And let's get you to go home early tonight! |  |
+
 ## comparatives › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
