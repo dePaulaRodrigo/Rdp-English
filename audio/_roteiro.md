@@ -405,6 +405,48 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Rita | We talked for an hour while we were waiting for the lights to come back. |  |
 | dialogue-hard-14.mp3 | Ana | And the rest is history! |  |
 
+## past-perfect › dialogue-medium  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Sam | How was your trip to Paris? |  |
+| dialogue-medium-2.mp3 | Nina | A disaster! When we got to the airport, we realized we had forgotten (forget) our passports. |  |
+| dialogue-medium-3.mp3 | Sam | No way! |  |
+| dialogue-medium-4.mp3 | Nina | Luckily, my brother hadn't left (not leave) our house yet, so he brought them. |  |
+| dialogue-medium-5.mp3 | Sam | Phew. And then? |  |
+| dialogue-medium-6.mp3 | Nina | By the time we got back to the check-in desk, the gate had closed (close). |  |
+| dialogue-medium-7.mp3 | Sam | Oh no. So you missed the flight? |  |
+| dialogue-medium-8.mp3 | Nina | Yes. The airline rebooked us, but the next flight was (be) full, so we waited six hours. |  |
+| dialogue-medium-9.mp3 | Sam | What a day. |  |
+| dialogue-medium-10.mp3 | Nina | And when we finally arrived, the hotel had given (give) our room to someone else. |  |
+| dialogue-medium-11.mp3 | Sam | Why? |  |
+| dialogue-medium-12.mp3 | Nina | Because we hadn't called (not call) to say we were late. |  |
+| dialogue-medium-13.mp3 | Sam | So where did you sleep? |  |
+| dialogue-medium-14.mp3 | Nina | In a tiny hostel. I had never stayed (never / stay) in a hostel before. |  |
+| dialogue-medium-15.mp3 | Sam | And how was it? |  |
+| dialogue-medium-16.mp3 | Nina | Actually, great! We met (meet) amazing people there. A blessing in disguise! |  |
+
+## past-perfect › dialogue-hard  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lia | Look, Great-Grandpa's diary! It's from 1895. |  |
+| dialogue-hard-2.mp3 | Theo | What does it say? |  |
+| dialogue-hard-3.mp3 | Lia | "We arrived in Santos in May. We had left Genoa a month earlier." |  |
+| dialogue-hard-4.mp3 | Theo | A month on a ship! |  |
+| dialogue-hard-5.mp3 | Lia | "By the time we arrived, many people on the ship had gotten sick." |  |
+| dialogue-hard-6.mp3 | Theo | Poor people. |  |
+| dialogue-hard-7.mp3 | Lia | "Before that trip, we had never seen the ocean." |  |
+| dialogue-hard-8.mp3 | Theo | Wow. Then what? |  |
+| dialogue-hard-9.mp3 | Lia | "A man from a coffee farm was waiting for us at the port. He said he would give us a house and work." |  |
+| dialogue-hard-10.mp3 | Theo | And did he? |  |
+| dialogue-hard-11.mp3 | Lia | "The house was small and old. Another family had lived there before us." |  |
+| dialogue-hard-12.mp3 | Theo | Did they like Brazil? |  |
+| dialogue-hard-13.mp3 | Lia | "At first, I missed Italy. But after we had finished our first harvest, I felt at home." |  |
+| dialogue-hard-14.mp3 | Theo | That's beautiful. When did he move to the city? |  |
+| dialogue-hard-15.mp3 | Lia | Ten years later. By then, he had saved enough money to open a bakery. |  |
+| dialogue-hard-16.mp3 | Theo | He'd had such a hard life, and he still built all that. |  |
+
 ## past-simple › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

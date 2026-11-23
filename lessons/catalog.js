@@ -975,6 +975,48 @@ const CATALOG = [
   ]
  },
  {
+  "id": "past-perfect",
+  "title": "Past Perfect",
+  "area": "Inglês Cotidiano",
+  "icon": "🛫",
+  "color": "#f1eaf6",
+  "level": "B1",
+  "part": 4,
+  "order": 24,
+  "tags": [
+   "past perfect",
+   "had + past participle",
+   "by the time",
+   "already",
+   "'d had or would",
+   "travel problems"
+  ],
+  "v": "d3c8feae",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
