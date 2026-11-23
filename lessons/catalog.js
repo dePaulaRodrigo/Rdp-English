@@ -803,6 +803,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "past-simple",
+  "title": "Past Simple",
+  "area": "Inglês Cotidiano",
+  "icon": "🧳",
+  "color": "#f4ecf8",
+  "level": "A2",
+  "part": 4,
+  "order": 20,
+  "tags": [
+   "past simple",
+   "regular verbs",
+   "irregular verbs",
+   "-ed pronunciation",
+   "did",
+   "a past trip",
+   "travel"
+  ],
+  "v": "59bd13b0",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 13
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 14
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

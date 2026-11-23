@@ -327,6 +327,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## past-simple › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bia | How was your trip to Salvador? |  |
+| dialogue-medium-2.mp3 | Rui | Amazing! We stayed (stay) there for a week. |  |
+| dialogue-medium-3.mp3 | Bia | What did you do? |  |
+| dialogue-medium-4.mp3 | Rui | We visited (visit) the Pelourinho and took (take) a boat to Morro de São Paulo. |  |
+| dialogue-medium-5.mp3 | Bia | did you try acarajé? |  |
+| dialogue-medium-6.mp3 | Rui | Yes! I ate (eat) it almost every day. |  |
+| dialogue-medium-7.mp3 | Bia | Ha! And the weather? |  |
+| dialogue-medium-8.mp3 | Rui | It rained (rain) only once. |  |
+| dialogue-medium-9.mp3 | Bia | did you buy any souvenirs? |  |
+| dialogue-medium-10.mp3 | Rui | I bought (buy) a berimbau for my son. He loved (love) it. |  |
+| dialogue-medium-11.mp3 | Bia | And how much did the hotel cost? |  |
+| dialogue-medium-12.mp3 | Rui | Not much. We paid (pay) about four hundred reais a night. |  |
+
+## past-simple › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Leo | So, how was the Atacama? |  |
+| dialogue-hard-2.mp3 | Mia | Unforgettable. We arrived in San Pedro on a Tuesday night. |  |
+| dialogue-hard-3.mp3 | Leo | How did you get there? |  |
+| dialogue-hard-4.mp3 | Mia | We took a plane to Calama and then a bus. |  |
+| dialogue-hard-5.mp3 | Leo | did you see the stars? People say the sky is incredible. |  |
+| dialogue-hard-6.mp3 | Mia | Yes! A guide drove us to a dark spot outside the town. |  |
+| dialogue-hard-7.mp3 | Leo | What was the best part? |  |
+| dialogue-hard-8.mp3 | Mia | The geysers. We woke up at four in the morning to see them. |  |
+| dialogue-hard-9.mp3 | Leo | Four! was it cold? |  |
+| dialogue-hard-10.mp3 | Mia | Freezing! It was minus ten. I wore three jackets. |  |
+| dialogue-hard-11.mp3 | Leo | And who took these photos? They're beautiful. |  |
+| dialogue-hard-12.mp3 | Mia | My husband. He bought a new camera before the trip. |  |
+| dialogue-hard-13.mp3 | Leo | I didn't know he liked photography. |  |
+| dialogue-hard-14.mp3 | Mia | Neither did I! He told me it was a hobby from college. |  |
+
 ## possessive-s › dialogue-medium  (0/15)
 
 | Arquivo | Voz | Texto | Feito |
