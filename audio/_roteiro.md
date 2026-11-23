@@ -46,6 +46,44 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-17.mp3 | Bruna | Ha! And let's read a book about travel before the trip. My teacher says Around the World in Eighty Days is a classic. |  |
 | dialogue-hard-18.mp3 | Rafael | Great. I can read it on the plane. |  |
 
+## nouns › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lia | OK, let's make the shopping list. How many people (person) are coming? |  |
+| dialogue-medium-2.mp3 | Sam | Twelve. And three of them are bringing their children (child). |  |
+| dialogue-medium-3.mp3 | Lia | So we need a lot of food. Let's buy five bags (bag) of chips. |  |
+| dialogue-medium-4.mp3 | Sam | And tomatoes (tomato) and potatoes (potato) for the salad. |  |
+| dialogue-medium-5.mp3 | Lia | We also need some boxes (box) of juice for the kids. |  |
+| dialogue-medium-6.mp3 | Sam | What about knives (knife)? We only have four. |  |
+| dialogue-medium-7.mp3 | Lia | Good idea. And paper plates, because we don't have enough dishes (dish). |  |
+| dialogue-medium-8.mp3 | Sam | Do we need new glasses (glass) for the drinks? |  |
+| dialogue-medium-9.mp3 | Lia | No, but buy some batteries (battery) for the speaker. |  |
+| dialogue-medium-10.mp3 | Sam | OK. And bread for the sandwiches? |  |
+| dialogue-medium-11.mp3 | Lia | Three loaves (loaf) should be enough. |  |
+| dialogue-medium-12.mp3 | Sam | Perfect. I'll take a lot of photos (photo) at the party! |  |
+
+## nouns › dialogue-hard  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Rafael | Wow, your new apartment is great! But where's all the furniture? |  |
+| dialogue-hard-2.mp3 | Bia | The couch and the bed arrive tomorrow. Right now, all I have is my luggage: four suitcases! |  |
+| dialogue-hard-3.mp3 | Rafael | Can I give you a piece of advice? Buy some plants. |  |
+| dialogue-hard-4.mp3 | Bia | Plants? Why? |  |
+| dialogue-hard-5.mp3 | Rafael | Plants make a home happier. And they clean the air. |  |
+| dialogue-hard-6.mp3 | Bia | Maybe. I'm also thinking about getting a cat. Cats are independent, and I travel a lot. |  |
+| dialogue-hard-7.mp3 | Rafael | True. And they catch mice! |  |
+| dialogue-hard-8.mp3 | Bia | Ha! I hope there aren't any here. The building manager gave me a lot of information about the building. |  |
+| dialogue-hard-9.mp3 | Rafael | Any news about the neighbors? |  |
+| dialogue-hard-10.mp3 | Bia | Yes, and the news is good: they're very quiet. |  |
+| dialogue-hard-11.mp3 | Rafael | Great. Hey, where are my glasses? I can't see anything without them. |  |
+| dialogue-hard-12.mp3 | Bia | On the box by the window. And there's a hair on your shirt. Long and dark… it's mine! |  |
+| dialogue-hard-13.mp3 | Rafael | No problem. I've lifted boxes up the stairs ten times today. |  |
+| dialogue-hard-14.mp3 | Bia | I know. Moving is hard work. Thank you! |  |
+| dialogue-hard-15.mp3 | Rafael | And tomorrow you're back at your new job, right? |  |
+| dialogue-hard-16.mp3 | Bia | Yes. First day at the office! |  |
+
 ## numbers › dialogue-medium  (0/19)
 
 | Arquivo | Voz | Texto | Feito |

@@ -87,6 +87,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "nouns",
+  "title": "Nouns",
+  "area": "Inglês Cotidiano",
+  "icon": "🍎",
+  "color": "#eef6e4",
+  "level": "A1",
+  "part": 1,
+  "order": 4,
+  "tags": [
+   "nouns",
+   "plural",
+   "irregular plurals",
+   "countable",
+   "uncountable",
+   "generic plural",
+   "market",
+   "home"
+  ],
+  "v": "58cca833",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 14
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
