@@ -3054,5 +3054,55 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "purpose-cause-result",
+  "title": "Purpose, Cause and Result",
+  "area": "Inglês Cotidiano",
+  "icon": "🧳",
+  "color": "#e6f0ee",
+  "level": "B2",
+  "part": 14,
+  "order": 70,
+  "tags": [
+   "to",
+   "in order to",
+   "so as to",
+   "so that",
+   "because",
+   "because of",
+   "since",
+   "as",
+   "due to",
+   "so",
+   "therefore",
+   "as a result",
+   "that's why",
+   "planning a trip"
+  ],
+  "v": "49d536df",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];

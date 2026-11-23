@@ -1768,6 +1768,36 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Emma | I'd love that. But between you and me, I'm a little nervous about meeting everyone. |  |
 | dialogue-hard-12.mp3 | Davi | Don't worry. they're going to love you. |  |
 
+## purpose-cause-result › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lia | When should we go to Peru? |  |
+| dialogue-medium-2.mp3 | Davi | May. It's the dry season, so there's less rain. |  |
+| dialogue-medium-3.mp3 | Lia | Good. And we should spend two days in Cusco first to acclimatize. |  |
+| dialogue-medium-4.mp3 | Davi | Why? |  |
+| dialogue-medium-5.mp3 | Lia | Because of the altitude. Cusco is at 3,400 meters! |  |
+| dialogue-medium-6.mp3 | Davi | Wow. I'll bring coca tea so that I don't get altitude sickness. |  |
+| dialogue-medium-7.mp3 | Lia | Smart. And we need to book Machu Picchu tickets now, because they sell out fast. |  |
+| dialogue-medium-8.mp3 | Davi | OK. Since we're booking, let's get the train tickets too. |  |
+| dialogue-medium-9.mp3 | Lia | Yes. The train is expensive. Therefore, we need a budget. |  |
+| dialogue-medium-10.mp3 | Davi | Fine. And travel insurance, in case something goes wrong. |  |
+
+## purpose-cause-result › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Agent | I'm sorry, sir. Your flight was canceled due to the strike. |  |
+| dialogue-hard-2.mp3 | Marcos | But I have a meeting in São Paulo tomorrow! I booked this flight in order to arrive on time. |  |
+| dialogue-hard-3.mp3 | Agent | I understand. Because of the strike, all flights today are canceled. |  |
+| dialogue-hard-4.mp3 | Marcos | What can I do? |  |
+| dialogue-hard-5.mp3 | Agent | We can put you on tomorrow's flight. In addition, you'll get a hotel voucher. |  |
+| dialogue-hard-6.mp3 | Marcos | OK. Can I call my office first so that they know? |  |
+| dialogue-hard-7.mp3 | Agent | Of course. And keep your receipts so that you can ask for a refund later. |  |
+| dialogue-hard-8.mp3 | Marcos | Will I be compensated? |  |
+| dialogue-hard-9.mp3 | Agent | Not this time. As it's a strike, the airline isn't responsible. |  |
+| dialogue-hard-10.mp3 | Marcos | I see. Well, since I'm stuck here, I might as well see Lisbon! |  |
+
 ## question-words › dialogue-medium  (0/18)
 
 | Arquivo | Voz | Texto | Feito |
