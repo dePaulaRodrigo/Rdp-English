@@ -1798,6 +1798,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-9.mp3 | Agent | Not this time. As it's a strike, the airline isn't responsible. |  |
 | dialogue-hard-10.mp3 | Marcos | I see. Well, since I'm stuck here, I might as well see Lisbon! |  |
 
+## question-tags › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ana | Bia? It's you, isn't it? |  |
+| dialogue-medium-2.mp3 | Bia | Ana! Long time no see! You live in Curitiba now, don't you? |  |
+| dialogue-medium-3.mp3 | Ana | Yes, I moved last year. You haven't changed at all! |  |
+| dialogue-medium-4.mp3 | Bia | Ha! You're just being nice, aren't you? |  |
+| dialogue-medium-5.mp3 | Ana | No, really! You still work at the bank, don't you? |  |
+| dialogue-medium-6.mp3 | Bia | No, I quit. I opened a bakery! |  |
+| dialogue-medium-7.mp3 | Ana | No way! You always loved baking, didn't you? |  |
+| dialogue-medium-8.mp3 | Bia | I did! You'll come visit, won't you? |  |
+| dialogue-medium-9.mp3 | Ana | Of course. Let's get together this weekend, shall we? |  |
+| dialogue-medium-10.mp3 | Bia | Perfect. You still have my number, don't you? |  |
+| dialogue-medium-11.mp3 | Ana | I think so. I'll text you now, just in case. |  |
+
+## question-tags › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lu | Everything's ready, isn't it? |  |
+| dialogue-hard-2.mp3 | Gabi | Almost. Nobody told Caio, did they? |  |
+| dialogue-hard-3.mp3 | Lu | Of course not! I'm a good secret keeper, aren't I? |  |
+| dialogue-hard-4.mp3 | Gabi | Ha! You never keep secrets, do you? |  |
+| dialogue-hard-5.mp3 | Lu | Hey! I kept this one. There's enough food, isn't there? |  |
+| dialogue-hard-6.mp3 | Gabi | Yes. Let's turn off the lights, shall we? |  |
+| dialogue-hard-7.mp3 | Lu | Wait, you didn't forget the cake, did you? |  |
+| dialogue-hard-8.mp3 | Gabi | No, I didn't forget it. It's in the fridge. |  |
+| dialogue-hard-9.mp3 | Lu | Great. Pass me the candles, will you? |  |
+| dialogue-hard-10.mp3 | Gabi | Here. Shh! He's coming! |  |
+
 ## question-words › dialogue-medium  (0/18)
 
 | Arquivo | Voz | Texto | Feito |

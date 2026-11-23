@@ -3195,5 +3195,51 @@ const CATALOG = [
     "n": 7
    }
   ]
+ },
+ {
+  "id": "question-tags",
+  "title": "Question Tags",
+  "area": "Inglês Cotidiano",
+  "icon": "🙋",
+  "color": "#e9f1e6",
+  "level": "B1",
+  "part": 14,
+  "order": 73,
+  "tags": [
+   "question tags",
+   "isn't it",
+   "don't you",
+   "didn't she",
+   "aren't I",
+   "let's shall we",
+   "answering negative questions",
+   "reply questions",
+   "right?",
+   "chatting with friends"
+  ],
+  "v": "d739e7d5",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
