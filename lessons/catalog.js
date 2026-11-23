@@ -3241,5 +3241,52 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "inversion",
+  "title": "Inversion for Emphasis",
+  "area": "Inglês Cotidiano",
+  "icon": "🔃",
+  "color": "#f1e7ee",
+  "level": "C1",
+  "part": 14,
+  "order": 74,
+  "tags": [
+   "inversion",
+   "never have I",
+   "rarely do I",
+   "not only did",
+   "no sooner had",
+   "little did I know",
+   "had I known",
+   "were I you",
+   "should you need",
+   "here comes",
+   "memorable stories"
+  ],
+  "v": "7520145d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 6
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];

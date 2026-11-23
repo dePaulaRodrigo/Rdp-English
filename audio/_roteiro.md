@@ -1032,6 +1032,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Paula | Even the sailing? You get seasick! |  |
 | dialogue-hard-11.mp3 | Tom | I'll get used to being seasick. For you! |  |
 
+## inversion › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Nina | So? How was the eclipse? |  |
+| dialogue-medium-2.mp3 | Davi | Unbelievable. Never have I seen anything like it. |  |
+| dialogue-medium-3.mp3 | Nina | Was it dark? |  |
+| dialogue-medium-4.mp3 | Davi | Completely! Not only did the sky go dark, but the temperature also dropped. |  |
+| dialogue-medium-5.mp3 | Nina | Wow. Were there many people? |  |
+| dialogue-medium-6.mp3 | Davi | Thousands. Rarely do you see so many people in total silence. |  |
+| dialogue-medium-7.mp3 | Nina | How long did it last? |  |
+| dialogue-medium-8.mp3 | Davi | About two minutes. No sooner had it started than it was over! |  |
+| dialogue-medium-9.mp3 | Nina | Any surprises? |  |
+| dialogue-medium-10.mp3 | Davi | Yes! Little did I know that I'd meet my old teacher there! |  |
+| dialogue-medium-11.mp3 | Nina | No way! Will you go to the next one? |  |
+| dialogue-medium-12.mp3 | Davi | Should I have the money, I'll go for sure! |  |
+
+## inversion › dialogue-hard  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lúcia | Fifty years ago, I opened a small bakery. Little did I imagine that it would become this company. |  |
+| dialogue-hard-2.mp3 | Lúcia | Not only did we survive the hard years, but we also grew. |  |
+| dialogue-hard-3.mp3 | Lúcia | Rarely does a business last this long. That's thanks to you. |  |
+| dialogue-hard-4.mp3 | Lúcia | Never have I worked with such dedicated people. |  |
+| dialogue-hard-5.mp3 | Lúcia | Had I not had your support, I would have given up. |  |
+| dialogue-hard-6.mp3 | Lúcia | So great is my gratitude that I can't find the words. |  |
+| dialogue-hard-7.mp3 | Lúcia | Under no circumstances should we forget where we came from. |  |
+| dialogue-hard-8.mp3 | Lúcia | And should anyone ask about our secret, tell them: it's the people. |  |
+| dialogue-hard-9.mp3 | Lúcia | Thank you, everyone! |  |
+
 ## like › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |
