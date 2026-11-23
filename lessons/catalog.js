@@ -1636,6 +1636,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "adjective-or-adverb",
+  "title": "Adjective or Adverb?",
+  "area": "Inglês Cotidiano",
+  "icon": "⭐",
+  "color": "#f4efe2",
+  "level": "B1",
+  "part": 8,
+  "order": 39,
+  "tags": [
+   "adjective vs adverb",
+   "linking verbs",
+   "tastes good",
+   "feel bad",
+   "I'm well",
+   "word families",
+   "suffixes",
+   "reviews"
+  ],
+  "v": "fb9730b2",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

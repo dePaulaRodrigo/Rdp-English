@@ -4,6 +4,37 @@ Gerado por tools/build.mjs — não editar à mão.
 
 Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.mjs`. Os botões de áudio aparecem sozinhos.
 
+## adjective-or-adverb › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Nina | OK, let's write the review. The food was excellent. (excellent) |  |
+| dialogue-medium-2.mp3 | Leo | Yes. The fish was cooked perfectly. (perfect) |  |
+| dialogue-medium-3.mp3 | Nina | And the dessert smelled amazing. (amazing) |  |
+| dialogue-medium-4.mp3 | Leo | But the service was slow. (slow) |  |
+| dialogue-medium-5.mp3 | Nina | True. The waiter walked very slowly. (slow) |  |
+| dialogue-medium-6.mp3 | Leo | Ha! But he spoke to us politely. (polite) |  |
+| dialogue-medium-7.mp3 | Nina | Right. He was friendly. (friendly) |  |
+| dialogue-medium-8.mp3 | Leo | What about the price? |  |
+| dialogue-medium-9.mp3 | Nina | It was a bit expensive, but worth the money. (expensive) |  |
+| dialogue-medium-10.mp3 | Leo | The music was terribly loud, though. (terrible) |  |
+| dialogue-medium-11.mp3 | Nina | OK. Four stars. We'll definitely go back! (definite) |  |
+
+## adjective-or-adverb › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | So, what did you think of Frankenstein? |  |
+| dialogue-hard-2.mp3 | Rui | I loved it. It's beautifully written. Mary Shelley was only twenty when it came out. |  |
+| dialogue-hard-3.mp3 | Ana | Amazing. But the first chapters felt slow to me. |  |
+| dialogue-hard-4.mp3 | Rui | Really? I thought they built the tension carefully. |  |
+| dialogue-hard-5.mp3 | Ana | Maybe. The creature is my favorite character. He seems so lonely. |  |
+| dialogue-hard-6.mp3 | Rui | Yes. People treat him cruelly, and he becomes a monster. |  |
+| dialogue-hard-7.mp3 | Ana | It's a story about loneliness, in a way. About being alone. |  |
+| dialogue-hard-8.mp3 | Rui | And about science. Victor creates life, but he can't take responsibility for it. |  |
+| dialogue-hard-9.mp3 | Ana | Some people call it the first science fiction novel. |  |
+| dialogue-hard-10.mp3 | Rui | It's certainly one of the first. I'd highly recommend it. |  |
+
 ## adjectives › dialogue-medium  (0/14)
 
 | Arquivo | Voz | Texto | Feito |
