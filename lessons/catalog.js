@@ -1150,6 +1150,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "will",
+  "title": "Future Simple (Will)",
+  "area": "Inglês Cotidiano",
+  "icon": "🔮",
+  "color": "#efe9f8",
+  "level": "A2",
+  "part": 6,
+  "order": 28,
+  "tags": [
+   "will",
+   "won't",
+   "predictions",
+   "promises",
+   "offers",
+   "time clauses",
+   "restaurant"
+  ],
+  "v": "ce650cb0",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

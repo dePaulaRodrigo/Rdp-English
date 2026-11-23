@@ -1028,3 +1028,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Receptionist | No problem. By the way, who are you traveling with? |  |
 | dialogue-hard-13.mp3 | Ricardo | My wife. she's the woman at the bar, the one whose dress is blue. |  |
 | dialogue-hard-14.mp3 | Receptionist | Then please give her this coupon for a free dessert. |  |
+
+## will › dialogue-medium  (0/16)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Waiter | Good evening! Are you ready to order? |  |
+| dialogue-medium-2.mp3 | Ana | Yes. I will have the salmon, please. |  |
+| dialogue-medium-3.mp3 | Waiter | Great choice. And for you, sir? |  |
+| dialogue-medium-4.mp3 | Leo | Hmm… I think I will try the steak. |  |
+| dialogue-medium-5.mp3 | Waiter | How would you like it cooked? |  |
+| dialogue-medium-6.mp3 | Leo | Medium, please. will it take long? |  |
+| dialogue-medium-7.mp3 | Waiter | About twenty minutes. Anything to drink? |  |
+| dialogue-medium-8.mp3 | Ana | I won't have wine tonight. I'm driving. |  |
+| dialogue-medium-9.mp3 | Leo | I will have a beer. |  |
+| dialogue-medium-10.mp3 | Waiter | Perfect. I will bring your drinks right away. |  |
+| dialogue-medium-11.mp3 | Ana | Leo, I'm sure you will love the dessert here. |  |
+| dialogue-medium-12.mp3 | Leo | I hope so! Oh no… I forgot my wallet! |  |
+| dialogue-medium-13.mp3 | Ana | Don't worry. I will pay tonight. |  |
+| dialogue-medium-14.mp3 | Leo | Thanks! I promise I will pay next time. |  |
+| dialogue-medium-15.mp3 | Ana | You always say that! Will you remember? |  |
+| dialogue-medium-16.mp3 | Leo | Yes, I will! |  |
+
+## will › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Bia | When we move to Lisbon, I'll look for a job right away. |  |
+| dialogue-hard-2.mp3 | Caio | I will help you with your résumé. |  |
+| dialogue-hard-3.mp3 | Bia | Thanks. Do you think we will find an apartment quickly? |  |
+| dialogue-hard-4.mp3 | Caio | Probably. As soon as the bank approves the loan, we can sign the contract. |  |
+| dialogue-hard-5.mp3 | Bia | And if they don't approve it? |  |
+| dialogue-hard-6.mp3 | Caio | Then we will rent for a year. |  |
+| dialogue-hard-7.mp3 | Bia | OK. I'm a little scared. What if the kids don't like their new school? |  |
+| dialogue-hard-8.mp3 | Caio | They will love it. Kids adapt fast. |  |
+| dialogue-hard-9.mp3 | Bia | I hope so. I will call my mom before we make the final decision. |  |
+| dialogue-hard-10.mp3 | Caio | Good idea. And don't worry: I won't let anything go wrong. |  |
