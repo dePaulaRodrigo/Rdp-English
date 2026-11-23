@@ -520,6 +520,14 @@ const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
 /* Texto bilíngue: aceita "texto" ou {pt:"...", en:"..."}. */
 /* "Correto." acompanha o idioma das explicações, não o da interface. */
 const CORRECT = {pt:"Correto.", en:"Correct.", es:"Correcto.", it:"Corretto.", fr:"Correct."};
+/* Abas e paginador da lição seguem o idioma das explicações (como o rótulo de acerto). */
+const LESSON_UI = {
+  en:{tabExpl:"Explanation", tabPractice:"Practice", tabVocab:"Vocabulary", exercises:"Exercises:"},
+  es:{tabExpl:"Explicación", tabPractice:"Práctica", tabVocab:"Vocabulario", exercises:"Ejercicios:"},
+  it:{tabExpl:"Spiegazione", tabPractice:"Pratica", tabVocab:"Vocabolario", exercises:"Esercizi:"},
+  fr:{tabExpl:"Explication", tabPractice:"Pratique", tabVocab:"Vocabulaire", exercises:"Exercices:"}
+};
+const lt = key => (LESSON_UI[S.lang]||{})[key] || t(key);
 const tx = v => v==null ? "" : (typeof v==="string" ? v : (v[S.lang]||v.en||v.pt||""));
 const isBi = v => v && typeof v==="object" && (v.pt||v.en);
 /* Idiomas de conteúdo, na ordem do seletor. O idioma nativo padrão do aluno é o português. */
@@ -843,7 +851,7 @@ function renderLesson(){
   S.lang = lessonLang(l);
   const langs = langsOf(l.explanation), bi = langs.length > 1;
   if(S.tab==="vocab" && !l.vocab) S.tab="ex";
-  const pager = exs.length>1 ? `<div class="pager"><span class="small muted">${t("exercises")}</span>${
+  const pager = exs.length>1 ? `<div class="pager"><span class="small muted">${lt("exercises")}</span>${
     exs.map((e,i)=>`<button class="pg ${i===S.ex?"on":""} ${exDone(l,e)?"done":""}" data-i="${i}" title="${esc(tx(e.title))}">${i+1}</button>`).join("")}</div>` : "";
   let body;
   if(S.tab==="expl"){ body = `<div class="expl" lang="${S.lang==="en"?"en":"pt-BR"}">${tx(l.explanation)}</div>`; }
@@ -859,7 +867,7 @@ function renderLesson(){
     <div class="crumb"><a id="back">${t("lessons")}</a> › ${fieldOf(l.area)?`<a id="backField">${esc(nameOf(fieldOf(l.area)))}</a> › `:""}${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
     <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span></div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
-    <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">${t("tabExpl")}</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">${t("tabPractice")}</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">${t("tabVocab")}</button>`:""}</div>
+    <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">${lt("tabExpl")}</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">${lt("tabPractice")}</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">${lt("tabVocab")}</button>`:""}</div>
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { S.home = fieldOf(l.area) ? "pro" : "daily"; location.hash=""; };
   const bf = $("#backField"); if(bf) bf.onclick = () => { location.hash = "area/"+l.area; };
