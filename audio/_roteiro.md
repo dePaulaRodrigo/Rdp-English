@@ -834,6 +834,38 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Davis | Excellent. See you on Thursday. |  |
 | dialogue-hard-11.mp3 | Laura | Thank you. Have a good day! |  |
 
+## like › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Amy | Is this you? You look like a movie star! |  |
+| dialogue-medium-2.mp3 | Vera | Ha! No, that's my mom in 1985. Everyone says I look like her. |  |
+| dialogue-medium-3.mp3 | Amy | You really do. You have the same smile. |  |
+| dialogue-medium-4.mp3 | Vera | And this is my brother. We don't look alike at all. |  |
+| dialogue-medium-5.mp3 | Amy | No! What is he like? |  |
+| dialogue-medium-6.mp3 | Vera | He's very outgoing. I'm shy. He takes after my dad. |  |
+| dialogue-medium-7.mp3 | Amy | And who's this little girl? She looks so happy! |  |
+| dialogue-medium-8.mp3 | Vera | That's my daughter. She's five now. She wants to work as a vet. |  |
+| dialogue-medium-9.mp3 | Amy | That sounds great. Does she like animals? |  |
+| dialogue-medium-10.mp3 | Vera | She loves them. Our house smells like a zoo! |  |
+
+## like › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Bruno | Wait… weren't you in the kitchen a minute ago? |  |
+| dialogue-hard-2.mp3 | Ana | Ha! No, that's Bia, my twin sister. We look exactly alike. |  |
+| dialogue-hard-3.mp3 | Bruno | Wow! Are you alike in personality too? |  |
+| dialogue-hard-4.mp3 | Ana | Not at all. Unlike me, she's very organized. |  |
+| dialogue-hard-5.mp3 | Bruno | So what are you like? |  |
+| dialogue-hard-6.mp3 | Ana | I'm creative, a bit messy. I work as a graphic designer. |  |
+| dialogue-hard-7.mp3 | Bruno | And Bia? |  |
+| dialogue-hard-8.mp3 | Ana | She's an engineer. She thinks like a computer. |  |
+| dialogue-hard-9.mp3 | Bruno | Ha! Do twins run in your family? |  |
+| dialogue-hard-10.mp3 | Ana | Yes! My mom is a twin too. So I'm more likely to have twins myself. |  |
+| dialogue-hard-11.mp3 | Bruno | That sounds like a lot of work! |  |
+| dialogue-hard-12.mp3 | Ana | Ha! I don't feel like thinking about that now. |  |
+
 ## many-much › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |

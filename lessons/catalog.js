@@ -2234,6 +2234,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "like",
+  "title": "Like, Look Like, As",
+  "area": "Inglês Cotidiano",
+  "icon": "🪞",
+  "color": "#f4ebe6",
+  "level": "B1",
+  "part": 10,
+  "order": 52,
+  "tags": [
+   "like",
+   "look like",
+   "look alike",
+   "what is he like",
+   "seem",
+   "sounds like",
+   "feel like",
+   "like vs as",
+   "unlike",
+   "likely",
+   "family resemblance"
+  ],
+  "v": "3f661c3a",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
