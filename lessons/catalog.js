@@ -1501,6 +1501,51 @@ const CATALOG = [
   ]
  },
  {
+  "id": "modals-perfect",
+  "title": "Modals + Present Perfect",
+  "area": "Inglês Cotidiano",
+  "icon": "🔍",
+  "color": "#ece8f4",
+  "level": "B2",
+  "part": 7,
+  "order": 36,
+  "tags": [
+   "should have",
+   "must have",
+   "might have",
+   "could have",
+   "can't have",
+   "didn't need to",
+   "needn't have",
+   "past deduction",
+   "regrets"
+  ],
+  "v": "e4bfca98",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

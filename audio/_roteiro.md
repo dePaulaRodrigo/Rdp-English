@@ -530,6 +530,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Rita | Oh! Then we shouldn't say anything. Act surprised! |  |
 | dialogue-hard-12.mp3 | Tom | And you'd better go back to your desk before they see you! |  |
 
+## modals-perfect › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Carla | I missed my flight! I can't believe it. |  |
+| dialogue-medium-2.mp3 | Rui | Oh no! What happened? |  |
+| dialogue-medium-3.mp3 | Carla | I overslept. I should have set two alarms. |  |
+| dialogue-medium-4.mp3 | Rui | You could have called me. I was awake at five. |  |
+| dialogue-medium-5.mp3 | Carla | I know. And the traffic was terrible. There must have been an accident. |  |
+| dialogue-medium-6.mp3 | Rui | Did you talk to the airline? |  |
+| dialogue-medium-7.mp3 | Carla | Yes. The next flight is at four. I shouldn't have bought the cheaper ticket. It has no changes. |  |
+| dialogue-medium-8.mp3 | Rui | How much do you have to pay? |  |
+| dialogue-medium-9.mp3 | Carla | Two hundred reais. I could have saved that money! |  |
+| dialogue-medium-10.mp3 | Rui | Well, it could have been worse. You could have missed the meeting. |  |
+| dialogue-medium-11.mp3 | Carla | True. The meeting is tomorrow. At least I didn't need to cancel it. |  |
+| dialogue-medium-12.mp3 | Rui | See? It's no use crying over spilled milk. |  |
+
+## modals-perfect › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lima | The painting was here at closing time. Someone must have taken it during the night. |  |
+| dialogue-hard-2.mp3 | Paulo | But the alarm didn't go off. The thief can't have come through the door. |  |
+| dialogue-hard-3.mp3 | Lima | Then how did they get in? |  |
+| dialogue-hard-4.mp3 | Paulo | They might have used the window on the roof. It's old. |  |
+| dialogue-hard-5.mp3 | Lima | Look, there are wet footprints. It rained at midnight, so the thief must have been here after twelve. |  |
+| dialogue-hard-6.mp3 | Paulo | I was at my desk all night… well, I might have fallen asleep for a few minutes. |  |
+| dialogue-hard-7.mp3 | Lima | You should have stayed awake! That's your job. |  |
+| dialogue-hard-8.mp3 | Paulo | I know, I know. I shouldn't have had that big lunch. |  |
+| dialogue-hard-9.mp3 | Lima | And who has the key to the storage room? |  |
+| dialogue-hard-10.mp3 | Paulo | Only the director. But she can't have done it. She's in Portugal this week. |  |
+| dialogue-hard-11.mp3 | Lima | Hmm. She didn't need to be here. Someone could have used her key. |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
