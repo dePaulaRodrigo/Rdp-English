@@ -430,6 +430,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Lia | I'm not very excited about documentaries, but this one sounds good. |  |
 | dialogue-hard-12.mp3 | Rafa | Trust me. You won't be disappointed. |  |
 
+## enough › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Caio | OK, do we have enough money for Chile? (money) |  |
+| dialogue-medium-2.mp3 | Lara | Almost. We need two hundred dollars more. |  |
+| dialogue-medium-3.mp3 | Caio | And do we have enough vacation days? (vacation days) |  |
+| dialogue-medium-4.mp3 | Lara | I have ten. Is that long enough? (long) |  |
+| dialogue-medium-5.mp3 | Caio | Sure. Ten days is enough time to see Santiago and the Atacama. (time) |  |
+| dialogue-medium-6.mp3 | Lara | What about the cold? Are our jackets warm enough? (warm) |  |
+| dialogue-medium-7.mp3 | Caio | No. The Andes are freezing in July. We need new ones. |  |
+| dialogue-medium-8.mp3 | Lara | And the car rental? Is a small car good enough for the mountains? (good) |  |
+| dialogue-medium-9.mp3 | Caio | Hmm. Maybe not. The roads are steep. |  |
+| dialogue-medium-10.mp3 | Lara | We should save more. We're not saving fast enough. (fast) |  |
+| dialogue-medium-11.mp3 | Caio | We could eat out less. That's easy enough. (easy) |  |
+| dialogue-medium-12.mp3 | Lara | Fair enough! |  |
+
+## enough › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Theo | I want to visit eight countries in two weeks. |  |
+| dialogue-hard-2.mp3 | Bete | Eight? That's too many. You won't have enough time to enjoy them. |  |
+| dialogue-hard-3.mp3 | Theo | Hmm. Maybe four, then? |  |
+| dialogue-hard-4.mp3 | Bete | Four is enough. Trust me. |  |
+| dialogue-hard-5.mp3 | Theo | And money? I have two thousand euros. |  |
+| dialogue-hard-6.mp3 | Bete | That's enough for hostels, but not for hotels. |  |
+| dialogue-hard-7.mp3 | Theo | Hostels are fine. I'm young enough to sleep anywhere! |  |
+| dialogue-hard-8.mp3 | Bete | Ha! And your backpack? That one is too small for two weeks. |  |
+| dialogue-hard-9.mp3 | Theo | It's not big enough, you think? |  |
+| dialogue-hard-10.mp3 | Bete | No. And it's too old. The zipper is broken. |  |
+| dialogue-hard-11.mp3 | Theo | OK, OK. I'll buy a new one. Anything else? |  |
+| dialogue-hard-12.mp3 | Bete | Yes: don't pack too many clothes. Pack light! |  |
+| dialogue-hard-13.mp3 | Theo | Got it. That's enough advice for today! |  |
+
 ## exist-be-a-thing › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |

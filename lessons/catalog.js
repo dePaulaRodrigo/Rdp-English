@@ -1860,6 +1860,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "enough",
+  "title": "Enough",
+  "area": "Inglês Cotidiano",
+  "icon": "💰",
+  "color": "#e8f1e4",
+  "level": "A2",
+  "part": 8,
+  "order": 44,
+  "tags": [
+   "enough",
+   "enough money",
+   "old enough",
+   "too",
+   "not enough",
+   "enough to",
+   "enough for",
+   "that's enough",
+   "fair enough",
+   "money and time for a trip"
+  ],
+  "v": "e6d9ad26",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
