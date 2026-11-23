@@ -1411,6 +1411,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "have-to-must",
+  "title": "Have To, Need, Must",
+  "area": "Inglês Cotidiano",
+  "icon": "🛂",
+  "color": "#f4ece6",
+  "level": "A2",
+  "part": 7,
+  "order": 34,
+  "tags": [
+   "have to",
+   "must",
+   "need to",
+   "don't have to",
+   "mustn't",
+   "had to",
+   "obligation",
+   "travel rules"
+  ],
+  "v": "36ff5eb8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

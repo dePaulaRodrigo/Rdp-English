@@ -462,6 +462,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Liz | True. Listen, I've got to go. I have a meeting in five minutes. |  |
 | dialogue-hard-13.mp3 | Tom | OK. Thanks, Liz. have a good meeting! |  |
 
+## have-to-must › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Agent | Good morning! Where are you flying today? |  |
+| dialogue-medium-2.mp3 | Paulo | To Lisbon. Do I have to show my passport here? |  |
+| dialogue-medium-3.mp3 | Agent | Yes, you have to show it here and at the gate. |  |
+| dialogue-medium-4.mp3 | Paulo | OK. Do I have to pay for my suitcase? |  |
+| dialogue-medium-5.mp3 | Agent | No, you don't have to pay. One bag is included. |  |
+| dialogue-medium-6.mp3 | Paulo | Great. And my backpack? |  |
+| dialogue-medium-7.mp3 | Agent | That's fine. But you can't take liquids over 100 ml in it. |  |
+| dialogue-medium-8.mp3 | Paulo | Oh, I have shampoo in it. I need to put it in the suitcase. |  |
+| dialogue-medium-9.mp3 | Agent | Exactly. Also, children must have their own passport. |  |
+| dialogue-medium-10.mp3 | Paulo | Sure. Here's my son's. Last year, we had to get it in a rush! |  |
+| dialogue-medium-11.mp3 | Agent | Everything's OK. You must be at the gate by nine-thirty. |  |
+| dialogue-medium-12.mp3 | Paulo | Do we have to go through security now? |  |
+| dialogue-medium-13.mp3 | Agent | Not yet. You don't have to hurry. You still have two hours. |  |
+
+## have-to-must › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | I'm so stressed. I have to get so many documents for the visa! |  |
+| dialogue-hard-2.mp3 | Bia | What do you need to bring? |  |
+| dialogue-hard-3.mp3 | Ana | A birth certificate, bank statements… and I have to translate everything. |  |
+| dialogue-hard-4.mp3 | Bia | Everything? You don't have to translate your passport, at least. It's already in English. |  |
+| dialogue-hard-5.mp3 | Ana | True. But I mustn't miss the appointment. If I do, I'll have to wait three months. |  |
+| dialogue-hard-6.mp3 | Bia | You must be very nervous. |  |
+| dialogue-hard-7.mp3 | Ana | I am! Last time, I had to go back home because I forgot a photo. |  |
+| dialogue-hard-8.mp3 | Bia | Oh no! Did you have to pay the fee again? |  |
+| dialogue-hard-9.mp3 | Ana | Yes. This time I mustn't forget anything. |  |
+| dialogue-hard-10.mp3 | Bia | Do you want help? I don't have to work tomorrow, so I can go with you. |  |
+| dialogue-hard-11.mp3 | Ana | Really? You're the best! |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
