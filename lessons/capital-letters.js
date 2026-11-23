@@ -39,7 +39,18 @@ pt:`
       <li><b>início de frase</b>: igual ao português.</li>
       <li><b>títulos</b>: as palavras principais. Palavras pequenas como <i>the, of, in, and</i> ficam com minúscula no meio do título: <i>The Devil Wears Prada</i>, <i>The Lord of the Rings</i>.</li>
     </ul>
-    <p class="note">As estações do ano <b>não</b> levam maiúscula: summer, winter, spring, fall.</p>`,
+    <h3>Mais casos</h3>
+    <ul>
+      <li><b>religiões, datas religiosas e feriados</b>: Catholic, Christian, Jewish · Christmas, Easter, Lent, Thanksgiving</li>
+      <li><b>Deus e os livros sagrados</b>: God, the Bible</li>
+      <li><b>títulos antes do nome</b>: Doctor Silva, Uncle Paulo, President Lincoln. Sem o nome, minúscula: my uncle, the president.</li>
+      <li><b>Mom e Dad como nome</b>: Thanks, Mom! Mas: my mom is a nurse.</li>
+      <li><b>períodos históricos</b>: the Middle Ages, the Renaissance, the Industrial Revolution</li>
+      <li><b>lugares com nome</b>: the Amazon River, Mount Everest, South America, Main Street</li>
+      <li><b>siglas</b>: USA, NASA, CEO. Exceção: a.m. e p.m.</li>
+      <li><b>nacionalidade como substantivo</b>: a Brazilian, the Japanese</li>
+    </ul>
+    <p class="note">As estações do ano <b>não</b> levam maiúscula: summer, winter, spring, fall. Matérias escolares também não, exceto os idiomas: math, history, English. Pontos cardeais como direção ficam em minúscula: drive north.</p>`,
 en:`
     <h2>Capital letters</h2>
     <p>Portuguese uses lowercase letters for many words that English writes with a capital letter.</p>
@@ -75,7 +86,18 @@ en:`
       <li><b>the start of a sentence</b>: the same as in Portuguese.</li>
       <li><b>titles</b>: the main words. Small words like <i>the, of, in, and</i> stay lowercase in the middle of a title: <i>The Devil Wears Prada</i>, <i>The Lord of the Rings</i>.</li>
     </ul>
-    <p class="note">The seasons do <b>not</b> take a capital letter: summer, winter, spring, fall.</p>`
+    <h3>More cases</h3>
+    <ul>
+      <li><b>religions, religious dates and holidays</b>: Catholic, Christian, Jewish · Christmas, Easter, Lent, Thanksgiving</li>
+      <li><b>God and sacred books</b>: God, the Bible</li>
+      <li><b>titles before a name</b>: Doctor Silva, Uncle Paulo, President Lincoln. Without the name, lowercase: my uncle, the president.</li>
+      <li><b>Mom and Dad used as names</b>: Thanks, Mom! But: my mom is a nurse.</li>
+      <li><b>historical periods</b>: the Middle Ages, the Renaissance, the Industrial Revolution</li>
+      <li><b>named places</b>: the Amazon River, Mount Everest, South America, Main Street</li>
+      <li><b>abbreviations</b>: USA, NASA, CEO. Exception: a.m. and p.m.</li>
+      <li><b>nationalities as nouns</b>: a Brazilian, the Japanese</li>
+    </ul>
+    <p class="note">The seasons do <b>not</b> take a capital letter: summer, winter, spring, fall. Neither do school subjects, except languages: math, history, English. Compass directions are lowercase: drive north.</p>`
   },
   vocab:{
 pt:`
