@@ -1257,6 +1257,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
+## so-such › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Igor | How was Foz do Iguaçu? |  |
+| dialogue-medium-2.mp3 | Renata | It was such an amazing trip! The falls are so big. |  |
+| dialogue-medium-3.mp3 | Igor | I've heard there are so many waterfalls there. |  |
+| dialogue-medium-4.mp3 | Renata | About 275! It was so loud that we couldn't hear each other. |  |
+| dialogue-medium-5.mp3 | Igor | Did you get wet? |  |
+| dialogue-medium-6.mp3 | Renata | Completely! There was so much water in the air. |  |
+| dialogue-medium-7.mp3 | Igor | And the hotel? |  |
+| dialogue-medium-8.mp3 | Renata | It was too expensive for us, so we stayed in a small guesthouse. |  |
+| dialogue-medium-9.mp3 | Igor | Was it OK? |  |
+| dialogue-medium-10.mp3 | Renata | Yes! The owners were such nice people. They made us breakfast every day. |  |
+| dialogue-medium-11.mp3 | Igor | I want to go too! |  |
+| dialogue-medium-12.mp3 | Renata | You should. But don't go in January. It's too hot and crowded. |  |
+
+## so-such › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Luísa | So? How was the dinner? |  |
+| dialogue-hard-2.mp3 | Sofia | Unforgettable. It was such a good meal that I almost cried. |  |
+| dialogue-hard-3.mp3 | Luísa | Ha! How many courses? |  |
+| dialogue-hard-4.mp3 | Sofia | Twelve! But the portions were very small, so it was fine. |  |
+| dialogue-hard-5.mp3 | Luísa | Twelve courses? I'd be too full to walk! |  |
+| dialogue-hard-6.mp3 | Sofia | Me too, almost. There was so much creativity in every dish. |  |
+| dialogue-hard-7.mp3 | Luísa | Was it expensive? |  |
+| dialogue-hard-8.mp3 | Sofia | Very. But it was such a special night. We don't do it often. |  |
+| dialogue-hard-9.mp3 | Luísa | And the service? |  |
+| dialogue-hard-10.mp3 | Sofia | The waiters were so professional. They explained every dish. |  |
+| dialogue-hard-11.mp3 | Luísa | I've never been to such a place. |  |
+| dialogue-hard-12.mp3 | Sofia | We have so few chances to celebrate. It was worth it. |  |
+| dialogue-hard-13.mp3 | Luísa | Next time, take me! |  |
+
 ## the-more-the-better › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

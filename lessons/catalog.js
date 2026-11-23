@@ -1813,6 +1813,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "so-such",
+  "title": "So, Such, Very, Too",
+  "area": "Inglês Cotidiano",
+  "icon": "✨",
+  "color": "#f4f0e1",
+  "level": "B1",
+  "part": 8,
+  "order": 43,
+  "tags": [
+   "so",
+   "such",
+   "very",
+   "too",
+   "so much",
+   "so many",
+   "such a",
+   "so … that",
+   "too … to",
+   "such as",
+   "memorable trip"
+  ],
+  "v": "227817db",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
