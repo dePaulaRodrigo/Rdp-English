@@ -702,6 +702,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Mr. Santos | One more thing: on Sunday, we will be leaving the hotel late. Is that OK? |  |
 | dialogue-hard-11.mp3 | Receptionist | Of course. I will put a note on your reservation. |  |
 
+## get-passive › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Fernanda | Welcome back! How was Buenos Aires? |  |
+| dialogue-medium-2.mp3 | Roberto | Don't ask. First, our flight got delayed. Three hours! (delay) |  |
+| dialogue-medium-3.mp3 | Fernanda | Oh no. |  |
+| dialogue-medium-4.mp3 | Roberto | Then my suitcase got lost. It arrived two days later. (lose) |  |
+| dialogue-medium-5.mp3 | Fernanda | What did you wear? |  |
+| dialogue-medium-6.mp3 | Roberto | I bought clothes. And on the second day, I got robbed in San Telmo. (rob) |  |
+| dialogue-medium-7.mp3 | Fernanda | Seriously? Did you get hurt? (hurt) |  |
+| dialogue-medium-8.mp3 | Roberto | No, thank God. They only took my wallet. |  |
+| dialogue-medium-9.mp3 | Fernanda | Did you call the police? |  |
+| dialogue-medium-10.mp3 | Roberto | Yes, but I got lost on the way to the station. (lose) |  |
+| dialogue-medium-11.mp3 | Fernanda | Ha! Sorry. Anything good happen? |  |
+| dialogue-medium-12.mp3 | Roberto | Actually, yes. My brother got engaged there! He proposed at a tango show. (engage) |  |
+
+## get-passive › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Agent | How can I help you, sir? |  |
+| dialogue-hard-2.mp3 | Júlio | I missed my connection to São Paulo. My first flight got delayed in Chicago because of the snow. |  |
+| dialogue-hard-3.mp3 | Agent | I'm sorry. Let me check… You have been rebooked on the next flight, at 11 p.m. |  |
+| dialogue-hard-4.mp3 | Júlio | Thank you. And my bags? Will they get transferred to the new flight? |  |
+| dialogue-hard-5.mp3 | Agent | Yes, they'll be transferred automatically. |  |
+| dialogue-hard-6.mp3 | Júlio | Great. Last time, my bag got lost and I never saw it again. |  |
+| dialogue-hard-7.mp3 | Agent | That's terrible. Did you get paid for it? |  |
+| dialogue-hard-8.mp3 | Júlio | Yes, but only after three months. |  |
+| dialogue-hard-9.mp3 | Agent | Here's a meal voucher. Passengers are given a voucher when the delay is over four hours. |  |
+| dialogue-hard-10.mp3 | Júlio | Thanks. Is there a place where I can rest? |  |
+| dialogue-hard-11.mp3 | Agent | The lounge is on the second floor. Just don't fall asleep and miss this one too! |  |
+
 ## get › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

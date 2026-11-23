@@ -2645,5 +2645,50 @@ const CATALOG = [
     "n": 9
    }
   ]
+ },
+ {
+  "id": "get-passive",
+  "title": "The Get Passive",
+  "area": "Inglês Cotidiano",
+  "icon": "🧳",
+  "color": "#f3e9e4",
+  "level": "B2",
+  "part": 12,
+  "order": 61,
+  "tags": [
+   "get passive",
+   "got robbed",
+   "got lost",
+   "got stuck",
+   "get married",
+   "get dressed",
+   "did you get paid",
+   "be vs get passive",
+   "travel mishaps"
+  ],
+  "v": "06e98991",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 6
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
