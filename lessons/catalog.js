@@ -3104,5 +3104,51 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "reported-speech",
+  "title": "Reported Speech",
+  "area": "Inglês Cotidiano",
+  "icon": "🗨️",
+  "color": "#f0ece4",
+  "level": "B1",
+  "part": 14,
+  "order": 71,
+  "tags": [
+   "reported speech",
+   "say vs tell",
+   "backshift",
+   "said that",
+   "told me to",
+   "the next day",
+   "the day before",
+   "promised to",
+   "denied -ing",
+   "telling what someone said"
+  ],
+  "v": "f97e69f6",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
+   }
+  ]
  }
 ];

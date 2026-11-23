@@ -1948,6 +1948,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-7.mp3 | Lu | And the old man in the corner? The one — everybody is listening to? |  |
 | dialogue-hard-8.mp3 | Rafa | Grandpa. Everything that he says is a story. You'll love him. |  |
 
+## reported-speech › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Léo | So, what did Grandma say? |  |
+| dialogue-medium-2.mp3 | Paula | She told me she was going on a cruise! |  |
+| dialogue-medium-3.mp3 | Léo | A cruise? At 82? |  |
+| dialogue-medium-4.mp3 | Paula | Yes! She said she had always wanted to go. |  |
+| dialogue-medium-5.mp3 | Léo | Who's going with her? |  |
+| dialogue-medium-6.mp3 | Paula | She said her friend Dona Cida would go with her. |  |
+| dialogue-medium-7.mp3 | Léo | When? |  |
+| dialogue-medium-8.mp3 | Paula | She said they were leaving next month. |  |
+| dialogue-medium-9.mp3 | Léo | Did she say anything about us? |  |
+| dialogue-medium-10.mp3 | Paula | Yes. She told us to visit her before she goes. |  |
+| dialogue-medium-11.mp3 | Léo | Ha! And did you say anything? |  |
+| dialogue-medium-12.mp3 | Paula | I told her she was amazing. And she said I should be just like her one day! |  |
+
+## reported-speech › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Nelson | So, who broke the vase? |  |
+| dialogue-hard-2.mp3 | Rita | Well, Tomás denied breaking it. |  |
+| dialogue-hard-3.mp3 | Nelson | And Júlia? |  |
+| dialogue-hard-4.mp3 | Rita | She said that she had seen him playing ball in the living room. |  |
+| dialogue-hard-5.mp3 | Nelson | Ha! So what did Tomás say then? |  |
+| dialogue-hard-6.mp3 | Rita | He finally admitted doing it. He said he was sorry. |  |
+| dialogue-hard-7.mp3 | Nelson | Good. And what did you tell him? |  |
+| dialogue-hard-8.mp3 | Rita | I told him not to play ball inside again. |  |
+| dialogue-hard-9.mp3 | Nelson | Did he say anything else? |  |
+| dialogue-hard-10.mp3 | Rita | He offered to pay for a new vase with his allowance. |  |
+| dialogue-hard-11.mp3 | Nelson | That's fair. And Júlia? |  |
+| dialogue-hard-12.mp3 | Rita | She asked me to tell you she was the one who told the truth! |  |
+
 ## second-conditional › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
