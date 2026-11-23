@@ -2960,5 +2960,50 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "relative-clauses-2",
+  "title": "Relative Clauses: Commas, Whom, Which",
+  "area": "Inglês Cotidiano",
+  "icon": "🏛️",
+  "color": "#efe9e2",
+  "level": "B2",
+  "part": 14,
+  "order": 68,
+  "tags": [
+   "non-defining relative clauses",
+   "commas",
+   "whom",
+   "which for a whole clause",
+   "both of whom",
+   "none of which",
+   "reduced relative clauses",
+   "the first to",
+   "cities and peoples"
+  ],
+  "v": "6aae3d1e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];

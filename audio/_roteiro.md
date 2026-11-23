@@ -1827,6 +1827,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
+## relative-clauses-2 › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Akemi | Welcome to Liberdade, which is the heart of the Japanese community in São Paulo. |  |
+| dialogue-medium-2.mp3 | Tom | Why are there so many Japanese people here? |  |
+| dialogue-medium-3.mp3 | Akemi | Immigration started with the ship Kasato Maru, which arrived in Santos more than a century ago. |  |
+| dialogue-medium-4.mp3 | Tom | How many people came on that ship? |  |
+| dialogue-medium-5.mp3 | Akemi | About 780, most of whom went to work on coffee farms. |  |
+| dialogue-medium-6.mp3 | Tom | And today? |  |
+| dialogue-medium-7.mp3 | Akemi | Brazil is home to about two million people of Japanese descent, which makes it the largest community outside Japan. |  |
+| dialogue-medium-8.mp3 | Tom | Wow. And this red gate? |  |
+| dialogue-medium-9.mp3 | Akemi | It's a torii, which marks the entrance to the neighborhood. |  |
+| dialogue-medium-10.mp3 | Tom | Who's the lady running that little shop? |  |
+| dialogue-medium-11.mp3 | Akemi | That's Dona Yuki, whose grandparents came on the Kasato Maru! |  |
+| dialogue-medium-12.mp3 | Tom | Amazing. Can we talk to her? |  |
+| dialogue-medium-13.mp3 | Akemi | Sure! She loves people showing interest in history. |  |
+
+## relative-clauses-2 › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Guide | Ouro Preto, which was founded in 1711, was once the richest city in the Americas. |  |
+| dialogue-hard-2.mp3 | Téo | Why was it so rich, Mom? |  |
+| dialogue-hard-3.mp3 | Clara | Gold. The name means "black gold", which comes from the dark color of the gold here. |  |
+| dialogue-hard-4.mp3 | Guide | Many of the churches, most of which were built in the 1700s, are covered in gold. |  |
+| dialogue-hard-5.mp3 | Téo | Who made the statues? |  |
+| dialogue-hard-6.mp3 | Guide | Aleijadinho, whose real name was Antônio Francisco Lisboa, was the greatest artist of the period. |  |
+| dialogue-hard-7.mp3 | Clara | He kept working even after he got very sick, which is incredible. |  |
+| dialogue-hard-8.mp3 | Téo | Mom, who's the man taking the picture of the church? |  |
+| dialogue-hard-9.mp3 | Clara | He's a tourist. Let's not stand in front of him. |  |
+| dialogue-hard-10.mp3 | Guide | The museum, whose building was once the City Hall and jail, has the tomb of Tiradentes' companions. |  |
+| dialogue-hard-11.mp3 | Téo | Can I be the first one to see the next room? |  |
+
 ## relative-clauses › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |
