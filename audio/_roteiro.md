@@ -296,6 +296,54 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Emma | I'd love that. But between you and me, I'm a little nervous about meeting everyone. |  |
 | dialogue-hard-12.mp3 | Davi | Don't worry. they're going to love you. |  |
 
+## question-words › dialogue-medium  (0/18)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Hannah | Hi! I'm Hannah. what's your name? |  |
+| dialogue-medium-2.mp3 | Lucas | Lucas. Nice to meet you. |  |
+| dialogue-medium-3.mp3 | Hannah | Nice to meet you too. where are you from? |  |
+| dialogue-medium-4.mp3 | Lucas | Brazil. Belo Horizonte. |  |
+| dialogue-medium-5.mp3 | Hannah | Cool! how long have you been in Austin? |  |
+| dialogue-medium-6.mp3 | Lucas | Six months. I'm doing a master's at the university. |  |
+| dialogue-medium-7.mp3 | Hannah | what are you studying? |  |
+| dialogue-medium-8.mp3 | Lucas | Computer science. what about you? |  |
+| dialogue-medium-9.mp3 | Hannah | I'm a nurse. how do you know Mike? |  |
+| dialogue-medium-10.mp3 | Lucas | We work together at the lab. |  |
+| dialogue-medium-11.mp3 | Hannah | I see. So, what's Belo Horizonte like? |  |
+| dialogue-medium-12.mp3 | Lucas | It's big, surrounded by mountains, and the food is amazing. |  |
+| dialogue-medium-13.mp3 | Hannah | what kind of food do people eat there? |  |
+| dialogue-medium-14.mp3 | Lucas | Pão de queijo! Cheese bread. how often do you cook? |  |
+| dialogue-medium-15.mp3 | Hannah | Almost never! where can I buy Brazilian food here? |  |
+| dialogue-medium-16.mp3 | Lucas | At a market downtown. why don't we go together on Saturday? |  |
+| dialogue-medium-17.mp3 | Hannah | Sure! what time? |  |
+| dialogue-medium-18.mp3 | Lucas | Ten o'clock? |  |
+
+## question-words › dialogue-hard  (0/20)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Host | Welcome to the show, Chef Ana! First question: where did you grow up? |  |
+| dialogue-hard-2.mp3 | Ana | In a small town in Bahia. |  |
+| dialogue-hard-3.mp3 | Host | And who taught you to cook? |  |
+| dialogue-hard-4.mp3 | Ana | My grandmother. She cooked for twelve people every day. |  |
+| dialogue-hard-5.mp3 | Host | Twelve! What was she like? |  |
+| dialogue-hard-6.mp3 | Ana | Strict, but very funny. |  |
+| dialogue-hard-7.mp3 | Host | How many people work in your kitchen today? |  |
+| dialogue-hard-8.mp3 | Ana | Fifteen. Like a big family. |  |
+| dialogue-hard-9.mp3 | Host | What do you do when a dish goes wrong? |  |
+| dialogue-hard-10.mp3 | Ana | We start again. Always. |  |
+| dialogue-hard-11.mp3 | Host | Our listeners want to know: what is your new book about? |  |
+| dialogue-hard-12.mp3 | Ana | Brazilian desserts. |  |
+| dialogue-hard-13.mp3 | Host | Could you tell us when it comes out? |  |
+| dialogue-hard-14.mp3 | Ana | In March. |  |
+| dialogue-hard-15.mp3 | Host | And who is it dedicated to? |  |
+| dialogue-hard-16.mp3 | Ana | To my grandmother, of course. |  |
+| dialogue-hard-17.mp3 | Host | Which do you enjoy more, cooking or writing? |  |
+| dialogue-hard-18.mp3 | Ana | Cooking. Always cooking. |  |
+| dialogue-hard-19.mp3 | Host | Last question: what should we order first at your restaurant? |  |
+| dialogue-hard-20.mp3 | Ana | The moqueca! |  |
+
 ## reflexives › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |

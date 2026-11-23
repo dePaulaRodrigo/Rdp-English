@@ -388,6 +388,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "question-words",
+  "title": "Question Words",
+  "area": "Inglês Cotidiano",
+  "icon": "❓",
+  "color": "#fdf3e1",
+  "level": "A1",
+  "part": 1,
+  "order": 11,
+  "tags": [
+   "question words",
+   "wh-questions",
+   "what",
+   "which",
+   "how",
+   "word order",
+   "subject questions",
+   "meeting people"
+  ],
+  "v": "28cbb9d9",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
