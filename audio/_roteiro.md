@@ -1793,6 +1793,38 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
+## second-conditional › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Zé | Honey, what would you do if we won the lottery? (win) |  |
+| dialogue-medium-2.mp3 | Ana | First, I would quit my job! (quit) |  |
+| dialogue-medium-3.mp3 | Zé | Ha! And then? |  |
+| dialogue-medium-4.mp3 | Ana | I would travel the world. If I could choose one place, it'd be Japan. (can) |  |
+| dialogue-medium-5.mp3 | Zé | Nice. If I had that much money, I would buy a beach house. (buy) |  |
+| dialogue-medium-6.mp3 | Ana | Where? |  |
+| dialogue-medium-7.mp3 | Zé | In Bahia. And if it were up to me, we'd live there forever. (be) |  |
+| dialogue-medium-8.mp3 | Ana | What about the kids' school? |  |
+| dialogue-medium-9.mp3 | Zé | If we lived there, they could go to school there too. (can) |  |
+| dialogue-medium-10.mp3 | Ana | OK. And we should give some money to charity. (should) |  |
+| dialogue-medium-11.mp3 | Zé | Of course. If I were rich, I'd help a lot of people. (be) |  |
+| dialogue-medium-12.mp3 | Ana | Well, first we need to buy a ticket! |  |
+
+## second-conditional › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Nina | If you could have one superpower, what would it be? |  |
+| dialogue-hard-2.mp3 | Caio | Easy. I'd be invisible. If I were invisible, I would get into concerts for free. |  |
+| dialogue-hard-3.mp3 | Nina | That's cheating! If I were you, I would choose something more useful. |  |
+| dialogue-hard-4.mp3 | Caio | Like what? |  |
+| dialogue-hard-5.mp3 | Nina | Time travel. If I could time-travel, I would visit ancient Rome. |  |
+| dialogue-hard-6.mp3 | Caio | Cool. But what if you got stuck there? |  |
+| dialogue-hard-7.mp3 | Nina | Hmm. I hadn't thought about that. |  |
+| dialogue-hard-8.mp3 | Caio | Anyway, we have a math test now. If we are late, the teacher will be mad. |  |
+| dialogue-hard-9.mp3 | Nina | Ugh. If I had a superpower now, I would make the test disappear! |  |
+| dialogue-hard-10.mp3 | Caio | Ha! Come on. If we go now, we'll make it. |  |
+
 ## so-such › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

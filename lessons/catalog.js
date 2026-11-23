@@ -2735,5 +2735,50 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "second-conditional",
+  "title": "Second Conditional",
+  "area": "Inglês Cotidiano",
+  "icon": "💭",
+  "color": "#eee8f5",
+  "level": "B1",
+  "part": 13,
+  "order": 63,
+  "tags": [
+   "second conditional",
+   "if I won the lottery",
+   "would",
+   "if I were you",
+   "could",
+   "might",
+   "first vs second conditional",
+   "what if",
+   "dreams"
+  ],
+  "v": "f2e50192",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
