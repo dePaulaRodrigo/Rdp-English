@@ -890,6 +890,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "used-to",
+  "title": "Used To",
+  "area": "Inglês Cotidiano",
+  "icon": "🪀",
+  "color": "#f8efe0",
+  "level": "A2",
+  "part": 4,
+  "order": 22,
+  "tags": [
+   "used to",
+   "would",
+   "usually",
+   "anymore",
+   "no longer",
+   "childhood",
+   "nostalgia"
+  ],
+  "v": "13b4e6c6",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

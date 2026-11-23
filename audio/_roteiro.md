@@ -776,6 +776,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rafa | And are you afraid of speeches? You're the maid of honor! |  |
 | dialogue-hard-15.mp3 | Bia | Terrified! |  |
 
+## used-to › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lucas | Grandma, what did you use to do for fun when you were a kid? |  |
+| dialogue-medium-2.mp3 | Grandma | We used to play (play) in the street all afternoon. |  |
+| dialogue-medium-3.mp3 | Lucas | In the street? With all the cars? |  |
+| dialogue-medium-4.mp3 | Grandma | There didn't use to be (not be) many cars back then. |  |
+| dialogue-medium-5.mp3 | Lucas | Did you use to have (have) a TV? |  |
+| dialogue-medium-6.mp3 | Grandma | No. We used to listen (listen) to the radio every night. |  |
+| dialogue-medium-7.mp3 | Lucas | What about school? Did you use to walk (walk) to school? |  |
+| dialogue-medium-8.mp3 | Grandma | Yes, two kilometers! And I didn't use to like (not like) math. |  |
+| dialogue-medium-9.mp3 | Lucas | Me neither! But I usually do (usually / do) my homework. |  |
+| dialogue-medium-10.mp3 | Grandma | Good boy. Your mom never used to do (never / do) hers! |  |
+| dialogue-medium-11.mp3 | Lucas | Really? She tells me to do it every day! |  |
+| dialogue-medium-12.mp3 | Grandma | People change. She used to be (be) a bit lazy, but now she works very hard. |  |
+
+## used-to › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Carlos | I can't believe it! You used to sit next to me in history class! |  |
+| dialogue-hard-2.mp3 | Paula | And you used to copy my homework every Monday! |  |
+| dialogue-hard-3.mp3 | Carlos | Guilty! Do you still play volleyball? |  |
+| dialogue-hard-4.mp3 | Paula | Not anymore. I hurt my knee. |  |
+| dialogue-hard-5.mp3 | Carlos | Sorry to hear that. These days, I usually go running every morning. |  |
+| dialogue-hard-6.mp3 | Paula | You? You used to hate sports! |  |
+| dialogue-hard-7.mp3 | Carlos | People change. Hey, there used to be a little bakery across from the school. Is it still there? |  |
+| dialogue-hard-8.mp3 | Paula | No, it's a bank now. We would buy cheese bread there every day after class. |  |
+| dialogue-hard-9.mp3 | Carlos | I remember! And Mr. Dias? He used to be so strict. |  |
+| dialogue-hard-10.mp3 | Paula | He no longer teaches here. He retired last year. |  |
+| dialogue-hard-11.mp3 | Carlos | Wow. And where did you use to live back then? Near the park? |  |
+| dialogue-hard-12.mp3 | Paula | Yes, on Rua das Flores. My parents still live there. |  |
+
 ## whose › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
