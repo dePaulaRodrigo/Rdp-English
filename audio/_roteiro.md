@@ -191,6 +191,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Lucas | Of course. And next Sunday, let's have my parents over and tell them the news. |  |
 | dialogue-hard-14.mp3 | Júlia | Good idea. It takes us an hour to drive to their house, so that's easier. |  |
 
+## have-got › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mrs. Lee | Welcome to the neighborhood! So, Carla, have you got any kids? |  |
+| dialogue-medium-2.mp3 | Carla | Yes, I've got two boys, eight and ten. have you got grandchildren? |  |
+| dialogue-medium-3.mp3 | Mrs. Lee | Yes, I have. Five! |  |
+| dialogue-medium-4.mp3 | Carla | Five! do they live near here? |  |
+| dialogue-medium-5.mp3 | Mrs. Lee | No, they don't. But my daughter has a house two hours away. |  |
+| dialogue-medium-6.mp3 | Carla | Nice. And your dog? Has he got a name? |  |
+| dialogue-medium-7.mp3 | Mrs. Lee | Yes, Biscuit. He's old, and he has got a problem with his leg. |  |
+| dialogue-medium-8.mp3 | Carla | Poor thing. Do you have a good vet? |  |
+| dialogue-medium-9.mp3 | Mrs. Lee | Yes, I do. Dr. Ross, on Elm Street. |  |
+| dialogue-medium-10.mp3 | Carla | Great, because we haven't got a vet yet. Our cat needs a checkup. |  |
+| dialogue-medium-11.mp3 | Mrs. Lee | I'll give you her number. Oh, I've got to go. My soup is on the stove! |  |
+
+## have-got › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Tom | Hey, Liz! Have you got a minute? |  |
+| dialogue-hard-2.mp3 | Liz | Sure. What's up? |  |
+| dialogue-hard-3.mp3 | Tom | I've gotten a new job in Denver! |  |
+| dialogue-hard-4.mp3 | Liz | Congratulations! When do you start? |  |
+| dialogue-hard-5.mp3 | Tom | In March. But I have a problem: I don't have a car. |  |
+| dialogue-hard-6.mp3 | Liz | You had a car in college, right? |  |
+| dialogue-hard-7.mp3 | Tom | Yes, but I sold it. Has Dad still got his old truck? |  |
+| dialogue-hard-8.mp3 | Liz | No, he hasn't. He sold it last year. |  |
+| dialogue-hard-9.mp3 | Tom | Oh no. Do you have any ideas? |  |
+| dialogue-hard-10.mp3 | Liz | Well, have you got any savings? |  |
+| dialogue-hard-11.mp3 | Tom | A little. But car prices have gotten crazy. |  |
+| dialogue-hard-12.mp3 | Liz | True. Listen, I've got to go. I have a meeting in five minutes. |  |
+| dialogue-hard-13.mp3 | Tom | OK. Thanks, Liz. have a good meeting! |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

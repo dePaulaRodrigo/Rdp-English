@@ -760,6 +760,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "have-got",
+  "title": "Have × Have Got",
+  "area": "Inglês Cotidiano",
+  "icon": "🔑",
+  "color": "#eef3e6",
+  "level": "A2",
+  "part": 3,
+  "order": 19,
+  "tags": [
+   "have",
+   "have got",
+   "got",
+   "gotten",
+   "gotta",
+   "family",
+   "belongings"
+  ],
+  "v": "049bc10d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 13
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
