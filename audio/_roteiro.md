@@ -1997,6 +1997,38 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Ana | Deal! And the food? is there anything special to try? |  |
 | dialogue-hard-14.mp3 | Bruno | Of course. Every town in Minas has its own pão de queijo! |  |
 
+## third-conditional › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Pedro | Grandpa, do you have any regrets? |  |
+| dialogue-medium-2.mp3 | Carlos | A few. In 1975, I got a job offer in Germany. If I had accepted it, my life would have been very different. (accept) |  |
+| dialogue-medium-3.mp3 | Pedro | Why didn't you go? |  |
+| dialogue-medium-4.mp3 | Carlos | I was in love with your grandma. If I had gone, I wouldn't have married her. (not marry) |  |
+| dialogue-medium-5.mp3 | Pedro | So you made the right choice! |  |
+| dialogue-medium-6.mp3 | Carlos | Of course. And if I hadn't married her, you wouldn't have been born! (not be) |  |
+| dialogue-medium-7.mp3 | Pedro | Ha! True. Anything else? |  |
+| dialogue-medium-8.mp3 | Carlos | I dropped out of college. If I hadn't dropped out, I could have been an engineer. (not drop out) |  |
+| dialogue-medium-9.mp3 | Pedro | Do you regret it? |  |
+| dialogue-medium-10.mp3 | Carlos | A little. But if I had stayed, I wouldn't have opened my bakery. (not open) |  |
+| dialogue-medium-11.mp3 | Pedro | And the bakery is famous now! |  |
+| dialogue-medium-12.mp3 | Carlos | Exactly. Had I chosen differently, maybe I'd be less happy. (choose) |  |
+
+## third-conditional › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Júlia | If you had checked the tires before the trip, this wouldn't have happened! |  |
+| dialogue-hard-2.mp3 | Marcos | And if you hadn't taken an hour to get ready, we would have left earlier. |  |
+| dialogue-hard-3.mp3 | Júlia | Even if we had left earlier, the tire would have gone flat anyway. |  |
+| dialogue-hard-4.mp3 | Marcos | OK, OK. But if I had had a spare tire, we could have changed it. |  |
+| dialogue-hard-5.mp3 | Júlia | You didn't have a spare? Unbelievable. |  |
+| dialogue-hard-6.mp3 | Marcos | Had I known we'd need one, I would have bought one! |  |
+| dialogue-hard-7.mp3 | Júlia | We missed my best friend's wedding. Without your phone, we wouldn't even have called for help. |  |
+| dialogue-hard-8.mp3 | Marcos | At least the tow truck is coming. Otherwise, we'd be here all night. |  |
+| dialogue-hard-9.mp3 | Júlia | I just don't know whether to laugh or cry. |  |
+| dialogue-hard-10.mp3 | Marcos | Laugh. In ten years, it'll be a great story. |  |
+
 ## to-be-past › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
