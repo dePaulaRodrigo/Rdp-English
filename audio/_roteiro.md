@@ -535,6 +535,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Bete | Yes: don't pack too many clothes. Pack light! |  |
 | dialogue-hard-13.mp3 | Theo | Got it. That's enough advice for today! |  |
 
+## every-each-all › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lúcia | OK, kids. From now on, each of you has a chore. |  |
+| dialogue-medium-2.mp3 | Davi | Every day? |  |
+| dialogue-medium-3.mp3 | Lúcia | Yes, every day. Davi, you take out the trash. |  |
+| dialogue-medium-4.mp3 | Bia | What about me? |  |
+| dialogue-medium-5.mp3 | Lúcia | You set the table. And Leo does the dishes every other day. |  |
+| dialogue-medium-6.mp3 | Leo | Only every other day? Great! |  |
+| dialogue-medium-7.mp3 | Lúcia | Yes. And on Saturdays, all of us clean the house together. |  |
+| dialogue-medium-8.mp3 | Davi | The whole house? That takes all morning! |  |
+| dialogue-medium-9.mp3 | Lúcia | Not if everyone helps. |  |
+| dialogue-medium-10.mp3 | Bia | Do we get an allowance? |  |
+| dialogue-medium-11.mp3 | Lúcia | Yes. Twenty reais each, every week. |  |
+| dialogue-medium-12.mp3 | Leo | Is that all? |  |
+| dialogue-medium-13.mp3 | Lúcia | That's everything. Now go do your chores! |  |
+
+## every-each-all › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Júlia | Is everyone coming today? |  |
+| dialogue-hard-2.mp3 | Tiago | Almost. Uncle Paulo is working. He works every Sunday this month. |  |
+| dialogue-hard-3.mp3 | Júlia | Poor guy. Grandma cooked all morning. |  |
+| dialogue-hard-4.mp3 | Tiago | She does it every week. She loves it. |  |
+| dialogue-hard-5.mp3 | Júlia | She made lasagna, rice, salad… and a whole cake! |  |
+| dialogue-hard-6.mp3 | Tiago | Who's going to eat all that food? |  |
+| dialogue-hard-7.mp3 | Júlia | Us! Each of us always leaves with a full container. |  |
+| dialogue-hard-8.mp3 | Tiago | True. Last week I ate the whole container in one day. |  |
+| dialogue-hard-9.mp3 | Júlia | Ha! All I want is a nap after lunch. |  |
+| dialogue-hard-10.mp3 | Tiago | Me too. That's the best part of every Sunday. |  |
+
 ## exist-be-a-thing › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |

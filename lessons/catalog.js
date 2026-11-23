@@ -2095,6 +2095,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "every-each-all",
+  "title": "Every, Each, All, Whole",
+  "area": "Inglês Cotidiano",
+  "icon": "👨‍👩‍👧",
+  "color": "#f2e8ee",
+  "level": "B1",
+  "part": 9,
+  "order": 49,
+  "tags": [
+   "every",
+   "each",
+   "all",
+   "whole",
+   "every day vs all day",
+   "everyone is",
+   "every other day",
+   "all of us",
+   "the whole",
+   "everything",
+   "family routine"
+  ],
+  "v": "7703e12c",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
