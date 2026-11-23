@@ -176,6 +176,10 @@ h2.area{margin:28px 0 12px}
 .hometabs button{border:0;background:transparent;padding:10px 14px;font-size:16px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1px}
 .hometabs button.on{color:var(--ink);border-color:var(--brand)}
 .homesub{margin:14px 0 4px}
+.sortbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin:10px 0 6px}
+.sortbar button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
+.sortbar button.on{background:var(--ink);color:var(--card);border-color:var(--ink)}
+.lvhead{margin:22px 0 10px;font-size:20px}
 .lcard .art.soon{filter:grayscale(.6);opacity:.75}
 .metarow{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .langsw{display:flex;margin-left:auto;border:1px solid var(--line);border-radius:999px;overflow:hidden}
@@ -236,6 +240,7 @@ const UI = { pt:{
   welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet. Detalhes em Privacidade e termos de uso, no fim da página.",
   aboutShow:"Sobre o site", aboutHide:"Ocultar",
   daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
+  sortBy:"Ordenar:", sortBook:"Ordem do livro", sortLevel:"Por nível", otherLevels:"Outros",
   content:"Conteúdo em inglês", contentSub:"Indicações de conteúdo original em inglês para praticar fora dos exercícios: leitura, áudio e vídeo. Os links levam aos sites oficiais.",
   pro:"Inglês Profissional", proSub:"Os mesmos tópicos de gramática, com o vocabulário da sua área de atuação. Escolha a sua área e, quando houver, a sua especialidade.",
   soon:"Em preparação", fieldEmpty:"Os exercícios desta área estão em preparação.", general:"Geral", nLesson1:"1 lição", nLessonN:"{n} lições", exDone:"{done} de {total} exercícios feitos",
@@ -380,7 +385,7 @@ function sanitize(d){
   if(!isObj(d)) return out;
   if(isObj(d.prefs)){
     out.prefs = {};
-    for(const k of ["lang","native","ui","theme"]) if(typeof d.prefs[k]==="string" && d.prefs[k].length<=8) out.prefs[k]=d.prefs[k];
+    for(const k of ["lang","native","ui","theme","sort"]) if(typeof d.prefs[k]==="string" && d.prefs[k].length<=8) out.prefs[k]=d.prefs[k];
     if(typeof d.prefs.t==="number") out.prefs.t = d.prefs.t;
     if(d.prefs.noStats===true) out.prefs.noStats = true;
   }
@@ -774,7 +779,20 @@ function renderLibrary(){
   const tab = S.home || "daily";
   let body;
   if(tab==="daily"){
-    body = `<p class="muted homesub">${t("dailySub")}</p><div class="grid">${CATALOG.filter(l=>l.area==="Inglês Cotidiano").map(lessonCard).join("")}</div>`;
+    const daily = CATALOG.filter(l=>l.area==="Inglês Cotidiano");
+    const byLevel = (S.data.prefs||{}).sort==="level";
+    const sortBar = `<div class="sortbar" role="group" aria-label="${t("sortBy")}"><span class="small muted">${t("sortBy")}</span><button data-sort="book" class="${byLevel?"":"on"}" aria-pressed="${!byLevel}">${t("sortBook")}</button><button data-sort="level" class="${byLevel?"on":""}" aria-pressed="${byLevel}">${t("sortLevel")}</button></div>`;
+    let grid;
+    if(byLevel){
+      const LV = ["A1","A2","B1","B2","C1","C2"];
+      const rank = l => { const i = LV.indexOf(l.level); return i<0 ? 99 : i; };
+      const sorted = daily.slice().sort((a,b)=> rank(a)-rank(b) || (a.order||0)-(b.order||0));
+      grid = LV.concat([""]).map(lv => {
+        const ls = sorted.filter(l => lv ? l.level===lv : rank(l)===99);
+        return ls.length ? `<h2 class="lvhead">${lv || t("otherLevels")}</h2><div class="grid">${ls.map(lessonCard).join("")}</div>` : "";
+      }).join("");
+    } else grid = `<div class="grid">${daily.map(lessonCard).join("")}</div>`;
+    body = `<p class="muted homesub">${t("dailySub")}</p>${sortBar}${grid}`;
   } else {
     body = `<p class="muted homesub">${t("proSub")}</p><div class="grid">${FIELDS.map(f=>{
       const n = CATALOG.filter(l=>l.area===f.id).length;
@@ -791,6 +809,11 @@ function renderLibrary(){
     ${body}`;
   const ab = $("#aboutBtn"); if(ab) ab.onclick = () => { S.about = !S.about; renderLibrary(); };
   app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { if(b.dataset.h==="content"){ location.hash = "conteudo"; return; } S.home = b.dataset.h; track("home",{d:S.home}); renderLibrary(); });
+  app.querySelectorAll(".sortbar button").forEach(b=> b.onclick = () => {
+    S.data.prefs = Object.assign({}, S.data.prefs);
+    if(b.dataset.sort==="level") S.data.prefs.sort = "level"; else delete S.data.prefs.sort;
+    persist(S.data.prefs); track("home",{d:"sort-"+b.dataset.sort}); renderLibrary();
+  });
   app.querySelectorAll(".lcard[data-field]").forEach(b=> b.onclick = () => { location.hash = "area/"+b.dataset.field; });
   wireCards();
 }
