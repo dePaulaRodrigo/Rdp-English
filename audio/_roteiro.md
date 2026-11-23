@@ -362,6 +362,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Seller | Anything else? |  |
 | dialogue-hard-15.mp3 | Arthur | No, that's all, thanks. |  |
 
+## ed-ing-adjectives › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bia | So? Did you like it? |  |
+| dialogue-medium-2.mp3 | Gabi | I loved it! The plot twist was so surprising. (surprise) |  |
+| dialogue-medium-3.mp3 | Bia | Really? I was a little disappointed. (disappoint) |  |
+| dialogue-medium-4.mp3 | Gabi | Why? |  |
+| dialogue-medium-5.mp3 | Bia | The first hour was boring. Nothing happened. (bore) |  |
+| dialogue-medium-6.mp3 | Gabi | OK, it was slow. But the ending was exciting! (excite) |  |
+| dialogue-medium-7.mp3 | Bia | True. I was really frightened in the last scene. (frighten) |  |
+| dialogue-medium-8.mp3 | Gabi | Me too! And the soundtrack was amazing. (amaze) |  |
+| dialogue-medium-9.mp3 | Bia | Yes. But the story was a bit confusing. Who was the killer? (confuse) |  |
+| dialogue-medium-10.mp3 | Gabi | The brother! You weren't paying attention. You were tired. (tire) |  |
+| dialogue-medium-11.mp3 | Bia | I was! I worked all day. It was an exhausting week. (exhaust) |  |
+| dialogue-medium-12.mp3 | Gabi | Then let's watch something relaxing next time. A comedy! (relax) |  |
+
+## ed-ing-adjectives › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lia | What did you watch last night? |  |
+| dialogue-hard-2.mp3 | Rafa | A documentary about Alan Turing. It was fascinating. |  |
+| dialogue-hard-3.mp3 | Lia | Who was he? |  |
+| dialogue-hard-4.mp3 | Rafa | A British mathematician. He's the father of computer science. I'm really interested in his work now. |  |
+| dialogue-hard-5.mp3 | Lia | Was it hard to follow? |  |
+| dialogue-hard-6.mp3 | Rafa | Some parts were confusing, with all the math. But I wasn't bored at all. |  |
+| dialogue-hard-7.mp3 | Lia | What surprised you the most? |  |
+| dialogue-hard-8.mp3 | Rafa | In 1950, he asked: "Can machines think?" I was amazed by that. It was so early! |  |
+| dialogue-hard-9.mp3 | Lia | That's the Turing Test, right? |  |
+| dialogue-hard-10.mp3 | Rafa | Exactly. And his life story is very sad. I was moved by the ending. |  |
+| dialogue-hard-11.mp3 | Lia | I'm not very excited about documentaries, but this one sounds good. |  |
+| dialogue-hard-12.mp3 | Rafa | Trust me. You won't be disappointed. |  |
+
 ## exist-be-a-thing › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |

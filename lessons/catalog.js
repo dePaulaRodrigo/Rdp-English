@@ -1680,6 +1680,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "ed-ing-adjectives",
+  "title": "-ED and -ING Adjectives",
+  "area": "Inglês Cotidiano",
+  "icon": "🎬",
+  "color": "#f4e6e9",
+  "level": "B1",
+  "part": 8,
+  "order": 40,
+  "tags": [
+   "-ed adjectives",
+   "-ing adjectives",
+   "bored vs boring",
+   "interested in",
+   "excited about",
+   "tired of",
+   "pronunciation of -ed",
+   "movies books music"
+  ],
+  "v": "97bf245b",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
