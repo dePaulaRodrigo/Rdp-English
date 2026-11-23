@@ -1237,6 +1237,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "future-continuous",
+  "title": "Future Continuous and Future Perfect",
+  "area": "Inglês Cotidiano",
+  "icon": "✈️",
+  "color": "#e8eef8",
+  "level": "B1",
+  "part": 6,
+  "order": 30,
+  "tags": [
+   "future continuous",
+   "will be + -ing",
+   "future perfect",
+   "will have",
+   "this time next week",
+   "polite questions",
+   "planning a trip"
+  ],
+  "v": "0f69cd06",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

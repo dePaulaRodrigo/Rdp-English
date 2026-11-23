@@ -226,6 +226,36 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Leo | Yes. It's been a year since I arrived, and I still find new restaurants every week. |  |
 | dialogue-hard-11.mp3 | Ana | since you're new in town, let me send you my list! |  |
 
+## future-continuous › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lia | Can you believe it? This time next week, we will be flying (fly) to Buenos Aires! |  |
+| dialogue-medium-2.mp3 | Tom | I know! And on Saturday morning, we'll be walking (walk) around San Telmo. |  |
+| dialogue-medium-3.mp3 | Lia | Will you be using (use) your camera, or just your phone? |  |
+| dialogue-medium-4.mp3 | Tom | The camera, of course. By the end of the trip, I'll have taken (take) a thousand photos. |  |
+| dialogue-medium-5.mp3 | Lia | Ha! And on Sunday night, we'll be watching (watch) a tango show. |  |
+| dialogue-medium-6.mp3 | Tom | Great. Will your sister be taking care (take care) of the cat? |  |
+| dialogue-medium-7.mp3 | Lia | Yes. She'll be staying (stay) at our place all week. |  |
+| dialogue-medium-8.mp3 | Tom | Perfect. By the time we get back, she'll have finished (finish) all our coffee! |  |
+| dialogue-medium-9.mp3 | Lia | Probably! I'll send (send) her the address right now. |  |
+
+## future-continuous › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Receptionist | Good morning, Mr. Santos. I'm calling about your reservation. What time will you be arriving on Friday? |  |
+| dialogue-hard-2.mp3 | Mr. Santos | Around midnight. Our flight lands in Porto Alegre at ten forty-five. |  |
+| dialogue-hard-3.mp3 | Receptionist | No problem. The front desk will be open all night. |  |
+| dialogue-hard-4.mp3 | Mr. Santos | Great. Will you be serving breakfast on Saturday? |  |
+| dialogue-hard-5.mp3 | Receptionist | Yes, from seven to ten. And will you be needing a shuttle from the airport? |  |
+| dialogue-hard-6.mp3 | Mr. Santos | Yes, please. We will be traveling with two kids and a lot of luggage. |  |
+| dialogue-hard-7.mp3 | Receptionist | I will book a van for you right now. |  |
+| dialogue-hard-8.mp3 | Mr. Santos | Thank you. By the time we get there, the kids will have been asleep for hours! |  |
+| dialogue-hard-9.mp3 | Receptionist | Don't worry. Your room will be ready. |  |
+| dialogue-hard-10.mp3 | Mr. Santos | One more thing: on Sunday, we will be leaving the hotel late. Is that OK? |  |
+| dialogue-hard-11.mp3 | Receptionist | Of course. I will put a note on your reservation. |  |
+
 ## going-to › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
