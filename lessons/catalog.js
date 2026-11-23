@@ -1951,6 +1951,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "many-much",
+  "title": "Many, Much, A Lot Of",
+  "area": "Inglês Cotidiano",
+  "icon": "🛒",
+  "color": "#eef3e2",
+  "level": "A1",
+  "part": 9,
+  "order": 46,
+  "tags": [
+   "many",
+   "much",
+   "a lot of",
+   "how much",
+   "how many",
+   "countable",
+   "uncountable",
+   "a piece of",
+   "advice",
+   "news",
+   "at the supermarket"
+  ],
+  "v": "a4d63b29",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

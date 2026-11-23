@@ -734,6 +734,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Bia | Do you want help? I don't have to work tomorrow, so I can go with you. |  |
 | dialogue-hard-11.mp3 | Ana | Really? You're the best! |  |
 
+## many-much › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Pedro | Hi, honey. I'm at the market. How many eggs do we need? |  |
+| dialogue-medium-2.mp3 | Lu | A dozen. We don't have many eggs at home. |  |
+| dialogue-medium-3.mp3 | Pedro | OK. And milk? How much? |  |
+| dialogue-medium-4.mp3 | Lu | Two cartons. The kids drink a lot of milk. |  |
+| dialogue-medium-5.mp3 | Pedro | Right. Rice? |  |
+| dialogue-medium-6.mp3 | Lu | We have a lot of rice. Don't buy it. |  |
+| dialogue-medium-7.mp3 | Pedro | Beans? |  |
+| dialogue-medium-8.mp3 | Lu | Yes, two bags. And some bread for breakfast. |  |
+| dialogue-medium-9.mp3 | Pedro | There are a lot of people here today. The line is huge! |  |
+| dialogue-medium-10.mp3 | Lu | Oh no. How much is everything? |  |
+| dialogue-medium-11.mp3 | Pedro | About two hundred reais. Prices go up a lot! |  |
+
+## many-much › dialogue-hard  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Jorge | Good morning! What would you like today? |  |
+| dialogue-hard-2.mp3 | Célia | How much are the mangoes? |  |
+| dialogue-hard-3.mp3 | Jorge | Five reais a kilo. How many kilos? |  |
+| dialogue-hard-4.mp3 | Célia | Two, please. And do you have any papayas? |  |
+| dialogue-hard-5.mp3 | Jorge | Not many. Just these three. Too much rain this week. |  |
+| dialogue-hard-6.mp3 | Célia | I'll take them. Can you give me some advice? Which avocado is ripe? |  |
+| dialogue-hard-7.mp3 | Jorge | This one. Eat it today. And here's a piece of news: bananas are on sale. |  |
+| dialogue-hard-8.mp3 | Célia | Great! I'll take a lot of bananas, then. My grandson eats a lot! |  |
+| dialogue-hard-9.mp3 | Jorge | How many bags do you need? |  |
+| dialogue-hard-10.mp3 | Célia | Just one. I brought my own. |  |
+
 ## modal-verbs › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
