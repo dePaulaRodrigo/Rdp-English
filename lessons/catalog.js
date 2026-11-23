@@ -1771,6 +1771,48 @@ const CATALOG = [
   ]
  },
  {
+  "id": "the-more-the-better",
+  "title": "The More…, The Better",
+  "area": "Inglês Cotidiano",
+  "icon": "📚",
+  "color": "#eae6f4",
+  "level": "B2",
+  "part": 8,
+  "order": 42,
+  "tags": [
+   "the more the better",
+   "double comparative",
+   "the sooner the better",
+   "the more the merrier",
+   "word order",
+   "habits and study"
+  ],
+  "v": "6481a54a",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

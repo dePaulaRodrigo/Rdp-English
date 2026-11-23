@@ -1257,6 +1257,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
+## the-more-the-better › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Duda | I study for hours, but I forget everything! |  |
+| dialogue-medium-2.mp3 | Gui | Do you review? The more often you review, the less you forget. (often) |  |
+| dialogue-medium-3.mp3 | Duda | Not really. I just read and read. |  |
+| dialogue-medium-4.mp3 | Gui | Try practice tests. The more tests you take, the better you get. (many · good) |  |
+| dialogue-medium-5.mp3 | Duda | OK. And my phone? I check it all the time. |  |
+| dialogue-medium-6.mp3 | Gui | Put it in another room. The fewer distractions, the better. (few) |  |
+| dialogue-medium-7.mp3 | Duda | What about sleep? I sleep five hours. |  |
+| dialogue-medium-8.mp3 | Gui | That's bad. The less you sleep, the worse your memory. (little) |  |
+| dialogue-medium-9.mp3 | Duda | Really? I thought the later I stay up, the more I learn. (late) |  |
+| dialogue-medium-10.mp3 | Gui | No way. Your brain needs rest. |  |
+| dialogue-medium-11.mp3 | Duda | When should I start? |  |
+| dialogue-medium-12.mp3 | Gui | Today! The sooner, the better. (soon) |  |
+
+## the-more-the-better › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ana | You look great, Roberto! What happened? |  |
+| dialogue-hard-2.mp3 | Roberto | I run every morning now. And the more I run, the better I feel. |  |
+| dialogue-hard-3.mp3 | Ana | Isn't it hard to wake up early? |  |
+| dialogue-hard-4.mp3 | Roberto | At first. But the more often you do it, the easier it gets. |  |
+| dialogue-hard-5.mp3 | Ana | I want to start, but I'm always tired. |  |
+| dialogue-hard-6.mp3 | Roberto | That's the funny thing. The more you exercise, the more energy you have. |  |
+| dialogue-hard-7.mp3 | Ana | Really? How far do you run? |  |
+| dialogue-hard-8.mp3 | Roberto | Five kilometers. But the longer the distance, the more I enjoy it. |  |
+| dialogue-hard-9.mp3 | Ana | Can I join you? |  |
+| dialogue-hard-10.mp3 | Roberto | Of course! The more, the merrier. |  |
+| dialogue-hard-11.mp3 | Ana | When? |  |
+| dialogue-hard-12.mp3 | Roberto | Tomorrow at six. And remember: the earlier you go to bed, the earlier you can wake up. |  |
+| dialogue-hard-13.mp3 | Ana | Six?! OK… the earlier, the better, I guess. |  |
+
 ## there-be-have › dialogue  (0/27)
 
 | Arquivo | Voz | Texto | Feito |
