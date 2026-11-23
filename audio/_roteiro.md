@@ -464,6 +464,42 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Lia | I'm not very excited about documentaries, but this one sounds good. |  |
 | dialogue-hard-12.mp3 | Rafa | Trust me. You won't be disappointed. |  |
 
+## either-neither-both › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Rui | So, Italian or Japanese? |  |
+| dialogue-medium-2.mp3 | Mila | Hmm. Either is fine. You choose. |  |
+| dialogue-medium-3.mp3 | Rui | The Italian place is both cheap and close. |  |
+| dialogue-medium-4.mp3 | Mila | But it's always full. I don't want to wait. |  |
+| dialogue-medium-5.mp3 | Rui | Me neither. What about the Japanese one? |  |
+| dialogue-medium-6.mp3 | Mila | It's good, but I don't really like raw fish. |  |
+| dialogue-medium-7.mp3 | Rui | I don't like it either. OK, so neither of them, then. |  |
+| dialogue-medium-8.mp3 | Mila | What about that new Brazilian place? I love feijoada. |  |
+| dialogue-medium-9.mp3 | Rui | So do I! But is it open on Fridays? |  |
+| dialogue-medium-10.mp3 | Mila | Let me check… Yes! And they have both tables inside and outdoor seating. |  |
+| dialogue-medium-11.mp3 | Rui | Perfect. Can we pay either by card or with Pix? |  |
+| dialogue-medium-12.mp3 | Mila | Both. Let's go! |  |
+
+## either-neither-both › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Carol | OK, two options: Hotel Alfama and Hotel Belém. |  |
+| dialogue-hard-2.mp3 | Davi | Do either of them include breakfast? |  |
+| dialogue-hard-3.mp3 | Carol | Yes, both of them do. And neither of them has a pool. |  |
+| dialogue-hard-4.mp3 | Davi | I don't care about a pool. I don't swim much. |  |
+| dialogue-hard-5.mp3 | Carol | Neither do I. What about the location? |  |
+| dialogue-hard-6.mp3 | Davi | Alfama is in the old town. The Belém one is near the Jerónimos Monastery. |  |
+| dialogue-hard-7.mp3 | Carol | It was built in the 1500s, right? I'd love to see it. |  |
+| dialogue-hard-8.mp3 | Davi | So would I. But Alfama is closer to the restaurants. |  |
+| dialogue-hard-9.mp3 | Carol | Hmm. Neither the price nor the reviews help. They're almost the same! |  |
+| dialogue-hard-10.mp3 | Davi | Let's flip a coin. Heads, Alfama; tails, Belém. |  |
+| dialogue-hard-11.mp3 | Carol | Ha! I haven't done that since I was a kid. |  |
+| dialogue-hard-12.mp3 | Davi | Neither have I. Ready? |  |
+| dialogue-hard-13.mp3 | Carol | Wait. We could stay in both: three nights in each! |  |
+| dialogue-hard-14.mp3 | Davi | Great idea. That way, we don't miss either neighborhood. |  |
+
 ## enough › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

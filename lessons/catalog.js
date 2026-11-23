@@ -2048,6 +2048,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "either-neither-both",
+  "title": "Either, Neither, Both",
+  "area": "Inglês Cotidiano",
+  "icon": "⚖️",
+  "color": "#e8ecf4",
+  "level": "B1",
+  "part": 9,
+  "order": 48,
+  "tags": [
+   "either",
+   "neither",
+   "both",
+   "either … or",
+   "neither … nor",
+   "both … and",
+   "me neither",
+   "so do I",
+   "neither do I",
+   "either at the end",
+   "choosing a restaurant or hotel"
+  ],
+  "v": "5ebc39fb",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 9
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
