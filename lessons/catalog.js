@@ -259,6 +259,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "demonstratives",
+  "title": "This, That, These, Those",
+  "area": "Inglês Cotidiano",
+  "icon": "🛍️",
+  "color": "#f6e7f2",
+  "level": "A1",
+  "part": 1,
+  "order": 8,
+  "tags": [
+   "demonstratives",
+   "this",
+   "that",
+   "these",
+   "those",
+   "one",
+   "shopping"
+  ],
+  "v": "fc7a0481",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",

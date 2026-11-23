@@ -81,6 +81,45 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-17.mp3 | Bruna | Ha! And let's read a book about travel before the trip. My teacher says Around the World in Eighty Days is a classic. |  |
 | dialogue-hard-18.mp3 | Rafael | Great. I can read it on the plane. |  |
 
+## demonstratives › dialogue-medium  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Seller | Hi! Can I help you? |  |
+| dialogue-medium-2.mp3 | Júlia | Yes, I'm looking for a gift for my father. How much is this shirt here, in my hand? |  |
+| dialogue-medium-3.mp3 | Seller | that one? It's forty dollars. |  |
+| dialogue-medium-4.mp3 | Júlia | And those ties over there, on the wall? |  |
+| dialogue-medium-5.mp3 | Seller | those are twenty-five each. And these belts here, next to me, are on sale. |  |
+| dialogue-medium-6.mp3 | Júlia | Can I see that one? The brown one, next to your hand. |  |
+| dialogue-medium-7.mp3 | Seller | Sure. Here you go. this is real leather. |  |
+| dialogue-medium-8.mp3 | Júlia | It's beautiful. I'll take this one. |  |
+| dialogue-medium-9.mp3 | Seller | Great choice! Anything else? |  |
+| dialogue-medium-10.mp3 | Júlia | Are these socks in this basket on sale too? |  |
+| dialogue-medium-11.mp3 | Seller | Yes, three pairs for ten dollars. |  |
+| dialogue-medium-12.mp3 | Júlia | Perfect, I'll take three pairs. that's all, thank you. |  |
+| dialogue-medium-13.mp3 | Seller | And this week, every purchase comes with a free gift box. |  |
+| dialogue-medium-14.mp3 | Júlia | that's great! |  |
+
+## demonstratives › dialogue-hard  (0/15)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mel | Grandpa, look at that old typewriter over there, on the last table! |  |
+| dialogue-hard-2.mp3 | Arthur | Ah! I wrote all my letters on one of those. |  |
+| dialogue-hard-3.mp3 | Mel | Really? How did it work? |  |
+| dialogue-hard-4.mp3 | Arthur | You put the paper here, you hit the keys, and… that's how we wrote in those days! |  |
+| dialogue-hard-5.mp3 | Mel | these days, I just type on my phone. |  |
+| dialogue-hard-6.mp3 | Arthur | I know. The first typewriters, in 1874, only had capital letters. |  |
+| dialogue-hard-7.mp3 | Mel | Wow. And what are these? (she picks up some records) |  |
+| dialogue-hard-8.mp3 | Arthur | Vinyl records. Your grandma loved this one in your hand. It was our wedding song. |  |
+| dialogue-hard-9.mp3 | Mel | Then we have to buy it! (to the seller) How much is it? |  |
+| dialogue-hard-10.mp3 | Seller | Fifteen dollars, but for you, ten. |  |
+| dialogue-hard-11.mp3 | Arthur | that's very kind of you. |  |
+| dialogue-hard-12.mp3 | Mel | Grandpa, this is it! The perfect gift for Grandma. |  |
+| dialogue-hard-13.mp3 | Arthur | You're right. And that's why I love flea markets: you find the past. |  |
+| dialogue-hard-14.mp3 | Seller | Anything else? |  |
+| dialogue-hard-15.mp3 | Arthur | No, that's all, thanks. |  |
+
 ## nouns › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
