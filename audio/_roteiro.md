@@ -322,6 +322,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Clara | Hmm. It's not an easy choice. It's the most important decision of our lives! |  |
 | dialogue-hard-12.mp3 | Marcos | Let's make a list. The more we think, the clearer it gets. |  |
 
+## compounds › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Felipe | Hi. I'm calling about the apartment on Rua Augusta. |  |
+| dialogue-medium-2.mp3 | Marta | Of course! It's a two-bedroom apartment, with a big living room. |  |
+| dialogue-medium-3.mp3 | Felipe | Is there a bus stop near the building? |  |
+| dialogue-medium-4.mp3 | Marta | Yes, and a subway station too. It's a five-minute walk. |  |
+| dialogue-medium-5.mp3 | Felipe | Great. Does it have a washing machine? |  |
+| dialogue-medium-6.mp3 | Marta | Yes, in the kitchen. And the building has a swimming pool on the roof. |  |
+| dialogue-medium-7.mp3 | Felipe | Wow! What about parking? |  |
+| dialogue-medium-8.mp3 | Marta | There's a parking lot next door. It's ten dollars a day. |  |
+| dialogue-medium-9.mp3 | Felipe | And the neighborhood? Is it safe? |  |
+| dialogue-medium-10.mp3 | Marta | Very. There's a drugstore on the corner, a bakery, everything. |  |
+| dialogue-medium-11.mp3 | Felipe | Perfect. Can I see it tomorrow? |  |
+| dialogue-medium-12.mp3 | Marta | Sure. I'll send you the login for the building's app. |  |
+
+## compounds › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Bia | My parents arrive on Saturday. It's a three-hour drive from Campinas. |  |
+| dialogue-hard-2.mp3 | Júlio | Great. Where will they sleep? |  |
+| dialogue-hard-3.mp3 | Bia | In the guest room. Can you buy new toothbrushes for them? Ours are old. |  |
+| dialogue-hard-4.mp3 | Júlio | Sure. And my brothers-in-law are coming for lunch on Sunday too, right? |  |
+| dialogue-hard-5.mp3 | Bia | Yes, both of my sisters' husbands. It'll be a full house! |  |
+| dialogue-hard-6.mp3 | Júlio | Should I make my homemade lasagna? |  |
+| dialogue-hard-7.mp3 | Bia | Yes! Everybody loves it. But my dad is on a sugar-free diet. |  |
+| dialogue-hard-8.mp3 | Júlio | No problem. And dessert? |  |
+| dialogue-hard-9.mp3 | Bia | Let's buy something from the bakery. They make a world-famous cake. |  |
+| dialogue-hard-10.mp3 | Júlio | Remember the last time? Your car had a breakdown on the way. |  |
+| dialogue-hard-11.mp3 | Bia | Don't remind me! This time we'll take the car to the mechanic first. |  |
+| dialogue-hard-12.mp3 | Júlio | Good idea. I'll log in and book a time now. |  |
+
 ## could › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

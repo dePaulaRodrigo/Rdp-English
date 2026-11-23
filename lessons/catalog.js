@@ -1906,6 +1906,51 @@ const CATALOG = [
   ]
  },
  {
+  "id": "compounds",
+  "title": "Compound Nouns and Adjectives",
+  "area": "Inglês Cotidiano",
+  "icon": "🚏",
+  "color": "#e9eef2",
+  "level": "B1",
+  "part": 8,
+  "order": 45,
+  "tags": [
+   "compound nouns",
+   "compound adjectives",
+   "bus stop",
+   "living room",
+   "two-hour drive",
+   "well-known",
+   "mother-in-law",
+   "log in vs login",
+   "house and city"
+  ],
+  "v": "6b14e7be",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
