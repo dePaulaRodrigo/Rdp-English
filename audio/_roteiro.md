@@ -297,6 +297,44 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rui | I did. And Lia's already scratched it! |  |
 | dialogue-hard-15.mp3 | Gabi | Ha! That's this week's best story. |  |
 
+## present-continuous › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mom | Hi, honey! What are you doing? |  |
+| dialogue-medium-2.mp3 | Lia | I'm sitting (sit) on the bus. I'm coming (come) home. |  |
+| dialogue-medium-3.mp3 | Mom | Great. Your dad is making (make) lasagna. |  |
+| dialogue-medium-4.mp3 | Lia | Yum! Is Pedro home? |  |
+| dialogue-medium-5.mp3 | Mom | Yes, he's in his room. He is studying (study) for his exam. |  |
+| dialogue-medium-6.mp3 | Lia | is he really studying, or is he playing video games? |  |
+| dialogue-medium-7.mp3 | Mom | Ha! I think he's playing (play) video games. |  |
+| dialogue-medium-8.mp3 | Lia | Typical. Hey, is it raining there? It's raining a lot here. |  |
+| dialogue-medium-9.mp3 | Mom | No, it isn't. But it's getting cold. |  |
+| dialogue-medium-10.mp3 | Lia | OK. Oh, the bus is stopping (stop). I think there's an accident. |  |
+| dialogue-medium-11.mp3 | Mom | Oh no. Are you OK? |  |
+| dialogue-medium-12.mp3 | Lia | Yes, I'm fine. Everybody's getting off. People are walking (walk) to the next stop. |  |
+| dialogue-medium-13.mp3 | Mom | Be careful! We are waiting (wait) for you. |  |
+
+## present-continuous › dialogue-hard  (0/15)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Bia | Hi! What are you doing? |  |
+| dialogue-hard-2.mp3 | Rafael | I am cooking dinner. Pasta again! |  |
+| dialogue-hard-3.mp3 | Bia | You cook pasta every night! |  |
+| dialogue-hard-4.mp3 | Rafael | I know. I hate cooking. |  |
+| dialogue-hard-5.mp3 | Bia | Is it cold there? |  |
+| dialogue-hard-6.mp3 | Rafael | Freezing. Look out the window: it is snowing right now. |  |
+| dialogue-hard-7.mp3 | Bia | Snow! It never snows in Fortaleza. |  |
+| dialogue-hard-8.mp3 | Rafael | Lucky you. are you still working at the hospital? |  |
+| dialogue-hard-9.mp3 | Bia | Yes, but this month I am working nights. |  |
+| dialogue-hard-10.mp3 | Rafael | That's hard. do you like it? |  |
+| dialogue-hard-11.mp3 | Bia | Not really. But I need the extra money. |  |
+| dialogue-hard-12.mp3 | Rafael | I understand what you mean. |  |
+| dialogue-hard-13.mp3 | Bia | And you? are you thinking about coming home for Christmas? |  |
+| dialogue-hard-14.mp3 | Rafael | Yes! I think it's time. |  |
+| dialogue-hard-15.mp3 | Bia | Great! Mom is already planning the menu. |  |
+
 ## present-simple › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

@@ -674,6 +674,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "present-continuous",
+  "title": "Present Continuous",
+  "area": "Inglês Cotidiano",
+  "icon": "⏳",
+  "color": "#f7ede4",
+  "level": "A1",
+  "part": 3,
+  "order": 17,
+  "tags": [
+   "present continuous",
+   "-ing",
+   "spelling",
+   "stative verbs",
+   "present simple vs continuous",
+   "right now",
+   "home"
+  ],
+  "v": "f1ef44fc",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 12
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 14
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
