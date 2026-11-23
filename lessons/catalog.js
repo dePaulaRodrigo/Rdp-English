@@ -2826,5 +2826,48 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "mixed-conditionals",
+  "title": "Mixed Conditionals",
+  "area": "Inglês Cotidiano",
+  "icon": "🧩",
+  "color": "#e8eef0",
+  "level": "C1",
+  "part": 13,
+  "order": 65,
+  "tags": [
+   "mixed conditionals",
+   "if I had studied I would be",
+   "if I were taller I would have",
+   "past affects present",
+   "present affects past",
+   "time markers",
+   "life choices"
+  ],
+  "v": "3670fffb",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 5
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 6
+   }
+  ]
  }
 ];

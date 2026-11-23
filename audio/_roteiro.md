@@ -1099,6 +1099,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-9.mp3 | Jorge | How many bags do you need? |  |
 | dialogue-hard-10.mp3 | Célia | Just one. I brought my own. |  |
 
+## mixed-conditionals › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bia | Lucas! You're a doctor now? I thought you wanted to be a musician. |  |
+| dialogue-medium-2.mp3 | Lucas | I did. But if I had followed music, I wouldn't have a stable job now. (not have) |  |
+| dialogue-medium-3.mp3 | Bia | Do you regret it? |  |
+| dialogue-medium-4.mp3 | Lucas | Sometimes. If I weren't so practical, I would have tried. (not be) |  |
+| dialogue-medium-5.mp3 | Bia | Ha! You were always the practical one. |  |
+| dialogue-medium-6.mp3 | Lucas | And you? Weren't you going to move to Canada? |  |
+| dialogue-medium-7.mp3 | Bia | Yes. If I had moved, I would be living in Toronto now. (live) |  |
+| dialogue-medium-8.mp3 | Lucas | Why didn't you? |  |
+| dialogue-medium-9.mp3 | Bia | I met Rafa. If I hadn't met him, I would have gone. (not meet) |  |
+| dialogue-medium-10.mp3 | Lucas | And now you have three kids! |  |
+| dialogue-medium-11.mp3 | Bia | Exactly. If I hadn't stayed, I wouldn't have this crazy, happy family today. (not have) |  |
+| dialogue-medium-12.mp3 | Lucas | No regrets, then. |  |
+
+## mixed-conditionals › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Igor | How did you become a manager so young? |  |
+| dialogue-hard-2.mp3 | Tânia | Luck, partly. If my boss hadn't left in 2018, I wouldn't have gotten his position. |  |
+| dialogue-hard-3.mp3 | Igor | But you were ready. |  |
+| dialogue-hard-4.mp3 | Tânia | I was. If I weren't so curious, I wouldn't have learned so much in my first years. |  |
+| dialogue-hard-5.mp3 | Igor | Did you ever think about leaving? |  |
+| dialogue-hard-6.mp3 | Tânia | Once. If I had accepted an offer from a startup, I would be working in Florianópolis now. |  |
+| dialogue-hard-7.mp3 | Igor | Why didn't you? |  |
+| dialogue-hard-8.mp3 | Tânia | The startup closed six months later. If I had gone, I would have been unemployed! |  |
+| dialogue-hard-9.mp3 | Igor | Wow. Lucky decision. |  |
+| dialogue-hard-10.mp3 | Tânia | And honestly, if I weren't afraid of risk, I might have tried anyway. |  |
+| dialogue-hard-11.mp3 | Igor | So you'd tell me to take risks? |  |
+| dialogue-hard-12.mp3 | Tânia | Calculated ones. If I had known that at your age, I would be even further ahead today. |  |
+
 ## modal-verbs › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
