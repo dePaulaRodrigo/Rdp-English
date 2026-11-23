@@ -4,6 +4,41 @@ Gerado por tools/build.mjs — não editar à mão.
 
 Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.mjs`. Os botões de áudio aparecem sozinhos.
 
+## articles › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Marta | Excuse me, is there a pharmacy near here? |  |
+| dialogue-medium-2.mp3 | Local | Yes. the nearest one is on Fifth Avenue, next to an Italian bakery. |  |
+| dialogue-medium-3.mp3 | Marta | Is it far? I have an appointment in an hour. |  |
+| dialogue-medium-4.mp3 | Local | No, it's a five-minute walk. Are you a tourist? |  |
+| dialogue-medium-5.mp3 | Marta | Yes, I'm from — Brazil. It's my first time in the United States. |  |
+| dialogue-medium-6.mp3 | Local | Welcome! Have you been to — Central Park? |  |
+| dialogue-medium-7.mp3 | Marta | Not yet. I also want to see the Metropolitan Museum. |  |
+| dialogue-medium-8.mp3 | Local | It's the best museum in New York. It's open seven days a week. |  |
+| dialogue-medium-9.mp3 | Marta | Great! And how do I get back to my hotel? It's near the Hudson River. |  |
+| dialogue-medium-10.mp3 | Local | Take the subway at the station on the corner. |  |
+| dialogue-medium-11.mp3 | Marta | Thank you so much! You're an angel. |  |
+
+## articles › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Helena | Good morning, Jorge! Do your kids walk to school every day? |  |
+| dialogue-hard-2.mp3 | Jorge | Yes. the school is only two blocks from our house, next to the bakery. |  |
+| dialogue-hard-3.mp3 | Helena | Lucky you! Mine take the bus. What time do you have breakfast? |  |
+| dialogue-hard-4.mp3 | Jorge | At seven. Then I stay at home and work in my office there. |  |
+| dialogue-hard-5.mp3 | Helena | Nice. My husband teaches English at a language school downtown. |  |
+| dialogue-hard-6.mp3 | Jorge | Really? My daughter wants to learn Spanish. She loves the songs her teacher plays in class. |  |
+| dialogue-hard-7.mp3 | Helena | And your son? |  |
+| dialogue-hard-8.mp3 | Jorge | He plays soccer after school and the guitar at night. He wants to be a musician. |  |
+| dialogue-hard-9.mp3 | Helena | Busy boy! Do you go to church on Sundays? |  |
+| dialogue-hard-10.mp3 | Jorge | Yes, to the 10 a.m. Mass. the church on our street is from 1880, did you know? |  |
+| dialogue-hard-11.mp3 | Helena | Really? I'm reading a book about the history of São Paulo. It's fascinating. |  |
+| dialogue-hard-12.mp3 | Jorge | history was my favorite subject at school. |  |
+| dialogue-hard-13.mp3 | Helena | Mine too. Well, I have to go home now. I'm cooking dinner for my parents tonight. |  |
+| dialogue-hard-14.mp3 | Jorge | Enjoy! life is short. Eat well! |  |
+
 ## capital-letters › dialogue-medium  (0/14)
 
 | Arquivo | Voz | Texto | Feito |

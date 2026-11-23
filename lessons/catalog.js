@@ -131,6 +131,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "articles",
+  "title": "Articles",
+  "area": "Inglês Cotidiano",
+  "icon": "🏙️",
+  "color": "#e6f0fa",
+  "level": "A1",
+  "part": 1,
+  "order": 5,
+  "tags": [
+   "articles",
+   "a",
+   "an",
+   "the",
+   "no article",
+   "city",
+   "neighborhood",
+   "directions"
+  ],
+  "v": "95d2b7e8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 16
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 15
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
