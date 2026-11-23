@@ -663,7 +663,7 @@ function renderContent(){
   <div class="cur">
     <div class="card"><h1>${t("content")}</h1><p>${t("contentSub")}</p>
       <p class="small muted">Os níveis vão de A1 (básico) a C1 (avançado). Os links abrem os sites em outra aba; eles têm regras de privacidade próprias. Lista revisada em ${CURATED_UPDATED || ""}.</p></div>
-    ${secs}
+    ${secs || `<div class="card sec"><p class="muted">${t("soon")}.</p></div>`}
     <div class="row" style="margin:22px 0"><button class="btn" id="curBack">${t("back")}</button></div>
   </div>`;
   $("#curBack").onclick = () => { location.hash = ""; };
