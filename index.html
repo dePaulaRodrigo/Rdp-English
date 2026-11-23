@@ -162,6 +162,15 @@ h2.area{margin:28px 0 12px}
 .foot{max-width:860px;margin:8px auto 28px;padding:0 16px;text-align:center;font-size:14px}
 .foot a{color:var(--muted);text-underline-offset:2px}
 .legal h2{margin-top:26px}
+.cur{max-width:860px;margin:18px auto}
+.cur .sec{margin-top:18px}
+.cur .sec h2{display:flex;gap:10px;align-items:center;margin:0 0 6px}
+.cur .how{background:var(--bg);border-left:3px solid var(--brand);padding:8px 12px;border-radius:6px;font-size:15px}
+.cur ul{list-style:none;padding:0;margin:12px 0 0}
+.cur li{padding:10px 0;border-top:1px solid var(--line)}
+.cur li:first-child{border-top:0}
+.cur .lv{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line);margin-left:6px;white-space:nowrap}
+.cur a.nm{font-weight:700}
 .legal li{margin-bottom:6px}
 .hometabs{display:flex;gap:6px;margin:6px 0 4px;border-bottom:1px solid var(--line)}
 .hometabs button{border:0;background:transparent;padding:10px 14px;font-size:16px;font-weight:600;color:var(--muted);border-bottom:3px solid transparent;margin-bottom:-1px}
@@ -185,7 +194,7 @@ h2.area{margin:28px 0 12px}
   <button class="themebtn" id="themeBtn" type="button"></button>
 </div></header>
 <main id="app"></main>
-<footer class="foot"><a href="#privacidade">Privacidade e termos de uso</a></footer>
+<footer class="foot"><a href="#conteudo">Conteúdo em inglês</a> · <a href="#privacidade">Privacidade e termos de uso</a></footer>
 <div class="sheet" id="sheet"><div class="in">
   <div class="hd"><span id="sheetTitle"></span><span class="spacer"></span><button class="x" id="sheetClear"></button><button class="x" id="sheetClose"></button></div>
   <div class="chips" id="chips"></div>
@@ -193,6 +202,7 @@ h2.area{margin:28px 0 12px}
 <div class="toast" id="toast"></div>
 
 <script src="lessons/catalog.js"></script>
+<script src="curated.js"></script>
 <script>
 /* ============================================================
    TEXTOS DA INTERFACE
@@ -226,6 +236,7 @@ const UI = { pt:{
   welcome3:"Para melhorar os exercícios, o site registra estatísticas anônimas de uso, como as lições abertas, os acertos e erros e o país de acesso. Essas estatísticas não guardam o seu código nem o seu endereço de internet. Detalhes em Privacidade e termos de uso, no fim da página.",
   aboutShow:"Sobre o site", aboutHide:"Ocultar",
   daily:"Inglês Cotidiano", dailySub:"A gramática aplicada a situações do dia a dia: família, compras, viagens, restaurantes e planos.",
+  content:"Conteúdo em inglês", contentSub:"Indicações de conteúdo original em inglês para praticar fora dos exercícios: leitura, áudio e vídeo. Os links levam aos sites oficiais.",
   pro:"Inglês Profissional", proSub:"Os mesmos tópicos de gramática, com o vocabulário da sua área de atuação. Escolha a sua área e, quando houver, a sua especialidade.",
   soon:"Em preparação", fieldEmpty:"Os exercícios desta área estão em preparação.", general:"Geral", nLesson1:"1 lição", nLessonN:"{n} lições", exDone:"{done} de {total} exercícios feitos",
   exercises:"Exercícios:", tabExpl:"Explicação", tabPractice:"Prática", tabVocab:"Vocabulário", explLang:"Idioma das explicações",
@@ -576,6 +587,7 @@ function route(){
   closeSheet(); stopAudio();
   const h = location.hash.replace("#","");
   if(h==="privacidade"){ renderPrivacy(); window.scrollTo(0,0); return; }
+  if(h==="conteudo"){ if(S.code) track("home",{d:"content"}); renderContent(); window.scrollTo(0,0); return; }
   if(!S.code){ renderGate(); return; }
   if(h==="nao-contar" || h==="contar"){
     const on = h==="nao-contar";
@@ -619,6 +631,7 @@ function renderPrivacy(){
       <li>O progresso e as estatísticas ficam no Supabase, em servidores em São Paulo.</li>
       <li>As páginas do site são entregues pelo GitHub Pages. Como qualquer servidor, o GitHub recebe o endereço de internet de quem abre a página, segundo a política de privacidade do próprio GitHub.</li>
       <li>O site não usa cookies de rastreamento, anúncios nem outros serviços de terceiros. A fonte do texto é hospedada no próprio site.</li>
+      <li>A página Conteúdo em inglês tem links para sites de terceiros. Ao abrir um deles, você sai deste site, e valem as regras de privacidade daquele site.</li>
     </ul>
     <h2>Por que os dados são usados</h2>
     <p>Só para guardar o seu progresso, proteger o site contra abuso e melhorar os exercícios. Nada é vendido nem compartilhado.</p>
@@ -635,6 +648,25 @@ function renderPrivacy(){
     <div class="row" style="margin-top:22px"><button class="btn" id="privBack">${t("back")}</button></div>
   </div>`;
   $("#privBack").onclick = () => { location.hash = ""; };
+}
+/* ---------- Conteúdo curado (curated.js): só links para os sites oficiais ---------- */
+function renderContent(){
+  setHeader();
+  const secs = (typeof CURATED!=="undefined" ? CURATED : []).map(sec => `
+    <section class="card sec" id="c-${esc(sec.id)}">
+      <h2><span aria-hidden="true">${sec.icon}</span>${esc(sec.title)}</h2>
+      <p>${esc(sec.intro)}</p>
+      <p class="how"><b>Como usar:</b> ${esc(sec.how)}</p>
+      <ul>${sec.items.map(it => `<li>${it.url ? `<a class="nm" href="${esc(it.url)}" target="_blank" rel="noopener noreferrer" lang="en">${esc(it.name)}</a>` : `<span class="nm" lang="en"><b>${esc(it.name)}</b></span>`}<span class="lv">${esc(it.level)}</span><div class="small muted">${esc(it.note)}</div></li>`).join("")}</ul>
+    </section>`).join("");
+  app.innerHTML = `
+  <div class="cur">
+    <div class="card"><h1>${t("content")}</h1><p>${t("contentSub")}</p>
+      <p class="small muted">Os níveis vão de A1 (básico) a C1 (avançado). Os links abrem os sites em outra aba; eles têm regras de privacidade próprias. Lista revisada em ${CURATED_UPDATED || ""}.</p></div>
+    ${secs}
+    <div class="row" style="margin:22px 0"><button class="btn" id="curBack">${t("back")}</button></div>
+  </div>`;
+  $("#curBack").onclick = () => { location.hash = ""; };
 }
 function setHeader(){
   const p = $("#codepill");
@@ -755,10 +787,10 @@ function renderLibrary(){
   app.innerHTML = `
     ${about ? `<div class="card welcome"><h1>${t("welcomeTitle")}</h1><p>${t("welcome1")}</p><p>${t("welcome2")}</p><p class="small muted">${t("welcome3")}</p>${isNew?"":`<button class="linkbtn about" id="aboutBtn">${t("aboutHide")}</button>`}</div>`
             : `<div style="text-align:right"><button class="linkbtn about" id="aboutBtn">${t("aboutShow")}</button></div>`}
-    <div class="hometabs"><button data-h="daily" class="${tab==="daily"?"on":""}">${t("daily")}</button><button data-h="pro" class="${tab==="pro"?"on":""}">${t("pro")}</button></div>
+    <div class="hometabs"><button data-h="daily" class="${tab==="daily"?"on":""}">${t("daily")}</button><button data-h="pro" class="${tab==="pro"?"on":""}">${t("pro")}</button><button data-h="content">${t("content")}</button></div>
     ${body}`;
   const ab = $("#aboutBtn"); if(ab) ab.onclick = () => { S.about = !S.about; renderLibrary(); };
-  app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { S.home = b.dataset.h; track("home",{d:S.home}); renderLibrary(); });
+  app.querySelectorAll(".hometabs button").forEach(b=> b.onclick = () => { if(b.dataset.h==="content"){ location.hash = "conteudo"; return; } S.home = b.dataset.h; track("home",{d:S.home}); renderLibrary(); });
   app.querySelectorAll(".lcard[data-field]").forEach(b=> b.onclick = () => { location.hash = "area/"+b.dataset.field; });
   wireCards();
 }
