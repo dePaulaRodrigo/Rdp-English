@@ -2418,6 +2418,53 @@ const CATALOG = [
   ]
  },
  {
+  "id": "get",
+  "title": "The Many Meanings of GET",
+  "area": "Inglês Cotidiano",
+  "icon": "🔄",
+  "color": "#e4eef0",
+  "level": "A2",
+  "part": 11,
+  "order": 56,
+  "tags": [
+   "get",
+   "get vs stay vs be",
+   "get tired",
+   "get home",
+   "get to",
+   "get on the bus",
+   "get up",
+   "get along",
+   "gotten",
+   "it's getting late",
+   "commute"
+  ],
+  "v": "a474f832",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

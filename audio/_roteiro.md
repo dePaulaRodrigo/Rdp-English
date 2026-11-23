@@ -666,6 +666,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Mr. Santos | One more thing: on Sunday, we will be leaving the hotel late. Is that OK? |  |
 | dialogue-hard-11.mp3 | Receptionist | Of course. I will put a note on your reservation. |  |
 
+## get › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bruna | Lucas! You're all wet! What happened? |  |
+| dialogue-medium-2.mp3 | Lucas | I got soaked. My umbrella broke on the way. |  |
+| dialogue-medium-3.mp3 | Bruna | Oh no! What time did you leave? |  |
+| dialogue-medium-4.mp3 | Lucas | At seven. But I got stuck in traffic for an hour. |  |
+| dialogue-medium-5.mp3 | Bruna | Why didn't you take the subway? |  |
+| dialogue-medium-6.mp3 | Lucas | I did! I got off the bus and took the subway. But it was packed. |  |
+| dialogue-medium-7.mp3 | Bruna | Typical rush hour. |  |
+| dialogue-medium-8.mp3 | Lucas | And then I got off at the wrong station! |  |
+| dialogue-medium-9.mp3 | Bruna | Ha! So what time did you get here? |  |
+| dialogue-medium-10.mp3 | Lucas | Nine-thirty. I'm getting too old for this. |  |
+| dialogue-medium-11.mp3 | Bruna | Go dry off. I'll get you a coffee. |  |
+| dialogue-medium-12.mp3 | Lucas | Thanks. Next time it rains, I'll just stay home. |  |
+
+## get › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mom | So, honey, how's Curitiba? |  |
+| dialogue-hard-2.mp3 | Ana | Cold! It's getting colder every day. |  |
+| dialogue-hard-3.mp3 | Mom | Are you getting used to it? |  |
+| dialogue-hard-4.mp3 | Ana | Slowly. I got a cold last month, but I'm better now. |  |
+| dialogue-hard-5.mp3 | Mom | And the commute? |  |
+| dialogue-hard-6.mp3 | Ana | Easy. I get to work in twenty minutes by bus. |  |
+| dialogue-hard-7.mp3 | Mom | Do you get along with your coworkers? |  |
+| dialogue-hard-8.mp3 | Ana | Yes, they're great. One of them got me a heater as a gift! |  |
+| dialogue-hard-9.mp3 | Mom | How sweet! Are you coming home for Christmas? |  |
+| dialogue-hard-10.mp3 | Ana | Yes! I'll get there on the 22nd. |  |
+| dialogue-hard-11.mp3 | Mom | And will you stay for New Year's? |  |
+| dialogue-hard-12.mp3 | Ana | Of course. I miss the beach. I'll get over the cold in Fortaleza! |  |
+
 ## going-to › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
