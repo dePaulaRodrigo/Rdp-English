@@ -1797,6 +1797,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Carlos | Wow. And where did you use to live back then? Near the park? |  |
 | dialogue-hard-12.mp3 | Paula | Yes, on Rua das Flores. My parents still live there. |  |
 
+## verb-patterns-meaning › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Marta | Wait! Did you remember to lock the back door? (lock) |  |
+| dialogue-medium-2.mp3 | Jonas | Yes, I remember locking it. I'm sure. (lock) |  |
+| dialogue-medium-3.mp3 | Marta | And the iron? I forgot to unplug it, I think. (unplug) |  |
+| dialogue-medium-4.mp3 | Jonas | Oh no. Should we go back? |  |
+| dialogue-medium-5.mp3 | Marta | Let me try calling the neighbor. She has our key. (call) |  |
+| dialogue-medium-6.mp3 | Jonas | Good idea. |  |
+| dialogue-medium-7.mp3 | Marta | She's not answering. I'll try sending her a message. (send) |  |
+| dialogue-medium-8.mp3 | Jonas | OK. Let's stop to get gas while we wait. (get) |  |
+| dialogue-medium-9.mp3 | Marta | Ah! She answered. She says the iron is off. |  |
+| dialogue-medium-10.mp3 | Jonas | See? You need to stop worrying so much! (worry) |  |
+| dialogue-medium-11.mp3 | Marta | I know. Remind me to make a list next time. (make) |  |
+
+## verb-patterns-meaning › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Helena | So, Caio, what brings you here? |  |
+| dialogue-hard-2.mp3 | Caio | I want to stop biting my nails. I've done it since I was a kid. |  |
+| dialogue-hard-3.mp3 | Helena | Do you remember doing it as a child? |  |
+| dialogue-hard-4.mp3 | Caio | Yes, vividly. My mom always told me to stop. |  |
+| dialogue-hard-5.mp3 | Helena | Have you tried using anything? |  |
+| dialogue-hard-6.mp3 | Caio | I tried wearing gloves, but it was weird at work. |  |
+| dialogue-hard-7.mp3 | Helena | I see. Try keeping your hands busy. A stress ball, for example. |  |
+| dialogue-hard-8.mp3 | Caio | OK. I'll try. |  |
+| dialogue-hard-9.mp3 | Helena | And when you feel the urge, stop to take a deep breath. |  |
+| dialogue-hard-10.mp3 | Caio | I don't want you to think I'm hopeless, but I've failed many times. |  |
+| dialogue-hard-11.mp3 | Helena | That's normal. I'd like you to write a note every time you do it. |  |
+| dialogue-hard-12.mp3 | Caio | I'll try to remember it. Thanks, doctor. |  |
+
 ## verb-patterns › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |

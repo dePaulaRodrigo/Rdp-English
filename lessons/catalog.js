@@ -2327,6 +2327,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "verb-patterns-meaning",
+  "title": "Verbs That Change Meaning: Stop, Remember, Try",
+  "area": "Inglês Cotidiano",
+  "icon": "🧠",
+  "color": "#e6ecf2",
+  "level": "B2",
+  "part": 11,
+  "order": 54,
+  "tags": [
+   "stop doing vs stop to do",
+   "remember to vs remember -ing",
+   "forget",
+   "try to vs try -ing",
+   "regret",
+   "go on",
+   "mean",
+   "want someone to",
+   "see him cross / crossing",
+   "habits and memories"
+  ],
+  "v": "20e57d3d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
