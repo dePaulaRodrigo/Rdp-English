@@ -803,6 +803,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Bia | Do you want help? I don't have to work tomorrow, so I can go with you. |  |
 | dialogue-hard-11.mp3 | Ana | Really? You're the best! |  |
 
+## in-on-at-time › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Carla | Nina's birthday is on March 15th. That's a Saturday. |  |
+| dialogue-medium-2.mp3 | Beto | Perfect. Let's have the party in the afternoon. |  |
+| dialogue-medium-3.mp3 | Carla | OK. What time? At three o'clock? |  |
+| dialogue-medium-4.mp3 | Beto | Good. And the cake? The bakery is closed on weekends. |  |
+| dialogue-medium-5.mp3 | Carla | Then we pick it up on Friday. |  |
+| dialogue-medium-6.mp3 | Beto | On Friday night? |  |
+| dialogue-medium-7.mp3 | Carla | No, in the morning. They close early. |  |
+| dialogue-medium-8.mp3 | Beto | OK. I'll send the invitations — next week. |  |
+| dialogue-medium-9.mp3 | Carla | Great. Oh, and my mom arrives at noon on Saturday. |  |
+| dialogue-medium-10.mp3 | Beto | I can pick her up. I'm free at that time. |  |
+
+## in-on-at-time › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Laura | Good morning, Mr. Davis. Can we move our meeting? Something came up on Tuesday. |  |
+| dialogue-hard-2.mp3 | Davis | Sure. What about this Thursday? |  |
+| dialogue-hard-3.mp3 | Laura | Thursday works. At ten a.m.? |  |
+| dialogue-hard-4.mp3 | Davis | I'm in another meeting until eleven. Can we start earlier? |  |
+| dialogue-hard-5.mp3 | Laura | Of course. Nine-thirty? |  |
+| dialogue-hard-6.mp3 | Davis | Great. And the proposal? I need it by Wednesday. |  |
+| dialogue-hard-7.mp3 | Laura | No problem. I'll send it on Wednesday morning. |  |
+| dialogue-hard-8.mp3 | Davis | Perfect. And the project ends in December, right? |  |
+| dialogue-hard-9.mp3 | Laura | Yes, on December 15th. We'll work on it until then. |  |
+| dialogue-hard-10.mp3 | Davis | Excellent. See you on Thursday. |  |
+| dialogue-hard-11.mp3 | Laura | Thank you. Have a good day! |  |
+
 ## many-much › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
