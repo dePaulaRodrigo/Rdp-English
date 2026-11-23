@@ -1998,6 +1998,56 @@ const CATALOG = [
   ]
  },
  {
+  "id": "some-any-few-little",
+  "title": "Few, Little, Some, Any, No",
+  "area": "Inglês Cotidiano",
+  "icon": "🥫",
+  "color": "#f3ebe0",
+  "level": "A2",
+  "part": 9,
+  "order": 47,
+  "tags": [
+   "a few",
+   "a little",
+   "few",
+   "little",
+   "some",
+   "any",
+   "no",
+   "none",
+   "something",
+   "anything",
+   "nothing",
+   "nobody",
+   "double negative",
+   "kitchen and pantry"
+  ],
+  "v": "b1418572",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

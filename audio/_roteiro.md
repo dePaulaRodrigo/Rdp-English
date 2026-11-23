@@ -1392,6 +1392,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Sofia | We have so few chances to celebrate. It was worth it. |  |
 | dialogue-hard-13.mp3 | Luísa | Next time, take me! |  |
 
+## some-any-few-little › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mel | Mom, do we have any condensed milk? |  |
+| dialogue-medium-2.mp3 | Ana | Yes, there are a few cans in the cupboard. Three, I think. |  |
+| dialogue-medium-3.mp3 | Mel | Great. And cocoa powder? |  |
+| dialogue-medium-4.mp3 | Ana | There's a little, but not much. Let's check the recipe. |  |
+| dialogue-medium-5.mp3 | Mel | We need four spoonfuls. Is that OK? |  |
+| dialogue-medium-6.mp3 | Ana | Hmm. We have little cocoa. Only two spoonfuls. |  |
+| dialogue-medium-7.mp3 | Mel | Oh no! Can we use something else? Chocolate? |  |
+| dialogue-medium-8.mp3 | Ana | Good idea. There's some chocolate in the fridge. |  |
+| dialogue-medium-9.mp3 | Mel | And sprinkles? I don't see any. |  |
+| dialogue-medium-10.mp3 | Ana | We have none. We need to buy them. |  |
+| dialogue-medium-11.mp3 | Mel | I can go to the bakery. Do you need anything else? |  |
+| dialogue-medium-12.mp3 | Ana | Yes, some butter. Just a little. |  |
+
+## some-any-few-little › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Gustavo | I'm starving. Is there anything to eat? |  |
+| dialogue-hard-2.mp3 | Nando | Let me check… There's nothing in the fridge. Just water. |  |
+| dialogue-hard-3.mp3 | Gustavo | Seriously? Did anybody go to the supermarket this week? |  |
+| dialogue-hard-4.mp3 | Nando | No. Nobody had time. |  |
+| dialogue-hard-5.mp3 | Gustavo | What about leftovers? We had some pizza yesterday. |  |
+| dialogue-hard-6.mp3 | Nando | I ate it this morning. There's none left. |  |
+| dialogue-hard-7.mp3 | Gustavo | OK. Are there any eggs? |  |
+| dialogue-hard-8.mp3 | Nando | Yes, a few. Three or four. |  |
+| dialogue-hard-9.mp3 | Gustavo | And bread? |  |
+| dialogue-hard-10.mp3 | Nando | A few slices. And there's a little cheese too. |  |
+| dialogue-hard-11.mp3 | Gustavo | Perfect! Egg and cheese sandwiches. We're saved! |  |
+
 ## the-more-the-better › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
