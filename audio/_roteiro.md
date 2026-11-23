@@ -1362,6 +1362,30 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## one-word-or-two › dialogue-medium  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Rafa | Hey! Lunch tomorrow? Maybe at the Japanese place? |  |
+| dialogue-medium-2.mp3 | Bia | Sounds good! I eat there almost every day, lol. |  |
+| dialogue-medium-3.mp3 | Rafa | Ha! What time? I cannot leave work before 1. |  |
+| dialogue-medium-4.mp3 | Bia | 1:30, then. I'll be there waiting outside. |  |
+| dialogue-medium-5.mp3 | Rafa | Great. BTW, did you see the pics from the party? They're amazing! |  |
+| dialogue-medium-6.mp3 | Bia | Yes! You guys look so happy. Where were they taken? |  |
+| dialogue-medium-7.mp3 | Rafa | At my sister's place. Her house has the best view. |  |
+| dialogue-medium-8.mp3 | Bia | Love it. OK, see you tomorrow! Let me know if you're running late. |  |
+
+## one-word-or-two › dialogue-hard  (0/6)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Laura | Hi team! The new system is already set up. You can log in with your usual password. |  |
+| dialogue-hard-2.mp3 | Laura | Please test it sometime this week, and let me know if anything is wrong. |  |
+| dialogue-hard-3.mp3 | Laura | Remember: the old system will be turned off sometime next month. Don't lose your files! |  |
+| dialogue-hard-4.mp3 | Laura | Thanks, everyone. Your help means a lot. |  |
+| dialogue-hard-5.mp3 | Marcos | Hi Laura! I tested it. It's much faster than the old one. |  |
+| dialogue-hard-6.mp3 | Marcos | One thing: the login page doesn't load on my phone. Anyway, great job! |  |
+
 ## passive-voice › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
