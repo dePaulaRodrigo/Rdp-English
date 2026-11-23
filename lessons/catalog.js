@@ -432,6 +432,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "to-be",
+  "title": "The Verb To Be",
+  "area": "Inglês Cotidiano",
+  "icon": "🙋",
+  "color": "#e8f3ef",
+  "level": "A1",
+  "part": 2,
+  "order": 12,
+  "tags": [
+   "to be",
+   "am",
+   "is",
+   "are",
+   "short answers",
+   "age",
+   "introductions",
+   "family"
+  ],
+  "v": "35dcb0b8",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 14
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 12
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",

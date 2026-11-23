@@ -416,6 +416,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-26.mp3 | Lucas | Then I'm in good company. Let's go see Mr. Ferreira. |  |
 | dialogue-27.mp3 | Dr. Prado | Go. And Lucas — there's never been a good neurosurgeon who wasn't a good clinician first. |  |
 
+## to-be › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ms. Lopez | Good morning, everyone! I am Ms. Lopez, your teacher. |  |
+| dialogue-medium-2.mp3 | Ms. Lopez | Let's start. What is your name? |  |
+| dialogue-medium-3.mp3 | Akira | Akira. I am from Japan. |  |
+| dialogue-medium-4.mp3 | Ms. Lopez | Welcome, Akira! And you two? are you sisters? |  |
+| dialogue-medium-5.mp3 | Sofia | No, we aren't. We are friends. I'm Sofia, from Colombia, and she is Ana, from Brazil. |  |
+| dialogue-medium-6.mp3 | Ms. Lopez | Nice to meet you! Ana, is this your first time in the US? |  |
+| dialogue-medium-7.mp3 | Ana | No, it isn't. My brother lives here. He is a chef in a hotel. |  |
+| dialogue-medium-8.mp3 | Ms. Lopez | Great! OK, everyone, the books are on the shelf, and your homework is on page ten. |  |
+| dialogue-medium-9.mp3 | Akira | Excuse me, where is the restroom? |  |
+| dialogue-medium-10.mp3 | Ms. Lopez | It is next to the elevator. |  |
+
+## to-be › dialogue-hard  (0/15)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Leo | Are you OK back there, Bia? |  |
+| dialogue-hard-2.mp3 | Bia | Not really. I am cold. Can you close the window? |  |
+| dialogue-hard-3.mp3 | Leo | Sure. And you, Rafa? are you hungry? |  |
+| dialogue-hard-4.mp3 | Rafa | Yes, I am! Let's stop somewhere. |  |
+| dialogue-hard-5.mp3 | Leo | OK, at the next town. How far is it? |  |
+| dialogue-hard-6.mp3 | Bia | Twenty kilometers. But we are late for the wedding! |  |
+| dialogue-hard-7.mp3 | Rafa | Relax. The ceremony is at four, and it's only two now. |  |
+| dialogue-hard-8.mp3 | Bia | You are right. Sorry, I'm a little stressed. |  |
+| dialogue-hard-9.mp3 | Leo | Restaurant or sandwiches? |  |
+| dialogue-hard-10.mp3 | Rafa | It depends on the prices. |  |
+| dialogue-hard-11.mp3 | Bia | I agree with Rafa. Let's see the prices first. |  |
+| dialogue-hard-12.mp3 | Leo | Fine. Bia, how old is your sister? |  |
+| dialogue-hard-13.mp3 | Bia | She is thirty-two. |  |
+| dialogue-hard-14.mp3 | Rafa | And are you afraid of speeches? You're the maid of honor! |  |
+| dialogue-hard-15.mp3 | Bia | Terrified! |  |
+
 ## whose › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
