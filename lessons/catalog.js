@@ -1193,6 +1193,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "going-to",
+  "title": "Going To and Present Continuous for the Future",
+  "area": "Inglês Cotidiano",
+  "icon": "🗓️",
+  "color": "#e7f3ef",
+  "level": "A2",
+  "part": 6,
+  "order": 29,
+  "tags": [
+   "going to",
+   "gonna",
+   "present continuous for future",
+   "was going to",
+   "be about to",
+   "will vs going to",
+   "plans",
+   "vacation"
+  ],
+  "v": "8add8437",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

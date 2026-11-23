@@ -226,6 +226,39 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Leo | Yes. It's been a year since I arrived, and I still find new restaurants every week. |  |
 | dialogue-hard-11.mp3 | Ana | since you're new in town, let me send you my list! |  |
 
+## going-to › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ana | Any plans for the weekend? |  |
+| dialogue-medium-2.mp3 | Ben | Yes! I'm going to visit my parents in Petrópolis. |  |
+| dialogue-medium-3.mp3 | Ana | Nice! Are you driving there? |  |
+| dialogue-medium-4.mp3 | Ben | No, I'm taking the bus on Saturday morning. |  |
+| dialogue-medium-5.mp3 | Ana | What are you going to do there? |  |
+| dialogue-medium-6.mp3 | Ben | We're going to have a big family lunch. |  |
+| dialogue-medium-7.mp3 | Ana | Fun! I was going to go to the beach, but the forecast says it's going to rain. |  |
+| dialogue-medium-8.mp3 | Ben | Oh no. So what are you doing instead? |  |
+| dialogue-medium-9.mp3 | Ana | I'm meeting my friend Clara for brunch on Sunday. |  |
+| dialogue-medium-10.mp3 | Ben | Nice. And tonight? |  |
+| dialogue-medium-11.mp3 | Ana | Tonight I'm not going anywhere. I'm going to sleep early! |  |
+
+## going-to › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mia | OK, the tickets are booked. We are flying to Santiago on July 10th! |  |
+| dialogue-hard-2.mp3 | Rui | Great! What's the plan? |  |
+| dialogue-hard-3.mp3 | Mia | I've already decided: we are going to spend three days in Santiago. |  |
+| dialogue-hard-4.mp3 | Rui | Perfect. Look at the forecast: it is going to be very cold. |  |
+| dialogue-hard-5.mp3 | Mia | I know. I am going to buy a warm coat tomorrow. I've already chosen it. |  |
+| dialogue-hard-6.mp3 | Rui | Do you need gloves? I will lend you mine. |  |
+| dialogue-hard-7.mp3 | Mia | Thanks! And I am meeting my sister on the 15th. She lives in Valparaíso. |  |
+| dialogue-hard-8.mp3 | Rui | Oh, nice. What time does the bus leave to Valparaíso? |  |
+| dialogue-hard-9.mp3 | Mia | It leaves at eight in the morning. |  |
+| dialogue-hard-10.mp3 | Rui | OK. Hmm, I'm hungry. I think I will make a sandwich. |  |
+| dialogue-hard-11.mp3 | Mia | Wait! We are having dinner with your parents tonight, remember? |  |
+| dialogue-hard-12.mp3 | Rui | Oh, right! Then I won't eat now. |  |
+
 ## have-expressions › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
