@@ -4,6 +4,43 @@ Gerado por tools/build.mjs — não editar à mão.
 
 Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.mjs`. Os botões de áudio aparecem sozinhos.
 
+## adjectives › dialogue-medium  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Rosa | So, how is your new apartment? |  |
+| dialogue-medium-2.mp3 | Lia | It's small, but it's very cozy. |  |
+| dialogue-medium-3.mp3 | Rosa | Is the living room big? |  |
+| dialogue-medium-4.mp3 | Lia | No, but it's bright. It has two big windows. |  |
+| dialogue-medium-5.mp3 | Rosa | And the neighborhood? |  |
+| dialogue-medium-6.mp3 | Lia | It's a quiet street, with lots of trees. |  |
+| dialogue-medium-7.mp3 | Rosa | That's nice. What's this? |  |
+| dialogue-medium-8.mp3 | Lia | It's my round wooden table. I bought it at a fair. |  |
+| dialogue-medium-9.mp3 | Rosa | Beautiful! And the neighbors? |  |
+| dialogue-medium-10.mp3 | Lia | They're very friendly. There's an elderly couple next door. |  |
+| dialogue-medium-11.mp3 | Rosa | Do you need anything for the kitchen? |  |
+| dialogue-medium-12.mp3 | Lia | Yes, my pans are old. I need new ones. |  |
+| dialogue-medium-13.mp3 | Rosa | I can give you some! Anything else? |  |
+| dialogue-medium-14.mp3 | Lia | No, that's it. Thanks, Grandma! |  |
+
+## adjectives › dialogue-hard  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Mei | Where are you from, Diego? |  |
+| dialogue-hard-2.mp3 | Diego | Ouro Preto. It's a small historic town in Minas Gerais. |  |
+| dialogue-hard-3.mp3 | Mei | Is it old? |  |
+| dialogue-hard-4.mp3 | Diego | Very old. It's about 300 years old. The streets are steep and narrow. |  |
+| dialogue-hard-5.mp3 | Mei | What's special about it? |  |
+| dialogue-hard-6.mp3 | Diego | There are many beautiful old churches. They're full of gold. |  |
+| dialogue-hard-7.mp3 | Mei | Wow. Is it crowded? |  |
+| dialogue-hard-8.mp3 | Diego | During Carnival, yes. But usually it's quiet. |  |
+| dialogue-hard-9.mp3 | Mei | Is there something typical to eat? |  |
+| dialogue-hard-10.mp3 | Diego | Pão de queijo! It's a cheese snack. You can buy it everywhere. |  |
+| dialogue-hard-11.mp3 | Mei | Do you have photos? |  |
+| dialogue-hard-12.mp3 | Diego | Sure. This is my parents' house. The little white one. |  |
+| dialogue-hard-13.mp3 | Mei | It's lovely! |  |
+
 ## articles › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |

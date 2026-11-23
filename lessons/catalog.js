@@ -1546,6 +1546,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "adjectives",
+  "title": "Adjectives",
+  "area": "Inglês Cotidiano",
+  "icon": "🏡",
+  "color": "#f2efe3",
+  "level": "A1",
+  "part": 8,
+  "order": 37,
+  "tags": [
+   "adjectives",
+   "adjective order",
+   "something interesting",
+   "one / ones",
+   "the rich",
+   "nationalities",
+   "-ish",
+   "describing home and city"
+  ],
+  "v": "9d5b19bb",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
