@@ -1827,6 +1827,34 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
+## relative-clauses › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Marta | Welcome, Kevin! That's the bakery where I buy bread every morning. |  |
+| dialogue-medium-2.mp3 | Kevin | Great. Who's the man who is waving at us? |  |
+| dialogue-medium-3.mp3 | Marta | That's Seu Jorge. He's the man who owns the bakery. |  |
+| dialogue-medium-4.mp3 | Kevin | And that colorful street? |  |
+| dialogue-medium-5.mp3 | Marta | It's Beco do Batman, an alley that is famous for its graffiti. |  |
+| dialogue-medium-6.mp3 | Kevin | Cool! Is there a gym where I can work out? |  |
+| dialogue-medium-7.mp3 | Marta | Yes, two blocks away. And there's a woman whose dog walks itself! |  |
+| dialogue-medium-8.mp3 | Kevin | Ha! Really? |  |
+| dialogue-medium-9.mp3 | Marta | Really. And this is the square where we have a street market on Saturdays. |  |
+| dialogue-medium-10.mp3 | Kevin | I love it. It's the best neighborhood that I've ever lived in. |  |
+
+## relative-clauses › dialogue-hard  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lu | OK, who's the tall man who is talking to your mom? |  |
+| dialogue-hard-2.mp3 | Rafa | That's Uncle Paulo, the one whose wife is a chef. |  |
+| dialogue-hard-3.mp3 | Lu | Oh! So the lasagna — we ate was hers? |  |
+| dialogue-hard-4.mp3 | Rafa | Exactly. What I love most about family parties is the food. |  |
+| dialogue-hard-5.mp3 | Lu | Ha! And the girl — I saw at the door? |  |
+| dialogue-hard-6.mp3 | Rafa | My cousin Bia. She lives in Recife, the city where I spent my childhood. |  |
+| dialogue-hard-7.mp3 | Lu | And the old man in the corner? The one — everybody is listening to? |  |
+| dialogue-hard-8.mp3 | Rafa | Grandpa. Everything that he says is a story. You'll love him. |  |
+
 ## second-conditional › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

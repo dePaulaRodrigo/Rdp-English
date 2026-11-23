@@ -2914,5 +2914,51 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "relative-clauses",
+  "title": "Relative Clauses: Who, Which, That, Where",
+  "area": "Inglês Cotidiano",
+  "icon": "🔗",
+  "color": "#e7eef4",
+  "level": "B1",
+  "part": 14,
+  "order": 67,
+  "tags": [
+   "relative clauses",
+   "who",
+   "which",
+   "that",
+   "where",
+   "when",
+   "what",
+   "omitting the pronoun",
+   "no repeated pronoun",
+   "describing people and places"
+  ],
+  "v": "819d279d",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
