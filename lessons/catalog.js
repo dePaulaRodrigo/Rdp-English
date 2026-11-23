@@ -2186,6 +2186,54 @@ const CATALOG = [
   ]
  },
  {
+  "id": "prepositions-place",
+  "title": "Prepositions of Place and Movement",
+  "area": "Inglês Cotidiano",
+  "icon": "🧭",
+  "color": "#eaf2e8",
+  "level": "A2",
+  "part": 10,
+  "order": 51,
+  "tags": [
+   "in on at",
+   "place",
+   "address",
+   "arrive in vs arrive at",
+   "go home",
+   "by car",
+   "get on the bus",
+   "next to",
+   "across from",
+   "through",
+   "to vs for",
+   "directions"
+  ],
+  "v": "ffad7321",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 11
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

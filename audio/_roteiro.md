@@ -1192,6 +1192,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-14.mp3 | Rui | I did. And Lia's already scratched it! |  |
 | dialogue-hard-15.mp3 | Gabi | Ha! That's this week's best story. |  |
 
+## prepositions-place › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Kate | Excuse me. How do I get to the Inconfidência Museum? |  |
+| dialogue-medium-2.mp3 | Antônio | It's easy. It's on Tiradentes Square. |  |
+| dialogue-medium-3.mp3 | Kate | Is it far? Can I go on foot? |  |
+| dialogue-medium-4.mp3 | Antônio | Yes, it's five minutes. Go up this street. |  |
+| dialogue-medium-5.mp3 | Kate | OK. Then? |  |
+| dialogue-medium-6.mp3 | Antônio | Walk past the church and turn right. |  |
+| dialogue-medium-7.mp3 | Kate | Past the church, turn right. Got it. |  |
+| dialogue-medium-8.mp3 | Antônio | The museum is across from the big statue. |  |
+| dialogue-medium-9.mp3 | Kate | Across from the statue? |  |
+| dialogue-medium-10.mp3 | Antônio | Yes. There's a café next to it, too. |  |
+| dialogue-medium-11.mp3 | Kate | Great. I'm meeting a friend at the café. |  |
+| dialogue-medium-12.mp3 | Antônio | Perfect! Oh, and be careful. The streets are steep. Walk up the hill slowly. |  |
+| dialogue-medium-13.mp3 | Kate | Thank you so much! |  |
+
+## prepositions-place › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Marina | Welcome! How was your trip to work? |  |
+| dialogue-hard-2.mp3 | Jéssica | Long! I live in Santo André. |  |
+| dialogue-hard-3.mp3 | Marina | Do you come by car? |  |
+| dialogue-hard-4.mp3 | Jéssica | No, by train. I get on the train at Prefeito Saladino station. |  |
+| dialogue-hard-5.mp3 | Marina | And then? |  |
+| dialogue-hard-6.mp3 | Jéssica | I get off at Brás and take the subway to Paulista. |  |
+| dialogue-hard-7.mp3 | Marina | That's a lot! What time did you leave home? |  |
+| dialogue-hard-8.mp3 | Jéssica | At six. And I arrived at the office at eight. |  |
+| dialogue-hard-9.mp3 | Marina | Wow. Do you read on the train? |  |
+| dialogue-hard-10.mp3 | Jéssica | Yes, I read a lot. It's the best part of the trip! |  |
+| dialogue-hard-11.mp3 | Marina | Smart. Hey, let's go out for lunch. There's a great place around the corner. |  |
+
 ## present-continuous › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
