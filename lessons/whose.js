@@ -185,7 +185,7 @@ en:`
          why:{pt:"Os projetos são deles: whose.", en:"The projects are theirs: whose."}},
         {q:"\"Whose dog is this?\" — \"I think it's ___. They live next door.\"", o:["the Smiths'","the Smith's","Smiths"], a:0, sub:"answers",
          why:{pt:"A família Smith é plural (the Smiths): só o apóstrofo.", en:"The Smith family is plural (the Smiths): just the apostrophe."}},
-        {q:"\"Whose side are you on?\" means:", o:["De que lado você está?","Quem está do seu lado?","Quem é você?"], a:0, sub:"whose questions",
+        {q:"\"Whose side are you on?\" → ___", o:["De que lado você está?","Quem está do seu lado?","Quem é você?"], a:0, sub:"whose questions",
          why:{pt:"Whose side = o lado de quem.", en:"Whose side = the side of which person."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: After the School Trip", type:"gap", layout:"dialogue",

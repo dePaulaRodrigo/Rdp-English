@@ -345,6 +345,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "whose",
+  "title": "Whose",
+  "area": "Inglês Cotidiano",
+  "icon": "🧳",
+  "color": "#eaf2ea",
+  "level": "A2",
+  "part": 1,
+  "order": 10,
+  "tags": [
+   "whose",
+   "who's",
+   "whom",
+   "possessive",
+   "relative clauses",
+   "lost and found",
+   "family"
+  ],
+  "v": "817d3f0c",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 11
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 12
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",

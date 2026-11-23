@@ -367,3 +367,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-25.mp3 | Dr. Prado | Plenty. When I started here, there used to be only two doctors in this unit. Now we're six, and half of the residents I've trained have had big plans for surgery. |  |
 | dialogue-26.mp3 | Lucas | Then I'm in good company. Let's go see Mr. Ferreira. |  |
 | dialogue-27.mp3 | Dr. Prado | Go. And Lucas — there's never been a good neurosurgeon who wasn't a good clinician first. |  |
+
+## whose › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ms. Grace | OK, everybody! whose backpack is this? |  |
+| dialogue-medium-2.mp3 | Ben | It's Pedro's. He's in the bathroom. |  |
+| dialogue-medium-3.mp3 | Ms. Grace | Thanks. And who's that boy by the door? |  |
+| dialogue-medium-4.mp3 | Ben | That's Tom, whose mother works at the museum. |  |
+| dialogue-medium-5.mp3 | Ms. Grace | Tom! Are these sneakers yours? |  |
+| dialogue-medium-6.mp3 | Tom | No, they're my brother's. We wear the same size. |  |
+| dialogue-medium-7.mp3 | Ms. Grace | whose water bottle is this, the one with the stickers? |  |
+| dialogue-medium-8.mp3 | Lily | it's mine! Thank you. |  |
+| dialogue-medium-9.mp3 | Ms. Grace | And this jacket? whose is it? |  |
+| dialogue-medium-10.mp3 | Lily | I think it's Laura's. She's the girl whose dad is the bus driver. |  |
+| dialogue-medium-11.mp3 | Ms. Grace | Great. Now, whose turn is it to sit in the front on the way back? |  |
+| dialogue-medium-12.mp3 | Ben and Tom | Mine! |  |
+| dialogue-medium-13.mp3 | Ms. Grace | Hmm. who's going to decide? Me! |  |
+
+## whose › dialogue-hard  (0/14)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Ricardo | Excuse me, I think I lost my wallet. Has anyone found one? |  |
+| dialogue-hard-2.mp3 | Receptionist | Let me check. Can you describe it? whose name is on the cards? |  |
+| dialogue-hard-3.mp3 | Ricardo | mine: Ricardo Alves. It's brown leather. |  |
+| dialogue-hard-4.mp3 | Receptionist | Here's a brown wallet. Is this yours? |  |
+| dialogue-hard-5.mp3 | Ricardo | Yes! Thank God. who's the person who found it? |  |
+| dialogue-hard-6.mp3 | Receptionist | A woman whose husband works here. |  |
+| dialogue-hard-7.mp3 | Ricardo | I'd love to thank them. who should I talk to? |  |
+| dialogue-hard-8.mp3 | Receptionist | Her husband, Mr. Lee. He's our chef. he's been working here for twenty years. |  |
+| dialogue-hard-9.mp3 | Ricardo | Wonderful. Oh, and there's a letter in the wallet that isn't mine. whose handwriting is this? |  |
+| dialogue-hard-10.mp3 | Receptionist | Let me see… "To whom it may concern." Ah, that's the welcome letter from our manager. We put one in every room. |  |
+| dialogue-hard-11.mp3 | Ricardo | Oh, right. Sorry! |  |
+| dialogue-hard-12.mp3 | Receptionist | No problem. By the way, who are you traveling with? |  |
+| dialogue-hard-13.mp3 | Ricardo | My wife. she's the woman at the bar, the one whose dress is blue. |  |
+| dialogue-hard-14.mp3 | Receptionist | Then please give her this coupon for a free dessert. |  |
