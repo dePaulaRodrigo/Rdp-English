@@ -2600,5 +2600,50 @@ const CATALOG = [
     "n": 10
    }
   ]
+ },
+ {
+  "id": "passive-voice",
+  "title": "The Passive Voice",
+  "area": "Inglês Cotidiano",
+  "icon": "🏗️",
+  "color": "#ebeef2",
+  "level": "B1",
+  "part": 12,
+  "order": 60,
+  "tags": [
+   "passive voice",
+   "was built",
+   "is made",
+   "has been",
+   "by vs with",
+   "I was given",
+   "happened (no passive)",
+   "it is said that",
+   "inventions and buildings"
+  ],
+  "v": "813747c3",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
  }
 ];

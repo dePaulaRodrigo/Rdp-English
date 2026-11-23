@@ -1200,6 +1200,41 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## passive-voice › dialogue-medium  (0/13)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Paula | On your left is the Royal Portuguese Reading Room. It was opened in 1887. (open) |  |
+| dialogue-medium-2.mp3 | Mark | It's beautiful! Who designed it? |  |
+| dialogue-medium-3.mp3 | Paula | It was designed by the Portuguese architect Rafael da Silva e Castro. (design) |  |
+| dialogue-medium-4.mp3 | Mark | What's inside? |  |
+| dialogue-medium-5.mp3 | Paula | Thousands of rare books are kept there. (keep) |  |
+| dialogue-medium-6.mp3 | Mark | Impressive. Can we go inside? |  |
+| dialogue-medium-7.mp3 | Paula | Not today. It is being renovated right now. (renovate) |  |
+| dialogue-medium-8.mp3 | Mark | Too bad. What about Sugarloaf Mountain? |  |
+| dialogue-medium-9.mp3 | Paula | We'll go there later. The first cable car was built more than a hundred years ago. (build) |  |
+| dialogue-medium-10.mp3 | Mark | Wow. That's old! Is it safe? |  |
+| dialogue-medium-11.mp3 | Paula | Don't worry. The cars have been replaced many times since then. (replace) |  |
+| dialogue-medium-12.mp3 | Mark | Good to know! And where will we have lunch? |  |
+| dialogue-medium-13.mp3 | Paula | Lunch will be served at a churrascaria. (serve) You'll love it. |  |
+
+## passive-voice › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Davi | Mom, what's that old machine? |  |
+| dialogue-hard-2.mp3 | Sônia | It's a printing press. The first one was invented by Gutenberg, around 1440. |  |
+| dialogue-hard-3.mp3 | Davi | Before that, how were books made? |  |
+| dialogue-hard-4.mp3 | Sônia | They were copied by hand. It took months! |  |
+| dialogue-hard-5.mp3 | Davi | And this? A telephone? |  |
+| dialogue-hard-6.mp3 | Sônia | Yes. The telephone was patented in 1876. |  |
+| dialogue-hard-7.mp3 | Davi | What happened to the old telephones? |  |
+| dialogue-hard-8.mp3 | Sônia | Most of them were thrown away. Only a few are kept in museums like this one. |  |
+| dialogue-hard-9.mp3 | Davi | Look, a computer! Who made it? |  |
+| dialogue-hard-10.mp3 | Sônia | That one was made in the 1970s. It's very slow. |  |
+| dialogue-hard-11.mp3 | Davi | Can I touch it? |  |
+| dialogue-hard-12.mp3 | Sônia | No. You're not allowed to touch anything here, honey. |  |
+
 ## past-continuous › dialogue-medium  (0/16)
 
 | Arquivo | Voz | Texto | Feito |
