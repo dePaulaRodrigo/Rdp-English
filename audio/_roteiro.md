@@ -183,6 +183,40 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | listen-easy-9.mp3 |  | The party is on July fourth. |  |
 | listen-easy-10.mp3 |  | Twenty minus twelve equals eight. |  |
 
+## pronouns › dialogue-medium  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ben | Is this your family, Clara? |  |
+| dialogue-medium-2.mp3 | Clara | Yes! This is my mother, and that's her husband, my stepfather. |  |
+| dialogue-medium-3.mp3 | Ben | they look very happy together. |  |
+| dialogue-medium-4.mp3 | Clara | They are. They got married in 2015. And this little girl is their daughter. |  |
+| dialogue-medium-5.mp3 | Ben | So she's your half-sister! What's her name? |  |
+| dialogue-medium-6.mp3 | Clara | Sofia. she's nine. She calls me every night before bed. |  |
+| dialogue-medium-7.mp3 | Ben | That's sweet. And who's the man with the dog? |  |
+| dialogue-medium-8.mp3 | Clara | That's my uncle Raul with his dog, Thor. he's fourteen, but he still runs like a puppy. |  |
+| dialogue-medium-9.mp3 | Ben | Fourteen! And where is this? |  |
+| dialogue-medium-10.mp3 | Clara | At my grandparents' farm. we spend every Christmas there, the whole family. |  |
+| dialogue-medium-11.mp3 | Ben | It looks beautiful. Can you send the photos to me? |  |
+| dialogue-medium-12.mp3 | Clara | Sure. I'll send them to you tonight. |  |
+
+## pronouns › dialogue-hard  (0/12)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Emma | Welcome back! How was the visit to your parents? |  |
+| dialogue-hard-2.mp3 | Davi | Great, but it was so hot! Thirty-eight degrees every day. |  |
+| dialogue-hard-3.mp3 | Emma | Wow. And your grandpa? Is he better? |  |
+| dialogue-hard-4.mp3 | Davi | Yes. He broke his arm in March, but he's fine now. |  |
+| dialogue-hard-5.mp3 | Emma | I'm so glad. Did your mom like the scarf I sent? |  |
+| dialogue-hard-6.mp3 | Davi | She loved it! She wears it every day. And she made a cake for you. I'll give it to you after dinner. |  |
+| dialogue-hard-7.mp3 | Emma | That's so kind! Please tell her I said thank you. |  |
+| dialogue-hard-8.mp3 | Davi | I will. My cousins asked about you too. they want to meet you. |  |
+| dialogue-hard-9.mp3 | Emma | Me too! Is their house near your parents' place? |  |
+| dialogue-hard-10.mp3 | Davi | Yes, it's only two blocks away. Next year, we can stay there for a week. |  |
+| dialogue-hard-11.mp3 | Emma | I'd love that. But between you and me, I'm a little nervous about meeting everyone. |  |
+| dialogue-hard-12.mp3 | Davi | Don't worry. they're going to love you. |  |
+
 ## there-be-have › dialogue  (0/27)
 
 | Arquivo | Voz | Texto | Feito |

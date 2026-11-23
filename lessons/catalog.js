@@ -175,6 +175,49 @@ const CATALOG = [
   ]
  },
  {
+  "id": "pronouns",
+  "title": "Personal Pronouns and Possessives",
+  "area": "Inglês Cotidiano",
+  "icon": "👨‍👩‍👧",
+  "color": "#fbe9ec",
+  "level": "A1",
+  "part": 1,
+  "order": 6,
+  "tags": [
+   "pronouns",
+   "subject",
+   "object",
+   "possessive adjectives",
+   "its",
+   "it's",
+   "family"
+  ],
+  "v": "030ad75e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 16
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 16
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 13
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 14
+   }
+  ]
+ },
+ {
   "id": "there-be-have",
   "title": "There Be vs. Have",
   "area": "medicina",
