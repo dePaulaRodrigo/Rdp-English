@@ -1797,6 +1797,37 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Carlos | Wow. And where did you use to live back then? Near the park? |  |
 | dialogue-hard-12.mp3 | Paula | Yes, on Rua das Flores. My parents still live there. |  |
 
+## verb-patterns › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Rosa | Now that I'm retired, I want to learn something new. (learn) |  |
+| dialogue-medium-2.mp3 | Lia | That's great, Grandma! What do you enjoy doing? (do) |  |
+| dialogue-medium-3.mp3 | Rosa | I love baking, but I already know how to bake. (bake) |  |
+| dialogue-medium-4.mp3 | Lia | What about painting? You could take a class. (take) |  |
+| dialogue-medium-5.mp3 | Rosa | Hmm. I'd like to try that. But I can't draw! (try) |  |
+| dialogue-medium-6.mp3 | Lia | Nobody can at first. You just need to practice. (practice) |  |
+| dialogue-medium-7.mp3 | Rosa | OK. Do you mind helping me find a class online? (help) |  |
+| dialogue-medium-8.mp3 | Lia | Not at all! Let me get my laptop. (get) |  |
+| dialogue-medium-9.mp3 | Rosa | And I'll stop watching so much TV. (watch) |  |
+| dialogue-medium-10.mp3 | Lia | Deal! I promise to visit you every week. (visit) |  |
+
+## verb-patterns › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Isa | So, how's the chess club? |  |
+| dialogue-hard-2.mp3 | Hugo | I love it! I'm learning to think like a real player. |  |
+| dialogue-hard-3.mp3 | Isa | Weren't you thinking of quitting? |  |
+| dialogue-hard-4.mp3 | Hugo | Yes, but I decided not to give up. I keep practicing every night. |  |
+| dialogue-hard-5.mp3 | Isa | Wow. Do you play online too? |  |
+| dialogue-hard-6.mp3 | Hugo | Yes. I avoid playing against computers, though. They always win! |  |
+| dialogue-hard-7.mp3 | Isa | Ha! I'd love to learn how to play. |  |
+| dialogue-hard-8.mp3 | Hugo | Really? I can teach you. It's easier than it looks. |  |
+| dialogue-hard-9.mp3 | Isa | OK, but I refuse to study for hours like you. |  |
+| dialogue-hard-10.mp3 | Hugo | Fair enough. I suggest starting with fifteen minutes a day. |  |
+| dialogue-hard-11.mp3 | Isa | Deal. And I promise not to cry if I lose! |  |
+
 ## whose › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |

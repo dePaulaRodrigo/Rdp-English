@@ -2281,6 +2281,52 @@ const CATALOG = [
   ]
  },
  {
+  "id": "verb-patterns",
+  "title": "Verb Patterns: To or -ING?",
+  "area": "Inglês Cotidiano",
+  "icon": "🎨",
+  "color": "#f1e9f4",
+  "level": "A2",
+  "part": 11,
+  "order": 53,
+  "tags": [
+   "verb patterns",
+   "want to",
+   "enjoy -ing",
+   "like to / like -ing",
+   "would like to",
+   "let",
+   "make",
+   "decided not to",
+   "to = para",
+   "hobbies"
+  ],
+  "v": "030822c7",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 9
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",
