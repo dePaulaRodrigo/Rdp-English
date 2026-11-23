@@ -1280,6 +1280,50 @@ const CATALOG = [
   ]
  },
  {
+  "id": "can",
+  "title": "Can",
+  "area": "Inglês Cotidiano",
+  "icon": "🏊",
+  "color": "#e4f3f1",
+  "level": "A1",
+  "part": 7,
+  "order": 31,
+  "tags": [
+   "can",
+   "can't",
+   "ability",
+   "permission",
+   "requests",
+   "can see",
+   "skills",
+   "hobbies"
+  ],
+  "v": "212b828c",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 10
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
   "id": "phrasal-verbs",
   "title": "Phrasal Verbs — Particles",
   "area": "Inglês Cotidiano",

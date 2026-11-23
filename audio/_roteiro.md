@@ -77,6 +77,38 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Rafael | I used to be very shy about speaking English, but now I talk to everyone. |  |
 | dialogue-hard-12.mp3 | Mr. Hart | That's the spirit! |  |
 
+## can › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Paula | Marcos, the school needs parents for the talent show. What can you do? |  |
+| dialogue-medium-2.mp3 | Marcos | Well, I can play the guitar. |  |
+| dialogue-medium-3.mp3 | Paula | Great! can you sing too? |  |
+| dialogue-medium-4.mp3 | Marcos | No, I can't. My voice is terrible! |  |
+| dialogue-medium-5.mp3 | Paula | Ha! My husband can sing, but he's very shy. |  |
+| dialogue-medium-6.mp3 | Marcos | And you? What can you do? |  |
+| dialogue-medium-7.mp3 | Paula | I can juggle. Three balls, sometimes four. |  |
+| dialogue-medium-8.mp3 | Marcos | Wow! can you teach me? |  |
+| dialogue-medium-9.mp3 | Paula | Sure, I can. It's easy. |  |
+| dialogue-medium-10.mp3 | Marcos | I can't wait for the show! |  |
+| dialogue-medium-11.mp3 | Paula | Me neither. Oh, listen! Can you hear the kids? They're practicing their song. |  |
+
+## can › dialogue-hard  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Sônia | Welcome, Júlia! First question: can you speak English and Spanish? |  |
+| dialogue-hard-2.mp3 | Júlia | Yes, I can. And I can speak some French too. |  |
+| dialogue-hard-3.mp3 | Sônia | Great. Our clients can book trips online, but many prefer to call. |  |
+| dialogue-hard-4.mp3 | Júlia | can I use this computer? |  |
+| dialogue-hard-5.mp3 | Sônia | Yes, of course. But you can't install any programs. IT rules. |  |
+| dialogue-hard-6.mp3 | Júlia | OK. Oh, I can hear music. Where's it coming from? |  |
+| dialogue-hard-7.mp3 | Sônia | The office next door. They're always playing samba! I can't stand it sometimes. |  |
+| dialogue-hard-8.mp3 | Júlia | Ha! I can't help smiling. It's a happy sound. |  |
+| dialogue-hard-9.mp3 | Sônia | True. Now, can you help me with the brochures? They're in that box. |  |
+| dialogue-hard-10.mp3 | Júlia | Sure! Wow, from this window I can see the ocean! |  |
+| dialogue-hard-11.mp3 | Sônia | Lucky you. Your desk is right here. |  |
+
 ## capital-letters › dialogue-medium  (0/14)
 
 | Arquivo | Voz | Texto | Feito |
