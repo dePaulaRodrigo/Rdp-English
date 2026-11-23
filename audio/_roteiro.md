@@ -392,6 +392,35 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Bia | Don't remind me! This time we'll take the car to the mechanic first. |  |
 | dialogue-hard-12.mp3 | Júlio | Good idea. I'll log in and book a time now. |  |
 
+## conjunctions › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Vera | So? Was the book better? |  |
+| dialogue-medium-2.mp3 | Igor | Of course! The movie was good, but the book is a masterpiece. |  |
+| dialogue-medium-3.mp3 | Vera | I agree. Despite the great cast, the movie felt rushed. |  |
+| dialogue-medium-4.mp3 | Igor | Exactly. Although the book has 600 pages, the movie is only two hours. |  |
+| dialogue-medium-5.mp3 | Vera | They cut a lot. However, I liked the ending. |  |
+| dialogue-medium-6.mp3 | Igor | Me too. It was different, though. |  |
+| dialogue-medium-7.mp3 | Vera | Really different! In the book, the hero dies, whereas in the movie he survives. |  |
+| dialogue-medium-8.mp3 | Igor | Hollywood loves happy endings. |  |
+| dialogue-medium-9.mp3 | Vera | Ha! Even if they make a sequel, I'll watch it. |  |
+| dialogue-medium-10.mp3 | Igor | Me too. And I'll complain about it, as always. |  |
+
+## conjunctions › dialogue-hard  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Helena | So, did Capitu betray Bentinho or not? |  |
+| dialogue-hard-2.mp3 | Rui | She did. Although the book never says it directly, the clues are clear. |  |
+| dialogue-hard-3.mp3 | Sara | I disagree. Bentinho is the narrator. Therefore, we only know his side. |  |
+| dialogue-hard-4.mp3 | Rui | True. On the other hand, the resemblance between the boy and Escobar is strong. |  |
+| dialogue-hard-5.mp3 | Sara | Despite that, it proves nothing. Bentinho is jealous from the start. |  |
+| dialogue-hard-6.mp3 | Helena | Good points. The book is short, yet it raises big questions. |  |
+| dialogue-hard-7.mp3 | Rui | Despite being from 1899, it feels very modern. |  |
+| dialogue-hard-8.mp3 | Sara | Agreed. Not only does it play with the reader, but it also makes us doubt ourselves. |  |
+| dialogue-hard-9.mp3 | Helena | Even though we never agree, this is my favorite book to discuss! |  |
+
 ## could › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |

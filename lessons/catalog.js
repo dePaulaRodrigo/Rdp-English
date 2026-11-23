@@ -3005,5 +3005,54 @@ const CATALOG = [
     "n": 8
    }
   ]
+ },
+ {
+  "id": "conjunctions",
+  "title": "Linking Words: Contrast and Addition",
+  "area": "Inglês Cotidiano",
+  "icon": "🎞️",
+  "color": "#f3ece2",
+  "level": "B2",
+  "part": 14,
+  "order": 69,
+  "tags": [
+   "but",
+   "however",
+   "though",
+   "although",
+   "even though",
+   "even if",
+   "despite",
+   "in spite of",
+   "whereas",
+   "nevertheless",
+   "moreover",
+   "not only but also",
+   "opinions about books and movies"
+  ],
+  "v": "9443a176",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 14
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 14
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
  }
 ];
