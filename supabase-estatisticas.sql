@@ -30,16 +30,17 @@ alter table public.stats_daily enable row level security;
 revoke all on table public.stats_daily from anon, authenticated;
 
 create or replace function public._country() returns text
-language plpgsql stable as $$
+language plpgsql stable set search_path = public as $$
 declare h json;
 begin
   begin h := nullif(current_setting('request.headers', true), '')::json; exception when others then h := null; end;
   return coalesce(nullif(upper(left(h->>'cf-ipcountry', 2)), ''), '??');
 end $$;
 
--- Texto curto e só com caracteres comuns (o resto é descartado).
+-- Texto curto e só com caracteres comuns (o resto é descartado). Sem < > " ; nem quebras de linha.
+-- Respostas digitadas pelos alunos (detail de 'answer') ficam com no máximo 40 caracteres.
 create or replace function public._st(v text, maxlen int) returns text
-language sql immutable as $$
+language sql immutable set search_path = public as $$
   select left(regexp_replace(coalesce(v, ''), '[^[:alnum:] .,/$%½¼¾°''’:()-]', '', 'g'), maxlen)
 $$;
 
@@ -74,7 +75,7 @@ begin
     v_total := case when (e->>'s') ~ '^[0-9]{1,3}$' then least((e->>'s')::int, 100) else 0 end;
     v_secs  := case when (e->>'t') ~ '^[0-9]{1,4}$' then least((e->>'t')::int, 3600) else 0 end;
     insert into stats_daily as d (kind, lesson, exercise, item, detail, ok, lang, country, device, n, total, secs)
-    values (v_kind, _st(e->>'l', 40), _st(e->>'x', 40), v_item, _st(e->>'d', 80), v_ok,
+    values (v_kind, _st(e->>'l', 40), _st(e->>'x', 40), v_item, _st(e->>'d', case when v_kind = 'answer' then 40 else 80 end), v_ok,
             _st(e->>'g', 5), v_country, _st(e->>'v', 10), 1, v_total, v_secs)
     on conflict (day, kind, lesson, exercise, item, detail, ok, lang, country, device)
     do update set n = d.n + 1, total = d.total + excluded.total, secs = d.secs + excluded.secs;

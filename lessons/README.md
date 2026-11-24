@@ -46,6 +46,16 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
   - `sub` (opcional): `{1:"subponto"}`
   - `caseSensitive:true` (opcional): maiúsculas e minúsculas contam na correção (ex.: lição de Capital Letters).
 
+- **Resposta digitada** (`type:"gap"`, `input:"type"`): o aluno digita a resposta, sem banco de opções. Base para os formatos de exame (Cambridge etc.).
+  - `answers:{1:["resposta principal","outra forma aceita"]}`: liste todas as formas aceitas (ex.: com e sem contração). Não usa `bank` nem `opts`.
+  - A correção ignora maiúsculas (salvo `caseSensitive`), espaços extras, aspas curvas e pontuação final.
+  - `hint` (opcional): `{1:"CONSTRUCT"}`, pista mostrada ao lado da lacuna (ex.: palavra-base na formação de palavras).
+  - Layouts: `list` (frases numeradas), `dialogue`, `text` (texto corrido, sem numeração; ex.: open cloze) e
+    `transform` (reescrita com palavra-chave): `lines:[{src:"frase original", key:"PALAVRA", text:"frase nova com [[1]]"}]`.
+  - Segurança: a resposta entra no campo pela propriedade `value` (nunca como HTML) e é sempre exibida com escape;
+    corretor ortográfico e sugestões do teclado ficam desligados (entregariam a resposta); máximo de 120 caracteres.
+    Nas estatísticas, a resposta digitada vai só com letras sem acento, espaço, apóstrofo e hífen, até 40 caracteres.
+
 `sub` marca o subponto gramatical testado em cada item. Assim a versão ESP do mesmo tópico pode cobrir os mesmos subpontos.
 
 **Não mude o `id` de uma lição ou de um exercício depois de publicado**: o progresso dos alunos fica guardado por esses ids.

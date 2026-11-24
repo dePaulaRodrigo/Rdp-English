@@ -60,7 +60,22 @@ for (const f of files) {
       });
       if (!ex.items || !ex.items.length) err(where, "sem itens");
     } else if (ex.type === "gap") {
-      const text = ex.layout === "dialogue" ? (ex.lines || []).map(l => l[1]).join(" ") : (ex.lines || []).join(" ");
+      const LAYOUTS = ["dialogue", "list", "text", "transform"];
+      if (ex.layout !== undefined && !LAYOUTS.includes(ex.layout)) err(where, `layout desconhecido "${ex.layout}"`);
+      if (ex.layout === "transform") (ex.lines || []).forEach((it, i) => {
+        if (!it || typeof it !== "object" || !it.src || !it.key || !it.text) err(where, `linha ${i + 1}: transform precisa de src, key e text`);
+      });
+      const lineText = l => ex.layout === "dialogue" ? (l || [])[1] : ex.layout === "transform" ? (l || {}).text : l;
+      const text = (ex.lines || []).map(lineText).join(" ");
+      if (ex.input !== undefined && ex.input !== "type") err(where, `input desconhecido "${ex.input}" (só "type")`);
+      if (ex.input === "type") {
+        if (ex.bank || ex.opts) err(where, "resposta digitada (input:\"type\") não usa bank nem opts");
+        Object.entries(ex.answers || {}).forEach(([k, a]) => {
+          if (!Array.isArray(a) || !a.length || a.some(x => typeof x !== "string" || !x.trim())) err(where, `lacuna ${k}: answers precisa de uma lista de respostas aceitas`);
+          else if (a.some(x => x.length > 120)) err(where, `lacuna ${k}: resposta com mais de 120 caracteres`);
+        });
+      }
+      if (ex.hint) Object.keys(ex.hint).forEach(k => { if (!(ex.answers || {})[k]) err(where, `hint ${k} sem lacuna`); });
       const blanks = [...text.matchAll(/\[\[(\d+)\]\]/g)].map(m => m[1]);
       const keys = Object.keys(ex.answers || {});
       if (new Set(blanks).size !== blanks.length) err(where, "lacuna com número repetido");

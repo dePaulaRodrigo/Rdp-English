@@ -11,7 +11,7 @@
 
 -- ---------- Limites ----------
 create or replace function public._limit(p_name text) returns int
-language sql immutable as $$
+language sql immutable set search_path = public as $$
   select case p_name
     when 'create_per_ip_hour'  then 10    -- códigos novos por endereço, por hora
     when 'create_per_day'      then 100   -- códigos novos no total, por dia
@@ -55,7 +55,7 @@ end $$;
 
 -- Quantos eventos deste tipo houve neste intervalo (deste endereço, ou de todos se p_ip for nulo).
 create or replace function public._count(p_kind text, p_ip text, p_window interval) returns int
-language sql stable as $$
+language sql stable set search_path = public as $$
   select count(*)::int from public.rate_events
   where kind = p_kind and at > now() - p_window and (p_ip is null or ip = p_ip)
 $$;
@@ -76,7 +76,7 @@ end $$;
 
 -- Tamanho total ocupado pelas duas tabelas, em bytes.
 create or replace function public._storage_bytes() returns bigint
-language sql stable as $$
+language sql stable set search_path = public as $$
   select pg_total_relation_size('public.sessions') + pg_total_relation_size('public.rate_events')
 $$;
 

@@ -113,6 +113,17 @@ input.code:focus{outline:2px solid var(--focus);border-color:transparent}
 .blank.no .v{color:var(--bad);border-color:var(--bad);text-decoration:line-through}
 .blank.rev .v{color:var(--ok);border-color:var(--ok);border-bottom-style:dashed;font-style:italic}
 .revealbar{display:flex;justify-content:flex-end;margin-top:10px}
+/* resposta digitada */
+.blank.typed{cursor:text}
+.tin{font:inherit;font-size:16px;font-weight:600;color:var(--ink);background:var(--field);border:0;border-bottom:2px solid var(--optline);border-radius:5px 5px 0 0;padding:1px 6px;min-width:6ch;max-width:100%}
+.tin:focus{outline:none;border-color:var(--sel);background:var(--sel-soft)}
+.hint{font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--muted);margin-left:4px}
+.lines.text p{margin:0 0 12px;line-height:2}
+.tf{padding:10px 0 12px;border-top:1px solid var(--line)}
+.tf:first-child{border-top:0;padding-top:0}
+.tf .src{margin:0 0 6px}
+.tf .key{margin:0 0 6px;font-weight:600;letter-spacing:.06em}
+.tf .tgt{margin:0;line-height:2}
 .blank:disabled{cursor:default}
 .center{text-align:center;margin-top:22px}
 .score{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;background:var(--sel-soft);border-radius:12px;padding:14px 16px;margin-top:20px}
@@ -519,7 +530,13 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 const norm = s => String(s||"").toLowerCase().replace(/[’‘]/g,"'").replace(/\s+/g," ").trim();
 const normC = s => String(s||"").replace(/[’‘]/g,"'").replace(/\s+/g," ").trim();
 /* Compara respostas; em exercícios com caseSensitive, maiúsculas e minúsculas contam. */
-const same = (ex,a,b) => ex.caseSensitive ? normC(a)===normC(b) : norm(a)===norm(b);
+/* Respostas digitadas: aspas curvas, espaços e pontuação final não contam. */
+const normT = s => String(s||"").replace(/[“”]/g,'"').replace(/\s+([,.!?;:])/g,"$1").replace(/[.!?;:,]+$/,"");
+const same = (ex,a,b) => { if(ex.input==="type"){ a=normT(a); b=normT(b); } return ex.caseSensitive ? normC(a)===normC(b) : norm(a)===norm(b); };
+/* Texto digitado que vai para as estatísticas: só letras sem acento, espaço, apóstrofo e hífen, no máximo 40 caracteres.
+   Assim nada que o aluno digitar (e-mail, telefone, código, comandos) é registrado como foi escrito. */
+const statText = v => norm(v).replace(/[^a-z' -]/g,"").replace(/\s+/g," ").trim().slice(0,40);
+const TYPED_MAX = 120;
 const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
 /* Texto bilíngue: aceita "texto" ou {pt:"...", en:"..."}. */
 /* "Correto." acompanha o idioma das explicações, não o da interface. */
@@ -643,7 +660,7 @@ function renderPrivacy(){
     <ul>
       <li><b>O seu progresso</b>, ligado ao seu código de quatro palavras. O servidor recebe só uma versão embaralhada do código (um <i>hash</i>), nunca o código em si.</li>
       <li><b>No seu aparelho</b>, uma cópia do progresso e, enquanto a sessão estiver aberta, o código. Ao tocar em Sair, os dois são apagados do aparelho; o progresso continua guardado no servidor.</li>
-      <li><b>Estatísticas anônimas de uso</b>: contadores por dia de lições abertas, respostas certas e erradas, idioma das explicações, país e tipo de aparelho. Elas não guardam o código, o endereço de internet nem nada que identifique você. Com o código de professor, nada é contado.</li>
+      <li><b>Estatísticas anônimas de uso</b>: contadores por dia de lições abertas, respostas certas e erradas, idioma das explicações, país e tipo de aparelho. Elas não guardam o código, o endereço de internet nem nada que identifique você. Com o código de professor, nada é contado. Nos exercícios em que se digita a resposta, as estatísticas guardam só uma versão curta dela (até 40 caracteres, apenas letras, sem números nem símbolos). Não digite dados pessoais nos exercícios.</li>
       <li><b>Proteção contra abuso</b>: para limitar tentativas de adivinhar códigos, o site usa uma impressão do seu endereço de internet, misturada com um segredo que muda todos os dias. O endereço em si não é guardado, e as impressões são apagadas em até um dia.</li>
     </ul>
     <h2>Onde os dados ficam</h2>
@@ -990,6 +1007,9 @@ function renderGap(l, ex){
   const p = progEx(l, ex);
   const box = $("#exBody");
   const reveal = p.checked && S.reveal === l.id+"/"+ex.id;
+  const typed = ex.input==="type";
+  /* Pista ao lado da lacuna (ex.: palavra-base na formação de palavras). */
+  const hintHTML = n => ex.hint && ex.hint[n] ? `<span class="hint">(${esc(ex.hint[n])})</span>` : "";
   const blankHTML = (n, before) => {
     const v = p.answers[n]; const accepted = ex.answers[n];
     let cls="blank", inner;
@@ -999,11 +1019,15 @@ function renderGap(l, ex){
       if(ok){ cls += " ok"; inner = `<span class="v">${esc(capIfStart(before, v))}</span>`; }
       else if(reveal){ cls += " rev"; inner = `<span class="v">${esc(capIfStart(before, accepted[0]))}</span>`; }
       else { cls += " no"; inner = v ? `<span class="v">${esc(capIfStart(before,v))}</span>` : `<span class="v" style="text-decoration:none">&nbsp;</span>`; }
+    } else if(typed){
+      /* O valor entra depois, pela propriedade value (nunca como HTML). Corretor e sugestões desligados: entregariam a resposta. */
+      const w = Math.min(40, Math.max(6, ...accepted.map(a=>a.length)) + 2);
+      return `<span class="blank typed"><span class="n">${n}</span><input class="tin" data-n="${n}" type="text" lang="en" maxlength="${TYPED_MAX}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="next" style="width:${w}ch" aria-label="${esc(t("blank",{n}))}"></span>${hintHTML(n)}`;
     } else {
       if(S.activeBlank===n) cls+=" active";
       inner = `<span class="v">${v?esc(capIfStart(before,v)):"&nbsp;"}</span>`;
     }
-    return `<button class="${cls}" data-n="${n}" aria-label="${esc(t("blank",{n})+(v?": "+v:""))}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>`;
+    return `<button class="${cls}" data-n="${n}" aria-label="${esc(t("blank",{n})+(v?": "+v:""))}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>${hintHTML(n)}`;
   };
   const fill = text => {
     const parts = text.split(/\[\[(\d+)\]\]/); let out="", before="";
@@ -1018,12 +1042,18 @@ function renderGap(l, ex){
     html += `<div class="lines" lang="en">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
       ? `<p class="au">${playBtn(i+1)}<span><span class="sp">${esc(sp)}:</span> ${fill(line)}</span></p>`
       : `<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
+  } else if(ex.layout==="text"){
+    /* Texto corrido, sem numeração (ex.: open cloze). */
+    html += `<div class="lines text" lang="en">${ex.lines.map(line=>`<p>${fill(line)}</p>`).join("")}</div>`;
+  } else if(ex.layout==="transform"){
+    /* Reescrita com palavra-chave: frase original, palavra-chave e frase nova com a lacuna. */
+    html += `<div class="lines" lang="en">${ex.lines.map((it,i)=>`<div class="tf"><p class="src"><span class="num muted">${i+1}.</span> ${esc(it.src)}</p><p class="key">${esc(it.key)}</p><p class="tgt">${fill(it.text)}</p></div>`).join("")}</div>`;
   } else {
     html += `<div class="lines list" lang="en">${ex.lines.map((line,i)=>`<p><span class="num">${i+1}.</span><span>${fill(line)}</span></p>`).join("")}</div>`;
   }
   const total = Object.keys(ex.answers).length, filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
   if(!p.checked){
-    html += `<div class="center"><p class="small muted">${t("filled",{n:filled,total})}</p><button class="btn" id="check" ${filled===0?"disabled":""}>${t("check")}</button></div>`;
+    html += `<div class="center"><p class="small muted" id="filledMsg">${t("filled",{n:filled,total})}</p><button class="btn" id="check" ${filled===0?"disabled":""}>${t("check")}</button></div>`;
   } else {
     const [c,tot] = exScore(ex,p);
     recordBest(p, c, tot);
@@ -1036,17 +1066,45 @@ function renderGap(l, ex){
     }).join("")}</div>`;
   }
   box.innerHTML = html;
-  box.querySelectorAll(".blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
+  box.querySelectorAll("button.blank").forEach(b=> b.onclick=()=> openSheet(l, ex, +b.dataset.n));
+  if(typed && !p.checked) wireTyped(box, ex, p, total);
   const rv=$("#reveal"); if(rv) rv.onclick=()=>{ if(!reveal) track("reveal",{l:l.id, x:ex.id}); S.reveal = reveal ? null : l.id+"/"+ex.id; const y=window.scrollY; renderLesson(); window.scrollTo(0,y); };
   wirePlay(box, l, ex);
   const ck=$("#check"); if(ck) ck.onclick=()=>{
+    /* Contagem refeita na hora: nas respostas digitadas, o aluno preenche sem redesenhar a tela. */
+    const filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
     if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
-    Object.keys(ex.answers).forEach(k=>{ const v=p.answers[k]; track("answer", {l:l.id, x:ex.id, i:+k, ok: accepts(ex, ex.answers[k], v) ? 1 : 2, d: v||""}); });
+    Object.keys(ex.answers).forEach(k=>{ const v=p.answers[k]; track("answer", {l:l.id, x:ex.id, i:+k, ok: accepts(ex, ex.answers[k], v) ? 1 : 2, d: typed ? statText(v) : (v||"")}); });
     trackDone(l, ex, p);
     p.checked=true; persist(p); closeSheet(); renderLesson();
     const s=document.querySelector(".score"); if(s) s.scrollIntoView({behavior:"smooth",block:"center"});
   };
   wireReset(p);
+}
+
+/* ---------- Resposta digitada ----------
+   Cada tecla guarda a resposta (sem redesenhar a tela, para não perder o foco). Enter vai para a próxima lacuna. */
+function wireTyped(box, ex, p, total){
+  const ins = [...box.querySelectorAll("input.tin")];
+  const msg = $("#filledMsg"), ck = $("#check");
+  const count = () => Object.keys(ex.answers).filter(k=>p.answers[k]).length;
+  ins.forEach((inp,i)=>{
+    const n = inp.dataset.n;
+    inp.value = typeof p.answers[n]==="string" ? p.answers[n] : "";
+    inp.oninput = () => {
+      const v = inp.value.slice(0, TYPED_MAX);
+      if(v.trim()) p.answers[n] = v; else delete p.answers[n];
+      persist(p);
+      const f = count();
+      if(msg) msg.textContent = t("filled",{n:f,total});
+      if(ck) ck.disabled = f===0;
+    };
+    inp.onkeydown = e => {
+      if(e.key!=="Enter") return;
+      e.preventDefault();
+      const next = ins[i+1]; if(next) next.focus(); else inp.blur();
+    };
+  });
 }
 
 /* ---------- Apagar progresso do exercício ---------- */
