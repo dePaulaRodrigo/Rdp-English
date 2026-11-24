@@ -30,7 +30,7 @@ pt:`
       <li><b>wish + alguém + algo</b> = desejar: I wish you a Merry Christmas.<br>We wish you luck.</li>
     </ul>
     <h3>Arrependimento com SHOULD HAVE</h3>
-    <p>I should have listened.<br>I shouldn't have done that. (veja o capítulo 36)</p>
+    <p>I should have listened.<br>I shouldn't have done that. (lição Modals + Present Perfect, B2)</p>
     <h3>Outras estruturas com passado irreal</h3>
     <ul>
       <li><b>I'd rather</b> you <b>didn't</b> smoke here. (preferia que você não fumasse)</li>
@@ -63,7 +63,7 @@ en:`
       <li><b>wish + someone + something</b>: I wish you a Merry Christmas.<br>We wish you luck.</li>
     </ul>
     <h3>Regret with SHOULD HAVE</h3>
-    <p>I should have listened.<br>I shouldn't have done that. (see chapter 36)</p>
+    <p>I should have listened.<br>I shouldn't have done that. (lesson Modals + Present Perfect, B2)</p>
     <h3>Other unreal-past structures</h3>
     <ul>
       <li><b>I'd rather</b> you <b>didn't</b> smoke here.</li>

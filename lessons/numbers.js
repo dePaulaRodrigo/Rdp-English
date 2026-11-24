@@ -6,7 +6,7 @@ addLesson({
   explanation:{
 pt:`
     <h2>Números</h2>
-    <p>Este capítulo segue o padrão do inglês americano.</p>
+    <p>Esta lição segue o padrão do inglês americano.</p>
     <h3>Números cardinais</h3>
     <ul>
       <li>11 eleven<br>12 twelve</li>
@@ -91,7 +91,7 @@ pt:`
     <p>half a kilo → meio quilo<br>a quarter of the pizza → um quarto da pizza</p>`,
 en:`
     <h2>Numbers</h2>
-    <p>This chapter follows American English.</p>
+    <p>This lesson follows American English.</p>
     <h3>Cardinal numbers</h3>
     <ul>
       <li>11 eleven<br>12 twelve</li>

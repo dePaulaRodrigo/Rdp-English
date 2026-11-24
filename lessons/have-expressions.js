@@ -23,7 +23,7 @@ pt:`
     <p>have fun<br>have a good time<br>have a party<br>have a meeting<br>have a baby<br>have an argument<br>Have a nice day!<br>Have a seat.</p>
     <h3>Receber visitas — HAVE SOMEONE OVER</h3>
     <p>I had my friends over last week.<br>Do you like to have people over?</p>
-    <p class="note">Pagar alguém para fazer algo (I had my hair cut) é o causativo, do cap. 58.</p>
+    <p class="note">Pagar alguém para fazer algo (I had my hair cut) é o causativo (lição Causative: Have / Get Something Done, B2).</p>
     <h2>Expressões com TAKE</h2>
     <ul>
       <li><b>Levar alguém a um lugar</b>: take someone to somewhere — Can you take me to the airport?</li>
@@ -51,7 +51,7 @@ en:`
     <p>have fun<br>have a good time<br>have a party<br>have a meeting<br>have a baby<br>have an argument<br>Have a nice day!<br>Have a seat.</p>
     <h3>Guests — HAVE SOMEONE OVER</h3>
     <p>I had my friends over last week.<br>Do you like to have people over?</p>
-    <p class="note">Paying someone to do something (I had my hair cut) is the causative, in chapter 58.</p>
+    <p class="note">Paying someone to do something (I had my hair cut) is the causative (lesson Causative: Have / Get Something Done, B2).</p>
     <h2>Expressions with TAKE</h2>
     <ul>
       <li><b>Taking someone somewhere</b>: take someone to somewhere — Can you take me to the airport?</li>

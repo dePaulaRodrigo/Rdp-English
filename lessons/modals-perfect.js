@@ -35,7 +35,7 @@ pt:`
     </ul>
     <h3>Na fala</h3>
     <p>should've, could've, must've (/ˈʃʊdəv/, /ˈkʊdəv/, /ˈmʌstəv/). Por isso, nativos às vezes escrevem errado <s>should of</s>: o certo é sempre <b>have</b>.</p>
-    <p class="note"><i>Would have</i> (teria) é a terceira condicional e aparece no capítulo 64.</p>`,
+    <p class="note"><i>Would have</i> (teria) é a terceira condicional (lição Third Conditional, B2).</p>`,
 en:`
     <h2>Modal + have + past participle</h2>
     <p>To talk about the past with a modal: <b>modal + have + past participle</b>. <i>Have</i> never changes (<s>should has</s>, <s>should had</s>).</p>
@@ -67,7 +67,7 @@ en:`
     </ul>
     <h3>In speech</h3>
     <p>should've, could've, must've (/ˈʃʊdəv/, /ˈkʊdəv/, /ˈmʌstəv/). That's why native speakers sometimes misspell it as <s>should of</s>: the correct form is always <b>have</b>.</p>
-    <p class="note"><i>Would have</i> is the third conditional, covered in chapter 64.</p>`
+    <p class="note"><i>Would have</i> is the third conditional, (lesson Third Conditional, B2).</p>`
   },
   vocab:{
 pt:`

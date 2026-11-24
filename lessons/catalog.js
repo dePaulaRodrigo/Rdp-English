@@ -61,7 +61,7 @@ const CATALOG = [
    "market",
    "birthdays"
   ],
-  "v": "7e57a33f",
+  "v": "cf481abe",
   "exercises": [
    {
     "id": "mc-easy",
@@ -734,7 +734,7 @@ const CATALOG = [
    "guests",
    "restaurant"
   ],
-  "v": "c0467134",
+  "v": "37ec30bb",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1520,7 +1520,7 @@ const CATALOG = [
    "past deduction",
    "regrets"
   ],
-  "v": "2320cb50",
+  "v": "a4c503b1",
   "exercises": [
    {
     "id": "mc-easy",
@@ -2890,7 +2890,7 @@ const CATALOG = [
    "it's time we left",
    "regret and nostalgia"
   ],
-  "v": "db8359e3",
+  "v": "356f791f",
   "exercises": [
    {
     "id": "mc-easy",
@@ -3264,7 +3264,7 @@ const CATALOG = [
    "here comes",
    "memorable stories"
   ],
-  "v": "d97387e7",
+  "v": "f87f6140",
   "exercises": [
    {
     "id": "mc-easy",

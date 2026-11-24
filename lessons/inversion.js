@@ -166,7 +166,7 @@ en:`
         {q:"Down ___ the rain.", o:["came","did come","comes it"], a:0, sub:"place inversion",
          why:{pt:"Inversão de lugar com substantivo: Down came.", en:"Place inversion with a noun: Down came."}},
         {q:"\"I'm hungry.\" — \"So ___ I.\"", o:["am","do","have"], a:0, sub:"so / neither",
-         why:{pt:"So + auxiliar + sujeito (capítulo 48).", en:"So + auxiliary + subject (chapter 48)."}}
+         why:{pt:"So + auxiliar + sujeito (lição Either, Neither, Both, B1).", en:"So + auxiliary + subject (lesson Either, Neither, Both, B1)."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Eclipse", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. Tap a blank and choose an option."},
