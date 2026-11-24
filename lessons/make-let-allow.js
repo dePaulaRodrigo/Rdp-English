@@ -20,24 +20,24 @@ pt:`
       <li><i>Let</i> não tem passiva. Use <i>be allowed to</i>.</li>
     </ul>
     <h3>MAKE + objeto + adjetivo</h3>
-    <p>This song makes me <b>happy</b>. · Coffee makes me <b>nervous</b>.</p>
+    <p>This song makes me <b>happy</b>.<br>Coffee makes me <b>nervous</b>.</p>
     <h3>LET'S × LET US</h3>
     <ul>
       <li><b>Let's</b> go! = Vamos! (sugestão)</li>
       <li><b>Let us</b> go! = Deixe a gente ir! (permissão)</li>
-      <li>let me know (me avise) · let go (soltar) · let someone down (decepcionar)</li>
+      <li>let me know (me avise)<br>let go (soltar)<br>let someone down (decepcionar)</li>
     </ul>
     <h2>Make × Do</h2>
-    <p>Em geral: <b>make</b> = criar, produzir · <b>do</b> = executar, tarefas. Mas muitas combinações são fixas:</p>
+    <p>Em geral: <b>make</b> = criar, produzir<br><b>do</b> = executar, tarefas. Mas muitas combinações são fixas:</p>
     <table>
       <tr><th>MAKE</th><th>DO</th></tr>
-      <tr><td>make a cake · make dinner</td><td>do the dishes · do the laundry</td></tr>
+      <tr><td>make a cake<br>make dinner</td><td>do the dishes<br>do the laundry</td></tr>
       <tr><td>make a mistake</td><td>do your homework</td></tr>
-      <tr><td>make a decision · a choice</td><td>do exercise</td></tr>
+      <tr><td>make a decision<br>a choice</td><td>do exercise</td></tr>
       <tr><td>make money</td><td>do business</td></tr>
-      <tr><td>make friends · make noise</td><td>do someone a favor</td></tr>
-      <tr><td>make a phone call · plans</td><td>do your best · do a good job</td></tr>
-      <tr><td>make the bed · an effort</td><td>do research · do the cleaning</td></tr>
+      <tr><td>make friends<br>make noise</td><td>do someone a favor</td></tr>
+      <tr><td>make a phone call<br>plans</td><td>do your best<br>do a good job</td></tr>
+      <tr><td>make the bed<br>an effort</td><td>do research<br>do the cleaning</td></tr>
     </table>`,
 en:`
     <h2>Make, let, allow</h2>
@@ -55,24 +55,24 @@ en:`
       <li><i>Let</i> has no passive. Use <i>be allowed to</i>.</li>
     </ul>
     <h3>MAKE + object + adjective</h3>
-    <p>This song makes me <b>happy</b>. · Coffee makes me <b>nervous</b>.</p>
+    <p>This song makes me <b>happy</b>.<br>Coffee makes me <b>nervous</b>.</p>
     <h3>LET'S × LET US</h3>
     <ul>
       <li><b>Let's</b> go! (suggestion)</li>
       <li><b>Let us</b> go! (asking for permission)</li>
-      <li>let me know · let go · let someone down (disappoint)</li>
+      <li>let me know<br>let go<br>let someone down (disappoint)</li>
     </ul>
     <h2>Make × Do</h2>
-    <p>In general: <b>make</b> = create, produce · <b>do</b> = carry out, tasks. But many combinations are fixed:</p>
+    <p>In general: <b>make</b> = create, produce<br><b>do</b> = carry out, tasks. But many combinations are fixed:</p>
     <table>
       <tr><th>MAKE</th><th>DO</th></tr>
-      <tr><td>make a cake · make dinner</td><td>do the dishes · do the laundry</td></tr>
+      <tr><td>make a cake<br>make dinner</td><td>do the dishes<br>do the laundry</td></tr>
       <tr><td>make a mistake</td><td>do your homework</td></tr>
-      <tr><td>make a decision · a choice</td><td>do exercise</td></tr>
+      <tr><td>make a decision<br>a choice</td><td>do exercise</td></tr>
       <tr><td>make money</td><td>do business</td></tr>
-      <tr><td>make friends · make noise</td><td>do someone a favor</td></tr>
-      <tr><td>make a phone call · plans</td><td>do your best · do a good job</td></tr>
-      <tr><td>make the bed · an effort</td><td>do research · do the cleaning</td></tr>
+      <tr><td>make friends<br>make noise</td><td>do someone a favor</td></tr>
+      <tr><td>make a phone call<br>plans</td><td>do your best<br>do a good job</td></tr>
+      <tr><td>make the bed<br>an effort</td><td>do research<br>do the cleaning</td></tr>
     </table>`
   },
   vocab:{
@@ -80,7 +80,7 @@ pt:`
     <h2>Regras na infância e em família</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>strict · lenient</td><td>rígido · permissivo</td></tr>
+      <tr><td>strict<br>lenient</td><td>rígido<br>permissivo</td></tr>
       <tr><td>a curfew</td><td>horário para voltar para casa</td></tr>
       <tr><td>to stay up late</td><td>ficar acordado até tarde</td></tr>
       <tr><td>to be grounded</td><td>ficar de castigo</td></tr>
@@ -98,7 +98,7 @@ en:`
     <h2>Rules in childhood and family</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>strict · lenient</td><td>rígido · permissivo</td></tr>
+      <tr><td>strict<br>lenient</td><td>rígido<br>permissivo</td></tr>
       <tr><td>a curfew</td><td>horário para voltar para casa</td></tr>
       <tr><td>to stay up late</td><td>ficar acordado até tarde</td></tr>
       <tr><td>to be grounded</td><td>ficar de castigo</td></tr>

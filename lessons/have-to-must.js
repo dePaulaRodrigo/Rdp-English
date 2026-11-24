@@ -9,25 +9,25 @@ pt:`
     <h3>HAVE TO = ter que</h3>
     <p>Obrigação que vem de fora: regra, trabalho, situação. É verbo comum, então usa DO/DOES:</p>
     <ul>
-      <li>I have to work on Saturday. · She has to wake up early.</li>
-      <li>Do you have to wear a uniform? · Do I have to pay for the bag?</li>
-      <li>Passado: I had to work late. · Futuro: I'll have to work on Saturday.</li>
+      <li>I have to work on Saturday.<br>She has to wake up early.</li>
+      <li>Do you have to wear a uniform?<br>Do I have to pay for the bag?</li>
+      <li>Passado: I had to work late.<br>Futuro: I'll have to work on Saturday.</li>
     </ul>
     <p class="note">Pronúncia: <i>have to</i> /ˈhæftə/ ("háfta"), <i>has to</i> /ˈhæstə/. Na fala informal: I've got to go → I gotta go.</p>
     <h3>MUST</h3>
     <ul>
-      <li>Obrigação forte, de quem fala, ou regras escritas: I must call my mom tonight. · Passengers must wear seatbelts.</li>
+      <li>Obrigação forte, de quem fala, ou regras escritas: I must call my mom tonight.<br>Passengers must wear seatbelts.</li>
       <li>Recomendação forte: You must try the feijoada here!</li>
       <li>Dedução (outro sentido): She must be tired.</li>
       <li>MUST não tem passado de obrigação: use <i>had to</i>.</li>
     </ul>
     <h3>NEED TO = precisar</h3>
-    <p>I need to sleep. · You don't need to bring anything. · Com substantivo: I need a coffee.</p>
+    <p>I need to sleep.<br>You don't need to bring anything.<br>Com substantivo: I need a coffee.</p>
     <h3>MUSTN'T × DON'T HAVE TO</h3>
     <table>
       <tr><th>Negativa</th><th>Sentido</th><th>Exemplo</th></tr>
       <tr><td><b>mustn't</b></td><td>proibido</td><td>You mustn't smoke here.</td></tr>
-      <tr><td><b>don't have to</b> · don't need to</td><td>não precisa, é opcional</td><td>You don't have to come tomorrow.</td></tr>
+      <tr><td><b>don't have to</b><br>don't need to</td><td>não precisa, é opcional</td><td>You don't have to come tomorrow.</td></tr>
     </table>
     <p class="note">No inglês americano falado, <i>mustn't</i> é pouco usado. Para proibir, diz-se <i>can't</i> ou <i>not allowed to</i>: You can't smoke here.</p>`,
 en:`
@@ -35,25 +35,25 @@ en:`
     <h3>HAVE TO</h3>
     <p>Obligation that comes from outside: rules, work, circumstances. It is an ordinary verb, so it uses DO/DOES:</p>
     <ul>
-      <li>I have to work on Saturday. · She has to wake up early.</li>
-      <li>Do you have to wear a uniform? · Do I have to pay for the bag?</li>
-      <li>Past: I had to work late. · Future: I'll have to work on Saturday.</li>
+      <li>I have to work on Saturday.<br>She has to wake up early.</li>
+      <li>Do you have to wear a uniform?<br>Do I have to pay for the bag?</li>
+      <li>Past: I had to work late.<br>Future: I'll have to work on Saturday.</li>
     </ul>
     <p class="note">Pronunciation: <i>have to</i> /ˈhæftə/, <i>has to</i> /ˈhæstə/. In informal speech: I've got to go → I gotta go.</p>
     <h3>MUST</h3>
     <ul>
-      <li>Strong obligation, from the speaker, or written rules: I must call my mom tonight. · Passengers must wear seatbelts.</li>
+      <li>Strong obligation, from the speaker, or written rules: I must call my mom tonight.<br>Passengers must wear seatbelts.</li>
       <li>Strong recommendation: You must try the feijoada here!</li>
       <li>Deduction (a different meaning): She must be tired.</li>
       <li>MUST has no past for obligation: use <i>had to</i>.</li>
     </ul>
     <h3>NEED TO</h3>
-    <p>I need to sleep. · You don't need to bring anything. · With a noun: I need a coffee.</p>
+    <p>I need to sleep.<br>You don't need to bring anything.<br>With a noun: I need a coffee.</p>
     <h3>MUSTN'T × DON'T HAVE TO</h3>
     <table>
       <tr><th>Negative</th><th>Meaning</th><th>Example</th></tr>
       <tr><td><b>mustn't</b></td><td>forbidden</td><td>You mustn't smoke here.</td></tr>
-      <tr><td><b>don't have to</b> · don't need to</td><td>not necessary, optional</td><td>You don't have to come tomorrow.</td></tr>
+      <tr><td><b>don't have to</b><br>don't need to</td><td>not necessary, optional</td><td>You don't have to come tomorrow.</td></tr>
     </table>
     <p class="note">In spoken American English, <i>mustn't</i> is rare. For prohibitions, people say <i>can't</i> or <i>not allowed to</i>: You can't smoke here.</p>`
   },
@@ -62,14 +62,14 @@ pt:`
     <h2>Regras de viagem</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>passport · visa</td><td>passaporte · visto</td></tr>
+      <tr><td>passport<br>visa</td><td>passaporte<br>visto</td></tr>
       <tr><td>ID</td><td>documento de identidade</td></tr>
       <tr><td>to renew</td><td>renovar</td></tr>
       <tr><td>expiration date</td><td>data de validade</td></tr>
-      <tr><td>carry-on · checked bag</td><td>bagagem de mão · despachada</td></tr>
+      <tr><td>carry-on<br>checked bag</td><td>bagagem de mão<br>despachada</td></tr>
       <tr><td>baggage allowance</td><td>franquia de bagagem</td></tr>
       <tr><td>security check</td><td>inspeção de segurança</td></tr>
-      <tr><td>customs · immigration</td><td>alfândega · imigração</td></tr>
+      <tr><td>customs<br>immigration</td><td>alfândega<br>imigração</td></tr>
       <tr><td>liquids over 100 ml</td><td>líquidos acima de 100 ml</td></tr>
       <tr><td>boarding time</td><td>horário de embarque</td></tr>
       <tr><td>to be allowed to</td><td>ter permissão para</td></tr>
@@ -80,14 +80,14 @@ en:`
     <h2>Travel rules</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>passport · visa</td><td>passaporte · visto</td></tr>
+      <tr><td>passport<br>visa</td><td>passaporte<br>visto</td></tr>
       <tr><td>ID</td><td>documento de identidade</td></tr>
       <tr><td>to renew</td><td>renovar</td></tr>
       <tr><td>expiration date</td><td>data de validade</td></tr>
-      <tr><td>carry-on · checked bag</td><td>bagagem de mão · despachada</td></tr>
+      <tr><td>carry-on<br>checked bag</td><td>bagagem de mão<br>despachada</td></tr>
       <tr><td>baggage allowance</td><td>franquia de bagagem</td></tr>
       <tr><td>security check</td><td>inspeção de segurança</td></tr>
-      <tr><td>customs · immigration</td><td>alfândega · imigração</td></tr>
+      <tr><td>customs<br>immigration</td><td>alfândega<br>imigração</td></tr>
       <tr><td>liquids over 100 ml</td><td>líquidos acima de 100 ml</td></tr>
       <tr><td>boarding time</td><td>horário de embarque</td></tr>
       <tr><td>to be allowed to</td><td>ter permissão para</td></tr>

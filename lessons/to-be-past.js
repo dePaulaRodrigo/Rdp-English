@@ -11,29 +11,29 @@ pt:`
       <tr><td>I</td><td>am</td><td>was</td></tr>
       <tr><td>you</td><td>are</td><td>were</td></tr>
       <tr><td>he / she / it</td><td>is</td><td>was</td></tr>
-      <tr><td>we · they</td><td>are</td><td>were</td></tr>
+      <tr><td>we<br>they</td><td>are</td><td>were</td></tr>
     </table>
     <p>Regra prática: <b>WERE</b> para you, we, they; <b>WAS</b> para o resto.</p>
     <h3>Negativa, pergunta e resposta curta</h3>
     <ul>
-      <li>She <b>wasn't</b> at home. · They <b>weren't</b> friends.</li>
-      <li><b>Was she</b> nice? · <b>Were they</b> at the party? · Where <b>were</b> you last weekend?</li>
+      <li>She <b>wasn't</b> at home.<br>They <b>weren't</b> friends.</li>
+      <li><b>Was she</b> nice?<br><b>Were they</b> at the party?<br>Where <b>were</b> you last weekend?</li>
       <li>"Were you at home?" — "Yes, I was." / "No, I wasn't."</li>
     </ul>
     <h3>Nascer = BE BORN</h3>
-    <p>"Eu nasci em 1998." → I <b>was born</b> in 1998. (<s>I born</s> · <s>I am born</s>) · Where <b>were</b> you <b>born</b>?</p>
+    <p>"Eu nasci em 1998." → I <b>was born</b> in 1998. (<s>I born</s><br><s>I am born</s>)<br>Where <b>were</b> you <b>born</b>?</p>
     <h3>Expressões de passado</h3>
-    <p>yesterday · last night · last week · last year · two days <b>ago</b> (há dois dias) · in 2010 · when I was a child</p>
+    <p>yesterday<br>last night<br>last week<br>last year<br>two days <b>ago</b> (há dois dias)<br>in 2010<br>when I was a child</p>
     <ul>
       <li>Dom Pedro II <b>was</b> the last emperor of Brazil.</li>
       <li>The first modern Olympic Games <b>were</b> in Athens, in 1896.</li>
     </ul>
     <h3>There was, there were</h3>
-    <p>There <b>was</b> a party. · There <b>were</b> a lot of people.</p>
+    <p>There <b>was</b> a party.<br>There <b>were</b> a lot of people.</p>
     <h3>O futuro do To Be</h3>
     <ul>
-      <li>I <b>will be</b> there. = I'm going to be there. · I'll be 30 next year.</li>
-      <li>Negativa: <b>won't be</b> · Pergunta: <b>Will</b> you <b>be</b> at home tomorrow?</li>
+      <li>I <b>will be</b> there. = I'm going to be there.<br>I'll be 30 next year.</li>
+      <li>Negativa: <b>won't be</b><br>Pergunta: <b>Will</b> you <b>be</b> at home tomorrow?</li>
     </ul>
     <p class="note">Na fala, <i>was</i> e <i>were</i> soam fracos, quase /wəz/ e /wər/. Nas respostas curtas, soam fortes: Yes, I <b>was</b>.</p>`,
 en:`
@@ -43,29 +43,29 @@ en:`
       <tr><td>I</td><td>am</td><td>was</td></tr>
       <tr><td>you</td><td>are</td><td>were</td></tr>
       <tr><td>he / she / it</td><td>is</td><td>was</td></tr>
-      <tr><td>we · they</td><td>are</td><td>were</td></tr>
+      <tr><td>we<br>they</td><td>are</td><td>were</td></tr>
     </table>
     <p>Rule of thumb: <b>WERE</b> for you, we, they; <b>WAS</b> for the rest.</p>
     <h3>Negatives, questions and short answers</h3>
     <ul>
-      <li>She <b>wasn't</b> at home. · They <b>weren't</b> friends.</li>
-      <li><b>Was she</b> nice? · <b>Were they</b> at the party? · Where <b>were</b> you last weekend?</li>
+      <li>She <b>wasn't</b> at home.<br>They <b>weren't</b> friends.</li>
+      <li><b>Was she</b> nice?<br><b>Were they</b> at the party?<br>Where <b>were</b> you last weekend?</li>
       <li>"Were you at home?" — "Yes, I was." / "No, I wasn't."</li>
     </ul>
     <h3>BE BORN</h3>
-    <p>I <b>was born</b> in 1998. (<s>I born</s> · <s>I am born</s>) · Where <b>were</b> you <b>born</b>?</p>
+    <p>I <b>was born</b> in 1998. (<s>I born</s><br><s>I am born</s>)<br>Where <b>were</b> you <b>born</b>?</p>
     <h3>Past time expressions</h3>
-    <p>yesterday · last night · last week · last year · two days <b>ago</b> · in 2010 · when I was a child</p>
+    <p>yesterday<br>last night<br>last week<br>last year<br>two days <b>ago</b><br>in 2010<br>when I was a child</p>
     <ul>
       <li>Dom Pedro II <b>was</b> the last emperor of Brazil.</li>
       <li>The first modern Olympic Games <b>were</b> in Athens, in 1896.</li>
     </ul>
     <h3>There was, there were</h3>
-    <p>There <b>was</b> a party. · There <b>were</b> a lot of people.</p>
+    <p>There <b>was</b> a party.<br>There <b>were</b> a lot of people.</p>
     <h3>To Be in the future</h3>
     <ul>
-      <li>I <b>will be</b> there. = I'm going to be there. · I'll be 30 next year.</li>
-      <li>Negative: <b>won't be</b> · Question: <b>Will</b> you <b>be</b> at home tomorrow?</li>
+      <li>I <b>will be</b> there. = I'm going to be there.<br>I'll be 30 next year.</li>
+      <li>Negative: <b>won't be</b><br>Question: <b>Will</b> you <b>be</b> at home tomorrow?</li>
     </ul>
     <p class="note">In speech, <i>was</i> and <i>were</i> are usually weak, close to /wəz/ and /wər/. In short answers, they are strong: Yes, I <b>was</b>.</p>`
   },
@@ -75,9 +75,9 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>How was your weekend?</td><td>Como foi o seu fim de semana?</td></tr>
-      <tr><td>It was great · fine · boring.</td><td>Foi ótimo · tranquilo · chato.</td></tr>
-      <tr><td>crowded · quiet</td><td>lotado · tranquilo</td></tr>
-      <tr><td>sunny · cloudy · rainy</td><td>ensolarado · nublado · chuvoso</td></tr>
+      <tr><td>It was great<br>fine<br>boring.</td><td>Foi ótimo<br>tranquilo<br>chato.</td></tr>
+      <tr><td>crowded<br>quiet</td><td>lotado<br>tranquilo</td></tr>
+      <tr><td>sunny<br>cloudy<br>rainy</td><td>ensolarado<br>nublado<br>chuvoso</td></tr>
       <tr><td>a day off</td><td>um dia de folga</td></tr>
       <tr><td>a long weekend</td><td>um feriadão</td></tr>
       <tr><td>to have a cold</td><td>estar resfriado</td></tr>
@@ -88,10 +88,10 @@ pt:`
       <tr><td>childhood</td><td>infância</td></tr>
       <tr><td>hometown</td><td>cidade natal</td></tr>
       <tr><td>when I was a kid</td><td>quando eu era criança</td></tr>
-      <tr><td>back then · in those days</td><td>naquela época</td></tr>
+      <tr><td>back then<br>in those days</td><td>naquela época</td></tr>
       <tr><td>a long time ago</td><td>há muito tempo</td></tr>
       <tr><td>to grow up</td><td>crescer, ser criado</td></tr>
-      <tr><td>memory · to remember</td><td>lembrança · lembrar</td></tr>
+      <tr><td>memory<br>to remember</td><td>lembrança<br>lembrar</td></tr>
     </table>
     <p class="note"><i>Ago</i> vem depois da quantidade de tempo: <i>three years ago</i> (há três anos).</p>`,
 en:`
@@ -99,9 +99,9 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>How was your weekend?</td><td>Como foi o seu fim de semana?</td></tr>
-      <tr><td>It was great · fine · boring.</td><td>Foi ótimo · tranquilo · chato.</td></tr>
-      <tr><td>crowded · quiet</td><td>lotado · tranquilo</td></tr>
-      <tr><td>sunny · cloudy · rainy</td><td>ensolarado · nublado · chuvoso</td></tr>
+      <tr><td>It was great<br>fine<br>boring.</td><td>Foi ótimo<br>tranquilo<br>chato.</td></tr>
+      <tr><td>crowded<br>quiet</td><td>lotado<br>tranquilo</td></tr>
+      <tr><td>sunny<br>cloudy<br>rainy</td><td>ensolarado<br>nublado<br>chuvoso</td></tr>
       <tr><td>a day off</td><td>um dia de folga</td></tr>
       <tr><td>a long weekend</td><td>um feriadão</td></tr>
       <tr><td>to have a cold</td><td>estar resfriado</td></tr>
@@ -112,10 +112,10 @@ en:`
       <tr><td>childhood</td><td>infância</td></tr>
       <tr><td>hometown</td><td>cidade natal</td></tr>
       <tr><td>when I was a kid</td><td>quando eu era criança</td></tr>
-      <tr><td>back then · in those days</td><td>naquela época</td></tr>
+      <tr><td>back then<br>in those days</td><td>naquela época</td></tr>
       <tr><td>a long time ago</td><td>há muito tempo</td></tr>
       <tr><td>to grow up</td><td>crescer, ser criado</td></tr>
-      <tr><td>memory · to remember</td><td>lembrança · lembrar</td></tr>
+      <tr><td>memory<br>to remember</td><td>lembrança<br>lembrar</td></tr>
     </table>
     <p class="note"><i>Ago</i> comes after the amount of time: <i>three years ago</i>.</p>`
   },

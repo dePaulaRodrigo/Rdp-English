@@ -14,23 +14,23 @@ pt:`
       <tr><td>o que o outro faz</td><td>wish + would</td><td>I wish you <b>would</b> stop talking.</td></tr>
     </table>
     <ul>
-      <li>I wish it wasn't so cold. · I wish it wasn't raining.</li>
+      <li>I wish it wasn't so cold.<br>I wish it wasn't raining.</li>
       <li>I wish I hadn't said that.</li>
       <li>I wish it would stop raining. (reclamação)</li>
     </ul>
     <p class="note">Para você mesmo, use <i>could</i>, não <i>would</i>: I wish I could speak Japanese (<s>I wish I would speak</s>).</p>
     <h3>WERE com WISH</h3>
-    <p>I wish I <b>were</b> taller (formal, padrão) · I wish I <b>was</b> taller (informal, muito comum).</p>
+    <p>I wish I <b>were</b> taller (formal, padrão)<br>I wish I <b>was</b> taller (informal, muito comum).</p>
     <h3>IF ONLY = quem me dera</h3>
-    <p>Mesma estrutura, com mais emoção: If only I had more time. · If only I had listened to you.</p>
+    <p>Mesma estrutura, com mais emoção: If only I had more time.<br>If only I had listened to you.</p>
     <h3>WISH × HOPE</h3>
     <ul>
-      <li><b>hope</b> = algo possível: I hope you feel better. · I hope it doesn't rain.</li>
+      <li><b>hope</b> = algo possível: I hope you feel better.<br>I hope it doesn't rain.</li>
       <li><b>wish</b> = algo impossível ou improvável: I wish I were on vacation.</li>
-      <li><b>wish + alguém + algo</b> = desejar: I wish you a Merry Christmas. · We wish you luck.</li>
+      <li><b>wish + alguém + algo</b> = desejar: I wish you a Merry Christmas.<br>We wish you luck.</li>
     </ul>
     <h3>Arrependimento com SHOULD HAVE</h3>
-    <p>I should have listened. · I shouldn't have done that. (veja o capítulo 36)</p>
+    <p>I should have listened.<br>I shouldn't have done that. (veja o capítulo 36)</p>
     <h3>Outras estruturas com passado irreal</h3>
     <ul>
       <li><b>I'd rather</b> you <b>didn't</b> smoke here. (preferia que você não fumasse)</li>
@@ -47,23 +47,23 @@ en:`
       <tr><td>what someone else does</td><td>wish + would</td><td>I wish you <b>would</b> stop talking.</td></tr>
     </table>
     <ul>
-      <li>I wish it wasn't so cold. · I wish it wasn't raining.</li>
+      <li>I wish it wasn't so cold.<br>I wish it wasn't raining.</li>
       <li>I wish I hadn't said that.</li>
       <li>I wish it would stop raining. (complaint)</li>
     </ul>
     <p class="note">For yourself, use <i>could</i>, not <i>would</i>: I wish I could speak Japanese (<s>I wish I would speak</s>).</p>
     <h3>WERE with WISH</h3>
-    <p>I wish I <b>were</b> taller (formal, standard) · I wish I <b>was</b> taller (informal, very common).</p>
+    <p>I wish I <b>were</b> taller (formal, standard)<br>I wish I <b>was</b> taller (informal, very common).</p>
     <h3>IF ONLY</h3>
-    <p>Same structure, more emotion: If only I had more time. · If only I had listened to you.</p>
+    <p>Same structure, more emotion: If only I had more time.<br>If only I had listened to you.</p>
     <h3>WISH × HOPE</h3>
     <ul>
-      <li><b>hope</b> = something possible: I hope you feel better. · I hope it doesn't rain.</li>
+      <li><b>hope</b> = something possible: I hope you feel better.<br>I hope it doesn't rain.</li>
       <li><b>wish</b> = something impossible or unlikely: I wish I were on vacation.</li>
-      <li><b>wish + someone + something</b>: I wish you a Merry Christmas. · We wish you luck.</li>
+      <li><b>wish + someone + something</b>: I wish you a Merry Christmas.<br>We wish you luck.</li>
     </ul>
     <h3>Regret with SHOULD HAVE</h3>
-    <p>I should have listened. · I shouldn't have done that. (see chapter 36)</p>
+    <p>I should have listened.<br>I shouldn't have done that. (see chapter 36)</p>
     <h3>Other unreal-past structures</h3>
     <ul>
       <li><b>I'd rather</b> you <b>didn't</b> smoke here.</li>
@@ -76,7 +76,7 @@ pt:`
     <h2>Arrependimento e nostalgia</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>nostalgia · nostalgic</td><td>nostalgia · nostálgico</td></tr>
+      <tr><td>nostalgia<br>nostalgic</td><td>nostalgia<br>nostálgico</td></tr>
       <tr><td>to miss</td><td>sentir falta de</td></tr>
       <tr><td>the good old days</td><td>os bons tempos</td></tr>
       <tr><td>to keep in touch</td><td>manter contato</td></tr>
@@ -94,7 +94,7 @@ en:`
     <h2>Regret and nostalgia</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>nostalgia · nostalgic</td><td>nostalgia · nostálgico</td></tr>
+      <tr><td>nostalgia<br>nostalgic</td><td>nostalgia<br>nostálgico</td></tr>
       <tr><td>to miss</td><td>sentir falta de</td></tr>
       <tr><td>the good old days</td><td>os bons tempos</td></tr>
       <tr><td>to keep in touch</td><td>manter contato</td></tr>

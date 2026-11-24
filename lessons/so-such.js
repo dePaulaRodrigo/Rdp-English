@@ -12,20 +12,20 @@ pt:`
       <li><b>too</b> = demais, de um jeito ruim: It's too hot. I can't go out.</li>
     </ul>
     <h3>TOO + adjetivo + TO = impossível</h3>
-    <p>The tea is <b>too hot to drink</b>. · She's <b>too young to drive</b>. Compare: The tea is <b>very hot</b>, but I can drink it.</p>
+    <p>The tea is <b>too hot to drink</b>.<br>She's <b>too young to drive</b>. Compare: The tea is <b>very hot</b>, but I can drink it.</p>
     <h3>SO × SUCH</h3>
     <table>
       <tr><th>Forma</th><th>Exemplos</th></tr>
-      <tr><td><b>so</b> + adjetivo / advérbio</td><td>She is so nice. · He drives so fast.</td></tr>
-      <tr><td><b>such a / an</b> + adjetivo + substantivo</td><td>She is such a nice person. · It was such an amazing trip.</td></tr>
-      <tr><td><b>such</b> + adjetivo + plural / incontável</td><td>They are such good friends. · It was such bad weather.</td></tr>
+      <tr><td><b>so</b> + adjetivo / advérbio</td><td>She is so nice.<br>He drives so fast.</td></tr>
+      <tr><td><b>such a / an</b> + adjetivo + substantivo</td><td>She is such a nice person.<br>It was such an amazing trip.</td></tr>
+      <tr><td><b>such</b> + adjetivo + plural / incontável</td><td>They are such good friends.<br>It was such bad weather.</td></tr>
     </table>
     <h3>Com consequência: SO / SUCH … (THAT)</h3>
     <p>It was <b>so good (that)</b> I watched it twice. = It was <b>such a good movie (that)</b> I watched it twice. O <i>that</i> pode cair.</p>
     <h3>Quantidades</h3>
     <ul>
-      <li><b>so much</b> + incontável: so much work · <b>so many</b> + contável: so many people</li>
-      <li><b>so little</b> time · <b>so few</b> people</li>
+      <li><b>so much</b> + incontável: so much work<br><b>so many</b> + contável: so many people</li>
+      <li><b>so little</b> time<br><b>so few</b> people</li>
       <li><b>such a lot of</b> = so much / so many</li>
     </ul>
     <h3>Expressões</h3>
@@ -44,20 +44,20 @@ en:`
       <li><b>too</b> = more than is good: It's too hot. I can't go out.</li>
     </ul>
     <h3>TOO + adjective + TO = impossible</h3>
-    <p>The tea is <b>too hot to drink</b>. · She's <b>too young to drive</b>. Compare: The tea is <b>very hot</b>, but I can drink it.</p>
+    <p>The tea is <b>too hot to drink</b>.<br>She's <b>too young to drive</b>. Compare: The tea is <b>very hot</b>, but I can drink it.</p>
     <h3>SO × SUCH</h3>
     <table>
       <tr><th>Form</th><th>Examples</th></tr>
-      <tr><td><b>so</b> + adjective / adverb</td><td>She is so nice. · He drives so fast.</td></tr>
-      <tr><td><b>such a / an</b> + adjective + noun</td><td>She is such a nice person. · It was such an amazing trip.</td></tr>
-      <tr><td><b>such</b> + adjective + plural / uncountable</td><td>They are such good friends. · It was such bad weather.</td></tr>
+      <tr><td><b>so</b> + adjective / adverb</td><td>She is so nice.<br>He drives so fast.</td></tr>
+      <tr><td><b>such a / an</b> + adjective + noun</td><td>She is such a nice person.<br>It was such an amazing trip.</td></tr>
+      <tr><td><b>such</b> + adjective + plural / uncountable</td><td>They are such good friends.<br>It was such bad weather.</td></tr>
     </table>
     <h3>With a result: SO / SUCH … (THAT)</h3>
     <p>It was <b>so good (that)</b> I watched it twice. = It was <b>such a good movie (that)</b> I watched it twice. <i>That</i> can be dropped.</p>
     <h3>Quantities</h3>
     <ul>
-      <li><b>so much</b> + uncountable: so much work · <b>so many</b> + countable: so many people</li>
-      <li><b>so little</b> time · <b>so few</b> people</li>
+      <li><b>so much</b> + uncountable: so much work<br><b>so many</b> + countable: so many people</li>
+      <li><b>so little</b> time<br><b>so few</b> people</li>
       <li><b>such a lot of</b> = so much / so many</li>
     </ul>
     <h3>Expressions</h3>
@@ -77,7 +77,7 @@ pt:`
       <tr><td>unforgettable</td><td>inesquecível</td></tr>
       <tr><td>breathtaking</td><td>de tirar o fôlego</td></tr>
       <tr><td>a view</td><td>uma vista</td></tr>
-      <tr><td>a sunset · a sunrise</td><td>um pôr do sol · um nascer do sol</td></tr>
+      <tr><td>a sunset<br>a sunrise</td><td>um pôr do sol<br>um nascer do sol</td></tr>
       <tr><td>a waterfall</td><td>uma cachoeira</td></tr>
       <tr><td>a tasting menu</td><td>um menu degustação</td></tr>
       <tr><td>a portion</td><td>uma porção</td></tr>
@@ -95,7 +95,7 @@ en:`
       <tr><td>unforgettable</td><td>inesquecível</td></tr>
       <tr><td>breathtaking</td><td>de tirar o fôlego</td></tr>
       <tr><td>a view</td><td>uma vista</td></tr>
-      <tr><td>a sunset · a sunrise</td><td>um pôr do sol · um nascer do sol</td></tr>
+      <tr><td>a sunset<br>a sunrise</td><td>um pôr do sol<br>um nascer do sol</td></tr>
       <tr><td>a waterfall</td><td>uma cachoeira</td></tr>
       <tr><td>a tasting menu</td><td>um menu degustação</td></tr>
       <tr><td>a portion</td><td>uma porção</td></tr>

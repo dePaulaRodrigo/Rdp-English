@@ -18,13 +18,13 @@ pt:`
       <li>"De quem são estas chaves?" → <b>Whose keys</b> are these?</li>
       <li>Se a coisa já está clara, ela pode sair: Whose is this?</li>
     </ul>
-    <p>A resposta usa o pronome possessivo ou o 's: It's <b>mine</b>. · It's <b>Ana's</b>. · It's <b>my brother's</b>.</p>
+    <p>A resposta usa o pronome possessivo ou o 's: It's <b>mine</b>.<br>It's <b>Ana's</b>.<br>It's <b>my brother's</b>.</p>
     <ul>
       <li>Whose turn is it? — De quem é a vez?</li>
       <li>Whose idea was that? — De quem foi essa ideia?</li>
       <li>Whose fault is it? — De quem é a culpa?</li>
     </ul>
-    <p class="note"><b>Whose × who's</b>: soam iguais. <i>Whose</i> é "de quem"; <i>who's</i> é <i>who is</i> ou <i>who has</i>: Who's that man? · Who's seen my keys?</p>
+    <p class="note"><b>Whose × who's</b>: soam iguais. <i>Whose</i> é "de quem"; <i>who's</i> é <i>who is</i> ou <i>who has</i>: Who's that man?<br>Who's seen my keys?</p>
     <h3>WHOSE ligando frases: "cujo"</h3>
     <ul>
       <li>I know John, <b>whose</b> brother is a CEO. — cujo irmão</li>
@@ -33,7 +33,7 @@ pt:`
     </ul>
     <p>Como o "cujo", <i>whose</i> vem colado na coisa possuída, sem artigo: whose dog (<s>whose the dog</s>).</p>
     <h3>WHOM (formal)</h3>
-    <p>Objeto, ou depois de preposição: To whom do I send this email? · To whom it may concern.</p>
+    <p>Objeto, ou depois de preposição: To whom do I send this email?<br>To whom it may concern.</p>
     <table>
       <tr><th>Formal</th><th>Na fala</th></tr>
       <tr><td>Whom did you call?</td><td>Who did you call?</td></tr>
@@ -53,13 +53,13 @@ en:`
       <li><b>Whose keys</b> are these?</li>
       <li>If the thing is clear, it can be dropped: Whose is this?</li>
     </ul>
-    <p>Answer with a possessive pronoun or 's: It's <b>mine</b>. · It's <b>Ana's</b>. · It's <b>my brother's</b>.</p>
+    <p>Answer with a possessive pronoun or 's: It's <b>mine</b>.<br>It's <b>Ana's</b>.<br>It's <b>my brother's</b>.</p>
     <ul>
       <li>Whose turn is it?</li>
       <li>Whose idea was that?</li>
       <li>Whose fault is it?</li>
     </ul>
-    <p class="note"><b>Whose × who's</b>: they sound the same. <i>Whose</i> asks about the owner; <i>who's</i> is <i>who is</i> or <i>who has</i>: Who's that man? · Who's seen my keys?</p>
+    <p class="note"><b>Whose × who's</b>: they sound the same. <i>Whose</i> asks about the owner; <i>who's</i> is <i>who is</i> or <i>who has</i>: Who's that man?<br>Who's seen my keys?</p>
     <h3>WHOSE joining sentences</h3>
     <ul>
       <li>I know John, <b>whose</b> brother is a CEO.</li>
@@ -68,7 +68,7 @@ en:`
     </ul>
     <p><i>Whose</i> comes right before the thing owned, with no article: whose dog (<s>whose the dog</s>).</p>
     <h3>WHOM (formal)</h3>
-    <p>As an object, or after a preposition: To whom do I send this email? · To whom it may concern.</p>
+    <p>As an object, or after a preposition: To whom do I send this email?<br>To whom it may concern.</p>
     <table>
       <tr><th>Formal</th><th>In speech</th></tr>
       <tr><td>Whom did you call?</td><td>Who did you call?</td></tr>
@@ -81,15 +81,15 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>lost and found</td><td>achados e perdidos</td></tr>
-      <tr><td>to lose · lost</td><td>perder · perdeu, perdido</td></tr>
-      <tr><td>to find · found</td><td>achar · achou, achado</td></tr>
+      <tr><td>to lose<br>lost</td><td>perder<br>perdeu, perdido</td></tr>
+      <tr><td>to find<br>found</td><td>achar<br>achou, achado</td></tr>
       <tr><td>to leave something behind</td><td>esquecer algo (num lugar)</td></tr>
       <tr><td>to belong to</td><td>pertencer a</td></tr>
       <tr><td>owner</td><td>dono</td></tr>
       <tr><td>to claim</td><td>reivindicar, buscar (o que é seu)</td></tr>
-      <tr><td>ID · driver's license</td><td>documento de identidade · carteira de motorista</td></tr>
+      <tr><td>ID<br>driver's license</td><td>documento de identidade<br>carteira de motorista</td></tr>
       <tr><td>water bottle</td><td>garrafinha de água</td></tr>
-      <tr><td>earring · ring · necklace</td><td>brinco · anel · colar</td></tr>
+      <tr><td>earring<br>ring<br>necklace</td><td>brinco<br>anel<br>colar</td></tr>
       <tr><td>to describe</td><td>descrever</td></tr>
       <tr><td>It's my turn.</td><td>É a minha vez.</td></tr>
       <tr><td>It's my fault.</td><td>A culpa é minha.</td></tr>
@@ -100,15 +100,15 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>lost and found</td><td>achados e perdidos</td></tr>
-      <tr><td>to lose · lost</td><td>perder · perdeu, perdido</td></tr>
-      <tr><td>to find · found</td><td>achar · achou, achado</td></tr>
+      <tr><td>to lose<br>lost</td><td>perder<br>perdeu, perdido</td></tr>
+      <tr><td>to find<br>found</td><td>achar<br>achou, achado</td></tr>
       <tr><td>to leave something behind</td><td>esquecer algo (num lugar)</td></tr>
       <tr><td>to belong to</td><td>pertencer a</td></tr>
       <tr><td>owner</td><td>dono</td></tr>
       <tr><td>to claim</td><td>reivindicar, buscar (o que é seu)</td></tr>
-      <tr><td>ID · driver's license</td><td>documento de identidade · carteira de motorista</td></tr>
+      <tr><td>ID<br>driver's license</td><td>documento de identidade<br>carteira de motorista</td></tr>
       <tr><td>water bottle</td><td>garrafinha de água</td></tr>
-      <tr><td>earring · ring · necklace</td><td>brinco · anel · colar</td></tr>
+      <tr><td>earring<br>ring<br>necklace</td><td>brinco<br>anel<br>colar</td></tr>
       <tr><td>to describe</td><td>descrever</td></tr>
       <tr><td>It's my turn.</td><td>É a minha vez.</td></tr>
       <tr><td>It's my fault.</td><td>A culpa é minha.</td></tr>

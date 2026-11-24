@@ -11,14 +11,14 @@ pt:`
     <ul>
       <li>I have a car. = I've got a car.</li>
       <li>She has two kids. = She's got two kids.</li>
-      <li>Também para características, relações, doenças e compromissos: She's got green eyes. · I've got a headache. · I've got a meeting at three.</li>
+      <li>Também para características, relações, doenças e compromissos: She's got green eyes.<br>I've got a headache.<br>I've got a meeting at three.</li>
     </ul>
     <h3>Negativa, pergunta e resposta curta</h3>
     <table>
       <tr><th></th><th>have</th><th>have got</th></tr>
       <tr><td>Negativa</td><td>I don't have a car.</td><td>I haven't got a car.</td></tr>
       <tr><td>Pergunta</td><td>Do you have a pen?</td><td>Have you got a pen?</td></tr>
-      <tr><td>Resposta</td><td>Yes, I do. · No, I don't.</td><td>Yes, I have. · No, I haven't.</td></tr>
+      <tr><td>Resposta</td><td>Yes, I do.<br>No, I don't.</td><td>Yes, I have.<br>No, I haven't.</td></tr>
       <tr><td>3ª pessoa</td><td>Does she have…?</td><td>Has she got…?</td></tr>
     </table>
     <p class="note"><i>Have</i> usa o auxiliar DO; em <i>have got</i>, o próprio HAVE é o auxiliar.</p>
@@ -30,7 +30,7 @@ pt:`
     <h3>HAVE GOT TO = have to</h3>
     <p>I've got to go. = I have to go. → Na fala: I <b>gotta</b> go.</p>
     <h3>Got × gotten</h3>
-    <p>No inglês americano, o particípio de GET é <i>gotten</i>: Her English has gotten much better. · I've gotten a new job (= consegui). Mas em HAVE GOT de posse, é sempre <i>got</i>: I've got a car (= tenho).</p>`,
+    <p>No inglês americano, o particípio de GET é <i>gotten</i>: Her English has gotten much better.<br>I've gotten a new job (= consegui). Mas em HAVE GOT de posse, é sempre <i>got</i>: I've got a car (= tenho).</p>`,
 en:`
     <h2>Have × Have Got</h2>
     <h3>Same meaning: possession</h3>
@@ -38,14 +38,14 @@ en:`
     <ul>
       <li>I have a car. = I've got a car.</li>
       <li>She has two kids. = She's got two kids.</li>
-      <li>Also for features, relationships, illnesses and appointments: She's got green eyes. · I've got a headache. · I've got a meeting at three.</li>
+      <li>Also for features, relationships, illnesses and appointments: She's got green eyes.<br>I've got a headache.<br>I've got a meeting at three.</li>
     </ul>
     <h3>Negatives, questions and short answers</h3>
     <table>
       <tr><th></th><th>have</th><th>have got</th></tr>
       <tr><td>Negative</td><td>I don't have a car.</td><td>I haven't got a car.</td></tr>
       <tr><td>Question</td><td>Do you have a pen?</td><td>Have you got a pen?</td></tr>
-      <tr><td>Answer</td><td>Yes, I do. · No, I don't.</td><td>Yes, I have. · No, I haven't.</td></tr>
+      <tr><td>Answer</td><td>Yes, I do.<br>No, I don't.</td><td>Yes, I have.<br>No, I haven't.</td></tr>
       <tr><td>3rd person</td><td>Does she have…?</td><td>Has she got…?</td></tr>
     </table>
     <p class="note"><i>Have</i> uses the auxiliary DO; in <i>have got</i>, HAVE itself is the auxiliary.</p>
@@ -57,20 +57,20 @@ en:`
     <h3>HAVE GOT TO = have to</h3>
     <p>I've got to go. = I have to go. → In speech: I <b>gotta</b> go.</p>
     <h3>Got × gotten</h3>
-    <p>In American English, the past participle of GET is <i>gotten</i>: Her English has gotten much better. · I've gotten a new job (= obtained). But in HAVE GOT for possession, it is always <i>got</i>: I've got a car (= I have).</p>`
+    <p>In American English, the past participle of GET is <i>gotten</i>: Her English has gotten much better.<br>I've gotten a new job (= obtained). But in HAVE GOT for possession, it is always <i>got</i>: I've got a car (= I have).</p>`
   },
   vocab:{
 pt:`
     <h2>Características e pertences</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>She's got curly · straight hair.</td><td>Ela tem cabelo cacheado · liso.</td></tr>
-      <tr><td>He's got a beard · a mustache.</td><td>Ele tem barba · bigode.</td></tr>
-      <tr><td>freckles · dimples</td><td>sardas · covinhas</td></tr>
-      <tr><td>a tattoo · a scar</td><td>uma tatuagem · uma cicatriz</td></tr>
+      <tr><td>She's got curly<br>straight hair.</td><td>Ela tem cabelo cacheado<br>liso.</td></tr>
+      <tr><td>He's got a beard<br>a mustache.</td><td>Ele tem barba<br>bigode.</td></tr>
+      <tr><td>freckles<br>dimples</td><td>sardas<br>covinhas</td></tr>
+      <tr><td>a tattoo<br>a scar</td><td>uma tatuagem<br>uma cicatriz</td></tr>
       <tr><td>savings</td><td>economias</td></tr>
       <tr><td>a pickup truck</td><td>uma caminhonete</td></tr>
-      <tr><td>a pet · a vet</td><td>um animal de estimação · um veterinário</td></tr>
+      <tr><td>a pet<br>a vet</td><td>um animal de estimação<br>um veterinário</td></tr>
       <tr><td>Have you got a minute?</td><td>Você tem um minuto?</td></tr>
       <tr><td>I've got a lot on my plate.</td><td>Estou cheio de coisas para fazer.</td></tr>
       <tr><td>You've got this!</td><td>Você consegue!</td></tr>
@@ -80,13 +80,13 @@ en:`
     <h2>Features and belongings</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>She's got curly · straight hair.</td><td>Ela tem cabelo cacheado · liso.</td></tr>
-      <tr><td>He's got a beard · a mustache.</td><td>Ele tem barba · bigode.</td></tr>
-      <tr><td>freckles · dimples</td><td>sardas · covinhas</td></tr>
-      <tr><td>a tattoo · a scar</td><td>uma tatuagem · uma cicatriz</td></tr>
+      <tr><td>She's got curly<br>straight hair.</td><td>Ela tem cabelo cacheado<br>liso.</td></tr>
+      <tr><td>He's got a beard<br>a mustache.</td><td>Ele tem barba<br>bigode.</td></tr>
+      <tr><td>freckles<br>dimples</td><td>sardas<br>covinhas</td></tr>
+      <tr><td>a tattoo<br>a scar</td><td>uma tatuagem<br>uma cicatriz</td></tr>
       <tr><td>savings</td><td>economias</td></tr>
       <tr><td>a pickup truck</td><td>uma caminhonete</td></tr>
-      <tr><td>a pet · a vet</td><td>um animal de estimação · um veterinário</td></tr>
+      <tr><td>a pet<br>a vet</td><td>um animal de estimação<br>um veterinário</td></tr>
       <tr><td>Have you got a minute?</td><td>Você tem um minuto?</td></tr>
       <tr><td>I've got a lot on my plate.</td><td>Estou cheio de coisas para fazer.</td></tr>
       <tr><td>You've got this!</td><td>Você consegue!</td></tr>

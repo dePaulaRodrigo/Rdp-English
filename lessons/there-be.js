@@ -8,7 +8,7 @@ pt:`
     <h2>There Be</h2>
     <p>O There Be diz que algo <b>existe</b>: é o "tem" e o "há" do português.</p>
     <ul>
-      <li><b>there is</b> (there's) — singular e incontáveis: There is a bakery on my street. · There is a lot of traffic.</li>
+      <li><b>there is</b> (there's) — singular e incontáveis: There is a bakery on my street.<br>There is a lot of traffic.</li>
       <li><b>there are</b> — plural: There are two bathrooms in my apartment.</li>
     </ul>
     <p class="note">O erro mais comum do brasileiro é traduzir "tem" por <i>have</i>: "Tem uma bagunça aqui." → <b>There is</b> a mess here. (<s>Have a mess</s>)</p>
@@ -25,7 +25,7 @@ pt:`
     </ul>
     <h3>Negativa, pergunta e resposta curta</h3>
     <ul>
-      <li>There <b>isn't</b> any milk. = There's <b>no</b> milk. · There <b>aren't</b> any eggs.</li>
+      <li>There <b>isn't</b> any milk. = There's <b>no</b> milk.<br>There <b>aren't</b> any eggs.</li>
       <li><b>Is there</b> a pharmacy near here? — Yes, there is. / No, there isn't. (<s>Yes, there's.</s>)</li>
       <li>How many students <b>are there</b> in your class?</li>
     </ul>
@@ -37,7 +37,7 @@ pt:`
       <tr><td>Futuro</td><td>there will be</td><td>there will be</td></tr>
       <tr><td>Going to</td><td>there is going to be</td><td>there are going to be</td></tr>
       <tr><td>Present Perfect</td><td>there has been</td><td>there have been</td></tr>
-      <tr><td>Modais</td><td colspan="2">there must be · there might be · there can't be</td></tr>
+      <tr><td>Modais</td><td colspan="2">there must be<br>there might be<br>there can't be</td></tr>
     </table>
     <ul>
       <li>There are 26 states and one federal district in Brazil.</li>
@@ -48,7 +48,7 @@ en:`
     <h2>There Be</h2>
     <p>There Be says that something <b>exists</b>.</p>
     <ul>
-      <li><b>there is</b> (there's) — singular and uncountable nouns: There is a bakery on my street. · There is a lot of traffic.</li>
+      <li><b>there is</b> (there's) — singular and uncountable nouns: There is a bakery on my street.<br>There is a lot of traffic.</li>
       <li><b>there are</b> — plural: There are two bathrooms in my apartment.</li>
     </ul>
     <p class="note">The most common mistake for Brazilians is translating "tem" as <i>have</i>: <b>There is</b> a mess here. (<s>Have a mess</s>)</p>
@@ -65,7 +65,7 @@ en:`
     </ul>
     <h3>Negatives, questions and short answers</h3>
     <ul>
-      <li>There <b>isn't</b> any milk. = There's <b>no</b> milk. · There <b>aren't</b> any eggs.</li>
+      <li>There <b>isn't</b> any milk. = There's <b>no</b> milk.<br>There <b>aren't</b> any eggs.</li>
       <li><b>Is there</b> a pharmacy near here? — Yes, there is. / No, there isn't. (<s>Yes, there's.</s>)</li>
       <li>How many students <b>are there</b> in your class?</li>
     </ul>
@@ -77,7 +77,7 @@ en:`
       <tr><td>Future</td><td>there will be</td><td>there will be</td></tr>
       <tr><td>Going to</td><td>there is going to be</td><td>there are going to be</td></tr>
       <tr><td>Present Perfect</td><td>there has been</td><td>there have been</td></tr>
-      <tr><td>Modals</td><td colspan="2">there must be · there might be · there can't be</td></tr>
+      <tr><td>Modals</td><td colspan="2">there must be<br>there might be<br>there can't be</td></tr>
     </table>
     <ul>
       <li>There are 26 states and one federal district in Brazil.</li>
@@ -90,24 +90,24 @@ pt:`
     <h2>A casa</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>living room · bedroom</td><td>sala · quarto</td></tr>
-      <tr><td>kitchen · bathroom</td><td>cozinha · banheiro</td></tr>
+      <tr><td>living room<br>bedroom</td><td>sala<br>quarto</td></tr>
+      <tr><td>kitchen<br>bathroom</td><td>cozinha<br>banheiro</td></tr>
       <tr><td>laundry room</td><td>lavanderia</td></tr>
-      <tr><td>balcony · yard</td><td>sacada · quintal</td></tr>
-      <tr><td>upstairs · downstairs</td><td>no andar de cima · de baixo</td></tr>
-      <tr><td>elevator · stairs</td><td>elevador · escada</td></tr>
+      <tr><td>balcony<br>yard</td><td>sacada<br>quintal</td></tr>
+      <tr><td>upstairs<br>downstairs</td><td>no andar de cima<br>de baixo</td></tr>
+      <tr><td>elevator<br>stairs</td><td>elevador<br>escada</td></tr>
       <tr><td>parking spot</td><td>vaga de garagem</td></tr>
-      <tr><td>apartment · building</td><td>apartamento · prédio</td></tr>
-      <tr><td>rent · to rent</td><td>aluguel · alugar</td></tr>
+      <tr><td>apartment<br>building</td><td>apartamento<br>prédio</td></tr>
+      <tr><td>rent<br>to rent</td><td>aluguel<br>alugar</td></tr>
       <tr><td>furnished</td><td>mobiliado</td></tr>
     </table>
     <h2>O bairro</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>nearby · near here</td><td>perto · aqui perto</td></tr>
+      <tr><td>nearby<br>near here</td><td>perto<br>aqui perto</td></tr>
       <tr><td>on the next block</td><td>no próximo quarteirão</td></tr>
-      <tr><td>noisy · quiet</td><td>barulhento · tranquilo</td></tr>
-      <tr><td>safe · dangerous</td><td>seguro · perigoso</td></tr>
+      <tr><td>noisy<br>quiet</td><td>barulhento<br>tranquilo</td></tr>
+      <tr><td>safe<br>dangerous</td><td>seguro<br>perigoso</td></tr>
       <tr><td>steep street</td><td>rua íngreme</td></tr>
     </table>
     <p class="note"><i>Bathroom</i> é o banheiro da casa; em lugares públicos, os americanos dizem <i>restroom</i>.</p>`,
@@ -115,24 +115,24 @@ en:`
     <h2>The home</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>living room · bedroom</td><td>sala · quarto</td></tr>
-      <tr><td>kitchen · bathroom</td><td>cozinha · banheiro</td></tr>
+      <tr><td>living room<br>bedroom</td><td>sala<br>quarto</td></tr>
+      <tr><td>kitchen<br>bathroom</td><td>cozinha<br>banheiro</td></tr>
       <tr><td>laundry room</td><td>lavanderia</td></tr>
-      <tr><td>balcony · yard</td><td>sacada · quintal</td></tr>
-      <tr><td>upstairs · downstairs</td><td>no andar de cima · de baixo</td></tr>
-      <tr><td>elevator · stairs</td><td>elevador · escada</td></tr>
+      <tr><td>balcony<br>yard</td><td>sacada<br>quintal</td></tr>
+      <tr><td>upstairs<br>downstairs</td><td>no andar de cima<br>de baixo</td></tr>
+      <tr><td>elevator<br>stairs</td><td>elevador<br>escada</td></tr>
       <tr><td>parking spot</td><td>vaga de garagem</td></tr>
-      <tr><td>apartment · building</td><td>apartamento · prédio</td></tr>
-      <tr><td>rent · to rent</td><td>aluguel · alugar</td></tr>
+      <tr><td>apartment<br>building</td><td>apartamento<br>prédio</td></tr>
+      <tr><td>rent<br>to rent</td><td>aluguel<br>alugar</td></tr>
       <tr><td>furnished</td><td>mobiliado</td></tr>
     </table>
     <h2>The neighborhood</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>nearby · near here</td><td>perto · aqui perto</td></tr>
+      <tr><td>nearby<br>near here</td><td>perto<br>aqui perto</td></tr>
       <tr><td>on the next block</td><td>no próximo quarteirão</td></tr>
-      <tr><td>noisy · quiet</td><td>barulhento · tranquilo</td></tr>
-      <tr><td>safe · dangerous</td><td>seguro · perigoso</td></tr>
+      <tr><td>noisy<br>quiet</td><td>barulhento<br>tranquilo</td></tr>
+      <tr><td>safe<br>dangerous</td><td>seguro<br>perigoso</td></tr>
       <tr><td>steep street</td><td>rua íngreme</td></tr>
     </table>
     <p class="note"><i>Bathroom</i> is the one at home; in public places, Americans say <i>restroom</i>.</p>`

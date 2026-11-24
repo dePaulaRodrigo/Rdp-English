@@ -8,16 +8,16 @@ pt:`
     <h2>Advérbios</h2>
     <p>Advérbios dizem <b>como</b>, <b>onde</b>, <b>quando</b>, <b>com que frequência</b> ou <b>quanto</b>. Eles modificam verbos, adjetivos e outros advérbios.</p>
     <ul>
-      <li>She runs <b>fast</b>. · It's <b>really</b> cold. · He plays <b>very</b> well.</li>
+      <li>She runs <b>fast</b>.<br>It's <b>really</b> cold.<br>He plays <b>very</b> well.</li>
     </ul>
     <h3>-LY = -mente</h3>
     <table>
       <tr><th>Regra</th><th>Exemplos</th></tr>
-      <tr><td>+ LY</td><td>slow → slowly · careful → carefully</td></tr>
-      <tr><td>-Y → -ILY</td><td>happy → happily · easy → easily</td></tr>
-      <tr><td>-LE → -LY</td><td>gentle → gently · simple → simply</td></tr>
-      <tr><td>-IC → -ICALLY</td><td>basic → basically · automatic → automatically</td></tr>
-      <tr><td>-UE → -ULY · -LL → -LLY</td><td>true → truly · full → fully</td></tr>
+      <tr><td>+ LY</td><td>slow → slowly<br>careful → carefully</td></tr>
+      <tr><td>-Y → -ILY</td><td>happy → happily<br>easy → easily</td></tr>
+      <tr><td>-LE → -LY</td><td>gentle → gently<br>simple → simply</td></tr>
+      <tr><td>-IC → -ICALLY</td><td>basic → basically<br>automatic → automatically</td></tr>
+      <tr><td>-UE → -ULY<br>-LL → -LLY</td><td>true → truly<br>full → fully</td></tr>
     </table>
     <p class="note">Exceção: public → <b>publicly</b>.</p>
     <h3>Sem -LY</h3>
@@ -37,23 +37,23 @@ pt:`
     <ul>
       <li>Modo, lugar e tempo: no fim, nessa ordem. She played <b>well</b> <b>in the final</b> <b>yesterday</b>.</li>
       <li>Nunca entre o verbo e o objeto: I speak English <b>well</b> (<s>I speak well English</s>).</li>
-      <li>Frequência: antes do verbo principal, depois do be. I <b>often</b> swim. · I'm <b>often</b> late.</li>
-      <li>Intensidade: antes do adjetivo. <b>very</b> fast · <b>really</b> good · <b>pretty</b> good (= bem bom).</li>
+      <li>Frequência: antes do verbo principal, depois do be. I <b>often</b> swim.<br>I'm <b>often</b> late.</li>
+      <li>Intensidade: antes do adjetivo. <b>very</b> fast<br><b>really</b> good<br><b>pretty</b> good (= bem bom).</li>
     </ul>`,
 en:`
     <h2>Adverbs</h2>
     <p>Adverbs say <b>how</b>, <b>where</b>, <b>when</b>, <b>how often</b> or <b>how much</b>. They modify verbs, adjectives and other adverbs.</p>
     <ul>
-      <li>She runs <b>fast</b>. · It's <b>really</b> cold. · He plays <b>very</b> well.</li>
+      <li>She runs <b>fast</b>.<br>It's <b>really</b> cold.<br>He plays <b>very</b> well.</li>
     </ul>
     <h3>-LY</h3>
     <table>
       <tr><th>Rule</th><th>Examples</th></tr>
-      <tr><td>+ LY</td><td>slow → slowly · careful → carefully</td></tr>
-      <tr><td>-Y → -ILY</td><td>happy → happily · easy → easily</td></tr>
-      <tr><td>-LE → -LY</td><td>gentle → gently · simple → simply</td></tr>
-      <tr><td>-IC → -ICALLY</td><td>basic → basically · automatic → automatically</td></tr>
-      <tr><td>-UE → -ULY · -LL → -LLY</td><td>true → truly · full → fully</td></tr>
+      <tr><td>+ LY</td><td>slow → slowly<br>careful → carefully</td></tr>
+      <tr><td>-Y → -ILY</td><td>happy → happily<br>easy → easily</td></tr>
+      <tr><td>-LE → -LY</td><td>gentle → gently<br>simple → simply</td></tr>
+      <tr><td>-IC → -ICALLY</td><td>basic → basically<br>automatic → automatically</td></tr>
+      <tr><td>-UE → -ULY<br>-LL → -LLY</td><td>true → truly<br>full → fully</td></tr>
     </table>
     <p class="note">Exception: public → <b>publicly</b>.</p>
     <h3>Without -LY</h3>
@@ -73,8 +73,8 @@ en:`
     <ul>
       <li>Manner, place and time: at the end, in that order. She played <b>well</b> <b>in the final</b> <b>yesterday</b>.</li>
       <li>Never between the verb and the object: I speak English <b>well</b> (<s>I speak well English</s>).</li>
-      <li>Frequency: before the main verb, after be. I <b>often</b> swim. · I'm <b>often</b> late.</li>
-      <li>Degree: before the adjective. <b>very</b> fast · <b>really</b> good · <b>pretty</b> good (= quite good).</li>
+      <li>Frequency: before the main verb, after be. I <b>often</b> swim.<br>I'm <b>often</b> late.</li>
+      <li>Degree: before the adjective. <b>very</b> fast<br><b>really</b> good<br><b>pretty</b> good (= quite good).</li>
     </ul>`
   },
   vocab:{
@@ -83,11 +83,11 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to work out</td><td>malhar, treinar</td></tr>
-      <tr><td>to go running · cycling · swimming</td><td>correr · pedalar · nadar</td></tr>
-      <tr><td>to play soccer · chess</td><td>jogar futebol · xadrez</td></tr>
-      <tr><td>a match · a game</td><td>uma partida</td></tr>
+      <tr><td>to go running<br>cycling<br>swimming</td><td>correr<br>pedalar<br>nadar</td></tr>
+      <tr><td>to play soccer<br>chess</td><td>jogar futebol<br>xadrez</td></tr>
+      <tr><td>a match<br>a game</td><td>uma partida</td></tr>
       <tr><td>to score a goal</td><td>fazer um gol</td></tr>
-      <tr><td>to win · to lose</td><td>ganhar · perder</td></tr>
+      <tr><td>to win<br>to lose</td><td>ganhar<br>perder</td></tr>
       <tr><td>a coach</td><td>um técnico, treinador</td></tr>
       <tr><td>a teammate</td><td>um colega de time</td></tr>
       <tr><td>to practice</td><td>praticar, treinar</td></tr>
@@ -101,11 +101,11 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to work out</td><td>malhar, treinar</td></tr>
-      <tr><td>to go running · cycling · swimming</td><td>correr · pedalar · nadar</td></tr>
-      <tr><td>to play soccer · chess</td><td>jogar futebol · xadrez</td></tr>
-      <tr><td>a match · a game</td><td>uma partida</td></tr>
+      <tr><td>to go running<br>cycling<br>swimming</td><td>correr<br>pedalar<br>nadar</td></tr>
+      <tr><td>to play soccer<br>chess</td><td>jogar futebol<br>xadrez</td></tr>
+      <tr><td>a match<br>a game</td><td>uma partida</td></tr>
       <tr><td>to score a goal</td><td>fazer um gol</td></tr>
-      <tr><td>to win · to lose</td><td>ganhar · perder</td></tr>
+      <tr><td>to win<br>to lose</td><td>ganhar<br>perder</td></tr>
       <tr><td>a coach</td><td>um técnico, treinador</td></tr>
       <tr><td>a teammate</td><td>um colega de time</td></tr>
       <tr><td>to practice</td><td>praticar, treinar</td></tr>
@@ -169,7 +169,7 @@ en:`
          why:{pt:"O advérbio não fica entre o verbo e o objeto.", en:"The adverb doesn't go between the verb and the object."}},
         {q:"Natural order: ___", o:["He played well in the final yesterday.","He played yesterday well in the final.","He played in the final well yesterday."], a:0, sub:"position",
          why:{pt:"Modo → lugar → tempo.", en:"Manner → place → time."}},
-        {q:"Marta is a ___ player. She plays ___.", o:["good · well","well · good","good · good"], a:0, sub:"good → well",
+        {q:"Marta is a ___ player. She plays ___.", o:["good / well","well / good","good / good"], a:0, sub:"good → well",
          why:{pt:"Good descreve o substantivo; well descreve o verbo.", en:"Good describes the noun; well describes the verb."}},
         {q:"The plane flew very ___ over the Andes.", o:["high","highly","higher"], a:0, sub:"no -ly",
          why:{pt:"High = alto (altura física).", en:"High = at a great height."}},
@@ -194,7 +194,7 @@ en:`
         ["Tiago","I [[7]] run twice a week. (usual)"],
         ["Paula","Good. You're improving [[8]]. (quick)"],
         ["Tiago","I want to run a half marathon next year."],
-        ["Paula","You can do it [[9]]. Just train [[10]]. (easy · regular)"]
+        ["Paula","You can do it [[9]]. Just train [[10]]. (easy / regular)"]
       ],
       bank:["well","fast","slowly","terribly","properly","late","usually","quickly","easily","regularly","good","fastly"],
       answers:{1:["well"],2:["fast"],3:["slowly"],4:["terribly"],5:["properly"],6:["late"],7:["usually"],8:["quickly"],9:["easily"],10:["regularly"]},

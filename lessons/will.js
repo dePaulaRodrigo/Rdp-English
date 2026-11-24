@@ -6,22 +6,22 @@ addLesson({
   explanation:{
 pt:`
     <h2>Future Simple (WILL)</h2>
-    <p><b>WILL</b> + verbo na forma base, para todas as pessoas: I will study. · This will be a good year.</p>
+    <p><b>WILL</b> + verbo na forma base, para todas as pessoas: I will study.<br>This will be a good year.</p>
     <ul>
-      <li>Contrações: I'll · she'll · will not → <b>won't</b></li>
+      <li>Contrações: I'll<br>she'll<br>will not → <b>won't</b></li>
       <li>Pergunta: <b>Will</b> you be here tomorrow? — Yes, I will. / No, I won't.</li>
     </ul>
     <h3>Quando usar</h3>
     <ul>
-      <li><b>Decisão na hora</b>: "We're out of milk." — "I'll buy some." · <i>(alguém bate na porta)</i> I'll get it.</li>
-      <li><b>Previsão de opinião</b>: I think it will rain tomorrow. · She'll probably be late.</li>
-      <li><b>Promessas</b>: I'll call you tonight. · I won't tell anyone.</li>
-      <li><b>Ofertas e pedidos</b>: I'll help you. · Will you close the door, please?</li>
+      <li><b>Decisão na hora</b>: "We're out of milk." — "I'll buy some."<br><i>(alguém bate na porta)</i> I'll get it.</li>
+      <li><b>Previsão de opinião</b>: I think it will rain tomorrow.<br>She'll probably be late.</li>
+      <li><b>Promessas</b>: I'll call you tonight.<br>I won't tell anyone.</li>
+      <li><b>Ofertas e pedidos</b>: I'll help you.<br>Will you close the door, please?</li>
       <li><b>Recusas</b>: The car won't start.</li>
       <li><b>Pedido no restaurante</b>: I'll have the fish.</li>
-      <li><b>Fatos do futuro</b>: I'll be 30 next year. · Halley's Comet will return in 2061.</li>
+      <li><b>Fatos do futuro</b>: I'll be 30 next year.<br>Halley's Comet will return in 2061.</li>
     </ul>
-    <p class="note"><i>Probably</i> vem depois de <i>will</i> e antes de <i>won't</i>: I'll probably go. · I probably won't go. Para oferecer, o inglês americano usa <i>should</i>: Should I open the window?</p>
+    <p class="note"><i>Probably</i> vem depois de <i>will</i> e antes de <i>won't</i>: I'll probably go.<br>I probably won't go. Para oferecer, o inglês americano usa <i>should</i>: Should I open the window?</p>
     <h3>Quando eu chegar: sem WILL depois de WHEN</h3>
     <p>Onde o português usa o futuro do subjuntivo, o inglês usa o <b>Present Simple</b>, depois de <i>when, if, as soon as, before, after, until</i>:</p>
     <ul>
@@ -31,22 +31,22 @@ pt:`
     </ul>`,
 en:`
     <h2>Future Simple (WILL)</h2>
-    <p><b>WILL</b> + base form, for every person: I will study. · This will be a good year.</p>
+    <p><b>WILL</b> + base form, for every person: I will study.<br>This will be a good year.</p>
     <ul>
-      <li>Contractions: I'll · she'll · will not → <b>won't</b></li>
+      <li>Contractions: I'll<br>she'll<br>will not → <b>won't</b></li>
       <li>Question: <b>Will</b> you be here tomorrow? — Yes, I will. / No, I won't.</li>
     </ul>
     <h3>When to use it</h3>
     <ul>
-      <li><b>Instant decisions</b>: "We're out of milk." — "I'll buy some." · <i>(someone knocks)</i> I'll get it.</li>
-      <li><b>Predictions based on opinion</b>: I think it will rain tomorrow. · She'll probably be late.</li>
-      <li><b>Promises</b>: I'll call you tonight. · I won't tell anyone.</li>
-      <li><b>Offers and requests</b>: I'll help you. · Will you close the door, please?</li>
+      <li><b>Instant decisions</b>: "We're out of milk." — "I'll buy some."<br><i>(someone knocks)</i> I'll get it.</li>
+      <li><b>Predictions based on opinion</b>: I think it will rain tomorrow.<br>She'll probably be late.</li>
+      <li><b>Promises</b>: I'll call you tonight.<br>I won't tell anyone.</li>
+      <li><b>Offers and requests</b>: I'll help you.<br>Will you close the door, please?</li>
       <li><b>Refusals</b>: The car won't start.</li>
       <li><b>Ordering food</b>: I'll have the fish.</li>
-      <li><b>Future facts</b>: I'll be 30 next year. · Halley's Comet will return in 2061.</li>
+      <li><b>Future facts</b>: I'll be 30 next year.<br>Halley's Comet will return in 2061.</li>
     </ul>
-    <p class="note"><i>Probably</i> goes after <i>will</i> and before <i>won't</i>: I'll probably go. · I probably won't go. To offer, American English uses <i>should</i>: Should I open the window?</p>
+    <p class="note"><i>Probably</i> goes after <i>will</i> and before <i>won't</i>: I'll probably go.<br>I probably won't go. To offer, American English uses <i>should</i>: Should I open the window?</p>
     <h3>No WILL after WHEN</h3>
     <p>After <i>when, if, as soon as, before, after, until</i>, English uses the <b>Present Simple</b> for the future:</p>
     <ul>
@@ -62,15 +62,15 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>A table for two, please.</td><td>Uma mesa para dois, por favor.</td></tr>
       <tr><td>Are you ready to order?</td><td>Já podem pedir?</td></tr>
-      <tr><td>I'll have… · I'd like…</td><td>Vou querer… · Eu gostaria de…</td></tr>
+      <tr><td>I'll have…<br>I'd like…</td><td>Vou querer…<br>Eu gostaria de…</td></tr>
       <tr><td>How would you like it cooked?</td><td>Qual o ponto da carne?</td></tr>
-      <tr><td>rare · medium · well-done</td><td>malpassado · ao ponto · bem-passado</td></tr>
+      <tr><td>rare<br>medium<br>well-done</td><td>malpassado<br>ao ponto<br>bem-passado</td></tr>
       <tr><td>side dish</td><td>acompanhamento</td></tr>
       <tr><td>Can we have the check, please?</td><td>A conta, por favor.</td></tr>
       <tr><td>to split the check</td><td>dividir a conta</td></tr>
       <tr><td>It's on me.</td><td>Eu pago.</td></tr>
       <tr><td>tip</td><td>gorjeta</td></tr>
-      <tr><td>to go · for here</td><td>para viagem · para comer aqui</td></tr>
+      <tr><td>to go<br>for here</td><td>para viagem<br>para comer aqui</td></tr>
       <tr><td>refill</td><td>repetir a bebida</td></tr>
     </table>
     <p class="note">No inglês americano, a conta do restaurante é <i>the check</i>; <i>the bill</i> é mais britânico.</p>`,
@@ -80,15 +80,15 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>A table for two, please.</td><td>Uma mesa para dois, por favor.</td></tr>
       <tr><td>Are you ready to order?</td><td>Já podem pedir?</td></tr>
-      <tr><td>I'll have… · I'd like…</td><td>Vou querer… · Eu gostaria de…</td></tr>
+      <tr><td>I'll have…<br>I'd like…</td><td>Vou querer…<br>Eu gostaria de…</td></tr>
       <tr><td>How would you like it cooked?</td><td>Qual o ponto da carne?</td></tr>
-      <tr><td>rare · medium · well-done</td><td>malpassado · ao ponto · bem-passado</td></tr>
+      <tr><td>rare<br>medium<br>well-done</td><td>malpassado<br>ao ponto<br>bem-passado</td></tr>
       <tr><td>side dish</td><td>acompanhamento</td></tr>
       <tr><td>Can we have the check, please?</td><td>A conta, por favor.</td></tr>
       <tr><td>to split the check</td><td>dividir a conta</td></tr>
       <tr><td>It's on me.</td><td>Eu pago.</td></tr>
       <tr><td>tip</td><td>gorjeta</td></tr>
-      <tr><td>to go · for here</td><td>para viagem · para comer aqui</td></tr>
+      <tr><td>to go<br>for here</td><td>para viagem<br>para comer aqui</td></tr>
       <tr><td>refill</td><td>repetir a bebida</td></tr>
     </table>
     <p class="note">In American English, the restaurant bill is <i>the check</i>; <i>the bill</i> is more British.</p>`

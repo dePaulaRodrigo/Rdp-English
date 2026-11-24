@@ -10,13 +10,13 @@ pt:`
     <h3>As regras</h3>
     <ul>
       <li><b>Nunca mudam</b>: sem S na terceira pessoa (<s>she shoulds</s>).</li>
-      <li><b>Não usam auxiliares</b>: Should I call her? (<s>Do I should</s>) · You shouldn't (<s>don't should</s>).</li>
+      <li><b>Não usam auxiliares</b>: Should I call her? (<s>Do I should</s>)<br>You shouldn't (<s>don't should</s>).</li>
       <li><b>Sem TO</b> antes nem depois: I must study (<s>must to study</s>). Exceção: <i>ought to</i>.</li>
     </ul>
     <h3>Cada modal</h3>
     <ul>
-      <li><b>should</b> = deveria (conselho): You should read this book. · This shouldn't be hard. (expectativa)</li>
-      <li><b>may</b> = poder (possibilidade; permissão muito educada; desejo): My team may win. · May I help you? · May the force be with you.</li>
+      <li><b>should</b> = deveria (conselho): You should read this book.<br>This shouldn't be hard. (expectativa)</li>
+      <li><b>may</b> = poder (possibilidade; permissão muito educada; desejo): My team may win.<br>May I help you?<br>May the force be with you.</li>
       <li><b>might</b> = poder (só possibilidade): It might rain today.</li>
       <li><b>had better</b> ('d better) = é melhor (com aviso): You'd better leave now, or you'll miss the bus.</li>
       <li><b>ought to</b> = should, mais formal: You ought to apologize.</li>
@@ -26,12 +26,12 @@ pt:`
     <table>
       <tr><th>Modal</th><th>Certeza</th><th>Exemplo</th></tr>
       <tr><td>must</td><td>quase certeza de que sim</td><td>She must be tired.</td></tr>
-      <tr><td>may · might · could</td><td>talvez</td><td>He might be at home.</td></tr>
+      <tr><td>may<br>might<br>could</td><td>talvez</td><td>He might be at home.</td></tr>
       <tr><td>can't</td><td>quase certeza de que não</td><td>That can't be true!</td></tr>
     </table>
     <p>Ação em andamento: modal + be + -ING — He must be sleeping. O oposto de <i>must</i> aqui é <i>can't</i>, não <i>mustn't</i>.</p>
     <h3>Negativas</h3>
-    <p>can't · couldn't · mustn't · shouldn't · may not · might not</p>
+    <p>can't<br>couldn't<br>mustn't<br>shouldn't<br>may not<br>might not</p>
     <p class="note">Para oferecer ou sugerir, o inglês americano usa <i>should</i>: Should I open the window? (<i>Shall I</i> é mais britânico.)</p>`,
 en:`
     <h2>Modal verbs</h2>
@@ -39,13 +39,13 @@ en:`
     <h3>The rules</h3>
     <ul>
       <li><b>They never change</b>: no S in the third person (<s>she shoulds</s>).</li>
-      <li><b>No auxiliaries</b>: Should I call her? (<s>Do I should</s>) · You shouldn't (<s>don't should</s>).</li>
+      <li><b>No auxiliaries</b>: Should I call her? (<s>Do I should</s>)<br>You shouldn't (<s>don't should</s>).</li>
       <li><b>No TO</b> before or after: I must study (<s>must to study</s>). Exception: <i>ought to</i>.</li>
     </ul>
     <h3>Each modal</h3>
     <ul>
-      <li><b>should</b> — advice: You should read this book. · This shouldn't be hard. (expectation)</li>
-      <li><b>may</b> — possibility; very polite permission; wishes: My team may win. · May I help you? · May the force be with you.</li>
+      <li><b>should</b> — advice: You should read this book.<br>This shouldn't be hard. (expectation)</li>
+      <li><b>may</b> — possibility; very polite permission; wishes: My team may win.<br>May I help you?<br>May the force be with you.</li>
       <li><b>might</b> — possibility only: It might rain today.</li>
       <li><b>had better</b> ('d better) — strong advice with a warning: You'd better leave now, or you'll miss the bus.</li>
       <li><b>ought to</b> — like should, more formal: You ought to apologize.</li>
@@ -55,12 +55,12 @@ en:`
     <table>
       <tr><th>Modal</th><th>Certainty</th><th>Example</th></tr>
       <tr><td>must</td><td>almost sure it is true</td><td>She must be tired.</td></tr>
-      <tr><td>may · might · could</td><td>perhaps</td><td>He might be at home.</td></tr>
+      <tr><td>may<br>might<br>could</td><td>perhaps</td><td>He might be at home.</td></tr>
       <tr><td>can't</td><td>almost sure it is not true</td><td>That can't be true!</td></tr>
     </table>
     <p>For an action in progress: modal + be + -ING — He must be sleeping. The opposite of <i>must</i> here is <i>can't</i>, not <i>mustn't</i>.</p>
     <h3>Negatives</h3>
-    <p>can't · couldn't · mustn't · shouldn't · may not · might not</p>
+    <p>can't<br>couldn't<br>mustn't<br>shouldn't<br>may not<br>might not</p>
     <p class="note">To offer or suggest, American English uses <i>should</i>: Should I open the window? (<i>Shall I</i> is more British.)</p>`
   },
   vocab:{
@@ -68,38 +68,38 @@ pt:`
     <h2>Conselhos de viagem</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>It's worth it. · It's worth visiting.</td><td>Vale a pena. · Vale a pena visitar.</td></tr>
+      <tr><td>It's worth it.<br>It's worth visiting.</td><td>Vale a pena.<br>Vale a pena visitar.</td></tr>
       <tr><td>to pack light</td><td>levar pouca bagagem</td></tr>
       <tr><td>to rent a car</td><td>alugar um carro</td></tr>
       <tr><td>hiking boots</td><td>botas de trilha</td></tr>
       <tr><td>layers</td><td>roupas em camadas</td></tr>
-      <tr><td>windy · chilly</td><td>com muito vento · friozinho</td></tr>
+      <tr><td>windy<br>chilly</td><td>com muito vento<br>friozinho</td></tr>
       <tr><td>glacier</td><td>geleira</td></tr>
       <tr><td>to fill up fast</td><td>lotar rápido</td></tr>
-      <tr><td>off-season · high season</td><td>baixa temporada · alta temporada</td></tr>
-      <tr><td>cash · card</td><td>dinheiro · cartão</td></tr>
+      <tr><td>off-season<br>high season</td><td>baixa temporada<br>alta temporada</td></tr>
+      <tr><td>cash<br>card</td><td>dinheiro<br>cartão</td></tr>
       <tr><td>travel insurance</td><td>seguro-viagem</td></tr>
       <tr><td>tourist trap</td><td>armadilha para turista</td></tr>
     </table>
-    <p class="note"><i>Worth</i> vem seguido de substantivo ou -ING: It's worth the money. · It's worth seeing.</p>`,
+    <p class="note"><i>Worth</i> vem seguido de substantivo ou -ING: It's worth the money.<br>It's worth seeing.</p>`,
 en:`
     <h2>Travel advice</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>It's worth it. · It's worth visiting.</td><td>Vale a pena. · Vale a pena visitar.</td></tr>
+      <tr><td>It's worth it.<br>It's worth visiting.</td><td>Vale a pena.<br>Vale a pena visitar.</td></tr>
       <tr><td>to pack light</td><td>levar pouca bagagem</td></tr>
       <tr><td>to rent a car</td><td>alugar um carro</td></tr>
       <tr><td>hiking boots</td><td>botas de trilha</td></tr>
       <tr><td>layers</td><td>roupas em camadas</td></tr>
-      <tr><td>windy · chilly</td><td>com muito vento · friozinho</td></tr>
+      <tr><td>windy<br>chilly</td><td>com muito vento<br>friozinho</td></tr>
       <tr><td>glacier</td><td>geleira</td></tr>
       <tr><td>to fill up fast</td><td>lotar rápido</td></tr>
-      <tr><td>off-season · high season</td><td>baixa temporada · alta temporada</td></tr>
-      <tr><td>cash · card</td><td>dinheiro · cartão</td></tr>
+      <tr><td>off-season<br>high season</td><td>baixa temporada<br>alta temporada</td></tr>
+      <tr><td>cash<br>card</td><td>dinheiro<br>cartão</td></tr>
       <tr><td>travel insurance</td><td>seguro-viagem</td></tr>
       <tr><td>tourist trap</td><td>armadilha para turista</td></tr>
     </table>
-    <p class="note"><i>Worth</i> is followed by a noun or -ING: It's worth the money. · It's worth seeing.</p>`
+    <p class="note"><i>Worth</i> is followed by a noun or -ING: It's worth the money.<br>It's worth seeing.</p>`
   },
   exercises:[
     { id:"mc-easy", title:"Multiple choice — should, may, might", type:"mc",

@@ -24,11 +24,11 @@ pt:`
     <h3>Nunca WILL depois do IF</h3>
     <p>If it <b>rains</b> (<s>If it will rain</s>). O mesmo vale para <b>when, as soon as, before, after, until</b>: I'll call you when I <b>get</b> home.</p>
     <h3>A vírgula</h3>
-    <p>If primeiro → vírgula: If you're cold, close the window. · If depois → sem vírgula: Close the window if you're cold.</p>
+    <p>If primeiro → vírgula: If you're cold, close the window.<br>If depois → sem vírgula: Close the window if you're cold.</p>
     <h3>Imperativo na consequência</h3>
     <p>If you see Maria, <b>tell</b> her I said hi.</p>
     <h3>WHEN × IF</h3>
-    <p><b>When</b> I get home = vou chegar, é certo. · <b>If</b> I get home early = talvez.</p>
+    <p><b>When</b> I get home = vou chegar, é certo.<br><b>If</b> I get home early = talvez.</p>
     <h3>Unless, as long as, in case</h3>
     <table>
       <tr><th>Conectivo</th><th>Sentido</th><th>Exemplo</th></tr>
@@ -57,11 +57,11 @@ en:`
     <h3>Never WILL after IF</h3>
     <p>If it <b>rains</b> (<s>If it will rain</s>). The same goes for <b>when, as soon as, before, after, until</b>: I'll call you when I <b>get</b> home.</p>
     <h3>The comma</h3>
-    <p>If first → comma: If you're cold, close the window. · If second → no comma: Close the window if you're cold.</p>
+    <p>If first → comma: If you're cold, close the window.<br>If second → no comma: Close the window if you're cold.</p>
     <h3>Imperative in the result</h3>
     <p>If you see Maria, <b>tell</b> her I said hi.</p>
     <h3>WHEN × IF</h3>
-    <p><b>When</b> I get home = it will happen. · <b>If</b> I get home early = maybe.</p>
+    <p><b>When</b> I get home = it will happen.<br><b>If</b> I get home early = maybe.</p>
     <h3>Unless, as long as, in case</h3>
     <table>
       <tr><th>Connector</th><th>Meaning</th><th>Example</th></tr>
@@ -77,15 +77,15 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>a plan B</td><td>um plano B</td></tr>
-      <tr><td>to cancel · to postpone</td><td>cancelar · adiar</td></tr>
+      <tr><td>to cancel<br>to postpone</td><td>cancelar<br>adiar</td></tr>
       <tr><td>to book in advance</td><td>reservar com antecedência</td></tr>
       <tr><td>a deadline</td><td>um prazo</td></tr>
       <tr><td>to miss (the bus)</td><td>perder (o ônibus)</td></tr>
-      <tr><td>to be late · on time</td><td>atrasar · chegar no horário</td></tr>
+      <tr><td>to be late<br>on time</td><td>atrasar<br>chegar no horário</td></tr>
       <tr><td>a forecast</td><td>uma previsão do tempo</td></tr>
       <tr><td>to save money</td><td>economizar</td></tr>
       <tr><td>to get a raise</td><td>ter um aumento</td></tr>
-      <tr><td>to pass · to fail (a test)</td><td>passar · reprovar</td></tr>
+      <tr><td>to pass<br>to fail (a test)</td><td>passar<br>reprovar</td></tr>
       <tr><td>to make it</td><td>conseguir chegar, dar conta</td></tr>
       <tr><td>just in case</td><td>só por precaução</td></tr>
     </table>`,
@@ -94,15 +94,15 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>a plan B</td><td>um plano B</td></tr>
-      <tr><td>to cancel · to postpone</td><td>cancelar · adiar</td></tr>
+      <tr><td>to cancel<br>to postpone</td><td>cancelar<br>adiar</td></tr>
       <tr><td>to book in advance</td><td>reservar com antecedência</td></tr>
       <tr><td>a deadline</td><td>um prazo</td></tr>
       <tr><td>to miss (the bus)</td><td>perder (o ônibus)</td></tr>
-      <tr><td>to be late · on time</td><td>atrasar · chegar no horário</td></tr>
+      <tr><td>to be late<br>on time</td><td>atrasar<br>chegar no horário</td></tr>
       <tr><td>a forecast</td><td>uma previsão do tempo</td></tr>
       <tr><td>to save money</td><td>economizar</td></tr>
       <tr><td>to get a raise</td><td>ter um aumento</td></tr>
-      <tr><td>to pass · to fail (a test)</td><td>passar · reprovar</td></tr>
+      <tr><td>to pass<br>to fail (a test)</td><td>passar<br>reprovar</td></tr>
       <tr><td>to make it</td><td>conseguir chegar, dar conta</td></tr>
       <tr><td>just in case</td><td>só por precaução</td></tr>
     </table>`

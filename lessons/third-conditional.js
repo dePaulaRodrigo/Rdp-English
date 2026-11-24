@@ -19,7 +19,7 @@ pt:`
       <li><b>might have</b> = talvez tivesse: If Napoleon hadn't invaded Russia in 1812, he might have kept his empire.</li>
     </ul>
     <h3>As contrações</h3>
-    <p>If I<b>'d</b> known, I<b>'d have</b> come. ('d = had na condição; 'd = would na consequência) · would've /ˈwʊdəv/. O certo é sempre <b>have</b>, nunca <s>would of</s>.</p>
+    <p>If I<b>'d</b> known, I<b>'d have</b> come. ('d = had na condição; 'd = would na consequência)<br>would've /ˈwʊdəv/. O certo é sempre <b>have</b>, nunca <s>would of</s>.</p>
     <h3>Nunca WOULD HAVE depois do IF</h3>
     <p><b>If I had known</b> (<s>If I would have known</s>). A forma riscada aparece na fala americana, mas é considerada erro na norma padrão.</p>
     <h3>A inversão sem IF (formal)</h3>
@@ -51,7 +51,7 @@ en:`
       <li><b>might have</b>: If Napoleon hadn't invaded Russia in 1812, he might have kept his empire.</li>
     </ul>
     <h3>Contractions</h3>
-    <p>If I<b>'d</b> known, I<b>'d have</b> come. ('d = had in the condition; 'd = would in the result) · would've /ˈwʊdəv/. It's always <b>have</b>, never <s>would of</s>.</p>
+    <p>If I<b>'d</b> known, I<b>'d have</b> come. ('d = had in the condition; 'd = would in the result)<br>would've /ˈwʊdəv/. It's always <b>have</b>, never <s>would of</s>.</p>
     <h3>Never WOULD HAVE after IF</h3>
     <p><b>If I had known</b> (<s>If I would have known</s>). The crossed-out form is heard in American speech, but it's considered an error in standard English.</p>
     <h3>Inversion without IF (formal)</h3>

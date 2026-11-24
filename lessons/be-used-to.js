@@ -13,11 +13,11 @@ pt:`
     </ul>
     <h3>GET USED TO = se acostumar</h3>
     <ul>
-      <li>You need to get used to English. · I'm getting used to my new laptop.</li>
+      <li>You need to get used to English.<br>I'm getting used to my new laptop.</li>
       <li>How long did it take you to get used to it?</li>
     </ul>
-    <p class="note">O TO aqui é <b>preposição</b>. Depois dele vem substantivo, pronome ou <b>-ING</b>: I'm used to <b>the noise</b> · I'm used to <b>it</b> · I'm used to <b>waking</b> up early (<s>I'm used to wake up</s>).</p>
-    <p>O BE e o GET mudam de tempo normalmente: I <b>was</b> used to · I'll <b>be</b> used to · I <b>got</b> used to · I'm <b>getting</b> used to (o processo).</p>
+    <p class="note">O TO aqui é <b>preposição</b>. Depois dele vem substantivo, pronome ou <b>-ING</b>: I'm used to <b>the noise</b><br>I'm used to <b>it</b><br>I'm used to <b>waking</b> up early (<s>I'm used to wake up</s>).</p>
+    <p>O BE e o GET mudam de tempo normalmente: I <b>was</b> used to<br>I'll <b>be</b> used to<br>I <b>got</b> used to<br>I'm <b>getting</b> used to (o processo).</p>
     <h3>Não confunda</h3>
     <table>
       <tr><th>Expressão</th><th>Sentido</th><th>Depois dele</th></tr>
@@ -41,11 +41,11 @@ en:`
     </ul>
     <h3>GET USED TO = become accustomed to</h3>
     <ul>
-      <li>You need to get used to English. · I'm getting used to my new laptop.</li>
+      <li>You need to get used to English.<br>I'm getting used to my new laptop.</li>
       <li>How long did it take you to get used to it?</li>
     </ul>
-    <p class="note">Here, TO is a <b>preposition</b>. It is followed by a noun, a pronoun or <b>-ING</b>: I'm used to <b>the noise</b> · I'm used to <b>it</b> · I'm used to <b>waking</b> up early (<s>I'm used to wake up</s>).</p>
-    <p>BE and GET change tense normally: I <b>was</b> used to · I'll <b>be</b> used to · I <b>got</b> used to · I'm <b>getting</b> used to (the process).</p>
+    <p class="note">Here, TO is a <b>preposition</b>. It is followed by a noun, a pronoun or <b>-ING</b>: I'm used to <b>the noise</b><br>I'm used to <b>it</b><br>I'm used to <b>waking</b> up early (<s>I'm used to wake up</s>).</p>
+    <p>BE and GET change tense normally: I <b>was</b> used to<br>I'll <b>be</b> used to<br>I <b>got</b> used to<br>I'm <b>getting</b> used to (the process).</p>
     <h3>Don't mix them up</h3>
     <table>
       <tr><th>Expression</th><th>Meaning</th><th>Followed by</th></tr>
@@ -69,9 +69,9 @@ pt:`
       <tr><td>to move abroad</td><td>mudar para o exterior</td></tr>
       <tr><td>newcomer</td><td>recém-chegado</td></tr>
       <tr><td>to settle in</td><td>instalar-se, ambientar-se</td></tr>
-      <tr><td>to adapt · adaptation</td><td>adaptar-se · adaptação</td></tr>
+      <tr><td>to adapt<br>adaptation</td><td>adaptar-se<br>adaptação</td></tr>
       <tr><td>culture shock</td><td>choque cultural</td></tr>
-      <tr><td>homesick · homesickness</td><td>com saudade de casa · saudade de casa</td></tr>
+      <tr><td>homesick<br>homesickness</td><td>com saudade de casa<br>saudade de casa</td></tr>
       <tr><td>time difference</td><td>diferença de fuso</td></tr>
       <tr><td>to feel at home</td><td>sentir-se em casa</td></tr>
       <tr><td>lonely</td><td>sozinho, solitário</td></tr>
@@ -87,9 +87,9 @@ en:`
       <tr><td>to move abroad</td><td>mudar para o exterior</td></tr>
       <tr><td>newcomer</td><td>recém-chegado</td></tr>
       <tr><td>to settle in</td><td>instalar-se, ambientar-se</td></tr>
-      <tr><td>to adapt · adaptation</td><td>adaptar-se · adaptação</td></tr>
+      <tr><td>to adapt<br>adaptation</td><td>adaptar-se<br>adaptação</td></tr>
       <tr><td>culture shock</td><td>choque cultural</td></tr>
-      <tr><td>homesick · homesickness</td><td>com saudade de casa · saudade de casa</td></tr>
+      <tr><td>homesick<br>homesickness</td><td>com saudade de casa<br>saudade de casa</td></tr>
       <tr><td>time difference</td><td>diferença de fuso</td></tr>
       <tr><td>to feel at home</td><td>sentir-se em casa</td></tr>
       <tr><td>lonely</td><td>sozinho, solitário</td></tr>

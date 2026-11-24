@@ -10,40 +10,40 @@ pt:`
     <ol>
       <li><b>verbo + TO + verbo</b>: I want to learn guitar.</li>
       <li><b>verbo + -ING</b>: I enjoy cooking.</li>
-      <li><b>verbo + verbo</b> (depois de modais, let, make): I can swim. · Let me help.</li>
+      <li><b>verbo + verbo</b> (depois de modais, let, make): I can swim.<br>Let me help.</li>
     </ol>
     <h3>Verbos que pedem TO</h3>
-    <p>want · need · would like · hope · plan · decide · learn · try · promise · agree · refuse · afford · manage · seem · forget</p>
+    <p>want<br>need<br>would like<br>hope<br>plan<br>decide<br>learn<br>try<br>promise<br>agree<br>refuse<br>afford<br>manage<br>seem<br>forget</p>
     <h3>Verbos que pedem -ING</h3>
-    <p>enjoy · mind · finish · quit · give up · avoid · keep · practice · consider · suggest · recommend · miss · can't stand · spend (time)</p>
+    <p>enjoy<br>mind<br>finish<br>quit<br>give up<br>avoid<br>keep<br>practice<br>consider<br>suggest<br>recommend<br>miss<br>can't stand<br>spend (time)</p>
     <p class="note">I suggest <b>taking</b> the subway (<s>suggest to take</s>).</p>
     <h3>Os dois, sem mudar o sentido</h3>
-    <p>like · love · hate · prefer · start · begin · continue: It started <b>to rain</b> = It started <b>raining</b>.</p>
+    <p>like<br>love<br>hate<br>prefer<br>start<br>begin<br>continue: It started <b>to rain</b> = It started <b>raining</b>.</p>
     <p class="note">Com <b>would</b>, só TO: I'd love <b>to</b> go (<s>I'd love going</s>).</p>
     <h3>A negativa</h3>
-    <p><b>not</b> antes do TO ou do -ING: I decided <b>not to</b> go. · I enjoy <b>not working</b> on Sundays.</p>
+    <p><b>not</b> antes do TO ou do -ING: I decided <b>not to</b> go.<br>I enjoy <b>not working</b> on Sundays.</p>
     <h3>TO = para (finalidade)</h3>
-    <p>I study English <b>to get</b> a better job (<s>for get</s>). · <b>for</b> + -ING = serve para: This app is good <b>for learning</b> words.</p>`,
+    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = serve para: This app is good <b>for learning</b> words.</p>`,
 en:`
     <h2>Two verbs together: the three patterns</h2>
     <p>When two verbs appear together, the second follows one of these patterns:</p>
     <ol>
       <li><b>verb + TO + verb</b>: I want to learn guitar.</li>
       <li><b>verb + -ING</b>: I enjoy cooking.</li>
-      <li><b>verb + verb</b> (after modals, let, make): I can swim. · Let me help.</li>
+      <li><b>verb + verb</b> (after modals, let, make): I can swim.<br>Let me help.</li>
     </ol>
     <h3>Verbs followed by TO</h3>
-    <p>want · need · would like · hope · plan · decide · learn · try · promise · agree · refuse · afford · manage · seem · forget</p>
+    <p>want<br>need<br>would like<br>hope<br>plan<br>decide<br>learn<br>try<br>promise<br>agree<br>refuse<br>afford<br>manage<br>seem<br>forget</p>
     <h3>Verbs followed by -ING</h3>
-    <p>enjoy · mind · finish · quit · give up · avoid · keep · practice · consider · suggest · recommend · miss · can't stand · spend (time)</p>
+    <p>enjoy<br>mind<br>finish<br>quit<br>give up<br>avoid<br>keep<br>practice<br>consider<br>suggest<br>recommend<br>miss<br>can't stand<br>spend (time)</p>
     <p class="note">I suggest <b>taking</b> the subway (<s>suggest to take</s>).</p>
     <h3>Both, with no change in meaning</h3>
-    <p>like · love · hate · prefer · start · begin · continue: It started <b>to rain</b> = It started <b>raining</b>.</p>
+    <p>like<br>love<br>hate<br>prefer<br>start<br>begin<br>continue: It started <b>to rain</b> = It started <b>raining</b>.</p>
     <p class="note">With <b>would</b>, only TO: I'd love <b>to</b> go (<s>I'd love going</s>).</p>
     <h3>Negatives</h3>
-    <p><b>not</b> before TO or -ING: I decided <b>not to</b> go. · I enjoy <b>not working</b> on Sundays.</p>
+    <p><b>not</b> before TO or -ING: I decided <b>not to</b> go.<br>I enjoy <b>not working</b> on Sundays.</p>
     <h3>TO for purpose</h3>
-    <p>I study English <b>to get</b> a better job (<s>for get</s>). · <b>for</b> + -ING = used for: This app is good <b>for learning</b> words.</p>`
+    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = used for: This app is good <b>for learning</b> words.</p>`
   },
   vocab:{
 pt:`
@@ -52,16 +52,16 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to take up (a hobby)</td><td>começar (um hobby)</td></tr>
       <tr><td>to be into</td><td>curtir, gostar muito de</td></tr>
-      <tr><td>to knit · to sew</td><td>tricotar · costurar</td></tr>
-      <tr><td>to paint · to draw</td><td>pintar · desenhar</td></tr>
+      <tr><td>to knit<br>to sew</td><td>tricotar<br>costurar</td></tr>
+      <tr><td>to paint<br>to draw</td><td>pintar<br>desenhar</td></tr>
       <tr><td>gardening</td><td>jardinagem</td></tr>
       <tr><td>board games</td><td>jogos de tabuleiro</td></tr>
       <tr><td>to play an instrument</td><td>tocar um instrumento</td></tr>
-      <tr><td>hiking · camping</td><td>trilha · acampamento</td></tr>
+      <tr><td>hiking<br>camping</td><td>trilha<br>acampamento</td></tr>
       <tr><td>baking</td><td>fazer pães e bolos</td></tr>
       <tr><td>a beginner</td><td>um iniciante</td></tr>
-      <tr><td>free time · spare time</td><td>tempo livre</td></tr>
-      <tr><td>relaxing · rewarding</td><td>relaxante · gratificante</td></tr>
+      <tr><td>free time<br>spare time</td><td>tempo livre</td></tr>
+      <tr><td>relaxing<br>rewarding</td><td>relaxante<br>gratificante</td></tr>
     </table>
     <p class="note">O xadrez surgiu na Índia, por volta do século VI, com o nome de <i>chaturanga</i>.</p>`,
 en:`
@@ -70,16 +70,16 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to take up (a hobby)</td><td>começar (um hobby)</td></tr>
       <tr><td>to be into</td><td>curtir, gostar muito de</td></tr>
-      <tr><td>to knit · to sew</td><td>tricotar · costurar</td></tr>
-      <tr><td>to paint · to draw</td><td>pintar · desenhar</td></tr>
+      <tr><td>to knit<br>to sew</td><td>tricotar<br>costurar</td></tr>
+      <tr><td>to paint<br>to draw</td><td>pintar<br>desenhar</td></tr>
       <tr><td>gardening</td><td>jardinagem</td></tr>
       <tr><td>board games</td><td>jogos de tabuleiro</td></tr>
       <tr><td>to play an instrument</td><td>tocar um instrumento</td></tr>
-      <tr><td>hiking · camping</td><td>trilha · acampamento</td></tr>
+      <tr><td>hiking<br>camping</td><td>trilha<br>acampamento</td></tr>
       <tr><td>baking</td><td>fazer pães e bolos</td></tr>
       <tr><td>a beginner</td><td>um iniciante</td></tr>
-      <tr><td>free time · spare time</td><td>tempo livre</td></tr>
-      <tr><td>relaxing · rewarding</td><td>relaxante · gratificante</td></tr>
+      <tr><td>free time<br>spare time</td><td>tempo livre</td></tr>
+      <tr><td>relaxing<br>rewarding</td><td>relaxante<br>gratificante</td></tr>
     </table>
     <p class="note">Chess began in India, around the 6th century AD, as a game called <i>chaturanga</i>.</p>`
   },

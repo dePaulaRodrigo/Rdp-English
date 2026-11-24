@@ -22,7 +22,7 @@ pt:`
       <tr><td>Going to</td><td>I'm going to get my hair cut.</td></tr>
       <tr><td>Modal</td><td>You should have your teeth cleaned.</td></tr>
     </table>
-    <p>Perguntas e negativas com DO: Where do you <b>have</b> your hair cut? · I didn't have it done.</p>
+    <p>Perguntas e negativas com DO: Where do you <b>have</b> your hair cut?<br>I didn't have it done.</p>
     <h3>Coisas ruins que acontecem</h3>
     <p>A mesma estrutura serve para algo que alguém fez com você, sem você querer: I <b>had</b> my wallet <b>stolen</b>. (Roubaram minha carteira.)</p>
     <h3>Com a pessoa que faz</h3>
@@ -31,7 +31,7 @@ pt:`
       <li><b>get + pessoa + TO + verbo</b> (convencer): I got my brother to help me move.</li>
     </ul>
     <h3>GET … DONE = terminar</h3>
-    <p>How long does it take you to get a proposal done? · I need to get this done by Friday.</p>
+    <p>How long does it take you to get a proposal done?<br>I need to get this done by Friday.</p>
     <p class="note">Por volta de 2560 a.C., o faraó Quéops <i>had</i> a Grande Pirâmide <i>built</i>: ele não carregou nenhuma pedra.</p>`,
 en:`
     <h2>The causative</h2>
@@ -51,7 +51,7 @@ en:`
       <tr><td>Going to</td><td>I'm going to get my hair cut.</td></tr>
       <tr><td>Modal</td><td>You should have your teeth cleaned.</td></tr>
     </table>
-    <p>Questions and negatives with DO: Where do you <b>have</b> your hair cut? · I didn't have it done.</p>
+    <p>Questions and negatives with DO: Where do you <b>have</b> your hair cut?<br>I didn't have it done.</p>
     <h3>Bad things that happen</h3>
     <p>The same structure works for something someone did to you: I <b>had</b> my wallet <b>stolen</b>.</p>
     <h3>With the person who does it</h3>
@@ -60,7 +60,7 @@ en:`
       <li><b>get + person + TO + verb</b> (persuade): I got my brother to help me move.</li>
     </ul>
     <h3>GET … DONE = finish</h3>
-    <p>How long does it take you to get a proposal done? · I need to get this done by Friday.</p>
+    <p>How long does it take you to get a proposal done?<br>I need to get this done by Friday.</p>
     <p class="note">Around 2560 BC, the pharaoh Khufu <i>had</i> the Great Pyramid <i>built</i>: he didn't carry a single stone.</p>`
   },
   vocab:{
@@ -68,36 +68,36 @@ pt:`
     <h2>Serviços</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a hairdresser · a barber</td><td>um cabeleireiro · um barbeiro</td></tr>
+      <tr><td>a hairdresser<br>a barber</td><td>um cabeleireiro<br>um barbeiro</td></tr>
       <tr><td>get a haircut</td><td>cortar o cabelo</td></tr>
       <tr><td>get my nails done</td><td>fazer as unhas</td></tr>
       <tr><td>have my teeth cleaned</td><td>fazer limpeza nos dentes</td></tr>
       <tr><td>have my eyes tested</td><td>fazer exame de vista</td></tr>
       <tr><td>get my car serviced</td><td>fazer a revisão do carro</td></tr>
-      <tr><td>a mechanic · a plumber</td><td>um mecânico · um encanador</td></tr>
+      <tr><td>a mechanic<br>a plumber</td><td>um mecânico<br>um encanador</td></tr>
       <tr><td>an electrician</td><td>um eletricista</td></tr>
       <tr><td>have something delivered</td><td>receber algo em casa (entrega)</td></tr>
       <tr><td>dry-clean</td><td>lavar a seco</td></tr>
-      <tr><td>a quote · an estimate</td><td>um orçamento</td></tr>
-      <tr><td>to fix · to repair</td><td>consertar</td></tr>
+      <tr><td>a quote<br>an estimate</td><td>um orçamento</td></tr>
+      <tr><td>to fix<br>to repair</td><td>consertar</td></tr>
     </table>
     <p class="note"><i>Orçamento</i> de um serviço é <i>quote</i> ou <i>estimate</i>; orçamento doméstico é <i>budget</i>.</p>`,
 en:`
     <h2>Services</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a hairdresser · a barber</td><td>um cabeleireiro · um barbeiro</td></tr>
+      <tr><td>a hairdresser<br>a barber</td><td>um cabeleireiro<br>um barbeiro</td></tr>
       <tr><td>get a haircut</td><td>cortar o cabelo</td></tr>
       <tr><td>get my nails done</td><td>fazer as unhas</td></tr>
       <tr><td>have my teeth cleaned</td><td>fazer limpeza nos dentes</td></tr>
       <tr><td>have my eyes tested</td><td>fazer exame de vista</td></tr>
       <tr><td>get my car serviced</td><td>fazer a revisão do carro</td></tr>
-      <tr><td>a mechanic · a plumber</td><td>um mecânico · um encanador</td></tr>
+      <tr><td>a mechanic<br>a plumber</td><td>um mecânico<br>um encanador</td></tr>
       <tr><td>an electrician</td><td>um eletricista</td></tr>
       <tr><td>have something delivered</td><td>receber algo em casa (entrega)</td></tr>
       <tr><td>dry-clean</td><td>lavar a seco</td></tr>
-      <tr><td>a quote · an estimate</td><td>um orçamento</td></tr>
-      <tr><td>to fix · to repair</td><td>consertar</td></tr>
+      <tr><td>a quote<br>an estimate</td><td>um orçamento</td></tr>
+      <tr><td>to fix<br>to repair</td><td>consertar</td></tr>
     </table>
     <p class="note">A price for a job is a <i>quote</i> or <i>estimate</i>; a household plan for money is a <i>budget</i>.</p>`
   },

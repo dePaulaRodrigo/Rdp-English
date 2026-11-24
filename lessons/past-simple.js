@@ -8,120 +8,120 @@ pt:`
     <h2>Past Simple</h2>
     <h3>Regulares: -ED</h3>
     <ul>
-      <li>work → worked · need → needed · listen → listened</li>
+      <li>work → worked<br>need → needed<br>listen → listened</li>
       <li>Terminado em E: só D — like → liked</li>
-      <li>Consoante + Y: IED — study → studied · try → tried</li>
+      <li>Consoante + Y: IED — study → studied<br>try → tried</li>
       <li>Vogal + Y: ED — play → played (mas pay → <b>paid</b>, say → <b>said</b>)</li>
-      <li>Consoante + vogal + consoante, sílaba forte no fim: dobra — stop → stopped · plan → planned</li>
+      <li>Consoante + vogal + consoante, sílaba forte no fim: dobra — stop → stopped<br>plan → planned</li>
     </ul>
     <h3>A pronúncia do -ED</h3>
     <ul>
-      <li>/t/ depois de sons surdos: worked · stopped · watched</li>
-      <li>/d/ depois dos outros sons: played · called · loved</li>
-      <li>/ɪd/, sílaba a mais, só depois de T e D: wanted · decided</li>
+      <li>/t/ depois de sons surdos: worked<br>stopped<br>watched</li>
+      <li>/d/ depois dos outros sons: played<br>called<br>loved</li>
+      <li>/ɪd/, sílaba a mais, só depois de T e D: wanted<br>decided</li>
     </ul>
     <p class="note">O erro mais comum do brasileiro é pronunciar sempre a sílaba extra: <s>work-ed</s>, <s>lik-ed</s>.</p>
     <h3>Irregulares mais comuns</h3>
     <table>
       <tr><th>Verbo</th><th>Passado</th><th>Particípio</th></tr>
-      <tr><td>be · have · do</td><td>was/were · had · did</td><td>been · had · done</td></tr>
-      <tr><td>go · get · make</td><td>went · got · made</td><td>gone · gotten · made</td></tr>
-      <tr><td>say · tell · know</td><td>said · told · knew</td><td>said · told · known</td></tr>
-      <tr><td>take · see · come</td><td>took · saw · came</td><td>taken · seen · come</td></tr>
-      <tr><td>buy · bring · think</td><td>bought · brought · thought</td><td>bought · brought · thought</td></tr>
-      <tr><td>eat · drink · write</td><td>ate · drank · wrote</td><td>eaten · drunk · written</td></tr>
-      <tr><td>pay · meet · read</td><td>paid · met · read (/rɛd/)</td><td>paid · met · read</td></tr>
+      <tr><td>be<br>have<br>do</td><td>was/were<br>had<br>did</td><td>been<br>had<br>done</td></tr>
+      <tr><td>go<br>get<br>make</td><td>went<br>got<br>made</td><td>gone<br>gotten<br>made</td></tr>
+      <tr><td>say<br>tell<br>know</td><td>said<br>told<br>knew</td><td>said<br>told<br>known</td></tr>
+      <tr><td>take<br>see<br>come</td><td>took<br>saw<br>came</td><td>taken<br>seen<br>come</td></tr>
+      <tr><td>buy<br>bring<br>think</td><td>bought<br>brought<br>thought</td><td>bought<br>brought<br>thought</td></tr>
+      <tr><td>eat<br>drink<br>write</td><td>ate<br>drank<br>wrote</td><td>eaten<br>drunk<br>written</td></tr>
+      <tr><td>pay<br>meet<br>read</td><td>paid<br>met<br>read (/rɛd/)</td><td>paid<br>met<br>read</td></tr>
     </table>
     <h3>Negativa e pergunta: DID</h3>
     <ul>
-      <li>DID serve para todas as pessoas, e o verbo volta à forma base: I didn't <b>go</b> (<s>didn't went</s>) · Did you <b>see</b> it?</li>
+      <li>DID serve para todas as pessoas, e o verbo volta à forma base: I didn't <b>go</b> (<s>didn't went</s>)<br>Did you <b>see</b> it?</li>
       <li>"Did you like it?" — "Yes, I did." / "No, I didn't."</li>
-      <li>Where <b>did</b> you <b>go</b>? · Pergunta sobre o sujeito, sem DID: Who <b>called</b>? · What <b>happened</b>?</li>
+      <li>Where <b>did</b> you <b>go</b>?<br>Pergunta sobre o sujeito, sem DID: Who <b>called</b>?<br>What <b>happened</b>?</li>
     </ul>
     <h3>Quando usar</h3>
     <ul>
-      <li>Ação terminada, num tempo terminado: In 1876, Bell made the first phone call. · Princess Isabel signed the Lei Áurea in 1888.</li>
+      <li>Ação terminada, num tempo terminado: In 1876, Bell made the first phone call.<br>Princess Isabel signed the Lei Áurea in 1888.</li>
       <li>Hábito antigo: As a child, I went to karate.</li>
       <li>Narrativas: First, we took a taxi. Then we checked in. Finally, we got on the plane.</li>
     </ul>
-    <p>Expressões: yesterday · last night · last year · two years <b>ago</b> · in 1888 · when I was a child</p>`,
+    <p>Expressões: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>`,
 en:`
     <h2>Past Simple</h2>
     <h3>Regular verbs: -ED</h3>
     <ul>
-      <li>work → worked · need → needed · listen → listened</li>
+      <li>work → worked<br>need → needed<br>listen → listened</li>
       <li>Ending in E: just D — like → liked</li>
-      <li>Consonant + Y: IED — study → studied · try → tried</li>
+      <li>Consonant + Y: IED — study → studied<br>try → tried</li>
       <li>Vowel + Y: ED — play → played (but pay → <b>paid</b>, say → <b>said</b>)</li>
-      <li>Consonant + vowel + consonant, final stress: double — stop → stopped · plan → planned</li>
+      <li>Consonant + vowel + consonant, final stress: double — stop → stopped<br>plan → planned</li>
     </ul>
     <h3>Pronouncing -ED</h3>
     <ul>
-      <li>/t/ after voiceless sounds: worked · stopped · watched</li>
-      <li>/d/ after other sounds: played · called · loved</li>
-      <li>/ɪd/, an extra syllable, only after T and D: wanted · decided</li>
+      <li>/t/ after voiceless sounds: worked<br>stopped<br>watched</li>
+      <li>/d/ after other sounds: played<br>called<br>loved</li>
+      <li>/ɪd/, an extra syllable, only after T and D: wanted<br>decided</li>
     </ul>
     <p class="note">Brazilians often add the extra syllable everywhere: <s>work-ed</s>, <s>lik-ed</s>.</p>
     <h3>Common irregular verbs</h3>
     <table>
       <tr><th>Verb</th><th>Past</th><th>Participle</th></tr>
-      <tr><td>be · have · do</td><td>was/were · had · did</td><td>been · had · done</td></tr>
-      <tr><td>go · get · make</td><td>went · got · made</td><td>gone · gotten · made</td></tr>
-      <tr><td>say · tell · know</td><td>said · told · knew</td><td>said · told · known</td></tr>
-      <tr><td>take · see · come</td><td>took · saw · came</td><td>taken · seen · come</td></tr>
-      <tr><td>buy · bring · think</td><td>bought · brought · thought</td><td>bought · brought · thought</td></tr>
-      <tr><td>eat · drink · write</td><td>ate · drank · wrote</td><td>eaten · drunk · written</td></tr>
-      <tr><td>pay · meet · read</td><td>paid · met · read (/rɛd/)</td><td>paid · met · read</td></tr>
+      <tr><td>be<br>have<br>do</td><td>was/were<br>had<br>did</td><td>been<br>had<br>done</td></tr>
+      <tr><td>go<br>get<br>make</td><td>went<br>got<br>made</td><td>gone<br>gotten<br>made</td></tr>
+      <tr><td>say<br>tell<br>know</td><td>said<br>told<br>knew</td><td>said<br>told<br>known</td></tr>
+      <tr><td>take<br>see<br>come</td><td>took<br>saw<br>came</td><td>taken<br>seen<br>come</td></tr>
+      <tr><td>buy<br>bring<br>think</td><td>bought<br>brought<br>thought</td><td>bought<br>brought<br>thought</td></tr>
+      <tr><td>eat<br>drink<br>write</td><td>ate<br>drank<br>wrote</td><td>eaten<br>drunk<br>written</td></tr>
+      <tr><td>pay<br>meet<br>read</td><td>paid<br>met<br>read (/rɛd/)</td><td>paid<br>met<br>read</td></tr>
     </table>
     <h3>Negatives and questions: DID</h3>
     <ul>
-      <li>DID works for every person, and the verb goes back to the base form: I didn't <b>go</b> (<s>didn't went</s>) · Did you <b>see</b> it?</li>
+      <li>DID works for every person, and the verb goes back to the base form: I didn't <b>go</b> (<s>didn't went</s>)<br>Did you <b>see</b> it?</li>
       <li>"Did you like it?" — "Yes, I did." / "No, I didn't."</li>
-      <li>Where <b>did</b> you <b>go</b>? · Subject questions, no DID: Who <b>called</b>? · What <b>happened</b>?</li>
+      <li>Where <b>did</b> you <b>go</b>?<br>Subject questions, no DID: Who <b>called</b>?<br>What <b>happened</b>?</li>
     </ul>
     <h3>When to use it</h3>
     <ul>
-      <li>Finished actions at a finished time: In 1876, Bell made the first phone call. · Princess Isabel signed the Lei Áurea in 1888.</li>
+      <li>Finished actions at a finished time: In 1876, Bell made the first phone call.<br>Princess Isabel signed the Lei Áurea in 1888.</li>
       <li>Past habits: As a child, I went to karate.</li>
       <li>Stories: First, we took a taxi. Then we checked in. Finally, we got on the plane.</li>
     </ul>
-    <p>Expressions: yesterday · last night · last year · two years <b>ago</b> · in 1888 · when I was a child</p>`
+    <p>Expressions: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>`
   },
   vocab:{
 pt:`
     <h2>Uma viagem</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>trip · to travel</td><td>viagem · viajar</td></tr>
-      <tr><td>to book a hotel · a flight</td><td>reservar um hotel · um voo</td></tr>
-      <tr><td>to check in · to check out</td><td>fazer o check-in · o check-out</td></tr>
+      <tr><td>trip<br>to travel</td><td>viagem<br>viajar</td></tr>
+      <tr><td>to book a hotel<br>a flight</td><td>reservar um hotel<br>um voo</td></tr>
+      <tr><td>to check in<br>to check out</td><td>fazer o check-in<br>o check-out</td></tr>
       <tr><td>to go sightseeing</td><td>passear, conhecer os pontos turísticos</td></tr>
       <tr><td>souvenir</td><td>lembrancinha</td></tr>
       <tr><td>tour guide</td><td>guia turístico</td></tr>
-      <tr><td>boat trip · day trip</td><td>passeio de barco · bate-volta</td></tr>
+      <tr><td>boat trip<br>day trip</td><td>passeio de barco<br>bate-volta</td></tr>
       <tr><td>to get lost</td><td>perder-se</td></tr>
       <tr><td>to have a great time</td><td>divertir-se muito</td></tr>
       <tr><td>unforgettable</td><td>inesquecível</td></tr>
       <tr><td>jet lag</td><td>cansaço da mudança de fuso</td></tr>
     </table>
-    <p class="note"><i>Trip</i> é uma viagem específica; <i>travel</i> é o ato de viajar em geral: How was your trip? · I love travel.</p>`,
+    <p class="note"><i>Trip</i> é uma viagem específica; <i>travel</i> é o ato de viajar em geral: How was your trip?<br>I love travel.</p>`,
 en:`
     <h2>A trip</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>trip · to travel</td><td>viagem · viajar</td></tr>
-      <tr><td>to book a hotel · a flight</td><td>reservar um hotel · um voo</td></tr>
-      <tr><td>to check in · to check out</td><td>fazer o check-in · o check-out</td></tr>
+      <tr><td>trip<br>to travel</td><td>viagem<br>viajar</td></tr>
+      <tr><td>to book a hotel<br>a flight</td><td>reservar um hotel<br>um voo</td></tr>
+      <tr><td>to check in<br>to check out</td><td>fazer o check-in<br>o check-out</td></tr>
       <tr><td>to go sightseeing</td><td>passear, conhecer os pontos turísticos</td></tr>
       <tr><td>souvenir</td><td>lembrancinha</td></tr>
       <tr><td>tour guide</td><td>guia turístico</td></tr>
-      <tr><td>boat trip · day trip</td><td>passeio de barco · bate-volta</td></tr>
+      <tr><td>boat trip<br>day trip</td><td>passeio de barco<br>bate-volta</td></tr>
       <tr><td>to get lost</td><td>perder-se</td></tr>
       <tr><td>to have a great time</td><td>divertir-se muito</td></tr>
       <tr><td>unforgettable</td><td>inesquecível</td></tr>
       <tr><td>jet lag</td><td>cansaço da mudança de fuso</td></tr>
     </table>
-    <p class="note">A <i>trip</i> is a specific journey; <i>travel</i> is traveling in general: How was your trip? · I love travel.</p>`
+    <p class="note">A <i>trip</i> is a specific journey; <i>travel</i> is traveling in general: How was your trip?<br>I love travel.</p>`
   },
   exercises:[
     { id:"mc-easy", title:"Multiple choice — past simple", type:"mc",

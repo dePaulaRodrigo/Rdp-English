@@ -7,13 +7,13 @@ addLesson({
 pt:`
     <h2>For, Since, Ago</h2>
     <h3>FOR = há, durante (um período)</h3>
-    <p>Indica <b>quanto tempo</b>: I've been a teacher <b>for</b> ten years. · for two hours · for a long time · for ages</p>
+    <p>Indica <b>quanto tempo</b>: I've been a teacher <b>for</b> ten years.<br>for two hours<br>for a long time<br>for ages</p>
     <p>Com o Past Simple, um período que terminou: I lived in Rome <b>for</b> two years (e depois saí).</p>
     <h3>SINCE = desde (um ponto de partida)</h3>
-    <p>Indica <b>quando começou</b>: I've been a teacher <b>since</b> 2016. · since Monday · since last year · since I was a child</p>
+    <p>Indica <b>quando começou</b>: I've been a teacher <b>since</b> 2016.<br>since Monday<br>since last year<br>since I was a child</p>
     <p>Depois de <i>since</i>, uma frase completa vai no Past Simple: I've loved music since I <b>was</b> a child.</p>
     <h3>AGO = atrás</h3>
-    <p>Com o <b>Past Simple</b>, depois do período: I moved here five years <b>ago</b>. · How long ago did you move?</p>
+    <p>Com o <b>Past Simple</b>, depois do período: I moved here five years <b>ago</b>.<br>How long ago did you move?</p>
     <p class="note"><i>Ago</i> conta a partir de agora. A partir de um momento do passado, use <i>before</i>: In 2020, she told me she had moved two years <b>before</b>.</p>
     <h3>O "há" do português</h3>
     <table>
@@ -29,13 +29,13 @@ pt:`
 en:`
     <h2>For, Since, Ago</h2>
     <h3>FOR + a period</h3>
-    <p>It says <b>how long</b>: I've been a teacher <b>for</b> ten years. · for two hours · for a long time · for ages</p>
+    <p>It says <b>how long</b>: I've been a teacher <b>for</b> ten years.<br>for two hours<br>for a long time<br>for ages</p>
     <p>With the Past Simple, a finished period: I lived in Rome <b>for</b> two years (and then I left).</p>
     <h3>SINCE + a starting point</h3>
-    <p>It says <b>when it started</b>: I've been a teacher <b>since</b> 2016. · since Monday · since last year · since I was a child</p>
+    <p>It says <b>when it started</b>: I've been a teacher <b>since</b> 2016.<br>since Monday<br>since last year<br>since I was a child</p>
     <p>After <i>since</i>, a full clause takes the Past Simple: I've loved music since I <b>was</b> a child.</p>
     <h3>AGO = back from now</h3>
-    <p>With the <b>Past Simple</b>, after the period: I moved here five years <b>ago</b>. · How long ago did you move?</p>
+    <p>With the <b>Past Simple</b>, after the period: I moved here five years <b>ago</b>.<br>How long ago did you move?</p>
     <p class="note"><i>Ago</i> counts back from now. From a past moment, use <i>before</i>: In 2020, she told me she had moved two years <b>before</b>.</p>
     <h3>The Portuguese "há"</h3>
     <table>

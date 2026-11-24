@@ -33,12 +33,12 @@ pt:`
       <tr><td>She seems happy.</td><td>It seems like a good idea.</td></tr>
     </table>
     <h3>FEEL LIKE = estar com vontade de</h3>
-    <p>I feel like pizza. · I don't feel like <b>going</b> out. (com -ING)</p>
+    <p>I feel like pizza.<br>I don't feel like <b>going</b> out. (com -ING)</p>
     <h3>LIKE × AS</h3>
     <ul>
       <li><b>like</b> = parecido com: She works like a machine. (não é máquina)</li>
       <li><b>as</b> = na função de: She works as a nurse. (ela é enfermeira)</li>
-      <li><b>As</b> I said (formal) · <b>Like</b> I said (informal)</li>
+      <li><b>As</b> I said (formal)<br><b>Like</b> I said (informal)</li>
     </ul>
     <h3>A família de LIKE</h3>
     <ul>
@@ -75,12 +75,12 @@ en:`
       <tr><td>She seems happy.</td><td>It seems like a good idea.</td></tr>
     </table>
     <h3>FEEL LIKE = want</h3>
-    <p>I feel like pizza. · I don't feel like <b>going</b> out. (with -ING)</p>
+    <p>I feel like pizza.<br>I don't feel like <b>going</b> out. (with -ING)</p>
     <h3>LIKE × AS</h3>
     <ul>
       <li><b>like</b> = similar to: She works like a machine. (she isn't one)</li>
       <li><b>as</b> = in the role of: She works as a nurse. (she is one)</li>
-      <li><b>As</b> I said (formal) · <b>Like</b> I said (informal)</li>
+      <li><b>As</b> I said (formal)<br><b>Like</b> I said (informal)</li>
     </ul>
     <h3>The LIKE family</h3>
     <ul>
@@ -97,13 +97,13 @@ pt:`
       <tr><td>to take after</td><td>puxar a (alguém da família)</td></tr>
       <tr><td>to run in the family</td><td>ser de família</td></tr>
       <tr><td>a resemblance</td><td>uma semelhança</td></tr>
-      <tr><td>twins · identical twins</td><td>gêmeos · gêmeos idênticos</td></tr>
-      <tr><td>curly · straight · wavy hair</td><td>cabelo cacheado · liso · ondulado</td></tr>
-      <tr><td>freckles · dimples</td><td>sardas · covinhas</td></tr>
+      <tr><td>twins<br>identical twins</td><td>gêmeos<br>gêmeos idênticos</td></tr>
+      <tr><td>curly<br>straight<br>wavy hair</td><td>cabelo cacheado<br>liso<br>ondulado</td></tr>
+      <tr><td>freckles<br>dimples</td><td>sardas<br>covinhas</td></tr>
       <tr><td>a gesture</td><td>um gesto</td></tr>
       <tr><td>a personality trait</td><td>um traço de personalidade</td></tr>
       <tr><td>stubborn</td><td>teimoso</td></tr>
-      <tr><td>outgoing · shy</td><td>extrovertido · tímido</td></tr>
+      <tr><td>outgoing<br>shy</td><td>extrovertido<br>tímido</td></tr>
       <tr><td>a family tree</td><td>uma árvore genealógica</td></tr>
       <tr><td>the spitting image of</td><td>a cara de, idêntico a</td></tr>
     </table>
@@ -115,13 +115,13 @@ en:`
       <tr><td>to take after</td><td>puxar a (alguém da família)</td></tr>
       <tr><td>to run in the family</td><td>ser de família</td></tr>
       <tr><td>a resemblance</td><td>uma semelhança</td></tr>
-      <tr><td>twins · identical twins</td><td>gêmeos · gêmeos idênticos</td></tr>
-      <tr><td>curly · straight · wavy hair</td><td>cabelo cacheado · liso · ondulado</td></tr>
-      <tr><td>freckles · dimples</td><td>sardas · covinhas</td></tr>
+      <tr><td>twins<br>identical twins</td><td>gêmeos<br>gêmeos idênticos</td></tr>
+      <tr><td>curly<br>straight<br>wavy hair</td><td>cabelo cacheado<br>liso<br>ondulado</td></tr>
+      <tr><td>freckles<br>dimples</td><td>sardas<br>covinhas</td></tr>
       <tr><td>a gesture</td><td>um gesto</td></tr>
       <tr><td>a personality trait</td><td>um traço de personalidade</td></tr>
       <tr><td>stubborn</td><td>teimoso</td></tr>
-      <tr><td>outgoing · shy</td><td>extrovertido · tímido</td></tr>
+      <tr><td>outgoing<br>shy</td><td>extrovertido<br>tímido</td></tr>
       <tr><td>a family tree</td><td>uma árvore genealógica</td></tr>
       <tr><td>the spitting image of</td><td>a cara de, idêntico a</td></tr>
     </table>

@@ -20,20 +20,20 @@ pt:`
     <p>He didn't call me, <b>which</b> made me sad. (o fato de ele não ligar)</p>
     <h3>WHO × WHOM</h3>
     <ul>
-      <li><b>whom</b> = objeto, formal: the man whom I met · na fala: the man (who) I met</li>
+      <li><b>whom</b> = objeto, formal: the man whom I met<br>na fala: the man (who) I met</li>
       <li>Depois de preposição, só <b>whom</b>: the person to whom I spoke (<s>to who</s>)</li>
       <li>Informal, preposição no fim: the person I spoke to</li>
     </ul>
     <h3>Quantidade + OF WHOM / OF WHICH</h3>
-    <p>I have two brothers, <b>both of whom</b> live in Rio. · She bought five books, <b>none of which</b> she has read.</p>
+    <p>I have two brothers, <b>both of whom</b> live in Rio.<br>She bought five books, <b>none of which</b> she has read.</p>
     <h3>Orações reduzidas</h3>
     <ul>
       <li>-ING (ativo): The man <b>sitting</b> next to me is my uncle. (= who is sitting)</li>
       <li>Particípio (passivo): The book <b>written</b> by Machado is a classic. (= which was written)</li>
       <li>the first / last / only + TO: She was the first person <b>to arrive</b>.</li>
     </ul>
-    <h3>WHOSE para coisas · WHERE e WHEN com vírgula</h3>
-    <p>São Paulo is a city <b>whose</b> history goes back to 1554. · Recife, <b>where</b> my parents live, is very hot.</p>
+    <h3>WHOSE para coisas / WHERE e WHEN com vírgula</h3>
+    <p>São Paulo is a city <b>whose</b> history goes back to 1554.<br>Recife, <b>where</b> my parents live, is very hot.</p>
     <p class="note">Ada Lovelace, who is considered the first computer programmer, was the daughter of the poet Lord Byron.</p>`,
 en:`
     <h2>With commas × without commas</h2>
@@ -51,20 +51,20 @@ en:`
     <p>He didn't call me, <b>which</b> made me sad. (the fact that he didn't call)</p>
     <h3>WHO × WHOM</h3>
     <ul>
-      <li><b>whom</b> = object, formal: the man whom I met · in speech: the man (who) I met</li>
+      <li><b>whom</b> = object, formal: the man whom I met<br>in speech: the man (who) I met</li>
       <li>After a preposition, only <b>whom</b>: the person to whom I spoke (<s>to who</s>)</li>
       <li>Informal, preposition at the end: the person I spoke to</li>
     </ul>
     <h3>Quantity + OF WHOM / OF WHICH</h3>
-    <p>I have two brothers, <b>both of whom</b> live in Rio. · She bought five books, <b>none of which</b> she has read.</p>
+    <p>I have two brothers, <b>both of whom</b> live in Rio.<br>She bought five books, <b>none of which</b> she has read.</p>
     <h3>Reduced clauses</h3>
     <ul>
       <li>-ING (active): The man <b>sitting</b> next to me is my uncle. (= who is sitting)</li>
       <li>Participle (passive): The book <b>written</b> by Machado is a classic. (= which was written)</li>
       <li>the first / last / only + TO: She was the first person <b>to arrive</b>.</li>
     </ul>
-    <h3>WHOSE for things · WHERE and WHEN with commas</h3>
-    <p>São Paulo is a city <b>whose</b> history goes back to 1554. · Recife, <b>where</b> my parents live, is very hot.</p>
+    <h3>WHOSE for things / WHERE and WHEN with commas</h3>
+    <p>São Paulo is a city <b>whose</b> history goes back to 1554.<br>Recife, <b>where</b> my parents live, is very hot.</p>
     <p class="note">Ada Lovelace, who is considered the first computer programmer, was the daughter of the poet Lord Byron.</p>`
   },
   vocab:{
@@ -74,12 +74,12 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to be founded</td><td>ser fundado</td></tr>
       <tr><td>a settlement</td><td>um povoado</td></tr>
-      <tr><td>a colony · colonial</td><td>uma colônia · colonial</td></tr>
-      <tr><td>an immigrant · a descendant</td><td>um imigrante · um descendente</td></tr>
+      <tr><td>a colony<br>colonial</td><td>uma colônia<br>colonial</td></tr>
+      <tr><td>an immigrant<br>a descendant</td><td>um imigrante<br>um descendente</td></tr>
       <tr><td>a heritage</td><td>uma herança cultural</td></tr>
       <tr><td>a native speaker</td><td>um falante nativo</td></tr>
       <tr><td>an indigenous people</td><td>um povo indígena</td></tr>
-      <tr><td>a harbor · a port</td><td>um porto</td></tr>
+      <tr><td>a harbor<br>a port</td><td>um porto</td></tr>
       <tr><td>the old town</td><td>o centro histórico</td></tr>
       <tr><td>a UNESCO World Heritage Site</td><td>Patrimônio Mundial da UNESCO</td></tr>
       <tr><td>a population of</td><td>uma população de</td></tr>
@@ -92,12 +92,12 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to be founded</td><td>ser fundado</td></tr>
       <tr><td>a settlement</td><td>um povoado</td></tr>
-      <tr><td>a colony · colonial</td><td>uma colônia · colonial</td></tr>
-      <tr><td>an immigrant · a descendant</td><td>um imigrante · um descendente</td></tr>
+      <tr><td>a colony<br>colonial</td><td>uma colônia<br>colonial</td></tr>
+      <tr><td>an immigrant<br>a descendant</td><td>um imigrante<br>um descendente</td></tr>
       <tr><td>a heritage</td><td>uma herança cultural</td></tr>
       <tr><td>a native speaker</td><td>um falante nativo</td></tr>
       <tr><td>an indigenous people</td><td>um povo indígena</td></tr>
-      <tr><td>a harbor · a port</td><td>um porto</td></tr>
+      <tr><td>a harbor<br>a port</td><td>um porto</td></tr>
       <tr><td>the old town</td><td>o centro histórico</td></tr>
       <tr><td>a UNESCO World Heritage Site</td><td>Patrimônio Mundial da UNESCO</td></tr>
       <tr><td>a population of</td><td>uma população de</td></tr>

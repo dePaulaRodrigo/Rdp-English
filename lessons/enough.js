@@ -9,8 +9,8 @@ pt:`
     <h3>A posição: a regra que mais confunde</h3>
     <table>
       <tr><th>Forma</th><th>Exemplos</th></tr>
-      <tr><td><b>enough + substantivo</b> (antes)</td><td>enough money · enough time · enough chairs</td></tr>
-      <tr><td><b>adjetivo / advérbio + enough</b> (depois)</td><td>old enough · big enough · fast enough</td></tr>
+      <tr><td><b>enough + substantivo</b> (antes)</td><td>enough money<br>enough time<br>enough chairs</td></tr>
+      <tr><td><b>adjetivo / advérbio + enough</b> (depois)</td><td>old enough<br>big enough<br>fast enough</td></tr>
     </table>
     <ul>
       <li>I don't have <b>enough money</b> to travel.</li>
@@ -25,9 +25,9 @@ pt:`
     </ul>
     <h3>ENOUGH sozinho</h3>
     <ul>
-      <li>She knows enough to be a teacher. · No, it's not enough.</li>
-      <li>That's enough! (Chega!) · I've had enough. (Cansei.)</li>
-      <li>Fair enough. (Justo, tudo bem.) · Sure enough, it rained. (Como esperado.)</li>
+      <li>She knows enough to be a teacher.<br>No, it's not enough.</li>
+      <li>That's enough! (Chega!)<br>I've had enough. (Cansei.)</li>
+      <li>Fair enough. (Justo, tudo bem.)<br>Sure enough, it rained. (Como esperado.)</li>
     </ul>
     <h3>NOT … ENOUGH × TOO</h3>
     <p>Muitas vezes dizem a mesma coisa:</p>
@@ -41,8 +41,8 @@ en:`
     <h3>Position: the most confusing rule</h3>
     <table>
       <tr><th>Form</th><th>Examples</th></tr>
-      <tr><td><b>enough + noun</b> (before)</td><td>enough money · enough time · enough chairs</td></tr>
-      <tr><td><b>adjective / adverb + enough</b> (after)</td><td>old enough · big enough · fast enough</td></tr>
+      <tr><td><b>enough + noun</b> (before)</td><td>enough money<br>enough time<br>enough chairs</td></tr>
+      <tr><td><b>adjective / adverb + enough</b> (after)</td><td>old enough<br>big enough<br>fast enough</td></tr>
     </table>
     <ul>
       <li>I don't have <b>enough money</b> to travel.</li>
@@ -57,9 +57,9 @@ en:`
     </ul>
     <h3>ENOUGH alone</h3>
     <ul>
-      <li>She knows enough to be a teacher. · No, it's not enough.</li>
-      <li>That's enough! · I've had enough.</li>
-      <li>Fair enough. · Sure enough, it rained. (as expected)</li>
+      <li>She knows enough to be a teacher.<br>No, it's not enough.</li>
+      <li>That's enough!<br>I've had enough.</li>
+      <li>Fair enough.<br>Sure enough, it rained. (as expected)</li>
     </ul>
     <h3>NOT … ENOUGH × TOO</h3>
     <p>They often say the same thing:</p>
@@ -79,9 +79,9 @@ pt:`
       <tr><td>to afford</td><td>ter dinheiro para, poder pagar</td></tr>
       <tr><td>to spend</td><td>gastar</td></tr>
       <tr><td>savings</td><td>economias</td></tr>
-      <tr><td>days off · vacation days</td><td>dias de folga · dias de férias</td></tr>
+      <tr><td>days off<br>vacation days</td><td>dias de folga<br>dias de férias</td></tr>
       <tr><td>a layover</td><td>uma escala</td></tr>
-      <tr><td>round trip · one way</td><td>ida e volta · só ida</td></tr>
+      <tr><td>round trip<br>one way</td><td>ida e volta<br>só ida</td></tr>
       <tr><td>in installments</td><td>parcelado</td></tr>
       <tr><td>the exchange rate</td><td>o câmbio</td></tr>
       <tr><td>a hostel</td><td>um albergue</td></tr>
@@ -97,9 +97,9 @@ en:`
       <tr><td>to afford</td><td>ter dinheiro para, poder pagar</td></tr>
       <tr><td>to spend</td><td>gastar</td></tr>
       <tr><td>savings</td><td>economias</td></tr>
-      <tr><td>days off · vacation days</td><td>dias de folga · dias de férias</td></tr>
+      <tr><td>days off<br>vacation days</td><td>dias de folga<br>dias de férias</td></tr>
       <tr><td>a layover</td><td>uma escala</td></tr>
-      <tr><td>round trip · one way</td><td>ida e volta · só ida</td></tr>
+      <tr><td>round trip<br>one way</td><td>ida e volta<br>só ida</td></tr>
       <tr><td>in installments</td><td>parcelado</td></tr>
       <tr><td>the exchange rate</td><td>o câmbio</td></tr>
       <tr><td>a hostel</td><td>um albergue</td></tr>

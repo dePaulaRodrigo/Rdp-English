@@ -7,30 +7,30 @@ addLesson({
 pt:`
     <h2>Every, each, all, whole</h2>
     <h3>EVERY = todo, cada (o grupo como conjunto)</h3>
-    <p>Com substantivo no <b>singular</b>: Every child <b>has</b> a backpack. · I go to the gym every day.</p>
+    <p>Com substantivo no <b>singular</b>: Every child <b>has</b> a backpack.<br>I go to the gym every day.</p>
     <h3>EACH = cada (um por um)</h3>
     <ul>
       <li>Each child has a different backpack.</li>
       <li>Para <b>dois</b>, só each: a ring on each hand (<s>every hand</s>).</li>
-      <li>Pode ficar sozinho: Each of them got a gift. · They cost five dollars <b>each</b>.</li>
+      <li>Pode ficar sozinho: Each of them got a gift.<br>They cost five dollars <b>each</b>.</li>
       <li>Com <i>almost</i>, só every: almost every day (<s>almost each</s>).</li>
     </ul>
     <h3>Intervalos</h3>
-    <p><b>every two weeks</b> = a cada duas semanas · <b>every other day</b> = dia sim, dia não</p>
+    <p><b>every two weeks</b> = a cada duas semanas<br><b>every other day</b> = dia sim, dia não</p>
     <h3>ALL = todos, tudo</h3>
     <ul>
-      <li>Com plural ou incontável: All (of) the kids are asleep. · all (of) my money</li>
-      <li>Com pronome, o <i>of</i> é obrigatório: all of us · all of them</li>
-      <li>Com tempo, sem <i>the</i>: all day · all night · all my life</li>
-      <li>Posição: We are <b>all</b> ready. · They <b>all</b> live in Recife.</li>
+      <li>Com plural ou incontável: All (of) the kids are asleep.<br>all (of) my money</li>
+      <li>Com pronome, o <i>of</i> é obrigatório: all of us<br>all of them</li>
+      <li>Com tempo, sem <i>the</i>: all day<br>all night<br>all my life</li>
+      <li>Posição: We are <b>all</b> ready.<br>They <b>all</b> live in Recife.</li>
     </ul>
     <h3>WHOLE = inteiro</h3>
     <ul>
-      <li><b>the whole</b> + singular: the whole pizza · the whole family · my whole life</li>
+      <li><b>the whole</b> + singular: the whole pizza<br>the whole family<br>my whole life</li>
       <li>Não vai com incontável: all the money (<s>the whole money</s>)</li>
     </ul>
     <h3>EVERY DAY × ALL DAY</h3>
-    <p>I study <b>every day</b> (todos os dias). · I studied <b>all day</b> = <b>the whole day</b> (o dia todo).</p>
+    <p>I study <b>every day</b> (todos os dias).<br>I studied <b>all day</b> = <b>the whole day</b> (o dia todo).</p>
     <h3>EVERYONE e EVERYTHING</h3>
     <ul>
       <li>Verbo no singular: Everyone <b>is</b> here. (<s>everyone are</s>)</li>
@@ -42,30 +42,30 @@ pt:`
 en:`
     <h2>Every, each, all, whole</h2>
     <h3>EVERY (the group as a whole)</h3>
-    <p>With a <b>singular</b> noun: Every child <b>has</b> a backpack. · I go to the gym every day.</p>
+    <p>With a <b>singular</b> noun: Every child <b>has</b> a backpack.<br>I go to the gym every day.</p>
     <h3>EACH (one by one)</h3>
     <ul>
       <li>Each child has a different backpack.</li>
       <li>For <b>two</b>, only each: a ring on each hand (<s>every hand</s>).</li>
-      <li>It can stand alone: Each of them got a gift. · They cost five dollars <b>each</b>.</li>
+      <li>It can stand alone: Each of them got a gift.<br>They cost five dollars <b>each</b>.</li>
       <li>With <i>almost</i>, only every: almost every day (<s>almost each</s>).</li>
     </ul>
     <h3>Intervals</h3>
-    <p><b>every two weeks</b> · <b>every other day</b> (one day yes, one day no)</p>
+    <p><b>every two weeks</b><br><b>every other day</b> (one day yes, one day no)</p>
     <h3>ALL</h3>
     <ul>
-      <li>With plural or uncountable nouns: All (of) the kids are asleep. · all (of) my money</li>
-      <li>With pronouns, <i>of</i> is required: all of us · all of them</li>
-      <li>With time words, no <i>the</i>: all day · all night · all my life</li>
-      <li>Position: We are <b>all</b> ready. · They <b>all</b> live in Recife.</li>
+      <li>With plural or uncountable nouns: All (of) the kids are asleep.<br>all (of) my money</li>
+      <li>With pronouns, <i>of</i> is required: all of us<br>all of them</li>
+      <li>With time words, no <i>the</i>: all day<br>all night<br>all my life</li>
+      <li>Position: We are <b>all</b> ready.<br>They <b>all</b> live in Recife.</li>
     </ul>
     <h3>WHOLE</h3>
     <ul>
-      <li><b>the whole</b> + singular: the whole pizza · the whole family · my whole life</li>
+      <li><b>the whole</b> + singular: the whole pizza<br>the whole family<br>my whole life</li>
       <li>Not with uncountables: all the money (<s>the whole money</s>)</li>
     </ul>
     <h3>EVERY DAY × ALL DAY</h3>
-    <p>I study <b>every day</b> (on each day). · I studied <b>all day</b> = <b>the whole day</b> (from morning to night).</p>
+    <p>I study <b>every day</b> (on each day).<br>I studied <b>all day</b> = <b>the whole day</b> (from morning to night).</p>
     <h3>EVERYONE and EVERYTHING</h3>
     <ul>
       <li>Singular verb: Everyone <b>is</b> here. (<s>everyone are</s>)</li>
@@ -80,7 +80,7 @@ pt:`
     <h2>A rotina da família</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to drop off · to pick up</td><td>deixar · buscar (na escola)</td></tr>
+      <tr><td>to drop off<br>to pick up</td><td>deixar<br>buscar (na escola)</td></tr>
       <tr><td>chores</td><td>tarefas de casa</td></tr>
       <tr><td>to do the dishes</td><td>lavar a louça</td></tr>
       <tr><td>to do the laundry</td><td>lavar a roupa</td></tr>
@@ -98,7 +98,7 @@ en:`
     <h2>Family routine</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to drop off · to pick up</td><td>deixar · buscar (na escola)</td></tr>
+      <tr><td>to drop off<br>to pick up</td><td>deixar<br>buscar (na escola)</td></tr>
       <tr><td>chores</td><td>tarefas de casa</td></tr>
       <tr><td>to do the dishes</td><td>lavar a louça</td></tr>
       <tr><td>to do the laundry</td><td>lavar a roupa</td></tr>
@@ -149,7 +149,7 @@ en:`
     { id:"mc-hard", title:"Multiple choice — tricky cases", type:"mc", reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
-        {q:"\"Todos os dias\" × \"o dia todo\": I cook ___, but yesterday I cooked ___.", o:["every day · all day","all day · every day","every day · every day"], a:0, sub:"every day × all day",
+        {q:"\"Todos os dias\" × \"o dia todo\": I cook ___, but yesterday I cooked ___.", o:["every day / all day","all day / every day","every day / every day"], a:0, sub:"every day × all day",
          why:{pt:"Every day = todos os dias; all day = o dia todo.", en:"Every day = on each day; all day = the whole day."}},
         {q:"We go to the dentist ___ six months.", o:["every","each","all"], a:0, sub:"intervals",
          why:{pt:"Intervalo: every + número.", en:"Interval: every + number."}},

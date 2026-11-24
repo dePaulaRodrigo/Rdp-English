@@ -22,7 +22,7 @@ pt:`
       <li>Sujeito: não pode — The man <b>who called</b> you is my boss. (<s>The man called you is my boss</s>)</li>
     </ul>
     <h3>THAT obrigatório</h3>
-    <p>Depois de superlativos e de <i>all, everything, nothing, only</i>: the best movie <b>that</b> I've seen · everything <b>that</b> I know</p>
+    <p>Depois de superlativos e de <i>all, everything, nothing, only</i>: the best movie <b>that</b> I've seen<br>everything <b>that</b> I know</p>
     <h3>Nada de pronome repetido</h3>
     <p>The book that I read <s>it</s> was great → The book that I read was great.</p>
     <h3>WHERE × THAT para lugares</h3>
@@ -32,7 +32,7 @@ pt:`
       <li>Informal: the city (that) I was born <b>in</b></li>
     </ul>
     <h3>WHAT = o que (a coisa que)</h3>
-    <p><b>What</b> I need is sleep (<s>That I need</s>). · Mas: Everything <b>that</b> you said (<s>everything what</s>).</p>
+    <p><b>What</b> I need is sleep (<s>That I need</s>).<br>Mas: Everything <b>that</b> you said (<s>everything what</s>).</p>
     <p class="note">The man who invented the World Wide Web is Tim Berners-Lee.</p>`,
 en:`
     <h2>Relative pronouns</h2>
@@ -52,7 +52,7 @@ en:`
       <li>Subject: it can't — The man <b>who called</b> you is my boss. (<s>The man called you is my boss</s>)</li>
     </ul>
     <h3>THAT is required</h3>
-    <p>After superlatives and <i>all, everything, nothing, only</i>: the best movie <b>that</b> I've seen · everything <b>that</b> I know</p>
+    <p>After superlatives and <i>all, everything, nothing, only</i>: the best movie <b>that</b> I've seen<br>everything <b>that</b> I know</p>
     <h3>No repeated pronoun</h3>
     <p>The book that I read <s>it</s> was great → The book that I read was great.</p>
     <h3>WHERE × THAT for places</h3>
@@ -62,7 +62,7 @@ en:`
       <li>Informal: the city (that) I was born <b>in</b></li>
     </ul>
     <h3>WHAT = the thing that</h3>
-    <p><b>What</b> I need is sleep (<s>That I need</s>). · But: Everything <b>that</b> you said (<s>everything what</s>).</p>
+    <p><b>What</b> I need is sleep (<s>That I need</s>).<br>But: Everything <b>that</b> you said (<s>everything what</s>).</p>
     <p class="note">The man who invented the World Wide Web is Tim Berners-Lee.</p>`
   },
   vocab:{
@@ -73,7 +73,7 @@ pt:`
       <tr><td>a neighbor</td><td>um vizinho</td></tr>
       <tr><td>a coworker</td><td>um colega de trabalho</td></tr>
       <tr><td>a landlord</td><td>um senhorio, proprietário</td></tr>
-      <tr><td>bald · bearded</td><td>careca · barbudo</td></tr>
+      <tr><td>bald<br>bearded</td><td>careca<br>barbudo</td></tr>
       <tr><td>in his forties</td><td>na casa dos quarenta</td></tr>
       <tr><td>a hometown</td><td>uma cidade natal</td></tr>
       <tr><td>a hidden gem</td><td>uma joia escondida</td></tr>
@@ -81,7 +81,7 @@ pt:`
       <tr><td>a bakery</td><td>uma padaria</td></tr>
       <tr><td>to be known for</td><td>ser conhecido por</td></tr>
       <tr><td>to grow up</td><td>crescer (ser criado)</td></tr>
-      <tr><td>cozy · lively</td><td>aconchegante · animado</td></tr>
+      <tr><td>cozy<br>lively</td><td>aconchegante<br>animado</td></tr>
     </table>`,
 en:`
     <h2>Describing people and places</h2>
@@ -90,7 +90,7 @@ en:`
       <tr><td>a neighbor</td><td>um vizinho</td></tr>
       <tr><td>a coworker</td><td>um colega de trabalho</td></tr>
       <tr><td>a landlord</td><td>um senhorio, proprietário</td></tr>
-      <tr><td>bald · bearded</td><td>careca · barbudo</td></tr>
+      <tr><td>bald<br>bearded</td><td>careca<br>barbudo</td></tr>
       <tr><td>in his forties</td><td>na casa dos quarenta</td></tr>
       <tr><td>a hometown</td><td>uma cidade natal</td></tr>
       <tr><td>a hidden gem</td><td>uma joia escondida</td></tr>
@@ -98,7 +98,7 @@ en:`
       <tr><td>a bakery</td><td>uma padaria</td></tr>
       <tr><td>to be known for</td><td>ser conhecido por</td></tr>
       <tr><td>to grow up</td><td>crescer (ser criado)</td></tr>
-      <tr><td>cozy · lively</td><td>aconchegante · animado</td></tr>
+      <tr><td>cozy<br>lively</td><td>aconchegante<br>animado</td></tr>
     </table>`
   },
   exercises:[

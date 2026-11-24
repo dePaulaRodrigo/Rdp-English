@@ -8,61 +8,61 @@ pt:`
     <h2>Finalidade (para que)</h2>
     <table>
       <tr><th>Conectivo</th><th>Depois vem</th><th>Exemplo</th></tr>
-      <tr><td><b>to</b> · <b>in order to</b> · <b>so as to</b></td><td>verbo</td><td>I'm saving money (in order) to travel.</td></tr>
+      <tr><td><b>to</b><br><b>in order to</b><br><b>so as to</b></td><td>verbo</td><td>I'm saving money (in order) to travel.</td></tr>
       <tr><td><b>so that</b></td><td>oração com sujeito (+ can / could / will / would)</td><td>I'm saving money so that I can travel.</td></tr>
       <tr><td><b>for</b></td><td>substantivo</td><td>I went to the travel agency for information.</td></tr>
     </table>
     <ul>
       <li>Negativa: <b>so as not to</b> / <b>in order not to</b>: I woke up early so as not to miss the flight.</li>
-      <li><s>for to travel</s> · <s>for travel</s> (como finalidade com verbo) → <b>to travel</b></li>
+      <li><s>for to travel</s><br><s>for travel</s> (como finalidade com verbo) → <b>to travel</b></li>
       <li>Passado: I spoke slowly so that she <b>could</b> understand.</li>
     </ul>
     <h2>Causa (porque)</h2>
     <table>
       <tr><th>Conectivo</th><th>Depois vem</th><th>Exemplo</th></tr>
       <tr><td><b>because</b></td><td>oração</td><td>We stayed home because it was raining.</td></tr>
-      <tr><td><b>because of</b> · <b>due to</b></td><td>substantivo</td><td>We stayed home because of the rain.</td></tr>
-      <tr><td><b>since</b> · <b>as</b></td><td>oração (= já que)</td><td>Since we're here, let's visit the museum.</td></tr>
+      <tr><td><b>because of</b><br><b>due to</b></td><td>substantivo</td><td>We stayed home because of the rain.</td></tr>
+      <tr><td><b>since</b><br><b>as</b></td><td>oração (= já que)</td><td>Since we're here, let's visit the museum.</td></tr>
       <tr><td><b>thanks to</b></td><td>substantivo (bom ou irônico)</td><td>Thanks to the traffic, we missed the flight.</td></tr>
     </table>
     <h2>Consequência (então)</h2>
     <ul>
       <li><b>so</b> = então: It was raining, so we stayed home.</li>
-      <li><b>therefore</b> · <b>as a result</b> · <b>consequently</b> (formais, abrem frase nova): Flights are cheaper in May. Therefore, we'll go then.</li>
+      <li><b>therefore</b><br><b>as a result</b><br><b>consequently</b> (formais, abrem frase nova): Flights are cheaper in May. Therefore, we'll go then.</li>
       <li><b>that's why</b> = é por isso que (informal): I missed the bus. That's why I'm late.</li>
     </ul>
     <h3>SO × SO THAT</h3>
-    <p>It was cold, <b>so</b> I wore a coat (consequência). · I wore a coat <b>so that</b> I wouldn't get cold (finalidade).</p>
+    <p>It was cold, <b>so</b> I wore a coat (consequência).<br>I wore a coat <b>so that</b> I wouldn't get cold (finalidade).</p>
     <p class="note">Due to the altitude, water boils at about 88 °C in La Paz. As a result, pasta takes longer to cook there.</p>`,
 en:`
     <h2>Purpose</h2>
     <table>
       <tr><th>Connector</th><th>Followed by</th><th>Example</th></tr>
-      <tr><td><b>to</b> · <b>in order to</b> · <b>so as to</b></td><td>verb</td><td>I'm saving money (in order) to travel.</td></tr>
+      <tr><td><b>to</b><br><b>in order to</b><br><b>so as to</b></td><td>verb</td><td>I'm saving money (in order) to travel.</td></tr>
       <tr><td><b>so that</b></td><td>clause with a subject (+ can / could / will / would)</td><td>I'm saving money so that I can travel.</td></tr>
       <tr><td><b>for</b></td><td>noun</td><td>I went to the travel agency for information.</td></tr>
     </table>
     <ul>
       <li>Negative: <b>so as not to</b> / <b>in order not to</b>: I woke up early so as not to miss the flight.</li>
-      <li><s>for to travel</s> · <s>for travel</s> (purpose with a verb) → <b>to travel</b></li>
+      <li><s>for to travel</s><br><s>for travel</s> (purpose with a verb) → <b>to travel</b></li>
       <li>Past: I spoke slowly so that she <b>could</b> understand.</li>
     </ul>
     <h2>Cause</h2>
     <table>
       <tr><th>Connector</th><th>Followed by</th><th>Example</th></tr>
       <tr><td><b>because</b></td><td>clause</td><td>We stayed home because it was raining.</td></tr>
-      <tr><td><b>because of</b> · <b>due to</b></td><td>noun</td><td>We stayed home because of the rain.</td></tr>
-      <tr><td><b>since</b> · <b>as</b></td><td>clause</td><td>Since we're here, let's visit the museum.</td></tr>
+      <tr><td><b>because of</b><br><b>due to</b></td><td>noun</td><td>We stayed home because of the rain.</td></tr>
+      <tr><td><b>since</b><br><b>as</b></td><td>clause</td><td>Since we're here, let's visit the museum.</td></tr>
       <tr><td><b>thanks to</b></td><td>noun (good or ironic)</td><td>Thanks to the traffic, we missed the flight.</td></tr>
     </table>
     <h2>Result</h2>
     <ul>
       <li><b>so</b>: It was raining, so we stayed home.</li>
-      <li><b>therefore</b> · <b>as a result</b> · <b>consequently</b> (formal, new sentence): Flights are cheaper in May. Therefore, we'll go then.</li>
+      <li><b>therefore</b><br><b>as a result</b><br><b>consequently</b> (formal, new sentence): Flights are cheaper in May. Therefore, we'll go then.</li>
       <li><b>that's why</b> (informal): I missed the bus. That's why I'm late.</li>
     </ul>
     <h3>SO × SO THAT</h3>
-    <p>It was cold, <b>so</b> I wore a coat (result). · I wore a coat <b>so that</b> I wouldn't get cold (purpose).</p>
+    <p>It was cold, <b>so</b> I wore a coat (result).<br>I wore a coat <b>so that</b> I wouldn't get cold (purpose).</p>
     <p class="note">Due to the altitude, water boils at about 88 °C in La Paz. As a result, pasta takes longer to cook there.</p>`
   },
   vocab:{
@@ -71,16 +71,16 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>an itinerary</td><td>um roteiro</td></tr>
-      <tr><td>to book · a booking</td><td>reservar · uma reserva</td></tr>
-      <tr><td>a layover · a direct flight</td><td>uma escala · um voo direto</td></tr>
-      <tr><td>peak season · off-season</td><td>alta · baixa temporada</td></tr>
+      <tr><td>to book<br>a booking</td><td>reservar<br>uma reserva</td></tr>
+      <tr><td>a layover<br>a direct flight</td><td>uma escala<br>um voo direto</td></tr>
+      <tr><td>peak season<br>off-season</td><td>alta<br>baixa temporada</td></tr>
       <tr><td>travel insurance</td><td>seguro-viagem</td></tr>
       <tr><td>a visa</td><td>um visto</td></tr>
       <tr><td>to exchange money</td><td>trocar dinheiro</td></tr>
       <tr><td>altitude sickness</td><td>mal de altitude</td></tr>
       <tr><td>to pack</td><td>fazer as malas</td></tr>
       <tr><td>a budget</td><td>um orçamento</td></tr>
-      <tr><td>to cancel · a refund</td><td>cancelar · um reembolso</td></tr>
+      <tr><td>to cancel<br>a refund</td><td>cancelar<br>um reembolso</td></tr>
       <tr><td>to acclimatize</td><td>aclimatar-se</td></tr>
     </table>`,
 en:`
@@ -88,16 +88,16 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>an itinerary</td><td>um roteiro</td></tr>
-      <tr><td>to book · a booking</td><td>reservar · uma reserva</td></tr>
-      <tr><td>a layover · a direct flight</td><td>uma escala · um voo direto</td></tr>
-      <tr><td>peak season · off-season</td><td>alta · baixa temporada</td></tr>
+      <tr><td>to book<br>a booking</td><td>reservar<br>uma reserva</td></tr>
+      <tr><td>a layover<br>a direct flight</td><td>uma escala<br>um voo direto</td></tr>
+      <tr><td>peak season<br>off-season</td><td>alta<br>baixa temporada</td></tr>
       <tr><td>travel insurance</td><td>seguro-viagem</td></tr>
       <tr><td>a visa</td><td>um visto</td></tr>
       <tr><td>to exchange money</td><td>trocar dinheiro</td></tr>
       <tr><td>altitude sickness</td><td>mal de altitude</td></tr>
       <tr><td>to pack</td><td>fazer as malas</td></tr>
       <tr><td>a budget</td><td>um orçamento</td></tr>
-      <tr><td>to cancel · a refund</td><td>cancelar · um reembolso</td></tr>
+      <tr><td>to cancel<br>a refund</td><td>cancelar<br>um reembolso</td></tr>
       <tr><td>to acclimatize</td><td>aclimatar-se</td></tr>
     </table>`
   },

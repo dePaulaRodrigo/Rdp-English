@@ -86,7 +86,7 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-medium-8.mp3 | Tiago | I usually run twice a week. (usual) |  |
 | dialogue-medium-9.mp3 | Paula | Good. You're improving quickly. (quick) |  |
 | dialogue-medium-10.mp3 | Tiago | I want to run a half marathon next year. |  |
-| dialogue-medium-11.mp3 | Paula | You can do it easily. Just train regularly. (easy · regular) |  |
+| dialogue-medium-11.mp3 | Paula | You can do it easily. Just train regularly. (easy / regular) |  |
 
 ## adverbs › dialogue-hard  (0/12)
 
@@ -2209,7 +2209,7 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-medium-1.mp3 | Duda | I study for hours, but I forget everything! |  |
 | dialogue-medium-2.mp3 | Gui | Do you review? The more often you review, the less you forget. (often) |  |
 | dialogue-medium-3.mp3 | Duda | Not really. I just read and read. |  |
-| dialogue-medium-4.mp3 | Gui | Try practice tests. The more tests you take, the better you get. (many · good) |  |
+| dialogue-medium-4.mp3 | Gui | Try practice tests. The more tests you take, the better you get. (many / good) |  |
 | dialogue-medium-5.mp3 | Duda | OK. And my phone? I check it all the time. |  |
 | dialogue-medium-6.mp3 | Gui | Put it in another room. The fewer distractions, the better. (few) |  |
 | dialogue-medium-7.mp3 | Duda | What about sleep? I sleep five hours. |  |

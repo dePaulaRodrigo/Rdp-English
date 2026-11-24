@@ -8,57 +8,57 @@ pt:`
     <h2>Expressões com HAVE</h2>
     <h3>Posse — "ter"</h3>
     <ul>
-      <li>I have a problem. · They have two dogs.</li>
-      <li>Características e relações: She has blue eyes. · He has two sisters.</li>
-      <li>Sintomas: I have a headache. · She has a cold.</li>
+      <li>I have a problem.<br>They have two dogs.</li>
+      <li>Características e relações: She has blue eyes.<br>He has two sisters.</li>
+      <li>Sintomas: I have a headache.<br>She has a cold.</li>
       <li>Nesse sentido, não vai para o -ING: I have a car (<s>I'm having a car</s>).</li>
     </ul>
     <h3>Consumir — comer ou beber</h3>
     <ul>
-      <li>have breakfast · lunch · dinner · a snack · a drink · coffee</li>
+      <li>have breakfast<br>lunch<br>dinner<br>a snack<br>a drink<br>coffee</li>
       <li>No restaurante: "What are you having?" — "I'll have the fish."</li>
       <li>Nesse sentido, vai para o -ING: We're having dinner.</li>
     </ul>
     <h3>Experiências e eventos</h3>
-    <p>have fun · have a good time · have a party · have a meeting · have a baby · have an argument · Have a nice day! · Have a seat.</p>
+    <p>have fun<br>have a good time<br>have a party<br>have a meeting<br>have a baby<br>have an argument<br>Have a nice day!<br>Have a seat.</p>
     <h3>Receber visitas — HAVE SOMEONE OVER</h3>
-    <p>I had my friends over last week. · Do you like to have people over?</p>
+    <p>I had my friends over last week.<br>Do you like to have people over?</p>
     <p class="note">Pagar alguém para fazer algo (I had my hair cut) é o causativo, do cap. 58.</p>
     <h2>Expressões com TAKE</h2>
     <ul>
       <li><b>Levar alguém a um lugar</b>: take someone to somewhere — Can you take me to the airport?</li>
-      <li><b>O tempo que algo leva</b>: it takes (+ pessoa) + tempo + to — It takes me twenty minutes to get to the gym. (<s>I take twenty minutes</s>) · How long does it take?</li>
-      <li>take the bus · take a taxi · take a photo · take a test · take medicine · take care</li>
+      <li><b>O tempo que algo leva</b>: it takes (+ pessoa) + tempo + to — It takes me twenty minutes to get to the gym. (<s>I take twenty minutes</s>)<br>How long does it take?</li>
+      <li>take the bus<br>take a taxi<br>take a photo<br>take a test<br>take medicine<br>take care</li>
     </ul>
-    <p class="note">No inglês americano, algumas ações usam TAKE onde o britânico usa HAVE: <b>take</b> a shower · <b>take</b> a nap · <b>take</b> a break · <b>take</b> a look.</p>
+    <p class="note">No inglês americano, algumas ações usam TAKE onde o britânico usa HAVE: <b>take</b> a shower<br><b>take</b> a nap<br><b>take</b> a break<br><b>take</b> a look.</p>
     <p>It takes about eight minutes for sunlight to reach the Earth.</p>`,
 en:`
     <h2>Expressions with HAVE</h2>
     <h3>Possession</h3>
     <ul>
-      <li>I have a problem. · They have two dogs.</li>
-      <li>Features and relationships: She has blue eyes. · He has two sisters.</li>
-      <li>Symptoms: I have a headache. · She has a cold.</li>
+      <li>I have a problem.<br>They have two dogs.</li>
+      <li>Features and relationships: She has blue eyes.<br>He has two sisters.</li>
+      <li>Symptoms: I have a headache.<br>She has a cold.</li>
       <li>In this sense, no -ING: I have a car (<s>I'm having a car</s>).</li>
     </ul>
     <h3>Eating and drinking</h3>
     <ul>
-      <li>have breakfast · lunch · dinner · a snack · a drink · coffee</li>
+      <li>have breakfast<br>lunch<br>dinner<br>a snack<br>a drink<br>coffee</li>
       <li>At a restaurant: "What are you having?" — "I'll have the fish."</li>
       <li>In this sense, -ING is fine: We're having dinner.</li>
     </ul>
     <h3>Experiences and events</h3>
-    <p>have fun · have a good time · have a party · have a meeting · have a baby · have an argument · Have a nice day! · Have a seat.</p>
+    <p>have fun<br>have a good time<br>have a party<br>have a meeting<br>have a baby<br>have an argument<br>Have a nice day!<br>Have a seat.</p>
     <h3>Guests — HAVE SOMEONE OVER</h3>
-    <p>I had my friends over last week. · Do you like to have people over?</p>
+    <p>I had my friends over last week.<br>Do you like to have people over?</p>
     <p class="note">Paying someone to do something (I had my hair cut) is the causative, in chapter 58.</p>
     <h2>Expressions with TAKE</h2>
     <ul>
       <li><b>Taking someone somewhere</b>: take someone to somewhere — Can you take me to the airport?</li>
-      <li><b>How long something lasts</b>: it takes (+ person) + time + to — It takes me twenty minutes to get to the gym. (<s>I take twenty minutes</s>) · How long does it take?</li>
-      <li>take the bus · take a taxi · take a photo · take a test · take medicine · take care</li>
+      <li><b>How long something lasts</b>: it takes (+ person) + time + to — It takes me twenty minutes to get to the gym. (<s>I take twenty minutes</s>)<br>How long does it take?</li>
+      <li>take the bus<br>take a taxi<br>take a photo<br>take a test<br>take medicine<br>take care</li>
     </ul>
-    <p class="note">In American English, some actions use TAKE where British English uses HAVE: <b>take</b> a shower · <b>take</b> a nap · <b>take</b> a break · <b>take</b> a look.</p>
+    <p class="note">In American English, some actions use TAKE where British English uses HAVE: <b>take</b> a shower<br><b>take</b> a nap<br><b>take</b> a break<br><b>take</b> a look.</p>
     <p>It takes about eight minutes for sunlight to reach the Earth.</p>`
   },
   vocab:{
@@ -66,18 +66,18 @@ pt:`
     <h2>Refeições</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>breakfast · lunch · dinner</td><td>café da manhã · almoço · jantar</td></tr>
+      <tr><td>breakfast<br>lunch<br>dinner</td><td>café da manhã<br>almoço<br>jantar</td></tr>
       <tr><td>brunch</td><td>refeição entre o café e o almoço</td></tr>
       <tr><td>snack</td><td>lanche, petisco</td></tr>
-      <tr><td>appetizer · main course · dessert</td><td>entrada · prato principal · sobremesa</td></tr>
+      <tr><td>appetizer<br>main course<br>dessert</td><td>entrada<br>prato principal<br>sobremesa</td></tr>
       <tr><td>leftovers</td><td>sobras</td></tr>
       <tr><td>to make dinner</td><td>preparar o jantar</td></tr>
-      <tr><td>to set the table · to clear the table</td><td>pôr a mesa · tirar a mesa</td></tr>
+      <tr><td>to set the table<br>to clear the table</td><td>pôr a mesa<br>tirar a mesa</td></tr>
     </table>
     <h2>Receber visitas</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>guest · host</td><td>convidado · anfitrião</td></tr>
+      <tr><td>guest<br>host</td><td>convidado<br>anfitrião</td></tr>
       <tr><td>to invite someone over</td><td>convidar alguém para ir à sua casa</td></tr>
       <tr><td>Make yourself at home.</td><td>Fique à vontade.</td></tr>
       <tr><td>Help yourself.</td><td>Sirva-se.</td></tr>
@@ -90,18 +90,18 @@ en:`
     <h2>Meals</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>breakfast · lunch · dinner</td><td>café da manhã · almoço · jantar</td></tr>
+      <tr><td>breakfast<br>lunch<br>dinner</td><td>café da manhã<br>almoço<br>jantar</td></tr>
       <tr><td>brunch</td><td>refeição entre o café e o almoço</td></tr>
       <tr><td>snack</td><td>lanche, petisco</td></tr>
-      <tr><td>appetizer · main course · dessert</td><td>entrada · prato principal · sobremesa</td></tr>
+      <tr><td>appetizer<br>main course<br>dessert</td><td>entrada<br>prato principal<br>sobremesa</td></tr>
       <tr><td>leftovers</td><td>sobras</td></tr>
       <tr><td>to make dinner</td><td>preparar o jantar</td></tr>
-      <tr><td>to set the table · to clear the table</td><td>pôr a mesa · tirar a mesa</td></tr>
+      <tr><td>to set the table<br>to clear the table</td><td>pôr a mesa<br>tirar a mesa</td></tr>
     </table>
     <h2>Having guests</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>guest · host</td><td>convidado · anfitrião</td></tr>
+      <tr><td>guest<br>host</td><td>convidado<br>anfitrião</td></tr>
       <tr><td>to invite someone over</td><td>convidar alguém para ir à sua casa</td></tr>
       <tr><td>Make yourself at home.</td><td>Fique à vontade.</td></tr>
       <tr><td>Help yourself.</td><td>Sirva-se.</td></tr>

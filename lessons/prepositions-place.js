@@ -8,56 +8,56 @@ pt:`
     <h2>In, on, at para lugar</h2>
     <table>
       <tr><th>Preposição</th><th>Uso</th><th>Exemplo</th></tr>
-      <tr><td><b>in</b></td><td>país, estado, cidade, bairro; dentro de</td><td>in Brazil · in Santo André · in the kitchen</td></tr>
-      <tr><td><b>on</b></td><td>rua, avenida; superfície</td><td>on Main Street · on the table</td></tr>
-      <tr><td><b>at</b></td><td>número; ponto, lugar onde se \"está\"</td><td>at 164 Main Street · at the bank · at work</td></tr>
+      <tr><td><b>in</b></td><td>país, estado, cidade, bairro; dentro de</td><td>in Brazil<br>in Santo André<br>in the kitchen</td></tr>
+      <tr><td><b>on</b></td><td>rua, avenida; superfície</td><td>on Main Street<br>on the table</td></tr>
+      <tr><td><b>at</b></td><td>número; ponto, lugar onde se \"está\"</td><td>at 164 Main Street<br>at the bank<br>at work</td></tr>
     </table>
-    <p>Sem artigo: <b>at home · at work · at school · in bed</b>. Americano: <b>in the hospital</b>.</p>
+    <p>Sem artigo: <b>at home<br>at work<br>at school<br>in bed</b>. Americano: <b>in the hospital</b>.</p>
     <h3>Arrive in × arrive at</h3>
-    <p>arrive <b>in</b> + cidade, país · arrive <b>at</b> + lugar específico · arrive <b>home</b> (sem preposição)</p>
+    <p>arrive <b>in</b> + cidade, país<br>arrive <b>at</b> + lugar específico<br>arrive <b>home</b> (sem preposição)</p>
     <h3>Go to… e go sem TO</h3>
-    <p>go <b>to</b> work · go <b>to</b> the beach — mas go <b>home</b>, go <b>downtown</b>, go <b>abroad</b>, go <b>there</b> (<s>go to home</s>).</p>
+    <p>go <b>to</b> work<br>go <b>to</b> the beach — mas go <b>home</b>, go <b>downtown</b>, go <b>abroad</b>, go <b>there</b> (<s>go to home</s>).</p>
     <h3>Transporte</h3>
     <ul>
-      <li><b>by</b> car · by bus · by plane — mas <b>on foot</b></li>
-      <li><b>get in / out of</b> o carro, o táxi · <b>get on / off</b> o ônibus, o trem, o avião</li>
+      <li><b>by</b> car<br>by bus<br>by plane — mas <b>on foot</b></li>
+      <li><b>get in / out of</b> o carro, o táxi<br><b>get on / off</b> o ônibus, o trem, o avião</li>
     </ul>
     <h3>Posição</h3>
-    <p>next to (ao lado) · between (entre dois) · across from (do outro lado da rua) · in front of (na frente) · behind (atrás) · under (embaixo) · over / above (em cima) · near (perto)</p>
+    <p>next to (ao lado)<br>between (entre dois)<br>across from (do outro lado da rua)<br>in front of (na frente)<br>behind (atrás)<br>under (embaixo)<br>over / above (em cima)<br>near (perto)</p>
     <p class="note"><i>In front of</i> é \"bem na frente\". \"Em frente, do outro lado da rua\" é <b>across from</b>.</p>
     <h3>Movimento</h3>
-    <p>into (para dentro) · out of (para fora) · through (através) · across (atravessando) · along (ao longo) · past (passando por) · up · down · toward (em direção a)</p>
+    <p>into (para dentro)<br>out of (para fora)<br>through (através)<br>across (atravessando)<br>along (ao longo)<br>past (passando por)<br>up<br>down<br>toward (em direção a)</p>
     <h3>To × for (finalidade)</h3>
-    <p><b>to</b> + verbo: I went to the market <b>to buy</b> fruit (<s>for buy</s>). · <b>for</b> + substantivo: Let's go out <b>for</b> lunch.</p>
+    <p><b>to</b> + verbo: I went to the market <b>to buy</b> fruit (<s>for buy</s>).<br><b>for</b> + substantivo: Let's go out <b>for</b> lunch.</p>
     <h3>Outras preposições do dia a dia</h3>
-    <p>to (para, a) · for (para, por) · from (de, origem) · of (de) · about (sobre) · with (com)</p>`,
+    <p>to (para, a)<br>for (para, por)<br>from (de, origem)<br>of (de)<br>about (sobre)<br>with (com)</p>`,
 en:`
     <h2>In, on, at for place</h2>
     <table>
       <tr><th>Preposition</th><th>Use</th><th>Example</th></tr>
-      <tr><td><b>in</b></td><td>country, state, city, neighborhood; inside</td><td>in Brazil · in Santo André · in the kitchen</td></tr>
-      <tr><td><b>on</b></td><td>street, avenue; surface</td><td>on Main Street · on the table</td></tr>
-      <tr><td><b>at</b></td><td>house number; a point, a place where you \"are\"</td><td>at 164 Main Street · at the bank · at work</td></tr>
+      <tr><td><b>in</b></td><td>country, state, city, neighborhood; inside</td><td>in Brazil<br>in Santo André<br>in the kitchen</td></tr>
+      <tr><td><b>on</b></td><td>street, avenue; surface</td><td>on Main Street<br>on the table</td></tr>
+      <tr><td><b>at</b></td><td>house number; a point, a place where you \"are\"</td><td>at 164 Main Street<br>at the bank<br>at work</td></tr>
     </table>
-    <p>No article: <b>at home · at work · at school · in bed</b>. American: <b>in the hospital</b>.</p>
+    <p>No article: <b>at home<br>at work<br>at school<br>in bed</b>. American: <b>in the hospital</b>.</p>
     <h3>Arrive in × arrive at</h3>
-    <p>arrive <b>in</b> + city, country · arrive <b>at</b> + a specific place · arrive <b>home</b> (no preposition)</p>
+    <p>arrive <b>in</b> + city, country<br>arrive <b>at</b> + a specific place<br>arrive <b>home</b> (no preposition)</p>
     <h3>Go to… and go without TO</h3>
-    <p>go <b>to</b> work · go <b>to</b> the beach — but go <b>home</b>, go <b>downtown</b>, go <b>abroad</b>, go <b>there</b> (<s>go to home</s>).</p>
+    <p>go <b>to</b> work<br>go <b>to</b> the beach — but go <b>home</b>, go <b>downtown</b>, go <b>abroad</b>, go <b>there</b> (<s>go to home</s>).</p>
     <h3>Transportation</h3>
     <ul>
-      <li><b>by</b> car · by bus · by plane — but <b>on foot</b></li>
-      <li><b>get in / out of</b> a car, a taxi · <b>get on / off</b> a bus, a train, a plane</li>
+      <li><b>by</b> car<br>by bus<br>by plane — but <b>on foot</b></li>
+      <li><b>get in / out of</b> a car, a taxi<br><b>get on / off</b> a bus, a train, a plane</li>
     </ul>
     <h3>Position</h3>
-    <p>next to · between (two things) · across from · in front of · behind · under · over / above · near</p>
+    <p>next to<br>between (two things)<br>across from<br>in front of<br>behind<br>under<br>over / above<br>near</p>
     <p class="note"><i>In front of</i> = right before something. On the other side of the street is <b>across from</b>.</p>
     <h3>Movement</h3>
-    <p>into · out of · through · across · along · past · up · down · toward</p>
+    <p>into<br>out of<br>through<br>across<br>along<br>past<br>up<br>down<br>toward</p>
     <h3>To × for (purpose)</h3>
-    <p><b>to</b> + verb: I went to the market <b>to buy</b> fruit (<s>for buy</s>). · <b>for</b> + noun: Let's go out <b>for</b> lunch.</p>
+    <p><b>to</b> + verb: I went to the market <b>to buy</b> fruit (<s>for buy</s>).<br><b>for</b> + noun: Let's go out <b>for</b> lunch.</p>
     <h3>Other everyday prepositions</h3>
-    <p>to · for · from (origin) · of · about · with</p>`
+    <p>to<br>for<br>from (origin)<br>of<br>about<br>with</p>`
   },
   vocab:{
 pt:`
@@ -67,7 +67,7 @@ pt:`
       <tr><td>an address</td><td>um endereço</td></tr>
       <tr><td>a block</td><td>um quarteirão</td></tr>
       <tr><td>a corner</td><td>uma esquina</td></tr>
-      <tr><td>to turn left · right</td><td>virar à esquerda · direita</td></tr>
+      <tr><td>to turn left<br>right</td><td>virar à esquerda<br>direita</td></tr>
       <tr><td>to go straight</td><td>seguir reto</td></tr>
       <tr><td>to cross the street</td><td>atravessar a rua</td></tr>
       <tr><td>a roundabout</td><td>uma rotatória</td></tr>
@@ -85,7 +85,7 @@ en:`
       <tr><td>an address</td><td>um endereço</td></tr>
       <tr><td>a block</td><td>um quarteirão</td></tr>
       <tr><td>a corner</td><td>uma esquina</td></tr>
-      <tr><td>to turn left · right</td><td>virar à esquerda · direita</td></tr>
+      <tr><td>to turn left<br>right</td><td>virar à esquerda<br>direita</td></tr>
       <tr><td>to go straight</td><td>seguir reto</td></tr>
       <tr><td>to cross the street</td><td>atravessar a rua</td></tr>
       <tr><td>a roundabout</td><td>uma rotatória</td></tr>

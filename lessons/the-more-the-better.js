@@ -30,7 +30,7 @@ pt:`
       <li>The fewer mistakes you make, the higher your grade.</li>
     </ul>
     <h3>Sem o verbo BE</h3>
-    <p>O <i>be</i> pode cair: The higher the risk, the bigger the profit. · The older the wine, the better.</p>
+    <p>O <i>be</i> pode cair: The higher the risk, the bigger the profit.<br>The older the wine, the better.</p>
     <p class="note">A \"Lei de Moore\" (Gordon Moore, 1965): the smaller the transistors, the more of them fit on a chip.</p>`,
 en:`
     <h2>The … the</h2>
@@ -58,7 +58,7 @@ en:`
       <li>The fewer mistakes you make, the higher your grade.</li>
     </ul>
     <h3>Without BE</h3>
-    <p><i>Be</i> can be dropped: The higher the risk, the bigger the profit. · The older the wine, the better.</p>
+    <p><i>Be</i> can be dropped: The higher the risk, the bigger the profit.<br>The older the wine, the better.</p>
     <p class="note">Moore's Law (Gordon Moore, 1965): the smaller the transistors, the more of them fit on a chip.</p>`
   },
   vocab:{
@@ -66,7 +66,7 @@ pt:`
     <h2>Hábitos e estudo</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a habit · to form a habit</td><td>um hábito · criar um hábito</td></tr>
+      <tr><td>a habit<br>to form a habit</td><td>um hábito<br>criar um hábito</td></tr>
       <tr><td>to procrastinate</td><td>procrastinar</td></tr>
       <tr><td>to focus</td><td>concentrar-se</td></tr>
       <tr><td>to review</td><td>revisar</td></tr>
@@ -84,7 +84,7 @@ en:`
     <h2>Habits and study</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a habit · to form a habit</td><td>um hábito · criar um hábito</td></tr>
+      <tr><td>a habit<br>to form a habit</td><td>um hábito<br>criar um hábito</td></tr>
       <tr><td>to procrastinate</td><td>procrastinar</td></tr>
       <tr><td>to focus</td><td>concentrar-se</td></tr>
       <tr><td>to review</td><td>revisar</td></tr>
@@ -171,7 +171,7 @@ en:`
         ["Duda","I study for hours, but I forget everything!"],
         ["Gui","Do you review? The [[1]] you review, the less you forget. (often)"],
         ["Duda","Not really. I just read and read."],
-        ["Gui","Try practice tests. The [[2]] tests you take, the [[3]] you get. (many · good)"],
+        ["Gui","Try practice tests. The [[2]] tests you take, the [[3]] you get. (many / good)"],
         ["Duda","OK. And my phone? I check it all the time."],
         ["Gui","Put it in another room. The [[4]] distractions, the better. (few)"],
         ["Duda","What about sleep? I sleep five hours."],

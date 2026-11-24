@@ -15,17 +15,17 @@ pt:`
     <p class="note"><i>Could</i> é para habilidade geral no passado. Para uma conquista numa ocasião, use <i>was able to</i> ou <i>managed to</i>: The sea was rough, but I was able to swim to the boat. Na negativa, <i>couldn't</i> serve sempre.</p>
     <h3>Pedidos educados</h3>
     <ul>
-      <li>Could you do me a favor? · Could I use your phone?</li>
+      <li>Could you do me a favor?<br>Could I use your phone?</li>
       <li><i>Could</i> é mais educado que <i>can</i>. Na resposta, usa-se <i>can</i>: "Could you help me?" — "Sure, I can." (<s>Yes, I could</s>)</li>
     </ul>
     <h3>"Poderia": possibilidade e sugestão</h3>
     <ul>
-      <li>Possibilidade: It could rain later. · That could be a problem.</li>
+      <li>Possibilidade: It could rain later.<br>That could be a problem.</li>
       <li>Sugestão: We could go to the beach on Saturday.</li>
       <li>Hipótese: If I could fly, I'd go to Japan every weekend.</li>
     </ul>
     <h3>Regras de modal</h3>
-    <p>Sem S, sem TO, sem DO: She could swim (<s>coulds</s> · <s>could to</s>) · Could you…? (<s>Did you could</s>) · I couldn't (<s>didn't could</s>).</p>
+    <p>Sem S, sem TO, sem DO: She could swim (<s>coulds</s><br><s>could to</s>)<br>Could you…? (<s>Did you could</s>)<br>I couldn't (<s>didn't could</s>).</p>
     <p class="note">Expressão: I couldn't care less. — Não estou nem aí.</p>`,
 en:`
     <h2>Could</h2>
@@ -38,17 +38,17 @@ en:`
     <p class="note"><i>Could</i> is for general ability in the past. For an achievement on one occasion, use <i>was able to</i> or <i>managed to</i>: The sea was rough, but I was able to swim to the boat. In the negative, <i>couldn't</i> always works.</p>
     <h3>Polite requests</h3>
     <ul>
-      <li>Could you do me a favor? · Could I use your phone?</li>
+      <li>Could you do me a favor?<br>Could I use your phone?</li>
       <li><i>Could</i> is more polite than <i>can</i>. Answer with <i>can</i>: "Could you help me?" — "Sure, I can." (<s>Yes, I could</s>)</li>
     </ul>
     <h3>Possibility and suggestions</h3>
     <ul>
-      <li>Possibility: It could rain later. · That could be a problem.</li>
+      <li>Possibility: It could rain later.<br>That could be a problem.</li>
       <li>Suggestion: We could go to the beach on Saturday.</li>
       <li>Hypothesis: If I could fly, I'd go to Japan every weekend.</li>
     </ul>
     <h3>Modal rules</h3>
-    <p>No S, no TO, no DO: She could swim (<s>coulds</s> · <s>could to</s>) · Could you…? (<s>Did you could</s>) · I couldn't (<s>didn't could</s>).</p>
+    <p>No S, no TO, no DO: She could swim (<s>coulds</s><br><s>could to</s>)<br>Could you…? (<s>Did you could</s>)<br>I couldn't (<s>didn't could</s>).</p>
     <p class="note">Expression: I couldn't care less.</p>`
   },
   vocab:{
@@ -60,10 +60,10 @@ pt:`
       <tr><td>room service</td><td>serviço de quarto</td></tr>
       <tr><td>housekeeping</td><td>arrumação, camareiras</td></tr>
       <tr><td>wake-up call</td><td>serviço de despertador</td></tr>
-      <tr><td>late checkout · early check-in</td><td>saída tardia · entrada antecipada</td></tr>
-      <tr><td>extra towels · pillows</td><td>toalhas · travesseiros extras</td></tr>
+      <tr><td>late checkout<br>early check-in</td><td>saída tardia<br>entrada antecipada</td></tr>
+      <tr><td>extra towels<br>pillows</td><td>toalhas<br>travesseiros extras</td></tr>
       <tr><td>a room with a view</td><td>um quarto com vista</td></tr>
-      <tr><td>double room · single room</td><td>quarto de casal · de solteiro</td></tr>
+      <tr><td>double room<br>single room</td><td>quarto de casal<br>de solteiro</td></tr>
       <tr><td>Could I have…?</td><td>Eu poderia receber…?</td></tr>
       <tr><td>Would you mind…?</td><td>Você se importaria de…?</td></tr>
       <tr><td>out of order</td><td>com defeito</td></tr>
@@ -77,10 +77,10 @@ en:`
       <tr><td>room service</td><td>serviço de quarto</td></tr>
       <tr><td>housekeeping</td><td>arrumação, camareiras</td></tr>
       <tr><td>wake-up call</td><td>serviço de despertador</td></tr>
-      <tr><td>late checkout · early check-in</td><td>saída tardia · entrada antecipada</td></tr>
-      <tr><td>extra towels · pillows</td><td>toalhas · travesseiros extras</td></tr>
+      <tr><td>late checkout<br>early check-in</td><td>saída tardia<br>entrada antecipada</td></tr>
+      <tr><td>extra towels<br>pillows</td><td>toalhas<br>travesseiros extras</td></tr>
       <tr><td>a room with a view</td><td>um quarto com vista</td></tr>
-      <tr><td>double room · single room</td><td>quarto de casal · de solteiro</td></tr>
+      <tr><td>double room<br>single room</td><td>quarto de casal<br>de solteiro</td></tr>
       <tr><td>Could I have…?</td><td>Eu poderia receber…?</td></tr>
       <tr><td>Would you mind…?</td><td>Você se importaria de…?</td></tr>
       <tr><td>out of order</td><td>com defeito</td></tr>

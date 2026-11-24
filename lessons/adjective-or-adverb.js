@@ -14,7 +14,7 @@ pt:`
     <p>Depois de <b>be, look, seem, feel, sound, taste, smell, get, become</b>, o adjetivo descreve o sujeito:</p>
     <ul>
       <li>The soup tastes <b>good</b>. (<s>tastes well</s>)</li>
-      <li>That sounds <b>great</b>! · You look <b>tired</b>. · I feel <b>bad</b> about it.</li>
+      <li>That sounds <b>great</b>!<br>You look <b>tired</b>.<br>I feel <b>bad</b> about it.</li>
     </ul>
     <p>Mas quando o verbo indica uma ação, vai advérbio:</p>
     <table>
@@ -32,7 +32,7 @@ pt:`
       <tr><td>verbo</td><td>-ize, -en, -ify</td><td>organize, shorten, simplify</td></tr>
       <tr><td>advérbio</td><td>-ly</td><td>originally, creatively</td></tr>
     </table>
-    <p class="note">Algumas palavras mudam de classe sem mudar a forma: a <b>fast</b> car (adj.) · He drives <b>fast</b> (adv.) · Email me (verbo) · an email (subst.).</p>`,
+    <p class="note">Algumas palavras mudam de classe sem mudar a forma: a <b>fast</b> car (adj.)<br>He drives <b>fast</b> (adv.)<br>Email me (verbo)<br>an email (subst.).</p>`,
 en:`
     <h2>Adjective or adverb?</h2>
     <ul>
@@ -43,7 +43,7 @@ en:`
     <p>After <b>be, look, seem, feel, sound, taste, smell, get, become</b>, the adjective describes the subject:</p>
     <ul>
       <li>The soup tastes <b>good</b>. (<s>tastes well</s>)</li>
-      <li>That sounds <b>great</b>! · You look <b>tired</b>. · I feel <b>bad</b> about it.</li>
+      <li>That sounds <b>great</b>!<br>You look <b>tired</b>.<br>I feel <b>bad</b> about it.</li>
     </ul>
     <p>But when the verb describes an action, use an adverb:</p>
     <table>
@@ -61,41 +61,41 @@ en:`
       <tr><td>verb</td><td>-ize, -en, -ify</td><td>organize, shorten, simplify</td></tr>
       <tr><td>adverb</td><td>-ly</td><td>originally, creatively</td></tr>
     </table>
-    <p class="note">Some words change class without changing form: a <b>fast</b> car (adj.) · He drives <b>fast</b> (adv.) · Email me (verb) · an email (noun).</p>`
+    <p class="note">Some words change class without changing form: a <b>fast</b> car (adj.)<br>He drives <b>fast</b> (adv.)<br>Email me (verb)<br>an email (noun).</p>`
   },
   vocab:{
 pt:`
     <h2>Avaliações</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a review · to review</td><td>uma avaliação, resenha · avaliar</td></tr>
+      <tr><td>a review<br>to review</td><td>uma avaliação, resenha<br>avaliar</td></tr>
       <tr><td>a five-star rating</td><td>uma nota cinco estrelas</td></tr>
-      <tr><td>tasty · bland</td><td>saboroso · sem graça (comida)</td></tr>
+      <tr><td>tasty<br>bland</td><td>saboroso<br>sem graça (comida)</td></tr>
       <tr><td>overpriced</td><td>caro demais</td></tr>
       <tr><td>worth the money</td><td>vale o preço</td></tr>
       <tr><td>the service</td><td>o atendimento</td></tr>
       <tr><td>a page-turner</td><td>um livro que prende</td></tr>
-      <tr><td>a plot · a character</td><td>um enredo · um personagem</td></tr>
+      <tr><td>a plot<br>a character</td><td>um enredo<br>um personagem</td></tr>
       <tr><td>catchy</td><td>que gruda na cabeça (música)</td></tr>
       <tr><td>lyrics</td><td>letra de música</td></tr>
-      <tr><td>overrated · underrated</td><td>superestimado · subestimado</td></tr>
+      <tr><td>overrated<br>underrated</td><td>superestimado<br>subestimado</td></tr>
       <tr><td>I'd recommend it.</td><td>Eu recomendaria.</td></tr>
     </table>`,
 en:`
     <h2>Reviews</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a review · to review</td><td>uma avaliação, resenha · avaliar</td></tr>
+      <tr><td>a review<br>to review</td><td>uma avaliação, resenha<br>avaliar</td></tr>
       <tr><td>a five-star rating</td><td>uma nota cinco estrelas</td></tr>
-      <tr><td>tasty · bland</td><td>saboroso · sem graça (comida)</td></tr>
+      <tr><td>tasty<br>bland</td><td>saboroso<br>sem graça (comida)</td></tr>
       <tr><td>overpriced</td><td>caro demais</td></tr>
       <tr><td>worth the money</td><td>vale o preço</td></tr>
       <tr><td>the service</td><td>o atendimento</td></tr>
       <tr><td>a page-turner</td><td>um livro que prende</td></tr>
-      <tr><td>a plot · a character</td><td>um enredo · um personagem</td></tr>
+      <tr><td>a plot<br>a character</td><td>um enredo<br>um personagem</td></tr>
       <tr><td>catchy</td><td>que gruda na cabeça (música)</td></tr>
       <tr><td>lyrics</td><td>letra de música</td></tr>
-      <tr><td>overrated · underrated</td><td>superestimado · subestimado</td></tr>
+      <tr><td>overrated<br>underrated</td><td>superestimado<br>subestimado</td></tr>
       <tr><td>I'd recommend it.</td><td>Eu recomendaria.</td></tr>
     </table>`
   },

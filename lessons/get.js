@@ -8,7 +8,7 @@ pt:`
     <h2>GET: o verbo mais versátil do inglês</h2>
     <h3>Os três \"ficar\": GET × STAY × BE</h3>
     <ul>
-      <li><b>stay</b> = permanecer: Stay home. · I stayed in Rio for a week.</li>
+      <li><b>stay</b> = permanecer: Stay home.<br>I stayed in Rio for a week.</li>
       <li><b>get</b> = tornar-se, mudar de estado: I get angry if I don't drink coffee.</li>
       <li><b>be</b> = estar num estado: Don't be angry with me. (você já está bravo)</li>
     </ul>
@@ -16,31 +16,31 @@ pt:`
     <h3>O mapa do GET</h3>
     <table>
       <tr><th>Estrutura</th><th>Sentido</th><th>Exemplo</th></tr>
-      <tr><td>get + adjetivo</td><td>ficar</td><td>get tired · get dark · get ready · get lost</td></tr>
+      <tr><td>get + adjetivo</td><td>ficar</td><td>get tired<br>get dark<br>get ready<br>get lost</td></tr>
       <tr><td>get + comparativo</td><td>ficar mais</td><td>It's getting colder.</td></tr>
-      <tr><td>get + lugar</td><td>chegar</td><td>get home · get to work · get there</td></tr>
+      <tr><td>get + lugar</td><td>chegar</td><td>get home<br>get to work<br>get there</td></tr>
       <tr><td>get + coisa</td><td>comprar</td><td>Can you get some bread?</td></tr>
       <tr><td>get + coisa</td><td>receber</td><td>I got an email.</td></tr>
       <tr><td>get + coisa</td><td>pegar, buscar</td><td>Can you get me a glass of water?</td></tr>
-      <tr><td>get + transporte / doença</td><td>pegar</td><td>get the bus · get a cold</td></tr>
-      <tr><td>get it</td><td>entender</td><td>I don't get it. · Got it!</td></tr>
+      <tr><td>get + transporte / doença</td><td>pegar</td><td>get the bus<br>get a cold</td></tr>
+      <tr><td>get it</td><td>entender</td><td>I don't get it.<br>Got it!</td></tr>
     </table>
     <p class="note">Com <i>home</i> e <i>there</i>, sem TO: get home (<s>get to home</s>).</p>
     <h3>Phrasal verbs com GET</h3>
     <ul>
-      <li><b>get up</b> = levantar · <b>get on / off</b> = subir / descer (ônibus, trem)</li>
-      <li><b>get in / out of</b> = entrar / sair (carro) · <b>get back</b> = voltar</li>
-      <li><b>get along (with)</b> = dar-se bem · <b>get over</b> = superar</li>
+      <li><b>get up</b> = levantar<br><b>get on / off</b> = subir / descer (ônibus, trem)</li>
+      <li><b>get in / out of</b> = entrar / sair (carro)<br><b>get back</b> = voltar</li>
+      <li><b>get along (with)</b> = dar-se bem<br><b>get over</b> = superar</li>
     </ul>
     <h3>GOT × GOTTEN</h3>
     <p>No inglês americano, o particípio é <b>gotten</b>: Your English has gotten better. Mas <b>have got</b> = ter: I've got two kids.</p>
     <h3>GETTING = mudança em andamento</h3>
-    <p>It's getting late. · Prices are getting higher.</p>`,
+    <p>It's getting late.<br>Prices are getting higher.</p>`,
 en:`
     <h2>GET: the most versatile verb in English</h2>
     <h3>GET × STAY × BE</h3>
     <ul>
-      <li><b>stay</b> = remain: Stay home. · I stayed in Rio for a week.</li>
+      <li><b>stay</b> = remain: Stay home.<br>I stayed in Rio for a week.</li>
       <li><b>get</b> = become, change state: I get angry if I don't drink coffee.</li>
       <li><b>be</b> = be in a state: Don't be angry with me. (you already are)</li>
     </ul>
@@ -48,26 +48,26 @@ en:`
     <h3>The GET map</h3>
     <table>
       <tr><th>Structure</th><th>Meaning</th><th>Example</th></tr>
-      <tr><td>get + adjective</td><td>become</td><td>get tired · get dark · get ready · get lost</td></tr>
+      <tr><td>get + adjective</td><td>become</td><td>get tired<br>get dark<br>get ready<br>get lost</td></tr>
       <tr><td>get + comparative</td><td>become more</td><td>It's getting colder.</td></tr>
-      <tr><td>get + place</td><td>arrive</td><td>get home · get to work · get there</td></tr>
+      <tr><td>get + place</td><td>arrive</td><td>get home<br>get to work<br>get there</td></tr>
       <tr><td>get + thing</td><td>buy</td><td>Can you get some bread?</td></tr>
       <tr><td>get + thing</td><td>receive</td><td>I got an email.</td></tr>
       <tr><td>get + thing</td><td>fetch</td><td>Can you get me a glass of water?</td></tr>
-      <tr><td>get + transport / illness</td><td>catch</td><td>get the bus · get a cold</td></tr>
-      <tr><td>get it</td><td>understand</td><td>I don't get it. · Got it!</td></tr>
+      <tr><td>get + transport / illness</td><td>catch</td><td>get the bus<br>get a cold</td></tr>
+      <tr><td>get it</td><td>understand</td><td>I don't get it.<br>Got it!</td></tr>
     </table>
     <p class="note">With <i>home</i> and <i>there</i>, no TO: get home (<s>get to home</s>).</p>
     <h3>Phrasal verbs with GET</h3>
     <ul>
-      <li><b>get up</b> · <b>get on / off</b> (bus, train)</li>
-      <li><b>get in / out of</b> (car) · <b>get back</b> = return</li>
-      <li><b>get along (with)</b> = have a good relationship · <b>get over</b> = recover from</li>
+      <li><b>get up</b><br><b>get on / off</b> (bus, train)</li>
+      <li><b>get in / out of</b> (car)<br><b>get back</b> = return</li>
+      <li><b>get along (with)</b> = have a good relationship<br><b>get over</b> = recover from</li>
     </ul>
     <h3>GOT × GOTTEN</h3>
     <p>In American English, the past participle is <b>gotten</b>: Your English has gotten better. But <b>have got</b> = have: I've got two kids.</p>
     <h3>GETTING = change in progress</h3>
-    <p>It's getting late. · Prices are getting higher.</p>`
+    <p>It's getting late.<br>Prices are getting higher.</p>`
   },
   vocab:{
 pt:`
@@ -81,7 +81,7 @@ pt:`
       <tr><td>a ride</td><td>uma carona, uma corrida (de app)</td></tr>
       <tr><td>a transfer</td><td>uma baldeação</td></tr>
       <tr><td>a fare</td><td>uma tarifa, passagem</td></tr>
-      <tr><td>crowded · packed</td><td>cheio · lotado</td></tr>
+      <tr><td>crowded<br>packed</td><td>cheio<br>lotado</td></tr>
       <tr><td>to run late</td><td>estar atrasado</td></tr>
       <tr><td>to get soaked</td><td>ficar encharcado</td></tr>
       <tr><td>to get stuck</td><td>ficar preso</td></tr>
@@ -99,7 +99,7 @@ en:`
       <tr><td>a ride</td><td>uma carona, uma corrida (de app)</td></tr>
       <tr><td>a transfer</td><td>uma baldeação</td></tr>
       <tr><td>a fare</td><td>uma tarifa, passagem</td></tr>
-      <tr><td>crowded · packed</td><td>cheio · lotado</td></tr>
+      <tr><td>crowded<br>packed</td><td>cheio<br>lotado</td></tr>
       <tr><td>to run late</td><td>estar atrasado</td></tr>
       <tr><td>to get soaked</td><td>ficar encharcado</td></tr>
       <tr><td>to get stuck</td><td>ficar preso</td></tr>

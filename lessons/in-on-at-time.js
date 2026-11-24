@@ -9,26 +9,26 @@ pt:`
     <p>Os três são \"em\". O que muda é o tamanho do tempo: do maior para o menor.</p>
     <table>
       <tr><th>Preposição</th><th>Uso</th><th>Exemplos</th></tr>
-      <tr><td><b>in</b></td><td>anos, meses, estações, séculos, partes do dia</td><td>in 1998 · in May · in summer · in the 19th century · in the morning</td></tr>
-      <tr><td><b>on</b></td><td>dias, datas</td><td>on Monday · on May 10th · on my birthday · on Christmas Day</td></tr>
-      <tr><td><b>at</b></td><td>horários, momentos</td><td>at 7 a.m. · at noon · at night · at the moment · at Christmas</td></tr>
+      <tr><td><b>in</b></td><td>anos, meses, estações, séculos, partes do dia</td><td>in 1998<br>in May<br>in summer<br>in the 19th century<br>in the morning</td></tr>
+      <tr><td><b>on</b></td><td>dias, datas</td><td>on Monday<br>on May 10th<br>on my birthday<br>on Christmas Day</td></tr>
+      <tr><td><b>at</b></td><td>horários, momentos</td><td>at 7 a.m.<br>at noon<br>at night<br>at the moment<br>at Christmas</td></tr>
     </table>
     <h3>Quando o dia aparece, ele manda</h3>
-    <p>in the morning · <b>on</b> Monday morning · <b>on</b> the morning of May 10th</p>
+    <p>in the morning<br><b>on</b> Monday morning<br><b>on</b> the morning of May 10th</p>
     <h3>Sem preposição</h3>
     <p>Com <b>this, next, last, every</b> e com <b>today, tomorrow, yesterday, tonight</b>:</p>
     <ul>
       <li>See you <b>next Monday</b>. (<s>on next Monday</s>)</li>
-      <li>We met <b>last year</b>. · I run <b>every morning</b>.</li>
+      <li>We met <b>last year</b>.<br>I run <b>every morning</b>.</li>
     </ul>
     <h3>Outros casos</h3>
     <ul>
-      <li><b>on the weekend</b> (americano) · on weekends</li>
-      <li><b>at</b> 18 · at the age of 18</li>
+      <li><b>on the weekend</b> (americano)<br>on weekends</li>
+      <li><b>at</b> 18<br>at the age of 18</li>
       <li><b>in</b> = daqui a: I'll be back in ten minutes.</li>
-      <li><b>on time</b> = pontual · <b>in time</b> = a tempo</li>
-      <li><b>by</b> Friday = até sexta, no máximo · <b>until</b> Friday = até sexta, sem parar</li>
-      <li><b>during</b> + substantivo: during the movie · during Carnival</li>
+      <li><b>on time</b> = pontual<br><b>in time</b> = a tempo</li>
+      <li><b>by</b> Friday = até sexta, no máximo<br><b>until</b> Friday = até sexta, sem parar</li>
+      <li><b>during</b> + substantivo: during the movie<br>during Carnival</li>
     </ul>
     <p class="note">Data completa: I was born <b>on</b> September 11th, <b>in</b> 2000. Nos EUA, escreve-se September 7, 1822 e lê-se \"September seventh, eighteen twenty-two\".</p>`,
 en:`
@@ -36,26 +36,26 @@ en:`
     <p>The three mean \"em\". What changes is the size of the time: from biggest to smallest.</p>
     <table>
       <tr><th>Preposition</th><th>Use</th><th>Examples</th></tr>
-      <tr><td><b>in</b></td><td>years, months, seasons, centuries, parts of the day</td><td>in 1998 · in May · in summer · in the 19th century · in the morning</td></tr>
-      <tr><td><b>on</b></td><td>days, dates</td><td>on Monday · on May 10th · on my birthday · on Christmas Day</td></tr>
-      <tr><td><b>at</b></td><td>clock times, moments</td><td>at 7 a.m. · at noon · at night · at the moment · at Christmas</td></tr>
+      <tr><td><b>in</b></td><td>years, months, seasons, centuries, parts of the day</td><td>in 1998<br>in May<br>in summer<br>in the 19th century<br>in the morning</td></tr>
+      <tr><td><b>on</b></td><td>days, dates</td><td>on Monday<br>on May 10th<br>on my birthday<br>on Christmas Day</td></tr>
+      <tr><td><b>at</b></td><td>clock times, moments</td><td>at 7 a.m.<br>at noon<br>at night<br>at the moment<br>at Christmas</td></tr>
     </table>
     <h3>When the day appears, it wins</h3>
-    <p>in the morning · <b>on</b> Monday morning · <b>on</b> the morning of May 10th</p>
+    <p>in the morning<br><b>on</b> Monday morning<br><b>on</b> the morning of May 10th</p>
     <h3>No preposition</h3>
     <p>With <b>this, next, last, every</b> and with <b>today, tomorrow, yesterday, tonight</b>:</p>
     <ul>
       <li>See you <b>next Monday</b>. (<s>on next Monday</s>)</li>
-      <li>We met <b>last year</b>. · I run <b>every morning</b>.</li>
+      <li>We met <b>last year</b>.<br>I run <b>every morning</b>.</li>
     </ul>
     <h3>Other cases</h3>
     <ul>
-      <li><b>on the weekend</b> (American) · on weekends</li>
-      <li><b>at</b> 18 · at the age of 18</li>
+      <li><b>on the weekend</b> (American)<br>on weekends</li>
+      <li><b>at</b> 18<br>at the age of 18</li>
       <li><b>in</b> = from now: I'll be back in ten minutes.</li>
-      <li><b>on time</b> = punctual · <b>in time</b> = not too late</li>
-      <li><b>by</b> Friday = no later than Friday · <b>until</b> Friday = all the time up to Friday</li>
-      <li><b>during</b> + noun: during the movie · during Carnival</li>
+      <li><b>on time</b> = punctual<br><b>in time</b> = not too late</li>
+      <li><b>by</b> Friday = no later than Friday<br><b>until</b> Friday = all the time up to Friday</li>
+      <li><b>during</b> + noun: during the movie<br>during Carnival</li>
     </ul>
     <p class="note">Full date: I was born <b>on</b> September 11th, <b>in</b> 2000. In the US, write September 7, 1822 and say \"September seventh, eighteen twenty-two\".</p>`
   },
@@ -70,8 +70,8 @@ pt:`
       <tr><td>to set up a meeting</td><td>marcar uma reunião</td></tr>
       <tr><td>to reschedule</td><td>remarcar</td></tr>
       <tr><td>to cancel</td><td>cancelar</td></tr>
-      <tr><td>a.m. · p.m.</td><td>da manhã · da tarde/noite</td></tr>
-      <tr><td>noon · midnight</td><td>meio-dia · meia-noite</td></tr>
+      <tr><td>a.m.<br>p.m.</td><td>da manhã<br>da tarde/noite</td></tr>
+      <tr><td>noon<br>midnight</td><td>meio-dia<br>meia-noite</td></tr>
       <tr><td>a birthday party</td><td>uma festa de aniversário</td></tr>
       <tr><td>an anniversary</td><td>um aniversário de casamento, de empresa</td></tr>
       <tr><td>a holiday</td><td>um feriado</td></tr>
@@ -88,8 +88,8 @@ en:`
       <tr><td>to set up a meeting</td><td>marcar uma reunião</td></tr>
       <tr><td>to reschedule</td><td>remarcar</td></tr>
       <tr><td>to cancel</td><td>cancelar</td></tr>
-      <tr><td>a.m. · p.m.</td><td>da manhã · da tarde/noite</td></tr>
-      <tr><td>noon · midnight</td><td>meio-dia · meia-noite</td></tr>
+      <tr><td>a.m.<br>p.m.</td><td>da manhã<br>da tarde/noite</td></tr>
+      <tr><td>noon<br>midnight</td><td>meio-dia<br>meia-noite</td></tr>
       <tr><td>a birthday party</td><td>uma festa de aniversário</td></tr>
       <tr><td>an anniversary</td><td>um aniversário de casamento, de empresa</td></tr>
       <tr><td>a holiday</td><td>um feriado</td></tr>

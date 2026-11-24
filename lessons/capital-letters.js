@@ -41,7 +41,7 @@ pt:`
     </ul>
     <h3>Mais casos</h3>
     <ul>
-      <li><b>religiões, datas religiosas e feriados</b>: Catholic, Christian, Jewish · Christmas, Easter, Lent, Thanksgiving</li>
+      <li><b>religiões, datas religiosas e feriados</b>: Catholic, Christian, Jewish<br>Christmas, Easter, Lent, Thanksgiving</li>
       <li><b>Deus e os livros sagrados</b>: God, the Bible</li>
       <li><b>títulos antes do nome</b>: Doctor Silva, Uncle Paulo, President Lincoln. Sem o nome, minúscula: my uncle, the president.</li>
       <li><b>Mom e Dad como nome</b>: Thanks, Mom! Mas: my mom is a nurse.</li>
@@ -88,7 +88,7 @@ en:`
     </ul>
     <h3>More cases</h3>
     <ul>
-      <li><b>religions, religious dates and holidays</b>: Catholic, Christian, Jewish · Christmas, Easter, Lent, Thanksgiving</li>
+      <li><b>religions, religious dates and holidays</b>: Catholic, Christian, Jewish<br>Christmas, Easter, Lent, Thanksgiving</li>
       <li><b>God and sacred books</b>: God, the Bible</li>
       <li><b>titles before a name</b>: Doctor Silva, Uncle Paulo, President Lincoln. Without the name, lowercase: my uncle, the president.</li>
       <li><b>Mom and Dad used as names</b>: Thanks, Mom! But: my mom is a nurse.</li>
@@ -133,7 +133,7 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>spring</td><td>primavera</td></tr>
       <tr><td>summer</td><td>verão</td></tr>
-      <tr><td>fall (EUA) · autumn (Reino Unido)</td><td>outono</td></tr>
+      <tr><td>fall (EUA)<br>autumn (Reino Unido)</td><td>outono</td></tr>
       <tr><td>winter</td><td>inverno</td></tr>
     </table>
     <p class="note">Estações com minúscula. No Brasil, o verão vai de dezembro a março; nos EUA e na Europa, de junho a setembro.</p>
@@ -161,7 +161,7 @@ pt:`
       <tr class="c"><td colspan="3">🇮🇳 India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
       <tr class="c"><td colspan="3">🇷🇺 Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
     </table>
-    <p class="note">Dentro do Reino Unido: England → English · Scotland → Scottish · Wales → Welsh. Os nomes das moedas ficam com minúscula: dollar, euro, real.</p>`,
+    <p class="note">Dentro do Reino Unido: England → English<br>Scotland → Scottish<br>Wales → Welsh. Os nomes das moedas ficam com minúscula: dollar, euro, real.</p>`,
 en:`
     <h2>Days of the week</h2>
     <table>
@@ -195,7 +195,7 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>spring</td><td>primavera</td></tr>
       <tr><td>summer</td><td>verão</td></tr>
-      <tr><td>fall (US) · autumn (UK)</td><td>outono</td></tr>
+      <tr><td>fall (US)<br>autumn (UK)</td><td>outono</td></tr>
       <tr><td>winter</td><td>inverno</td></tr>
     </table>
     <p class="note">Seasons are lowercase. In Brazil, summer is from December to March; in the US and in Europe, from June to September.</p>
@@ -223,7 +223,7 @@ en:`
       <tr class="c"><td colspan="3">🇮🇳 India</td></tr><tr><td>Indian</td><td>Hindi, English</td><td>rupee</td></tr>
       <tr class="c"><td colspan="3">🇷🇺 Russia</td></tr><tr><td>Russian</td><td>Russian</td><td>ruble</td></tr>
     </table>
-    <p class="note">Inside the UK: England → English · Scotland → Scottish · Wales → Welsh. Currency names are lowercase: dollar, euro, real.</p>`
+    <p class="note">Inside the UK: England → English<br>Scotland → Scottish<br>Wales → Welsh. Currency names are lowercase: dollar, euro, real.</p>`
   },
   exercises:[
     { id:"mc-easy", title:"Multiple choice — easy", type:"mc",

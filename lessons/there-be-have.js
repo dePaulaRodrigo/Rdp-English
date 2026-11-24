@@ -14,12 +14,12 @@ addLesson({
     <h3>THERE BE changes tense like any verb</h3>
     <ul>
       <li>there is / there are → there was / there were</li>
-      <li>there has been / there have been · there had been</li>
-      <li>there will be · there's going to be · there will have been</li>
-      <li>there used to be · there must be · there must have been · there would be</li>
+      <li>there has been / there have been<br>there had been</li>
+      <li>there will be<br>there's going to be<br>there will have been</li>
+      <li>there used to be<br>there must be<br>there must have been<br>there would be</li>
     </ul>
     <h3>Agreement</h3>
-    <p>The verb agrees with the noun that comes after it: <b>there is</b> a problem · <b>there are</b> problems · <b>there have been</b> many cases.</p>
+    <p>The verb agrees with the noun that comes after it: <b>there is</b> a problem<br><b>there are</b> problems<br><b>there have been</b> many cases.</p>
     <h3>Dynamic HAVE</h3>
     <p>When <i>have</i> means an action (<i>have lunch, have a meeting, have trouble</i>), it can be continuous: <b>She is having</b> a meeting. <b>We were having</b> lunch.</p>`,
   exercises:[

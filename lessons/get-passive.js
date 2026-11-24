@@ -8,102 +8,102 @@ pt:`
     <h2>GET no lugar do BE</h2>
     <p>Na fala, o <b>get</b> substitui o <i>be</i> na passiva, principalmente para coisas que <b>acontecem</b> com alguém, muitas vezes ruins ou inesperadas:</p>
     <ul>
-      <li>I got robbed. (fui roubado) · My phone got stolen.</li>
-      <li>She got fired. · We got stuck in traffic.</li>
+      <li>I got robbed. (fui roubado)<br>My phone got stolen.</li>
+      <li>She got fired.<br>We got stuck in traffic.</li>
     </ul>
     <p class="note">Dica: se em português cabe \"acabou sendo\" ou \"ficou\", o GET costuma funcionar.</p>
     <h3>Quando usar o BE</h3>
     <ul>
       <li>Em textos formais: The suspect was arrested.</li>
-      <li>Para estados e fatos gerais, não eventos: English <b>is spoken</b> all over the world (<s>gets spoken</s>). · The book <b>was written</b> in 1899 (<s>got written</s>).</li>
+      <li>Para estados e fatos gerais, não eventos: English <b>is spoken</b> all over the world (<s>gets spoken</s>).<br>The book <b>was written</b> in 1899 (<s>got written</s>).</li>
     </ul>
     <h3>Expressões fixas</h3>
     <table>
       <tr><th>Expressão</th><th>Português</th></tr>
-      <tr><td>get dressed · get changed</td><td>vestir-se · trocar de roupa</td></tr>
-      <tr><td>get married · engaged · divorced</td><td>casar · noivar · divorciar-se</td></tr>
+      <tr><td>get dressed<br>get changed</td><td>vestir-se<br>trocar de roupa</td></tr>
+      <tr><td>get married<br>engaged<br>divorced</td><td>casar<br>noivar<br>divorciar-se</td></tr>
       <tr><td>get lost</td><td>perder-se</td></tr>
       <tr><td>get stuck</td><td>ficar preso</td></tr>
-      <tr><td>get hurt · get burned</td><td>machucar-se · queimar-se</td></tr>
-      <tr><td>get paid · get invited</td><td>ser pago · ser convidado</td></tr>
-      <tr><td>get started · get involved</td><td>começar · envolver-se</td></tr>
+      <tr><td>get hurt<br>get burned</td><td>machucar-se<br>queimar-se</td></tr>
+      <tr><td>get paid<br>get invited</td><td>ser pago<br>ser convidado</td></tr>
+      <tr><td>get started<br>get involved</td><td>começar<br>envolver-se</td></tr>
     </table>
     <h3>Perguntas e negativas com DO</h3>
     <ul>
-      <li><b>Did</b> you <b>get paid</b>? · I <b>didn't get invited</b>.</li>
-      <li>Compare com BE: <b>Were</b> you invited? · I <b>wasn't</b> invited.</li>
+      <li><b>Did</b> you <b>get paid</b>?<br>I <b>didn't get invited</b>.</li>
+      <li>Compare com BE: <b>Were</b> you invited?<br>I <b>wasn't</b> invited.</li>
     </ul>
     <h3>Em todos os tempos</h3>
-    <p>My car <b>is getting fixed</b>. · He'll <b>get fired</b>. · Nobody <b>has gotten hurt</b>.</p>
+    <p>My car <b>is getting fixed</b>.<br>He'll <b>get fired</b>.<br>Nobody <b>has gotten hurt</b>.</p>
     <h3>GET × HAVE (causativo)</h3>
-    <p>My phone <b>got stolen</b> (foco no celular) · I <b>had</b> my phone <b>stolen</b> (foco em mim).</p>`,
+    <p>My phone <b>got stolen</b> (foco no celular)<br>I <b>had</b> my phone <b>stolen</b> (foco em mim).</p>`,
 en:`
     <h2>GET instead of BE</h2>
     <p>In speech, <b>get</b> replaces <i>be</i> in the passive, especially for things that <b>happen</b> to someone, often bad or unexpected:</p>
     <ul>
-      <li>I got robbed. · My phone got stolen.</li>
-      <li>She got fired. · We got stuck in traffic.</li>
+      <li>I got robbed.<br>My phone got stolen.</li>
+      <li>She got fired.<br>We got stuck in traffic.</li>
     </ul>
     <p class="note">Tip: if it describes an event that happened to someone, GET usually works.</p>
     <h3>When to use BE</h3>
     <ul>
       <li>In formal writing: The suspect was arrested.</li>
-      <li>For states and general facts, not events: English <b>is spoken</b> all over the world (<s>gets spoken</s>). · The book <b>was written</b> in 1899 (<s>got written</s>).</li>
+      <li>For states and general facts, not events: English <b>is spoken</b> all over the world (<s>gets spoken</s>).<br>The book <b>was written</b> in 1899 (<s>got written</s>).</li>
     </ul>
     <h3>Fixed expressions</h3>
     <table>
       <tr><th>Expression</th><th>Portuguese</th></tr>
-      <tr><td>get dressed · get changed</td><td>vestir-se · trocar de roupa</td></tr>
-      <tr><td>get married · engaged · divorced</td><td>casar · noivar · divorciar-se</td></tr>
+      <tr><td>get dressed<br>get changed</td><td>vestir-se<br>trocar de roupa</td></tr>
+      <tr><td>get married<br>engaged<br>divorced</td><td>casar<br>noivar<br>divorciar-se</td></tr>
       <tr><td>get lost</td><td>perder-se</td></tr>
       <tr><td>get stuck</td><td>ficar preso</td></tr>
-      <tr><td>get hurt · get burned</td><td>machucar-se · queimar-se</td></tr>
-      <tr><td>get paid · get invited</td><td>ser pago · ser convidado</td></tr>
-      <tr><td>get started · get involved</td><td>começar · envolver-se</td></tr>
+      <tr><td>get hurt<br>get burned</td><td>machucar-se<br>queimar-se</td></tr>
+      <tr><td>get paid<br>get invited</td><td>ser pago<br>ser convidado</td></tr>
+      <tr><td>get started<br>get involved</td><td>começar<br>envolver-se</td></tr>
     </table>
     <h3>Questions and negatives with DO</h3>
     <ul>
-      <li><b>Did</b> you <b>get paid</b>? · I <b>didn't get invited</b>.</li>
-      <li>Compare with BE: <b>Were</b> you invited? · I <b>wasn't</b> invited.</li>
+      <li><b>Did</b> you <b>get paid</b>?<br>I <b>didn't get invited</b>.</li>
+      <li>Compare with BE: <b>Were</b> you invited?<br>I <b>wasn't</b> invited.</li>
     </ul>
     <h3>In every tense</h3>
-    <p>My car <b>is getting fixed</b>. · He'll <b>get fired</b>. · Nobody <b>has gotten hurt</b>.</p>
+    <p>My car <b>is getting fixed</b>.<br>He'll <b>get fired</b>.<br>Nobody <b>has gotten hurt</b>.</p>
     <h3>GET × HAVE (causative)</h3>
-    <p>My phone <b>got stolen</b> (focus on the phone) · I <b>had</b> my phone <b>stolen</b> (focus on me).</p>`
+    <p>My phone <b>got stolen</b> (focus on the phone)<br>I <b>had</b> my phone <b>stolen</b> (focus on me).</p>`
   },
   vocab:{
 pt:`
     <h2>Imprevistos de viagem</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to get robbed · pickpocketed</td><td>ser roubado · furtado (batedor de carteira)</td></tr>
+      <tr><td>to get robbed<br>pickpocketed</td><td>ser roubado<br>furtado (batedor de carteira)</td></tr>
       <tr><td>to get lost</td><td>perder-se</td></tr>
       <tr><td>to get stuck</td><td>ficar preso</td></tr>
-      <tr><td>to get delayed · canceled</td><td>atrasar · ser cancelado</td></tr>
+      <tr><td>to get delayed<br>canceled</td><td>atrasar<br>ser cancelado</td></tr>
       <tr><td>to get bumped (from a flight)</td><td>ser retirado do voo (overbooking)</td></tr>
       <tr><td>to get sunburned</td><td>queimar-se de sol</td></tr>
       <tr><td>to get bitten (by mosquitoes)</td><td>ser picado</td></tr>
       <tr><td>to get ripped off</td><td>ser enganado no preço</td></tr>
       <tr><td>lost luggage</td><td>bagagem extraviada</td></tr>
       <tr><td>a missed connection</td><td>uma conexão perdida</td></tr>
-      <tr><td>the embassy · the consulate</td><td>a embaixada · o consulado</td></tr>
+      <tr><td>the embassy<br>the consulate</td><td>a embaixada<br>o consulado</td></tr>
       <tr><td>to file a report</td><td>fazer um boletim de ocorrência</td></tr>
     </table>`,
 en:`
     <h2>Travel mishaps</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to get robbed · pickpocketed</td><td>ser roubado · furtado (batedor de carteira)</td></tr>
+      <tr><td>to get robbed<br>pickpocketed</td><td>ser roubado<br>furtado (batedor de carteira)</td></tr>
       <tr><td>to get lost</td><td>perder-se</td></tr>
       <tr><td>to get stuck</td><td>ficar preso</td></tr>
-      <tr><td>to get delayed · canceled</td><td>atrasar · ser cancelado</td></tr>
+      <tr><td>to get delayed<br>canceled</td><td>atrasar<br>ser cancelado</td></tr>
       <tr><td>to get bumped (from a flight)</td><td>ser retirado do voo (overbooking)</td></tr>
       <tr><td>to get sunburned</td><td>queimar-se de sol</td></tr>
       <tr><td>to get bitten (by mosquitoes)</td><td>ser picado</td></tr>
       <tr><td>to get ripped off</td><td>ser enganado no preço</td></tr>
       <tr><td>lost luggage</td><td>bagagem extraviada</td></tr>
       <tr><td>a missed connection</td><td>uma conexão perdida</td></tr>
-      <tr><td>the embassy · the consulate</td><td>a embaixada · o consulado</td></tr>
+      <tr><td>the embassy<br>the consulate</td><td>a embaixada<br>o consulado</td></tr>
       <tr><td>to file a report</td><td>fazer um boletim de ocorrência</td></tr>
     </table>`
   },

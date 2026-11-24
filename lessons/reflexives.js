@@ -9,7 +9,7 @@ pt:`
     <table>
       <tr><th>Sujeito</th><th>Pron. possessivo</th><th>Reflexivo</th></tr>
       <tr><td>I</td><td>mine</td><td>myself</td></tr>
-      <tr><td>you</td><td>yours</td><td>yourself · yourselves</td></tr>
+      <tr><td>you</td><td>yours</td><td>yourself<br>yourselves</td></tr>
       <tr><td>he</td><td>his</td><td>himself</td></tr>
       <tr><td>she</td><td>hers</td><td>herself</td></tr>
       <tr><td>it</td><td>—</td><td>itself</td></tr>
@@ -17,26 +17,26 @@ pt:`
       <tr><td>they</td><td>theirs</td><td>themselves</td></tr>
     </table>
     <h3>Quando usar o reflexivo</h3>
-    <p>Quando o sujeito e o objeto são a mesma pessoa: I love <b>myself</b> (<s>I love me</s>). · You need to know <b>yourself</b>. · The dishes won't wash <b>themselves</b>.</p>
+    <p>Quando o sujeito e o objeto são a mesma pessoa: I love <b>myself</b> (<s>I love me</s>).<br>You need to know <b>yourself</b>.<br>The dishes won't wash <b>themselves</b>.</p>
     <ul>
-      <li>Enjoy yourself! — Divirta-se! · Help yourself. — Sirva-se.</li>
-      <li>Don't hurt yourself. · I cut myself. · Let me introduce myself.</li>
+      <li>Enjoy yourself! — Divirta-se!<br>Help yourself. — Sirva-se.</li>
+      <li>Don't hurt yourself.<br>I cut myself.<br>Let me introduce myself.</li>
       <li>He taught himself to code. — Ele aprendeu a programar sozinho.</li>
     </ul>
     <h3>Verbos que NÃO são reflexivos em inglês</h3>
     <p>É o erro mais comum do brasileiro: muitos verbos com "se" em português não levam reflexivo em inglês.</p>
     <table>
       <tr><th>Português</th><th>Inglês</th></tr>
-      <tr><td>levantar-se · sentar-se</td><td>get up · sit down</td></tr>
-      <tr><td>vestir-se · casar-se</td><td>get dressed · get married</td></tr>
-      <tr><td>lembrar-se · preocupar-se</td><td>remember · worry</td></tr>
+      <tr><td>levantar-se<br>sentar-se</td><td>get up<br>sit down</td></tr>
+      <tr><td>vestir-se<br>casar-se</td><td>get dressed<br>get married</td></tr>
+      <tr><td>lembrar-se<br>preocupar-se</td><td>remember<br>worry</td></tr>
       <tr><td>sentir-se</td><td>feel: I feel tired. (<s>feel myself</s>)</td></tr>
-      <tr><td>mudar-se · atrasar-se</td><td>move · be late</td></tr>
-      <tr><td>arrepender-se · encontrar-se</td><td>regret · meet</td></tr>
-      <tr><td>concentrar-se · relaxar</td><td>concentrate · relax</td></tr>
+      <tr><td>mudar-se<br>atrasar-se</td><td>move<br>be late</td></tr>
+      <tr><td>arrepender-se<br>encontrar-se</td><td>regret<br>meet</td></tr>
+      <tr><td>concentrar-se<br>relaxar</td><td>concentrate<br>relax</td></tr>
     </table>
     <h3>Ênfase: "eu mesmo"</h3>
-    <p>I made this cake <b>myself</b>. — Eu mesmo fiz. · The director <b>herself</b> answered. — A própria diretora atendeu.</p>
+    <p>I made this cake <b>myself</b>. — Eu mesmo fiz.<br>The director <b>herself</b> answered. — A própria diretora atendeu.</p>
     <h3>BY + reflexivo = sozinho</h3>
     <p>She lives <b>by herself</b>. = She lives <b>on her own</b>.</p>
     <h3>Reflexivo × EACH OTHER</h3>
@@ -45,14 +45,14 @@ pt:`
       <li>They looked at <b>each other</b>. — um olhou para o outro</li>
     </ul>
     <h3>Pronomes possessivos</h3>
-    <p>Substituem o adjetivo + substantivo: "Whose phone is this?" — "It's <b>mine</b>." · This isn't my umbrella. <b>Mine</b> is black.</p>
+    <p>Substituem o adjetivo + substantivo: "Whose phone is this?" — "It's <b>mine</b>."<br>This isn't my umbrella. <b>Mine</b> is black.</p>
     <p class="note">Nunca levam apóstrofo: yours, hers, ours, theirs (<s>your's, her's</s>). "Um amigo meu" → a friend <b>of mine</b>.</p>`,
 en:`
     <h2>Reflexive and possessive pronouns</h2>
     <table>
       <tr><th>Subject</th><th>Possessive pronoun</th><th>Reflexive</th></tr>
       <tr><td>I</td><td>mine</td><td>myself</td></tr>
-      <tr><td>you</td><td>yours</td><td>yourself · yourselves</td></tr>
+      <tr><td>you</td><td>yours</td><td>yourself<br>yourselves</td></tr>
       <tr><td>he</td><td>his</td><td>himself</td></tr>
       <tr><td>she</td><td>hers</td><td>herself</td></tr>
       <tr><td>it</td><td>—</td><td>itself</td></tr>
@@ -60,26 +60,26 @@ en:`
       <tr><td>they</td><td>theirs</td><td>themselves</td></tr>
     </table>
     <h3>When to use a reflexive</h3>
-    <p>When the subject and the object are the same person: I love <b>myself</b> (<s>I love me</s>). · You need to know <b>yourself</b>. · The dishes won't wash <b>themselves</b>.</p>
+    <p>When the subject and the object are the same person: I love <b>myself</b> (<s>I love me</s>).<br>You need to know <b>yourself</b>.<br>The dishes won't wash <b>themselves</b>.</p>
     <ul>
-      <li>Enjoy yourself! · Help yourself.</li>
-      <li>Don't hurt yourself. · I cut myself. · Let me introduce myself.</li>
+      <li>Enjoy yourself!<br>Help yourself.</li>
+      <li>Don't hurt yourself.<br>I cut myself.<br>Let me introduce myself.</li>
       <li>He taught himself to code.</li>
     </ul>
     <h3>Verbs that are NOT reflexive in English</h3>
     <p>This is the most common mistake for Brazilians: many Portuguese verbs with "se" take no reflexive in English.</p>
     <table>
       <tr><th>Portuguese</th><th>English</th></tr>
-      <tr><td>levantar-se · sentar-se</td><td>get up · sit down</td></tr>
-      <tr><td>vestir-se · casar-se</td><td>get dressed · get married</td></tr>
-      <tr><td>lembrar-se · preocupar-se</td><td>remember · worry</td></tr>
+      <tr><td>levantar-se<br>sentar-se</td><td>get up<br>sit down</td></tr>
+      <tr><td>vestir-se<br>casar-se</td><td>get dressed<br>get married</td></tr>
+      <tr><td>lembrar-se<br>preocupar-se</td><td>remember<br>worry</td></tr>
       <tr><td>sentir-se</td><td>feel: I feel tired. (<s>feel myself</s>)</td></tr>
-      <tr><td>mudar-se · atrasar-se</td><td>move · be late</td></tr>
-      <tr><td>arrepender-se · encontrar-se</td><td>regret · meet</td></tr>
-      <tr><td>concentrar-se · relaxar</td><td>concentrate · relax</td></tr>
+      <tr><td>mudar-se<br>atrasar-se</td><td>move<br>be late</td></tr>
+      <tr><td>arrepender-se<br>encontrar-se</td><td>regret<br>meet</td></tr>
+      <tr><td>concentrar-se<br>relaxar</td><td>concentrate<br>relax</td></tr>
     </table>
     <h3>Emphasis</h3>
-    <p>I made this cake <b>myself</b>. · The director <b>herself</b> answered.</p>
+    <p>I made this cake <b>myself</b>.<br>The director <b>herself</b> answered.</p>
     <h3>BY + reflexive = alone</h3>
     <p>She lives <b>by herself</b>. = She lives <b>on her own</b>.</p>
     <h3>Reflexive × EACH OTHER</h3>
@@ -88,7 +88,7 @@ en:`
       <li>They looked at <b>each other</b>. — one at the other</li>
     </ul>
     <h3>Possessive pronouns</h3>
-    <p>They replace a possessive adjective + noun: "Whose phone is this?" — "It's <b>mine</b>." · This isn't my umbrella. <b>Mine</b> is black.</p>
+    <p>They replace a possessive adjective + noun: "Whose phone is this?" — "It's <b>mine</b>."<br>This isn't my umbrella. <b>Mine</b> is black.</p>
     <p class="note">They never take an apostrophe: yours, hers, ours, theirs (<s>your's, her's</s>). A friend <b>of mine</b>.</p>`
   },
   vocab:{
@@ -100,11 +100,11 @@ pt:`
       <tr><td>to take up a hobby</td><td>começar um hobby</td></tr>
       <tr><td>self-taught</td><td>autodidata</td></tr>
       <tr><td>beginner</td><td>iniciante</td></tr>
-      <tr><td>handmade · homemade</td><td>feito à mão · caseiro</td></tr>
+      <tr><td>handmade<br>homemade</td><td>feito à mão<br>caseiro</td></tr>
       <tr><td>DIY (do it yourself)</td><td>faça você mesmo</td></tr>
       <tr><td>woodworking</td><td>marcenaria</td></tr>
       <tr><td>pottery</td><td>cerâmica</td></tr>
-      <tr><td>knitting · sewing</td><td>tricô · costura</td></tr>
+      <tr><td>knitting<br>sewing</td><td>tricô<br>costura</td></tr>
       <tr><td>gardening</td><td>jardinagem</td></tr>
       <tr><td>baking</td><td>fazer pães e bolos</td></tr>
       <tr><td>board games</td><td>jogos de tabuleiro</td></tr>
@@ -121,11 +121,11 @@ en:`
       <tr><td>to take up a hobby</td><td>começar um hobby</td></tr>
       <tr><td>self-taught</td><td>autodidata</td></tr>
       <tr><td>beginner</td><td>iniciante</td></tr>
-      <tr><td>handmade · homemade</td><td>feito à mão · caseiro</td></tr>
+      <tr><td>handmade<br>homemade</td><td>feito à mão<br>caseiro</td></tr>
       <tr><td>DIY (do it yourself)</td><td>faça você mesmo</td></tr>
       <tr><td>woodworking</td><td>marcenaria</td></tr>
       <tr><td>pottery</td><td>cerâmica</td></tr>
-      <tr><td>knitting · sewing</td><td>tricô · costura</td></tr>
+      <tr><td>knitting<br>sewing</td><td>tricô<br>costura</td></tr>
       <tr><td>gardening</td><td>jardinagem</td></tr>
       <tr><td>baking</td><td>fazer pães e bolos</td></tr>
       <tr><td>board games</td><td>jogos de tabuleiro</td></tr>

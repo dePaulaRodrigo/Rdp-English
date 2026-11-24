@@ -9,13 +9,13 @@ pt:`
     <p>Este capítulo segue o padrão do inglês americano.</p>
     <h3>Números cardinais</h3>
     <ul>
-      <li>11 eleven · 12 twelve</li>
-      <li>13 thir<b>teen</b> · 14 four<b>teen</b> · 15 fifteen · 16 sixteen · 17 seventeen · 18 eighteen · 19 nineteen</li>
-      <li>20 twenty · 30 <b>thir</b>ty · 40 <b>for</b>ty · 50 <b>fif</b>ty · 60 sixty · 70 seventy · 80 eighty · 90 ninety</li>
+      <li>11 eleven<br>12 twelve</li>
+      <li>13 thir<b>teen</b><br>14 four<b>teen</b><br>15 fifteen<br>16 sixteen<br>17 seventeen<br>18 eighteen<br>19 nineteen</li>
+      <li>20 twenty<br>30 <b>thir</b>ty<br>40 <b>for</b>ty<br>50 <b>fif</b>ty<br>60 sixty<br>70 seventy<br>80 eighty<br>90 ninety</li>
     </ul>
     <p class="note">Atenção à sílaba forte: em -TEEN, o acento cai no final (thir<b>teen</b>); em -TY, cai no começo (<b>thir</b>ty). É isso que diferencia 13 de 30. Note também a grafia: <b>forty</b>, sem U.</p>
     <ul>
-      <li>100 one hundred · 1,000 one thousand · 1,000,000 one million · 1,000,000,000 one billion</li>
+      <li>100 one hundred<br>1,000 one thousand<br>1,000,000 one million<br>1,000,000,000 one billion</li>
     </ul>
     <p>No inglês americano, a vírgula separa os milhares, e o ponto separa as casas decimais: o inverso do português. <b>1,500</b> é mil e quinhentos.</p>
     <p><b>Hundred</b>, <b>thousand</b>, <b>million</b> e <b>billion</b> não vão para o plural depois de um número: <i>two hundred people</i> (<s>two hundreds people</s>). Sem número antes, o plural aparece: <i>hundreds of people</i>.</p>
@@ -32,7 +32,7 @@ pt:`
       <li>O símbolo vem antes do número, mas é lido depois: $5 → five <b>dollars</b>.</li>
       <li>$4.50 → four dollars and fifty cents, ou só <b>four fifty</b>. Preço não se lê com <i>point</i>.</li>
       <li>$0.75 ou 75¢ → seventy-five <b>cents</b>.</li>
-      <li>$1 → one dollar · $2 → two dollars.</li>
+      <li>$1 → one dollar<br>$2 → two dollars.</li>
     </ul>
     <h3>Onzecentos</h3>
     <p>No inglês americano, números de quatro dígitos terminados em 00 costumam ser lidos como centenas. A forma com <i>thousand</i> também é correta.</p>
@@ -54,7 +54,7 @@ pt:`
     <h3>Números ordinais</h3>
     <p>Cardinais contam (1, 2, 3); ordinais dão a ordem. A abreviação vem das duas últimas letras da palavra:</p>
     <ul>
-      <li>1st fir<b>st</b> · 2nd seco<b>nd</b> · 3rd thi<b>rd</b> · 4th four<b>th</b></li>
+      <li>1st fir<b>st</b><br>2nd seco<b>nd</b><br>3rd thi<b>rd</b><br>4th four<b>th</b></li>
       <li>Depois de 4, quase tudo termina em -th: 11th eleventh, 17th seventeenth. A partir de 21, volta o padrão: 21st twenty-first, 22nd twenty-second, 23rd twenty-third.</li>
       <li>Alguns mudam a grafia: five → <b>fifth</b>, eight → <b>eighth</b>, nine → <b>ninth</b>, twelve → <b>twelfth</b>.</li>
       <li>Nas dezenas, o Y vira IE: twenty → <b>twentieth</b>, thirty → thirtieth.</li>
@@ -71,36 +71,36 @@ pt:`
       <tr><th>Sinal</th><th>Em inglês</th></tr>
       <tr><td>+</td><td>plus</td></tr>
       <tr><td>−</td><td>minus</td></tr>
-      <tr><td>×</td><td>times · multiplied by</td></tr>
+      <tr><td>×</td><td>times<br>multiplied by</td></tr>
       <tr><td>÷ ou /</td><td>divided by</td></tr>
-      <tr><td>=</td><td>equals · is</td></tr>
+      <tr><td>=</td><td>equals<br>is</td></tr>
     </table>
     <ul>
       <li>2 + 2 = 4 → two plus two equals four (ou <i>is</i> four). O verbo fica no singular.</li>
       <li>12 ÷ 3 = 4 → twelve divided by three equals four</li>
-      <li>20% → twenty <b>percent</b>, numa palavra só · 50% off → desconto de 50%</li>
+      <li>20% → twenty <b>percent</b>, numa palavra só<br>50% off → desconto de 50%</li>
       <li>−5 → negative five. Para temperatura, também se diz minus five ou five below zero.</li>
     </ul>
     <table>
       <tr><th>Fração</th><th>Em inglês</th></tr>
-      <tr><td>½</td><td>a half · one half</td></tr>
-      <tr><td>⅓</td><td>a third · one third</td></tr>
-      <tr><td>¼</td><td>a quarter · one fourth</td></tr>
-      <tr><td>¾</td><td>three quarters · three fourths</td></tr>
+      <tr><td>½</td><td>a half<br>one half</td></tr>
+      <tr><td>⅓</td><td>a third<br>one third</td></tr>
+      <tr><td>¼</td><td>a quarter<br>one fourth</td></tr>
+      <tr><td>¾</td><td>three quarters<br>three fourths</td></tr>
     </table>
-    <p>half a kilo → meio quilo · a quarter of the pizza → um quarto da pizza</p>`,
+    <p>half a kilo → meio quilo<br>a quarter of the pizza → um quarto da pizza</p>`,
 en:`
     <h2>Numbers</h2>
     <p>This chapter follows American English.</p>
     <h3>Cardinal numbers</h3>
     <ul>
-      <li>11 eleven · 12 twelve</li>
-      <li>13 thir<b>teen</b> · 14 four<b>teen</b> · 15 fifteen · 16 sixteen · 17 seventeen · 18 eighteen · 19 nineteen</li>
-      <li>20 twenty · 30 <b>thir</b>ty · 40 <b>for</b>ty · 50 <b>fif</b>ty · 60 sixty · 70 seventy · 80 eighty · 90 ninety</li>
+      <li>11 eleven<br>12 twelve</li>
+      <li>13 thir<b>teen</b><br>14 four<b>teen</b><br>15 fifteen<br>16 sixteen<br>17 seventeen<br>18 eighteen<br>19 nineteen</li>
+      <li>20 twenty<br>30 <b>thir</b>ty<br>40 <b>for</b>ty<br>50 <b>fif</b>ty<br>60 sixty<br>70 seventy<br>80 eighty<br>90 ninety</li>
     </ul>
     <p class="note">Mind the stressed syllable: in -TEEN, the stress is at the end (thir<b>teen</b>); in -TY, it is at the beginning (<b>thir</b>ty). This is what tells 13 from 30. Note the spelling too: <b>forty</b>, with no U.</p>
     <ul>
-      <li>100 one hundred · 1,000 one thousand · 1,000,000 one million · 1,000,000,000 one billion</li>
+      <li>100 one hundred<br>1,000 one thousand<br>1,000,000 one million<br>1,000,000,000 one billion</li>
     </ul>
     <p>In American English, the comma separates thousands and the period marks decimals: the opposite of Portuguese. <b>1,500</b> is one thousand five hundred.</p>
     <p><b>Hundred</b>, <b>thousand</b>, <b>million</b> and <b>billion</b> do not take a plural after a number: <i>two hundred people</i> (<s>two hundreds people</s>). Without a number before them, they take the plural: <i>hundreds of people</i>.</p>
@@ -117,7 +117,7 @@ en:`
       <li>The symbol comes before the number but is read after it: $5 → five <b>dollars</b>.</li>
       <li>$4.50 → four dollars and fifty cents, or just <b>four fifty</b>. Prices are not read with <i>point</i>.</li>
       <li>$0.75 or 75¢ → seventy-five <b>cents</b>.</li>
-      <li>$1 → one dollar · $2 → two dollars.</li>
+      <li>$1 → one dollar<br>$2 → two dollars.</li>
     </ul>
     <h3>Hundreds for thousands</h3>
     <p>In American English, four-digit numbers ending in 00 are often read as hundreds. The form with <i>thousand</i> is also correct.</p>
@@ -139,7 +139,7 @@ en:`
     <h3>Ordinal numbers</h3>
     <p>Cardinal numbers count (1, 2, 3); ordinal numbers give the order. The abbreviation comes from the last two letters of the word:</p>
     <ul>
-      <li>1st fir<b>st</b> · 2nd seco<b>nd</b> · 3rd thi<b>rd</b> · 4th four<b>th</b></li>
+      <li>1st fir<b>st</b><br>2nd seco<b>nd</b><br>3rd thi<b>rd</b><br>4th four<b>th</b></li>
       <li>After 4, almost everything ends in -th: 11th eleventh, 17th seventeenth. From 21 on, the pattern comes back: 21st twenty-first, 22nd twenty-second, 23rd twenty-third.</li>
       <li>Some change their spelling: five → <b>fifth</b>, eight → <b>eighth</b>, nine → <b>ninth</b>, twelve → <b>twelfth</b>.</li>
       <li>In the tens, Y becomes IE: twenty → <b>twentieth</b>, thirty → thirtieth.</li>
@@ -156,24 +156,24 @@ en:`
       <tr><th>Sign</th><th>In English</th></tr>
       <tr><td>+</td><td>plus</td></tr>
       <tr><td>−</td><td>minus</td></tr>
-      <tr><td>×</td><td>times · multiplied by</td></tr>
+      <tr><td>×</td><td>times<br>multiplied by</td></tr>
       <tr><td>÷ or /</td><td>divided by</td></tr>
-      <tr><td>=</td><td>equals · is</td></tr>
+      <tr><td>=</td><td>equals<br>is</td></tr>
     </table>
     <ul>
       <li>2 + 2 = 4 → two plus two equals four (or <i>is</i> four). The verb is singular.</li>
       <li>12 ÷ 3 = 4 → twelve divided by three equals four</li>
-      <li>20% → twenty <b>percent</b>, one word · 50% off → a 50% discount</li>
+      <li>20% → twenty <b>percent</b>, one word<br>50% off → a 50% discount</li>
       <li>−5 → negative five. For temperature, people also say minus five or five below zero.</li>
     </ul>
     <table>
       <tr><th>Fraction</th><th>In English</th></tr>
-      <tr><td>½</td><td>a half · one half</td></tr>
-      <tr><td>⅓</td><td>a third · one third</td></tr>
-      <tr><td>¼</td><td>a quarter · one fourth</td></tr>
-      <tr><td>¾</td><td>three quarters · three fourths</td></tr>
+      <tr><td>½</td><td>a half<br>one half</td></tr>
+      <tr><td>⅓</td><td>a third<br>one third</td></tr>
+      <tr><td>¼</td><td>a quarter<br>one fourth</td></tr>
+      <tr><td>¾</td><td>three quarters<br>three fourths</td></tr>
     </table>
-    <p>half a kilo · a quarter of the pizza</p>`
+    <p>half a kilo<br>a quarter of the pizza</p>`
   },
   vocab:{
 pt:`
@@ -216,21 +216,21 @@ pt:`
     <h2>No mercado</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>How much is it? · How much are they?</td><td>Quanto custa? · Quanto custam?</td></tr>
+      <tr><td>How much is it?<br>How much are they?</td><td>Quanto custa?<br>Quanto custam?</td></tr>
       <tr><td>price</td><td>preço</td></tr>
-      <tr><td>cheap · expensive</td><td>barato · caro</td></tr>
+      <tr><td>cheap<br>expensive</td><td>barato<br>caro</td></tr>
       <tr><td>on sale</td><td>em promoção</td></tr>
       <tr><td>discount</td><td>desconto</td></tr>
       <tr><td>cash</td><td>dinheiro em espécie</td></tr>
-      <tr><td>credit card · debit card</td><td>cartão de crédito · de débito</td></tr>
+      <tr><td>credit card<br>debit card</td><td>cartão de crédito<br>de débito</td></tr>
       <tr><td>change</td><td>troco</td></tr>
       <tr><td>receipt</td><td>nota fiscal, recibo</td></tr>
       <tr><td>checkout</td><td>caixa (onde se paga)</td></tr>
       <tr><td>a dozen</td><td>uma dúzia</td></tr>
-      <tr><td>a carton of eggs · of milk</td><td>uma caixa de ovos · de leite</td></tr>
+      <tr><td>a carton of eggs<br>of milk</td><td>uma caixa de ovos<br>de leite</td></tr>
       <tr><td>a loaf of bread</td><td>um pão de forma</td></tr>
       <tr><td>a bag of rice</td><td>um pacote de arroz</td></tr>
-      <tr><td>a bottle of water · a can of soda</td><td>uma garrafa de água · uma lata de refrigerante</td></tr>
+      <tr><td>a bottle of water<br>a can of soda</td><td>uma garrafa de água<br>uma lata de refrigerante</td></tr>
     </table>
     <h2>Medidas nos EUA</h2>
     <table>
@@ -253,9 +253,9 @@ pt:`
       <tr><td>How old are you?</td><td>Quantos anos você tem?</td></tr>
       <tr><td>I'm thirty (years old).</td><td>Tenho trinta anos.</td></tr>
       <tr><td>She turns eighty on Sunday.</td><td>Ela faz oitenta anos no domingo.</td></tr>
-      <tr><td>birthday party · birthday cake</td><td>festa · bolo de aniversário</td></tr>
+      <tr><td>birthday party<br>birthday cake</td><td>festa<br>bolo de aniversário</td></tr>
       <tr><td>candles</td><td>velas</td></tr>
-      <tr><td>gift · present</td><td>presente</td></tr>
+      <tr><td>gift<br>present</td><td>presente</td></tr>
       <tr><td>anniversary</td><td>aniversário de casamento, de empresa</td></tr>
     </table>
     <p class="note">Idade se diz com o verbo To Be: <i>I am 30</i> (<s>I have 30 years</s>). <i>Anniversary</i> não é o aniversário de alguém: é a data comemorativa de um evento, como um casamento.</p>`,
@@ -299,21 +299,21 @@ en:`
     <h2>At the market</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>How much is it? · How much are they?</td><td>Quanto custa? · Quanto custam?</td></tr>
+      <tr><td>How much is it?<br>How much are they?</td><td>Quanto custa?<br>Quanto custam?</td></tr>
       <tr><td>price</td><td>preço</td></tr>
-      <tr><td>cheap · expensive</td><td>barato · caro</td></tr>
+      <tr><td>cheap<br>expensive</td><td>barato<br>caro</td></tr>
       <tr><td>on sale</td><td>em promoção</td></tr>
       <tr><td>discount</td><td>desconto</td></tr>
       <tr><td>cash</td><td>dinheiro em espécie</td></tr>
-      <tr><td>credit card · debit card</td><td>cartão de crédito · de débito</td></tr>
+      <tr><td>credit card<br>debit card</td><td>cartão de crédito<br>de débito</td></tr>
       <tr><td>change</td><td>troco</td></tr>
       <tr><td>receipt</td><td>nota fiscal, recibo</td></tr>
       <tr><td>checkout</td><td>caixa (onde se paga)</td></tr>
       <tr><td>a dozen</td><td>uma dúzia</td></tr>
-      <tr><td>a carton of eggs · of milk</td><td>uma caixa de ovos · de leite</td></tr>
+      <tr><td>a carton of eggs<br>of milk</td><td>uma caixa de ovos<br>de leite</td></tr>
       <tr><td>a loaf of bread</td><td>um pão de forma</td></tr>
       <tr><td>a bag of rice</td><td>um pacote de arroz</td></tr>
-      <tr><td>a bottle of water · a can of soda</td><td>uma garrafa de água · uma lata de refrigerante</td></tr>
+      <tr><td>a bottle of water<br>a can of soda</td><td>uma garrafa de água<br>uma lata de refrigerante</td></tr>
     </table>
     <h2>Measurements in the US</h2>
     <table>
@@ -336,9 +336,9 @@ en:`
       <tr><td>How old are you?</td><td>Quantos anos você tem?</td></tr>
       <tr><td>I'm thirty (years old).</td><td>Tenho trinta anos.</td></tr>
       <tr><td>She turns eighty on Sunday.</td><td>Ela faz oitenta anos no domingo.</td></tr>
-      <tr><td>birthday party · birthday cake</td><td>festa · bolo de aniversário</td></tr>
+      <tr><td>birthday party<br>birthday cake</td><td>festa<br>bolo de aniversário</td></tr>
       <tr><td>candles</td><td>velas</td></tr>
-      <tr><td>gift · present</td><td>presente</td></tr>
+      <tr><td>gift<br>present</td><td>presente</td></tr>
       <tr><td>anniversary</td><td>aniversário de casamento, de empresa</td></tr>
     </table>
     <p class="note">Age is expressed with the verb To Be: <i>I am 30</i> (<s>I have 30 years</s>). <i>Anniversary</i> is not someone's birthday: it is the date of an event, such as a wedding.</p>`

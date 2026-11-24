@@ -17,8 +17,8 @@ pt:`
     <table>
       <tr><th>Modal</th><th>Certeza</th><th>Exemplo</th></tr>
       <tr><td>must have</td><td>quase certeza de que sim</td><td>She must have left early. The lights are off.</td></tr>
-      <tr><td>may · might · could have</td><td>talvez</td><td>An asteroid may have caused the extinction of the dinosaurs.</td></tr>
-      <tr><td>can't · couldn't have</td><td>quase certeza de que não</td><td>He can't have finished already. He started ten minutes ago.</td></tr>
+      <tr><td>may<br>might<br>could have</td><td>talvez</td><td>An asteroid may have caused the extinction of the dinosaurs.</td></tr>
+      <tr><td>can't<br>couldn't have</td><td>quase certeza de que não</td><td>He can't have finished already. He started ten minutes ago.</td></tr>
     </table>
     <p class="note">Assim como no presente, o oposto de <i>must have</i> é <i>can't have</i>, não <i>mustn't have</i>.</p>
     <h3>Os dois sentidos de COULD HAVE</h3>
@@ -27,7 +27,7 @@ pt:`
       <li>Dedução: talvez tenha acontecido: The keys could have fallen in the car.</li>
     </ul>
     <h3>SHOULD HAVE × MUST HAVE</h3>
-    <p>She <b>should have</b> arrived by now. (era o esperado; talvez não tenha chegado) · She <b>must have</b> arrived. (tenho quase certeza de que chegou)</p>
+    <p>She <b>should have</b> arrived by now. (era o esperado; talvez não tenha chegado)<br>She <b>must have</b> arrived. (tenho quase certeza de que chegou)</p>
     <h3>DIDN'T NEED TO × NEEDN'T HAVE</h3>
     <ul>
       <li><b>didn't need to</b> = não era necessário (normalmente, não fiz): I didn't need to take a taxi, so I walked.</li>
@@ -49,8 +49,8 @@ en:`
     <table>
       <tr><th>Modal</th><th>Certainty</th><th>Example</th></tr>
       <tr><td>must have</td><td>almost sure it happened</td><td>She must have left early. The lights are off.</td></tr>
-      <tr><td>may · might · could have</td><td>perhaps</td><td>An asteroid may have caused the extinction of the dinosaurs.</td></tr>
-      <tr><td>can't · couldn't have</td><td>almost sure it didn't happen</td><td>He can't have finished already. He started ten minutes ago.</td></tr>
+      <tr><td>may<br>might<br>could have</td><td>perhaps</td><td>An asteroid may have caused the extinction of the dinosaurs.</td></tr>
+      <tr><td>can't<br>couldn't have</td><td>almost sure it didn't happen</td><td>He can't have finished already. He started ten minutes ago.</td></tr>
     </table>
     <p class="note">As in the present, the opposite of <i>must have</i> is <i>can't have</i>, not <i>mustn't have</i>.</p>
     <h3>The two meanings of COULD HAVE</h3>
@@ -59,7 +59,7 @@ en:`
       <li>Deduction: perhaps it happened: The keys could have fallen in the car.</li>
     </ul>
     <h3>SHOULD HAVE × MUST HAVE</h3>
-    <p>She <b>should have</b> arrived by now. (that was expected; maybe she hasn't) · She <b>must have</b> arrived. (I'm almost sure she has)</p>
+    <p>She <b>should have</b> arrived by now. (that was expected; maybe she hasn't)<br>She <b>must have</b> arrived. (I'm almost sure she has)</p>
     <h3>DIDN'T NEED TO × NEEDN'T HAVE</h3>
     <ul>
       <li><b>didn't need to</b>: it wasn't necessary (usually, I didn't do it): I didn't need to take a taxi, so I walked.</li>
@@ -76,12 +76,12 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to regret</td><td>arrepender-se</td></tr>
       <tr><td>to blame</td><td>culpar</td></tr>
-      <tr><td>evidence · clue</td><td>prova · pista</td></tr>
+      <tr><td>evidence<br>clue</td><td>prova<br>pista</td></tr>
       <tr><td>to figure out</td><td>descobrir, entender</td></tr>
       <tr><td>a missed opportunity</td><td>uma oportunidade perdida</td></tr>
       <tr><td>in hindsight</td><td>olhando para trás</td></tr>
       <tr><td>to set off (an alarm)</td><td>disparar (um alarme)</td></tr>
-      <tr><td>to lock · to unlock</td><td>trancar · destrancar</td></tr>
+      <tr><td>to lock<br>to unlock</td><td>trancar<br>destrancar</td></tr>
       <tr><td>to oversleep</td><td>perder a hora</td></tr>
       <tr><td>to run out of</td><td>ficar sem</td></tr>
       <tr><td>extinction</td><td>extinção</td></tr>
@@ -94,12 +94,12 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to regret</td><td>arrepender-se</td></tr>
       <tr><td>to blame</td><td>culpar</td></tr>
-      <tr><td>evidence · clue</td><td>prova · pista</td></tr>
+      <tr><td>evidence<br>clue</td><td>prova<br>pista</td></tr>
       <tr><td>to figure out</td><td>descobrir, entender</td></tr>
       <tr><td>a missed opportunity</td><td>uma oportunidade perdida</td></tr>
       <tr><td>in hindsight</td><td>olhando para trás</td></tr>
       <tr><td>to set off (an alarm)</td><td>disparar (um alarme)</td></tr>
-      <tr><td>to lock · to unlock</td><td>trancar · destrancar</td></tr>
+      <tr><td>to lock<br>to unlock</td><td>trancar<br>destrancar</td></tr>
       <tr><td>to oversleep</td><td>perder a hora</td></tr>
       <tr><td>to run out of</td><td>ficar sem</td></tr>
       <tr><td>extinction</td><td>extinção</td></tr>

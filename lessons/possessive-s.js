@@ -16,8 +16,8 @@ pt:`
     <h3>Onde vai o apóstrofo</h3>
     <ul>
       <li>Singular: <b>'s</b> — my sister's room</li>
-      <li>Plural terminado em S: só o <b>apóstrofo</b> — my parents' house · the students' books</li>
-      <li>Plural irregular: <b>'s</b> — the children's toys · women's rights · people's opinions</li>
+      <li>Plural terminado em S: só o <b>apóstrofo</b> — my parents' house<br>the students' books</li>
+      <li>Plural irregular: <b>'s</b> — the children's toys<br>women's rights<br>people's opinions</li>
       <li>Nome terminado em S: James's car ou James' car — as duas formas são aceitas.</li>
     </ul>
     <p class="note">my <b>sister's</b> friends (de uma irmã) × my <b>sisters'</b> friends (de várias irmãs). Na fala, soam iguais.</p>
@@ -33,16 +33,16 @@ pt:`
     </ul>
     <h3>'S ou OF?</h3>
     <ul>
-      <li>Pessoas, animais, empresas, países: 's — the company's profits · Brazil's capital · the dog's bed</li>
-      <li>Coisas e expressões longas: <i>of</i> — the end <b>of</b> the movie · the top <b>of</b> the page</li>
-      <li>Tempo: 's — today's newspaper · a week's vacation · an hour's drive</li>
+      <li>Pessoas, animais, empresas, países: 's — the company's profits<br>Brazil's capital<br>the dog's bed</li>
+      <li>Coisas e expressões longas: <i>of</i> — the end <b>of</b> the movie<br>the top <b>of</b> the page</li>
+      <li>Tempo: 's — today's newspaper<br>a week's vacation<br>an hour's drive</li>
     </ul>
-    <p>Muitos nomes de leis e descobertas usam o 's: Newton's laws (1687) · Halley's Comet · Murphy's law.</p>
+    <p>Muitos nomes de leis e descobertas usam o 's: Newton's laws (1687)<br>Halley's Comet<br>Murphy's law.</p>
     <h3>'S de posse × 'S de IS e de HAS</h3>
     <ul>
       <li>Antes de substantivo → posse: my brother's car</li>
-      <li>Antes de adjetivo, -ing, lugar ou artigo → is: my brother's nice · my brother's working · my brother's a doctor</li>
-      <li>Antes de <i>got</i> ou de particípio → has: my brother's got two kids · my brother's been to Japan</li>
+      <li>Antes de adjetivo, -ing, lugar ou artigo → is: my brother's nice<br>my brother's working<br>my brother's a doctor</li>
+      <li>Antes de <i>got</i> ou de particípio → has: my brother's got two kids<br>my brother's been to Japan</li>
     </ul>`,
 en:`
     <h2>Possessive 's</h2>
@@ -56,8 +56,8 @@ en:`
     <h3>Where the apostrophe goes</h3>
     <ul>
       <li>Singular: <b>'s</b> — my sister's room</li>
-      <li>Plural ending in S: just the <b>apostrophe</b> — my parents' house · the students' books</li>
-      <li>Irregular plural: <b>'s</b> — the children's toys · women's rights · people's opinions</li>
+      <li>Plural ending in S: just the <b>apostrophe</b> — my parents' house<br>the students' books</li>
+      <li>Irregular plural: <b>'s</b> — the children's toys<br>women's rights<br>people's opinions</li>
       <li>Names ending in S: James's car or James' car — both are accepted.</li>
     </ul>
     <p class="note">my <b>sister's</b> friends (one sister) × my <b>sisters'</b> friends (several sisters). In speech, they sound the same.</p>
@@ -73,16 +73,16 @@ en:`
     </ul>
     <h3>'S or OF?</h3>
     <ul>
-      <li>People, animals, companies, countries: 's — the company's profits · Brazil's capital · the dog's bed</li>
-      <li>Things and long phrases: <i>of</i> — the end <b>of</b> the movie · the top <b>of</b> the page</li>
-      <li>Time: 's — today's newspaper · a week's vacation · an hour's drive</li>
+      <li>People, animals, companies, countries: 's — the company's profits<br>Brazil's capital<br>the dog's bed</li>
+      <li>Things and long phrases: <i>of</i> — the end <b>of</b> the movie<br>the top <b>of</b> the page</li>
+      <li>Time: 's — today's newspaper<br>a week's vacation<br>an hour's drive</li>
     </ul>
-    <p>Many names of laws and discoveries use 's: Newton's laws (1687) · Halley's Comet · Murphy's law.</p>
+    <p>Many names of laws and discoveries use 's: Newton's laws (1687)<br>Halley's Comet<br>Murphy's law.</p>
     <h3>Possessive 'S × 'S for IS and HAS</h3>
     <ul>
       <li>Before a noun → possession: my brother's car</li>
-      <li>Before an adjective, -ing, a place or an article → is: my brother's nice · my brother's working · my brother's a doctor</li>
-      <li>Before <i>got</i> or a past participle → has: my brother's got two kids · my brother's been to Japan</li>
+      <li>Before an adjective, -ing, a place or an article → is: my brother's nice<br>my brother's working<br>my brother's a doctor</li>
+      <li>Before <i>got</i> or a past participle → has: my brother's got two kids<br>my brother's been to Japan</li>
     </ul>`
   },
   vocab:{
@@ -91,11 +91,11 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>family tree</td><td>árvore genealógica</td></tr>
-      <tr><td>ancestors · descendants</td><td>antepassados · descendentes</td></tr>
+      <tr><td>ancestors<br>descendants</td><td>antepassados<br>descendentes</td></tr>
       <tr><td>generation</td><td>geração</td></tr>
       <tr><td>great-grandparents</td><td>bisavós</td></tr>
       <tr><td>maiden name</td><td>nome de solteira</td></tr>
-      <tr><td>last name · first name</td><td>sobrenome · nome</td></tr>
+      <tr><td>last name<br>first name</td><td>sobrenome<br>nome</td></tr>
       <tr><td>to be named after someone</td><td>receber o nome em homenagem a alguém</td></tr>
       <tr><td>heirloom</td><td>objeto de família, passado de geração em geração</td></tr>
       <tr><td>to inherit</td><td>herdar</td></tr>
@@ -103,12 +103,12 @@ pt:`
     <h2>Pertences</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>wallet · purse</td><td>carteira · bolsa</td></tr>
+      <tr><td>wallet<br>purse</td><td>carteira<br>bolsa</td></tr>
       <tr><td>backpack</td><td>mochila</td></tr>
-      <tr><td>keys · key chain</td><td>chaves · chaveiro</td></tr>
+      <tr><td>keys<br>key chain</td><td>chaves<br>chaveiro</td></tr>
       <tr><td>sunglasses</td><td>óculos de sol</td></tr>
       <tr><td>umbrella</td><td>guarda-chuva</td></tr>
-      <tr><td>charger · earbuds</td><td>carregador · fones de ouvido</td></tr>
+      <tr><td>charger<br>earbuds</td><td>carregador<br>fones de ouvido</td></tr>
       <tr><td>lost and found</td><td>achados e perdidos</td></tr>
       <tr><td>belongings</td><td>pertences</td></tr>
     </table>
@@ -118,11 +118,11 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>family tree</td><td>árvore genealógica</td></tr>
-      <tr><td>ancestors · descendants</td><td>antepassados · descendentes</td></tr>
+      <tr><td>ancestors<br>descendants</td><td>antepassados<br>descendentes</td></tr>
       <tr><td>generation</td><td>geração</td></tr>
       <tr><td>great-grandparents</td><td>bisavós</td></tr>
       <tr><td>maiden name</td><td>nome de solteira</td></tr>
-      <tr><td>last name · first name</td><td>sobrenome · nome</td></tr>
+      <tr><td>last name<br>first name</td><td>sobrenome<br>nome</td></tr>
       <tr><td>to be named after someone</td><td>receber o nome em homenagem a alguém</td></tr>
       <tr><td>heirloom</td><td>objeto de família, passado de geração em geração</td></tr>
       <tr><td>to inherit</td><td>herdar</td></tr>
@@ -130,12 +130,12 @@ en:`
     <h2>Belongings</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>wallet · purse</td><td>carteira · bolsa</td></tr>
+      <tr><td>wallet<br>purse</td><td>carteira<br>bolsa</td></tr>
       <tr><td>backpack</td><td>mochila</td></tr>
-      <tr><td>keys · key chain</td><td>chaves · chaveiro</td></tr>
+      <tr><td>keys<br>key chain</td><td>chaves<br>chaveiro</td></tr>
       <tr><td>sunglasses</td><td>óculos de sol</td></tr>
       <tr><td>umbrella</td><td>guarda-chuva</td></tr>
-      <tr><td>charger · earbuds</td><td>carregador · fones de ouvido</td></tr>
+      <tr><td>charger<br>earbuds</td><td>carregador<br>fones de ouvido</td></tr>
       <tr><td>lost and found</td><td>achados e perdidos</td></tr>
       <tr><td>belongings</td><td>pertences</td></tr>
     </table>

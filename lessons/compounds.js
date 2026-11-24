@@ -15,30 +15,30 @@ pt:`
       <li><b>com hífen</b>: mother-in-law, check-in</li>
     </ul>
     <h3>O plural vai na palavra principal</h3>
-    <p>bus stop → bus <b>stops</b> · mother-in-law → <b>mothers</b>-in-law · passer-by → <b>passers</b>-by</p>
+    <p>bus stop → bus <b>stops</b><br>mother-in-law → <b>mothers</b>-in-law<br>passer-by → <b>passers</b>-by</p>
     <h3>-ING + substantivo = finalidade</h3>
-    <p>swimming pool · washing machine · parking lot · sleeping bag · dining room</p>
+    <p>swimming pool<br>washing machine<br>parking lot<br>sleeping bag<br>dining room</p>
     <h3>Verbo separado, substantivo junto</h3>
     <ul>
-      <li>I need to <b>log in</b>. (verbo) · Enter your <b>login</b>. (substantivo)</li>
-      <li>The car <b>broke down</b>. · We had a <b>breakdown</b>.</li>
-      <li>What time do we <b>check in</b>? · The <b>check-in</b> is at 2 p.m.</li>
+      <li>I need to <b>log in</b>. (verbo)<br>Enter your <b>login</b>. (substantivo)</li>
+      <li>The car <b>broke down</b>.<br>We had a <b>breakdown</b>.</li>
+      <li>What time do we <b>check in</b>?<br>The <b>check-in</b> is at 2 p.m.</li>
     </ul>
     <h2>Adjetivos compostos</h2>
     <h3>Número + substantivo: hífen e sem plural</h3>
     <ul>
       <li>The drive takes <b>two hours</b>. → a <b>two-hour</b> drive (<s>two-hours</s>)</li>
       <li>She is <b>20 years old</b>. → a <b>20-year-old</b> woman</li>
-      <li>a <b>ten-dollar</b> bill · a <b>five-star</b> hotel · a <b>30-square-meter</b> studio</li>
+      <li>a <b>ten-dollar</b> bill<br>a <b>five-star</b> hotel<br>a <b>30-square-meter</b> studio</li>
     </ul>
     <h3>Outros tipos</h3>
     <ul>
-      <li>well-known · well-paid · old-fashioned · homemade</li>
-      <li>blue-eyed · left-handed · open-minded</li>
-      <li>good-looking · hard-working · time-consuming</li>
-      <li>world-famous · sugar-free · user-friendly</li>
+      <li>well-known<br>well-paid<br>old-fashioned<br>homemade</li>
+      <li>blue-eyed<br>left-handed<br>open-minded</li>
+      <li>good-looking<br>hard-working<br>time-consuming</li>
+      <li>world-famous<br>sugar-free<br>user-friendly</li>
     </ul>
-    <p class="note">O hífen aparece quando o adjetivo vem <b>antes</b> do substantivo: She is a <b>well-known</b> singer. · The singer is <b>well known</b>.</p>
+    <p class="note">O hífen aparece quando o adjetivo vem <b>antes</b> do substantivo: She is a <b>well-known</b> singer.<br>The singer is <b>well known</b>.</p>
     <p class="note">Nos compostos, a tônica costuma cair na primeira palavra: GREENhouse (estufa) × green HOUSE (casa verde).</p>`,
 en:`
     <h2>Compound nouns</h2>
@@ -51,30 +51,30 @@ en:`
       <li><b>hyphen</b>: mother-in-law, check-in</li>
     </ul>
     <h3>The plural goes on the main word</h3>
-    <p>bus stop → bus <b>stops</b> · mother-in-law → <b>mothers</b>-in-law · passer-by → <b>passers</b>-by</p>
+    <p>bus stop → bus <b>stops</b><br>mother-in-law → <b>mothers</b>-in-law<br>passer-by → <b>passers</b>-by</p>
     <h3>-ING + noun = purpose</h3>
-    <p>swimming pool · washing machine · parking lot · sleeping bag · dining room</p>
+    <p>swimming pool<br>washing machine<br>parking lot<br>sleeping bag<br>dining room</p>
     <h3>Verb apart, noun together</h3>
     <ul>
-      <li>I need to <b>log in</b>. (verb) · Enter your <b>login</b>. (noun)</li>
-      <li>The car <b>broke down</b>. · We had a <b>breakdown</b>.</li>
-      <li>What time do we <b>check in</b>? · The <b>check-in</b> is at 2 p.m.</li>
+      <li>I need to <b>log in</b>. (verb)<br>Enter your <b>login</b>. (noun)</li>
+      <li>The car <b>broke down</b>.<br>We had a <b>breakdown</b>.</li>
+      <li>What time do we <b>check in</b>?<br>The <b>check-in</b> is at 2 p.m.</li>
     </ul>
     <h2>Compound adjectives</h2>
     <h3>Number + noun: hyphen and no plural</h3>
     <ul>
       <li>The drive takes <b>two hours</b>. → a <b>two-hour</b> drive (<s>two-hours</s>)</li>
       <li>She is <b>20 years old</b>. → a <b>20-year-old</b> woman</li>
-      <li>a <b>ten-dollar</b> bill · a <b>five-star</b> hotel · a <b>30-square-meter</b> studio</li>
+      <li>a <b>ten-dollar</b> bill<br>a <b>five-star</b> hotel<br>a <b>30-square-meter</b> studio</li>
     </ul>
     <h3>Other types</h3>
     <ul>
-      <li>well-known · well-paid · old-fashioned · homemade</li>
-      <li>blue-eyed · left-handed · open-minded</li>
-      <li>good-looking · hard-working · time-consuming</li>
-      <li>world-famous · sugar-free · user-friendly</li>
+      <li>well-known<br>well-paid<br>old-fashioned<br>homemade</li>
+      <li>blue-eyed<br>left-handed<br>open-minded</li>
+      <li>good-looking<br>hard-working<br>time-consuming</li>
+      <li>world-famous<br>sugar-free<br>user-friendly</li>
     </ul>
-    <p class="note">The hyphen appears when the adjective comes <b>before</b> the noun: She is a <b>well-known</b> singer. · The singer is <b>well known</b>.</p>
+    <p class="note">The hyphen appears when the adjective comes <b>before</b> the noun: She is a <b>well-known</b> singer.<br>The singer is <b>well known</b>.</p>
     <p class="note">In compounds, the stress usually falls on the first word: GREENhouse × green HOUSE (a house that is green).</p>`
   },
   vocab:{
@@ -82,12 +82,12 @@ pt:`
     <h2>Casa e cidade</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>living room · dining room</td><td>sala de estar · sala de jantar</td></tr>
-      <tr><td>bedroom · bathroom</td><td>quarto · banheiro</td></tr>
+      <tr><td>living room<br>dining room</td><td>sala de estar<br>sala de jantar</td></tr>
+      <tr><td>bedroom<br>bathroom</td><td>quarto<br>banheiro</td></tr>
       <tr><td>washing machine</td><td>máquina de lavar</td></tr>
-      <tr><td>bus stop · subway station</td><td>ponto de ônibus · estação de metrô</td></tr>
+      <tr><td>bus stop<br>subway station</td><td>ponto de ônibus<br>estação de metrô</td></tr>
       <tr><td>traffic light</td><td>semáforo</td></tr>
-      <tr><td>crosswalk · sidewalk</td><td>faixa de pedestre · calçada</td></tr>
+      <tr><td>crosswalk<br>sidewalk</td><td>faixa de pedestre<br>calçada</td></tr>
       <tr><td>parking lot</td><td>estacionamento</td></tr>
       <tr><td>drugstore</td><td>farmácia</td></tr>
       <tr><td>city hall</td><td>prefeitura</td></tr>
@@ -100,12 +100,12 @@ en:`
     <h2>Home and city</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>living room · dining room</td><td>sala de estar · sala de jantar</td></tr>
-      <tr><td>bedroom · bathroom</td><td>quarto · banheiro</td></tr>
+      <tr><td>living room<br>dining room</td><td>sala de estar<br>sala de jantar</td></tr>
+      <tr><td>bedroom<br>bathroom</td><td>quarto<br>banheiro</td></tr>
       <tr><td>washing machine</td><td>máquina de lavar</td></tr>
-      <tr><td>bus stop · subway station</td><td>ponto de ônibus · estação de metrô</td></tr>
+      <tr><td>bus stop<br>subway station</td><td>ponto de ônibus<br>estação de metrô</td></tr>
       <tr><td>traffic light</td><td>semáforo</td></tr>
-      <tr><td>crosswalk · sidewalk</td><td>faixa de pedestre · calçada</td></tr>
+      <tr><td>crosswalk<br>sidewalk</td><td>faixa de pedestre<br>calçada</td></tr>
       <tr><td>parking lot</td><td>estacionamento</td></tr>
       <tr><td>drugstore</td><td>farmácia</td></tr>
       <tr><td>city hall</td><td>prefeitura</td></tr>

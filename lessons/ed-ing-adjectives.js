@@ -10,27 +10,27 @@ pt:`
       <li><b>-ED</b> = como a pessoa <b>se sente</b>: I'm <b>bored</b>. (estou entediado)</li>
       <li><b>-ING</b> = o que <b>causa</b> o sentimento: The movie is <b>boring</b>. (o filme é chato)</li>
     </ul>
-    <p class="note">O erro clássico: <i>I'm boring</i> = eu sou chato. <i>I'm bored</i> = estou entediado. Com pessoas, -ING descreve o efeito delas nos outros: He's confusing (ele confunde os outros) · He's confused (ele está confuso).</p>
+    <p class="note">O erro clássico: <i>I'm boring</i> = eu sou chato. <i>I'm bored</i> = estou entediado. Com pessoas, -ING descreve o efeito delas nos outros: He's confusing (ele confunde os outros)<br>He's confused (ele está confuso).</p>
     <h3>Os pares mais comuns</h3>
     <table>
       <tr><th>-ED (sinto)</th><th>-ING (causa)</th></tr>
       <tr><td>bored</td><td>boring</td></tr>
       <tr><td>interested</td><td>interesting</td></tr>
       <tr><td>excited</td><td>exciting</td></tr>
-      <tr><td>tired · exhausted</td><td>tiring · exhausting</td></tr>
-      <tr><td>surprised · amazed · shocked</td><td>surprising · amazing · shocking</td></tr>
+      <tr><td>tired<br>exhausted</td><td>tiring<br>exhausting</td></tr>
+      <tr><td>surprised<br>amazed<br>shocked</td><td>surprising<br>amazing<br>shocking</td></tr>
       <tr><td>confused</td><td>confusing</td></tr>
       <tr><td>embarrassed</td><td>embarrassing</td></tr>
       <tr><td>disappointed</td><td>disappointing</td></tr>
-      <tr><td>frightened · terrified</td><td>frightening · terrifying</td></tr>
-      <tr><td>annoyed · worried · relaxed</td><td>annoying · worrying · relaxing</td></tr>
-      <tr><td>fascinated · amused · satisfied</td><td>fascinating · amusing · satisfying</td></tr>
+      <tr><td>frightened<br>terrified</td><td>frightening<br>terrifying</td></tr>
+      <tr><td>annoyed<br>worried<br>relaxed</td><td>annoying<br>worrying<br>relaxing</td></tr>
+      <tr><td>fascinated<br>amused<br>satisfied</td><td>fascinating<br>amusing<br>satisfying</td></tr>
     </table>
     <h3>As preposições do -ED</h3>
     <ul>
-      <li>interested <b>in</b> · excited <b>about</b> · worried <b>about</b></li>
-      <li>bored <b>with</b> · disappointed <b>with / in</b> · surprised <b>at / by</b></li>
-      <li>tired <b>of</b> (farto de) · scared <b>of</b></li>
+      <li>interested <b>in</b><br>excited <b>about</b><br>worried <b>about</b></li>
+      <li>bored <b>with</b><br>disappointed <b>with / in</b><br>surprised <b>at / by</b></li>
+      <li>tired <b>of</b> (farto de)<br>scared <b>of</b></li>
     </ul>
     <h3>Pronúncia do -ED</h3>
     <ul>
@@ -45,27 +45,27 @@ en:`
       <li><b>-ED</b> = how a person <b>feels</b>: I'm <b>bored</b>.</li>
       <li><b>-ING</b> = what <b>causes</b> the feeling: The movie is <b>boring</b>.</li>
     </ul>
-    <p class="note">The classic mistake: <i>I'm boring</i> = people find me dull. <i>I'm bored</i> = I feel bored. With people, -ING describes their effect on others: He's confusing (he confuses people) · He's confused (he doesn't understand).</p>
+    <p class="note">The classic mistake: <i>I'm boring</i> = people find me dull. <i>I'm bored</i> = I feel bored. With people, -ING describes their effect on others: He's confusing (he confuses people)<br>He's confused (he doesn't understand).</p>
     <h3>The most common pairs</h3>
     <table>
       <tr><th>-ED (feeling)</th><th>-ING (cause)</th></tr>
       <tr><td>bored</td><td>boring</td></tr>
       <tr><td>interested</td><td>interesting</td></tr>
       <tr><td>excited</td><td>exciting</td></tr>
-      <tr><td>tired · exhausted</td><td>tiring · exhausting</td></tr>
-      <tr><td>surprised · amazed · shocked</td><td>surprising · amazing · shocking</td></tr>
+      <tr><td>tired<br>exhausted</td><td>tiring<br>exhausting</td></tr>
+      <tr><td>surprised<br>amazed<br>shocked</td><td>surprising<br>amazing<br>shocking</td></tr>
       <tr><td>confused</td><td>confusing</td></tr>
       <tr><td>embarrassed</td><td>embarrassing</td></tr>
       <tr><td>disappointed</td><td>disappointing</td></tr>
-      <tr><td>frightened · terrified</td><td>frightening · terrifying</td></tr>
-      <tr><td>annoyed · worried · relaxed</td><td>annoying · worrying · relaxing</td></tr>
-      <tr><td>fascinated · amused · satisfied</td><td>fascinating · amusing · satisfying</td></tr>
+      <tr><td>frightened<br>terrified</td><td>frightening<br>terrifying</td></tr>
+      <tr><td>annoyed<br>worried<br>relaxed</td><td>annoying<br>worrying<br>relaxing</td></tr>
+      <tr><td>fascinated<br>amused<br>satisfied</td><td>fascinating<br>amusing<br>satisfying</td></tr>
     </table>
     <h3>Prepositions after -ED</h3>
     <ul>
-      <li>interested <b>in</b> · excited <b>about</b> · worried <b>about</b></li>
-      <li>bored <b>with</b> · disappointed <b>with / in</b> · surprised <b>at / by</b></li>
-      <li>tired <b>of</b> (fed up with) · scared <b>of</b></li>
+      <li>interested <b>in</b><br>excited <b>about</b><br>worried <b>about</b></li>
+      <li>bored <b>with</b><br>disappointed <b>with / in</b><br>surprised <b>at / by</b></li>
+      <li>tired <b>of</b> (fed up with)<br>scared <b>of</b></li>
     </ul>
     <h3>Pronouncing -ED</h3>
     <ul>
@@ -81,14 +81,14 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>a novel</td><td>um romance (livro)</td></tr>
-      <tr><td>a thriller · a horror movie</td><td>um suspense · um filme de terror</td></tr>
+      <tr><td>a thriller<br>a horror movie</td><td>um suspense<br>um filme de terror</td></tr>
       <tr><td>a documentary</td><td>um documentário</td></tr>
       <tr><td>the ending</td><td>o final</td></tr>
       <tr><td>a plot twist</td><td>uma reviravolta</td></tr>
       <tr><td>a spoiler</td><td>um spoiler</td></tr>
       <tr><td>a sequel</td><td>uma continuação</td></tr>
       <tr><td>a soundtrack</td><td>uma trilha sonora</td></tr>
-      <tr><td>a concert · a gig</td><td>um show</td></tr>
+      <tr><td>a concert<br>a gig</td><td>um show</td></tr>
       <tr><td>to binge-watch</td><td>maratonar</td></tr>
       <tr><td>subtitles</td><td>legendas</td></tr>
       <tr><td>to be based on a true story</td><td>ser baseado numa história real</td></tr>
@@ -99,14 +99,14 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>a novel</td><td>um romance (livro)</td></tr>
-      <tr><td>a thriller · a horror movie</td><td>um suspense · um filme de terror</td></tr>
+      <tr><td>a thriller<br>a horror movie</td><td>um suspense<br>um filme de terror</td></tr>
       <tr><td>a documentary</td><td>um documentário</td></tr>
       <tr><td>the ending</td><td>o final</td></tr>
       <tr><td>a plot twist</td><td>uma reviravolta</td></tr>
       <tr><td>a spoiler</td><td>um spoiler</td></tr>
       <tr><td>a sequel</td><td>uma continuação</td></tr>
       <tr><td>a soundtrack</td><td>uma trilha sonora</td></tr>
-      <tr><td>a concert · a gig</td><td>um show</td></tr>
+      <tr><td>a concert<br>a gig</td><td>um show</td></tr>
       <tr><td>to binge-watch</td><td>maratonar</td></tr>
       <tr><td>subtitles</td><td>legendas</td></tr>
       <tr><td>to be based on a true story</td><td>ser baseado numa história real</td></tr>

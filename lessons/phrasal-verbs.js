@@ -7,60 +7,70 @@ addLesson({
 pt:`
     <h2>Phrasal verbs</h2>
     <p>Um phrasal verb é <b>um verbo só</b>, formado por um verbo e uma ou duas partículas. Às vezes o sentido é a soma das partes; às vezes é bem diferente.</p>
-    <h3>1. O sentido literal: a direção</h3><p>O verbo diz a ação; a partícula diz a direção. São os mais fáceis.</p>
-    <ul><li>walk in · entrar (andando)</li><li>walk out · sair (andando)</li><li>come back · voltar</li><li>go up · subir</li><li>go down · descer</li><li>sit down · sentar-se</li><li>stand up · levantar-se</li><li>look around · olhar em volta</li><li>run away · fugir</li></ul>
-    <p class="note">O português costuma usar um verbo só (entrar, sair). O inglês prefere "movimento + direção": walk in, run in, drive in, fly in dizem <i>como</i> a pessoa entrou.</p>
-    <h3>2. O sentido figurado</h3><p>Aqui o sentido não é a soma das partes, e é preciso aprender cada um:</p>
-    <ul><li>look for · procurar</li><li>run into · encontrar por acaso</li><li>give up · desistir</li><li>turn down · recusar</li></ul>
-    <h3>3. Separáveis e inseparáveis</h3>
-    <ul><li>Turn off the light. = Turn the light off.</li><li>Com pronome, sempre no meio: Turn <b>it</b> off. (<s>turn off it</s>)</li><li>Inseparáveis: Look <b>for</b> it. (<s>look it for</s>)</li><li>Inseparáveis: I ran <b>into</b> him.</li></ul>
-    <h3>4. A ideia de cada partícula</h3><p>Não é garantia, mas é uma boa pista:</p>
-    <ul><li><b>up</b> — aumentar, completar<ul><li>turn up</li><li>speak up</li><li>eat up</li><li>clean up</li></ul></li><li><b>down</b> — diminuir, registrar<ul><li>slow down</li><li>calm down</li><li>write down</li></ul></li><li><b>out</b> — até o fim, descobrir, sair<ul><li>run out</li><li>sell out</li><li>find out</li><li>figure out</li></ul></li><li><b>off</b> — desligar, partir, cancelar<ul><li>turn off</li><li>take off</li><li>set off</li><li>call off</li></ul></li><li><b>on</b> — ligar, continuar, contato<ul><li>turn on</li><li>go on</li><li>put on</li><li>try on</li></ul></li><li><b>in</b> — entrar, participar, preencher<ul><li>check in</li><li>fill in</li><li>drop in</li><li>give in</li></ul></li><li><b>into</b> — transformação, contato, investigação<ul><li>turn into</li><li>run into</li><li>look into</li><li>talk into</li></ul></li><li><b>by</b> — passar perto, manter-se<ul><li>stop by</li><li>drop by</li><li>get by</li><li>stand by</li></ul></li><li><b>back</b> — volta, retorno<ul><li>call back</li><li>give back</li><li>come back</li></ul></li><li><b>over</b> — de um lado ao outro, de novo<ul><li>come over</li><li>think over</li><li>get over</li></ul></li><li><b>away</b> — afastar, sumir<ul><li>go away</li><li>throw away</li><li>give away</li></ul></li><li><b>around</b> — em volta, sem rumo<ul><li>look around</li><li>show around</li><li>hang around</li></ul></li></ul>
-    <h3>5. De três palavras</h3>
-    <ul><li>look forward to · aguardar com expectativa</li><li>get along with · dar-se bem com</li><li>run out of · ficar sem</li><li>come up with · ter a ideia</li><li>put up with · aguentar</li><li>look up to · admirar</li></ul>
-    <h3>6. Um phrasal verb, vários sentidos</h3>
-    <ul><li><b>take off</b><ul><li>decolar: The plane took off at 7.</li><li>tirar (roupa): Take off your shoes.</li><li>fazer sucesso: Her career took off.</li></ul></li><li><b>pick up</b><ul><li>buscar: I'll pick you up at nine.</li><li>aprender sem estudar: I picked up some Spanish in Chile.</li><li>atender o telefone: Nobody picked up.</li></ul></li><li><b>work out</b><ul><li>malhar: I work out three times a week.</li><li>dar certo: It'll work out.</li><li>resolver: We worked out the problem.</li></ul></li><li><b>turn down</b><ul><li>abaixar o volume: Turn down the music.</li><li>recusar: She turned down the offer.</li></ul></li></ul>
-    <h3>7. Informal × formal: o verbo latino</h3>
+    <h3>O sentido literal: a direção</h3><p>As partículas mais comuns indicam direção:</p>
+    <ul><li><b>up</b> — para cima</li><li><b>down</b> — para baixo</li><li><b>in</b> — para dentro</li><li><b>out</b> — para fora</li><li><b>by</b> — passando perto</li></ul>
+    <p>Junte a partícula a um verbo de movimento. <b>GO</b> = ir:</p>
+    <ul><li>go up = subir</li><li>go down = descer</li><li>go in = entrar</li><li>go out = sair</li><li>go by = passar</li></ul>
+    <p class="note"><i>Life goes by so fast.</i></p>
+    <p>O verbo diz <b>como</b> a pessoa se move:</p>
+    <ul><li>go by = passar</li><li>walk by = passar (andando)</li><li>run by = passar (correndo)</li><li>drive by = passar (dirigindo)</li><li>fly by = passar (voando)</li></ul>
+    <p class="note">O português costuma usar um verbo só (entrar, sair, passar). O inglês prefere movimento + direção.</p>
+    <h3>O sentido figurado</h3><p>Aqui o sentido não é a soma das partes, e é preciso aprender cada um:</p>
+    <ul><li>look for = procurar</li><li>run into = encontrar por acaso</li><li>give up = desistir</li><li>turn down = recusar</li></ul>
+    <h3>Separáveis e inseparáveis</h3>
+    <ul><li>Turn off the light. = Turn the light off.</li><li>Com pronome, sempre no meio — Turn <b>it</b> off. (<s>turn off it</s>)</li><li>Inseparável — Look <b>for</b> it. (<s>look it for</s>)</li><li>Inseparável — I ran <b>into</b> him.</li></ul>
+    <h3>A ideia de cada partícula</h3><p>Não é garantia, mas é uma boa pista:</p>
+    <table><tr><th>Partícula</th><th>Ideia</th><th>Exemplos</th></tr><tr><td><b>up</b></td><td>aumentar, completar</td><td>turn up<br>speak up<br>eat up<br>clean up</td></tr><tr><td><b>down</b></td><td>diminuir, registrar</td><td>slow down<br>calm down<br>write down</td></tr><tr><td><b>in</b></td><td>entrar, participar, preencher</td><td>check in<br>fill in<br>drop in<br>give in</td></tr><tr><td><b>out</b></td><td>até o fim, descobrir, sair</td><td>run out<br>sell out<br>find out<br>figure out</td></tr><tr><td><b>into</b></td><td>transformação, contato, investigação</td><td>turn into<br>run into<br>look into<br>talk into</td></tr><tr><td><b>by</b></td><td>passar perto, manter-se</td><td>stop by<br>drop by<br>get by<br>stand by</td></tr><tr><td><b>off</b></td><td>desligar, partir, cancelar</td><td>turn off<br>take off<br>set off<br>call off</td></tr><tr><td><b>on</b></td><td>ligar, continuar, contato</td><td>turn on<br>go on<br>put on<br>try on</td></tr><tr><td><b>back</b></td><td>volta, retorno</td><td>call back<br>give back<br>come back</td></tr><tr><td><b>over</b></td><td>de um lado ao outro, de novo</td><td>come over<br>think over<br>get over</td></tr><tr><td><b>away</b></td><td>afastar, sumir</td><td>go away<br>throw away<br>give away</td></tr><tr><td><b>around</b></td><td>em volta, sem rumo</td><td>look around<br>show around<br>hang around</td></tr></table>
+    <h3>De três palavras</h3>
+    <ul><li>look forward to = aguardar com expectativa</li><li>get along with = dar-se bem com</li><li>run out of = ficar sem</li><li>come up with = ter a ideia</li><li>put up with = aguentar</li><li>look up to = admirar</li></ul>
+    <h3>Um phrasal verb, vários sentidos</h3>
+    <ul><li><b>take off</b><ul><li>The plane took off at 7. — decolar</li><li>Take off your shoes. — tirar (roupa)</li></ul></li><li><b>pick up</b><ul><li>I'll pick you up at nine. — buscar</li><li>I picked up some Spanish in Chile. — aprender sem estudar</li><li>Nobody picked up. — atender o telefone</li></ul></li><li><b>work out</b><ul><li>I work out three times a week. — malhar</li><li>Don't worry, it'll work out. — dar certo</li><li>We worked out the problem. — resolver</li></ul></li><li><b>turn down</b><ul><li>Turn down the music. — abaixar o volume</li><li>She turned down the offer. — recusar</li></ul></li></ul>
+    <h3>Informal × formal: o verbo latino</h3>
     <p>O inglês tem duas camadas de vocabulário: a germânica, do dia a dia, e a latina, mais formal. Quase todo phrasal verb tem um equivalente latino.</p>
-    <ul><li>O verbo latino é mais fácil para nós, porque parece português: postpone, investigate.</li><li>Por isso, o brasileiro tende a usar só o verbo latino e soa formal demais numa conversa.</li><li>Conversa, mensagens, amigos: phrasal verb.</li><li>E-mails formais, contratos, relatórios, instruções: verbo latino.</li></ul>
-    <ul><li>find out → discover</li><li>put off → postpone</li><li>call off → cancel</li><li>look into → investigate</li><li>come up with → create, invent</li><li>give up → abandon, quit</li><li>go up → increase</li><li>go down → decrease</li><li>put out (a fire) → extinguish</li><li>take off (clothes) → remove</li><li>set up → establish</li><li>carry out → execute, perform</li><li>point out → indicate</li><li>bring up → mention</li><li>go on → continue</li><li>turn down → reject, decline</li><li>get in touch → contact</li><li>leave out → omit</li><li>go over → review</li></ul>
-    <ul><li>Conversa: Can you look into it and get back to me?</li><li>E-mail formal: Could you investigate the matter and contact me?</li><li>Conversa: We need to put off the barbecue.</li><li>Comunicado: The event has been postponed.</li></ul>
-    <h3>8. Quando evitar</h3>
-    <ul><li>Ambiguidade: <i>He picked me up</i> pode ser buscar, levantar ou animar. Dê contexto.</li><li>Instruções: prefira <i>return it to its place</i> a <i>put it back</i>.</li><li>Repetição: <s>John called me to call off the meeting</s> → John called me to cancel the meeting.</li></ul>`,
+    <p class="note">O verbo latino é mais fácil para nós, porque parece português: <i>postpone</i>, <i>investigate</i>. Por isso, o brasileiro tende a usar só o verbo latino e soa formal demais numa conversa.</p>
+    <table><tr><th>Verbo latino (formal)</th><th>Phrasal verb (informal)</th></tr><tr><td>discover</td><td>find out</td></tr><tr><td>cancel</td><td>call off</td></tr><tr><td>investigate</td><td>look into</td></tr><tr><td>create, invent</td><td>come up with</td></tr><tr><td>establish</td><td>set up</td></tr><tr><td>execute, perform</td><td>carry out</td></tr><tr><td>indicate</td><td>point out</td></tr><tr><td>continue</td><td>go on</td></tr><tr><td>reject, decline</td><td>turn down</td></tr><tr><td>review</td><td>go over</td></tr></table>
+    <table><tr><th>Conversa</th><th>Formal</th></tr><tr><td>Can you look into it and get back to me?</td><td>Could you investigate the matter and contact me?</td></tr><tr><td>We need to put off the barbecue.</td><td>The event has been postponed.</td></tr><tr><td>Let's go over the report tomorrow.</td><td>We will review the report tomorrow.</td></tr></table>
+    <h3>Quando evitar</h3>
+    <ul><li>Ambiguidade — <i>He picked me up</i> pode ser buscar, levantar ou animar. Dê contexto.</li><li>Instruções — prefira <i>return it to its place</i> a <i>put it back</i>.</li><li>Repetição — <s>John called me to call off the meeting</s> → John called me to cancel the meeting.</li></ul>`,
 en:`
     <h2>Phrasal verbs</h2>
     <p>A phrasal verb is <b>one verb</b> made of a verb and one or two particles. Sometimes the meaning is the sum of the parts; sometimes it is quite different.</p>
-    <h3>1. The literal meaning: direction</h3><p>The verb gives the action; the particle gives the direction. These are the easiest ones.</p>
-    <ul><li>walk in · enter on foot</li><li>walk out · leave on foot</li><li>come back · return</li><li>go up · go higher</li><li>go down · go lower</li><li>sit down · take a seat</li><li>stand up · get on your feet</li><li>look around · look in all directions</li><li>run away · escape</li></ul>
-    <p class="note">Portuguese usually has one verb (entrar, sair). English prefers "movement + direction": walk in, run in, drive in, fly in tell you <i>how</i> someone came in.</p>
-    <h3>2. The figurative meaning</h3><p>Here the meaning isn't the sum of the parts, so each one must be learned:</p>
-    <ul><li>look for · search</li><li>run into · meet by chance</li><li>give up · quit</li><li>turn down · refuse</li></ul>
-    <h3>3. Separable and inseparable</h3>
-    <ul><li>Turn off the light. = Turn the light off.</li><li>With a pronoun, always in the middle: Turn <b>it</b> off. (<s>turn off it</s>)</li><li>Inseparable: Look <b>for</b> it. (<s>look it for</s>)</li><li>Inseparable: I ran <b>into</b> him.</li></ul>
-    <h3>4. What each particle suggests</h3><p>Not a guarantee, but a good clue:</p>
-    <ul><li><b>up</b> — increase, complete<ul><li>turn up</li><li>speak up</li><li>eat up</li><li>clean up</li></ul></li><li><b>down</b> — reduce, record<ul><li>slow down</li><li>calm down</li><li>write down</li></ul></li><li><b>out</b> — to the end, discover, exit<ul><li>run out</li><li>sell out</li><li>find out</li><li>figure out</li></ul></li><li><b>off</b> — disconnect, leave, cancel<ul><li>turn off</li><li>take off</li><li>set off</li><li>call off</li></ul></li><li><b>on</b> — connect, continue, contact<ul><li>turn on</li><li>go on</li><li>put on</li><li>try on</li></ul></li><li><b>in</b> — enter, join, fill<ul><li>check in</li><li>fill in</li><li>drop in</li><li>give in</li></ul></li><li><b>into</b> — change, contact, investigation<ul><li>turn into</li><li>run into</li><li>look into</li><li>talk into</li></ul></li><li><b>by</b> — pass near, keep going<ul><li>stop by</li><li>drop by</li><li>get by</li><li>stand by</li></ul></li><li><b>back</b> — return<ul><li>call back</li><li>give back</li><li>come back</li></ul></li><li><b>over</b> — across, again<ul><li>come over</li><li>think over</li><li>get over</li></ul></li><li><b>away</b> — distance, disappear<ul><li>go away</li><li>throw away</li><li>give away</li></ul></li><li><b>around</b> — around, aimlessly<ul><li>look around</li><li>show around</li><li>hang around</li></ul></li></ul>
-    <h3>5. Three-word phrasal verbs</h3>
-    <ul><li>look forward to · wait eagerly for</li><li>get along with · have a good relationship with</li><li>run out of · have no more</li><li>come up with · think of</li><li>put up with · tolerate</li><li>look up to · admire</li></ul>
-    <h3>6. One phrasal verb, many meanings</h3>
-    <ul><li><b>take off</b><ul><li>leave the ground: The plane took off at 7.</li><li>remove (clothes): Take off your shoes.</li><li>become successful: Her career took off.</li></ul></li><li><b>pick up</b><ul><li>collect: I'll pick you up at nine.</li><li>learn informally: I picked up some Spanish in Chile.</li><li>answer the phone: Nobody picked up.</li></ul></li><li><b>work out</b><ul><li>exercise: I work out three times a week.</li><li>be successful: It'll work out.</li><li>solve: We worked out the problem.</li></ul></li><li><b>turn down</b><ul><li>lower the volume: Turn down the music.</li><li>refuse: She turned down the offer.</li></ul></li></ul>
-    <h3>7. Informal × formal: the Latin verb</h3>
+    <h3>The literal meaning: direction</h3><p>The most common particles show direction:</p>
+    <ul><li><b>up</b> — toward a higher place</li><li><b>down</b> — toward a lower place</li><li><b>in</b> — to the inside</li><li><b>out</b> — to the outside</li><li><b>by</b> — past something</li></ul>
+    <p>Add the particle to a verb of movement. <b>GO</b> = move:</p>
+    <ul><li>go up = move higher</li><li>go down = move lower</li><li>go in = enter</li><li>go out = leave</li><li>go by = pass</li></ul>
+    <p class="note"><i>Life goes by so fast.</i></p>
+    <p>The verb tells you <b>how</b> someone moves:</p>
+    <ul><li>go by = pass</li><li>walk by = pass on foot</li><li>run by = pass running</li><li>drive by = pass in a car</li><li>fly by = pass in the air</li></ul>
+    <p class="note">Portuguese usually has a single verb (entrar, sair, passar). English prefers movement + direction.</p>
+    <h3>The figurative meaning</h3><p>Here the meaning isn't the sum of the parts, so each one must be learned:</p>
+    <ul><li>look for = search</li><li>run into = meet by chance</li><li>give up = quit</li><li>turn down = refuse</li></ul>
+    <h3>Separable and inseparable</h3>
+    <ul><li>Turn off the light. = Turn the light off.</li><li>With a pronoun, always in the middle — Turn <b>it</b> off. (<s>turn off it</s>)</li><li>Inseparable — Look <b>for</b> it. (<s>look it for</s>)</li><li>Inseparable — I ran <b>into</b> him.</li></ul>
+    <h3>What each particle suggests</h3><p>Not a guarantee, but a good clue:</p>
+    <table><tr><th>Particle</th><th>Idea</th><th>Examples</th></tr><tr><td><b>up</b></td><td>increase, complete</td><td>turn up<br>speak up<br>eat up<br>clean up</td></tr><tr><td><b>down</b></td><td>reduce, record</td><td>slow down<br>calm down<br>write down</td></tr><tr><td><b>in</b></td><td>enter, join, fill</td><td>check in<br>fill in<br>drop in<br>give in</td></tr><tr><td><b>out</b></td><td>to the end, discover, exit</td><td>run out<br>sell out<br>find out<br>figure out</td></tr><tr><td><b>into</b></td><td>change, contact, investigation</td><td>turn into<br>run into<br>look into<br>talk into</td></tr><tr><td><b>by</b></td><td>pass near, keep going</td><td>stop by<br>drop by<br>get by<br>stand by</td></tr><tr><td><b>off</b></td><td>disconnect, leave, cancel</td><td>turn off<br>take off<br>set off<br>call off</td></tr><tr><td><b>on</b></td><td>connect, continue, contact</td><td>turn on<br>go on<br>put on<br>try on</td></tr><tr><td><b>back</b></td><td>return</td><td>call back<br>give back<br>come back</td></tr><tr><td><b>over</b></td><td>across, again</td><td>come over<br>think over<br>get over</td></tr><tr><td><b>away</b></td><td>distance, disappear</td><td>go away<br>throw away<br>give away</td></tr><tr><td><b>around</b></td><td>around, aimlessly</td><td>look around<br>show around<br>hang around</td></tr></table>
+    <h3>Three-word phrasal verbs</h3>
+    <ul><li>look forward to = wait eagerly for</li><li>get along with = have a good relationship with</li><li>run out of = have no more</li><li>come up with = think of</li><li>put up with = tolerate</li><li>look up to = admire</li></ul>
+    <h3>One phrasal verb, many meanings</h3>
+    <ul><li><b>take off</b><ul><li>The plane took off at 7. — leave the ground</li><li>Take off your shoes. — remove (clothes)</li></ul></li><li><b>pick up</b><ul><li>I'll pick you up at nine. — collect</li><li>I picked up some Spanish in Chile. — learn informally</li><li>Nobody picked up. — answer the phone</li></ul></li><li><b>work out</b><ul><li>I work out three times a week. — exercise</li><li>Don't worry, it'll work out. — be successful</li><li>We worked out the problem. — solve</li></ul></li><li><b>turn down</b><ul><li>Turn down the music. — lower the volume</li><li>She turned down the offer. — refuse</li></ul></li></ul>
+    <h3>Informal × formal: the Latin verb</h3>
     <p>English has two layers of vocabulary: the Germanic one, for everyday use, and the Latin one, more formal. Almost every phrasal verb has a Latin equivalent.</p>
-    <ul><li>The Latin verb is easier for Portuguese speakers, because it looks like Portuguese: postpone, investigate.</li><li>That's why Brazilians tend to use only the Latin verb and sound too formal in conversation.</li><li>Conversation, messages, friends: phrasal verb.</li><li>Formal emails, contracts, reports, instructions: Latin verb.</li></ul>
-    <ul><li>find out → discover</li><li>put off → postpone</li><li>call off → cancel</li><li>look into → investigate</li><li>come up with → create, invent</li><li>give up → abandon, quit</li><li>go up → increase</li><li>go down → decrease</li><li>put out (a fire) → extinguish</li><li>take off (clothes) → remove</li><li>set up → establish</li><li>carry out → execute, perform</li><li>point out → indicate</li><li>bring up → mention</li><li>go on → continue</li><li>turn down → reject, decline</li><li>get in touch → contact</li><li>leave out → omit</li><li>go over → review</li></ul>
-    <ul><li>Conversation: Can you look into it and get back to me?</li><li>Formal email: Could you investigate the matter and contact me?</li><li>Conversation: We need to put off the barbecue.</li><li>Official notice: The event has been postponed.</li></ul>
-    <h3>8. When to avoid them</h3>
-    <ul><li>Ambiguity: <i>He picked me up</i> can mean collect, lift or cheer up. Give context.</li><li>Instructions: prefer <i>return it to its place</i> to <i>put it back</i>.</li><li>Repetition: <s>John called me to call off the meeting</s> → John called me to cancel the meeting.</li></ul>`
+    <p class="note">The Latin verb is easier for Portuguese speakers, because it looks like Portuguese: <i>postpone</i>, <i>investigate</i>. That's why Brazilians tend to use only the Latin verb and sound too formal in conversation.</p>
+    <table><tr><th>Latin verb (formal)</th><th>Phrasal verb (informal)</th></tr><tr><td>discover</td><td>find out</td></tr><tr><td>cancel</td><td>call off</td></tr><tr><td>investigate</td><td>look into</td></tr><tr><td>create, invent</td><td>come up with</td></tr><tr><td>establish</td><td>set up</td></tr><tr><td>execute, perform</td><td>carry out</td></tr><tr><td>indicate</td><td>point out</td></tr><tr><td>continue</td><td>go on</td></tr><tr><td>reject, decline</td><td>turn down</td></tr><tr><td>review</td><td>go over</td></tr></table>
+    <table><tr><th>Conversation</th><th>Formal</th></tr><tr><td>Can you look into it and get back to me?</td><td>Could you investigate the matter and contact me?</td></tr><tr><td>We need to put off the barbecue.</td><td>The event has been postponed.</td></tr><tr><td>Let's go over the report tomorrow.</td><td>We will review the report tomorrow.</td></tr></table>
+    <h3>When to avoid them</h3>
+    <ul><li>Ambiguity — <i>He picked me up</i> can mean collect, lift or cheer up. Give context.</li><li>Instructions — prefer <i>return it to its place</i> to <i>put it back</i>.</li><li>Repetition — <s>John called me to call off the meeting</s> → John called me to cancel the meeting.</li></ul>`
   },
   vocab:{
 pt:`
     <h2>O dia a dia</h2>
     <table>
       <tr><th>Phrasal verb</th><th>Português</th></tr>
-      <tr><td>wake up · get up</td><td>acordar · levantar</td></tr>
-      <tr><td>put on · take off</td><td>vestir · tirar (roupa)</td></tr>
-      <tr><td>pick up · drop off</td><td>buscar · deixar (alguém)</td></tr>
-      <tr><td>turn on · turn off</td><td>ligar · desligar</td></tr>
-      <tr><td>turn up · turn down</td><td>aumentar · abaixar (volume)</td></tr>
+      <tr><td>wake up<br>get up</td><td>acordar<br>levantar</td></tr>
+      <tr><td>put on<br>take off</td><td>vestir<br>tirar (roupa)</td></tr>
+      <tr><td>pick up<br>drop off</td><td>buscar<br>deixar (alguém)</td></tr>
+      <tr><td>turn on<br>turn off</td><td>ligar<br>desligar</td></tr>
+      <tr><td>turn up<br>turn down</td><td>aumentar<br>abaixar (volume)</td></tr>
       <tr><td>look for</td><td>procurar</td></tr>
       <tr><td>find out</td><td>descobrir</td></tr>
       <tr><td>run out of</td><td>ficar sem</td></tr>
@@ -74,11 +84,11 @@ en:`
     <h2>Everyday life</h2>
     <table>
       <tr><th>Phrasal verb</th><th>Portuguese</th></tr>
-      <tr><td>wake up · get up</td><td>acordar · levantar</td></tr>
-      <tr><td>put on · take off</td><td>vestir · tirar (roupa)</td></tr>
-      <tr><td>pick up · drop off</td><td>buscar · deixar (alguém)</td></tr>
-      <tr><td>turn on · turn off</td><td>ligar · desligar</td></tr>
-      <tr><td>turn up · turn down</td><td>aumentar · abaixar (volume)</td></tr>
+      <tr><td>wake up<br>get up</td><td>acordar<br>levantar</td></tr>
+      <tr><td>put on<br>take off</td><td>vestir<br>tirar (roupa)</td></tr>
+      <tr><td>pick up<br>drop off</td><td>buscar<br>deixar (alguém)</td></tr>
+      <tr><td>turn on<br>turn off</td><td>ligar<br>desligar</td></tr>
+      <tr><td>turn up<br>turn down</td><td>aumentar<br>abaixar (volume)</td></tr>
       <tr><td>look for</td><td>procurar</td></tr>
       <tr><td>find out</td><td>descobrir</td></tr>
       <tr><td>run out of</td><td>ficar sem</td></tr>

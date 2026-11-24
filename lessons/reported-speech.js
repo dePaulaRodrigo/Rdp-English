@@ -8,26 +8,26 @@ pt:`
     <h2>Say, tell, speak, talk</h2>
     <table>
       <tr><th>Verbo</th><th>Estrutura</th><th>Exemplo</th></tr>
-      <tr><td><b>say</b></td><td>say + algo (+ to alguém)</td><td>He said yes. · She said to me that…</td></tr>
+      <tr><td><b>say</b></td><td>say + algo (+ to alguém)</td><td>He said yes.<br>She said to me that…</td></tr>
       <tr><td><b>tell</b></td><td>tell + alguém + algo</td><td>She told me that…</td></tr>
       <tr><td><b>speak</b></td><td>uma língua; falar (formal)</td><td>I speak English.</td></tr>
       <tr><td><b>talk</b></td><td>talk to / with alguém</td><td>I need to talk to you.</td></tr>
     </table>
-    <p class="note"><s>She said me</s> → She <b>told me</b>. · tell a story / a joke / the truth / a lie · say hello / goodbye / sorry</p>
+    <p class="note"><s>She said me</s> → She <b>told me</b>.<br>tell a story / a joke / the truth / a lie<br>say hello / goodbye / sorry</p>
     <h3>O tempo \"volta\" um passo</h3>
     <table>
       <tr><th>Direto</th><th>Indireto</th></tr>
       <tr><td>\"I <b>work</b> here.\"</td><td>She said she <b>worked</b> there.</td></tr>
       <tr><td>\"I'm <b>leaving</b>.\"</td><td>He said he <b>was leaving</b>.</td></tr>
-      <tr><td>\"I've <b>finished</b>.\" · \"I <b>saw</b> it.\"</td><td>She said she <b>had finished</b>. · He said he <b>had seen</b> it.</td></tr>
-      <tr><td>will · can · may · must</td><td>would · could · might · had to</td></tr>
+      <tr><td>\"I've <b>finished</b>.\"<br>\"I <b>saw</b> it.\"</td><td>She said she <b>had finished</b>.<br>He said he <b>had seen</b> it.</td></tr>
+      <tr><td>will<br>can<br>may<br>must</td><td>would<br>could<br>might<br>had to</td></tr>
     </table>
     <p><i>Could, would, should, might</i> não mudam. Se algo ainda é verdade, o recuo é opcional: He told me the Earth <b>is</b> round.</p>
     <h3>Tempo, lugar e pronomes</h3>
-    <p>now → then · today → that day · tomorrow → the next day · yesterday → the day before · next week → the following week · ago → before · here → there · this → that</p>
+    <p>now → then<br>today → that day<br>tomorrow → the next day<br>yesterday → the day before<br>next week → the following week<br>ago → before<br>here → there<br>this → that</p>
     <p class="note">\"I'll call you tomorrow,\" he said. → He told me he <b>would</b> call <b>me the next day</b>.</p>
     <h3>Ordens e pedidos</h3>
-    <p><b>tell / ask + pessoa + TO</b>: She told me <b>to sit</b> down. · He asked me <b>not to call</b> after ten.</p>
+    <p><b>tell / ask + pessoa + TO</b>: She told me <b>to sit</b> down.<br>He asked me <b>not to call</b> after ten.</p>
     <h3>Verbos de relato</h3>
     <ul>
       <li>+ TO: offer, promise, refuse, agree — He promised to help.</li>
@@ -38,26 +38,26 @@ en:`
     <h2>Say, tell, speak, talk</h2>
     <table>
       <tr><th>Verb</th><th>Structure</th><th>Example</th></tr>
-      <tr><td><b>say</b></td><td>say + something (+ to someone)</td><td>He said yes. · She said to me that…</td></tr>
+      <tr><td><b>say</b></td><td>say + something (+ to someone)</td><td>He said yes.<br>She said to me that…</td></tr>
       <tr><td><b>tell</b></td><td>tell + someone + something</td><td>She told me that…</td></tr>
       <tr><td><b>speak</b></td><td>a language; talk (formal)</td><td>I speak English.</td></tr>
       <tr><td><b>talk</b></td><td>talk to / with someone</td><td>I need to talk to you.</td></tr>
     </table>
-    <p class="note"><s>She said me</s> → She <b>told me</b>. · tell a story / a joke / the truth / a lie · say hello / goodbye / sorry</p>
+    <p class="note"><s>She said me</s> → She <b>told me</b>.<br>tell a story / a joke / the truth / a lie<br>say hello / goodbye / sorry</p>
     <h3>The tense moves back</h3>
     <table>
       <tr><th>Direct</th><th>Reported</th></tr>
       <tr><td>\"I <b>work</b> here.\"</td><td>She said she <b>worked</b> there.</td></tr>
       <tr><td>\"I'm <b>leaving</b>.\"</td><td>He said he <b>was leaving</b>.</td></tr>
-      <tr><td>\"I've <b>finished</b>.\" · \"I <b>saw</b> it.\"</td><td>She said she <b>had finished</b>. · He said he <b>had seen</b> it.</td></tr>
-      <tr><td>will · can · may · must</td><td>would · could · might · had to</td></tr>
+      <tr><td>\"I've <b>finished</b>.\"<br>\"I <b>saw</b> it.\"</td><td>She said she <b>had finished</b>.<br>He said he <b>had seen</b> it.</td></tr>
+      <tr><td>will<br>can<br>may<br>must</td><td>would<br>could<br>might<br>had to</td></tr>
     </table>
     <p><i>Could, would, should, might</i> don't change. If something is still true, backshift is optional: He told me the Earth <b>is</b> round.</p>
     <h3>Time, place and pronouns</h3>
-    <p>now → then · today → that day · tomorrow → the next day · yesterday → the day before · next week → the following week · ago → before · here → there · this → that</p>
+    <p>now → then<br>today → that day<br>tomorrow → the next day<br>yesterday → the day before<br>next week → the following week<br>ago → before<br>here → there<br>this → that</p>
     <p class="note">\"I'll call you tomorrow,\" he said. → He told me he <b>would</b> call <b>me the next day</b>.</p>
     <h3>Orders and requests</h3>
-    <p><b>tell / ask + person + TO</b>: She told me <b>to sit</b> down. · He asked me <b>not to call</b> after ten.</p>
+    <p><b>tell / ask + person + TO</b>: She told me <b>to sit</b> down.<br>He asked me <b>not to call</b> after ten.</p>
     <h3>Reporting verbs</h3>
     <ul>
       <li>+ TO: offer, promise, refuse, agree — He promised to help.</li>
@@ -73,12 +73,12 @@ pt:`
       <tr><td>to mention</td><td>mencionar</td></tr>
       <tr><td>to explain</td><td>explicar</td></tr>
       <tr><td>to complain</td><td>reclamar</td></tr>
-      <tr><td>to whisper · to shout</td><td>sussurrar · gritar</td></tr>
-      <tr><td>to admit · to deny</td><td>admitir · negar</td></tr>
-      <tr><td>to promise · to refuse</td><td>prometer · recusar-se</td></tr>
-      <tr><td>to remind · to warn</td><td>lembrar (alguém) · avisar</td></tr>
+      <tr><td>to whisper<br>to shout</td><td>sussurrar<br>gritar</td></tr>
+      <tr><td>to admit<br>to deny</td><td>admitir<br>negar</td></tr>
+      <tr><td>to promise<br>to refuse</td><td>prometer<br>recusar-se</td></tr>
+      <tr><td>to remind<br>to warn</td><td>lembrar (alguém)<br>avisar</td></tr>
       <tr><td>to gossip</td><td>fofocar</td></tr>
-      <tr><td>news · a rumor</td><td>notícia · um boato</td></tr>
+      <tr><td>news<br>a rumor</td><td>notícia<br>um boato</td></tr>
       <tr><td>to keep a secret</td><td>guardar segredo</td></tr>
       <tr><td>according to</td><td>segundo, de acordo com</td></tr>
       <tr><td>apparently</td><td>pelo jeito, ao que parece</td></tr>
@@ -90,12 +90,12 @@ en:`
       <tr><td>to mention</td><td>mencionar</td></tr>
       <tr><td>to explain</td><td>explicar</td></tr>
       <tr><td>to complain</td><td>reclamar</td></tr>
-      <tr><td>to whisper · to shout</td><td>sussurrar · gritar</td></tr>
-      <tr><td>to admit · to deny</td><td>admitir · negar</td></tr>
-      <tr><td>to promise · to refuse</td><td>prometer · recusar-se</td></tr>
-      <tr><td>to remind · to warn</td><td>lembrar (alguém) · avisar</td></tr>
+      <tr><td>to whisper<br>to shout</td><td>sussurrar<br>gritar</td></tr>
+      <tr><td>to admit<br>to deny</td><td>admitir<br>negar</td></tr>
+      <tr><td>to promise<br>to refuse</td><td>prometer<br>recusar-se</td></tr>
+      <tr><td>to remind<br>to warn</td><td>lembrar (alguém)<br>avisar</td></tr>
       <tr><td>to gossip</td><td>fofocar</td></tr>
-      <tr><td>news · a rumor</td><td>notícia · um boato</td></tr>
+      <tr><td>news<br>a rumor</td><td>notícia<br>um boato</td></tr>
       <tr><td>to keep a secret</td><td>guardar segredo</td></tr>
       <tr><td>according to</td><td>segundo, de acordo com</td></tr>
       <tr><td>apparently</td><td>pelo jeito, ao que parece</td></tr>

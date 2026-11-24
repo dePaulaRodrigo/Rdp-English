@@ -79,7 +79,7 @@ pt:`
       <tr><td>to major in</td><td>formar-se em (faculdade)</td></tr>
       <tr><td>to move abroad</td><td>mudar-se para o exterior</td></tr>
       <tr><td>to be fluent</td><td>ser fluente</td></tr>
-      <tr><td>shy · outgoing</td><td>tímido · extrovertido</td></tr>
+      <tr><td>shy<br>outgoing</td><td>tímido<br>extrovertido</td></tr>
       <tr><td>a crossroads</td><td>uma encruzilhada</td></tr>
       <tr><td>to look back</td><td>olhar para trás</td></tr>
       <tr><td>no regrets</td><td>sem arrependimentos</td></tr>
@@ -96,7 +96,7 @@ en:`
       <tr><td>to major in</td><td>formar-se em (faculdade)</td></tr>
       <tr><td>to move abroad</td><td>mudar-se para o exterior</td></tr>
       <tr><td>to be fluent</td><td>ser fluente</td></tr>
-      <tr><td>shy · outgoing</td><td>tímido · extrovertido</td></tr>
+      <tr><td>shy<br>outgoing</td><td>tímido<br>extrovertido</td></tr>
       <tr><td>a crossroads</td><td>uma encruzilhada</td></tr>
       <tr><td>to look back</td><td>olhar para trás</td></tr>
       <tr><td>no regrets</td><td>sem arrependimentos</td></tr>

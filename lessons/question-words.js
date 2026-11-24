@@ -10,21 +10,21 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>what</td><td>o que, qual</td></tr>
       <tr><td>which</td><td>qual (entre opções)</td></tr>
-      <tr><td>where · when</td><td>onde · quando</td></tr>
-      <tr><td>who · whose</td><td>quem · de quem</td></tr>
-      <tr><td>why · because</td><td>por que (pergunta) · porque (resposta)</td></tr>
+      <tr><td>where<br>when</td><td>onde<br>quando</td></tr>
+      <tr><td>who<br>whose</td><td>quem<br>de quem</td></tr>
+      <tr><td>why<br>because</td><td>por que (pergunta)<br>porque (resposta)</td></tr>
       <tr><td>how</td><td>como</td></tr>
-      <tr><td>how much · how many</td><td>quanto (incontável) · quantos (contável)</td></tr>
-      <tr><td>how long · how often</td><td>quanto tempo · com que frequência</td></tr>
+      <tr><td>how much<br>how many</td><td>quanto (incontável)<br>quantos (contável)</td></tr>
+      <tr><td>how long<br>how often</td><td>quanto tempo<br>com que frequência</td></tr>
     </table>
     <h3>WHAT × WHICH</h3>
     <ul>
       <li><i>What</i>: pergunta aberta — What's your favorite food?</li>
       <li><i>Which</i>: escolha entre opções conhecidas — Which do you prefer, coffee or tea?</li>
-      <li>What + substantivo: What time…? · What color…? · What kind of music…?</li>
+      <li>What + substantivo: What time…?<br>What color…?<br>What kind of music…?</li>
     </ul>
     <h3>HOW + adjetivo</h3>
-    <p>How old…? · How tall…? · How far…? · How long…? (duração ou comprimento) · How come…? (informal, = why)</p>
+    <p>How old…?<br>How tall…?<br>How far…?<br>How long…? (duração ou comprimento)<br>How come…? (informal, = why)</p>
     <h3>Como é × como está</h3>
     <ul>
       <li><b>What's</b> your city <b>like</b>? — Como é a sua cidade?</li>
@@ -32,39 +32,39 @@ pt:`
       <li><b>What does</b> he <b>look like</b>? — Como ele é (fisicamente)?</li>
     </ul>
     <h3>A ordem da pergunta</h3>
-    <p><b>WH + auxiliar + sujeito + verbo</b>: Where <b>do you</b> live? · What <b>does she</b> do? · Why <b>did they</b> leave? Com o To Be: Where <b>is she</b>?</p>
+    <p><b>WH + auxiliar + sujeito + verbo</b>: Where <b>do you</b> live?<br>What <b>does she</b> do?<br>Why <b>did they</b> leave? Com o To Be: Where <b>is she</b>?</p>
     <p>De sim/não para aberta, basta acrescentar a WH-word: Is it a good company? → <b>Why</b> is it a good company?</p>
     <h3>Pergunta sobre o sujeito: sem DO</h3>
     <ul>
-      <li><b>Who called</b> you? — quem ligou · <b>Who did</b> you <b>call</b>? — para quem você ligou</li>
+      <li><b>Who called</b> you? — quem ligou<br><b>Who did</b> you <b>call</b>? — para quem você ligou</li>
       <li>What happened? (<s>What did happen?</s>)</li>
     </ul>
     <h3>Preposição no fim</h3>
-    <p>Where are you <b>from</b>? · What are you talking <b>about</b>? · Who is the gift <b>for</b>?</p>
+    <p>Where are you <b>from</b>?<br>What are you talking <b>about</b>?<br>Who is the gift <b>for</b>?</p>
     <h3>Pergunta indireta</h3>
     <p>Depois de <i>Could you tell me…</i> ou <i>Do you know…</i>, volta a ordem normal: Could you tell me where <b>the station is</b>? (<s>where is the station</s>)</p>
-    <p class="note">Sugestões: <b>Why don't we</b> take a taxi? · <b>What about</b> / <b>How about</b> a pizza tonight?</p>`,
+    <p class="note">Sugestões: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>`,
 en:`
     <h2>Question words</h2>
     <table>
       <tr><th>Word</th><th>Asks about</th></tr>
       <tr><td>what</td><td>things, information</td></tr>
       <tr><td>which</td><td>a choice between options</td></tr>
-      <tr><td>where · when</td><td>place · time</td></tr>
-      <tr><td>who · whose</td><td>people · owner</td></tr>
-      <tr><td>why · because</td><td>reason (question) · reason (answer)</td></tr>
+      <tr><td>where<br>when</td><td>place<br>time</td></tr>
+      <tr><td>who<br>whose</td><td>people<br>owner</td></tr>
+      <tr><td>why<br>because</td><td>reason (question)<br>reason (answer)</td></tr>
       <tr><td>how</td><td>manner, condition</td></tr>
-      <tr><td>how much · how many</td><td>uncountable · countable quantity</td></tr>
-      <tr><td>how long · how often</td><td>duration · frequency</td></tr>
+      <tr><td>how much<br>how many</td><td>uncountable<br>countable quantity</td></tr>
+      <tr><td>how long<br>how often</td><td>duration<br>frequency</td></tr>
     </table>
     <h3>WHAT × WHICH</h3>
     <ul>
       <li><i>What</i>: open question — What's your favorite food?</li>
       <li><i>Which</i>: choice between known options — Which do you prefer, coffee or tea?</li>
-      <li>What + noun: What time…? · What color…? · What kind of music…?</li>
+      <li>What + noun: What time…?<br>What color…?<br>What kind of music…?</li>
     </ul>
     <h3>HOW + adjective</h3>
-    <p>How old…? · How tall…? · How far…? · How long…? (duration or length) · How come…? (informal, = why)</p>
+    <p>How old…?<br>How tall…?<br>How far…?<br>How long…? (duration or length)<br>How come…? (informal, = why)</p>
     <h3>What is it like × how is it</h3>
     <ul>
       <li><b>What's</b> your city <b>like</b>? — its characteristics</li>
@@ -72,18 +72,18 @@ en:`
       <li><b>What does</b> he <b>look like</b>? — his appearance</li>
     </ul>
     <h3>Word order</h3>
-    <p><b>WH + auxiliary + subject + verb</b>: Where <b>do you</b> live? · What <b>does she</b> do? · Why <b>did they</b> leave? With To Be: Where <b>is she</b>?</p>
+    <p><b>WH + auxiliary + subject + verb</b>: Where <b>do you</b> live?<br>What <b>does she</b> do?<br>Why <b>did they</b> leave? With To Be: Where <b>is she</b>?</p>
     <p>To turn a yes/no question into an open one, add the WH-word: Is it a good company? → <b>Why</b> is it a good company?</p>
     <h3>Subject questions: no DO</h3>
     <ul>
-      <li><b>Who called</b> you? — who is the subject · <b>Who did</b> you <b>call</b>? — you is the subject</li>
+      <li><b>Who called</b> you? — who is the subject<br><b>Who did</b> you <b>call</b>? — you is the subject</li>
       <li>What happened? (<s>What did happen?</s>)</li>
     </ul>
     <h3>Prepositions at the end</h3>
-    <p>Where are you <b>from</b>? · What are you talking <b>about</b>? · Who is the gift <b>for</b>?</p>
+    <p>Where are you <b>from</b>?<br>What are you talking <b>about</b>?<br>Who is the gift <b>for</b>?</p>
     <h3>Indirect questions</h3>
     <p>After <i>Could you tell me…</i> or <i>Do you know…</i>, use normal word order: Could you tell me where <b>the station is</b>? (<s>where is the station</s>)</p>
-    <p class="note">Suggestions: <b>Why don't we</b> take a taxi? · <b>What about</b> / <b>How about</b> a pizza tonight?</p>`
+    <p class="note">Suggestions: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>`
   },
   vocab:{
 pt:`

@@ -16,16 +16,16 @@ pt:`
     <h3>Com OF</h3>
     <ul>
       <li><b>Both (of)</b> my parents are teachers.</li>
-      <li><b>Either of</b> the hotels is fine. · <b>Neither of</b> them speaks Spanish.</li>
-      <li>Com pronome, o <i>of</i> é obrigatório: both of us · neither of them (<s>both us</s>).</li>
-      <li>Sem <i>of</i>, <i>either</i> e <i>neither</i> pedem singular: either day · neither answer.</li>
+      <li><b>Either of</b> the hotels is fine.<br><b>Neither of</b> them speaks Spanish.</li>
+      <li>Com pronome, o <i>of</i> é obrigatório: both of us<br>neither of them (<s>both us</s>).</li>
+      <li>Sem <i>of</i>, <i>either</i> e <i>neither</i> pedem singular: either day<br>neither answer.</li>
     </ul>
     <h3>A posição de BOTH</h3>
-    <p>Antes do verbo principal e depois do be: They <b>both</b> work. · We are <b>both</b> tired.</p>
+    <p>Antes do verbo principal e depois do be: They <b>both</b> work.<br>We are <b>both</b> tired.</p>
     <h3>Concordar: eu também, eu também não</h3>
     <table>
       <tr><th>Eu também</th><th>Eu também não</th></tr>
-      <tr><td>I like it. — Me too. · So do I.</td><td>I don't like it. — Me neither. · Neither do I.</td></tr>
+      <tr><td>I like it. — Me too.<br>So do I.</td><td>I don't like it. — Me neither.<br>Neither do I.</td></tr>
       <tr><td>I'm tired. — So am I.</td><td>I'm not hungry. — Neither am I.</td></tr>
       <tr><td>I went. — So did I.</td><td>I can't swim. — Neither can I.</td></tr>
       <tr><td>I like it <b>too</b>.</td><td>I don't like it <b>either</b>.</td></tr>
@@ -44,16 +44,16 @@ en:`
     <h3>With OF</h3>
     <ul>
       <li><b>Both (of)</b> my parents are teachers.</li>
-      <li><b>Either of</b> the hotels is fine. · <b>Neither of</b> them speaks Spanish.</li>
-      <li>With a pronoun, <i>of</i> is required: both of us · neither of them (<s>both us</s>).</li>
-      <li>Without <i>of</i>, <i>either</i> and <i>neither</i> take a singular noun: either day · neither answer.</li>
+      <li><b>Either of</b> the hotels is fine.<br><b>Neither of</b> them speaks Spanish.</li>
+      <li>With a pronoun, <i>of</i> is required: both of us<br>neither of them (<s>both us</s>).</li>
+      <li>Without <i>of</i>, <i>either</i> and <i>neither</i> take a singular noun: either day<br>neither answer.</li>
     </ul>
     <h3>Position of BOTH</h3>
-    <p>Before the main verb and after be: They <b>both</b> work. · We are <b>both</b> tired.</p>
+    <p>Before the main verb and after be: They <b>both</b> work.<br>We are <b>both</b> tired.</p>
     <h3>Agreeing: me too, me neither</h3>
     <table>
       <tr><th>Same (affirmative)</th><th>Same (negative)</th></tr>
-      <tr><td>I like it. — Me too. · So do I.</td><td>I don't like it. — Me neither. · Neither do I.</td></tr>
+      <tr><td>I like it. — Me too.<br>So do I.</td><td>I don't like it. — Me neither.<br>Neither do I.</td></tr>
       <tr><td>I'm tired. — So am I.</td><td>I'm not hungry. — Neither am I.</td></tr>
       <tr><td>I went. — So did I.</td><td>I can't swim. — Neither can I.</td></tr>
       <tr><td>I like it <b>too</b>.</td><td>I don't like it <b>either</b>.</td></tr>
@@ -66,17 +66,17 @@ pt:`
     <h2>Escolher restaurante ou hotel</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a booking · to book</td><td>uma reserva · reservar</td></tr>
-      <tr><td>a single · double room</td><td>quarto de solteiro · de casal</td></tr>
+      <tr><td>a booking<br>to book</td><td>uma reserva<br>reservar</td></tr>
+      <tr><td>a single<br>double room</td><td>quarto de solteiro<br>de casal</td></tr>
       <tr><td>breakfast included</td><td>café da manhã incluso</td></tr>
       <tr><td>an ocean view</td><td>vista para o mar</td></tr>
       <tr><td>the location</td><td>a localização</td></tr>
-      <tr><td>reviews · ratings</td><td>avaliações · notas</td></tr>
+      <tr><td>reviews<br>ratings</td><td>avaliações<br>notas</td></tr>
       <tr><td>a vegetarian option</td><td>uma opção vegetariana</td></tr>
       <tr><td>outdoor seating</td><td>mesas ao ar livre</td></tr>
       <tr><td>a wait</td><td>uma espera</td></tr>
       <tr><td>to take a reservation</td><td>aceitar reserva</td></tr>
-      <tr><td>a deal · a bargain</td><td>uma oferta · uma pechincha</td></tr>
+      <tr><td>a deal<br>a bargain</td><td>uma oferta<br>uma pechincha</td></tr>
       <tr><td>It's up to you.</td><td>Você que sabe.</td></tr>
     </table>
     <p class="note">\"Either is fine\" é a resposta mais comum para \"Which one do you prefer?\" quando tanto faz.</p>`,
@@ -84,17 +84,17 @@ en:`
     <h2>Choosing a restaurant or hotel</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a booking · to book</td><td>uma reserva · reservar</td></tr>
-      <tr><td>a single · double room</td><td>quarto de solteiro · de casal</td></tr>
+      <tr><td>a booking<br>to book</td><td>uma reserva<br>reservar</td></tr>
+      <tr><td>a single<br>double room</td><td>quarto de solteiro<br>de casal</td></tr>
       <tr><td>breakfast included</td><td>café da manhã incluso</td></tr>
       <tr><td>an ocean view</td><td>vista para o mar</td></tr>
       <tr><td>the location</td><td>a localização</td></tr>
-      <tr><td>reviews · ratings</td><td>avaliações · notas</td></tr>
+      <tr><td>reviews<br>ratings</td><td>avaliações<br>notas</td></tr>
       <tr><td>a vegetarian option</td><td>uma opção vegetariana</td></tr>
       <tr><td>outdoor seating</td><td>mesas ao ar livre</td></tr>
       <tr><td>a wait</td><td>uma espera</td></tr>
       <tr><td>to take a reservation</td><td>aceitar reserva</td></tr>
-      <tr><td>a deal · a bargain</td><td>uma oferta · uma pechincha</td></tr>
+      <tr><td>a deal<br>a bargain</td><td>uma oferta<br>uma pechincha</td></tr>
       <tr><td>It's up to you.</td><td>Você que sabe.</td></tr>
     </table>
     <p class="note">\"Either is fine\" is the most common answer to \"Which one do you prefer?\" when you don't mind.</p>`

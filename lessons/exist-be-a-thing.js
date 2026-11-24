@@ -9,10 +9,10 @@ pt:`
     <h3>EXIST × THERE BE</h3>
     <ul>
       <li><b>there be</b> — o "tem", "há" do dia a dia: algo existe <b>num lugar</b>, numa quantidade. There is a bakery near my house.</li>
-      <li><b>exist</b> — a existência em si, em debates, ciência e filosofia. Does God exist? · Dinosaurs don't exist anymore.</li>
+      <li><b>exist</b> — a existência em si, em debates, ciência e filosofia. Does God exist?<br>Dinosaurs don't exist anymore.</li>
     </ul>
     <p class="note">"Tem uma padaria perto de casa" com <i>exist</i> soa estranho: <s>A bakery exists near my house.</s> → There is a bakery near my house.</p>
-    <p><i>Exist</i> é verbo de estado: não vai para o <i>-ing</i>. Unicorns don't exist (<s>aren't existing</s>). · Dodos existed until the 17th century.</p>
+    <p><i>Exist</i> é verbo de estado: não vai para o <i>-ing</i>. Unicorns don't exist (<s>aren't existing</s>).<br>Dodos existed until the 17th century.</p>
     <table>
       <tr><th>Palavra</th><th>Sentido</th></tr>
       <tr><td>existence</td><td>existência</td></tr>
@@ -20,7 +20,7 @@ pt:`
       <tr><td>nonexistent</td><td>inexistente</td></tr>
     </table>
     <h3>There is no such thing as…</h3>
-    <p>= não existe isso de…: There's no such thing as a free lunch. · Is there such a thing as a perfect language?</p>
+    <p>= não existe isso de…: There's no such thing as a free lunch.<br>Is there such a thing as a perfect language?</p>
     <h3>BE A THING — "isso existe?"</h3>
     <p>No inglês informal, <b>be a thing</b> é existir como costume, tendência ou coisa comum.</p>
     <ul>
@@ -35,10 +35,10 @@ en:`
     <h3>EXIST × THERE BE</h3>
     <ul>
       <li><b>there be</b> — everyday existence: something exists <b>in a place</b>, in a quantity. There is a bakery near my house.</li>
-      <li><b>exist</b> — existence itself, in debates, science and philosophy. Does God exist? · Dinosaurs don't exist anymore.</li>
+      <li><b>exist</b> — existence itself, in debates, science and philosophy. Does God exist?<br>Dinosaurs don't exist anymore.</li>
     </ul>
     <p class="note">Using <i>exist</i> for everyday places sounds odd: <s>A bakery exists near my house.</s> → There is a bakery near my house.</p>
-    <p><i>Exist</i> is a stative verb: no <i>-ing</i>. Unicorns don't exist (<s>aren't existing</s>). · Dodos existed until the 17th century.</p>
+    <p><i>Exist</i> is a stative verb: no <i>-ing</i>. Unicorns don't exist (<s>aren't existing</s>).<br>Dodos existed until the 17th century.</p>
     <table>
       <tr><th>Word</th><th>Meaning</th></tr>
       <tr><td>existence</td><td>the fact of existing</td></tr>
@@ -46,7 +46,7 @@ en:`
       <tr><td>nonexistent</td><td>that does not exist</td></tr>
     </table>
     <h3>There is no such thing as…</h3>
-    <p>There's no such thing as a free lunch. · Is there such a thing as a perfect language?</p>
+    <p>There's no such thing as a free lunch.<br>Is there such a thing as a perfect language?</p>
     <h3>BE A THING</h3>
     <p>In informal English, <b>be a thing</b> means to exist as a custom, trend or common practice.</p>
     <ul>
@@ -62,17 +62,17 @@ pt:`
     <h2>Costumes pelo mundo</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>custom · tradition</td><td>costume · tradição</td></tr>
+      <tr><td>custom<br>tradition</td><td>costume<br>tradição</td></tr>
       <tr><td>habit</td><td>hábito</td></tr>
-      <tr><td>to tip · tip</td><td>dar gorjeta · gorjeta</td></tr>
+      <tr><td>to tip<br>tip</td><td>dar gorjeta<br>gorjeta</td></tr>
       <tr><td>service charge</td><td>taxa de serviço</td></tr>
-      <tr><td>to shake hands · handshake</td><td>apertar a mão · aperto de mão</td></tr>
+      <tr><td>to shake hands<br>handshake</td><td>apertar a mão<br>aperto de mão</td></tr>
       <tr><td>to kiss on the cheek</td><td>dar beijo no rosto</td></tr>
       <tr><td>to bow</td><td>fazer reverência</td></tr>
-      <tr><td>baby shower · bridal shower</td><td>chá de bebê · chá de panela</td></tr>
-      <tr><td>rude · polite</td><td>mal-educado · educado</td></tr>
+      <tr><td>baby shower<br>bridal shower</td><td>chá de bebê<br>chá de panela</td></tr>
+      <tr><td>rude<br>polite</td><td>mal-educado<br>educado</td></tr>
       <tr><td>to be on time</td><td>ser pontual, chegar na hora</td></tr>
-      <tr><td>weird · common</td><td>estranho · comum</td></tr>
+      <tr><td>weird<br>common</td><td>estranho<br>comum</td></tr>
       <tr><td>trend</td><td>tendência, moda</td></tr>
     </table>
     <p class="note">Na Alemanha, a pontualidade é levada a sério; no Japão, a reverência substitui o aperto de mão em muitas situações.</p>`,
@@ -80,17 +80,17 @@ en:`
     <h2>Customs around the world</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>custom · tradition</td><td>costume · tradição</td></tr>
+      <tr><td>custom<br>tradition</td><td>costume<br>tradição</td></tr>
       <tr><td>habit</td><td>hábito</td></tr>
-      <tr><td>to tip · tip</td><td>dar gorjeta · gorjeta</td></tr>
+      <tr><td>to tip<br>tip</td><td>dar gorjeta<br>gorjeta</td></tr>
       <tr><td>service charge</td><td>taxa de serviço</td></tr>
-      <tr><td>to shake hands · handshake</td><td>apertar a mão · aperto de mão</td></tr>
+      <tr><td>to shake hands<br>handshake</td><td>apertar a mão<br>aperto de mão</td></tr>
       <tr><td>to kiss on the cheek</td><td>dar beijo no rosto</td></tr>
       <tr><td>to bow</td><td>fazer reverência</td></tr>
-      <tr><td>baby shower · bridal shower</td><td>chá de bebê · chá de panela</td></tr>
-      <tr><td>rude · polite</td><td>mal-educado · educado</td></tr>
+      <tr><td>baby shower<br>bridal shower</td><td>chá de bebê<br>chá de panela</td></tr>
+      <tr><td>rude<br>polite</td><td>mal-educado<br>educado</td></tr>
       <tr><td>to be on time</td><td>ser pontual, chegar na hora</td></tr>
-      <tr><td>weird · common</td><td>estranho · comum</td></tr>
+      <tr><td>weird<br>common</td><td>estranho<br>comum</td></tr>
       <tr><td>trend</td><td>tendência, moda</td></tr>
     </table>
     <p class="note">In Germany, punctuality is taken seriously; in Japan, bowing replaces the handshake in many situations.</p>`

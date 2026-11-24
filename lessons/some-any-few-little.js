@@ -13,14 +13,14 @@ pt:`
     </table>
     <p>Com o A, o sentido é positivo (\"alguns\", \"um pouco\"); sem o A, é negativo (\"poucos\", \"pouco\"):</p>
     <ul>
-      <li>I have <b>a few</b> friends. (tenho alguns amigos) · I have <b>few</b> friends. (tenho poucos amigos)</li>
-      <li>There's <b>a little</b> milk. (dá para o café) · There's <b>little</b> milk. (quase nada)</li>
+      <li>I have <b>a few</b> friends. (tenho alguns amigos)<br>I have <b>few</b> friends. (tenho poucos amigos)</li>
+      <li>There's <b>a little</b> milk. (dá para o café)<br>There's <b>little</b> milk. (quase nada)</li>
     </ul>
-    <p class="note"><b>quite a few</b> = bastante (positivo!) · <b>only a few</b> = só uns poucos · <b>very few</b> = pouquíssimos</p>
+    <p class="note"><b>quite a few</b> = bastante (positivo!)<br><b>only a few</b> = só uns poucos<br><b>very few</b> = pouquíssimos</p>
     <h3>Some, any, no, none</h3>
     <ul>
-      <li><b>some</b>: afirmativas — There's some rice. E em ofertas e pedidos: Would you like some coffee? · Can I have some water?</li>
-      <li><b>any</b>: negativas e perguntas — We don't have any sugar. · Do we have any eggs?</li>
+      <li><b>some</b>: afirmativas — There's some rice. E em ofertas e pedidos: Would you like some coffee?<br>Can I have some water?</li>
+      <li><b>any</b>: negativas e perguntas — We don't have any sugar.<br>Do we have any eggs?</li>
       <li><b>any</b> na afirmativa = qualquer — Any pan is fine.</li>
       <li><b>no</b> = nenhum, com verbo afirmativo — We have no sugar.</li>
       <li><b>none</b> = nenhum, sozinho — \"How many eggs are left?\" — \"None.\"</li>
@@ -30,7 +30,7 @@ pt:`
       <tr><th></th><th>pessoa</th><th>coisa</th><th>lugar</th></tr>
       <tr><td><b>some</b></td><td>someone</td><td>something</td><td>somewhere</td></tr>
       <tr><td><b>any</b></td><td>anyone</td><td>anything</td><td>anywhere</td></tr>
-      <tr><td><b>no</b></td><td>no one · nobody</td><td>nothing</td><td>nowhere</td></tr>
+      <tr><td><b>no</b></td><td>no one<br>nobody</td><td>nothing</td><td>nowhere</td></tr>
       <tr><td><b>every</b></td><td>everyone</td><td>everything</td><td>everywhere</td></tr>
     </table>
     <h3>Só uma negação</h3>
@@ -47,14 +47,14 @@ en:`
     </table>
     <p>With A, the meaning is positive (some); without A, it's negative (not many, not much):</p>
     <ul>
-      <li>I have <b>a few</b> friends. (some friends) · I have <b>few</b> friends. (not many)</li>
-      <li>There's <b>a little</b> milk. (enough for coffee) · There's <b>little</b> milk. (almost none)</li>
+      <li>I have <b>a few</b> friends. (some friends)<br>I have <b>few</b> friends. (not many)</li>
+      <li>There's <b>a little</b> milk. (enough for coffee)<br>There's <b>little</b> milk. (almost none)</li>
     </ul>
-    <p class="note"><b>quite a few</b> = a good number (positive!) · <b>only a few</b> · <b>very few</b></p>
+    <p class="note"><b>quite a few</b> = a good number (positive!)<br><b>only a few</b><br><b>very few</b></p>
     <h3>Some, any, no, none</h3>
     <ul>
-      <li><b>some</b>: affirmatives — There's some rice. And in offers and requests: Would you like some coffee? · Can I have some water?</li>
-      <li><b>any</b>: negatives and questions — We don't have any sugar. · Do we have any eggs?</li>
+      <li><b>some</b>: affirmatives — There's some rice. And in offers and requests: Would you like some coffee?<br>Can I have some water?</li>
+      <li><b>any</b>: negatives and questions — We don't have any sugar.<br>Do we have any eggs?</li>
       <li><b>any</b> in affirmatives = it doesn't matter which — Any pan is fine.</li>
       <li><b>no</b> = not any, with an affirmative verb — We have no sugar.</li>
       <li><b>none</b> = not any, standing alone — \"How many eggs are left?\" — \"None.\"</li>
@@ -64,7 +64,7 @@ en:`
       <tr><th></th><th>person</th><th>thing</th><th>place</th></tr>
       <tr><td><b>some</b></td><td>someone</td><td>something</td><td>somewhere</td></tr>
       <tr><td><b>any</b></td><td>anyone</td><td>anything</td><td>anywhere</td></tr>
-      <tr><td><b>no</b></td><td>no one · nobody</td><td>nothing</td><td>nowhere</td></tr>
+      <tr><td><b>no</b></td><td>no one<br>nobody</td><td>nothing</td><td>nowhere</td></tr>
       <tr><td><b>every</b></td><td>everyone</td><td>everything</td><td>everywhere</td></tr>
     </table>
     <h3>Only one negative</h3>
@@ -78,17 +78,17 @@ pt:`
     <h2>Cozinha e despensa</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>pantry · cupboard</td><td>despensa · armário</td></tr>
-      <tr><td>fridge · freezer</td><td>geladeira · congelador</td></tr>
-      <tr><td>flour · sugar · salt</td><td>farinha · açúcar · sal</td></tr>
-      <tr><td>oil · butter</td><td>óleo, azeite · manteiga</td></tr>
+      <tr><td>pantry<br>cupboard</td><td>despensa<br>armário</td></tr>
+      <tr><td>fridge<br>freezer</td><td>geladeira<br>congelador</td></tr>
+      <tr><td>flour<br>sugar<br>salt</td><td>farinha<br>açúcar<br>sal</td></tr>
+      <tr><td>oil<br>butter</td><td>óleo, azeite<br>manteiga</td></tr>
       <tr><td>leftovers</td><td>sobras</td></tr>
-      <tr><td>a can · a jar</td><td>uma lata · um pote de vidro</td></tr>
+      <tr><td>a can<br>a jar</td><td>uma lata<br>um pote de vidro</td></tr>
       <tr><td>a spoonful</td><td>uma colherada</td></tr>
       <tr><td>a pinch of salt</td><td>uma pitada de sal</td></tr>
       <tr><td>to run out of</td><td>ficar sem, acabar</td></tr>
       <tr><td>expired</td><td>vencido</td></tr>
-      <tr><td>a pan · a pot</td><td>uma frigideira · uma panela</td></tr>
+      <tr><td>a pan<br>a pot</td><td>uma frigideira<br>uma panela</td></tr>
       <tr><td>a recipe</td><td>uma receita</td></tr>
     </table>
     <p class="note"><i>Recipe</i> é receita de cozinha; receita médica é <i>prescription</i>.</p>`,
@@ -96,17 +96,17 @@ en:`
     <h2>Kitchen and pantry</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>pantry · cupboard</td><td>despensa · armário</td></tr>
-      <tr><td>fridge · freezer</td><td>geladeira · congelador</td></tr>
-      <tr><td>flour · sugar · salt</td><td>farinha · açúcar · sal</td></tr>
-      <tr><td>oil · butter</td><td>óleo, azeite · manteiga</td></tr>
+      <tr><td>pantry<br>cupboard</td><td>despensa<br>armário</td></tr>
+      <tr><td>fridge<br>freezer</td><td>geladeira<br>congelador</td></tr>
+      <tr><td>flour<br>sugar<br>salt</td><td>farinha<br>açúcar<br>sal</td></tr>
+      <tr><td>oil<br>butter</td><td>óleo, azeite<br>manteiga</td></tr>
       <tr><td>leftovers</td><td>sobras</td></tr>
-      <tr><td>a can · a jar</td><td>uma lata · um pote de vidro</td></tr>
+      <tr><td>a can<br>a jar</td><td>uma lata<br>um pote de vidro</td></tr>
       <tr><td>a spoonful</td><td>uma colherada</td></tr>
       <tr><td>a pinch of salt</td><td>uma pitada de sal</td></tr>
       <tr><td>to run out of</td><td>ficar sem, acabar</td></tr>
       <tr><td>expired</td><td>vencido</td></tr>
-      <tr><td>a pan · a pot</td><td>uma frigideira · uma panela</td></tr>
+      <tr><td>a pan<br>a pot</td><td>uma frigideira<br>uma panela</td></tr>
       <tr><td>a recipe</td><td>uma receita</td></tr>
     </table>
     <p class="note"><i>Recipe</i> is for cooking; a doctor's receita is a <i>prescription</i>.</p>`

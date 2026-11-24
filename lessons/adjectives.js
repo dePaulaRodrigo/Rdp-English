@@ -7,10 +7,10 @@ addLesson({
 pt:`
     <h2>Adjetivos</h2>
     <h3>O adjetivo vem antes</h3>
-    <p>Ao contrário do português: carro vermelho → <b>red car</b> · casa grande → <b>big house</b>.</p>
+    <p>Ao contrário do português: carro vermelho → <b>red car</b><br>casa grande → <b>big house</b>.</p>
     <p>E o adjetivo <b>nunca vai para o plural</b>: ten red cars (<s>reds cars</s>).</p>
     <h3>Depois do verbo</h3>
-    <p>Depois de <b>be</b>, <b>look</b>, <b>feel</b>, <b>get</b>, <b>seem</b>, o adjetivo vem sozinho: The house is big. · You look tired. · It's getting cold.</p>
+    <p>Depois de <b>be</b>, <b>look</b>, <b>feel</b>, <b>get</b>, <b>seem</b>, o adjetivo vem sozinho: The house is big.<br>You look tired.<br>It's getting cold.</p>
     <p class="note">Alguns adjetivos só aparecem depois do verbo: <i>alone, asleep, awake, afraid, alive</i>. The baby is asleep (<s>an asleep baby</s>).</p>
     <h3>Vários adjetivos</h3>
     <p>Ordem natural: <b>opinião → tamanho → idade → forma → cor → origem → material → finalidade</b> + substantivo.</p>
@@ -20,26 +20,26 @@ pt:`
       <li>an expensive new German car</li>
     </ul>
     <h3>Substantivo como adjetivo</h3>
-    <p>A ordem também é invertida: instituto de ciência → <b>science institute</b> · mesa de escritório → <b>office table</b>.</p>
+    <p>A ordem também é invertida: instituto de ciência → <b>science institute</b><br>mesa de escritório → <b>office table</b>.</p>
     <h3>As exceções: adjetivo depois</h3>
     <ul>
-      <li>Com something, anything, nothing, someone: something <b>interesting</b> · nothing <b>new</b></li>
-      <li>Com medidas: ten meters <b>long</b> · two years <b>old</b></li>
+      <li>Com something, anything, nothing, someone: something <b>interesting</b><br>nothing <b>new</b></li>
+      <li>Com medidas: ten meters <b>long</b><br>two years <b>old</b></li>
     </ul>
     <h3>Outros casos</h3>
     <ul>
-      <li><b>one / ones</b> para não repetir: I want the blue <b>one</b>. · I need new <b>ones</b>.</li>
+      <li><b>one / ones</b> para não repetir: I want the blue <b>one</b>.<br>I need new <b>ones</b>.</li>
       <li><b>the + adjetivo</b> = grupo de pessoas: the rich, the poor, the elderly (<s>the riches</s>)</li>
-      <li>Nacionalidade com maiúscula: Brazilian coffee · a Japanese car</li>
+      <li>Nacionalidade com maiúscula: Brazilian coffee<br>a Japanese car</li>
       <li><b>-ish</b> = meio, -ado: reddish (avermelhado). Com horas: at sevenish (umas sete).</li>
     </ul>`,
 en:`
     <h2>Adjectives</h2>
     <h3>The adjective comes first</h3>
-    <p>Unlike Portuguese: carro vermelho → <b>red car</b> · casa grande → <b>big house</b>.</p>
+    <p>Unlike Portuguese: carro vermelho → <b>red car</b><br>casa grande → <b>big house</b>.</p>
     <p>And adjectives <b>never take a plural</b>: ten red cars (<s>reds cars</s>).</p>
     <h3>After the verb</h3>
-    <p>After <b>be</b>, <b>look</b>, <b>feel</b>, <b>get</b>, <b>seem</b>, the adjective stands alone: The house is big. · You look tired. · It's getting cold.</p>
+    <p>After <b>be</b>, <b>look</b>, <b>feel</b>, <b>get</b>, <b>seem</b>, the adjective stands alone: The house is big.<br>You look tired.<br>It's getting cold.</p>
     <p class="note">Some adjectives only appear after the verb: <i>alone, asleep, awake, afraid, alive</i>. The baby is asleep (<s>an asleep baby</s>).</p>
     <h3>Several adjectives</h3>
     <p>Natural order: <b>opinion → size → age → shape → color → origin → material → purpose</b> + noun.</p>
@@ -49,17 +49,17 @@ en:`
       <li>an expensive new German car</li>
     </ul>
     <h3>Nouns as adjectives</h3>
-    <p>The order is also reversed: instituto de ciência → <b>science institute</b> · mesa de escritório → <b>office table</b>.</p>
+    <p>The order is also reversed: instituto de ciência → <b>science institute</b><br>mesa de escritório → <b>office table</b>.</p>
     <h3>The exceptions: adjective after</h3>
     <ul>
-      <li>With something, anything, nothing, someone: something <b>interesting</b> · nothing <b>new</b></li>
-      <li>With measurements: ten meters <b>long</b> · two years <b>old</b></li>
+      <li>With something, anything, nothing, someone: something <b>interesting</b><br>nothing <b>new</b></li>
+      <li>With measurements: ten meters <b>long</b><br>two years <b>old</b></li>
     </ul>
     <h3>Other cases</h3>
     <ul>
-      <li><b>one / ones</b> to avoid repeating: I want the blue <b>one</b>. · I need new <b>ones</b>.</li>
+      <li><b>one / ones</b> to avoid repeating: I want the blue <b>one</b>.<br>I need new <b>ones</b>.</li>
       <li><b>the + adjective</b> = a group of people: the rich, the poor, the elderly (<s>the riches</s>)</li>
-      <li>Nationalities take a capital letter: Brazilian coffee · a Japanese car</li>
+      <li>Nationalities take a capital letter: Brazilian coffee<br>a Japanese car</li>
       <li><b>-ish</b> = somewhat: reddish. With times: at sevenish (around seven).</li>
     </ul>`
   },
@@ -68,17 +68,17 @@ pt:`
     <h2>Casa, cidade e família</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>big · small</td><td>grande · pequeno</td></tr>
-      <tr><td>old · new · modern</td><td>velho · novo · moderno</td></tr>
+      <tr><td>big<br>small</td><td>grande<br>pequeno</td></tr>
+      <tr><td>old<br>new<br>modern</td><td>velho<br>novo<br>moderno</td></tr>
       <tr><td>cozy</td><td>aconchegante</td></tr>
-      <tr><td>bright · dark</td><td>claro, iluminado · escuro</td></tr>
-      <tr><td>noisy · quiet</td><td>barulhento · tranquilo</td></tr>
+      <tr><td>bright<br>dark</td><td>claro, iluminado<br>escuro</td></tr>
+      <tr><td>noisy<br>quiet</td><td>barulhento<br>tranquilo</td></tr>
       <tr><td>crowded</td><td>lotado</td></tr>
-      <tr><td>clean · dirty</td><td>limpo · sujo</td></tr>
-      <tr><td>cheap · expensive</td><td>barato · caro</td></tr>
-      <tr><td>tall · short</td><td>alto · baixo (pessoa)</td></tr>
-      <tr><td>young · elderly</td><td>jovem · idoso</td></tr>
-      <tr><td>friendly · funny</td><td>simpático · engraçado</td></tr>
+      <tr><td>clean<br>dirty</td><td>limpo<br>sujo</td></tr>
+      <tr><td>cheap<br>expensive</td><td>barato<br>caro</td></tr>
+      <tr><td>tall<br>short</td><td>alto<br>baixo (pessoa)</td></tr>
+      <tr><td>young<br>elderly</td><td>jovem<br>idoso</td></tr>
+      <tr><td>friendly<br>funny</td><td>simpático<br>engraçado</td></tr>
       <tr><td>wooden</td><td>de madeira</td></tr>
     </table>
     <p class="note">Para prédios e montanhas, <i>tall</i> ou <i>high</i>; para pessoas, só <i>tall</i>.</p>`,
@@ -86,17 +86,17 @@ en:`
     <h2>Home, city and family</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>big · small</td><td>grande · pequeno</td></tr>
-      <tr><td>old · new · modern</td><td>velho · novo · moderno</td></tr>
+      <tr><td>big<br>small</td><td>grande<br>pequeno</td></tr>
+      <tr><td>old<br>new<br>modern</td><td>velho<br>novo<br>moderno</td></tr>
       <tr><td>cozy</td><td>aconchegante</td></tr>
-      <tr><td>bright · dark</td><td>claro, iluminado · escuro</td></tr>
-      <tr><td>noisy · quiet</td><td>barulhento · tranquilo</td></tr>
+      <tr><td>bright<br>dark</td><td>claro, iluminado<br>escuro</td></tr>
+      <tr><td>noisy<br>quiet</td><td>barulhento<br>tranquilo</td></tr>
       <tr><td>crowded</td><td>lotado</td></tr>
-      <tr><td>clean · dirty</td><td>limpo · sujo</td></tr>
-      <tr><td>cheap · expensive</td><td>barato · caro</td></tr>
-      <tr><td>tall · short</td><td>alto · baixo (pessoa)</td></tr>
-      <tr><td>young · elderly</td><td>jovem · idoso</td></tr>
-      <tr><td>friendly · funny</td><td>simpático · engraçado</td></tr>
+      <tr><td>clean<br>dirty</td><td>limpo<br>sujo</td></tr>
+      <tr><td>cheap<br>expensive</td><td>barato<br>caro</td></tr>
+      <tr><td>tall<br>short</td><td>alto<br>baixo (pessoa)</td></tr>
+      <tr><td>young<br>elderly</td><td>jovem<br>idoso</td></tr>
+      <tr><td>friendly<br>funny</td><td>simpático<br>engraçado</td></tr>
       <tr><td>wooden</td><td>de madeira</td></tr>
     </table>
     <p class="note">For buildings and mountains, <i>tall</i> or <i>high</i>; for people, only <i>tall</i>.</p>`

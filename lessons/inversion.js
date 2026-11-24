@@ -31,9 +31,9 @@ pt:`
       <li>Terceira: <b>Had I known</b>, I would have helped. (= If I had known)</li>
     </ul>
     <h3>SO e SUCH no começo</h3>
-    <p><b>So beautiful was</b> the view that we stayed for hours. · <b>Such was</b> the noise that nobody could sleep.</p>
+    <p><b>So beautiful was</b> the view that we stayed for hours.<br><b>Such was</b> the noise that nobody could sleep.</p>
     <h3>Inversão de lugar (fala, sem DO)</h3>
-    <p><b>Here comes</b> the bus! · <b>There goes</b> my money. · Com pronome, não inverte: Here <b>it comes</b>.</p>
+    <p><b>Here comes</b> the bus!<br><b>There goes</b> my money.<br>Com pronome, não inverte: Here <b>it comes</b>.</p>
     <p class="note">Little did Columbus know, in 1492, that he had reached a continent unknown to Europeans.</p>`,
 en:`
     <h2>Inversion for emphasis</h2>
@@ -62,9 +62,9 @@ en:`
       <li>Third: <b>Had I known</b>, I would have helped. (= If I had known)</li>
     </ul>
     <h3>SO and SUCH at the start</h3>
-    <p><b>So beautiful was</b> the view that we stayed for hours. · <b>Such was</b> the noise that nobody could sleep.</p>
+    <p><b>So beautiful was</b> the view that we stayed for hours.<br><b>Such was</b> the noise that nobody could sleep.</p>
     <h3>Place inversion (speech, no DO)</h3>
-    <p><b>Here comes</b> the bus! · <b>There goes</b> my money. · With a pronoun, no inversion: Here <b>it comes</b>.</p>
+    <p><b>Here comes</b> the bus!<br><b>There goes</b> my money.<br>With a pronoun, no inversion: Here <b>it comes</b>.</p>
     <p class="note">Little did Columbus know, in 1492, that he had reached a continent unknown to Europeans.</p>`
   },
   vocab:{

@@ -14,8 +14,8 @@ pt:`
     <h3>\"Apesar de\"</h3>
     <table>
       <tr><th>Conectivo</th><th>Depois vem</th><th>Exemplo</th></tr>
-      <tr><td><b>despite</b> · <b>in spite of</b></td><td>substantivo ou -ING</td><td>Despite the bad reviews, I loved it.</td></tr>
-      <tr><td><b>although</b> · <b>even though</b></td><td>oração com sujeito</td><td>Although it got bad reviews, I loved it.</td></tr>
+      <tr><td><b>despite</b><br><b>in spite of</b></td><td>substantivo ou -ING</td><td>Despite the bad reviews, I loved it.</td></tr>
+      <tr><td><b>although</b><br><b>even though</b></td><td>oração com sujeito</td><td>Although it got bad reviews, I loved it.</td></tr>
     </table>
     <p class="note"><s>despite of</s> não existe. Com oração: <b>despite the fact that</b>…</p>
     <h3>EVEN THOUGH × EVEN IF</h3>
@@ -25,14 +25,14 @@ pt:`
     </ul>
     <h3>Mais contraste</h3>
     <ul>
-      <li><b>whereas</b> · <b>while</b> = enquanto (comparação): I love thrillers, whereas my wife prefers comedies.</li>
+      <li><b>whereas</b><br><b>while</b> = enquanto (comparação): I love thrillers, whereas my wife prefers comedies.</li>
       <li><b>yet</b> = mas, ainda assim: It's simple, yet effective.</li>
-      <li><b>still</b> = mesmo assim · <b>nevertheless</b> = no entanto (formal) · <b>on the other hand</b> = por outro lado</li>
+      <li><b>still</b> = mesmo assim<br><b>nevertheless</b> = no entanto (formal)<br><b>on the other hand</b> = por outro lado</li>
     </ul>
     <h3>Adição</h3>
     <table>
       <tr><th>Informal</th><th>Formal</th></tr>
-      <tr><td>and · also · too · plus</td><td>moreover · furthermore · in addition</td></tr>
+      <tr><td>and<br>also<br>too<br>plus</td><td>moreover<br>furthermore<br>in addition</td></tr>
       <tr><td>as well as</td><td>not only … but also</td></tr>
     </table>
     <h3>A pontuação</h3>
@@ -51,8 +51,8 @@ en:`
     <h3>Despite / although</h3>
     <table>
       <tr><th>Connector</th><th>Followed by</th><th>Example</th></tr>
-      <tr><td><b>despite</b> · <b>in spite of</b></td><td>noun or -ING</td><td>Despite the bad reviews, I loved it.</td></tr>
-      <tr><td><b>although</b> · <b>even though</b></td><td>a clause with a subject</td><td>Although it got bad reviews, I loved it.</td></tr>
+      <tr><td><b>despite</b><br><b>in spite of</b></td><td>noun or -ING</td><td>Despite the bad reviews, I loved it.</td></tr>
+      <tr><td><b>although</b><br><b>even though</b></td><td>a clause with a subject</td><td>Although it got bad reviews, I loved it.</td></tr>
     </table>
     <p class="note"><s>despite of</s> doesn't exist. With a clause: <b>despite the fact that</b>…</p>
     <h3>EVEN THOUGH × EVEN IF</h3>
@@ -62,14 +62,14 @@ en:`
     </ul>
     <h3>More contrast</h3>
     <ul>
-      <li><b>whereas</b> · <b>while</b> (comparing): I love thrillers, whereas my wife prefers comedies.</li>
+      <li><b>whereas</b><br><b>while</b> (comparing): I love thrillers, whereas my wife prefers comedies.</li>
       <li><b>yet</b>: It's simple, yet effective.</li>
-      <li><b>still</b> · <b>nevertheless</b> (formal) · <b>on the other hand</b></li>
+      <li><b>still</b><br><b>nevertheless</b> (formal)<br><b>on the other hand</b></li>
     </ul>
     <h3>Addition</h3>
     <table>
       <tr><th>Informal</th><th>Formal</th></tr>
-      <tr><td>and · also · too · plus</td><td>moreover · furthermore · in addition</td></tr>
+      <tr><td>and<br>also<br>too<br>plus</td><td>moreover<br>furthermore<br>in addition</td></tr>
       <tr><td>as well as</td><td>not only … but also</td></tr>
     </table>
     <h3>Punctuation</h3>
@@ -84,16 +84,16 @@ pt:`
     <h2>Opiniões sobre livros e filmes</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>the plot · the pacing</td><td>o enredo · o ritmo</td></tr>
-      <tr><td>the cast · the acting</td><td>o elenco · a atuação</td></tr>
+      <tr><td>the plot<br>the pacing</td><td>o enredo<br>o ritmo</td></tr>
+      <tr><td>the cast<br>the acting</td><td>o elenco<br>a atuação</td></tr>
       <tr><td>a slow start</td><td>um começo lento</td></tr>
-      <tr><td>predictable · gripping</td><td>previsível · envolvente</td></tr>
-      <tr><td>overrated · underrated</td><td>superestimado · subestimado</td></tr>
+      <tr><td>predictable<br>gripping</td><td>previsível<br>envolvente</td></tr>
+      <tr><td>overrated<br>underrated</td><td>superestimado<br>subestimado</td></tr>
       <tr><td>a masterpiece</td><td>uma obra-prima</td></tr>
-      <tr><td>a remake · an adaptation</td><td>uma refilmagem · uma adaptação</td></tr>
+      <tr><td>a remake<br>an adaptation</td><td>uma refilmagem<br>uma adaptação</td></tr>
       <tr><td>the book was better</td><td>o livro era melhor</td></tr>
       <tr><td>to recommend</td><td>recomendar</td></tr>
-      <tr><td>a review · a critic</td><td>uma crítica · um crítico</td></tr>
+      <tr><td>a review<br>a critic</td><td>uma crítica<br>um crítico</td></tr>
       <tr><td>a box-office hit</td><td>um sucesso de bilheteria</td></tr>
       <tr><td>thought-provoking</td><td>que faz pensar</td></tr>
     </table>
@@ -102,16 +102,16 @@ en:`
     <h2>Opinions about books and movies</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>the plot · the pacing</td><td>o enredo · o ritmo</td></tr>
-      <tr><td>the cast · the acting</td><td>o elenco · a atuação</td></tr>
+      <tr><td>the plot<br>the pacing</td><td>o enredo<br>o ritmo</td></tr>
+      <tr><td>the cast<br>the acting</td><td>o elenco<br>a atuação</td></tr>
       <tr><td>a slow start</td><td>um começo lento</td></tr>
-      <tr><td>predictable · gripping</td><td>previsível · envolvente</td></tr>
-      <tr><td>overrated · underrated</td><td>superestimado · subestimado</td></tr>
+      <tr><td>predictable<br>gripping</td><td>previsível<br>envolvente</td></tr>
+      <tr><td>overrated<br>underrated</td><td>superestimado<br>subestimado</td></tr>
       <tr><td>a masterpiece</td><td>uma obra-prima</td></tr>
-      <tr><td>a remake · an adaptation</td><td>uma refilmagem · uma adaptação</td></tr>
+      <tr><td>a remake<br>an adaptation</td><td>uma refilmagem<br>uma adaptação</td></tr>
       <tr><td>the book was better</td><td>o livro era melhor</td></tr>
       <tr><td>to recommend</td><td>recomendar</td></tr>
-      <tr><td>a review · a critic</td><td>uma crítica · um crítico</td></tr>
+      <tr><td>a review<br>a critic</td><td>uma crítica<br>um crítico</td></tr>
       <tr><td>a box-office hit</td><td>um sucesso de bilheteria</td></tr>
       <tr><td>thought-provoking</td><td>que faz pensar</td></tr>
     </table>

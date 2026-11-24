@@ -12,27 +12,27 @@ pt:`
       <tr><td>Plural</td><td><b>these</b></td><td><b>those</b></td></tr>
     </table>
     <ul>
-      <li><b>this</b> = este, esta, isto · <b>these</b> = estes, estas</li>
-      <li><b>that</b> = esse, aquele, isso, aquilo · <b>those</b> = esses, aqueles</li>
+      <li><b>this</b> = este, esta, isto<br><b>these</b> = estes, estas</li>
+      <li><b>that</b> = esse, aquele, isso, aquilo<br><b>those</b> = esses, aqueles</li>
     </ul>
     <p>O português tem três graus (este, esse, aquele); o inglês tem dois. <i>Esse</i> pode ser <i>this</i> ou <i>that</i>, conforme a distância que você sente.</p>
     <p class="note">Pronúncia: <i>this</i> tem o I curto, /ðɪs/; <i>these</i> tem o I longo, /ðiːz/. Se o I sai curto, o ouvinte entende singular. Contração: that is → that's. <i>This is</i> não tem contração na escrita.</p>
     <h3>Com o substantivo ou sozinhos</h3>
     <ul>
-      <li><b>This shirt</b> is nice. · <b>This</b> is nice.</li>
+      <li><b>This shirt</b> is nice.<br><b>This</b> is nice.</li>
       <li>Para não repetir um contável no singular, usa-se <i>one</i>: "Which shirt?" — "<b>This one</b>."</li>
       <li>No plural, basta o demonstrativo: "Which shoes?" — "<b>Those</b>."</li>
     </ul>
     <h3>No tempo</h3>
     <ul>
-      <li>this week · this year — esta semana, este ano</li>
+      <li>this week<br>this year — esta semana, este ano</li>
       <li>that day — naquele dia</li>
-      <li><b>these days</b> — hoje em dia · <b>in those days</b> — naquela época</li>
+      <li><b>these days</b> — hoje em dia<br><b>in those days</b> — naquela época</li>
     </ul>
     <h3>Apresentações e telefone</h3>
     <ul>
       <li>This is my friend Leo. — Este é o meu amigo Leo.</li>
-      <li>Ao telefone: Hi, <b>this is</b> Ana. (<s>I am Ana</s>) · Is <b>this</b> Paulo? · Who's <b>this</b>?</li>
+      <li>Ao telefone: Hi, <b>this is</b> Ana. (<s>I am Ana</s>)<br>Is <b>this</b> Paulo?<br>Who's <b>this</b>?</li>
     </ul>
     <h3>Retomar e anunciar</h3>
     <ul>
@@ -43,13 +43,13 @@ pt:`
     <h3>Expressões</h3>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>That's it. · That's all.</td><td>É isso. · É só isso.</td></tr>
+      <tr><td>That's it.<br>That's all.</td><td>É isso.<br>É só isso.</td></tr>
       <tr><td>That's right.</td><td>Isso mesmo.</td></tr>
       <tr><td>That's too bad.</td><td>Que pena.</td></tr>
       <tr><td>That's what I'm talking about.</td><td>É disso que eu estou falando.</td></tr>
-      <tr><td>That's why… · That's how…</td><td>É por isso que… · É assim que…</td></tr>
+      <tr><td>That's why…<br>That's how…</td><td>É por isso que…<br>É assim que…</td></tr>
       <tr><td>That's where she lives.</td><td>É lá que ela mora.</td></tr>
-      <tr><td>This is it!</td><td>É agora! · É este!</td></tr>
+      <tr><td>This is it!</td><td>É agora!<br>É este!</td></tr>
     </table>`,
 en:`
     <h2>Demonstratives</h2>
@@ -62,20 +62,20 @@ en:`
     <p class="note">Pronunciation: <i>this</i> has a short I, /ðɪs/; <i>these</i> has a long I, /ðiːz/. If the I is short, the listener hears singular. Contraction: that is → that's. <i>This is</i> has no written contraction.</p>
     <h3>With a noun or alone</h3>
     <ul>
-      <li><b>This shirt</b> is nice. · <b>This</b> is nice.</li>
+      <li><b>This shirt</b> is nice.<br><b>This</b> is nice.</li>
       <li>To avoid repeating a singular countable noun, use <i>one</i>: "Which shirt?" — "<b>This one</b>."</li>
       <li>In the plural, the demonstrative alone is enough: "Which shoes?" — "<b>Those</b>."</li>
     </ul>
     <h3>In time</h3>
     <ul>
-      <li>this week · this year</li>
+      <li>this week<br>this year</li>
       <li>that day</li>
-      <li><b>these days</b> — nowadays · <b>in those days</b> — back then</li>
+      <li><b>these days</b> — nowadays<br><b>in those days</b> — back then</li>
     </ul>
     <h3>Introductions and the phone</h3>
     <ul>
       <li>This is my friend Leo.</li>
-      <li>On the phone: Hi, <b>this is</b> Ana. (<s>I am Ana</s>) · Is <b>this</b> Paulo? · Who's <b>this</b>?</li>
+      <li>On the phone: Hi, <b>this is</b> Ana. (<s>I am Ana</s>)<br>Is <b>this</b> Paulo?<br>Who's <b>this</b>?</li>
     </ul>
     <h3>Referring back and forward</h3>
     <ul>
@@ -86,13 +86,13 @@ en:`
     <h3>Expressions</h3>
     <table>
       <tr><th>English</th><th>Meaning</th></tr>
-      <tr><td>That's it. · That's all.</td><td>Nothing more.</td></tr>
+      <tr><td>That's it.<br>That's all.</td><td>Nothing more.</td></tr>
       <tr><td>That's right.</td><td>Correct.</td></tr>
       <tr><td>That's too bad.</td><td>What a pity.</td></tr>
       <tr><td>That's what I'm talking about.</td><td>Exactly my point.</td></tr>
-      <tr><td>That's why… · That's how…</td><td>This is the reason… · This is the way…</td></tr>
+      <tr><td>That's why…<br>That's how…</td><td>This is the reason…<br>This is the way…</td></tr>
       <tr><td>That's where she lives.</td><td>She lives in that place.</td></tr>
-      <tr><td>This is it!</td><td>This is the moment! · This is the one!</td></tr>
+      <tr><td>This is it!</td><td>This is the moment!<br>This is the one!</td></tr>
     </table>`
   },
   vocab:{
@@ -100,20 +100,20 @@ pt:`
     <h2>Numa loja</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>Can I help you? · I'm just looking.</td><td>Posso ajudar? · Só estou olhando.</td></tr>
-      <tr><td>How much is this? · How much are these?</td><td>Quanto custa isto? · Quanto custam estes?</td></tr>
+      <tr><td>Can I help you?<br>I'm just looking.</td><td>Posso ajudar?<br>Só estou olhando.</td></tr>
+      <tr><td>How much is this?<br>How much are these?</td><td>Quanto custa isto?<br>Quanto custam estes?</td></tr>
       <tr><td>to try on</td><td>experimentar (roupa)</td></tr>
       <tr><td>fitting room</td><td>provador</td></tr>
-      <tr><td>size · small, medium, large</td><td>tamanho · P, M, G</td></tr>
-      <tr><td>It fits. · It suits you.</td><td>Serviu. · Ficou bem em você.</td></tr>
-      <tr><td>tight · loose</td><td>apertado · largo</td></tr>
-      <tr><td>on sale · sold out</td><td>em promoção · esgotado</td></tr>
+      <tr><td>size<br>small, medium, large</td><td>tamanho<br>P, M, G</td></tr>
+      <tr><td>It fits.<br>It suits you.</td><td>Serviu.<br>Ficou bem em você.</td></tr>
+      <tr><td>tight<br>loose</td><td>apertado<br>largo</td></tr>
+      <tr><td>on sale<br>sold out</td><td>em promoção<br>esgotado</td></tr>
       <tr><td>price tag</td><td>etiqueta de preço</td></tr>
-      <tr><td>cashier · register</td><td>operador de caixa · caixa</td></tr>
+      <tr><td>cashier<br>register</td><td>operador de caixa<br>caixa</td></tr>
       <tr><td>receipt</td><td>nota fiscal, recibo</td></tr>
-      <tr><td>refund · exchange</td><td>reembolso · troca</td></tr>
+      <tr><td>refund<br>exchange</td><td>reembolso<br>troca</td></tr>
       <tr><td>window shopping</td><td>olhar vitrines</td></tr>
-      <tr><td>a pair of shoes · of jeans</td><td>um par de sapatos · uma calça jeans</td></tr>
+      <tr><td>a pair of shoes<br>of jeans</td><td>um par de sapatos<br>uma calça jeans</td></tr>
       <tr><td>sneakers</td><td>tênis</td></tr>
     </table>
     <p class="note"><i>Fit</i> é o tamanho certo; <i>suit</i> é combinar com a pessoa: The jacket fits, but the color doesn't suit you.</p>`,
@@ -121,20 +121,20 @@ en:`
     <h2>In a store</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>Can I help you? · I'm just looking.</td><td>Posso ajudar? · Só estou olhando.</td></tr>
-      <tr><td>How much is this? · How much are these?</td><td>Quanto custa isto? · Quanto custam estes?</td></tr>
+      <tr><td>Can I help you?<br>I'm just looking.</td><td>Posso ajudar?<br>Só estou olhando.</td></tr>
+      <tr><td>How much is this?<br>How much are these?</td><td>Quanto custa isto?<br>Quanto custam estes?</td></tr>
       <tr><td>to try on</td><td>experimentar (roupa)</td></tr>
       <tr><td>fitting room</td><td>provador</td></tr>
-      <tr><td>size · small, medium, large</td><td>tamanho · P, M, G</td></tr>
-      <tr><td>It fits. · It suits you.</td><td>Serviu. · Ficou bem em você.</td></tr>
-      <tr><td>tight · loose</td><td>apertado · largo</td></tr>
-      <tr><td>on sale · sold out</td><td>em promoção · esgotado</td></tr>
+      <tr><td>size<br>small, medium, large</td><td>tamanho<br>P, M, G</td></tr>
+      <tr><td>It fits.<br>It suits you.</td><td>Serviu.<br>Ficou bem em você.</td></tr>
+      <tr><td>tight<br>loose</td><td>apertado<br>largo</td></tr>
+      <tr><td>on sale<br>sold out</td><td>em promoção<br>esgotado</td></tr>
       <tr><td>price tag</td><td>etiqueta de preço</td></tr>
-      <tr><td>cashier · register</td><td>operador de caixa · caixa</td></tr>
+      <tr><td>cashier<br>register</td><td>operador de caixa<br>caixa</td></tr>
       <tr><td>receipt</td><td>nota fiscal, recibo</td></tr>
-      <tr><td>refund · exchange</td><td>reembolso · troca</td></tr>
+      <tr><td>refund<br>exchange</td><td>reembolso<br>troca</td></tr>
       <tr><td>window shopping</td><td>olhar vitrines</td></tr>
-      <tr><td>a pair of shoes · of jeans</td><td>um par de sapatos · uma calça jeans</td></tr>
+      <tr><td>a pair of shoes<br>of jeans</td><td>um par de sapatos<br>uma calça jeans</td></tr>
       <tr><td>sneakers</td><td>tênis</td></tr>
     </table>
     <p class="note"><i>Fit</i> is about size; <i>suit</i> is about looking good on someone: The jacket fits, but the color doesn't suit you.</p>`

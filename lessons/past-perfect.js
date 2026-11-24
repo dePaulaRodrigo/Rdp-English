@@ -15,7 +15,7 @@ pt:`
     </ul>
     <p class="note">O particípio dos regulares é igual ao passado (worked, studied); o dos irregulares está na tabela do Past Simple (gone, eaten, written).</p>
     <h3>Pergunta e resposta curta</h3>
-    <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't. · How long <b>had</b> she lived in London?</p>
+    <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't.<br>How long <b>had</b> she lived in London?</p>
     <h3>Palavras que acompanham</h3>
     <ul>
       <li><b>already</b> — When we arrived, the movie had already started.</li>
@@ -31,8 +31,8 @@ pt:`
     <p>Com <i>before</i> e <i>after</i>, a ordem já está clara, e o Past Simple também serve: After I (had) finished, I left.</p>
     <h3>'D: HAD ou WOULD?</h3>
     <ul>
-      <li>'d + <b>particípio</b> → HAD: They'd left. · I didn't know you'd finished.</li>
-      <li>'d + <b>forma base</b> → WOULD: I'd call you more often. · He said he'd help us.</li>
+      <li>'d + <b>particípio</b> → HAD: They'd left.<br>I didn't know you'd finished.</li>
+      <li>'d + <b>forma base</b> → WOULD: I'd call you more often.<br>He said he'd help us.</li>
     </ul>`,
 en:`
     <h2>Past Perfect</h2>
@@ -45,7 +45,7 @@ en:`
     </ul>
     <p class="note">Regular participles look like the past (worked, studied); irregular ones are in the Past Simple table (gone, eaten, written).</p>
     <h3>Questions and short answers</h3>
-    <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't. · How long <b>had</b> she lived in London?</p>
+    <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't.<br>How long <b>had</b> she lived in London?</p>
     <h3>Common time words</h3>
     <ul>
       <li><b>already</b> — When we arrived, the movie had already started.</li>
@@ -61,8 +61,8 @@ en:`
     <p>With <i>before</i> and <i>after</i>, the order is clear, so the Past Simple also works: After I (had) finished, I left.</p>
     <h3>'D: HAD or WOULD?</h3>
     <ul>
-      <li>'d + <b>past participle</b> → HAD: They'd left. · I didn't know you'd finished.</li>
-      <li>'d + <b>base form</b> → WOULD: I'd call you more often. · He said he'd help us.</li>
+      <li>'d + <b>past participle</b> → HAD: They'd left.<br>I didn't know you'd finished.</li>
+      <li>'d + <b>base form</b> → WOULD: I'd call you more often.<br>He said he'd help us.</li>
     </ul>`
   },
   vocab:{
@@ -70,10 +70,10 @@ pt:`
     <h2>Viagens que deram errado</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to miss a flight · a connection</td><td>perder um voo · uma conexão</td></tr>
-      <tr><td>boarding gate · boarding pass</td><td>portão de embarque · cartão de embarque</td></tr>
+      <tr><td>to miss a flight<br>a connection</td><td>perder um voo<br>uma conexão</td></tr>
+      <tr><td>boarding gate<br>boarding pass</td><td>portão de embarque<br>cartão de embarque</td></tr>
       <tr><td>The gate closed.</td><td>O embarque foi encerrado.</td></tr>
-      <tr><td>delayed · canceled</td><td>atrasado · cancelado</td></tr>
+      <tr><td>delayed<br>canceled</td><td>atrasado<br>cancelado</td></tr>
       <tr><td>overbooked</td><td>com excesso de reservas</td></tr>
       <tr><td>lost luggage</td><td>bagagem extraviada</td></tr>
       <tr><td>to rebook</td><td>remarcar</td></tr>
@@ -88,10 +88,10 @@ en:`
     <h2>Trips that went wrong</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to miss a flight · a connection</td><td>perder um voo · uma conexão</td></tr>
-      <tr><td>boarding gate · boarding pass</td><td>portão de embarque · cartão de embarque</td></tr>
+      <tr><td>to miss a flight<br>a connection</td><td>perder um voo<br>uma conexão</td></tr>
+      <tr><td>boarding gate<br>boarding pass</td><td>portão de embarque<br>cartão de embarque</td></tr>
       <tr><td>The gate closed.</td><td>O embarque foi encerrado.</td></tr>
-      <tr><td>delayed · canceled</td><td>atrasado · cancelado</td></tr>
+      <tr><td>delayed<br>canceled</td><td>atrasado<br>cancelado</td></tr>
       <tr><td>overbooked</td><td>com excesso de reservas</td></tr>
       <tr><td>lost luggage</td><td>bagagem extraviada</td></tr>
       <tr><td>to rebook</td><td>remarcar</td></tr>

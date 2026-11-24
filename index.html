@@ -143,6 +143,8 @@ input.code:focus{outline:2px solid var(--focus);border-color:transparent}
 .x{border:0;background:var(--chip);color:var(--ink);border-radius:8px;padding:6px 10px;font-weight:600}
 /* explanation */
 .expl{overflow-x:auto}
+.expl h2{font-size:24px}
+.expl h3{font-size:19px;margin:24px 0 8px}
 .expl table.countries tr.c td{background:var(--soft);font-weight:600;border-bottom:0}
 .expl table{width:100%;border-collapse:collapse;margin:8px 0 18px;font-size:15px}
 .expl th,.expl td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
@@ -159,7 +161,7 @@ h2.area{margin:28px 0 12px}
 .welcome{margin:8px 0 18px}
 .welcome h1{margin-top:0}
 .welcome p{margin:0 0 8px}
-.foot{max-width:860px;margin:8px auto 28px;padding:0 16px;text-align:center;font-size:14px}
+.foot{max-width:860px;margin:8px auto 28px;padding:0 16px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px 22px;font-size:14px}
 .foot a{color:var(--muted);text-underline-offset:2px}
 .legal h2{margin-top:26px}
 .cur{max-width:860px;margin:18px auto}
@@ -198,7 +200,7 @@ h2.area{margin:28px 0 12px}
   <button class="themebtn" id="themeBtn" type="button"></button>
 </div></header>
 <main id="app"></main>
-<footer class="foot"><a href="#conteudo">Conteúdo em inglês</a> · <a href="#privacidade">Privacidade e termos de uso</a></footer>
+<footer class="foot"><a href="#conteudo">Conteúdo em inglês</a><a href="#privacidade">Privacidade e termos de uso</a></footer>
 <div class="sheet" id="sheet"><div class="in">
   <div class="hd"><span id="sheetTitle"></span><span class="spacer"></span><button class="x" id="sheetClear"></button><button class="x" id="sheetClose"></button></div>
   <div class="chips" id="chips"></div>

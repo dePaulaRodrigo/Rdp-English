@@ -10,13 +10,13 @@ pt:`
     <ul>
       <li>I've been working on this project for three hours.</li>
       <li>Negativa: I <b>haven't been</b> sleeping well lately.</li>
-      <li>Pergunta: <b>Have</b> you <b>been</b> waiting long? · How long have you been studying English?</li>
+      <li>Pergunta: <b>Have</b> you <b>been</b> waiting long?<br>How long have you been studying English?</li>
       <li>It's been raining since Monday.</li>
     </ul>
     <h3>Usos</h3>
     <ul>
       <li><b>Algo que começou e continua</b>: I've been learning Japanese for a year.</li>
-      <li><b>Atividade recente, com efeito visível</b>: You're all wet! Have you been swimming? · I'm tired because I've been working all day.</li>
+      <li><b>Atividade recente, com efeito visível</b>: You're all wet! Have you been swimming?<br>I'm tired because I've been working all day.</li>
       <li><b>Ações repetidas num período recente</b>: I've been going to the gym a lot lately.</li>
     </ul>
     <h3>Present Perfect × Present Perfect Continuous</h3>
@@ -34,13 +34,13 @@ en:`
     <ul>
       <li>I've been working on this project for three hours.</li>
       <li>Negative: I <b>haven't been</b> sleeping well lately.</li>
-      <li>Question: <b>Have</b> you <b>been</b> waiting long? · How long have you been studying English?</li>
+      <li>Question: <b>Have</b> you <b>been</b> waiting long?<br>How long have you been studying English?</li>
       <li>It's been raining since Monday.</li>
     </ul>
     <h3>Uses</h3>
     <ul>
       <li><b>Something that started and continues</b>: I've been learning Japanese for a year.</li>
-      <li><b>Recent activity with a visible effect</b>: You're all wet! Have you been swimming? · I'm tired because I've been working all day.</li>
+      <li><b>Recent activity with a visible effect</b>: You're all wet! Have you been swimming?<br>I'm tired because I've been working all day.</li>
       <li><b>Repeated actions over a recent period</b>: I've been going to the gym a lot lately.</li>
     </ul>
     <h3>Present Perfect × Present Perfect Continuous</h3>
@@ -62,12 +62,12 @@ pt:`
       <tr><td>to practice</td><td>praticar, treinar</td></tr>
       <tr><td>to work on something</td><td>trabalhar em algo, estar fazendo</td></tr>
       <tr><td>side project</td><td>projeto paralelo</td></tr>
-      <tr><td>to renovate · renovation</td><td>reformar · reforma</td></tr>
+      <tr><td>to renovate<br>renovation</td><td>reformar<br>reforma</td></tr>
       <tr><td>to make progress</td><td>avançar, progredir</td></tr>
       <tr><td>so far</td><td>até agora</td></tr>
-      <tr><td>lately · recently</td><td>ultimamente · recentemente</td></tr>
+      <tr><td>lately<br>recently</td><td>ultimamente<br>recentemente</td></tr>
       <tr><td>to keep at it</td><td>continuar, não desistir</td></tr>
-      <tr><td>novel · chapter</td><td>romance · capítulo</td></tr>
+      <tr><td>novel<br>chapter</td><td>romance<br>capítulo</td></tr>
       <tr><td>to be out of breath</td><td>estar sem fôlego</td></tr>
       <tr><td>DIY project</td><td>projeto faça você mesmo</td></tr>
     </table>
@@ -80,12 +80,12 @@ en:`
       <tr><td>to practice</td><td>praticar, treinar</td></tr>
       <tr><td>to work on something</td><td>trabalhar em algo, estar fazendo</td></tr>
       <tr><td>side project</td><td>projeto paralelo</td></tr>
-      <tr><td>to renovate · renovation</td><td>reformar · reforma</td></tr>
+      <tr><td>to renovate<br>renovation</td><td>reformar<br>reforma</td></tr>
       <tr><td>to make progress</td><td>avançar, progredir</td></tr>
       <tr><td>so far</td><td>até agora</td></tr>
-      <tr><td>lately · recently</td><td>ultimamente · recentemente</td></tr>
+      <tr><td>lately<br>recently</td><td>ultimamente<br>recentemente</td></tr>
       <tr><td>to keep at it</td><td>continuar, não desistir</td></tr>
-      <tr><td>novel · chapter</td><td>romance · capítulo</td></tr>
+      <tr><td>novel<br>chapter</td><td>romance<br>capítulo</td></tr>
       <tr><td>to be out of breath</td><td>estar sem fôlego</td></tr>
       <tr><td>DIY project</td><td>projeto faça você mesmo</td></tr>
     </table>

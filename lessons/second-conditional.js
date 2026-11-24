@@ -14,7 +14,7 @@ pt:`
       <li>What would you do if you lost your job?</li>
     </ul>
     <h3>WOULD = o nosso \"-ia\"</h3>
-    <p>Eu compraria → I <b>would</b> buy · Você comeria fígado? → <b>Would</b> you eat liver?</p>
+    <p>Eu compraria → I <b>would</b> buy<br>Você comeria fígado? → <b>Would</b> you eat liver?</p>
     <h3>IF I WERE</h3>
     <p>O To Be vira <b>were</b> para todas as pessoas: If I <b>were</b> you, I wouldn't do that. Na fala informal, muitos dizem <i>if I was</i>, mas <b>If I were you</b> é expressão fixa para dar conselho.</p>
     <h3>Primeira × segunda: a probabilidade</h3>
@@ -25,14 +25,14 @@ pt:`
     <h3>COULD e MIGHT</h3>
     <ul>
       <li>Na condição: If I <b>could</b> live anywhere, I'd choose Lisbon. (se eu pudesse)</li>
-      <li>Na consequência: If I had more money, I <b>could</b> travel more. · I <b>might</b> pass. (talvez)</li>
+      <li>Na consequência: If I had more money, I <b>could</b> travel more.<br>I <b>might</b> pass. (talvez)</li>
     </ul>
     <h3>Nunca WOULD depois do IF</h3>
     <p>If I <b>had</b> time (<s>If I would have time</s>).</p>
     <h3>'D = would ou had</h3>
-    <p>I'd <b>go</b> (forma base) = I would go · I'd <b>gone</b> (particípio) = I had gone</p>
+    <p>I'd <b>go</b> (forma base) = I would go<br>I'd <b>gone</b> (particípio) = I had gone</p>
     <h3>What if e suppose</h3>
-    <p><b>What if</b> you lost your job? · <b>Suppose</b> you could speak any language.</p>
+    <p><b>What if</b> you lost your job?<br><b>Suppose</b> you could speak any language.</p>
     <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>`,
 en:`
     <h2>Hypotheses: the second conditional</h2>
@@ -44,7 +44,7 @@ en:`
       <li>What would you do if you lost your job?</li>
     </ul>
     <h3>WOULD</h3>
-    <p>Eu compraria → I <b>would</b> buy · Você comeria fígado? → <b>Would</b> you eat liver?</p>
+    <p>Eu compraria → I <b>would</b> buy<br>Você comeria fígado? → <b>Would</b> you eat liver?</p>
     <h3>IF I WERE</h3>
     <p>Be becomes <b>were</b> for every person: If I <b>were</b> you, I wouldn't do that. In informal speech, many people say <i>if I was</i>, but <b>If I were you</b> is a fixed phrase for giving advice.</p>
     <h3>First × second: probability</h3>
@@ -55,14 +55,14 @@ en:`
     <h3>COULD and MIGHT</h3>
     <ul>
       <li>In the condition: If I <b>could</b> live anywhere, I'd choose Lisbon.</li>
-      <li>In the result: If I had more money, I <b>could</b> travel more. · I <b>might</b> pass.</li>
+      <li>In the result: If I had more money, I <b>could</b> travel more.<br>I <b>might</b> pass.</li>
     </ul>
     <h3>Never WOULD after IF</h3>
     <p>If I <b>had</b> time (<s>If I would have time</s>).</p>
     <h3>'D = would or had</h3>
-    <p>I'd <b>go</b> (base form) = I would go · I'd <b>gone</b> (participle) = I had gone</p>
+    <p>I'd <b>go</b> (base form) = I would go<br>I'd <b>gone</b> (participle) = I had gone</p>
     <h3>What if and suppose</h3>
-    <p><b>What if</b> you lost your job? · <b>Suppose</b> you could speak any language.</p>
+    <p><b>What if</b> you lost your job?<br><b>Suppose</b> you could speak any language.</p>
     <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>`
   },
   vocab:{

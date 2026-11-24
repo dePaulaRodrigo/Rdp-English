@@ -25,18 +25,18 @@ pt:`
     </table>
     <h3>Quando usar</h3>
     <ul>
-      <li>Quem fez é desconhecido ou óbvio: My car was stolen. · He was arrested.</li>
+      <li>Quem fez é desconhecido ou óbvio: My car was stolen.<br>He was arrested.</li>
       <li>O resultado importa mais: The bridge was opened in 1883.</li>
       <li>Em ciência, notícias e textos técnicos.</li>
     </ul>
     <h3>Detalhes importantes</h3>
     <ul>
-      <li><b>by</b> = quem fez · <b>with</b> = instrumento: written by my grandfather, with a pen</li>
+      <li><b>by</b> = quem fez<br><b>with</b> = instrumento: written by my grandfather, with a pen</li>
       <li>Dois objetos: They gave me a gift → <b>I was given</b> a gift (mais natural).</li>
       <li>Sem passiva: <b>happen, arrive, die, seem</b>. What happened? (<s>was happened</s>)</li>
       <li><b>I was born</b> é passiva: por isso leva <i>was</i>.</li>
       <li>Phrasal verbs mantêm a partícula: The meeting was called off.</li>
-      <li>Opiniões gerais: <b>It is said that</b>… · He <b>is said to be</b> rich.</li>
+      <li>Opiniões gerais: <b>It is said that</b>…<br>He <b>is said to be</b> rich.</li>
     </ul>`,
 en:`
     <h2>The passive voice</h2>
@@ -59,18 +59,18 @@ en:`
     </table>
     <h3>When to use it</h3>
     <ul>
-      <li>The doer is unknown or obvious: My car was stolen. · He was arrested.</li>
+      <li>The doer is unknown or obvious: My car was stolen.<br>He was arrested.</li>
       <li>The result matters more: The bridge was opened in 1883.</li>
       <li>In science, news and technical writing.</li>
     </ul>
     <h3>Important details</h3>
     <ul>
-      <li><b>by</b> = the doer · <b>with</b> = the instrument: written by my grandfather, with a pen</li>
+      <li><b>by</b> = the doer<br><b>with</b> = the instrument: written by my grandfather, with a pen</li>
       <li>Two objects: They gave me a gift → <b>I was given</b> a gift (more natural).</li>
       <li>No passive: <b>happen, arrive, die, seem</b>. What happened? (<s>was happened</s>)</li>
       <li><b>I was born</b> is passive: that's why it takes <i>was</i>.</li>
       <li>Phrasal verbs keep the particle: The meeting was called off.</li>
-      <li>General opinions: <b>It is said that</b>… · He <b>is said to be</b> rich.</li>
+      <li>General opinions: <b>It is said that</b>…<br>He <b>is said to be</b> rich.</li>
     </ul>`
   },
   vocab:{
@@ -80,14 +80,14 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to build — built — built</td><td>construir</td></tr>
       <tr><td>to design</td><td>projetar</td></tr>
-      <tr><td>to invent · an invention</td><td>inventar · uma invenção</td></tr>
+      <tr><td>to invent<br>an invention</td><td>inventar<br>uma invenção</td></tr>
       <tr><td>to discover</td><td>descobrir</td></tr>
       <tr><td>to found</td><td>fundar</td></tr>
       <tr><td>to release</td><td>lançar</td></tr>
       <tr><td>to patent</td><td>patentear</td></tr>
       <tr><td>to complete</td><td>concluir</td></tr>
       <tr><td>a landmark</td><td>um marco, monumento</td></tr>
-      <tr><td>steel · iron · concrete</td><td>aço · ferro · concreto</td></tr>
+      <tr><td>steel<br>iron<br>concrete</td><td>aço<br>ferro<br>concreto</td></tr>
       <tr><td>to tear down</td><td>demolir</td></tr>
       <tr><td>a World's Fair</td><td>uma Exposição Universal</td></tr>
     </table>
@@ -98,14 +98,14 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to build — built — built</td><td>construir</td></tr>
       <tr><td>to design</td><td>projetar</td></tr>
-      <tr><td>to invent · an invention</td><td>inventar · uma invenção</td></tr>
+      <tr><td>to invent<br>an invention</td><td>inventar<br>uma invenção</td></tr>
       <tr><td>to discover</td><td>descobrir</td></tr>
       <tr><td>to found</td><td>fundar</td></tr>
       <tr><td>to release</td><td>lançar</td></tr>
       <tr><td>to patent</td><td>patentear</td></tr>
       <tr><td>to complete</td><td>concluir</td></tr>
       <tr><td>a landmark</td><td>um marco, monumento</td></tr>
-      <tr><td>steel · iron · concrete</td><td>aço · ferro · concreto</td></tr>
+      <tr><td>steel<br>iron<br>concrete</td><td>aço<br>ferro<br>concreto</td></tr>
       <tr><td>to tear down</td><td>demolir</td></tr>
       <tr><td>a World's Fair</td><td>uma Exposição Universal</td></tr>
     </table>

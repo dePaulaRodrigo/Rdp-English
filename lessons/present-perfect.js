@@ -15,7 +15,7 @@ pt:`
     <p>Nunca com expressão de tempo passado (yesterday, last year, in 2019): I <b>went</b> to Italy last year (<s>I've been to Italy last year</s>). Se a resposta diz "quando", vai para o Past Simple: "Have you been to Chile?" — "Yes, I went there in 2019."</p>
     <h3>Os cinco usos</h3>
     <ul>
-      <li><b>Experiências de vida</b>: Have you ever been to the US? · I've never eaten sushi. · Twelve people have walked on the Moon.</li>
+      <li><b>Experiências de vida</b>: Have you ever been to the US?<br>I've never eaten sushi.<br>Twelve people have walked on the Moon.</li>
       <li><b>Tempo não terminado</b> (today, this week, this year): Have you had breakfast today?</li>
       <li><b>Eventos recentes</b>: I've just come back from the gym.</li>
       <li><b>Resultado no presente</b>: I haven't bought food, so I can't make lunch.</li>
@@ -27,7 +27,7 @@ pt:`
       <tr><td>ever — já (pergunta)</td><td>Have you ever tried it?</td></tr>
       <tr><td>never — nunca</td><td>I've never tried it.</td></tr>
       <tr><td>already — já</td><td>I've already eaten.</td></tr>
-      <tr><td>yet — ainda (não), no fim</td><td>I haven't eaten yet. · Have you eaten yet?</td></tr>
+      <tr><td>yet — ainda (não), no fim</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr>
       <tr><td>just — acabei de</td><td>I've just arrived.</td></tr>
       <tr><td>still — ainda, antes de haven't</td><td>I still haven't called her.</td></tr>
     </table>
@@ -50,7 +50,7 @@ en:`
     <p>Never with a finished time expression (yesterday, last year, in 2019): I <b>went</b> to Italy last year (<s>I've been to Italy last year</s>). If the answer says "when", use the Past Simple: "Have you been to Chile?" — "Yes, I went there in 2019."</p>
     <h3>Five uses</h3>
     <ul>
-      <li><b>Life experiences</b>: Have you ever been to the US? · I've never eaten sushi. · Twelve people have walked on the Moon.</li>
+      <li><b>Life experiences</b>: Have you ever been to the US?<br>I've never eaten sushi.<br>Twelve people have walked on the Moon.</li>
       <li><b>Unfinished time</b> (today, this week, this year): Have you had breakfast today?</li>
       <li><b>Recent events</b>: I've just come back from the gym.</li>
       <li><b>Present result</b>: I haven't bought food, so I can't make lunch.</li>
@@ -62,7 +62,7 @@ en:`
       <tr><td>ever — at any time (questions)</td><td>Have you ever tried it?</td></tr>
       <tr><td>never — at no time</td><td>I've never tried it.</td></tr>
       <tr><td>already — sooner than expected</td><td>I've already eaten.</td></tr>
-      <tr><td>yet — until now, at the end</td><td>I haven't eaten yet. · Have you eaten yet?</td></tr>
+      <tr><td>yet — until now, at the end</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr>
       <tr><td>just — a moment ago</td><td>I've just arrived.</td></tr>
       <tr><td>still — emphasis, before haven't</td><td>I still haven't called her.</td></tr>
     </table>
@@ -84,10 +84,10 @@ pt:`
       <tr><td>bucket list</td><td>lista do que fazer antes de morrer</td></tr>
       <tr><td>once in a lifetime</td><td>uma vez na vida</td></tr>
       <tr><td>to try something new</td><td>experimentar algo novo</td></tr>
-      <tr><td>to go skydiving · scuba diving</td><td>saltar de paraquedas · mergulhar</td></tr>
+      <tr><td>to go skydiving<br>scuba diving</td><td>saltar de paraquedas<br>mergulhar</td></tr>
       <tr><td>to climb a mountain</td><td>escalar uma montanha</td></tr>
       <tr><td>to see the Northern Lights</td><td>ver a aurora boreal</td></tr>
-      <tr><td>sand dunes · lagoon</td><td>dunas · lagoa</td></tr>
+      <tr><td>sand dunes<br>lagoon</td><td>dunas<br>lagoa</td></tr>
       <tr><td>to cross off the list</td><td>riscar da lista</td></tr>
       <tr><td>Been there, done that.</td><td>Já fiz isso, já conheço.</td></tr>
     </table>
@@ -100,10 +100,10 @@ en:`
       <tr><td>bucket list</td><td>lista do que fazer antes de morrer</td></tr>
       <tr><td>once in a lifetime</td><td>uma vez na vida</td></tr>
       <tr><td>to try something new</td><td>experimentar algo novo</td></tr>
-      <tr><td>to go skydiving · scuba diving</td><td>saltar de paraquedas · mergulhar</td></tr>
+      <tr><td>to go skydiving<br>scuba diving</td><td>saltar de paraquedas<br>mergulhar</td></tr>
       <tr><td>to climb a mountain</td><td>escalar uma montanha</td></tr>
       <tr><td>to see the Northern Lights</td><td>ver a aurora boreal</td></tr>
-      <tr><td>sand dunes · lagoon</td><td>dunas · lagoa</td></tr>
+      <tr><td>sand dunes<br>lagoon</td><td>dunas<br>lagoa</td></tr>
       <tr><td>to cross off the list</td><td>riscar da lista</td></tr>
       <tr><td>Been there, done that.</td><td>Já fiz isso, já conheço.</td></tr>
     </table>

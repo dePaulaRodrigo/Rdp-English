@@ -8,22 +8,22 @@ pt:`
     <h2>Present Continuous</h2>
     <p>É o "estou fazendo" do português: <b>am / is / are + verbo com -ING</b>.</p>
     <ul>
-      <li>She is eating pizza. · "Ela está terminando o serviço." → She's finishing the job.</li>
-      <li>Negativa e pergunta iguais às do To Be: We aren't traveling this year. · <b>Am I</b> doing this right? · What <b>are</b> you doing?</li>
+      <li>She is eating pizza.<br>"Ela está terminando o serviço." → She's finishing the job.</li>
+      <li>Negativa e pergunta iguais às do To Be: We aren't traveling this year.<br><b>Am I</b> doing this right?<br>What <b>are</b> you doing?</li>
     </ul>
     <h3>Quando usar</h3>
     <ul>
       <li><b>Agora</b>: Look! It's snowing.</li>
       <li><b>Situações temporárias</b>: I'm staying with my parents this month.</li>
-      <li><b>Mudanças e tendências</b>: Prices are going up. · More people are working from home these days.</li>
+      <li><b>Mudanças e tendências</b>: Prices are going up.<br>More people are working from home these days.</li>
       <li><b>Planos marcados</b>: I'm meeting Ana tomorrow.</li>
     </ul>
-    <p>Expressões típicas: now · right now · at the moment · today · this week · these days · Look! · Listen!</p>
+    <p>Expressões típicas: now<br>right now<br>at the moment<br>today<br>this week<br>these days<br>Look!<br>Listen!</p>
     <h3>A grafia do -ING</h3>
     <ul>
-      <li>E mudo cai: make → making · write → writing (mas: see → seeing)</li>
-      <li>Consoante + vogal + consoante, sílaba forte no fim: dobra — run → running · begin → beginning. Sem sílaba forte no fim, não dobra: visit → visiting</li>
-      <li>IE vira Y: lie → lying · die → dying</li>
+      <li>E mudo cai: make → making<br>write → writing (mas: see → seeing)</li>
+      <li>Consoante + vogal + consoante, sílaba forte no fim: dobra — run → running<br>begin → beginning. Sem sílaba forte no fim, não dobra: visit → visiting</li>
+      <li>IE vira Y: lie → lying<br>die → dying</li>
       <li>Y fica: study → studying</li>
     </ul>
     <h3>Present Simple × Present Continuous</h3>
@@ -35,30 +35,30 @@ pt:`
       <tr><td>It rains a lot in Belém.</td><td>It's raining now.</td></tr>
     </table>
     <h3>Verbos de estado</h3>
-    <p>Não costumam ir para o -ING: know · like · love · hate · want · need · prefer · understand · believe · belong · own · seem. I know the answer (<s>I'm knowing</s>).</p>
-    <p class="note">Alguns mudam de sentido: I <b>have</b> a car (posse) × I'm <b>having</b> lunch (comer) · I <b>think</b> so (opinião) × I'm <b>thinking</b> about it (refletir).</p>
+    <p>Não costumam ir para o -ING: know<br>like<br>love<br>hate<br>want<br>need<br>prefer<br>understand<br>believe<br>belong<br>own<br>seem. I know the answer (<s>I'm knowing</s>).</p>
+    <p class="note">Alguns mudam de sentido: I <b>have</b> a car (posse) × I'm <b>having</b> lunch (comer)<br>I <b>think</b> so (opinião) × I'm <b>thinking</b> about it (refletir).</p>
     <h3>Being: "estar sendo"</h3>
-    <p>Para um comportamento do momento: You're being rude. · She's being a good boss to me.</p>`,
+    <p>Para um comportamento do momento: You're being rude.<br>She's being a good boss to me.</p>`,
 en:`
     <h2>Present Continuous</h2>
     <p><b>am / is / are + verb + -ING</b>.</p>
     <ul>
-      <li>She is eating pizza. · She's finishing the job.</li>
-      <li>Negatives and questions work like To Be: We aren't traveling this year. · <b>Am I</b> doing this right? · What <b>are</b> you doing?</li>
+      <li>She is eating pizza.<br>She's finishing the job.</li>
+      <li>Negatives and questions work like To Be: We aren't traveling this year.<br><b>Am I</b> doing this right?<br>What <b>are</b> you doing?</li>
     </ul>
     <h3>When to use it</h3>
     <ul>
       <li><b>Right now</b>: Look! It's snowing.</li>
       <li><b>Temporary situations</b>: I'm staying with my parents this month.</li>
-      <li><b>Changes and trends</b>: Prices are going up. · More people are working from home these days.</li>
+      <li><b>Changes and trends</b>: Prices are going up.<br>More people are working from home these days.</li>
       <li><b>Fixed plans</b>: I'm meeting Ana tomorrow.</li>
     </ul>
-    <p>Typical expressions: now · right now · at the moment · today · this week · these days · Look! · Listen!</p>
+    <p>Typical expressions: now<br>right now<br>at the moment<br>today<br>this week<br>these days<br>Look!<br>Listen!</p>
     <h3>-ING spelling</h3>
     <ul>
-      <li>Silent E drops: make → making · write → writing (but: see → seeing)</li>
-      <li>Consonant + vowel + consonant, stress at the end: double — run → running · begin → beginning. No final stress, no doubling: visit → visiting</li>
-      <li>IE becomes Y: lie → lying · die → dying</li>
+      <li>Silent E drops: make → making<br>write → writing (but: see → seeing)</li>
+      <li>Consonant + vowel + consonant, stress at the end: double — run → running<br>begin → beginning. No final stress, no doubling: visit → visiting</li>
+      <li>IE becomes Y: lie → lying<br>die → dying</li>
       <li>Y stays: study → studying</li>
     </ul>
     <h3>Present Simple × Present Continuous</h3>
@@ -70,10 +70,10 @@ en:`
       <tr><td>It rains a lot in Belém.</td><td>It's raining now.</td></tr>
     </table>
     <h3>Stative verbs</h3>
-    <p>They are not usually used with -ING: know · like · love · hate · want · need · prefer · understand · believe · belong · own · seem. I know the answer (<s>I'm knowing</s>).</p>
-    <p class="note">Some change meaning: I <b>have</b> a car (possession) × I'm <b>having</b> lunch (eating) · I <b>think</b> so (opinion) × I'm <b>thinking</b> about it (considering).</p>
+    <p>They are not usually used with -ING: know<br>like<br>love<br>hate<br>want<br>need<br>prefer<br>understand<br>believe<br>belong<br>own<br>seem. I know the answer (<s>I'm knowing</s>).</p>
+    <p class="note">Some change meaning: I <b>have</b> a car (possession) × I'm <b>having</b> lunch (eating)<br>I <b>think</b> so (opinion) × I'm <b>thinking</b> about it (considering).</p>
     <h3>Being</h3>
-    <p>For behavior at the moment: You're being rude. · She's being a good boss to me.</p>`
+    <p>For behavior at the moment: You're being rude.<br>She's being a good boss to me.</p>`
   },
   vocab:{
 pt:`
@@ -92,8 +92,8 @@ pt:`
     <h2>No transporte</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to get on · to get off</td><td>embarcar · descer (ônibus, trem)</td></tr>
-      <tr><td>to get in · to get out of</td><td>entrar · sair (carro, táxi)</td></tr>
+      <tr><td>to get on<br>to get off</td><td>embarcar<br>descer (ônibus, trem)</td></tr>
+      <tr><td>to get in<br>to get out of</td><td>entrar<br>sair (carro, táxi)</td></tr>
       <tr><td>to wait for the bus</td><td>esperar o ônibus</td></tr>
       <tr><td>The bus is running late.</td><td>O ônibus está atrasado.</td></tr>
       <tr><td>I'm on my way.</td><td>Estou a caminho.</td></tr>
@@ -116,8 +116,8 @@ en:`
     <h2>On the move</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to get on · to get off</td><td>embarcar · descer (ônibus, trem)</td></tr>
-      <tr><td>to get in · to get out of</td><td>entrar · sair (carro, táxi)</td></tr>
+      <tr><td>to get on<br>to get off</td><td>embarcar<br>descer (ônibus, trem)</td></tr>
+      <tr><td>to get in<br>to get out of</td><td>entrar<br>sair (carro, táxi)</td></tr>
       <tr><td>to wait for the bus</td><td>esperar o ônibus</td></tr>
       <tr><td>The bus is running late.</td><td>O ônibus está atrasado.</td></tr>
       <tr><td>I'm on my way.</td><td>Estou a caminho.</td></tr>

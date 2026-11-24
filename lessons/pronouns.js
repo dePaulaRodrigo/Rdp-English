@@ -32,26 +32,26 @@ pt:`
       <li>"É importante estudar." → <b>It</b>'s important to study.</li>
     </ul>
     <h3>A ordem da frase</h3>
-    <p>O objeto vem <b>depois</b> do verbo: "Eu a amo." → I love <b>her</b>. · "Ela nos convidou." → She invited <b>us</b>.</p>
+    <p>O objeto vem <b>depois</b> do verbo: "Eu a amo." → I love <b>her</b>.<br>"Ela nos convidou." → She invited <b>us</b>.</p>
     <ul>
-      <li>Depois de preposição, também se usa o objeto: for <b>her</b> · with <b>me</b> · between you and <b>me</b> (<s>between you and I</s>).</li>
-      <li>Nas respostas curtas e depois de <i>than</i>: "Who wants coffee?" — "<b>Me</b>!" · She's taller than <b>me</b>.</li>
-      <li>Com dois objetos, se a coisa for pronome, ela vem primeiro: Give <b>it to me</b>. · I bought <b>it for her</b>.</li>
+      <li>Depois de preposição, também se usa o objeto: for <b>her</b><br>with <b>me</b><br>between you and <b>me</b> (<s>between you and I</s>).</li>
+      <li>Nas respostas curtas e depois de <i>than</i>: "Who wants coffee?" — "<b>Me</b>!"<br>She's taller than <b>me</b>.</li>
+      <li>Com dois objetos, se a coisa for pronome, ela vem primeiro: Give <b>it to me</b>.<br>I bought <b>it for her</b>.</li>
     </ul>
     <h3>Adjetivos possessivos</h3>
-    <p>O possessivo concorda com o <b>dono</b>: My mom doesn't let me use <b>her</b> pans. · My father doesn't let me use <b>his</b> car.</p>
+    <p>O possessivo concorda com o <b>dono</b>: My mom doesn't let me use <b>her</b> pans.<br>My father doesn't let me use <b>his</b> car.</p>
     <ul>
-      <li>"O seu carro" pode ser de várias pessoas; o inglês é preciso: <b>your</b> car (de você) · <b>his</b> car (dele) · <b>her</b> car (dela) · <b>their</b> car (deles).</li>
+      <li>"O seu carro" pode ser de várias pessoas; o inglês é preciso: <b>your</b> car (de você)<br><b>his</b> car (dele)<br><b>her</b> car (dela)<br><b>their</b> car (deles).</li>
       <li>Sem artigo: "o meu carro" → my car.</li>
-      <li>Partes do corpo e roupas levam possessivo: "Escovei os dentes." → I brushed <b>my</b> teeth. · "Ele quebrou o braço." → He broke <b>his</b> arm.</li>
+      <li>Partes do corpo e roupas levam possessivo: "Escovei os dentes." → I brushed <b>my</b> teeth.<br>"Ele quebrou o braço." → He broke <b>his</b> arm.</li>
     </ul>
     <h3>Palavras com o mesmo som</h3>
     <table>
       <tr><th>Palavra</th><th>Sentido</th></tr>
-      <tr><td>its · it's</td><td>dele, dela (coisa) · it is</td></tr>
-      <tr><td>their · there · they're</td><td>deles · lá · they are</td></tr>
-      <tr><td>your · you're</td><td>seu · you are</td></tr>
-      <tr><td>here · hear</td><td>aqui · ouvir</td></tr>
+      <tr><td>its<br>it's</td><td>dele, dela (coisa)<br>it is</td></tr>
+      <tr><td>their<br>there<br>they're</td><td>deles<br>lá<br>they are</td></tr>
+      <tr><td>your<br>you're</td><td>seu<br>you are</td></tr>
+      <tr><td>here<br>hear</td><td>aqui<br>ouvir</td></tr>
     </table>
     <p class="note">Truque: se der para trocar por <i>it is</i>, <i>they are</i> ou <i>you are</i>, é com apóstrofo.</p>`,
 en:`
@@ -82,26 +82,26 @@ en:`
       <li><b>It</b>'s important to study.</li>
     </ul>
     <h3>Word order</h3>
-    <p>The object comes <b>after</b> the verb: I love <b>her</b>. · She invited <b>us</b>.</p>
+    <p>The object comes <b>after</b> the verb: I love <b>her</b>.<br>She invited <b>us</b>.</p>
     <ul>
-      <li>After a preposition, use the object form: for <b>her</b> · with <b>me</b> · between you and <b>me</b> (<s>between you and I</s>).</li>
-      <li>In short answers and after <i>than</i>: "Who wants coffee?" — "<b>Me</b>!" · She's taller than <b>me</b>.</li>
-      <li>With two objects, if the thing is a pronoun, it comes first: Give <b>it to me</b>. · I bought <b>it for her</b>.</li>
+      <li>After a preposition, use the object form: for <b>her</b><br>with <b>me</b><br>between you and <b>me</b> (<s>between you and I</s>).</li>
+      <li>In short answers and after <i>than</i>: "Who wants coffee?" — "<b>Me</b>!"<br>She's taller than <b>me</b>.</li>
+      <li>With two objects, if the thing is a pronoun, it comes first: Give <b>it to me</b>.<br>I bought <b>it for her</b>.</li>
     </ul>
     <h3>Possessive adjectives</h3>
-    <p>The possessive agrees with the <b>owner</b>: My mom doesn't let me use <b>her</b> pans. · My father doesn't let me use <b>his</b> car.</p>
+    <p>The possessive agrees with the <b>owner</b>: My mom doesn't let me use <b>her</b> pans.<br>My father doesn't let me use <b>his</b> car.</p>
     <ul>
-      <li>Portuguese <i>seu</i> can mean several owners; English is precise: <b>your</b> · <b>his</b> · <b>her</b> · <b>their</b> car.</li>
+      <li>Portuguese <i>seu</i> can mean several owners; English is precise: <b>your</b><br><b>his</b><br><b>her</b><br><b>their</b> car.</li>
       <li>No article: my car (<s>the my car</s>).</li>
-      <li>Body parts and clothes take a possessive: I brushed <b>my</b> teeth. · He broke <b>his</b> arm.</li>
+      <li>Body parts and clothes take a possessive: I brushed <b>my</b> teeth.<br>He broke <b>his</b> arm.</li>
     </ul>
     <h3>Words that sound the same</h3>
     <table>
       <tr><th>Word</th><th>Meaning</th></tr>
-      <tr><td>its · it's</td><td>belonging to it · it is</td></tr>
-      <tr><td>their · there · they're</td><td>belonging to them · in that place · they are</td></tr>
-      <tr><td>your · you're</td><td>belonging to you · you are</td></tr>
-      <tr><td>here · hear</td><td>in this place · to perceive sound</td></tr>
+      <tr><td>its<br>it's</td><td>belonging to it<br>it is</td></tr>
+      <tr><td>their<br>there<br>they're</td><td>belonging to them<br>in that place<br>they are</td></tr>
+      <tr><td>your<br>you're</td><td>belonging to you<br>you are</td></tr>
+      <tr><td>here<br>hear</td><td>in this place<br>to perceive sound</td></tr>
     </table>
     <p class="note">Tip: if you can replace it with <i>it is</i>, <i>they are</i> or <i>you are</i>, use the apostrophe.</p>`
   },
@@ -110,22 +110,22 @@ pt:`
     <h2>Família</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>parents · relatives</td><td>pais · parentes</td></tr>
+      <tr><td>parents<br>relatives</td><td>pais<br>parentes</td></tr>
       <tr><td>siblings</td><td>irmãos (sem distinguir o sexo)</td></tr>
-      <tr><td>grandparents · grandchildren</td><td>avós · netos</td></tr>
+      <tr><td>grandparents<br>grandchildren</td><td>avós<br>netos</td></tr>
       <tr><td>great-grandmother</td><td>bisavó</td></tr>
-      <tr><td>aunt · uncle</td><td>tia · tio</td></tr>
+      <tr><td>aunt<br>uncle</td><td>tia<br>tio</td></tr>
       <tr><td>cousin</td><td>primo, prima</td></tr>
-      <tr><td>niece · nephew</td><td>sobrinha · sobrinho</td></tr>
-      <tr><td>husband · wife</td><td>marido · esposa</td></tr>
-      <tr><td>stepfather · stepmother</td><td>padrasto · madrasta</td></tr>
-      <tr><td>half-sister · half-brother</td><td>meia-irmã · meio-irmão</td></tr>
-      <tr><td>mother-in-law · in-laws</td><td>sogra · a família do cônjuge</td></tr>
-      <tr><td>son-in-law · daughter-in-law</td><td>genro · nora</td></tr>
-      <tr><td>godfather · godmother</td><td>padrinho · madrinha</td></tr>
+      <tr><td>niece<br>nephew</td><td>sobrinha<br>sobrinho</td></tr>
+      <tr><td>husband<br>wife</td><td>marido<br>esposa</td></tr>
+      <tr><td>stepfather<br>stepmother</td><td>padrasto<br>madrasta</td></tr>
+      <tr><td>half-sister<br>half-brother</td><td>meia-irmã<br>meio-irmão</td></tr>
+      <tr><td>mother-in-law<br>in-laws</td><td>sogra<br>a família do cônjuge</td></tr>
+      <tr><td>son-in-law<br>daughter-in-law</td><td>genro<br>nora</td></tr>
+      <tr><td>godfather<br>godmother</td><td>padrinho<br>madrinha</td></tr>
       <tr><td>twins</td><td>gêmeos</td></tr>
       <tr><td>only child</td><td>filho único</td></tr>
-      <tr><td>to grow up · to raise</td><td>crescer · criar (filhos)</td></tr>
+      <tr><td>to grow up<br>to raise</td><td>crescer<br>criar (filhos)</td></tr>
       <tr><td>to take after someone</td><td>puxar a alguém</td></tr>
     </table>
     <p class="note"><i>Parents</i> são o pai e a mãe; parentes em geral são <i>relatives</i>. Para "irmãos" sem distinguir o sexo, usa-se <i>siblings</i>: I have three siblings.</p>`,
@@ -133,22 +133,22 @@ en:`
     <h2>Family</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>parents · relatives</td><td>pais · parentes</td></tr>
+      <tr><td>parents<br>relatives</td><td>pais<br>parentes</td></tr>
       <tr><td>siblings</td><td>irmãos (sem distinguir o sexo)</td></tr>
-      <tr><td>grandparents · grandchildren</td><td>avós · netos</td></tr>
+      <tr><td>grandparents<br>grandchildren</td><td>avós<br>netos</td></tr>
       <tr><td>great-grandmother</td><td>bisavó</td></tr>
-      <tr><td>aunt · uncle</td><td>tia · tio</td></tr>
+      <tr><td>aunt<br>uncle</td><td>tia<br>tio</td></tr>
       <tr><td>cousin</td><td>primo, prima</td></tr>
-      <tr><td>niece · nephew</td><td>sobrinha · sobrinho</td></tr>
-      <tr><td>husband · wife</td><td>marido · esposa</td></tr>
-      <tr><td>stepfather · stepmother</td><td>padrasto · madrasta</td></tr>
-      <tr><td>half-sister · half-brother</td><td>meia-irmã · meio-irmão</td></tr>
-      <tr><td>mother-in-law · in-laws</td><td>sogra · a família do cônjuge</td></tr>
-      <tr><td>son-in-law · daughter-in-law</td><td>genro · nora</td></tr>
-      <tr><td>godfather · godmother</td><td>padrinho · madrinha</td></tr>
+      <tr><td>niece<br>nephew</td><td>sobrinha<br>sobrinho</td></tr>
+      <tr><td>husband<br>wife</td><td>marido<br>esposa</td></tr>
+      <tr><td>stepfather<br>stepmother</td><td>padrasto<br>madrasta</td></tr>
+      <tr><td>half-sister<br>half-brother</td><td>meia-irmã<br>meio-irmão</td></tr>
+      <tr><td>mother-in-law<br>in-laws</td><td>sogra<br>a família do cônjuge</td></tr>
+      <tr><td>son-in-law<br>daughter-in-law</td><td>genro<br>nora</td></tr>
+      <tr><td>godfather<br>godmother</td><td>padrinho<br>madrinha</td></tr>
       <tr><td>twins</td><td>gêmeos</td></tr>
       <tr><td>only child</td><td>filho único</td></tr>
-      <tr><td>to grow up · to raise</td><td>crescer · criar (filhos)</td></tr>
+      <tr><td>to grow up<br>to raise</td><td>crescer<br>criar (filhos)</td></tr>
       <tr><td>to take after someone</td><td>puxar a alguém</td></tr>
     </table>
     <p class="note"><i>Parents</i> are your mother and father; other family members are <i>relatives</i>. For brothers and sisters together, use <i>siblings</i>: I have three siblings.</p>`

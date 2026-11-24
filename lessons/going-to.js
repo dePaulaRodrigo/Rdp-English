@@ -12,10 +12,10 @@ pt:`
       <tr><td>I'm <b>going to</b> watch the game.</td><td>um plano já decidido</td></tr>
       <tr><td>I'm <b>watching</b> the game tonight.</td><td>um compromisso marcado</td></tr>
     </table>
-    <p>Comparação útil: I will travel = eu viajarei · I'm gonna travel = eu vou viajar.</p>
+    <p>Comparação útil: I will travel = eu viajarei<br>I'm gonna travel = eu vou viajar.</p>
     <h3>Going to e GONNA</h3>
     <ul>
-      <li>Na fala, <i>going to</i> vira <b>gonna</b>: She's gonna come back tomorrow. · Are you gonna come?</li>
+      <li>Na fala, <i>going to</i> vira <b>gonna</b>: She's gonna come back tomorrow.<br>Are you gonna come?</li>
       <li>"Vou ir ao parque" → I'm going to <b>go</b> to the park. O <i>going to</i> é o "vou"; o <i>go</i> é o "ir".</li>
     </ul>
     <h3>Previsão: WILL × GOING TO</h3>
@@ -29,12 +29,12 @@ pt:`
       <li>Antes: I've saved the money. I'm going to buy a car next month.</li>
     </ul>
     <h3>Present Continuous: compromisso marcado</h3>
-    <p>I'm meeting Ana at six. · Are you doing anything tonight? · I'm not going to the party.</p>
-    <p class="note">Horários fixos (transporte, eventos) usam o Present Simple: The flight leaves at 6:40. · The concert starts at nine.</p>
+    <p>I'm meeting Ana at six.<br>Are you doing anything tonight?<br>I'm not going to the party.</p>
+    <p class="note">Horários fixos (transporte, eventos) usam o Present Simple: The flight leaves at 6:40.<br>The concert starts at nine.</p>
     <h3>WAS GOING TO = "ia"</h3>
-    <p>Um plano que não aconteceu: I was gonna call you, but I forgot. · We were going to go to the game, but it rained.</p>
+    <p>Um plano que não aconteceu: I was gonna call you, but I forgot.<br>We were going to go to the game, but it rained.</p>
     <h3>BE ABOUT TO = estar prestes a</h3>
-    <p>Hurry up! The movie is about to start. · I was about to call you!</p>`,
+    <p>Hurry up! The movie is about to start.<br>I was about to call you!</p>`,
 en:`
     <h2>Going To and Present Continuous for the future</h2>
     <table>
@@ -45,7 +45,7 @@ en:`
     </table>
     <h3>Going to and GONNA</h3>
     <ul>
-      <li>In speech, <i>going to</i> becomes <b>gonna</b>: She's gonna come back tomorrow. · Are you gonna come?</li>
+      <li>In speech, <i>going to</i> becomes <b>gonna</b>: She's gonna come back tomorrow.<br>Are you gonna come?</li>
       <li>I'm going to <b>go</b> to the park: <i>going to</i> marks the future; <i>go</i> is the main verb.</li>
     </ul>
     <h3>Predictions: WILL × GOING TO</h3>
@@ -59,12 +59,12 @@ en:`
       <li>Before: I've saved the money. I'm going to buy a car next month.</li>
     </ul>
     <h3>Present Continuous: fixed arrangements</h3>
-    <p>I'm meeting Ana at six. · Are you doing anything tonight? · I'm not going to the party.</p>
-    <p class="note">Timetables (transport, events) use the Present Simple: The flight leaves at 6:40. · The concert starts at nine.</p>
+    <p>I'm meeting Ana at six.<br>Are you doing anything tonight?<br>I'm not going to the party.</p>
+    <p class="note">Timetables (transport, events) use the Present Simple: The flight leaves at 6:40.<br>The concert starts at nine.</p>
     <h3>WAS GOING TO</h3>
-    <p>A plan that did not happen: I was gonna call you, but I forgot. · We were going to go to the game, but it rained.</p>
+    <p>A plan that did not happen: I was gonna call you, but I forgot.<br>We were going to go to the game, but it rained.</p>
     <h3>BE ABOUT TO</h3>
-    <p>Hurry up! The movie is about to start. · I was about to call you!</p>`
+    <p>Hurry up! The movie is about to start.<br>I was about to call you!</p>`
   },
   vocab:{
 pt:`
@@ -72,8 +72,8 @@ pt:`
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>Any plans for the weekend?</td><td>Algum plano para o fim de semana?</td></tr>
-      <tr><td>to make plans · to cancel plans</td><td>fazer planos · cancelar</td></tr>
-      <tr><td>to book · booked</td><td>reservar · reservado</td></tr>
+      <tr><td>to make plans<br>to cancel plans</td><td>fazer planos<br>cancelar</td></tr>
+      <tr><td>to book<br>booked</td><td>reservar<br>reservado</td></tr>
       <tr><td>forecast</td><td>previsão do tempo</td></tr>
       <tr><td>to go on vacation</td><td>sair de férias</td></tr>
       <tr><td>to stay home</td><td>ficar em casa</td></tr>
@@ -90,8 +90,8 @@ en:`
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>Any plans for the weekend?</td><td>Algum plano para o fim de semana?</td></tr>
-      <tr><td>to make plans · to cancel plans</td><td>fazer planos · cancelar</td></tr>
-      <tr><td>to book · booked</td><td>reservar · reservado</td></tr>
+      <tr><td>to make plans<br>to cancel plans</td><td>fazer planos<br>cancelar</td></tr>
+      <tr><td>to book<br>booked</td><td>reservar<br>reservado</td></tr>
       <tr><td>forecast</td><td>previsão do tempo</td></tr>
       <tr><td>to go on vacation</td><td>sair de férias</td></tr>
       <tr><td>to stay home</td><td>ficar em casa</td></tr>

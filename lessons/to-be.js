@@ -8,61 +8,61 @@ pt:`
     <h2>O verbo To Be</h2>
     <p>O To Be cobre <b>ser</b> e <b>estar</b> ao mesmo tempo; o contexto diz qual dos dois.</p>
     <ul>
-      <li>She is beautiful. — Ela é bonita. · She is beautiful today. — Ela está bonita hoje.</li>
+      <li>She is beautiful. — Ela é bonita.<br>She is beautiful today. — Ela está bonita hoje.</li>
     </ul>
     <table>
       <tr><th>Forma completa</th><th>Contração</th><th>Negativa</th></tr>
       <tr><td>I am</td><td>I'm</td><td>I'm not</td></tr>
-      <tr><td>you are</td><td>you're</td><td>you aren't · you're not</td></tr>
-      <tr><td>he / she / it is</td><td>he's · she's · it's</td><td>isn't · 's not</td></tr>
-      <tr><td>we are</td><td>we're</td><td>we aren't · we're not</td></tr>
-      <tr><td>they are</td><td>they're</td><td>they aren't · they're not</td></tr>
+      <tr><td>you are</td><td>you're</td><td>you aren't<br>you're not</td></tr>
+      <tr><td>he / she / it is</td><td>he's<br>she's<br>it's</td><td>isn't<br>'s not</td></tr>
+      <tr><td>we are</td><td>we're</td><td>we aren't<br>we're not</td></tr>
+      <tr><td>they are</td><td>they're</td><td>they aren't<br>they're not</td></tr>
     </table>
     <p class="note"><i>I am not</i> só tem uma contração: <b>I'm not</b> (<s>I amn't</s>).</p>
     <h3>"Ter" e "estar com" em inglês</h3>
     <table>
       <tr><th>Português</th><th>Inglês</th></tr>
       <tr><td>Tenho 28 anos.</td><td>I'm 28. (<s>I have 28 years</s>)</td></tr>
-      <tr><td>Estou com fome · sede</td><td>I'm hungry · thirsty</td></tr>
-      <tr><td>Estou com frio · calor · sono</td><td>I'm cold · hot · sleepy</td></tr>
+      <tr><td>Estou com fome<br>sede</td><td>I'm hungry<br>thirsty</td></tr>
+      <tr><td>Estou com frio<br>calor<br>sono</td><td>I'm cold<br>hot<br>sleepy</td></tr>
       <tr><td>Tenho medo de…</td><td>I'm afraid of…</td></tr>
       <tr><td>Você tem razão.</td><td>You're right.</td></tr>
-      <tr><td>Estou com pressa · atrasado</td><td>I'm in a hurry · late</td></tr>
+      <tr><td>Estou com pressa<br>atrasado</td><td>I'm in a hurry<br>late</td></tr>
     </table>
-    <p>Tempo, horas, preços e distâncias usam <b>it</b>: It's hot. · It's three o'clock. · It's ten dollars.</p>
-    <p class="note">Cuidado: <i>agree</i> e <i>depend</i> são verbos, sem To Be: I agree (<s>I am agree</s>) · It depends (<s>It's depend</s>). E o To Be nunca some: She <b>is</b> very tall.</p>
+    <p>Tempo, horas, preços e distâncias usam <b>it</b>: It's hot.<br>It's three o'clock.<br>It's ten dollars.</p>
+    <p class="note">Cuidado: <i>agree</i> e <i>depend</i> são verbos, sem To Be: I agree (<s>I am agree</s>)<br>It depends (<s>It's depend</s>). E o To Be nunca some: She <b>is</b> very tall.</p>
     <h3>Pergunta e resposta curta</h3>
-    <p>Na pergunta, o verbo vem antes do sujeito: You are Brazilian. → <b>Are you</b> Brazilian? · Where <b>is</b> the bathroom?</p>
+    <p>Na pergunta, o verbo vem antes do sujeito: You are Brazilian. → <b>Are you</b> Brazilian?<br>Where <b>is</b> the bathroom?</p>
     <p>Resposta curta: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." Na afirmativa, sem contração: Yes, I am (<s>Yes, I'm</s>).</p>`,
 en:`
     <h2>The verb To Be</h2>
     <p>To Be covers both <i>ser</i> and <i>estar</i> in Portuguese; the context shows which one.</p>
     <ul>
-      <li>She is beautiful. · She is beautiful today.</li>
+      <li>She is beautiful.<br>She is beautiful today.</li>
     </ul>
     <table>
       <tr><th>Full form</th><th>Contraction</th><th>Negative</th></tr>
       <tr><td>I am</td><td>I'm</td><td>I'm not</td></tr>
-      <tr><td>you are</td><td>you're</td><td>you aren't · you're not</td></tr>
-      <tr><td>he / she / it is</td><td>he's · she's · it's</td><td>isn't · 's not</td></tr>
-      <tr><td>we are</td><td>we're</td><td>we aren't · we're not</td></tr>
-      <tr><td>they are</td><td>they're</td><td>they aren't · they're not</td></tr>
+      <tr><td>you are</td><td>you're</td><td>you aren't<br>you're not</td></tr>
+      <tr><td>he / she / it is</td><td>he's<br>she's<br>it's</td><td>isn't<br>'s not</td></tr>
+      <tr><td>we are</td><td>we're</td><td>we aren't<br>we're not</td></tr>
+      <tr><td>they are</td><td>they're</td><td>they aren't<br>they're not</td></tr>
     </table>
     <p class="note"><i>I am not</i> has only one contraction: <b>I'm not</b> (<s>I amn't</s>).</p>
     <h3>Where Portuguese uses "ter" or "estar com"</h3>
     <table>
       <tr><th>Portuguese</th><th>English</th></tr>
       <tr><td>Tenho 28 anos.</td><td>I'm 28. (<s>I have 28 years</s>)</td></tr>
-      <tr><td>Estou com fome · sede</td><td>I'm hungry · thirsty</td></tr>
-      <tr><td>Estou com frio · calor · sono</td><td>I'm cold · hot · sleepy</td></tr>
+      <tr><td>Estou com fome<br>sede</td><td>I'm hungry<br>thirsty</td></tr>
+      <tr><td>Estou com frio<br>calor<br>sono</td><td>I'm cold<br>hot<br>sleepy</td></tr>
       <tr><td>Tenho medo de…</td><td>I'm afraid of…</td></tr>
       <tr><td>Você tem razão.</td><td>You're right.</td></tr>
-      <tr><td>Estou com pressa · atrasado</td><td>I'm in a hurry · late</td></tr>
+      <tr><td>Estou com pressa<br>atrasado</td><td>I'm in a hurry<br>late</td></tr>
     </table>
-    <p>Weather, time, prices and distances use <b>it</b>: It's hot. · It's three o'clock. · It's ten dollars.</p>
-    <p class="note">Careful: <i>agree</i> and <i>depend</i> are verbs, with no To Be: I agree (<s>I am agree</s>) · It depends (<s>It's depend</s>). And To Be never disappears: She <b>is</b> very tall.</p>
+    <p>Weather, time, prices and distances use <b>it</b>: It's hot.<br>It's three o'clock.<br>It's ten dollars.</p>
+    <p class="note">Careful: <i>agree</i> and <i>depend</i> are verbs, with no To Be: I agree (<s>I am agree</s>)<br>It depends (<s>It's depend</s>). And To Be never disappears: She <b>is</b> very tall.</p>
     <h3>Questions and short answers</h3>
-    <p>In questions, the verb comes before the subject: You are Brazilian. → <b>Are you</b> Brazilian? · Where <b>is</b> the bathroom?</p>
+    <p>In questions, the verb comes before the subject: You are Brazilian. → <b>Are you</b> Brazilian?<br>Where <b>is</b> the bathroom?</p>
     <p>Short answers: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." No contraction in affirmative short answers: Yes, I am (<s>Yes, I'm</s>).</p>`
   },
   vocab:{
@@ -70,34 +70,34 @@ pt:`
     <h2>Apresentações</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>Hi, I'm… · My name is…</td><td>Oi, eu sou… · Meu nome é…</td></tr>
+      <tr><td>Hi, I'm…<br>My name is…</td><td>Oi, eu sou…<br>Meu nome é…</td></tr>
       <tr><td>This is my wife, Ana.</td><td>Esta é a minha esposa, Ana.</td></tr>
-      <tr><td>Nice to meet you. · Nice to meet you too.</td><td>Prazer. · O prazer é meu.</td></tr>
-      <tr><td>I'm married · single · divorced.</td><td>Sou casado · solteiro · divorciado.</td></tr>
+      <tr><td>Nice to meet you.<br>Nice to meet you too.</td><td>Prazer.<br>O prazer é meu.</td></tr>
+      <tr><td>I'm married<br>single<br>divorced.</td><td>Sou casado<br>solteiro<br>divorciado.</td></tr>
       <tr><td>I'm an only child.</td><td>Sou filho único.</td></tr>
       <tr><td>She's in her thirties.</td><td>Ela tem uns trinta e poucos anos.</td></tr>
       <tr><td>He's retired.</td><td>Ele é aposentado.</td></tr>
       <tr><td>We're engaged.</td><td>Estamos noivos.</td></tr>
       <tr><td>Are you new here?</td><td>Você é novo aqui?</td></tr>
-      <tr><td>I'm from… · I live in…</td><td>Sou de… · Moro em…</td></tr>
-      <tr><td>classmate · coworker</td><td>colega de classe · colega de trabalho</td></tr>
+      <tr><td>I'm from…<br>I live in…</td><td>Sou de…<br>Moro em…</td></tr>
+      <tr><td>classmate<br>coworker</td><td>colega de classe<br>colega de trabalho</td></tr>
     </table>
     <p class="note">Estado civil, profissão e idade usam To Be: <i>I'm married</i>, <i>She's a lawyer</i>, <i>He's 40</i>.</p>`,
 en:`
     <h2>Introductions</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>Hi, I'm… · My name is…</td><td>Oi, eu sou… · Meu nome é…</td></tr>
+      <tr><td>Hi, I'm…<br>My name is…</td><td>Oi, eu sou…<br>Meu nome é…</td></tr>
       <tr><td>This is my wife, Ana.</td><td>Esta é a minha esposa, Ana.</td></tr>
-      <tr><td>Nice to meet you. · Nice to meet you too.</td><td>Prazer. · O prazer é meu.</td></tr>
-      <tr><td>I'm married · single · divorced.</td><td>Sou casado · solteiro · divorciado.</td></tr>
+      <tr><td>Nice to meet you.<br>Nice to meet you too.</td><td>Prazer.<br>O prazer é meu.</td></tr>
+      <tr><td>I'm married<br>single<br>divorced.</td><td>Sou casado<br>solteiro<br>divorciado.</td></tr>
       <tr><td>I'm an only child.</td><td>Sou filho único.</td></tr>
       <tr><td>She's in her thirties.</td><td>Ela tem uns trinta e poucos anos.</td></tr>
       <tr><td>He's retired.</td><td>Ele é aposentado.</td></tr>
       <tr><td>We're engaged.</td><td>Estamos noivos.</td></tr>
       <tr><td>Are you new here?</td><td>Você é novo aqui?</td></tr>
-      <tr><td>I'm from… · I live in…</td><td>Sou de… · Moro em…</td></tr>
-      <tr><td>classmate · coworker</td><td>colega de classe · colega de trabalho</td></tr>
+      <tr><td>I'm from…<br>I live in…</td><td>Sou de…<br>Moro em…</td></tr>
+      <tr><td>classmate<br>coworker</td><td>colega de classe<br>colega de trabalho</td></tr>
     </table>
     <p class="note">Marital status, jobs and age use To Be: <i>I'm married</i>, <i>She's a lawyer</i>, <i>He's 40</i>.</p>`
   },

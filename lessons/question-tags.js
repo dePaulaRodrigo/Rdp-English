@@ -18,27 +18,27 @@ pt:`
       <li>You like coffee, <b>don't you</b>?</li>
       <li>She works here, <b>doesn't she</b>?</li>
       <li>They went to Rio, <b>didn't they</b>?</li>
-      <li>Com auxiliar: You've finished, <b>haven't you</b>? · You can swim, <b>can't you</b>? · He'll come, <b>won't he</b>?</li>
+      <li>Com auxiliar: You've finished, <b>haven't you</b>?<br>You can swim, <b>can't you</b>?<br>He'll come, <b>won't he</b>?</li>
     </ul>
     <h3>Palavras negativas</h3>
-    <p><i>never, nothing, nobody, hardly</i> contam como negativa: You never call me, <b>do you</b>? · Nothing happened, <b>did it</b>?</p>
+    <p><i>never, nothing, nobody, hardly</i> contam como negativa: You never call me, <b>do you</b>?<br>Nothing happened, <b>did it</b>?</p>
     <h3>Casos especiais</h3>
     <table>
       <tr><th>Frase</th><th>Tag</th></tr>
       <tr><td>I'm right,</td><td><b>aren't I</b>? (am I not? é formal)</td></tr>
       <tr><td>Let's go,</td><td><b>shall we</b>?</td></tr>
-      <tr><td>Close the door,</td><td><b>will you</b>? · can you?</td></tr>
+      <tr><td>Close the door,</td><td><b>will you</b>?<br>can you?</td></tr>
       <tr><td>There's a problem,</td><td><b>isn't there</b>?</td></tr>
       <tr><td>Everyone is here,</td><td><b>aren't they</b>?</td></tr>
     </table>
     <h3>Respondendo a perguntas negativas</h3>
-    <p>A resposta segue a <b>verdade</b>, não a forma da pergunta: \"You don't like coffee, do you?\" — \"<b>Yes, I do.</b>\" (gosto) · \"<b>No, I don't.</b>\" (não gosto)</p>
+    <p>A resposta segue a <b>verdade</b>, não a forma da pergunta: \"You don't like coffee, do you?\" — \"<b>Yes, I do.</b>\" (gosto)<br>\"<b>No, I don't.</b>\" (não gosto)</p>
     <h3>Entonação</h3>
-    <p>Descendo ↘ = só confirmação · subindo ↗ = pergunta de verdade.</p>
+    <p>Descendo ↘ = só confirmação<br>subindo ↗ = pergunta de verdade.</p>
     <h3>Informal e perguntas-eco</h3>
     <ul>
       <li><b>right?</b> = \"né?\" universal: You're coming tomorrow, right?</li>
-      <li>Reação: \"I'm getting married!\" — \"<b>Are you?</b>\" · \"I've been to Japan.\" — \"<b>Have you?</b>\"</li>
+      <li>Reação: \"I'm getting married!\" — \"<b>Are you?</b>\"<br>\"I've been to Japan.\" — \"<b>Have you?</b>\"</li>
     </ul>`,
 en:`
     <h2>Question tags</h2>
@@ -54,27 +54,27 @@ en:`
       <li>You like coffee, <b>don't you</b>?</li>
       <li>She works here, <b>doesn't she</b>?</li>
       <li>They went to Rio, <b>didn't they</b>?</li>
-      <li>With an auxiliary: You've finished, <b>haven't you</b>? · You can swim, <b>can't you</b>? · He'll come, <b>won't he</b>?</li>
+      <li>With an auxiliary: You've finished, <b>haven't you</b>?<br>You can swim, <b>can't you</b>?<br>He'll come, <b>won't he</b>?</li>
     </ul>
     <h3>Negative words</h3>
-    <p><i>never, nothing, nobody, hardly</i> count as negative: You never call me, <b>do you</b>? · Nothing happened, <b>did it</b>?</p>
+    <p><i>never, nothing, nobody, hardly</i> count as negative: You never call me, <b>do you</b>?<br>Nothing happened, <b>did it</b>?</p>
     <h3>Special cases</h3>
     <table>
       <tr><th>Sentence</th><th>Tag</th></tr>
       <tr><td>I'm right,</td><td><b>aren't I</b>? (am I not? is formal)</td></tr>
       <tr><td>Let's go,</td><td><b>shall we</b>?</td></tr>
-      <tr><td>Close the door,</td><td><b>will you</b>? · can you?</td></tr>
+      <tr><td>Close the door,</td><td><b>will you</b>?<br>can you?</td></tr>
       <tr><td>There's a problem,</td><td><b>isn't there</b>?</td></tr>
       <tr><td>Everyone is here,</td><td><b>aren't they</b>?</td></tr>
     </table>
     <h3>Answering negative questions</h3>
-    <p>Answer according to the <b>truth</b>, not the form of the question: \"You don't like coffee, do you?\" — \"<b>Yes, I do.</b>\" (I like it) · \"<b>No, I don't.</b>\" (I don't)</p>
+    <p>Answer according to the <b>truth</b>, not the form of the question: \"You don't like coffee, do you?\" — \"<b>Yes, I do.</b>\" (I like it)<br>\"<b>No, I don't.</b>\" (I don't)</p>
     <h3>Intonation</h3>
-    <p>Falling ↘ = just confirming · rising ↗ = a real question.</p>
+    <p>Falling ↘ = just confirming<br>rising ↗ = a real question.</p>
     <h3>Informal and reply questions</h3>
     <ul>
       <li><b>right?</b> works everywhere: You're coming tomorrow, right?</li>
-      <li>Reacting: \"I'm getting married!\" — \"<b>Are you?</b>\" · \"I've been to Japan.\" — \"<b>Have you?</b>\"</li>
+      <li>Reacting: \"I'm getting married!\" — \"<b>Are you?</b>\"<br>\"I've been to Japan.\" — \"<b>Have you?</b>\"</li>
     </ul>`
   },
   vocab:{

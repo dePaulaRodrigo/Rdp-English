@@ -15,13 +15,13 @@ pt:`
       <tr><th>Palavra</th><th>Uso</th><th>Exemplo</th></tr>
       <tr><td><b>many</b></td><td>contável</td><td>We don't have many eggs.</td></tr>
       <tr><td><b>much</b></td><td>incontável</td><td>We don't have much milk.</td></tr>
-      <tr><td><b>a lot of</b> · lots of</td><td>os dois</td><td>She buys a lot of fruit.</td></tr>
+      <tr><td><b>a lot of</b><br>lots of</td><td>os dois</td><td>She buys a lot of fruit.</td></tr>
       <tr><td><b>a lot</b></td><td>com verbo</td><td>I like this market a lot.</td></tr>
     </table>
     <p class="note"><i>Much</i> aparece mais em negativas e perguntas. Na afirmativa, prefira <i>a lot of</i>: I have a lot of time (<s>I have much time</s> soa estranho).</p>
     <h3>How much × how many</h3>
     <ul>
-      <li>How <b>much</b> rice do we need? · How <b>much</b> is it? (preço)</li>
+      <li>How <b>much</b> rice do we need?<br>How <b>much</b> is it? (preço)</li>
       <li>How <b>many</b> apples do you want?</li>
     </ul>
     <h3>Incontáveis que surpreendem</h3>
@@ -31,11 +31,11 @@ pt:`
       <li>Can you buy some bread? (<s>breads</s>)</li>
     </ul>
     <h3>Como contar um incontável</h3>
-    <p>a <b>bottle</b> of water · a <b>loaf</b> of bread · a <b>bag</b> of rice · a <b>kilo</b> of beans · a <b>carton</b> of milk · a <b>piece</b> of advice</p>
+    <p>a <b>bottle</b> of water<br>a <b>loaf</b> of bread<br>a <b>bag</b> of rice<br>a <b>kilo</b> of beans<br>a <b>carton</b> of milk<br>a <b>piece</b> of advice</p>
     <h3>Mesma palavra, outro sentido</h3>
     <ul>
-      <li>I don't drink coffee (a bebida). · Two coffees, please (duas xícaras).</li>
-      <li>I don't have time (tempo). · I went there three times (vezes).</li>
+      <li>I don't drink coffee (a bebida).<br>Two coffees, please (duas xícaras).</li>
+      <li>I don't have time (tempo).<br>I went there three times (vezes).</li>
     </ul>`,
 en:`
     <h2>Many, much, a lot of</h2>
@@ -48,13 +48,13 @@ en:`
       <tr><th>Word</th><th>Use</th><th>Example</th></tr>
       <tr><td><b>many</b></td><td>countable</td><td>We don't have many eggs.</td></tr>
       <tr><td><b>much</b></td><td>uncountable</td><td>We don't have much milk.</td></tr>
-      <tr><td><b>a lot of</b> · lots of</td><td>both</td><td>She buys a lot of fruit.</td></tr>
+      <tr><td><b>a lot of</b><br>lots of</td><td>both</td><td>She buys a lot of fruit.</td></tr>
       <tr><td><b>a lot</b></td><td>with a verb</td><td>I like this market a lot.</td></tr>
     </table>
     <p class="note"><i>Much</i> is most common in negatives and questions. In affirmatives, prefer <i>a lot of</i>: I have a lot of time (<s>I have much time</s> sounds odd).</p>
     <h3>How much × how many</h3>
     <ul>
-      <li>How <b>much</b> rice do we need? · How <b>much</b> is it? (price)</li>
+      <li>How <b>much</b> rice do we need?<br>How <b>much</b> is it? (price)</li>
       <li>How <b>many</b> apples do you want?</li>
     </ul>
     <h3>Surprising uncountables</h3>
@@ -64,11 +64,11 @@ en:`
       <li>Can you buy some bread? (<s>breads</s>)</li>
     </ul>
     <h3>Counting uncountables</h3>
-    <p>a <b>bottle</b> of water · a <b>loaf</b> of bread · a <b>bag</b> of rice · a <b>kilo</b> of beans · a <b>carton</b> of milk · a <b>piece</b> of advice</p>
+    <p>a <b>bottle</b> of water<br>a <b>loaf</b> of bread<br>a <b>bag</b> of rice<br>a <b>kilo</b> of beans<br>a <b>carton</b> of milk<br>a <b>piece</b> of advice</p>
     <h3>Same word, different meaning</h3>
     <ul>
-      <li>I don't drink coffee (the drink). · Two coffees, please (two cups).</li>
-      <li>I don't have time. · I went there three times.</li>
+      <li>I don't drink coffee (the drink).<br>Two coffees, please (two cups).</li>
+      <li>I don't have time.<br>I went there three times.</li>
     </ul>`
   },
   vocab:{
@@ -76,38 +76,38 @@ pt:`
     <h2>No mercado</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>grocery store · supermarket</td><td>mercado · supermercado</td></tr>
+      <tr><td>grocery store<br>supermarket</td><td>mercado<br>supermercado</td></tr>
       <tr><td>groceries</td><td>compras de mercado</td></tr>
       <tr><td>a shopping list</td><td>uma lista de compras</td></tr>
-      <tr><td>a cart · a basket</td><td>um carrinho · uma cesta</td></tr>
+      <tr><td>a cart<br>a basket</td><td>um carrinho<br>uma cesta</td></tr>
       <tr><td>produce</td><td>hortifrúti</td></tr>
       <tr><td>a dozen eggs</td><td>uma dúzia de ovos</td></tr>
       <tr><td>a carton of milk</td><td>uma caixa de leite</td></tr>
       <tr><td>a loaf of bread</td><td>um pão (de forma, inteiro)</td></tr>
-      <tr><td>beans · rice</td><td>feijão · arroz</td></tr>
+      <tr><td>beans<br>rice</td><td>feijão<br>arroz</td></tr>
       <tr><td>on sale</td><td>em promoção</td></tr>
       <tr><td>the checkout</td><td>o caixa</td></tr>
       <tr><td>a receipt</td><td>um recibo, a notinha</td></tr>
     </table>
-    <p class="note"><i>Beans</i> é contável (beans, no plural); <i>rice</i> é incontável. Por isso: How many beans? · How much rice?</p>`,
+    <p class="note"><i>Beans</i> é contável (beans, no plural); <i>rice</i> é incontável. Por isso: How many beans?<br>How much rice?</p>`,
 en:`
     <h2>At the supermarket</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>grocery store · supermarket</td><td>mercado · supermercado</td></tr>
+      <tr><td>grocery store<br>supermarket</td><td>mercado<br>supermercado</td></tr>
       <tr><td>groceries</td><td>compras de mercado</td></tr>
       <tr><td>a shopping list</td><td>uma lista de compras</td></tr>
-      <tr><td>a cart · a basket</td><td>um carrinho · uma cesta</td></tr>
+      <tr><td>a cart<br>a basket</td><td>um carrinho<br>uma cesta</td></tr>
       <tr><td>produce</td><td>hortifrúti</td></tr>
       <tr><td>a dozen eggs</td><td>uma dúzia de ovos</td></tr>
       <tr><td>a carton of milk</td><td>uma caixa de leite</td></tr>
       <tr><td>a loaf of bread</td><td>um pão (de forma, inteiro)</td></tr>
-      <tr><td>beans · rice</td><td>feijão · arroz</td></tr>
+      <tr><td>beans<br>rice</td><td>feijão<br>arroz</td></tr>
       <tr><td>on sale</td><td>em promoção</td></tr>
       <tr><td>the checkout</td><td>o caixa</td></tr>
       <tr><td>a receipt</td><td>um recibo, a notinha</td></tr>
     </table>
-    <p class="note"><i>Beans</i> is countable (plural); <i>rice</i> is uncountable. So: How many beans? · How much rice?</p>`
+    <p class="note"><i>Beans</i> is countable (plural); <i>rice</i> is uncountable. So: How many beans?<br>How much rice?</p>`
   },
   exercises:[
     { id:"mc-easy", title:"Multiple choice — many, much, a lot of", type:"mc",

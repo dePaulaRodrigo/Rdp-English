@@ -23,27 +23,27 @@ pt:`
       <tr><th>Regra</th><th>Exemplos</th></tr>
       <tr><td>+ ER / EST</td><td>tall → taller → the tallest</td></tr>
       <tr><td>-E: + R / ST</td><td>nice → nicer → the nicest</td></tr>
-      <tr><td>consoante-vogal-consoante: dobra</td><td>big → bigger · hot → the hottest</td></tr>
+      <tr><td>consoante-vogal-consoante: dobra</td><td>big → bigger<br>hot → the hottest</td></tr>
       <tr><td>consoante + Y: -IER / -IEST</td><td>easy → easier → the easiest</td></tr>
     </table>
     <h3>Irregulares</h3>
     <table>
       <tr><th>Base</th><th>Comparativo</th><th>Superlativo</th></tr>
-      <tr><td>good · well</td><td>better</td><td>the best</td></tr>
-      <tr><td>bad · badly</td><td>worse</td><td>the worst</td></tr>
+      <tr><td>good<br>well</td><td>better</td><td>the best</td></tr>
+      <tr><td>bad<br>badly</td><td>worse</td><td>the worst</td></tr>
       <tr><td>far</td><td>farther / further</td><td>the farthest / the furthest</td></tr>
       <tr><td>little</td><td>less</td><td>the least</td></tr>
-      <tr><td>much · many</td><td>more</td><td>the most</td></tr>
+      <tr><td>much<br>many</td><td>more</td><td>the most</td></tr>
     </table>
     <h3>Outras comparações</h3>
     <ul>
       <li><b>as … as</b> = tão … quanto: Lisbon is <b>as old as</b> Rome? No!</li>
       <li><b>not as … as</b> = não tão … quanto</li>
-      <li><b>less</b> + incontável · <b>fewer</b> + contável: less time · fewer people</li>
+      <li><b>less</b> + incontável<br><b>fewer</b> + contável: less time<br>fewer people</li>
       <li><b>much / a lot / far</b> + comparativo = muito mais: much bigger</li>
       <li><b>a bit / a little</b> + comparativo = um pouco: a bit cheaper</li>
       <li><b>one of the</b> + superlativo + plural: one of the largest cities</li>
-      <li><b>-er and -er</b> = cada vez mais: bigger and bigger · more and more expensive</li>
+      <li><b>-er and -er</b> = cada vez mais: bigger and bigger<br>more and more expensive</li>
     </ul>
     <p class="note">She's taller <b>than me</b> (informal, o mais comum) = She's taller <b>than I am</b> (formal).</p>`,
 en:`
@@ -65,27 +65,27 @@ en:`
       <tr><th>Rule</th><th>Examples</th></tr>
       <tr><td>+ ER / EST</td><td>tall → taller → the tallest</td></tr>
       <tr><td>-E: + R / ST</td><td>nice → nicer → the nicest</td></tr>
-      <tr><td>consonant-vowel-consonant: double</td><td>big → bigger · hot → the hottest</td></tr>
+      <tr><td>consonant-vowel-consonant: double</td><td>big → bigger<br>hot → the hottest</td></tr>
       <tr><td>consonant + Y: -IER / -IEST</td><td>easy → easier → the easiest</td></tr>
     </table>
     <h3>Irregulars</h3>
     <table>
       <tr><th>Base</th><th>Comparative</th><th>Superlative</th></tr>
-      <tr><td>good · well</td><td>better</td><td>the best</td></tr>
-      <tr><td>bad · badly</td><td>worse</td><td>the worst</td></tr>
+      <tr><td>good<br>well</td><td>better</td><td>the best</td></tr>
+      <tr><td>bad<br>badly</td><td>worse</td><td>the worst</td></tr>
       <tr><td>far</td><td>farther / further</td><td>the farthest / the furthest</td></tr>
       <tr><td>little</td><td>less</td><td>the least</td></tr>
-      <tr><td>much · many</td><td>more</td><td>the most</td></tr>
+      <tr><td>much<br>many</td><td>more</td><td>the most</td></tr>
     </table>
     <h3>Other comparisons</h3>
     <ul>
       <li><b>as … as</b>: Is Lisbon <b>as old as</b> Rome? No!</li>
       <li><b>not as … as</b></li>
-      <li><b>less</b> + uncountable · <b>fewer</b> + countable: less time · fewer people</li>
+      <li><b>less</b> + uncountable<br><b>fewer</b> + countable: less time<br>fewer people</li>
       <li><b>much / a lot / far</b> + comparative: much bigger</li>
       <li><b>a bit / a little</b> + comparative: a bit cheaper</li>
       <li><b>one of the</b> + superlative + plural: one of the largest cities</li>
-      <li><b>-er and -er</b>: bigger and bigger · more and more expensive</li>
+      <li><b>-er and -er</b>: bigger and bigger<br>more and more expensive</li>
     </ul>
     <p class="note">She's taller <b>than me</b> (informal, most common) = She's taller <b>than I am</b> (formal).</p>`
   },
@@ -94,15 +94,15 @@ pt:`
     <h2>Países e cidades</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>large · huge</td><td>grande · enorme</td></tr>
-      <tr><td>populated · crowded</td><td>populoso · lotado</td></tr>
+      <tr><td>large<br>huge</td><td>grande<br>enorme</td></tr>
+      <tr><td>populated<br>crowded</td><td>populoso<br>lotado</td></tr>
       <tr><td>population</td><td>população</td></tr>
       <tr><td>capital</td><td>capital</td></tr>
-      <tr><td>coast · coastline</td><td>litoral</td></tr>
-      <tr><td>high · deep · long</td><td>alto · profundo · comprido</td></tr>
-      <tr><td>dry · wet · humid</td><td>seco · chuvoso · úmido</td></tr>
+      <tr><td>coast<br>coastline</td><td>litoral</td></tr>
+      <tr><td>high<br>deep<br>long</td><td>alto<br>profundo<br>comprido</td></tr>
+      <tr><td>dry<br>wet<br>humid</td><td>seco<br>chuvoso<br>úmido</td></tr>
       <tr><td>ancient</td><td>antigo, da Antiguidade</td></tr>
-      <tr><td>safe · dangerous</td><td>seguro · perigoso</td></tr>
+      <tr><td>safe<br>dangerous</td><td>seguro<br>perigoso</td></tr>
       <tr><td>the cost of living</td><td>o custo de vida</td></tr>
       <tr><td>a landmark</td><td>um ponto turístico, marco</td></tr>
       <tr><td>square kilometers (km²)</td><td>quilômetros quadrados</td></tr>
@@ -112,15 +112,15 @@ en:`
     <h2>Countries and cities</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>large · huge</td><td>grande · enorme</td></tr>
-      <tr><td>populated · crowded</td><td>populoso · lotado</td></tr>
+      <tr><td>large<br>huge</td><td>grande<br>enorme</td></tr>
+      <tr><td>populated<br>crowded</td><td>populoso<br>lotado</td></tr>
       <tr><td>population</td><td>população</td></tr>
       <tr><td>capital</td><td>capital</td></tr>
-      <tr><td>coast · coastline</td><td>litoral</td></tr>
-      <tr><td>high · deep · long</td><td>alto · profundo · comprido</td></tr>
-      <tr><td>dry · wet · humid</td><td>seco · chuvoso · úmido</td></tr>
+      <tr><td>coast<br>coastline</td><td>litoral</td></tr>
+      <tr><td>high<br>deep<br>long</td><td>alto<br>profundo<br>comprido</td></tr>
+      <tr><td>dry<br>wet<br>humid</td><td>seco<br>chuvoso<br>úmido</td></tr>
       <tr><td>ancient</td><td>antigo, da Antiguidade</td></tr>
-      <tr><td>safe · dangerous</td><td>seguro · perigoso</td></tr>
+      <tr><td>safe<br>dangerous</td><td>seguro<br>perigoso</td></tr>
       <tr><td>the cost of living</td><td>o custo de vida</td></tr>
       <tr><td>a landmark</td><td>um ponto turístico, marco</td></tr>
       <tr><td>square kilometers (km²)</td><td>quilômetros quadrados</td></tr>

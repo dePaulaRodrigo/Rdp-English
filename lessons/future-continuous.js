@@ -13,10 +13,10 @@ pt:`
       <li>Don't call me at 7. I'll be driving.</li>
       <li>In 2061, astronomers will be watching Halley's Comet again.</li>
     </ul>
-    <p>Negativa: I won't be working on Sunday. · Pergunta: Will you be using the car tonight?</p>
+    <p>Negativa: I won't be working on Sunday.<br>Pergunta: Will you be using the car tonight?</p>
     <h3>Perguntas educadas</h3>
-    <p>Perguntar sobre os planos da pessoa soa menos direto que pedir: <i>Will you be using the car tonight?</i> é mais educado que <i>Can I use the car?</i> · Will you be joining us for dinner?</p>
-    <p>Expressões típicas: this time next week · this time tomorrow · at 8 p.m. tomorrow · in ten years' time</p>
+    <p>Perguntar sobre os planos da pessoa soa menos direto que pedir: <i>Will you be using the car tonight?</i> é mais educado que <i>Can I use the car?</i><br>Will you be joining us for dinner?</p>
+    <p>Expressões típicas: this time next week<br>this time tomorrow<br>at 8 p.m. tomorrow<br>in ten years' time</p>
     <h3>Cuidado com o gerundismo</h3>
     <p>O "vou estar enviando" do telemarketing não vira Future Continuous. Para uma promessa ou ação simples, use o WILL:</p>
     <ul>
@@ -43,10 +43,10 @@ en:`
       <li>Don't call me at 7. I'll be driving.</li>
       <li>In 2061, astronomers will be watching Halley's Comet again.</li>
     </ul>
-    <p>Negative: I won't be working on Sunday. · Question: Will you be using the car tonight?</p>
+    <p>Negative: I won't be working on Sunday.<br>Question: Will you be using the car tonight?</p>
     <h3>Polite questions</h3>
-    <p>Asking about someone's plans sounds less direct than a request: <i>Will you be using the car tonight?</i> is more polite than <i>Can I use the car?</i> · Will you be joining us for dinner?</p>
-    <p>Typical expressions: this time next week · this time tomorrow · at 8 p.m. tomorrow · in ten years' time</p>
+    <p>Asking about someone's plans sounds less direct than a request: <i>Will you be using the car tonight?</i> is more polite than <i>Can I use the car?</i><br>Will you be joining us for dinner?</p>
+    <p>Typical expressions: this time next week<br>this time tomorrow<br>at 8 p.m. tomorrow<br>in ten years' time</p>
     <h3>Careful with "gerundismo"</h3>
     <p>For a simple promise or action, use WILL, not the Future Continuous:</p>
     <ul>
@@ -70,14 +70,14 @@ pt:`
     <h2>Planejando uma viagem</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to land · to take off</td><td>pousar · decolar</td></tr>
-      <tr><td>arrival · departure</td><td>chegada · partida</td></tr>
+      <tr><td>to land<br>to take off</td><td>pousar<br>decolar</td></tr>
+      <tr><td>arrival<br>departure</td><td>chegada<br>partida</td></tr>
       <tr><td>to pick someone up</td><td>buscar alguém</td></tr>
       <tr><td>airport shuttle</td><td>traslado do aeroporto</td></tr>
       <tr><td>front desk</td><td>recepção (do hotel)</td></tr>
       <tr><td>late checkout</td><td>saída tardia do hotel</td></tr>
-      <tr><td>to look after · to take care of</td><td>cuidar de</td></tr>
-      <tr><td>pet sitter · house sitter</td><td>quem cuida do animal · da casa</td></tr>
+      <tr><td>to look after<br>to take care of</td><td>cuidar de</td></tr>
+      <tr><td>pet sitter<br>house sitter</td><td>quem cuida do animal<br>da casa</td></tr>
       <tr><td>out-of-office message</td><td>resposta automática de ausência</td></tr>
       <tr><td>to be away</td><td>estar fora, viajando</td></tr>
       <tr><td>to be back</td><td>estar de volta</td></tr>
@@ -88,14 +88,14 @@ en:`
     <h2>Planning a trip</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to land · to take off</td><td>pousar · decolar</td></tr>
-      <tr><td>arrival · departure</td><td>chegada · partida</td></tr>
+      <tr><td>to land<br>to take off</td><td>pousar<br>decolar</td></tr>
+      <tr><td>arrival<br>departure</td><td>chegada<br>partida</td></tr>
       <tr><td>to pick someone up</td><td>buscar alguém</td></tr>
       <tr><td>airport shuttle</td><td>traslado do aeroporto</td></tr>
       <tr><td>front desk</td><td>recepção (do hotel)</td></tr>
       <tr><td>late checkout</td><td>saída tardia do hotel</td></tr>
-      <tr><td>to look after · to take care of</td><td>cuidar de</td></tr>
-      <tr><td>pet sitter · house sitter</td><td>quem cuida do animal · da casa</td></tr>
+      <tr><td>to look after<br>to take care of</td><td>cuidar de</td></tr>
+      <tr><td>pet sitter<br>house sitter</td><td>quem cuida do animal<br>da casa</td></tr>
       <tr><td>out-of-office message</td><td>resposta automática de ausência</td></tr>
       <tr><td>to be away</td><td>estar fora, viajando</td></tr>
       <tr><td>to be back</td><td>estar de volta</td></tr>

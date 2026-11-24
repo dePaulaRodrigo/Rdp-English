@@ -12,11 +12,11 @@ pt:`
     </ul>
     <h3>A ou AN: o que conta é o som</h3>
     <ul>
-      <li><b>a</b> antes de som de consoante: a boy · a bakery</li>
-      <li><b>an</b> antes de som de vogal: an apple · an engineer</li>
-      <li>H mudo: <b>an</b> hour · <b>an</b> honest man</li>
-      <li>U e EU com som de /ju/: <b>a</b> university · <b>a</b> European country</li>
-      <li>Siglas lidas letra por letra: <b>an</b> MBA (/ɛm/) · <b>an</b> X-ray</li>
+      <li><b>a</b> antes de som de consoante: a boy<br>a bakery</li>
+      <li><b>an</b> antes de som de vogal: an apple<br>an engineer</li>
+      <li>H mudo: <b>an</b> hour<br><b>an</b> honest man</li>
+      <li>U e EU com som de /ju/: <b>a</b> university<br><b>a</b> European country</li>
+      <li>Siglas lidas letra por letra: <b>an</b> MBA (/ɛm/)<br><b>an</b> X-ray</li>
     </ul>
     <p class="note">O <i>the</i> também muda: /ðə/ antes de consoante (the book), /ði/ antes de vogal (the apple).</p>
     <h3>Quando usar A / AN</h3>
@@ -24,31 +24,31 @@ pt:`
       <li>Primeira menção, ou um qualquer: I bought <b>a</b> book.</li>
       <li>Profissões: "Ela é médica." → She is <b>a</b> doctor. (<s>She is doctor</s>)</li>
       <li>Contável no singular nunca fica sozinho: "Tenho carro." → I have <b>a</b> car.</li>
-      <li>No sentido de "por": twice <b>a</b> week · five dollars <b>a</b> pound · sixty miles <b>an</b> hour</li>
+      <li>No sentido de "por": twice <b>a</b> week<br>five dollars <b>a</b> pound<br>sixty miles <b>an</b> hour</li>
       <li>Exclamações: What <b>a</b> beautiful day!</li>
     </ul>
     <h3>Quando usar THE</h3>
     <ul>
       <li>Quando os dois lados sabem de qual se fala, inclusive na segunda menção: I bought a book. <b>The</b> book is great.</li>
-      <li>O que é único: <b>the</b> sun · <b>the</b> internet · <b>the</b> world</li>
-      <li>Superlativos e ordinais: <b>the</b> best · <b>the</b> first</li>
+      <li>O que é único: <b>the</b> sun<br><b>the</b> internet<br><b>the</b> world</li>
+      <li>Superlativos e ordinais: <b>the</b> best<br><b>the</b> first</li>
       <li>Instrumentos musicais: I play <b>the</b> piano.</li>
-      <li>Oceanos, rios, cadeias de montanhas, desertos: <b>the</b> Atlantic · <b>the</b> Amazon · <b>the</b> Andes</li>
-      <li>Países com plural ou com <i>States, Kingdom, Republic</i>: <b>the</b> United States · <b>the</b> UK · <b>the</b> Netherlands</li>
-      <li>Museus, hotéis, teatros: <b>the</b> Louvre · <b>the</b> Ritz</li>
+      <li>Oceanos, rios, cadeias de montanhas, desertos: <b>the</b> Atlantic<br><b>the</b> Amazon<br><b>the</b> Andes</li>
+      <li>Países com plural ou com <i>States, Kingdom, Republic</i>: <b>the</b> United States<br><b>the</b> UK<br><b>the</b> Netherlands</li>
+      <li>Museus, hotéis, teatros: <b>the</b> Louvre<br><b>the</b> Ritz</li>
     </ul>
     <h3>Quando NÃO usar artigo</h3>
     <ul>
-      <li>Nomes de pessoas e da maioria dos lugares: Brazil · Rio · Oxford Street · Central Park · Mount Everest. "Chamei o Pedro" → I called Pedro.</li>
+      <li>Nomes de pessoas e da maioria dos lugares: Brazil<br>Rio<br>Oxford Street<br>Central Park<br>Mount Everest. "Chamei o Pedro" → I called Pedro.</li>
       <li>Possessivos: "O meu chefe" → My boss.</li>
-      <li>Plurais genéricos e ideias em geral: Dogs are happy. · Life is short. Mas, delimitado: <b>the</b> history <b>of</b> Brazil.</li>
-      <li>Idiomas, refeições, esportes, matérias: I speak English · have breakfast · play soccer · study chemistry</li>
-      <li>Dias, meses, estações: on Monday · in July · in summer</li>
-      <li>Lugares pela função: go to school · go to work · go to bed · go to church · be at home</li>
+      <li>Plurais genéricos e ideias em geral: Dogs are happy.<br>Life is short. Mas, delimitado: <b>the</b> history <b>of</b> Brazil.</li>
+      <li>Idiomas, refeições, esportes, matérias: I speak English<br>have breakfast<br>play soccer<br>study chemistry</li>
+      <li>Dias, meses, estações: on Monday<br>in July<br>in summer</li>
+      <li>Lugares pela função: go to school<br>go to work<br>go to bed<br>go to church<br>be at home</li>
     </ul>
     <p class="note">Compare: <i>We go to church on Sundays</i> (para a missa) × <i>The church on our street is old</i> (o prédio). <i>Home</i> não leva artigo nem <i>to</i>: I'm going home. No inglês americano, <i>hospital</i> leva artigo: She is in <b>the</b> hospital.</p>
     <h3>Preposição + artigo</h3>
-    <p>O português junta preposição e artigo; o inglês mantém separados: na → in the / on the · da → of the · num → in a. "O melhor do mundo" → the best <b>in the</b> world.</p>`,
+    <p>O português junta preposição e artigo; o inglês mantém separados: na → in the / on the<br>da → of the<br>num → in a. "O melhor do mundo" → the best <b>in the</b> world.</p>`,
 en:`
     <h2>Articles</h2>
     <ul>
@@ -57,11 +57,11 @@ en:`
     </ul>
     <h3>A or AN: the sound is what counts</h3>
     <ul>
-      <li><b>a</b> before a consonant sound: a boy · a bakery</li>
-      <li><b>an</b> before a vowel sound: an apple · an engineer</li>
-      <li>Silent H: <b>an</b> hour · <b>an</b> honest man</li>
-      <li>U and EU sounding /ju/: <b>a</b> university · <b>a</b> European country</li>
-      <li>Abbreviations read letter by letter: <b>an</b> MBA (/ɛm/) · <b>an</b> X-ray</li>
+      <li><b>a</b> before a consonant sound: a boy<br>a bakery</li>
+      <li><b>an</b> before a vowel sound: an apple<br>an engineer</li>
+      <li>Silent H: <b>an</b> hour<br><b>an</b> honest man</li>
+      <li>U and EU sounding /ju/: <b>a</b> university<br><b>a</b> European country</li>
+      <li>Abbreviations read letter by letter: <b>an</b> MBA (/ɛm/)<br><b>an</b> X-ray</li>
     </ul>
     <p class="note"><i>The</i> changes too: /ðə/ before a consonant (the book), /ði/ before a vowel (the apple).</p>
     <h3>When to use A / AN</h3>
@@ -69,31 +69,31 @@ en:`
       <li>First mention, or any one: I bought <b>a</b> book.</li>
       <li>Jobs: She is <b>a</b> doctor. (<s>She is doctor</s>)</li>
       <li>A singular countable noun never stands alone: I have <b>a</b> car.</li>
-      <li>Meaning "per": twice <b>a</b> week · five dollars <b>a</b> pound · sixty miles <b>an</b> hour</li>
+      <li>Meaning "per": twice <b>a</b> week<br>five dollars <b>a</b> pound<br>sixty miles <b>an</b> hour</li>
       <li>Exclamations: What <b>a</b> beautiful day!</li>
     </ul>
     <h3>When to use THE</h3>
     <ul>
       <li>When both sides know which one, including second mention: I bought a book. <b>The</b> book is great.</li>
-      <li>Unique things: <b>the</b> sun · <b>the</b> internet · <b>the</b> world</li>
-      <li>Superlatives and ordinals: <b>the</b> best · <b>the</b> first</li>
+      <li>Unique things: <b>the</b> sun<br><b>the</b> internet<br><b>the</b> world</li>
+      <li>Superlatives and ordinals: <b>the</b> best<br><b>the</b> first</li>
       <li>Musical instruments: I play <b>the</b> piano.</li>
-      <li>Oceans, rivers, mountain ranges, deserts: <b>the</b> Atlantic · <b>the</b> Amazon · <b>the</b> Andes</li>
-      <li>Countries with a plural or with <i>States, Kingdom, Republic</i>: <b>the</b> United States · <b>the</b> UK · <b>the</b> Netherlands</li>
-      <li>Museums, hotels, theaters: <b>the</b> Louvre · <b>the</b> Ritz</li>
+      <li>Oceans, rivers, mountain ranges, deserts: <b>the</b> Atlantic<br><b>the</b> Amazon<br><b>the</b> Andes</li>
+      <li>Countries with a plural or with <i>States, Kingdom, Republic</i>: <b>the</b> United States<br><b>the</b> UK<br><b>the</b> Netherlands</li>
+      <li>Museums, hotels, theaters: <b>the</b> Louvre<br><b>the</b> Ritz</li>
     </ul>
     <h3>When NOT to use an article</h3>
     <ul>
-      <li>Names of people and most places: Brazil · Rio · Oxford Street · Central Park · Mount Everest. I called Pedro.</li>
+      <li>Names of people and most places: Brazil<br>Rio<br>Oxford Street<br>Central Park<br>Mount Everest. I called Pedro.</li>
       <li>Possessives: My boss.</li>
-      <li>Generic plurals and ideas in general: Dogs are happy. · Life is short. But, when limited: <b>the</b> history <b>of</b> Brazil.</li>
-      <li>Languages, meals, sports, school subjects: I speak English · have breakfast · play soccer · study chemistry</li>
-      <li>Days, months, seasons: on Monday · in July · in summer</li>
-      <li>Places used for their purpose: go to school · go to work · go to bed · go to church · be at home</li>
+      <li>Generic plurals and ideas in general: Dogs are happy.<br>Life is short. But, when limited: <b>the</b> history <b>of</b> Brazil.</li>
+      <li>Languages, meals, sports, school subjects: I speak English<br>have breakfast<br>play soccer<br>study chemistry</li>
+      <li>Days, months, seasons: on Monday<br>in July<br>in summer</li>
+      <li>Places used for their purpose: go to school<br>go to work<br>go to bed<br>go to church<br>be at home</li>
     </ul>
     <p class="note">Compare: <i>We go to church on Sundays</i> (for Mass) × <i>The church on our street is old</i> (the building). <i>Home</i> takes no article and no <i>to</i>: I'm going home. In American English, <i>hospital</i> takes the article: She is in <b>the</b> hospital.</p>
     <h3>Preposition + article</h3>
-    <p>Portuguese merges prepositions and articles; English keeps them apart: in the · on the · of the · in a. The best <b>in the</b> world.</p>`
+    <p>Portuguese merges prepositions and articles; English keeps them apart: in the<br>on the<br>of the<br>in a. The best <b>in the</b> world.</p>`
   },
   vocab:{
 pt:`
@@ -105,8 +105,8 @@ pt:`
       <tr><td>block</td><td>quarteirão</td></tr>
       <tr><td>corner</td><td>esquina</td></tr>
       <tr><td>bakery</td><td>padaria</td></tr>
-      <tr><td>pharmacy · drugstore</td><td>farmácia</td></tr>
-      <tr><td>grocery store · supermarket</td><td>mercado</td></tr>
+      <tr><td>pharmacy<br>drugstore</td><td>farmácia</td></tr>
+      <tr><td>grocery store<br>supermarket</td><td>mercado</td></tr>
       <tr><td>subway station</td><td>estação de metrô</td></tr>
       <tr><td>bus stop</td><td>ponto de ônibus</td></tr>
       <tr><td>gas station</td><td>posto de gasolina</td></tr>
@@ -114,7 +114,7 @@ pt:`
       <tr><td>post office</td><td>agência dos correios</td></tr>
       <tr><td>city hall</td><td>prefeitura</td></tr>
       <tr><td>square</td><td>praça</td></tr>
-      <tr><td>sidewalk · crosswalk</td><td>calçada · faixa de pedestres</td></tr>
+      <tr><td>sidewalk<br>crosswalk</td><td>calçada<br>faixa de pedestres</td></tr>
       <tr><td>traffic light</td><td>semáforo</td></tr>
     </table>
     <h2>Como chegar</h2>
@@ -123,9 +123,9 @@ pt:`
       <tr><td>Excuse me, where is…?</td><td>Com licença, onde fica…?</td></tr>
       <tr><td>Is there a… near here?</td><td>Tem algum… aqui perto?</td></tr>
       <tr><td>go straight</td><td>siga em frente</td></tr>
-      <tr><td>turn left · turn right</td><td>vire à esquerda · à direita</td></tr>
+      <tr><td>turn left<br>turn right</td><td>vire à esquerda<br>à direita</td></tr>
       <tr><td>on the corner of… and…</td><td>na esquina da… com a…</td></tr>
-      <tr><td>next to · across from</td><td>ao lado de · em frente a (do outro lado)</td></tr>
+      <tr><td>next to<br>across from</td><td>ao lado de<br>em frente a (do outro lado)</td></tr>
       <tr><td>It's a five-minute walk.</td><td>São cinco minutos a pé.</td></tr>
     </table>
     <p class="note">No inglês americano, <i>subway</i> é o metrô. No britânico, <i>subway</i> é uma passagem subterrânea para pedestres.</p>`,
@@ -138,8 +138,8 @@ en:`
       <tr><td>block</td><td>quarteirão</td></tr>
       <tr><td>corner</td><td>esquina</td></tr>
       <tr><td>bakery</td><td>padaria</td></tr>
-      <tr><td>pharmacy · drugstore</td><td>farmácia</td></tr>
-      <tr><td>grocery store · supermarket</td><td>mercado</td></tr>
+      <tr><td>pharmacy<br>drugstore</td><td>farmácia</td></tr>
+      <tr><td>grocery store<br>supermarket</td><td>mercado</td></tr>
       <tr><td>subway station</td><td>estação de metrô</td></tr>
       <tr><td>bus stop</td><td>ponto de ônibus</td></tr>
       <tr><td>gas station</td><td>posto de gasolina</td></tr>
@@ -147,7 +147,7 @@ en:`
       <tr><td>post office</td><td>agência dos correios</td></tr>
       <tr><td>city hall</td><td>prefeitura</td></tr>
       <tr><td>square</td><td>praça</td></tr>
-      <tr><td>sidewalk · crosswalk</td><td>calçada · faixa de pedestres</td></tr>
+      <tr><td>sidewalk<br>crosswalk</td><td>calçada<br>faixa de pedestres</td></tr>
       <tr><td>traffic light</td><td>semáforo</td></tr>
     </table>
     <h2>Directions</h2>
@@ -156,9 +156,9 @@ en:`
       <tr><td>Excuse me, where is…?</td><td>Com licença, onde fica…?</td></tr>
       <tr><td>Is there a… near here?</td><td>Tem algum… aqui perto?</td></tr>
       <tr><td>go straight</td><td>siga em frente</td></tr>
-      <tr><td>turn left · turn right</td><td>vire à esquerda · à direita</td></tr>
+      <tr><td>turn left<br>turn right</td><td>vire à esquerda<br>à direita</td></tr>
       <tr><td>on the corner of… and…</td><td>na esquina da… com a…</td></tr>
-      <tr><td>next to · across from</td><td>ao lado de · em frente a (do outro lado)</td></tr>
+      <tr><td>next to<br>across from</td><td>ao lado de<br>em frente a (do outro lado)</td></tr>
       <tr><td>It's a five-minute walk.</td><td>São cinco minutos a pé.</td></tr>
     </table>
     <p class="note">In American English, the <i>subway</i> is the underground train. In British English, a <i>subway</i> is a pedestrian underpass.</p>`

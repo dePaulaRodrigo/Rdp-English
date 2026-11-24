@@ -9,18 +9,18 @@ pt:`
     <p>Depois de uma preposição (in, at, of, about, for, without, by, before, after…), o verbo vai para o <b>-ING</b>, porque ali ele funciona como substantivo.</p>
     <ul>
       <li>I'm interested <b>in learning</b> Italian. (<s>in learn</s>)</li>
-      <li>Thanks <b>for coming</b>! · She left <b>without saying</b> goodbye.</li>
+      <li>Thanks <b>for coming</b>!<br>She left <b>without saying</b> goodbye.</li>
     </ul>
     <h3>Expressões comuns</h3>
     <table>
       <tr><th>Expressão</th><th>Exemplo</th></tr>
-      <tr><td>interested in · good at</td><td>She's good at solving problems.</td></tr>
-      <tr><td>tired of · afraid of</td><td>I'm tired of waiting.</td></tr>
+      <tr><td>interested in<br>good at</td><td>She's good at solving problems.</td></tr>
+      <tr><td>tired of<br>afraid of</td><td>I'm tired of waiting.</td></tr>
       <tr><td>think about / of</td><td>We're thinking about moving.</td></tr>
-      <tr><td>thanks for · apologize for</td><td>Sorry for being late.</td></tr>
-      <tr><td>insist on · succeed in</td><td>He insisted on paying.</td></tr>
+      <tr><td>thanks for<br>apologize for</td><td>Sorry for being late.</td></tr>
+      <tr><td>insist on<br>succeed in</td><td>He insisted on paying.</td></tr>
       <tr><td>instead of</td><td>Let's walk instead of taking a taxi.</td></tr>
-      <tr><td>before · after</td><td>Brush your teeth before going to bed.</td></tr>
+      <tr><td>before<br>after</td><td>Brush your teeth before going to bed.</td></tr>
       <tr><td>by (o método)</td><td>You learn a language by using it.</td></tr>
     </table>
     <h3>O TO que é preposição</h3>
@@ -30,13 +30,13 @@ pt:`
       <li>I'm used to <b>the cold</b>. ✓ → I'm used to <b>waking up</b> early.</li>
       <li>I want to <s>the trip</s> ✗ → I want to <b>go</b>.</li>
     </ul>
-    <p>Outras: <b>get used to · be committed to · object to · when it comes to · in addition to</b>.</p>
+    <p>Outras: <b>get used to<br>be committed to<br>object to<br>when it comes to<br>in addition to</b>.</p>
     <h3>-ING como sujeito</h3>
-    <p><b>Swimming is</b> good for your back. · <b>Learning</b> a language <b>takes</b> time. (verbo no singular)</p>
+    <p><b>Swimming is</b> good for your back.<br><b>Learning</b> a language <b>takes</b> time. (verbo no singular)</p>
     <h3>Os usos do -ING</h3>
     <ul>
       <li>Com be = gerúndio: I am talking.</li>
-      <li>Sem be = atividade (substantivo): I enjoy working. · Driving is fun.</li>
+      <li>Sem be = atividade (substantivo): I enjoy working.<br>Driving is fun.</li>
       <li>Adjetivo: an interesting book.</li>
     </ul>`,
 en:`
@@ -44,18 +44,18 @@ en:`
     <p>After a preposition (in, at, of, about, for, without, by, before, after…), the verb takes <b>-ING</b>, because it works like a noun there.</p>
     <ul>
       <li>I'm interested <b>in learning</b> Italian. (<s>in learn</s>)</li>
-      <li>Thanks <b>for coming</b>! · She left <b>without saying</b> goodbye.</li>
+      <li>Thanks <b>for coming</b>!<br>She left <b>without saying</b> goodbye.</li>
     </ul>
     <h3>Common expressions</h3>
     <table>
       <tr><th>Expression</th><th>Example</th></tr>
-      <tr><td>interested in · good at</td><td>She's good at solving problems.</td></tr>
-      <tr><td>tired of · afraid of</td><td>I'm tired of waiting.</td></tr>
+      <tr><td>interested in<br>good at</td><td>She's good at solving problems.</td></tr>
+      <tr><td>tired of<br>afraid of</td><td>I'm tired of waiting.</td></tr>
       <tr><td>think about / of</td><td>We're thinking about moving.</td></tr>
-      <tr><td>thanks for · apologize for</td><td>Sorry for being late.</td></tr>
-      <tr><td>insist on · succeed in</td><td>He insisted on paying.</td></tr>
+      <tr><td>thanks for<br>apologize for</td><td>Sorry for being late.</td></tr>
+      <tr><td>insist on<br>succeed in</td><td>He insisted on paying.</td></tr>
       <tr><td>instead of</td><td>Let's walk instead of taking a taxi.</td></tr>
-      <tr><td>before · after</td><td>Brush your teeth before going to bed.</td></tr>
+      <tr><td>before<br>after</td><td>Brush your teeth before going to bed.</td></tr>
       <tr><td>by (the method)</td><td>You learn a language by using it.</td></tr>
     </table>
     <h3>When TO is a preposition</h3>
@@ -65,13 +65,13 @@ en:`
       <li>I'm used to <b>the cold</b>. ✓ → I'm used to <b>waking up</b> early.</li>
       <li>I want to <s>the trip</s> ✗ → I want to <b>go</b>.</li>
     </ul>
-    <p>Others: <b>get used to · be committed to · object to · when it comes to · in addition to</b>.</p>
+    <p>Others: <b>get used to<br>be committed to<br>object to<br>when it comes to<br>in addition to</b>.</p>
     <h3>-ING as a subject</h3>
-    <p><b>Swimming is</b> good for your back. · <b>Learning</b> a language <b>takes</b> time. (singular verb)</p>
+    <p><b>Swimming is</b> good for your back.<br><b>Learning</b> a language <b>takes</b> time. (singular verb)</p>
     <h3>Uses of -ING</h3>
     <ul>
       <li>With be = continuous: I am talking.</li>
-      <li>Without be = activity (noun): I enjoy working. · Driving is fun.</li>
+      <li>Without be = activity (noun): I enjoy working.<br>Driving is fun.</li>
       <li>Adjective: an interesting book.</li>
     </ul>`
   },
@@ -82,7 +82,7 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>to be keen on</td><td>estar animado com, gostar de</td></tr>
       <tr><td>to look forward to</td><td>aguardar com expectativa</td></tr>
-      <tr><td>a goal · a dream</td><td>uma meta · um sonho</td></tr>
+      <tr><td>a goal<br>a dream</td><td>uma meta<br>um sonho</td></tr>
       <tr><td>to sign up for</td><td>inscrever-se em</td></tr>
       <tr><td>an online course</td><td>um curso on-line</td></tr>
       <tr><td>a career change</td><td>uma mudança de carreira</td></tr>
@@ -100,7 +100,7 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>to be keen on</td><td>estar animado com, gostar de</td></tr>
       <tr><td>to look forward to</td><td>aguardar com expectativa</td></tr>
-      <tr><td>a goal · a dream</td><td>uma meta · um sonho</td></tr>
+      <tr><td>a goal<br>a dream</td><td>uma meta<br>um sonho</td></tr>
       <tr><td>to sign up for</td><td>inscrever-se em</td></tr>
       <tr><td>an online course</td><td>um curso on-line</td></tr>
       <tr><td>a career change</td><td>uma mudança de carreira</td></tr>

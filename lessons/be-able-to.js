@@ -21,7 +21,7 @@ pt:`
       <li><b>Depois de TO</b>: I want to be able to travel more.</li>
       <li><b>Depois de preposição, com -ING</b>: I hate not being able to help.</li>
     </ul>
-    <h3>Conquista numa ocasião: WAS ABLE TO · MANAGED TO</h3>
+    <h3>Conquista numa ocasião: WAS ABLE TO / MANAGED TO</h3>
     <ul>
       <li>After three hours, I was able to fix the computer.</li>
       <li>After many attempts, Santos-Dumont was able to fly the 14-bis in Paris, in 1906.</li>
@@ -29,8 +29,8 @@ pt:`
     </ul>
     <table>
       <tr><th></th><th>Habilidade geral</th><th>Conquista numa ocasião</th></tr>
-      <tr><td>Afirmativa</td><td>could</td><td>was able to · managed to</td></tr>
-      <tr><td>Negativa</td><td>couldn't</td><td>couldn't · wasn't able to · didn't manage to</td></tr>
+      <tr><td>Afirmativa</td><td>could</td><td>was able to<br>managed to</td></tr>
+      <tr><td>Negativa</td><td>couldn't</td><td>couldn't<br>wasn't able to<br>didn't manage to</td></tr>
     </table>
     <p class="note">No presente, <i>be able to</i> é mais formal que <i>can</i>: The patient is able to walk again.</p>`,
 en:`
@@ -50,7 +50,7 @@ en:`
       <li><b>After TO</b>: I want to be able to travel more.</li>
       <li><b>After a preposition, with -ING</b>: I hate not being able to help.</li>
     </ul>
-    <h3>Achievement on one occasion: WAS ABLE TO · MANAGED TO</h3>
+    <h3>Achievement on one occasion: WAS ABLE TO / MANAGED TO</h3>
     <ul>
       <li>After three hours, I was able to fix the computer.</li>
       <li>After many attempts, Santos-Dumont was able to fly the 14-bis in Paris, in 1906.</li>
@@ -58,8 +58,8 @@ en:`
     </ul>
     <table>
       <tr><th></th><th>General ability</th><th>Achievement on one occasion</th></tr>
-      <tr><td>Affirmative</td><td>could</td><td>was able to · managed to</td></tr>
-      <tr><td>Negative</td><td>couldn't</td><td>couldn't · wasn't able to · didn't manage to</td></tr>
+      <tr><td>Affirmative</td><td>could</td><td>was able to<br>managed to</td></tr>
+      <tr><td>Negative</td><td>couldn't</td><td>couldn't<br>wasn't able to<br>didn't manage to</td></tr>
     </table>
     <p class="note">In the present, <i>be able to</i> is more formal than <i>can</i>: The patient is able to walk again.</p>`
   },
@@ -68,9 +68,9 @@ pt:`
     <h2>Metas pessoais</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>goal · to set a goal</td><td>meta · estabelecer uma meta</td></tr>
+      <tr><td>goal<br>to set a goal</td><td>meta<br>estabelecer uma meta</td></tr>
       <tr><td>New Year's resolution</td><td>promessa de Ano-Novo</td></tr>
-      <tr><td>to achieve · achievement</td><td>alcançar · conquista</td></tr>
+      <tr><td>to achieve<br>achievement</td><td>alcançar<br>conquista</td></tr>
       <tr><td>to keep track of</td><td>acompanhar, registrar</td></tr>
       <tr><td>to stick to a plan</td><td>manter um plano</td></tr>
       <tr><td>to give up</td><td>desistir</td></tr>
@@ -86,9 +86,9 @@ en:`
     <h2>Personal goals</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>goal · to set a goal</td><td>meta · estabelecer uma meta</td></tr>
+      <tr><td>goal<br>to set a goal</td><td>meta<br>estabelecer uma meta</td></tr>
       <tr><td>New Year's resolution</td><td>promessa de Ano-Novo</td></tr>
-      <tr><td>to achieve · achievement</td><td>alcançar · conquista</td></tr>
+      <tr><td>to achieve<br>achievement</td><td>alcançar<br>conquista</td></tr>
       <tr><td>to keep track of</td><td>acompanhar, registrar</td></tr>
       <tr><td>to stick to a plan</td><td>manter um plano</td></tr>
       <tr><td>to give up</td><td>desistir</td></tr>

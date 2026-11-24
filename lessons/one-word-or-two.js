@@ -21,21 +21,21 @@ pt:`
     <p class="note"><b>sometimes</b> = às vezes. Dica para <i>everyday</i>: se dá para trocar por <i>each day</i>, são duas palavras.</p>
     <h3>Sempre juntos ou sempre separados</h3>
     <ul>
-      <li>Juntos: <b>cannot</b> · nobody · online · website · email</li>
-      <li>Separados: <b>a lot</b> (<s>alot</s>) · <b>each other</b> · <b>in front</b> · <b>at least</b> · <b>all right</b> (<i>alright</i> é informal)</li>
+      <li>Juntos: <b>cannot</b><br>nobody<br>online<br>website<br>email</li>
+      <li>Separados: <b>a lot</b> (<s>alot</s>)<br><b>each other</b><br><b>in front</b><br><b>at least</b><br><b>all right</b> (<i>alright</i> é informal)</li>
     </ul>
     <h3>Verbo separado, substantivo junto</h3>
-    <p>log in → a login · set up → a setup · work out → a workout · back up → a backup · check out → a checkout</p>
+    <p>log in → a login<br>set up → a setup<br>work out → a workout<br>back up → a backup<br>check out → a checkout</p>
     <h3>Os erros que até os nativos cometem</h3>
     <table>
       <tr><th>Forma</th><th>Sentido</th></tr>
-      <tr><td><b>its</b> · <b>it's</b></td><td>dele (coisa) · it is</td></tr>
-      <tr><td><b>your</b> · <b>you're</b></td><td>seu · you are</td></tr>
-      <tr><td><b>their</b> · <b>there</b> · <b>they're</b></td><td>deles · lá · they are</td></tr>
-      <tr><td><b>whose</b> · <b>who's</b></td><td>de quem · who is</td></tr>
-      <tr><td><b>than</b> · <b>then</b></td><td>do que · então</td></tr>
-      <tr><td><b>lose</b> · <b>loose</b></td><td>perder · frouxo</td></tr>
-      <tr><td><b>affect</b> · <b>effect</b></td><td>afetar (verbo) · efeito (substantivo)</td></tr>
+      <tr><td><b>its</b><br><b>it's</b></td><td>dele (coisa)<br>it is</td></tr>
+      <tr><td><b>your</b><br><b>you're</b></td><td>seu<br>you are</td></tr>
+      <tr><td><b>their</b><br><b>there</b><br><b>they're</b></td><td>deles<br>lá<br>they are</td></tr>
+      <tr><td><b>whose</b><br><b>who's</b></td><td>de quem<br>who is</td></tr>
+      <tr><td><b>than</b><br><b>then</b></td><td>do que<br>então</td></tr>
+      <tr><td><b>lose</b><br><b>loose</b></td><td>perder<br>frouxo</td></tr>
+      <tr><td><b>affect</b><br><b>effect</b></td><td>afetar (verbo)<br>efeito (substantivo)</td></tr>
     </table>`,
 en:`
     <h2>One word or two changes the meaning</h2>
@@ -54,21 +54,21 @@ en:`
     <p class="note"><b>sometimes</b> = occasionally. Tip for <i>everyday</i>: if you can replace it with <i>each day</i>, it's two words.</p>
     <h3>Always one word or always two</h3>
     <ul>
-      <li>One word: <b>cannot</b> · nobody · online · website · email</li>
-      <li>Two words: <b>a lot</b> (<s>alot</s>) · <b>each other</b> · <b>in front</b> · <b>at least</b> · <b>all right</b> (<i>alright</i> is informal)</li>
+      <li>One word: <b>cannot</b><br>nobody<br>online<br>website<br>email</li>
+      <li>Two words: <b>a lot</b> (<s>alot</s>)<br><b>each other</b><br><b>in front</b><br><b>at least</b><br><b>all right</b> (<i>alright</i> is informal)</li>
     </ul>
     <h3>Verb apart, noun together</h3>
-    <p>log in → a login · set up → a setup · work out → a workout · back up → a backup · check out → a checkout</p>
+    <p>log in → a login<br>set up → a setup<br>work out → a workout<br>back up → a backup<br>check out → a checkout</p>
     <h3>Mistakes even native speakers make</h3>
     <table>
       <tr><th>Form</th><th>Meaning</th></tr>
-      <tr><td><b>its</b> · <b>it's</b></td><td>belonging to it · it is</td></tr>
-      <tr><td><b>your</b> · <b>you're</b></td><td>belonging to you · you are</td></tr>
-      <tr><td><b>their</b> · <b>there</b> · <b>they're</b></td><td>belonging to them · in that place · they are</td></tr>
-      <tr><td><b>whose</b> · <b>who's</b></td><td>belonging to whom · who is</td></tr>
-      <tr><td><b>than</b> · <b>then</b></td><td>comparison · next, at that time</td></tr>
-      <tr><td><b>lose</b> · <b>loose</b></td><td>not find · not tight</td></tr>
-      <tr><td><b>affect</b> · <b>effect</b></td><td>verb · noun</td></tr>
+      <tr><td><b>its</b><br><b>it's</b></td><td>belonging to it<br>it is</td></tr>
+      <tr><td><b>your</b><br><b>you're</b></td><td>belonging to you<br>you are</td></tr>
+      <tr><td><b>their</b><br><b>there</b><br><b>they're</b></td><td>belonging to them<br>in that place<br>they are</td></tr>
+      <tr><td><b>whose</b><br><b>who's</b></td><td>belonging to whom<br>who is</td></tr>
+      <tr><td><b>than</b><br><b>then</b></td><td>comparison<br>next, at that time</td></tr>
+      <tr><td><b>lose</b><br><b>loose</b></td><td>not find<br>not tight</td></tr>
+      <tr><td><b>affect</b><br><b>effect</b></td><td>verb<br>noun</td></tr>
     </table>`
   },
   vocab:{
@@ -76,7 +76,7 @@ pt:`
     <h2>Mensagens do dia a dia</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a text · to text</td><td>uma mensagem · mandar mensagem</td></tr>
+      <tr><td>a text<br>to text</td><td>uma mensagem<br>mandar mensagem</td></tr>
       <tr><td>ASAP (as soon as possible)</td><td>o quanto antes</td></tr>
       <tr><td>BTW (by the way)</td><td>a propósito</td></tr>
       <tr><td>FYI (for your information)</td><td>para sua informação</td></tr>
@@ -94,7 +94,7 @@ en:`
     <h2>Everyday messages</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a text · to text</td><td>uma mensagem · mandar mensagem</td></tr>
+      <tr><td>a text<br>to text</td><td>uma mensagem<br>mandar mensagem</td></tr>
       <tr><td>ASAP (as soon as possible)</td><td>o quanto antes</td></tr>
       <tr><td>BTW (by the way)</td><td>a propósito</td></tr>
       <tr><td>FYI (for your information)</td><td>para sua informação</td></tr>
@@ -165,7 +165,7 @@ en:`
          why:{pt:"Verbo: back up.", en:"Verb: back up."}},
         {q:"___ house is that? (de quem)", o:["Whose","Who's","Whos"], a:0, sub:"sound-alikes",
          why:{pt:"De quem: whose.", en:"Belonging to whom: whose."}},
-        {q:"The kids left ___ toys over ___.", o:["their · there","there · their","they're · there"], a:0, sub:"sound-alikes",
+        {q:"The kids left ___ toys over ___.", o:["their / there","there / their","they're / there"], a:0, sub:"sound-alikes",
          why:{pt:"Deles: their; lá: there.", en:"Belonging to them: their; place: there."}},
         {q:"These pants are too ___. I need a belt.", o:["loose","lose","looses"], a:0, sub:"sound-alikes",
          why:{pt:"Frouxo: loose.", en:"Not tight: loose."}},

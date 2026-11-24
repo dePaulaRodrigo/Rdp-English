@@ -35,7 +35,7 @@ pt:`
       <li>Depois de preposição, só whether: It depends <b>on whether</b> it rains.</li>
     </ul>
     <h3>ASK × ASK FOR</h3>
-    <p><b>ask</b> = perguntar · <b>ask for</b> = pedir algo (He asked for the check) · <b>ask + pessoa + to</b> = pedir que alguém faça</p>`,
+    <p><b>ask</b> = perguntar<br><b>ask for</b> = pedir algo (He asked for the check)<br><b>ask + pessoa + to</b> = pedir que alguém faça</p>`,
 en:`
     <h2>Reported questions</h2>
     <h3>Yes / no → IF or WHETHER</h3>
@@ -67,7 +67,7 @@ en:`
       <li>After a preposition, only whether: It depends <b>on whether</b> it rains.</li>
     </ul>
     <h3>ASK × ASK FOR</h3>
-    <p><b>ask</b> = question · <b>ask for</b> = request something (He asked for the check) · <b>ask + person + to</b> = request that someone do something</p>`
+    <p><b>ask</b> = question<br><b>ask for</b> = request something (He asked for the check)<br><b>ask + person + to</b> = request that someone do something</p>`
   },
   vocab:{
 pt:`
@@ -76,12 +76,12 @@ pt:`
       <tr><th>Inglês</th><th>Português</th></tr>
       <tr><td>the front desk</td><td>a recepção</td></tr>
       <tr><td>a reservation under…</td><td>uma reserva em nome de…</td></tr>
-      <tr><td>check-in · check-out time</td><td>horário de entrada · de saída</td></tr>
-      <tr><td>a room key · a key card</td><td>uma chave · um cartão do quarto</td></tr>
+      <tr><td>check-in<br>check-out time</td><td>horário de entrada<br>de saída</td></tr>
+      <tr><td>a room key<br>a key card</td><td>uma chave<br>um cartão do quarto</td></tr>
       <tr><td>Is breakfast included?</td><td>O café está incluso?</td></tr>
       <tr><td>Wi-Fi password</td><td>senha do Wi-Fi</td></tr>
-      <tr><td>an interviewer · a candidate</td><td>um entrevistador · um candidato</td></tr>
-      <tr><td>strengths · weaknesses</td><td>pontos fortes · fracos</td></tr>
+      <tr><td>an interviewer<br>a candidate</td><td>um entrevistador<br>um candidato</td></tr>
+      <tr><td>strengths<br>weaknesses</td><td>pontos fortes<br>fracos</td></tr>
       <tr><td>salary expectations</td><td>pretensão salarial</td></tr>
       <tr><td>to be available</td><td>estar disponível</td></tr>
       <tr><td>a follow-up</td><td>um retorno</td></tr>
@@ -93,12 +93,12 @@ en:`
       <tr><th>English</th><th>Portuguese</th></tr>
       <tr><td>the front desk</td><td>a recepção</td></tr>
       <tr><td>a reservation under…</td><td>uma reserva em nome de…</td></tr>
-      <tr><td>check-in · check-out time</td><td>horário de entrada · de saída</td></tr>
-      <tr><td>a room key · a key card</td><td>uma chave · um cartão do quarto</td></tr>
+      <tr><td>check-in<br>check-out time</td><td>horário de entrada<br>de saída</td></tr>
+      <tr><td>a room key<br>a key card</td><td>uma chave<br>um cartão do quarto</td></tr>
       <tr><td>Is breakfast included?</td><td>O café está incluso?</td></tr>
       <tr><td>Wi-Fi password</td><td>senha do Wi-Fi</td></tr>
-      <tr><td>an interviewer · a candidate</td><td>um entrevistador · um candidato</td></tr>
-      <tr><td>strengths · weaknesses</td><td>pontos fortes · fracos</td></tr>
+      <tr><td>an interviewer<br>a candidate</td><td>um entrevistador<br>um candidato</td></tr>
+      <tr><td>strengths<br>weaknesses</td><td>pontos fortes<br>fracos</td></tr>
       <tr><td>salary expectations</td><td>pretensão salarial</td></tr>
       <tr><td>to be available</td><td>estar disponível</td></tr>
       <tr><td>a follow-up</td><td>um retorno</td></tr>

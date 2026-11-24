@@ -9,72 +9,72 @@ pt:`
     <h3>Quando usar</h3>
     <ul>
       <li><b>Hábitos e rotinas</b>: I go to the gym every week.</li>
-      <li><b>Fatos</b>: Water boils at 100 °C. · The Earth goes around the Sun in about 365 days.</li>
-      <li><b>Situações permanentes</b>: She lives in Curitiba. · I work at a bank.</li>
+      <li><b>Fatos</b>: Water boils at 100 °C.<br>The Earth goes around the Sun in about 365 days.</li>
+      <li><b>Situações permanentes</b>: She lives in Curitiba.<br>I work at a bank.</li>
       <li><b>Horários fixos</b>: The train leaves at eight.</li>
-      <li><b>Verbos de estado</b>: I like jazz. · She knows the answer.</li>
+      <li><b>Verbos de estado</b>: I like jazz.<br>She knows the answer.</li>
     </ul>
     <p class="note">"Estou trabalhando num banco" (meu emprego) → I <b>work</b> at a bank. O "estou" do português não vira -ING quando a situação é permanente.</p>
     <h3>Afirmativa: o S da terceira pessoa</h3>
-    <p>I, you, we, they → o verbo não muda. He, she, it → acrescenta-se <b>S</b>: She likes to run. · He works a lot.</p>
+    <p>I, you, we, they → o verbo não muda. He, she, it → acrescenta-se <b>S</b>: She likes to run.<br>He works a lot.</p>
     <ul>
-      <li>S, SH, CH, X, O → <b>ES</b>: fixes · watches · goes · does</li>
-      <li>Consoante + Y → <b>IES</b>: study → studies · try → tries</li>
-      <li>Vogal + Y → só S: play → plays · buy → buys</li>
+      <li>S, SH, CH, X, O → <b>ES</b>: fixes<br>watches<br>goes<br>does</li>
+      <li>Consoante + Y → <b>IES</b>: study → studies<br>try → tries</li>
+      <li>Vogal + Y → só S: play → plays<br>buy → buys</li>
       <li>Exceção: have → <b>has</b></li>
     </ul>
     <p class="note">Pronúncia: /s/ em works, /z/ em plays, /ɪz/ em watches. <i>Does</i> /dʌz/ e <i>says</i> /sɛz/ mudam a vogal.</p>
     <h3>Negativa e pergunta: DO e DOES</h3>
     <ul>
-      <li>I, you, we, they → <b>don't</b> · he, she, it → <b>doesn't</b></li>
-      <li>Quando o DOES aparece, o verbo volta à forma base: He doesn't <b>like</b> pizza (<s>doesn't likes</s>) · Brazil doesn't <b>have</b> a king (<s>doesn't has</s>).</li>
-      <li><b>Does</b> Lucy play the guitar? — Yes, she does. · <b>Do</b> you work on weekends? — No, I don't.</li>
-      <li>Where <b>do</b> you <b>work</b>? · What time <b>does</b> the store <b>open</b>?</li>
+      <li>I, you, we, they → <b>don't</b><br>he, she, it → <b>doesn't</b></li>
+      <li>Quando o DOES aparece, o verbo volta à forma base: He doesn't <b>like</b> pizza (<s>doesn't likes</s>)<br>Brazil doesn't <b>have</b> a king (<s>doesn't has</s>).</li>
+      <li><b>Does</b> Lucy play the guitar? — Yes, she does.<br><b>Do</b> you work on weekends? — No, I don't.</li>
+      <li>Where <b>do</b> you <b>work</b>?<br>What time <b>does</b> the store <b>open</b>?</li>
       <li>Pergunta sobre o sujeito, sem auxiliar: Who <b>lives</b> here?</li>
-      <li>O To Be não usa DO: You aren't from Minas. · Are you tired?</li>
+      <li>O To Be não usa DO: You aren't from Minas.<br>Are you tired?</li>
     </ul>
     <h3>Advérbios de frequência</h3>
-    <p>always · usually · often · sometimes · rarely · never</p>
+    <p>always<br>usually<br>often<br>sometimes<br>rarely<br>never</p>
     <ul>
       <li><b>Antes</b> do verbo principal: I <b>always</b> wake up early.</li>
       <li><b>Depois</b> do To Be: He is <b>always</b> late.</li>
-      <li>Expressões no fim: every day · once a week · twice a month · on Mondays.</li>
+      <li>Expressões no fim: every day<br>once a week<br>twice a month<br>on Mondays.</li>
     </ul>`,
 en:`
     <h2>Present Simple</h2>
     <h3>When to use it</h3>
     <ul>
       <li><b>Habits and routines</b>: I go to the gym every week.</li>
-      <li><b>Facts</b>: Water boils at 100 °C. · The Earth goes around the Sun in about 365 days.</li>
-      <li><b>Permanent situations</b>: She lives in Curitiba. · I work at a bank.</li>
+      <li><b>Facts</b>: Water boils at 100 °C.<br>The Earth goes around the Sun in about 365 days.</li>
+      <li><b>Permanent situations</b>: She lives in Curitiba.<br>I work at a bank.</li>
       <li><b>Timetables</b>: The train leaves at eight.</li>
-      <li><b>Stative verbs</b>: I like jazz. · She knows the answer.</li>
+      <li><b>Stative verbs</b>: I like jazz.<br>She knows the answer.</li>
     </ul>
     <p class="note">For a permanent job: I <b>work</b> at a bank. The Portuguese "estou trabalhando" does not become -ING when the situation is permanent.</p>
     <h3>Affirmative: third person S</h3>
-    <p>I, you, we, they → the verb does not change. He, she, it → add <b>S</b>: She likes to run. · He works a lot.</p>
+    <p>I, you, we, they → the verb does not change. He, she, it → add <b>S</b>: She likes to run.<br>He works a lot.</p>
     <ul>
-      <li>S, SH, CH, X, O → <b>ES</b>: fixes · watches · goes · does</li>
-      <li>Consonant + Y → <b>IES</b>: study → studies · try → tries</li>
-      <li>Vowel + Y → just S: play → plays · buy → buys</li>
+      <li>S, SH, CH, X, O → <b>ES</b>: fixes<br>watches<br>goes<br>does</li>
+      <li>Consonant + Y → <b>IES</b>: study → studies<br>try → tries</li>
+      <li>Vowel + Y → just S: play → plays<br>buy → buys</li>
       <li>Exception: have → <b>has</b></li>
     </ul>
     <p class="note">Pronunciation: /s/ in works, /z/ in plays, /ɪz/ in watches. <i>Does</i> /dʌz/ and <i>says</i> /sɛz/ change the vowel.</p>
     <h3>Negatives and questions: DO and DOES</h3>
     <ul>
-      <li>I, you, we, they → <b>don't</b> · he, she, it → <b>doesn't</b></li>
-      <li>After DOES, the verb goes back to the base form: He doesn't <b>like</b> pizza (<s>doesn't likes</s>) · Brazil doesn't <b>have</b> a king (<s>doesn't has</s>).</li>
-      <li><b>Does</b> Lucy play the guitar? — Yes, she does. · <b>Do</b> you work on weekends? — No, I don't.</li>
-      <li>Where <b>do</b> you <b>work</b>? · What time <b>does</b> the store <b>open</b>?</li>
+      <li>I, you, we, they → <b>don't</b><br>he, she, it → <b>doesn't</b></li>
+      <li>After DOES, the verb goes back to the base form: He doesn't <b>like</b> pizza (<s>doesn't likes</s>)<br>Brazil doesn't <b>have</b> a king (<s>doesn't has</s>).</li>
+      <li><b>Does</b> Lucy play the guitar? — Yes, she does.<br><b>Do</b> you work on weekends? — No, I don't.</li>
+      <li>Where <b>do</b> you <b>work</b>?<br>What time <b>does</b> the store <b>open</b>?</li>
       <li>Subject questions, no auxiliary: Who <b>lives</b> here?</li>
-      <li>To Be does not use DO: You aren't from Minas. · Are you tired?</li>
+      <li>To Be does not use DO: You aren't from Minas.<br>Are you tired?</li>
     </ul>
     <h3>Frequency adverbs</h3>
-    <p>always · usually · often · sometimes · rarely · never</p>
+    <p>always<br>usually<br>often<br>sometimes<br>rarely<br>never</p>
     <ul>
       <li><b>Before</b> the main verb: I <b>always</b> wake up early.</li>
       <li><b>After</b> To Be: He is <b>always</b> late.</li>
-      <li>Expressions at the end: every day · once a week · twice a month · on Mondays.</li>
+      <li>Expressions at the end: every day<br>once a week<br>twice a month<br>on Mondays.</li>
     </ul>`
   },
   vocab:{
@@ -82,7 +82,7 @@ pt:`
     <h2>Rotina</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to wake up · to get up</td><td>acordar · levantar</td></tr>
+      <tr><td>to wake up<br>to get up</td><td>acordar<br>levantar</td></tr>
       <tr><td>to take a shower</td><td>tomar banho</td></tr>
       <tr><td>to get dressed</td><td>vestir-se</td></tr>
       <tr><td>to have breakfast</td><td>tomar café da manhã</td></tr>
@@ -94,8 +94,8 @@ pt:`
     <h2>O trajeto</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>commute · to commute</td><td>trajeto casa-trabalho · fazer esse trajeto</td></tr>
-      <tr><td>to take the bus · the subway</td><td>pegar ônibus · metrô</td></tr>
+      <tr><td>commute<br>to commute</td><td>trajeto casa-trabalho<br>fazer esse trajeto</td></tr>
+      <tr><td>to take the bus<br>the subway</td><td>pegar ônibus<br>metrô</td></tr>
       <tr><td>to drive to work</td><td>ir de carro para o trabalho</td></tr>
       <tr><td>to walk to school</td><td>ir a pé para a escola</td></tr>
       <tr><td>rush hour</td><td>horário de pico</td></tr>
@@ -108,7 +108,7 @@ en:`
     <h2>Routine</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to wake up · to get up</td><td>acordar · levantar</td></tr>
+      <tr><td>to wake up<br>to get up</td><td>acordar<br>levantar</td></tr>
       <tr><td>to take a shower</td><td>tomar banho</td></tr>
       <tr><td>to get dressed</td><td>vestir-se</td></tr>
       <tr><td>to have breakfast</td><td>tomar café da manhã</td></tr>
@@ -120,8 +120,8 @@ en:`
     <h2>The commute</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>commute · to commute</td><td>trajeto casa-trabalho · fazer esse trajeto</td></tr>
-      <tr><td>to take the bus · the subway</td><td>pegar ônibus · metrô</td></tr>
+      <tr><td>commute<br>to commute</td><td>trajeto casa-trabalho<br>fazer esse trajeto</td></tr>
+      <tr><td>to take the bus<br>the subway</td><td>pegar ônibus<br>metrô</td></tr>
       <tr><td>to drive to work</td><td>ir de carro para o trabalho</td></tr>
       <tr><td>to walk to school</td><td>ir a pé para a escola</td></tr>
       <tr><td>rush hour</td><td>horário de pico</td></tr>

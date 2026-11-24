@@ -18,16 +18,16 @@ pt:`
     <p>Com DID, o USED perde o D: <b>use to</b>.</p>
     <ul>
       <li>I didn't use to like vegetables.</li>
-      <li>Did you use to go to school by bus? · Where did you use to live?</li>
-      <li>There used to be a movie theater here. · There didn't use to be cell phones.</li>
+      <li>Did you use to go to school by bus?<br>Where did you use to live?</li>
+      <li>There used to be a movie theater here.<br>There didn't use to be cell phones.</li>
     </ul>
     <h3>Used to só existe no passado</h3>
     <p>Para um hábito de hoje, use <b>usually</b> + Present Simple: "Costumo ir à academia de manhã." → I <b>usually</b> go to the gym in the morning. (<s>I use to go</s>)</p>
-    <h3>Not … anymore · no longer</h3>
+    <h3>Not … anymore / no longer</h3>
     <p>I don't smoke <b>anymore</b>. = I <b>no longer</b> smoke.</p>
     <h3>WOULD para hábitos do passado</h3>
     <p>Nas narrativas, <i>would</i> também indica ações repetidas: When I was a kid, we <b>would</b> go to my grandparents' farm every July.</p>
-    <p class="note">Mas não para estados (ser, ter, morar, gostar): I used to have long hair (<s>I would have</s>) · We used to live in Recife (<s>We would live</s>).</p>`,
+    <p class="note">Mas não para estados (ser, ter, morar, gostar): I used to have long hair (<s>I would have</s>)<br>We used to live in Recife (<s>We would live</s>).</p>`,
 en:`
     <h2>Used To</h2>
     <p><b>Used to</b> describes something you did or were in the past, but <b>no longer do or are</b>.</p>
@@ -42,25 +42,25 @@ en:`
     <p>With DID, USED loses the D: <b>use to</b>.</p>
     <ul>
       <li>I didn't use to like vegetables.</li>
-      <li>Did you use to go to school by bus? · Where did you use to live?</li>
-      <li>There used to be a movie theater here. · There didn't use to be cell phones.</li>
+      <li>Did you use to go to school by bus?<br>Where did you use to live?</li>
+      <li>There used to be a movie theater here.<br>There didn't use to be cell phones.</li>
     </ul>
     <h3>Used to is past only</h3>
     <p>For a present habit, use <b>usually</b> + Present Simple: I <b>usually</b> go to the gym in the morning. (<s>I use to go</s>)</p>
-    <h3>Not … anymore · no longer</h3>
+    <h3>Not … anymore / no longer</h3>
     <p>I don't smoke <b>anymore</b>. = I <b>no longer</b> smoke.</p>
     <h3>WOULD for past habits</h3>
     <p>In stories, <i>would</i> also shows repeated actions: When I was a kid, we <b>would</b> go to my grandparents' farm every July.</p>
-    <p class="note">But not for states (be, have, live, like): I used to have long hair (<s>I would have</s>) · We used to live in Recife (<s>We would live</s>).</p>`
+    <p class="note">But not for states (be, have, live, like): I used to have long hair (<s>I would have</s>)<br>We used to live in Recife (<s>We would live</s>).</p>`
   },
   vocab:{
 pt:`
     <h2>Infância</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>hide-and-seek · tag</td><td>esconde-esconde · pega-pega</td></tr>
+      <tr><td>hide-and-seek<br>tag</td><td>esconde-esconde<br>pega-pega</td></tr>
       <tr><td>jump rope</td><td>pular corda</td></tr>
-      <tr><td>marbles · kite</td><td>bolinhas de gude · pipa</td></tr>
+      <tr><td>marbles<br>kite</td><td>bolinhas de gude<br>pipa</td></tr>
       <tr><td>to build a fort</td><td>fazer uma cabana</td></tr>
       <tr><td>cartoons</td><td>desenhos animados</td></tr>
       <tr><td>recess</td><td>recreio</td></tr>
@@ -76,9 +76,9 @@ en:`
     <h2>Childhood</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>hide-and-seek · tag</td><td>esconde-esconde · pega-pega</td></tr>
+      <tr><td>hide-and-seek<br>tag</td><td>esconde-esconde<br>pega-pega</td></tr>
       <tr><td>jump rope</td><td>pular corda</td></tr>
-      <tr><td>marbles · kite</td><td>bolinhas de gude · pipa</td></tr>
+      <tr><td>marbles<br>kite</td><td>bolinhas de gude<br>pipa</td></tr>
       <tr><td>to build a fort</td><td>fazer uma cabana</td></tr>
       <tr><td>cartoons</td><td>desenhos animados</td></tr>
       <tr><td>recess</td><td>recreio</td></tr>

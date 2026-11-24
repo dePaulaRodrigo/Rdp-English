@@ -21,7 +21,7 @@ pt:`
     </ul>
     <p>Compare: <i>When the phone rang, I answered it</i> (uma depois da outra) × <i>When the phone rang, I was answering emails</i> (uma no meio da outra).</p>
     <h3>Negativa e pergunta</h3>
-    <p>Iguais às do To Be no passado: I wasn't sleeping. · Were you working at eight? · What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
+    <p>Iguais às do To Be no passado: I wasn't sleeping.<br>Were you working at eight?<br>What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
     <p class="note">Verbos de estado não vão para o -ING: I knew the answer (<s>I was knowing</s>). Uso educado: <i>I was wondering if</i> you could help me. — Eu queria saber se você poderia me ajudar.</p>
     <p>Diz a história que Arquimedes estava tomando banho quando entendeu como medir o volume de uma coroa: Archimedes was taking a bath when he had the idea.</p>`,
 en:`
@@ -41,7 +41,7 @@ en:`
     </ul>
     <p>Compare: <i>When the phone rang, I answered it</i> (one after the other) × <i>When the phone rang, I was answering emails</i> (one in the middle of the other).</p>
     <h3>Negatives and questions</h3>
-    <p>Like To Be in the past: I wasn't sleeping. · Were you working at eight? · What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
+    <p>Like To Be in the past: I wasn't sleeping.<br>Were you working at eight?<br>What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
     <p class="note">Stative verbs take no -ING: I knew the answer (<s>I was knowing</s>). A polite use: <i>I was wondering if</i> you could help me.</p>
     <p>According to the famous story, Archimedes was taking a bath when he understood how to measure the volume of a crown.</p>`
   },
@@ -54,9 +54,9 @@ pt:`
       <tr><td>flat tire</td><td>pneu furado</td></tr>
       <tr><td>to miss the bus</td><td>perder o ônibus</td></tr>
       <tr><td>to run late</td><td>estar atrasado</td></tr>
-      <tr><td>delay · delayed</td><td>atraso · atrasado</td></tr>
-      <tr><td>power outage · blackout</td><td>queda de energia · apagão</td></tr>
-      <tr><td>to slip · to fall</td><td>escorregar · cair</td></tr>
+      <tr><td>delay<br>delayed</td><td>atraso<br>atrasado</td></tr>
+      <tr><td>power outage<br>blackout</td><td>queda de energia<br>apagão</td></tr>
+      <tr><td>to slip<br>to fall</td><td>escorregar<br>cair</td></tr>
       <tr><td>to drop</td><td>deixar cair</td></tr>
       <tr><td>to pick up</td><td>pegar do chão</td></tr>
       <tr><td>out of order</td><td>com defeito, fora de serviço</td></tr>
@@ -72,9 +72,9 @@ en:`
       <tr><td>flat tire</td><td>pneu furado</td></tr>
       <tr><td>to miss the bus</td><td>perder o ônibus</td></tr>
       <tr><td>to run late</td><td>estar atrasado</td></tr>
-      <tr><td>delay · delayed</td><td>atraso · atrasado</td></tr>
-      <tr><td>power outage · blackout</td><td>queda de energia · apagão</td></tr>
-      <tr><td>to slip · to fall</td><td>escorregar · cair</td></tr>
+      <tr><td>delay<br>delayed</td><td>atraso<br>atrasado</td></tr>
+      <tr><td>power outage<br>blackout</td><td>queda de energia<br>apagão</td></tr>
+      <tr><td>to slip<br>to fall</td><td>escorregar<br>cair</td></tr>
       <tr><td>to drop</td><td>deixar cair</td></tr>
       <tr><td>to pick up</td><td>pegar do chão</td></tr>
       <tr><td>out of order</td><td>com defeito, fora de serviço</td></tr>

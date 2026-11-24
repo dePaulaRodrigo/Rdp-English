@@ -7,21 +7,21 @@ addLesson({
 pt:`
     <h2>Substantivos</h2>
     <h3>Singular e plural</h3>
-    <p>Na maior parte das vezes, o plural é feito só com <b>-S</b>: car → cars · house → houses.</p>
+    <p>Na maior parte das vezes, o plural é feito só com <b>-S</b>: car → cars<br>house → houses.</p>
     <ul>
-      <li>Terminados em -S, -CH, -SH, -X ou -O: <b>-ES</b> — bus → buses · beach → beaches · dish → dishes · box → boxes · potato → potatoes</li>
-      <li>Palavras em -O que vêm de abreviações ou de outras línguas ficam só com -S: photo → photos · piano → pianos · video → videos · kilo → kilos</li>
-      <li>Consoante + Y: o Y vira <b>-IES</b> — city → cities · country → countries · baby → babies</li>
-      <li>Vogal + Y: só -S — day → days · boy → boys · key → keys</li>
-      <li>Algumas palavras em -F/-FE trocam por <b>-VES</b>: leaf → leaves · knife → knives · wolf → wolves · loaf → loaves. Mas não todas: roof → roofs · chef → chefs.</li>
+      <li>Terminados em -S, -CH, -SH, -X ou -O: <b>-ES</b> — bus → buses<br>beach → beaches<br>dish → dishes<br>box → boxes<br>potato → potatoes</li>
+      <li>Palavras em -O que vêm de abreviações ou de outras línguas ficam só com -S: photo → photos<br>piano → pianos<br>video → videos<br>kilo → kilos</li>
+      <li>Consoante + Y: o Y vira <b>-IES</b> — city → cities<br>country → countries<br>baby → babies</li>
+      <li>Vogal + Y: só -S — day → days<br>boy → boys<br>key → keys</li>
+      <li>Algumas palavras em -F/-FE trocam por <b>-VES</b>: leaf → leaves<br>knife → knives<br>wolf → wolves<br>loaf → loaves. Mas não todas: roof → roofs<br>chef → chefs.</li>
     </ul>
     <h3>Plurais irregulares</h3>
     <ul>
-      <li>person → <b>people</b> · man → <b>men</b> · woman → <b>women</b> · child → <b>children</b></li>
-      <li>tooth → <b>teeth</b> · foot → <b>feet</b> · goose → <b>geese</b> · mouse → <b>mice</b></li>
-      <li>Iguais no singular e no plural: one sheep → two <b>sheep</b> · one fish → ten <b>fish</b> · deer · species</li>
-      <li>Só existem no plural (coisas de duas partes): jeans · pants · glasses · scissors. Para contar: <i>a pair of jeans, two pairs of glasses</i>.</li>
-      <li>Origem grega e latina: crisis → crises · cactus → cacti · phenomenon → phenomena · bacterium → bacteria</li>
+      <li>person → <b>people</b><br>man → <b>men</b><br>woman → <b>women</b><br>child → <b>children</b></li>
+      <li>tooth → <b>teeth</b><br>foot → <b>feet</b><br>goose → <b>geese</b><br>mouse → <b>mice</b></li>
+      <li>Iguais no singular e no plural: one sheep → two <b>sheep</b><br>one fish → ten <b>fish</b><br>deer<br>species</li>
+      <li>Só existem no plural (coisas de duas partes): jeans<br>pants<br>glasses<br>scissors. Para contar: <i>a pair of jeans, two pairs of glasses</i>.</li>
+      <li>Origem grega e latina: crisis → crises<br>cactus → cacti<br>phenomenon → phenomena<br>bacterium → bacteria</li>
       <li>Com <i>in-law</i>, o plural vai na palavra principal: mother-in-law → <b>mothers</b>-in-law</li>
     </ul>
     <p class="note">Pronúncia do -S: /s/ em cats, /z/ em dogs, e uma sílaba a mais, /ɪz/, depois de s, z, sh, ch, x e do som de <i>j</i>: buses, boxes, beaches, pages. <i>House</i> muda também o S do meio: houses /ˈhaʊzɪz/.</p>
@@ -34,11 +34,11 @@ pt:`
     </ul>
     <p>Compare: <i>Dogs are happy</i> (cachorros, em geral) × <i>The dogs are happy</i> (aqueles cachorros).</p>
     <h3>Substantivos com -ER e -OR</h3>
-    <p>Com -ER, o verbo vira a pessoa ou o objeto que faz a ação: teach → teacher · drive → driver · print → printer · open → opener.</p>
+    <p>Com -ER, o verbo vira a pessoa ou o objeto que faz a ação: teach → teacher<br>drive → driver<br>print → printer<br>open → opener.</p>
     <ul>
-      <li>Verbo terminado em E: só R — bake → baker · dance → dancer</li>
-      <li>Consoante + vogal + consoante: a consoante dobra — run → runner · swim → swimmer</li>
-      <li>Alguns usam -OR: act → actor · visit → visitor · invent → inventor · translate → translator</li>
+      <li>Verbo terminado em E: só R — bake → baker<br>dance → dancer</li>
+      <li>Consoante + vogal + consoante: a consoante dobra — run → runner<br>swim → swimmer</li>
+      <li>Alguns usam -OR: act → actor<br>visit → visitor<br>invent → inventor<br>translate → translator</li>
     </ul>
     <h3>Contáveis e incontáveis</h3>
     <p>Os <b>incontáveis</b> não têm plural nem aceitam <i>a / an</i>, e o verbo fica no singular: water, rice, bread, money, music, traffic. Os que mais confundem o brasileiro:</p>
@@ -46,31 +46,31 @@ pt:`
       <tr><th>Incontável</th><th>Erro comum</th></tr>
       <tr><td>information</td><td><s>informations</s></td></tr>
       <tr><td>advice (conselho)</td><td><s>an advice</s></td></tr>
-      <tr><td>news (notícia)</td><td><s>The news are</s> · The news <b>is</b></td></tr>
+      <tr><td>news (notícia)</td><td><s>The news are</s><br>The news <b>is</b></td></tr>
       <tr><td>furniture (móveis)</td><td><s>furnitures</s></td></tr>
-      <tr><td>homework · luggage · equipment</td><td><s>homeworks</s> …</td></tr>
+      <tr><td>homework<br>luggage<br>equipment</td><td><s>homeworks</s> …</td></tr>
       <tr><td>hair (cabelo)</td><td><s>hairs</s></td></tr>
     </table>
-    <p>Para contar, usa-se uma unidade: a piece of advice · a slice of bread · a cup of coffee · a bag of rice.</p>
-    <p class="note">Algumas palavras mudam de sentido: coffee (a bebida) × <b>a coffee</b> (uma xícara) · time (tempo) × three <b>times</b> (vezes) · hair (o cabelo) × <b>a hair</b> (um fio) · work (trabalho) × <b>a job</b> (um emprego).</p>`,
+    <p>Para contar, usa-se uma unidade: a piece of advice<br>a slice of bread<br>a cup of coffee<br>a bag of rice.</p>
+    <p class="note">Algumas palavras mudam de sentido: coffee (a bebida) × <b>a coffee</b> (uma xícara)<br>time (tempo) × three <b>times</b> (vezes)<br>hair (o cabelo) × <b>a hair</b> (um fio)<br>work (trabalho) × <b>a job</b> (um emprego).</p>`,
 en:`
     <h2>Nouns</h2>
     <h3>Singular and plural</h3>
-    <p>Most plurals take just <b>-S</b>: car → cars · house → houses.</p>
+    <p>Most plurals take just <b>-S</b>: car → cars<br>house → houses.</p>
     <ul>
-      <li>Ending in -S, -CH, -SH, -X or -O: <b>-ES</b> — bus → buses · beach → beaches · dish → dishes · box → boxes · potato → potatoes</li>
-      <li>Words in -O that are short forms or come from other languages take just -S: photo → photos · piano → pianos · video → videos · kilo → kilos</li>
-      <li>Consonant + Y: Y becomes <b>-IES</b> — city → cities · country → countries · baby → babies</li>
-      <li>Vowel + Y: just -S — day → days · boy → boys · key → keys</li>
-      <li>Some words in -F/-FE change to <b>-VES</b>: leaf → leaves · knife → knives · wolf → wolves · loaf → loaves. But not all: roof → roofs · chef → chefs.</li>
+      <li>Ending in -S, -CH, -SH, -X or -O: <b>-ES</b> — bus → buses<br>beach → beaches<br>dish → dishes<br>box → boxes<br>potato → potatoes</li>
+      <li>Words in -O that are short forms or come from other languages take just -S: photo → photos<br>piano → pianos<br>video → videos<br>kilo → kilos</li>
+      <li>Consonant + Y: Y becomes <b>-IES</b> — city → cities<br>country → countries<br>baby → babies</li>
+      <li>Vowel + Y: just -S — day → days<br>boy → boys<br>key → keys</li>
+      <li>Some words in -F/-FE change to <b>-VES</b>: leaf → leaves<br>knife → knives<br>wolf → wolves<br>loaf → loaves. But not all: roof → roofs<br>chef → chefs.</li>
     </ul>
     <h3>Irregular plurals</h3>
     <ul>
-      <li>person → <b>people</b> · man → <b>men</b> · woman → <b>women</b> · child → <b>children</b></li>
-      <li>tooth → <b>teeth</b> · foot → <b>feet</b> · goose → <b>geese</b> · mouse → <b>mice</b></li>
-      <li>Same in singular and plural: one sheep → two <b>sheep</b> · one fish → ten <b>fish</b> · deer · species</li>
-      <li>Plural only (things with two parts): jeans · pants · glasses · scissors. To count them: <i>a pair of jeans, two pairs of glasses</i>.</li>
-      <li>Greek and Latin origin: crisis → crises · cactus → cacti · phenomenon → phenomena · bacterium → bacteria</li>
+      <li>person → <b>people</b><br>man → <b>men</b><br>woman → <b>women</b><br>child → <b>children</b></li>
+      <li>tooth → <b>teeth</b><br>foot → <b>feet</b><br>goose → <b>geese</b><br>mouse → <b>mice</b></li>
+      <li>Same in singular and plural: one sheep → two <b>sheep</b><br>one fish → ten <b>fish</b><br>deer<br>species</li>
+      <li>Plural only (things with two parts): jeans<br>pants<br>glasses<br>scissors. To count them: <i>a pair of jeans, two pairs of glasses</i>.</li>
+      <li>Greek and Latin origin: crisis → crises<br>cactus → cacti<br>phenomenon → phenomena<br>bacterium → bacteria</li>
       <li>With <i>in-law</i>, the main word takes the plural: mother-in-law → <b>mothers</b>-in-law</li>
     </ul>
     <p class="note">Pronouncing the -S: /s/ in cats, /z/ in dogs, and an extra syllable, /ɪz/, after s, z, sh, ch, x and the <i>j</i> sound: buses, boxes, beaches, pages. <i>House</i> also changes its middle S: houses /ˈhaʊzɪz/.</p>
@@ -83,11 +83,11 @@ en:`
     </ul>
     <p>Compare: <i>Dogs are happy</i> (dogs in general) × <i>The dogs are happy</i> (those dogs).</p>
     <h3>Nouns with -ER and -OR</h3>
-    <p>With -ER, a verb becomes the person or thing that does the action: teach → teacher · drive → driver · print → printer · open → opener.</p>
+    <p>With -ER, a verb becomes the person or thing that does the action: teach → teacher<br>drive → driver<br>print → printer<br>open → opener.</p>
     <ul>
-      <li>Verb ending in E: just R — bake → baker · dance → dancer</li>
-      <li>Consonant + vowel + consonant: double the consonant — run → runner · swim → swimmer</li>
-      <li>Some take -OR: act → actor · visit → visitor · invent → inventor · translate → translator</li>
+      <li>Verb ending in E: just R — bake → baker<br>dance → dancer</li>
+      <li>Consonant + vowel + consonant: double the consonant — run → runner<br>swim → swimmer</li>
+      <li>Some take -OR: act → actor<br>visit → visitor<br>invent → inventor<br>translate → translator</li>
     </ul>
     <h3>Countable and uncountable</h3>
     <p><b>Uncountable</b> nouns have no plural, take no <i>a / an</i>, and take a singular verb: water, rice, bread, money, music, traffic. The ones Brazilians most often get wrong:</p>
@@ -95,43 +95,43 @@ en:`
       <tr><th>Uncountable</th><th>Common mistake</th></tr>
       <tr><td>information</td><td><s>informations</s></td></tr>
       <tr><td>advice</td><td><s>an advice</s></td></tr>
-      <tr><td>news</td><td><s>The news are</s> · The news <b>is</b></td></tr>
+      <tr><td>news</td><td><s>The news are</s><br>The news <b>is</b></td></tr>
       <tr><td>furniture</td><td><s>furnitures</s></td></tr>
-      <tr><td>homework · luggage · equipment</td><td><s>homeworks</s> …</td></tr>
+      <tr><td>homework<br>luggage<br>equipment</td><td><s>homeworks</s> …</td></tr>
       <tr><td>hair</td><td><s>hairs</s></td></tr>
     </table>
-    <p>To count them, use a unit: a piece of advice · a slice of bread · a cup of coffee · a bag of rice.</p>
-    <p class="note">Some words change meaning: coffee (the drink) × <b>a coffee</b> (a cup) · time × three <b>times</b> · hair (all of it) × <b>a hair</b> (a single one) · work (in general) × <b>a job</b> (a position).</p>`
+    <p>To count them, use a unit: a piece of advice<br>a slice of bread<br>a cup of coffee<br>a bag of rice.</p>
+    <p class="note">Some words change meaning: coffee (the drink) × <b>a coffee</b> (a cup)<br>time × three <b>times</b><br>hair (all of it) × <b>a hair</b> (a single one)<br>work (in general) × <b>a job</b> (a position).</p>`
   },
   vocab:{
 pt:`
     <h2>No mercado</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>a bag of rice · of chips</td><td>um pacote de arroz · de salgadinho</td></tr>
-      <tr><td>a loaf of bread · two loaves</td><td>um pão de forma · dois</td></tr>
-      <tr><td>a slice of cheese · of bread</td><td>uma fatia de queijo · de pão</td></tr>
-      <tr><td>a carton of milk · of eggs</td><td>uma caixa de leite · de ovos</td></tr>
-      <tr><td>a box of cereal · of juice</td><td>uma caixa de cereal · de suco</td></tr>
+      <tr><td>a bag of rice<br>of chips</td><td>um pacote de arroz<br>de salgadinho</td></tr>
+      <tr><td>a loaf of bread<br>two loaves</td><td>um pão de forma<br>dois</td></tr>
+      <tr><td>a slice of cheese<br>of bread</td><td>uma fatia de queijo<br>de pão</td></tr>
+      <tr><td>a carton of milk<br>of eggs</td><td>uma caixa de leite<br>de ovos</td></tr>
+      <tr><td>a box of cereal<br>of juice</td><td>uma caixa de cereal<br>de suco</td></tr>
       <tr><td>a jar of honey</td><td>um pote de mel</td></tr>
       <tr><td>a can of tomatoes</td><td>uma lata de tomates</td></tr>
-      <tr><td>a bunch of bananas · of grapes</td><td>um cacho de bananas · de uvas</td></tr>
+      <tr><td>a bunch of bananas<br>of grapes</td><td>um cacho de bananas<br>de uvas</td></tr>
       <tr><td>a head of lettuce</td><td>um pé de alface</td></tr>
       <tr><td>groceries</td><td>compras de mercado</td></tr>
       <tr><td>shopping list</td><td>lista de compras</td></tr>
-      <tr><td>cart · basket</td><td>carrinho · cesta</td></tr>
+      <tr><td>cart<br>basket</td><td>carrinho<br>cesta</td></tr>
     </table>
     <h2>Em casa</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>furniture · a piece of furniture</td><td>móveis · um móvel</td></tr>
-      <tr><td>couch · sofa</td><td>sofá</td></tr>
-      <tr><td>shelf · shelves</td><td>prateleira · prateleiras</td></tr>
+      <tr><td>furniture<br>a piece of furniture</td><td>móveis<br>um móvel</td></tr>
+      <tr><td>couch<br>sofa</td><td>sofá</td></tr>
+      <tr><td>shelf<br>shelves</td><td>prateleira<br>prateleiras</td></tr>
       <tr><td>closet</td><td>armário embutido, guarda-roupa</td></tr>
       <tr><td>cabinet</td><td>armário (de cozinha, de banheiro)</td></tr>
-      <tr><td>dishes · to do the dishes</td><td>louça · lavar a louça</td></tr>
-      <tr><td>knife · knives</td><td>faca · facas</td></tr>
-      <tr><td>fork · spoon</td><td>garfo · colher</td></tr>
+      <tr><td>dishes<br>to do the dishes</td><td>louça<br>lavar a louça</td></tr>
+      <tr><td>knife<br>knives</td><td>faca<br>facas</td></tr>
+      <tr><td>fork<br>spoon</td><td>garfo<br>colher</td></tr>
       <tr><td>dishwasher</td><td>lava-louça</td></tr>
       <tr><td>can opener</td><td>abridor de latas</td></tr>
       <tr><td>roommate</td><td>colega de apartamento</td></tr>
@@ -142,30 +142,30 @@ en:`
     <h2>At the supermarket</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>a bag of rice · of chips</td><td>um pacote de arroz · de salgadinho</td></tr>
-      <tr><td>a loaf of bread · two loaves</td><td>um pão de forma · dois</td></tr>
-      <tr><td>a slice of cheese · of bread</td><td>uma fatia de queijo · de pão</td></tr>
-      <tr><td>a carton of milk · of eggs</td><td>uma caixa de leite · de ovos</td></tr>
-      <tr><td>a box of cereal · of juice</td><td>uma caixa de cereal · de suco</td></tr>
+      <tr><td>a bag of rice<br>of chips</td><td>um pacote de arroz<br>de salgadinho</td></tr>
+      <tr><td>a loaf of bread<br>two loaves</td><td>um pão de forma<br>dois</td></tr>
+      <tr><td>a slice of cheese<br>of bread</td><td>uma fatia de queijo<br>de pão</td></tr>
+      <tr><td>a carton of milk<br>of eggs</td><td>uma caixa de leite<br>de ovos</td></tr>
+      <tr><td>a box of cereal<br>of juice</td><td>uma caixa de cereal<br>de suco</td></tr>
       <tr><td>a jar of honey</td><td>um pote de mel</td></tr>
       <tr><td>a can of tomatoes</td><td>uma lata de tomates</td></tr>
-      <tr><td>a bunch of bananas · of grapes</td><td>um cacho de bananas · de uvas</td></tr>
+      <tr><td>a bunch of bananas<br>of grapes</td><td>um cacho de bananas<br>de uvas</td></tr>
       <tr><td>a head of lettuce</td><td>um pé de alface</td></tr>
       <tr><td>groceries</td><td>compras de mercado</td></tr>
       <tr><td>shopping list</td><td>lista de compras</td></tr>
-      <tr><td>cart · basket</td><td>carrinho · cesta</td></tr>
+      <tr><td>cart<br>basket</td><td>carrinho<br>cesta</td></tr>
     </table>
     <h2>At home</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>furniture · a piece of furniture</td><td>móveis · um móvel</td></tr>
-      <tr><td>couch · sofa</td><td>sofá</td></tr>
-      <tr><td>shelf · shelves</td><td>prateleira · prateleiras</td></tr>
+      <tr><td>furniture<br>a piece of furniture</td><td>móveis<br>um móvel</td></tr>
+      <tr><td>couch<br>sofa</td><td>sofá</td></tr>
+      <tr><td>shelf<br>shelves</td><td>prateleira<br>prateleiras</td></tr>
       <tr><td>closet</td><td>armário embutido, guarda-roupa</td></tr>
       <tr><td>cabinet</td><td>armário (de cozinha, de banheiro)</td></tr>
-      <tr><td>dishes · to do the dishes</td><td>louça · lavar a louça</td></tr>
-      <tr><td>knife · knives</td><td>faca · facas</td></tr>
-      <tr><td>fork · spoon</td><td>garfo · colher</td></tr>
+      <tr><td>dishes<br>to do the dishes</td><td>louça<br>lavar a louça</td></tr>
+      <tr><td>knife<br>knives</td><td>faca<br>facas</td></tr>
+      <tr><td>fork<br>spoon</td><td>garfo<br>colher</td></tr>
       <tr><td>dishwasher</td><td>lava-louça</td></tr>
       <tr><td>can opener</td><td>abridor de latas</td></tr>
       <tr><td>roommate</td><td>colega de apartamento</td></tr>

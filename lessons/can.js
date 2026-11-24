@@ -8,21 +8,21 @@ pt:`
     <h2>Can</h2>
     <p><b>Can</b> = poder, conseguir, saber (fazer algo).</p>
     <ul>
-      <li><b>Habilidade</b>: I can swim. · She can play the piano.</li>
+      <li><b>Habilidade</b>: I can swim.<br>She can play the piano.</li>
       <li><b>Possibilidade</b>: You can buy tickets online.</li>
-      <li><b>Permissão</b>: Can I sit here? · You can't park here.</li>
-      <li><b>Pedidos e ofertas</b>: Can you help me? · Can I help you?</li>
+      <li><b>Permissão</b>: Can I sit here?<br>You can't park here.</li>
+      <li><b>Pedidos e ofertas</b>: Can you help me?<br>Can I help you?</li>
     </ul>
-    <p>Cheetahs can run at about 100 km/h. · Penguins can't fly, but they can swim very fast.</p>
+    <p>Cheetahs can run at about 100 km/h.<br>Penguins can't fly, but they can swim very fast.</p>
     <h3>CAN é modal</h3>
     <ul>
       <li>Não ganha S: She can drive (<s>She cans drive</s>).</li>
       <li>Não leva TO: She can drive (<s>can to drive</s>).</li>
-      <li>Não usa DO: Can you swim? (<s>Do you can swim?</s>) · I can't (<s>I don't can</s>).</li>
+      <li>Não usa DO: Can you swim? (<s>Do you can swim?</s>)<br>I can't (<s>I don't can</s>).</li>
       <li>Resposta curta: "Can you help me?" — "Yes, I can." / "No, I can't."</li>
     </ul>
     <h3>Com os sentidos</h3>
-    <p>O CAN substitui o "estou vendo", "estou ouvindo": I can hear music (<s>I'm hearing</s>). · Can you see the ocean?</p>
+    <p>O CAN substitui o "estou vendo", "estou ouvindo": I can hear music (<s>I'm hearing</s>).<br>Can you see the ocean?</p>
     <h3>Pronúncia: CAN × CAN'T</h3>
     <p>No inglês americano, o T de <i>can't</i> quase não se ouve. A diferença está na força: <i>can</i> é fraco, quase /kən/; <i>can't</i> é forte, com a vogal aberta /æ/.</p>
     <h3>Expressões com CAN'T</h3>
@@ -35,21 +35,21 @@ pt:`
 en:`
     <h2>Can</h2>
     <ul>
-      <li><b>Ability</b>: I can swim. · She can play the piano.</li>
+      <li><b>Ability</b>: I can swim.<br>She can play the piano.</li>
       <li><b>Possibility</b>: You can buy tickets online.</li>
-      <li><b>Permission</b>: Can I sit here? · You can't park here.</li>
-      <li><b>Requests and offers</b>: Can you help me? · Can I help you?</li>
+      <li><b>Permission</b>: Can I sit here?<br>You can't park here.</li>
+      <li><b>Requests and offers</b>: Can you help me?<br>Can I help you?</li>
     </ul>
-    <p>Cheetahs can run at about 100 km/h. · Penguins can't fly, but they can swim very fast.</p>
+    <p>Cheetahs can run at about 100 km/h.<br>Penguins can't fly, but they can swim very fast.</p>
     <h3>CAN is a modal</h3>
     <ul>
       <li>No S: She can drive (<s>She cans drive</s>).</li>
       <li>No TO: She can drive (<s>can to drive</s>).</li>
-      <li>No DO: Can you swim? (<s>Do you can swim?</s>) · I can't (<s>I don't can</s>).</li>
+      <li>No DO: Can you swim? (<s>Do you can swim?</s>)<br>I can't (<s>I don't can</s>).</li>
       <li>Short answers: "Can you help me?" — "Yes, I can." / "No, I can't."</li>
     </ul>
     <h3>With the senses</h3>
-    <p>Use CAN with see, hear and smell: I can hear music (<s>I'm hearing</s>). · Can you see the ocean?</p>
+    <p>Use CAN with see, hear and smell: I can hear music (<s>I'm hearing</s>).<br>Can you see the ocean?</p>
     <h3>Pronunciation: CAN × CAN'T</h3>
     <p>In American English, the T in <i>can't</i> is barely heard. The difference is stress: <i>can</i> is weak, almost /kən/; <i>can't</i> is strong, with an open /æ/.</p>
     <h3>Expressions with CAN'T</h3>
@@ -65,34 +65,34 @@ pt:`
     <h2>Habilidades</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to ride a bike · a horse</td><td>andar de bicicleta · a cavalo</td></tr>
-      <tr><td>to play the guitar · chess</td><td>tocar violão · jogar xadrez</td></tr>
-      <tr><td>to sing · to dance</td><td>cantar · dançar</td></tr>
-      <tr><td>to draw · to paint</td><td>desenhar · pintar</td></tr>
-      <tr><td>to cook · to bake</td><td>cozinhar · fazer pães e bolos</td></tr>
+      <tr><td>to ride a bike<br>a horse</td><td>andar de bicicleta<br>a cavalo</td></tr>
+      <tr><td>to play the guitar<br>chess</td><td>tocar violão<br>jogar xadrez</td></tr>
+      <tr><td>to sing<br>to dance</td><td>cantar<br>dançar</td></tr>
+      <tr><td>to draw<br>to paint</td><td>desenhar<br>pintar</td></tr>
+      <tr><td>to cook<br>to bake</td><td>cozinhar<br>fazer pães e bolos</td></tr>
       <tr><td>to juggle</td><td>fazer malabarismo</td></tr>
-      <tr><td>to knit · to sew</td><td>tricotar · costurar</td></tr>
+      <tr><td>to knit<br>to sew</td><td>tricotar<br>costurar</td></tr>
       <tr><td>to speak a language fluently</td><td>falar um idioma fluentemente</td></tr>
-      <tr><td>to be good at · bad at</td><td>ser bom em · ruim em</td></tr>
+      <tr><td>to be good at<br>bad at</td><td>ser bom em<br>ruim em</td></tr>
       <tr><td>a fast learner</td><td>alguém que aprende rápido</td></tr>
-      <tr><td>skill · talent</td><td>habilidade · talento</td></tr>
+      <tr><td>skill<br>talent</td><td>habilidade<br>talento</td></tr>
     </table>
     <p class="note">Instrumentos musicais levam <i>the</i>: play <b>the</b> guitar. Esportes e jogos, não: play soccer, play chess.</p>`,
 en:`
     <h2>Skills</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to ride a bike · a horse</td><td>andar de bicicleta · a cavalo</td></tr>
-      <tr><td>to play the guitar · chess</td><td>tocar violão · jogar xadrez</td></tr>
-      <tr><td>to sing · to dance</td><td>cantar · dançar</td></tr>
-      <tr><td>to draw · to paint</td><td>desenhar · pintar</td></tr>
-      <tr><td>to cook · to bake</td><td>cozinhar · fazer pães e bolos</td></tr>
+      <tr><td>to ride a bike<br>a horse</td><td>andar de bicicleta<br>a cavalo</td></tr>
+      <tr><td>to play the guitar<br>chess</td><td>tocar violão<br>jogar xadrez</td></tr>
+      <tr><td>to sing<br>to dance</td><td>cantar<br>dançar</td></tr>
+      <tr><td>to draw<br>to paint</td><td>desenhar<br>pintar</td></tr>
+      <tr><td>to cook<br>to bake</td><td>cozinhar<br>fazer pães e bolos</td></tr>
       <tr><td>to juggle</td><td>fazer malabarismo</td></tr>
-      <tr><td>to knit · to sew</td><td>tricotar · costurar</td></tr>
+      <tr><td>to knit<br>to sew</td><td>tricotar<br>costurar</td></tr>
       <tr><td>to speak a language fluently</td><td>falar um idioma fluentemente</td></tr>
-      <tr><td>to be good at · bad at</td><td>ser bom em · ruim em</td></tr>
+      <tr><td>to be good at<br>bad at</td><td>ser bom em<br>ruim em</td></tr>
       <tr><td>a fast learner</td><td>alguém que aprende rápido</td></tr>
-      <tr><td>skill · talent</td><td>habilidade · talento</td></tr>
+      <tr><td>skill<br>talent</td><td>habilidade<br>talento</td></tr>
     </table>
     <p class="note">Musical instruments take <i>the</i>: play <b>the</b> guitar. Sports and games do not: play soccer, play chess.</p>`
   },

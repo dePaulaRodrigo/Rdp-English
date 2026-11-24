@@ -19,7 +19,7 @@ pt:`
     <p class="note">Dica para <i>remember</i> e <i>forget</i>: TO olha para o futuro (a tarefa), -ING olha para o passado (a memória).</p>
     <h3>Verbo + pessoa + TO</h3>
     <p>O português usa \"que\"; o inglês, não: I want <b>you to come</b> (<s>I want that you come</s>).</p>
-    <p>want · would like · ask · tell · expect · advise · remind · teach · help · need: She told me <b>to wait</b>. · Remind me <b>to call</b> the bank.</p>
+    <p>want<br>would like<br>ask<br>tell<br>expect<br>advise<br>remind<br>teach<br>help<br>need: She told me <b>to wait</b>.<br>Remind me <b>to call</b> the bank.</p>
     <h3>Verbos dos sentidos + objeto + verbo</h3>
     <ul>
       <li>sem TO = a ação inteira: I saw him <b>cross</b> the street.</li>
@@ -42,7 +42,7 @@ en:`
     <p class="note">Tip for <i>remember</i> and <i>forget</i>: TO looks forward (the task), -ING looks back (the memory).</p>
     <h3>Verb + person + TO</h3>
     <p>Portuguese uses \"que\"; English doesn't: I want <b>you to come</b> (<s>I want that you come</s>).</p>
-    <p>want · would like · ask · tell · expect · advise · remind · teach · help · need: She told me <b>to wait</b>. · Remind me <b>to call</b> the bank.</p>
+    <p>want<br>would like<br>ask<br>tell<br>expect<br>advise<br>remind<br>teach<br>help<br>need: She told me <b>to wait</b>.<br>Remind me <b>to call</b> the bank.</p>
     <h3>Sense verbs + object + verb</h3>
     <ul>
       <li>no TO = the whole action: I saw him <b>cross</b> the street.</li>
@@ -56,7 +56,7 @@ pt:`
     <h2>Hábitos e lembranças</h2>
     <table>
       <tr><th>Inglês</th><th>Português</th></tr>
-      <tr><td>to quit · to give up</td><td>largar, desistir</td></tr>
+      <tr><td>to quit<br>to give up</td><td>largar, desistir</td></tr>
       <tr><td>to cut down on</td><td>diminuir (o consumo de)</td></tr>
       <tr><td>a bad habit</td><td>um mau hábito</td></tr>
       <tr><td>to bite your nails</td><td>roer as unhas</td></tr>
@@ -64,8 +64,8 @@ pt:`
       <tr><td>a childhood memory</td><td>uma lembrança de infância</td></tr>
       <tr><td>to look back on</td><td>relembrar</td></tr>
       <tr><td>to bring back memories</td><td>trazer lembranças</td></tr>
-      <tr><td>vividly · vaguely</td><td>claramente · vagamente</td></tr>
-      <tr><td>to lock · to unplug</td><td>trancar · desligar da tomada</td></tr>
+      <tr><td>vividly<br>vaguely</td><td>claramente<br>vagamente</td></tr>
+      <tr><td>to lock<br>to unplug</td><td>trancar<br>desligar da tomada</td></tr>
       <tr><td>absent-minded</td><td>distraído, esquecido</td></tr>
       <tr><td>a reminder</td><td>um lembrete</td></tr>
     </table>
@@ -74,7 +74,7 @@ en:`
     <h2>Habits and memories</h2>
     <table>
       <tr><th>English</th><th>Portuguese</th></tr>
-      <tr><td>to quit · to give up</td><td>largar, desistir</td></tr>
+      <tr><td>to quit<br>to give up</td><td>largar, desistir</td></tr>
       <tr><td>to cut down on</td><td>diminuir (o consumo de)</td></tr>
       <tr><td>a bad habit</td><td>um mau hábito</td></tr>
       <tr><td>to bite your nails</td><td>roer as unhas</td></tr>
@@ -82,8 +82,8 @@ en:`
       <tr><td>a childhood memory</td><td>uma lembrança de infância</td></tr>
       <tr><td>to look back on</td><td>relembrar</td></tr>
       <tr><td>to bring back memories</td><td>trazer lembranças</td></tr>
-      <tr><td>vividly · vaguely</td><td>claramente · vagamente</td></tr>
-      <tr><td>to lock · to unplug</td><td>trancar · desligar da tomada</td></tr>
+      <tr><td>vividly<br>vaguely</td><td>claramente<br>vagamente</td></tr>
+      <tr><td>to lock<br>to unplug</td><td>trancar<br>desligar da tomada</td></tr>
       <tr><td>absent-minded</td><td>distraído, esquecido</td></tr>
       <tr><td>a reminder</td><td>um lembrete</td></tr>
     </table>
