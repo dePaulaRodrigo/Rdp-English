@@ -157,7 +157,7 @@ en:`
          why:{pt:"Get along (with) = dar-se bem.", en:"Get along (with) = have a good relationship."}}
       ]},
     { id:"mc-hard", rev:1, title:"Multiple choice — meanings and phrasal verbs", type:"mc", reveal:"end",
-      instructions:{pt:"Itens 1 a 10: escolha o significado do phrasal verb. Itens 11 a 20: escolha o phrasal verb que substitui a parte destacada. Depois toque em Corrigir respostas.", en:"Items 1–10: choose the meaning of the phrasal verb. Items 11–20: choose the phrasal verb that replaces the highlighted part. Then tap Corrigir respostas."},
+      instructions:{pt:"Itens 1 a 10: escolha o significado do phrasal verb. Itens 11 a 20: escolha o phrasal verb que substitui a expressão sem phrasal verb da frase entre aspas. Depois toque em Corrigir respostas.", en:"Items 1–10: choose the meaning of the phrasal verb. Items 11–20: choose the phrasal verb that replaces the non-phrasal expression in the quoted sentence. Then tap Corrigir respostas."},
       items:[
         {q:"\"Her career took off after her first book.\" Took off = ___", o:["became successful","ended","removed"], a:0, sub:"many meanings",
          why:{pt:"Take off = fazer sucesso de repente.", en:"Take off = become successful quickly."}},
