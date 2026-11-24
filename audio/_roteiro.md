@@ -833,39 +833,6 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Mom | And will you stay for New Year's? |  |
 | dialogue-hard-12.mp3 | Ana | Of course. I miss the beach. I'll get over the cold in Fortaleza! |  |
 
-## going-to › dialogue-medium  (0/11)
-
-| Arquivo | Voz | Texto | Feito |
-| --- | --- | --- | --- |
-| dialogue-medium-1.mp3 | Ana | Any plans for the weekend? |  |
-| dialogue-medium-2.mp3 | Ben | Yes! I'm going to visit my parents in Petrópolis. |  |
-| dialogue-medium-3.mp3 | Ana | Nice! Are you driving there? |  |
-| dialogue-medium-4.mp3 | Ben | No, I'm taking the bus on Saturday morning. |  |
-| dialogue-medium-5.mp3 | Ana | What are you going to do there? |  |
-| dialogue-medium-6.mp3 | Ben | We're going to have a big family lunch. |  |
-| dialogue-medium-7.mp3 | Ana | Fun! I was going to go to the beach, but the forecast says it's going to rain. |  |
-| dialogue-medium-8.mp3 | Ben | Oh no. So what are you doing instead? |  |
-| dialogue-medium-9.mp3 | Ana | I'm meeting my friend Clara for brunch on Sunday. |  |
-| dialogue-medium-10.mp3 | Ben | Nice. And tonight? |  |
-| dialogue-medium-11.mp3 | Ana | Tonight I'm not going anywhere. I'm going to sleep early! |  |
-
-## going-to › dialogue-hard  (0/12)
-
-| Arquivo | Voz | Texto | Feito |
-| --- | --- | --- | --- |
-| dialogue-hard-1.mp3 | Mia | OK, the tickets are booked. We are flying to Santiago on July 10th! |  |
-| dialogue-hard-2.mp3 | Rui | Great! What's the plan? |  |
-| dialogue-hard-3.mp3 | Mia | I've already decided: we are going to spend three days in Santiago. |  |
-| dialogue-hard-4.mp3 | Rui | Perfect. Look at the forecast: it is going to be very cold. |  |
-| dialogue-hard-5.mp3 | Mia | I know. I am going to buy a warm coat tomorrow. I've already chosen it. |  |
-| dialogue-hard-6.mp3 | Rui | Do you need gloves? I will lend you mine. |  |
-| dialogue-hard-7.mp3 | Mia | Thanks! And I am meeting my sister on the 15th. She lives in Valparaíso. |  |
-| dialogue-hard-8.mp3 | Rui | Oh, nice. What time does the bus leave to Valparaíso? |  |
-| dialogue-hard-9.mp3 | Mia | It leaves at eight in the morning. |  |
-| dialogue-hard-10.mp3 | Rui | OK. Hmm, I'm hungry. I think I will make a sandwich. |  |
-| dialogue-hard-11.mp3 | Mia | Wait! We are having dinner with your parents tonight, remember? |  |
-| dialogue-hard-12.mp3 | Rui | Oh, right! Then I won't eat now. |  |
-
 ## have-expressions › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
@@ -2541,41 +2508,38 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-13.mp3 | Ricardo | My wife. she's the woman at the bar, the one whose dress is blue. |  |
 | dialogue-hard-14.mp3 | Receptionist | Then please give her this coupon for a free dessert. |  |
 
-## will › dialogue-medium  (0/16)
+## will › dialogue-medium  (0/11)
 
 | Arquivo | Voz | Texto | Feito |
 | --- | --- | --- | --- |
-| dialogue-medium-1.mp3 | Waiter | Good evening! Are you ready to order? |  |
-| dialogue-medium-2.mp3 | Ana | Yes. I will have the salmon, please. |  |
-| dialogue-medium-3.mp3 | Waiter | Great choice. And for you, sir? |  |
-| dialogue-medium-4.mp3 | Leo | Hmm… I think I will try the steak. |  |
-| dialogue-medium-5.mp3 | Waiter | How would you like it cooked? |  |
-| dialogue-medium-6.mp3 | Leo | Medium, please. will it take long? |  |
-| dialogue-medium-7.mp3 | Waiter | About twenty minutes. Anything to drink? |  |
-| dialogue-medium-8.mp3 | Ana | I won't have wine tonight. I'm driving. |  |
-| dialogue-medium-9.mp3 | Leo | I will have a beer. |  |
-| dialogue-medium-10.mp3 | Waiter | Perfect. I will bring your drinks right away. |  |
-| dialogue-medium-11.mp3 | Ana | Leo, I'm sure you will love the dessert here. |  |
-| dialogue-medium-12.mp3 | Leo | I hope so! Oh no… I forgot my wallet! |  |
-| dialogue-medium-13.mp3 | Ana | Don't worry. I will pay tonight. |  |
-| dialogue-medium-14.mp3 | Leo | Thanks! I promise I will pay next time. |  |
-| dialogue-medium-15.mp3 | Ana | You always say that! Will you remember? |  |
-| dialogue-medium-16.mp3 | Leo | Yes, I will! |  |
+| dialogue-medium-1.mp3 | Nina | Hi, Rafa! So, are you doing anything on Saturday? |  |
+| dialogue-medium-2.mp3 | Rafa | Yes. My brother is moving, so I'm going to help him. |  |
+| dialogue-medium-3.mp3 | Nina | Oh! Where is he moving to? |  |
+| dialogue-medium-4.mp3 | Rafa | To an apartment downtown. What about you? Are you going to go to the beach? |  |
+| dialogue-medium-5.mp3 | Nina | I wanted to, but the forecast says it will rain all weekend. |  |
+| dialogue-medium-6.mp3 | Rafa | Then you will need an umbrella, not sunscreen! |  |
+| dialogue-medium-7.mp3 | Nina | Ha! I think I won't go anywhere. I'll just stay home. |  |
+| dialogue-medium-8.mp3 | Rafa | Or you can help us! I promise it won't take long. |  |
+| dialogue-medium-9.mp3 | Nina | OK, I'll help. What time are you starting? |  |
+| dialogue-medium-10.mp3 | Rafa | We're starting at nine. I will send you the address tonight. |  |
+| dialogue-medium-11.mp3 | Nina | Great. I'll be there at nine. |  |
 
-## will › dialogue-hard  (0/10)
+## will › dialogue-hard  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
 | --- | --- | --- | --- |
-| dialogue-hard-1.mp3 | Bia | When we move to Lisbon, I'll look for a job right away. |  |
-| dialogue-hard-2.mp3 | Caio | I will help you with your résumé. |  |
-| dialogue-hard-3.mp3 | Bia | Thanks. Do you think we will find an apartment quickly? |  |
-| dialogue-hard-4.mp3 | Caio | Probably. As soon as the bank approves the loan, we can sign the contract. |  |
+| dialogue-hard-1.mp3 | Bia | When we move to Lisbon, I'm going to look for a job right away. |  |
+| dialogue-hard-2.mp3 | Caio | And I will help you with your résumé. |  |
+| dialogue-hard-3.mp3 | Bia | Thanks. Are we going to rent or buy an apartment? |  |
+| dialogue-hard-4.mp3 | Caio | Rent first. As soon as the bank approves the loan, we'll buy. |  |
 | dialogue-hard-5.mp3 | Bia | And if they don't approve it? |  |
-| dialogue-hard-6.mp3 | Caio | Then we will rent for a year. |  |
-| dialogue-hard-7.mp3 | Bia | OK. I'm a little scared. What if the kids don't like their new school? |  |
+| dialogue-hard-6.mp3 | Caio | Then we'll keep renting. No problem. |  |
+| dialogue-hard-7.mp3 | Bia | What if the kids don't like their new school? |  |
 | dialogue-hard-8.mp3 | Caio | They will love it. Kids adapt fast. |  |
-| dialogue-hard-9.mp3 | Bia | I hope so. I will call my mom before we make the final decision. |  |
-| dialogue-hard-10.mp3 | Caio | Good idea. And don't worry: I won't let anything go wrong. |  |
+| dialogue-hard-9.mp3 | Bia | I hope so. Oh, my mom is visiting us on Sunday. |  |
+| dialogue-hard-10.mp3 | Bia | I want to talk to her before we make the final decision. |  |
+| dialogue-hard-11.mp3 | Caio | Good idea. We're meeting her at the airport at noon, right? |  |
+| dialogue-hard-12.mp3 | Bia | Yes. And this time I won't forget! |  |
 
 ## wish › dialogue-medium  (0/11)
 

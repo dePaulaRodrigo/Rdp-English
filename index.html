@@ -603,6 +603,9 @@ function exScore(ex, p){
 function route(){
   closeSheet(); stopAudio();
   const h = location.hash.replace("#","");
+  /* lições unidas: o endereço antigo leva à lição nova */
+  const MERGED = {"going-to":"will"};
+  if(MERGED[h]){ location.replace("#"+MERGED[h]); return; }
   if(h==="privacidade"){ renderPrivacy(); window.scrollTo(0,0); return; }
   if(h==="conteudo"){ if(S.code) track("home",{d:"content"}); renderContent(); window.scrollTo(0,0); return; }
   if(!S.code){ renderGate(); return; }
