@@ -2576,18 +2576,18 @@ const CATALOG = [
    "find out vs discover",
    "everyday life"
   ],
-  "v": "d7bf4a59",
+  "v": "a4ceaeb2",
   "exercises": [
    {
     "id": "mc-easy",
     "type": "mc",
-    "n": 14
+    "n": 20
    },
    {
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 20
    },
    {
     "id": "dialogue-medium",
