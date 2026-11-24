@@ -324,6 +324,33 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Marcelo | No way. Last time I did that, I had to have the whole kitchen floor replaced. |  |
 | dialogue-hard-13.mp3 | Rafa | OK, this round's on me. And let's get you to go home early tonight! |  |
 
+## collocations › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Karen | We need to make a decision about the launch today. |  |
+| dialogue-medium-2.mp3 | Paulo | I agree. But first, can I ask a question? |  |
+| dialogue-medium-3.mp3 | Karen | Of course. |  |
+| dialogue-medium-4.mp3 | Paulo | Did the supplier make a mistake with the order? |  |
+| dialogue-medium-5.mp3 | Karen | Yes. From now on, we have to pay closer attention to the deadlines. |  |
+| dialogue-medium-6.mp3 | Paulo | The shipping costs were also very high. |  |
+| dialogue-medium-7.mp3 | Karen | True. And the heavy rain last week didn't help. |  |
+| dialogue-medium-8.mp3 | Paulo | Should we take a break and continue after lunch? |  |
+| dialogue-medium-9.mp3 | Karen | Good idea. Then we'll do some research on other suppliers. |  |
+
+## collocations › dialogue-hard  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Host | Good morning, Chicago! Expect heavy rain until noon |  |
+| dialogue-hard-2.mp3 | Host | and strong winds near the lake. |  |
+| dialogue-hard-3.mp3 | Host | On the roads, there's heavy traffic on I-90 because of an accident. |  |
+| dialogue-hard-4.mp3 | Host | Police are asking drivers to take extra care. |  |
+| dialogue-hard-5.mp3 | Host | If you're heading downtown, you might want to take a detour. |  |
+| dialogue-hard-6.mp3 | Host | Tonight, the city council will make a decision on the new bridge. |  |
+| dialogue-hard-7.mp3 | Host | Gas prices are high this week, so plan your trips. |  |
+| dialogue-hard-8.mp3 | Host | And please pay attention near school zones. |  |
+
 ## comparatives › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
@@ -667,6 +694,20 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Maya | Probably. There's no such thing as a final answer in science. |  |
 | dialogue-hard-11.mp3 | Leo | Deep. Is "philosophy at 2 a.m." a thing for you? |  |
 | dialogue-hard-12.mp3 | Maya | Only during exam week! |  |
+
+## false-friends › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mike | Welcome to the team! Have you been to Miami before? |  |
+| dialogue-medium-2.mp3 | Júlia | Only once, for a conference. I attended a few lectures on marketing. |  |
+| dialogue-medium-3.mp3 | Mike | Nice. Where do you live now? |  |
+| dialogue-medium-4.mp3 | Júlia | In Doral. I've lived there since March. It's nice, but actually I'd prefer to live near the beach. |  |
+| dialogue-medium-5.mp3 | Mike | Eventually you'll find a place. The market changes fast. |  |
+| dialogue-medium-6.mp3 | Júlia | I hope so. By the way, I have a question about tomorrow's meeting. |  |
+| dialogue-medium-7.mp3 | Mike | Sure, go ahead. |  |
+| dialogue-medium-8.mp3 | Júlia | Does it depend on the client's schedule? |  |
+| dialogue-medium-9.mp3 | Mike | Yes. If they cancel, we'll resume the project review on Friday. |  |
 
 ## first-conditional › dialogue-medium  (0/12)
 
@@ -1226,6 +1267,19 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-9.mp3 | Lima | And who has the key to the storage room? |  |
 | dialogue-hard-10.mp3 | Paulo | Only the director. But she can't have done it. She's in Portugal this week. |  |
 | dialogue-hard-11.mp3 | Lima | Hmm. She didn't need to be here. Someone could have used her key. |  |
+
+## near-synonyms › dialogue-medium  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Mateus | What did you think of the biography of Santos Dumont? |  |
+| dialogue-medium-2.mp3 | Clara | I loved it. He was a renowned inventor, admired all over Paris. |  |
+| dialogue-medium-3.mp3 | Mateus | Did you notice how the author implies that his rivals copied his ideas? |  |
+| dialogue-medium-4.mp3 | Clara | Yes. And I inferred that she admires him a lot. |  |
+| dialogue-medium-5.mp3 | Mateus | The best chapter describes his historic flight in Paris, in 1906. |  |
+| dialogue-medium-6.mp3 | Clara | And he kept a childlike enthusiasm for machines all his life. |  |
+| dialogue-medium-7.mp3 | Mateus | The book also explains the economic situation in France at the time. |  |
+| dialogue-medium-8.mp3 | Clara | It's long, but the historical details make it worth reading. |  |
 
 ## nouns › dialogue-medium  (0/12)
 
@@ -1938,6 +1992,18 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-15.mp3 | Lia | Maybe. I can't concentrate at home anymore: too many messages. |  |
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
+
+## register › dialogue-hard  (0/7)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-hard-1.mp3 | Lucas | Hey! Did you find out what time the barbecue starts? |  |
+| dialogue-hard-2.mp3 | Bia | Around 4. Can you buy some ice on the way? |  |
+| dialogue-hard-3.mp3 | Lucas | Sure. Do you need me to help with anything else? |  |
+| dialogue-hard-4.mp3 | Bia | Could you bring your speaker? Mine is broken. |  |
+| dialogue-hard-5.mp3 | Lucas | No problem. When does the game start? |  |
+| dialogue-hard-6.mp3 | Bia | At 6. Come early, OK? |  |
+| dialogue-hard-7.mp3 | Lucas | Great. I'll see you there! |  |
 
 ## relative-clauses-2 › dialogue-medium  (0/13)
 

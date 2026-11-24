@@ -1,5 +1,5 @@
 // Gerado por tools/build.mjs — não editar à mão.
-const PARTS = [{"n":1,"pt":"Fundamentos","en":"Fundamentals"},{"n":2,"pt":"Os verbos To Be e There Be","en":"To Be and There Be"},{"n":3,"pt":"O presente","en":"The present"},{"n":4,"pt":"O passado","en":"The past"},{"n":5,"pt":"O Present Perfect","en":"The Present Perfect"},{"n":6,"pt":"O futuro","en":"The future"},{"n":7,"pt":"Verbos modais","en":"Modal verbs"},{"n":8,"pt":"Adjetivos, advérbios e comparações","en":"Adjectives, adverbs and comparisons"},{"n":9,"pt":"Quantificadores","en":"Quantifiers"},{"n":10,"pt":"Preposições","en":"Prepositions"},{"n":11,"pt":"Padrões verbais e verbos versáteis","en":"Verb patterns and versatile verbs"},{"n":12,"pt":"Voz passiva","en":"The passive voice"},{"n":13,"pt":"Condicionais, desejos e arrependimentos","en":"Conditionals, wishes and regrets"},{"n":14,"pt":"Frases complexas","en":"Complex sentences"},{"n":15,"pt":"Escrita","en":"Writing"}];
+const PARTS = [{"n":1,"pt":"Fundamentos","en":"Fundamentals"},{"n":2,"pt":"Os verbos To Be e There Be","en":"To Be and There Be"},{"n":3,"pt":"O presente","en":"The present"},{"n":4,"pt":"O passado","en":"The past"},{"n":5,"pt":"O Present Perfect","en":"The Present Perfect"},{"n":6,"pt":"O futuro","en":"The future"},{"n":7,"pt":"Verbos modais","en":"Modal verbs"},{"n":8,"pt":"Adjetivos, advérbios e comparações","en":"Adjectives, adverbs and comparisons"},{"n":9,"pt":"Quantificadores","en":"Quantifiers"},{"n":10,"pt":"Preposições","en":"Prepositions"},{"n":11,"pt":"Padrões verbais e verbos versáteis","en":"Verb patterns and versatile verbs"},{"n":12,"pt":"Voz passiva","en":"The passive voice"},{"n":13,"pt":"Condicionais, desejos e arrependimentos","en":"Conditionals, wishes and regrets"},{"n":14,"pt":"Frases complexas","en":"Complex sentences"},{"n":15,"pt":"Escrita","en":"Writing"},{"n":16,"pt":"Precisão e naturalidade","en":"Precision and natural English"}];
 const FIELDS = [{"id":"medicina","pt":"Medicina","en":"Medicine","icon":"🩺","color":"#e4f1ee","subs":[{"id":"medicina-de-familia","pt":"Medicina de Família","en":"Family Medicine"}]},{"id":"advocacia","pt":"Advocacia","en":"Law","icon":"⚖️","color":"#efe9f7","subs":[]},{"id":"ti","pt":"TI","en":"IT","icon":"💻","color":"#e3edf9","subs":[]},{"id":"marketing","pt":"Marketing","en":"Marketing","icon":"📣","color":"#fbe9e4","subs":[]},{"id":"empreendedorismo","pt":"Empreendedorismo","en":"Entrepreneurship","icon":"🚀","color":"#fdf3d8","subs":[]}];
 const CATALOG = [
  {
@@ -3294,6 +3294,223 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 10
+   }
+  ]
+ },
+ {
+  "id": "collocations",
+  "title": "Collocations",
+  "area": "Inglês Cotidiano",
+  "icon": "🧲",
+  "color": "#e8eef4",
+  "level": "C1",
+  "part": 16,
+  "order": 76,
+  "tags": [
+   "collocations",
+   "make or do",
+   "heavy rain",
+   "highly unlikely",
+   "pay attention",
+   "traffic and weather"
+  ],
+  "v": "1660c0fd",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "id": "register",
+  "title": "Register: Informal, Neutral and Formal",
+  "area": "Inglês Cotidiano",
+  "icon": "🎩",
+  "color": "#f2ede4",
+  "level": "C1",
+  "part": 16,
+  "order": 77,
+  "tags": [
+   "register",
+   "formal and informal",
+   "get vs obtain",
+   "phrasal verbs vs Latin verbs",
+   "emails",
+   "making plans"
+  ],
+  "v": "6c38a1ad",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "id": "near-synonyms",
+  "title": "Near-Synonyms and Connotation",
+  "area": "Inglês Cotidiano",
+  "icon": "⚖️",
+  "color": "#eef0e6",
+  "level": "C2",
+  "part": 16,
+  "order": 78,
+  "tags": [
+   "connotation",
+   "frugal vs stingy",
+   "imply vs infer",
+   "economic vs economical",
+   "historic vs historical",
+   "continual vs continuous",
+   "books and biographies"
+  ],
+  "v": "2300b5ab",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 8
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "id": "false-friends",
+  "title": "Advanced False Friends and Portuguese Patterns",
+  "area": "Inglês Cotidiano",
+  "icon": "🎭",
+  "color": "#f4e9e6",
+  "level": "C1",
+  "part": 16,
+  "order": 79,
+  "tags": [
+   "false friends",
+   "eventually",
+   "actually",
+   "attend",
+   "pretend",
+   "I'm 28",
+   "depend on",
+   "have you been",
+   "a new job"
+  ],
+  "v": "25ce3a8b",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 12
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 11
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 10
+   }
+  ]
+ },
+ {
+  "id": "discourse-markers",
+  "title": "Linking Words and Hedging",
+  "area": "Inglês Cotidiano",
+  "icon": "🔗",
+  "color": "#e6eef0",
+  "level": "C1",
+  "part": 16,
+  "order": 80,
+  "tags": [
+   "linking words",
+   "however",
+   "moreover",
+   "admittedly",
+   "in the end",
+   "hedging",
+   "suggest",
+   "tend to",
+   "cities and transportation"
+  ],
+  "v": "353affc3",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   },
+   {
+    "id": "dialogue-hard",
+    "type": "gap",
+    "n": 7
    }
   ]
  }
