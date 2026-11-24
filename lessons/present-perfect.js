@@ -6,74 +6,48 @@ addLesson({
   explanation:{
 pt:`
     <h2>Present Perfect</h2>
-    <p><b>have / has + particípio</b> — uma ação passada que <b>afeta o presente</b>.</p>
-    <ul>
-      <li>Past Simple: Yesterday I lost my keys and couldn't get in. (aconteceu e terminou)</li>
-      <li>Present Perfect: I've lost my keys. Can you help me look for them? (afeta o agora)</li>
-    </ul>
-    <h3>A regra de ouro</h3>
-    <p>Nunca com expressão de tempo passado (yesterday, last year, in 2019): I <b>went</b> to Italy last year (<s>I've been to Italy last year</s>). Se a resposta diz "quando", vai para o Past Simple: "Have you been to Chile?" — "Yes, I went there in 2019."</p>
-    <h3>Os cinco usos</h3>
-    <ul>
-      <li><b>Experiências de vida</b>: Have you ever been to the US?<br>I've never eaten sushi.<br>Twelve people have walked on the Moon.</li>
-      <li><b>Tempo não terminado</b> (today, this week, this year): Have you had breakfast today?</li>
-      <li><b>Eventos recentes</b>: I've just come back from the gym.</li>
-      <li><b>Resultado no presente</b>: I haven't bought food, so I can't make lunch.</li>
-      <li><b>Algo que começou e continua</b>: I've lived here for three years.</li>
-    </ul>
+    <p>O Present Perfect fala de uma ação <b>passada, sem data</b>, que ainda tem <b>ligação com o agora</b>.</p>
+    <h3>Como se forma</h3><p><b>have / has + particípio</b></p>
+    <ul><li>I have worked = I've worked</li><li>She has worked = She's worked</li><li>I haven't worked</li><li>Have you worked?</li></ul>
+    <p>O particípio é a 3ª coluna dos verbos. Nos regulares, termina em -ED; os irregulares precisam ser decorados:</p>
+    <ul><li>work — worked — worked</li><li>go — went — <b>gone</b></li><li>see — saw — <b>seen</b></li><li>eat — ate — <b>eaten</b></li><li>be — was/were — <b>been</b></li></ul>
+    <h3>Past Simple × Present Perfect</h3>
+    <table><tr><th>Past Simple</th><th>Present Perfect</th></tr><tr><td>com data, terminado</td><td>sem data, ligado ao agora</td></tr><tr><td>I lost my keys yesterday.</td><td>I've lost my keys. Can you help me?</td></tr><tr><td>I went to Chile in 2019.</td><td>I've been to Chile.</td></tr><tr><td>She called me this morning.</td><td>She's called me three times today.</td></tr></table>
+    <p class="note">A regra de ouro: se aparece <b>quando</b> (yesterday, last year, in 2019, two days ago), é Past Simple. <s>I've been to Italy last year</s> → I went to Italy last year.</p>
+    <p>Numa conversa, os dois aparecem juntos: o Present Perfect abre o assunto, o Past Simple dá os detalhes.</p>
+    <ul><li>Have you ever been to Chile?</li><li>Yes, I went there in 2019. It was amazing!</li></ul>
+    <h3>Os usos</h3>
+    <ul><li><b>Experiências de vida</b> — em algum momento da vida, sem dizer quando<ul><li>Have you ever been to the US?</li><li>I've never eaten sushi.</li><li>Twelve people have walked on the Moon.</li></ul></li><li><b>Tempo que ainda não terminou</b> — today, this week, this year<ul><li>Have you had breakfast today?</li><li>I've drunk three coffees this morning.</li></ul></li><li><b>Algo recente</b> — com just<ul><li>I've just come back from the gym.</li><li>She's just left.</li></ul></li><li><b>Resultado no presente</b> — o que importa é a consequência<ul><li>I've lost my wallet. (I don't have it now.)</li><li>I haven't bought food. (I can't make lunch.)</li></ul></li><li><b>Algo que começou e continua</b> — com for e since<ul><li>I've lived here for three years.</li><li>We've known each other since 2010.</li></ul></li></ul>
+    <p class="note"><i>Tenho estudado</i> não é <i>I have studied</i>. "Tenho estudado" é uma ação que se repete até agora = <b>I've been studying</b> (capítulo 27). O Present Perfect simples ≃ "já estudei", "estudei".</p>
     <h3>Ever, never, already, yet, just, still</h3>
-    <table>
-      <tr><th>Palavra</th><th>Exemplo</th></tr>
-      <tr><td>ever — já (pergunta)</td><td>Have you ever tried it?</td></tr>
-      <tr><td>never — nunca</td><td>I've never tried it.</td></tr>
-      <tr><td>already — já</td><td>I've already eaten.</td></tr>
-      <tr><td>yet — ainda (não), no fim</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr>
-      <tr><td>just — acabei de</td><td>I've just arrived.</td></tr>
-      <tr><td>still — ainda, antes de haven't</td><td>I still haven't called her.</td></tr>
-    </table>
-    <h3>BEEN × GONE</h3>
-    <p>She's <b>been</b> to Paris (foi e voltou) × She's <b>gone</b> to Paris (está lá agora).</p>
+    <table><tr><th>Palavra</th><th>Sentido</th><th>Exemplo</th></tr><tr><td><b>ever</b></td><td>já (em perguntas)</td><td>Have you ever tried it?</td></tr><tr><td><b>never</b></td><td>nunca</td><td>I've never tried it.</td></tr><tr><td><b>already</b></td><td>já (antes do esperado)</td><td>I've already eaten.</td></tr><tr><td><b>yet</b></td><td>ainda (negativa); já (pergunta) — no fim</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr><tr><td><b>just</b></td><td>acabei de</td><td>I've just arrived.</td></tr><tr><td><b>still</b></td><td>ainda (ênfase) — antes de haven't</td><td>I still haven't called her.</td></tr></table>
+    <h3>Been × gone</h3>
+    <ul><li>She's been to Paris. — foi e voltou</li><li>She's gone to Paris. — foi e está lá agora</li></ul>
     <h3>Superlativo e "primeira vez"</h3>
-    <ul>
-      <li>It's the best movie I've <b>ever</b> seen.</li>
-      <li>"É a primeira vez que venho ao Rio." → This is the first time I've <b>been</b> to Rio. (<s>I come</s>)</li>
-    </ul>
-    <p class="note">No inglês americano informal, também se ouve o Past Simple com <i>just, already, yet</i>: <i>Did you eat yet?</i> As duas formas são aceitas.</p>`,
+    <ul><li>It's the best movie I've <b>ever</b> seen.</li><li>This is the first time I've <b>been</b> to Rio. — é a primeira vez que venho ao Rio (<s>I come</s>)</li></ul>
+    <p class="note">No inglês americano informal, também se ouve o Past Simple com just, already e yet: <i>Did you eat yet?</i> As duas formas são aceitas.</p>`,
 en:`
     <h2>Present Perfect</h2>
-    <p><b>have / has + past participle</b> — a past action that <b>affects the present</b>.</p>
-    <ul>
-      <li>Past Simple: Yesterday I lost my keys and couldn't get in. (finished)</li>
-      <li>Present Perfect: I've lost my keys. Can you help me look for them? (it matters now)</li>
-    </ul>
-    <h3>The golden rule</h3>
-    <p>Never with a finished time expression (yesterday, last year, in 2019): I <b>went</b> to Italy last year (<s>I've been to Italy last year</s>). If the answer says "when", use the Past Simple: "Have you been to Chile?" — "Yes, I went there in 2019."</p>
-    <h3>Five uses</h3>
-    <ul>
-      <li><b>Life experiences</b>: Have you ever been to the US?<br>I've never eaten sushi.<br>Twelve people have walked on the Moon.</li>
-      <li><b>Unfinished time</b> (today, this week, this year): Have you had breakfast today?</li>
-      <li><b>Recent events</b>: I've just come back from the gym.</li>
-      <li><b>Present result</b>: I haven't bought food, so I can't make lunch.</li>
-      <li><b>Something that started and continues</b>: I've lived here for three years.</li>
-    </ul>
+    <p>The Present Perfect talks about a <b>past action without a date</b> that is still <b>connected to now</b>.</p>
+    <h3>How to form it</h3><p><b>have / has + past participle</b></p>
+    <ul><li>I have worked = I've worked</li><li>She has worked = She's worked</li><li>I haven't worked</li><li>Have you worked?</li></ul>
+    <p>The past participle is the 3rd form of the verb. Regular verbs end in -ED; irregular ones must be memorized:</p>
+    <ul><li>work — worked — worked</li><li>go — went — <b>gone</b></li><li>see — saw — <b>seen</b></li><li>eat — ate — <b>eaten</b></li><li>be — was/were — <b>been</b></li></ul>
+    <h3>Past Simple × Present Perfect</h3>
+    <table><tr><th>Past Simple</th><th>Present Perfect</th></tr><tr><td>with a date, finished</td><td>no date, connected to now</td></tr><tr><td>I lost my keys yesterday.</td><td>I've lost my keys. Can you help me?</td></tr><tr><td>I went to Chile in 2019.</td><td>I've been to Chile.</td></tr><tr><td>She called me this morning.</td><td>She's called me three times today.</td></tr></table>
+    <p class="note">The golden rule: if you say <b>when</b> (yesterday, last year, in 2019, two days ago), use the Past Simple. <s>I've been to Italy last year</s> → I went to Italy last year.</p>
+    <p>In conversation, they work together: the Present Perfect opens the topic, the Past Simple gives the details.</p>
+    <ul><li>Have you ever been to Chile?</li><li>Yes, I went there in 2019. It was amazing!</li></ul>
+    <h3>The uses</h3>
+    <ul><li><b>Life experiences</b> — at some point in life, without saying when<ul><li>Have you ever been to the US?</li><li>I've never eaten sushi.</li><li>Twelve people have walked on the Moon.</li></ul></li><li><b>Unfinished time</b> — today, this week, this year<ul><li>Have you had breakfast today?</li><li>I've drunk three coffees this morning.</li></ul></li><li><b>Something recent</b> — with just<ul><li>I've just come back from the gym.</li><li>She's just left.</li></ul></li><li><b>A present result</b> — what matters is the consequence<ul><li>I've lost my wallet. (I don't have it now.)</li><li>I haven't bought food. (I can't make lunch.)</li></ul></li><li><b>Something that started and continues</b> — with for and since<ul><li>I've lived here for three years.</li><li>We've known each other since 2010.</li></ul></li></ul>
+    <p class="note">Portuguese <i>tenho estudado</i> is not <i>I have studied</i>. It describes a repeated action up to now = <b>I've been studying</b> (chapter 27).</p>
     <h3>Ever, never, already, yet, just, still</h3>
-    <table>
-      <tr><th>Word</th><th>Example</th></tr>
-      <tr><td>ever — at any time (questions)</td><td>Have you ever tried it?</td></tr>
-      <tr><td>never — at no time</td><td>I've never tried it.</td></tr>
-      <tr><td>already — sooner than expected</td><td>I've already eaten.</td></tr>
-      <tr><td>yet — until now, at the end</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr>
-      <tr><td>just — a moment ago</td><td>I've just arrived.</td></tr>
-      <tr><td>still — emphasis, before haven't</td><td>I still haven't called her.</td></tr>
-    </table>
-    <h3>BEEN × GONE</h3>
-    <p>She's <b>been</b> to Paris (went and came back) × She's <b>gone</b> to Paris (she's there now).</p>
+    <table><tr><th>Word</th><th>Meaning</th><th>Example</th></tr><tr><td><b>ever</b></td><td>at any time (questions)</td><td>Have you ever tried it?</td></tr><tr><td><b>never</b></td><td>at no time</td><td>I've never tried it.</td></tr><tr><td><b>already</b></td><td>sooner than expected</td><td>I've already eaten.</td></tr><tr><td><b>yet</b></td><td>until now — at the end</td><td>I haven't eaten yet.<br>Have you eaten yet?</td></tr><tr><td><b>just</b></td><td>a moment ago</td><td>I've just arrived.</td></tr><tr><td><b>still</b></td><td>emphasis — before haven't</td><td>I still haven't called her.</td></tr></table>
+    <h3>Been × gone</h3>
+    <ul><li>She's been to Paris. — went and came back</li><li>She's gone to Paris. — she's there now</li></ul>
     <h3>Superlatives and "the first time"</h3>
-    <ul>
-      <li>It's the best movie I've <b>ever</b> seen.</li>
-      <li>This is the first time I've <b>been</b> to Rio. (<s>the first time I come</s>)</li>
-    </ul>
-    <p class="note">In informal American English, the Past Simple is also common with <i>just, already, yet</i>: <i>Did you eat yet?</i> Both are accepted.</p>`
+    <ul><li>It's the best movie I've <b>ever</b> seen.</li><li>This is the first time I've <b>been</b> to Rio. (<s>the first time I come</s>)</li></ul>
+    <p class="note">In informal American English, the Past Simple is also common with just, already and yet: <i>Did you eat yet?</i> Both are accepted.</p>`
   },
   vocab:{
 pt:`
@@ -84,10 +58,12 @@ pt:`
       <tr><td>bucket list</td><td>lista do que fazer antes de morrer</td></tr>
       <tr><td>once in a lifetime</td><td>uma vez na vida</td></tr>
       <tr><td>to try something new</td><td>experimentar algo novo</td></tr>
-      <tr><td>to go skydiving<br>scuba diving</td><td>saltar de paraquedas<br>mergulhar</td></tr>
+      <tr><td>to go skydiving</td><td>saltar de paraquedas</td></tr>
+      <tr><td>to go scuba diving</td><td>mergulhar</td></tr>
       <tr><td>to climb a mountain</td><td>escalar uma montanha</td></tr>
       <tr><td>to see the Northern Lights</td><td>ver a aurora boreal</td></tr>
-      <tr><td>sand dunes<br>lagoon</td><td>dunas<br>lagoa</td></tr>
+      <tr><td>sand dunes</td><td>dunas</td></tr>
+      <tr><td>a lagoon</td><td>uma lagoa</td></tr>
       <tr><td>to cross off the list</td><td>riscar da lista</td></tr>
       <tr><td>Been there, done that.</td><td>Já fiz isso, já conheço.</td></tr>
     </table>
@@ -100,10 +76,12 @@ en:`
       <tr><td>bucket list</td><td>lista do que fazer antes de morrer</td></tr>
       <tr><td>once in a lifetime</td><td>uma vez na vida</td></tr>
       <tr><td>to try something new</td><td>experimentar algo novo</td></tr>
-      <tr><td>to go skydiving<br>scuba diving</td><td>saltar de paraquedas<br>mergulhar</td></tr>
+      <tr><td>to go skydiving</td><td>saltar de paraquedas</td></tr>
+      <tr><td>to go scuba diving</td><td>mergulhar</td></tr>
       <tr><td>to climb a mountain</td><td>escalar uma montanha</td></tr>
       <tr><td>to see the Northern Lights</td><td>ver a aurora boreal</td></tr>
-      <tr><td>sand dunes<br>lagoon</td><td>dunas<br>lagoa</td></tr>
+      <tr><td>sand dunes</td><td>dunas</td></tr>
+      <tr><td>a lagoon</td><td>uma lagoa</td></tr>
       <tr><td>to cross off the list</td><td>riscar da lista</td></tr>
       <tr><td>Been there, done that.</td><td>Já fiz isso, já conheço.</td></tr>
     </table>
