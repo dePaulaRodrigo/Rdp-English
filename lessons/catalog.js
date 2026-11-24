@@ -2576,7 +2576,7 @@ const CATALOG = [
    "find out vs discover",
    "everyday life"
   ],
-  "v": "183b8367",
+  "v": "19e1d980",
   "exercises": [
    {
     "id": "mc-easy",
