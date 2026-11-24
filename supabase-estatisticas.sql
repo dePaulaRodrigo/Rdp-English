@@ -207,7 +207,7 @@ group by device order by acessos desc;
 -- Lidos dos dados de cada código (data.levels): start = nível inicial (teste de nivelamento), cur = nível atual.
 -- Só totais: nenhuma consulta mostra códigos. O código de professor (#nao-contar) fica de fora.
 create or replace function estatisticas._date(v text) returns date
-language plpgsql immutable as $$
+language plpgsql immutable set search_path = public as $$
 begin
   return case when v ~ '^\d{4}-\d{2}-\d{2}$' then v::date end;
 exception when others then return null;
