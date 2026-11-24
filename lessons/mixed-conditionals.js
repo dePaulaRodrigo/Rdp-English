@@ -6,66 +6,54 @@ addLesson({
   explanation:{
 pt:`
     <h2>Condicionais mistas</h2>
-    <p>Às vezes a condição e a consequência estão em tempos diferentes. Aí misturamos as estruturas da segunda e da terceira condicional.</p>
-    <h3>Passado que afeta o presente</h3>
-    <p><b>if + had + particípio, would + verbo</b> (agora)</p>
-    <ul>
-      <li>If I had studied more, I <b>would be</b> making more money now.</li>
-      <li>If I had taken the job in Lisbon last year, I <b>would be living</b> in Portugal now.</li>
-      <li>If she hadn't missed the flight, she <b>would be</b> here today.</li>
-    </ul>
-    <h3>Presente que afeta o passado</h3>
-    <p><b>if + passado, would have + particípio</b> — a condição é uma característica de <b>sempre</b>:</p>
-    <ul>
-      <li>If I <b>were</b> taller, I would have become a basketball player.</li>
-      <li>If I <b>weren't</b> so shy, I would have talked to her at the party.</li>
-      <li>If she <b>didn't speak</b> English, she wouldn't have gotten the job.</li>
-    </ul>
-    <h3>Resumo</h3>
-    <table>
-      <tr><th>Tipo</th><th>Condição</th><th>Consequência</th></tr>
-      <tr><td>passado → presente</td><td>if + had + particípio</td><td>would + verbo</td></tr>
-      <tr><td>presente → passado</td><td>if + passado</td><td>would have + particípio</td></tr>
-    </table>
-    <h3>Como reconhecer</h3>
-    <p>As palavras de tempo ajudam: <b>now, today, still</b> pedem o presente na consequência; <b>yesterday, last year, at the party</b> pedem o passado.</p>
-    <h3>Com outros modais</h3>
-    <ul>
-      <li>If I had learned English as a child, I <b>could</b> be fluent now.</li>
-      <li>If he were more careful, he <b>might not have</b> lost his keys.</li>
-    </ul>
-    <p class="note">Compare: If I had studied, I would have passed (terceira: tudo no passado) × If I had studied, I would have a better job now (mista).</p>`,
+    <p>Toda condicional tem duas metades: a <b>condição</b> (a parte com <i>if</i>) e a <b>consequência</b>. Cada metade carrega o seu próprio tempo. Na condicional mista, a condição está num tempo e a consequência em outro.</p>
+    <h3>As peças</h3><p>Você já conhece as duas peças. Para falar de algo irreal <b>agora</b> (ou de uma característica de sempre), usa-se a estrutura da Second Conditional (B1). Para algo irreal <b>no passado</b>, a da Third Conditional (B2):</p>
+    <table><tr><th>Tempo</th><th>Condição</th><th>Consequência</th></tr><tr><td>agora / sempre</td><td>if + <b>past</b></td><td><b>would</b> + verbo</td></tr><tr><td>passado</td><td>if + <b>had</b> + particípio</td><td><b>would have</b> + particípio</td></tr></table>
+    <p>A condicional mista pega uma peça de cada linha. São só duas combinações possíveis.</p>
+    <h3>Passado que afeta o presente</h3><p><b>if + had + particípio</b>, <b>would + verbo</b>. Uma escolha que já aconteceu mudaria a vida de hoje.</p>
+    <ul><li><b>Fato:</b> Carla não aceitou a vaga em Lisboa em 2020. Hoje ela mora em Curitiba.<ul><li>If Carla <b>had taken</b> the job, she <b>would live</b> in Lisbon now.</li><li>If Carla <b>had taken</b> the job, she <b>wouldn't live</b> in Curitiba now.</li><li>If Carla <b>hadn't turned down</b> the job, she <b>would be</b> in Portugal today.</li><li>Where <b>would</b> Carla <b>live</b> now if she <b>had taken</b> the job?</li></ul></li><li><b>Fato:</b> Os Silva venderam a casa em 2019. Hoje eles pagam aluguel.<ul><li>If the Silvas <b>hadn't sold</b> their house, they <b>wouldn't pay</b> rent now.</li><li>If the Silvas <b>hadn't sold</b> their house, they <b>would still have</b> a garden.</li><li><b>Would</b> the Silvas <b>be</b> happier now if they <b>had kept</b> the house?</li></ul></li></ul>
+    <h3>Presente que afeta o passado</h3><p><b>if + past</b>, <b>would have + particípio</b>. Aqui a condição é uma característica de <b>sempre</b>, que explica algo que aconteceu (ou não) no passado.</p>
+    <ul><li><b>Fato:</b> Pedro tem medo de avião. Por isso, não foi ao Japão no ano passado.<ul><li>If Pedro <b>weren't</b> afraid of flying, he <b>would have gone</b> to Japan last year.</li><li>If Pedro <b>weren't</b> afraid of flying, he <b>wouldn't have taken</b> a 40-hour bus trip.</li><li><b>Would</b> Pedro <b>have gone</b> to Japan if he <b>weren't</b> afraid of flying?</li></ul></li><li><b>Fato:</b> Ana fala espanhol. Por isso, conseguiu a vaga em Madri.<ul><li>If Ana <b>didn't speak</b> Spanish, she <b>wouldn't have gotten</b> the job in Madrid.</li><li>If Ana <b>didn't speak</b> Spanish, the company <b>would have hired</b> someone else.</li></ul></li></ul>
+    <p class="note">Com <i>if</i>, use <b>were</b> para todas as pessoas: If Pedro <b>were</b>… <i>Was</i> aparece na fala informal, mas <i>were</i> é a forma padrão.</p>
+    <h3>O português já faz isso</h3><p>A mistura de tempos é natural em português. Basta trocar peça por peça:</p>
+    <table><tr><th>Português</th><th>Inglês</th></tr><tr><td>Se eu tivesse estudado mais, hoje eu teria um emprego melhor.</td><td>If I <b>had studied</b> more, I <b>would have</b> a better job today.</td></tr><tr><td>Se ela não tivesse perdido o voo, estaria aqui agora.</td><td>If she <b>hadn't missed</b> the flight, she <b>would be</b> here now.</td></tr><tr><td>Se a gente não tivesse se mudado, ainda moraria em Santos.</td><td>If we <b>hadn't moved</b>, we <b>would still live</b> in Santos.</td></tr><tr><td>Se eu não fosse tão tímido, teria falado com ela na festa.</td><td>If I <b>weren't</b> so shy, I <b>would have talked</b> to her at the party.</td></tr><tr><td>Se o Lucas fosse mais organizado, não teria perdido o prazo.</td><td>If Lucas <b>were</b> more organized, he <b>wouldn't have missed</b> the deadline.</td></tr></table>
+    <p class="note"><s>I would have lived in Lisbon now</s> — <i>would have</i> e <i>now</i> não combinam. Se a consequência é de hoje, use <b>would + verbo</b>: I <b>would live</b> in Lisbon now.</p>
+    <h3>Como escolher</h3><p>Pergunte a cada metade: <b>isso é de agora (ou de sempre), ou já passou?</b> As palavras de tempo costumam responder:</p>
+    <ul><li>now, today, still, these days — consequência com <b>would + verbo</b></li><li>yesterday, last year, in 2019, at the party — consequência com <b>would have + particípio</b></li></ul>
+    <p>A mesma condição pode levar às duas consequências:</p>
+    <table><tr><th>Condição</th><th>Consequência</th><th>Tipo</th></tr><tr><td>If I had studied medicine,</td><td>I <b>would have graduated</b> in 2018.</td><td>terceira</td></tr><tr><td>If I had studied medicine,</td><td>I <b>would be</b> a doctor now.</td><td>mista</td></tr></table>
+    <h3>Com outros modais</h3><p><i>Could</i> e <i>might</i> entram no lugar de <i>would</i>, com a mesma lógica:</p>
+    <ul><li>If I had learned English as a child, I <b>could be</b> fluent now.</li><li>If Bruno were more careful, he <b>might not have lost</b> his keys yesterday.</li></ul>
+    <h3>O 'd ambíguo</h3><p>Na fala, <b>'d</b> pode ser <i>had</i> ou <i>would</i>. Na condicional mista, os dois aparecem juntos:</p>
+    <ul><li>If I<b>'d</b> known, I<b>'d</b> be there now.</li><li>If I <b>had</b> known, I <b>would</b> be there now. — depois de <i>if</i>, 'd = had; na consequência, 'd = would</li></ul>
+    <h3>Sem if, na escrita formal</h3><p>Na escrita formal, a condição pode começar com <i>had</i> no lugar de <i>if</i>:</p>
+    <ul><li>If Carla had taken the job, she would live in Lisbon now. → <b>Had</b> Carla <b>taken</b> the job, she would live in Lisbon now.</li></ul>
+    <p class="note">Mais sobre essa inversão na lição Inversion for Emphasis (C1).</p>`,
 en:`
     <h2>Mixed conditionals</h2>
-    <p>Sometimes the condition and the result are in different times. Then we mix the structures of the second and third conditionals.</p>
-    <h3>Past affecting the present</h3>
-    <p><b>if + had + past participle, would + verb</b> (now)</p>
-    <ul>
-      <li>If I had studied more, I <b>would be</b> making more money now.</li>
-      <li>If I had taken the job in Lisbon last year, I <b>would be living</b> in Portugal now.</li>
-      <li>If she hadn't missed the flight, she <b>would be</b> here today.</li>
-    </ul>
-    <h3>Present affecting the past</h3>
-    <p><b>if + past, would have + past participle</b> — the condition is something that is <b>always</b> true:</p>
-    <ul>
-      <li>If I <b>were</b> taller, I would have become a basketball player.</li>
-      <li>If I <b>weren't</b> so shy, I would have talked to her at the party.</li>
-      <li>If she <b>didn't speak</b> English, she wouldn't have gotten the job.</li>
-    </ul>
-    <h3>Summary</h3>
-    <table>
-      <tr><th>Type</th><th>Condition</th><th>Result</th></tr>
-      <tr><td>past → present</td><td>if + had + past participle</td><td>would + verb</td></tr>
-      <tr><td>present → past</td><td>if + past</td><td>would have + past participle</td></tr>
-    </table>
-    <h3>How to recognize them</h3>
-    <p>Time words help: <b>now, today, still</b> call for a present result; <b>yesterday, last year, at the party</b> call for a past one.</p>
-    <h3>With other modals</h3>
-    <ul>
-      <li>If I had learned English as a child, I <b>could</b> be fluent now.</li>
-      <li>If he were more careful, he <b>might not have</b> lost his keys.</li>
-    </ul>
-    <p class="note">Compare: If I had studied, I would have passed (third: all in the past) × If I had studied, I would have a better job now (mixed).</p>`
+    <p>Every conditional has two halves: the <b>condition</b> (the <i>if</i> part) and the <b>result</b>. Each half carries its own time. In a mixed conditional, the condition is in one time and the result in another.</p>
+    <h3>The pieces</h3><p>You already know both pieces. For something unreal <b>now</b> (or a permanent trait), use the structure of the Second Conditional (B1). For something unreal <b>in the past</b>, use the Third Conditional (B2):</p>
+    <table><tr><th>Time</th><th>Condition</th><th>Result</th></tr><tr><td>now / always</td><td>if + <b>past</b></td><td><b>would</b> + verb</td></tr><tr><td>past</td><td>if + <b>had</b> + past participle</td><td><b>would have</b> + past participle</td></tr></table>
+    <p>A mixed conditional takes one piece from each row. There are only two possible combinations.</p>
+    <h3>Past affecting the present</h3><p><b>if + had + past participle</b>, <b>would + verb</b>. A choice that already happened would change life today.</p>
+    <ul><li><b>Fact:</b> Carla didn't take the job in Lisbon in 2020. Today she lives in Curitiba.<ul><li>If Carla <b>had taken</b> the job, she <b>would live</b> in Lisbon now.</li><li>If Carla <b>had taken</b> the job, she <b>wouldn't live</b> in Curitiba now.</li><li>If Carla <b>hadn't turned down</b> the job, she <b>would be</b> in Portugal today.</li><li>Where <b>would</b> Carla <b>live</b> now if she <b>had taken</b> the job?</li></ul></li><li><b>Fact:</b> The Silvas sold their house in 2019. Today they pay rent.<ul><li>If the Silvas <b>hadn't sold</b> their house, they <b>wouldn't pay</b> rent now.</li><li>If the Silvas <b>hadn't sold</b> their house, they <b>would still have</b> a garden.</li><li><b>Would</b> the Silvas <b>be</b> happier now if they <b>had kept</b> the house?</li></ul></li></ul>
+    <h3>Present affecting the past</h3><p><b>if + past</b>, <b>would have + past participle</b>. Here the condition is something <b>always</b> true, which explains something that happened (or didn't) in the past.</p>
+    <ul><li><b>Fact:</b> Pedro is afraid of flying. That's why he didn't go to Japan last year.<ul><li>If Pedro <b>weren't</b> afraid of flying, he <b>would have gone</b> to Japan last year.</li><li>If Pedro <b>weren't</b> afraid of flying, he <b>wouldn't have taken</b> a 40-hour bus trip.</li><li><b>Would</b> Pedro <b>have gone</b> to Japan if he <b>weren't</b> afraid of flying?</li></ul></li><li><b>Fact:</b> Ana speaks Spanish. That's why she got the job in Madrid.<ul><li>If Ana <b>didn't speak</b> Spanish, she <b>wouldn't have gotten</b> the job in Madrid.</li><li>If Ana <b>didn't speak</b> Spanish, the company <b>would have hired</b> someone else.</li></ul></li></ul>
+    <p class="note">After <i>if</i>, use <b>were</b> for every person: If Pedro <b>were</b>… <i>Was</i> shows up in informal speech, but <i>were</i> is the standard form.</p>
+    <h3>Portuguese already does this</h3><p>Mixing times is natural in Portuguese. Just swap piece by piece:</p>
+    <table><tr><th>Portuguese</th><th>English</th></tr><tr><td>Se eu tivesse estudado mais, hoje eu teria um emprego melhor.</td><td>If I <b>had studied</b> more, I <b>would have</b> a better job today.</td></tr><tr><td>Se ela não tivesse perdido o voo, estaria aqui agora.</td><td>If she <b>hadn't missed</b> the flight, she <b>would be</b> here now.</td></tr><tr><td>Se a gente não tivesse se mudado, ainda moraria em Santos.</td><td>If we <b>hadn't moved</b>, we <b>would still live</b> in Santos.</td></tr><tr><td>Se eu não fosse tão tímido, teria falado com ela na festa.</td><td>If I <b>weren't</b> so shy, I <b>would have talked</b> to her at the party.</td></tr><tr><td>Se o Lucas fosse mais organizado, não teria perdido o prazo.</td><td>If Lucas <b>were</b> more organized, he <b>wouldn't have missed</b> the deadline.</td></tr></table>
+    <p class="note"><s>I would have lived in Lisbon now</s> — <i>would have</i> and <i>now</i> don't go together. If the result is about today, use <b>would + verb</b>: I <b>would live</b> in Lisbon now.</p>
+    <h3>How to choose</h3><p>Ask each half: <b>is this about now (or always), or is it over?</b> Time words usually give the answer:</p>
+    <ul><li>now, today, still, these days — result with <b>would + verb</b></li><li>yesterday, last year, in 2019, at the party — result with <b>would have + past participle</b></li></ul>
+    <p>The same condition can lead to both results:</p>
+    <table><tr><th>Condition</th><th>Result</th><th>Type</th></tr><tr><td>If I had studied medicine,</td><td>I <b>would have graduated</b> in 2018.</td><td>third</td></tr><tr><td>If I had studied medicine,</td><td>I <b>would be</b> a doctor now.</td><td>mixed</td></tr></table>
+    <h3>With other modals</h3><p><i>Could</i> and <i>might</i> take the place of <i>would</i>, with the same logic:</p>
+    <ul><li>If I had learned English as a child, I <b>could be</b> fluent now.</li><li>If Bruno were more careful, he <b>might not have lost</b> his keys yesterday.</li></ul>
+    <h3>The ambiguous 'd</h3><p>In speech, <b>'d</b> can be <i>had</i> or <i>would</i>. In a mixed conditional, both show up together:</p>
+    <ul><li>If I<b>'d</b> known, I<b>'d</b> be there now.</li><li>If I <b>had</b> known, I <b>would</b> be there now. — after <i>if</i>, 'd = had; in the result, 'd = would</li></ul>
+    <h3>Without if, in formal writing</h3><p>In formal writing, the condition can start with <i>had</i> instead of <i>if</i>:</p>
+    <ul><li>If Carla had taken the job, she would live in Lisbon now. → <b>Had</b> Carla <b>taken</b> the job, she would live in Lisbon now.</li></ul>
+    <p class="note">More on this inversion in the lesson Inversion for Emphasis (C1).</p>`
   },
   vocab:{
 pt:`
@@ -79,7 +67,8 @@ pt:`
       <tr><td>to major in</td><td>formar-se em (faculdade)</td></tr>
       <tr><td>to move abroad</td><td>mudar-se para o exterior</td></tr>
       <tr><td>to be fluent</td><td>ser fluente</td></tr>
-      <tr><td>shy<br>outgoing</td><td>tímido<br>extrovertido</td></tr>
+      <tr><td>shy</td><td>tímido</td></tr>
+      <tr><td>outgoing</td><td>extrovertido</td></tr>
       <tr><td>a crossroads</td><td>uma encruzilhada</td></tr>
       <tr><td>to look back</td><td>olhar para trás</td></tr>
       <tr><td>no regrets</td><td>sem arrependimentos</td></tr>
@@ -96,7 +85,8 @@ en:`
       <tr><td>to major in</td><td>formar-se em (faculdade)</td></tr>
       <tr><td>to move abroad</td><td>mudar-se para o exterior</td></tr>
       <tr><td>to be fluent</td><td>ser fluente</td></tr>
-      <tr><td>shy<br>outgoing</td><td>tímido<br>extrovertido</td></tr>
+      <tr><td>shy</td><td>tímido</td></tr>
+      <tr><td>outgoing</td><td>extrovertido</td></tr>
       <tr><td>a crossroads</td><td>uma encruzilhada</td></tr>
       <tr><td>to look back</td><td>olhar para trás</td></tr>
       <tr><td>no regrets</td><td>sem arrependimentos</td></tr>
