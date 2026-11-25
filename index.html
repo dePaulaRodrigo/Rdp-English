@@ -200,6 +200,30 @@ h2.area{margin:28px 0 12px}
 .langsw{display:flex;margin-left:auto;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .langsw button{border:0;background:transparent;padding:6px 12px;font-weight:600;font-size:13px;color:var(--muted);cursor:pointer}
 .langsw button.on{background:var(--primary);color:var(--on-primary)}
+/* trilha */
+.tag.okt{background:var(--ok-soft);color:var(--ok)}
+.trailcard{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;padding:16px 18px;margin:0 0 14px}
+.tc-lv{display:flex;flex-direction:column;align-items:center;min-width:64px}
+.tc-lv b{font-size:26px;line-height:1.1}
+.tc-next{flex:1 1 200px;min-width:0}
+.tc-t{font-weight:600;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.tc-act{display:flex;gap:8px;flex-wrap:wrap}
+.lvtop{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.biglv{font-size:40px;font-weight:600;line-height:1.1}
+.lvpick{display:flex;align-items:center;gap:8px}
+.lvpick select{font:inherit;font-size:15px;padding:6px 10px;border:1.5px solid var(--optline);border-radius:9px;background:var(--field);color:var(--ink)}
+.lvrow{padding:10px 0;border-top:1px solid var(--line)}
+.lvrow:first-child{border-top:0;padding-top:0}
+.lvrow:last-child{padding-bottom:0}
+.lvh{display:flex;align-items:center;gap:8px}
+.lvrow .bar{margin-top:8px}
+.lvrow.on .bar>i{background:var(--brand)}
+.prow{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1px solid var(--line);background:var(--card);border-radius:12px;padding:10px 12px;margin-top:8px}
+.prow:hover{border-color:var(--sel)}
+.prow .pi{font-size:24px;flex:none}
+.prow .pt{flex:1;display:flex;flex-direction:column;min-width:0}
+.behind{margin-top:14px}
+.behind summary{cursor:pointer;font-weight:600;font-size:15px}
 @media (max-width:520px){.expl table{font-size:14px}.expl th,.expl td{padding:6px 7px}}
 @media (max-width:380px){.expl table{font-size:13px}.expl th,.expl td{padding:5px 5px}}
 @media (max-width:520px){.tabs{gap:4px}.tab{padding:9px 11px;font-size:15px}}
@@ -267,7 +291,20 @@ const UI = { pt:{
   resetAsk:"↺ Apagar respostas e recomeçar", resetConfirm:"Apagar todas as suas respostas deste exercício?", cancel:"Cancelar", erase:"Apagar", erased:"Respostas apagadas.",
   listen:"Ouvir", playAll:"▶ Ouvir o diálogo inteiro", stopAll:"■ Parar", audioFail:"Não foi possível tocar o áudio.",
   showAnswers:"Revelar respostas certas", hideAnswers:"Mostrar minhas respostas",
-  blank:"Lacuna {n}", also:"também aceito", chooseOption:"Escolha a opção", clear:"Limpar", close:"Fechar"
+  blank:"Lacuna {n}", also:"também aceito", chooseOption:"Escolha a opção", clear:"Limpar", close:"Fechar",
+  progress:"Progressão", seeProgress:"Ver progressão", yourLevel:"Seu nível", nextStep:"Próximo passo", continueBtn:"Continuar", open:"Abrir",
+  concluded:"Concluída", lessonDoneToast:"Lição concluída.", levelUpToast:"Parabéns: você passou para o nível {l}.",
+  progSub:"A trilha sugere a próxima lição de acordo com o seu nível. Ela não trava nada: você pode abrir qualquer lição.",
+  progRule:"Uma lição está concluída quando cada exercício dela tem melhor nota de pelo menos 70%. Você passa ao nível seguinte ao concluir 80% das lições do nível atual.",
+  chooseLevel:"Mudar o nível:", levelNoteDefault:"Sem teste de nivelamento, você começa no A1. Se já estudou inglês, escolha o seu nível.",
+  levelChosen:"Nível alterado para {l}.",
+  toNext:"Para passar ao {next}: concluir {need} das {total} lições do {lv}. Faltam {left}.", toNext1:"Para passar ao {next}: concluir {need} das {total} lições do {lv}. Falta 1.",
+  toC2:"Para chegar ao C2: concluir {need} das {total} lições do C1 e todas as lições do C2.",
+  levelTop:"Você está no nível mais alto da trilha.",
+  allDone:"Você concluiu todas as lições do seu nível. Veja abaixo as lições para revisar.",
+  byLevel:"Por nível", lessonsDone:"{done} de {total} lições concluídas", lessonsDone1:"{done} de 1 lição concluída", current:"atual",
+  toReview:"Para revisar", toReviewSub:"Lições começadas e ainda não concluídas.", exPassed:"{n} de {total} exercícios com 70% ou mais",
+  behind:"Lições de níveis anteriores ainda não concluídas ({n})", reviewNone:"Nenhuma lição para revisar."
 }};
 function uiLang(){ const l = S.data && S.data.prefs && S.data.prefs.ui; return UI_LANGS.includes(l) ? l : UI_LANGS[0]; }
 function t(key, vars){
@@ -430,11 +467,14 @@ function sanitize(d){
    levels.start: nível inicial (primeiro resultado do teste de nivelamento; não muda depois).
    levels.cur:   nível atual (último teste refeito ou avanço na trilha).
    levels.hist:  histórico de mudanças, para medir o tempo entre um nível e outro (até 30 registros).
-   Cada registro: {l:"A2", at:"AAAA-MM-DD", src:"test"|"trail"}. Ficam nos dados do código, como o progresso. */
+   Cada registro: {l:"A2", at:"AAAA-MM-DD", src:"test"|"trail"|"choice", t: hora em ms}. Ficam nos dados do código, como o progresso.
+   "choice": o aluno escolheu o nível na tela de Progressão. O nível inicial (start) só vem do teste de nivelamento. */
 const CEFR = ["A1","A2","B1","B2","C1","C2"];
 function cleanLvl(e){
   if(!isObj(e) || !CEFR.includes(e.l) || typeof e.at!=="string" || !/^\d{4}-\d{2}-\d{2}$/.test(e.at)) return null;
-  const o = {l:e.l, at:e.at}; if(e.src==="test" || e.src==="trail") o.src = e.src; return o;
+  const o = {l:e.l, at:e.at}; if(e.src==="test" || e.src==="trail" || e.src==="choice") o.src = e.src;
+  if(typeof e.t==="number" && e.t>0) o.t = e.t;
+  return o;
 }
 function cleanLevels(v){
   if(!isObj(v)) return null;
@@ -447,7 +487,7 @@ function mergeLevels(a, b){
   if(!a) return b; if(!b) return a;
   const o = {};
   const st = [a.start, b.start].filter(Boolean).sort((x,y)=>x.at.localeCompare(y.at));
-  const cu = [a.cur, b.cur].filter(Boolean).sort((x,y)=>y.at.localeCompare(x.at));
+  const cu = [a.cur, b.cur].filter(Boolean).sort((x,y)=>y.at.localeCompare(x.at) || (y.t||0)-(x.t||0));
   if(st.length) o.start = st[0]; if(cu.length) o.cur = cu[0];
   const seen = new Set(), h = [];
   [...(a.hist||[]), ...(b.hist||[])].sort((x,y)=>x.at.localeCompare(y.at)).forEach(e=>{ const k=e.l+e.at+(e.src||""); if(!seen.has(k)){ seen.add(k); h.push(e); } });
@@ -457,7 +497,7 @@ function mergeLevels(a, b){
 /* A chamar pelo teste de nivelamento (src "test") ou pela trilha (src "trail"). */
 function setLevel(l, src){
   if(!CEFR.includes(l) || !S.data) return;
-  const e = {l, at: new Date().toISOString().slice(0,10), src};
+  const e = {l, at: new Date().toISOString().slice(0,10), src, t: Date.now()};
   const lv = S.data.levels = S.data.levels || {};
   if(!lv.start && src==="test") lv.start = e;
   lv.cur = e;
@@ -615,6 +655,52 @@ function exScore(ex, p){
 }
 
 /* ============================================================
+   TRILHA
+   Lição concluída: todos os exercícios visíveis (os do catálogo) com melhor nota de pelo menos 70%.
+   Os exercícios de escuta só entram no catálogo quando todos os áudios existem; a partir daí, contam.
+   Subida de nível: 80% das lições do Inglês Cotidiano do nível atual concluídas (C2: 80% do C1 e todas as C2).
+   O nível nunca desce sozinho. A trilha sugere, nunca trava.
+   ============================================================ */
+const PASS = 70, LEVEL_UP = 0.8;
+const trailLessons = () => CATALOG.filter(l=>l.area==="Inglês Cotidiano");
+const byBook = (a,b) => (a.part||0)-(b.part||0) || (a.order||0)-(b.order||0);
+/* m: resumo da lição no catálogo */
+function lessonState(m){
+  const pr = (S.data.progress||{})[m.id] || {};
+  const bests = m.exercises.map(e => { const p = pr[e.id]; return p && p.best>=0 ? p.best : -1; });
+  const passed = bests.filter(b=>b>=PASS).length;
+  const started = m.exercises.some(e => { const p = pr[e.id]; return p && (p.best>=0 || Object.keys(p.answers||{}).length>0); });
+  return {done: bests.length>0 && passed===bests.length, started, passed, total: bests.length};
+}
+const curLevel = () => (S.data.levels && S.data.levels.cur && S.data.levels.cur.l) || "A1";
+function levelInfo(lv){
+  const ls = trailLessons().filter(l=>l.level===lv);
+  const done = ls.filter(l=>lessonState(l).done).length;
+  return {ls, done, total: ls.length, need: Math.ceil(LEVEL_UP*ls.length - 1e-9)};
+}
+function levelPassed(lv){
+  const i = levelInfo(lv);
+  if(!i.total || i.done < i.need) return false;
+  if(lv==="C1") return trailLessons().filter(l=>l.level==="C2").every(l=>lessonState(l).done);
+  return true;
+}
+/* Sobe o nível quantas vezes a regra permitir (um registro por nível). Devolve o novo nível, ou nada. */
+function checkTrail(){
+  if(!S.data) return null;
+  let cur = curLevel(), up = null;
+  while(CEFR.indexOf(cur) < CEFR.length-1 && levelPassed(cur)){ cur = CEFR[CEFR.indexOf(cur)+1]; setLevel(cur, "trail"); up = cur; }
+  return up;
+}
+/* Próximo passo: lição começada e não concluída do nível atual; senão, a primeira não concluída do nível atual
+   na ordem do ebook; senão, a primeira não concluída dos níveis seguintes. */
+function nextStep(){
+  const all = trailLessons().slice().sort(byBook), ci = CEFR.indexOf(curLevel());
+  const open = all.filter(l=>!lessonState(l).done);
+  const here = open.filter(l=>l.level===curLevel());
+  return here.find(l=>lessonState(l).started) || here[0] || open.find(l=>CEFR.indexOf(l.level)>ci) || null;
+}
+
+/* ============================================================
    TELAS
    ============================================================ */
 function route(){
@@ -632,6 +718,7 @@ function route(){
     if(on){ S.data.prefs.noStats = true; STQ.length = 0; } else delete S.data.prefs.noStats;
     persist(S.data.prefs); toast(t(on?"noStatsOn":"noStatsOff")); location.hash = ""; return;
   }
+  if(h==="progressao"){ S.lesson=null; S.exKey=null; track("home",{d:"progress"}); renderProgress(); window.scrollTo(0,0); return; }
   if(h.startsWith("area/")){ const f = fieldOf(h.slice(5)); if(f){ S.lesson=null; S.exKey=null; track("area",{d:f.id}); renderField(f); window.scrollTo(0,0); return; } }
   const meta = CATALOG.find(x=>x.id===h);
   if(!meta){ S.lesson=null; S.exKey=null; track("home",{d:S.home||"daily"}); renderLibrary(); window.scrollTo(0,0); return; }
@@ -798,7 +885,7 @@ function lessonCard(l){
     <div class="art" style="background:${l.color}">${l.icon}</div>
     <div class="body">
       <div class="t">${esc(l.title)}</div>
-      <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span></div>
+      <div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span>${lessonState(l).done?`<span class="tag okt">✓ ${t("concluded")}</span>`:""}</div>
       <div class="bar"><i style="width:${Math.round(100*done/l.exercises.length)}%"></i></div>
       <div class="small muted" style="margin-top:6px">${t("exDone",{done, total:l.exercises.length})}</div>
     </div></button>`;
@@ -837,6 +924,7 @@ function renderLibrary(){
   app.innerHTML = `
     ${about ? `<div class="card welcome"><h1>${t("welcomeTitle")}</h1><p>${t("welcome1")}</p><p>${t("welcome2")}</p><p class="small muted">${t("welcome3")}</p>${isNew?"":`<button class="linkbtn about" id="aboutBtn">${t("aboutHide")}</button>`}</div>`
             : `<div style="text-align:right"><button class="linkbtn about" id="aboutBtn">${t("aboutShow")}</button></div>`}
+    ${trailCard()}
     <div class="hometabs"><button data-h="daily" class="${tab==="daily"?"on":""}">${t("daily")}</button><button data-h="pro" class="${tab==="pro"?"on":""}">${t("pro")}</button><button data-h="content">${t("content")}</button></div>
     ${body}`;
   const ab = $("#aboutBtn"); if(ab) ab.onclick = () => { S.about = !S.about; renderLibrary(); };
@@ -847,7 +935,64 @@ function renderLibrary(){
     persist(S.data.prefs); track("home",{d:"sort-"+b.dataset.sort}); renderLibrary();
   });
   app.querySelectorAll(".lcard[data-field]").forEach(b=> b.onclick = () => { location.hash = "area/"+b.dataset.field; });
+  wireTrail();
   wireCards();
+}
+/* Resumo da trilha na página inicial: nível atual e próximo passo. */
+function trailCard(){
+  const n = nextStep();
+  return `<div class="card trailcard">
+    <div class="tc-lv"><span class="small muted">${t("yourLevel")}</span><b>${curLevel()}</b></div>
+    <div class="tc-next">${n ? `<span class="small muted">${t("nextStep")}</span><div class="tc-t">${n.icon} ${esc(n.title)} <span class="tag lv">${n.level}</span></div>` : `<span class="small muted">${t("allDone")}</span>`}</div>
+    <div class="tc-act">${n ? `<button class="btn sm" data-go="${n.id}">${t("continueBtn")}</button>` : ""}<button class="btn sm plain" data-go="progressao">${t("seeProgress")}</button></div>
+  </div>`;
+}
+function wireTrail(){ app.querySelectorAll("[data-go]").forEach(b=> b.onclick = () => { location.hash = b.dataset.go; }); }
+const partName = n => { const p = PARTS.find(x=>x.n===n); return p ? (p[uiLang()] || p.pt) : ""; };
+function progRow(l, extra){
+  return `<button class="prow" data-go="${l.id}"><span class="pi">${l.icon}</span><span class="pt"><b>${esc(l.title)}</b><span class="small muted">${extra}</span></span><span class="tag lv">${l.level}</span></button>`;
+}
+/* Tela de Progressão (#progressao): nível, próximo passo, barras por nível e lições para revisar. */
+function renderProgress(){
+  setHeader();
+  const cur = curLevel(), ci = CEFR.indexOf(cur), n = nextStep();
+  const lvs = CEFR.filter(lv => levelInfo(lv).total);
+  let goal;
+  if(cur==="C2") goal = t("levelTop");
+  else if(cur==="C1"){ const i = levelInfo("C1"); goal = t("toC2",{need:i.need, total:i.total}); }
+  else { const i = levelInfo(cur); const left = Math.max(0, i.need-i.done); goal = t(left===1?"toNext1":"toNext",{next:CEFR[ci+1], need:i.need, total:i.total, lv:cur, left}); }
+  const bars = lvs.map(lv => { const i = levelInfo(lv); return `<div class="lvrow ${lv===cur?"on":""}">
+      <div class="lvh"><b>${lv}</b>${lv===cur?`<span class="tag lv">${t("current")}</span>`:""}<span class="spacer"></span><span class="small muted">${t(i.total===1?"lessonsDone1":"lessonsDone",{done:i.done, total:i.total})}</span></div>
+      <div class="bar"><i style="width:${i.total ? Math.round(100*i.done/i.total) : 0}%"></i></div></div>`; }).join("");
+  const all = trailLessons().slice().sort((a,b)=> CEFR.indexOf(a.level)-CEFR.indexOf(b.level) || byBook(a,b));
+  const started = all.filter(l => { const s = lessonState(l); return s.started && !s.done; });
+  const behind = all.filter(l => CEFR.indexOf(l.level) < ci && !lessonState(l).started);
+  const exLine = l => { const s = lessonState(l); return t("exPassed",{n:s.passed, total:s.total}); };
+  app.innerHTML = `
+    <div class="crumb"><a id="back">${t("lessons")}</a> › ${t("progress")}</div>
+    <h1>${t("progress")}</h1>
+    <p class="muted">${t("progSub")}</p>
+    <div class="card">
+      <div class="lvtop"><div><span class="small muted">${t("yourLevel")}</span><div class="biglv">${cur}</div></div>
+        <label class="lvpick small"><span>${t("chooseLevel")}</span><select id="lvSel">${CEFR.map(lv=>`<option value="${lv}" ${lv===cur?"selected":""}>${lv}</option>`).join("")}</select></label></div>
+      ${!(S.data.levels && S.data.levels.cur) ? `<p class="small muted">${t("levelNoteDefault")}</p>` : ""}
+      <p>${goal}</p>
+      ${n ? `<h3>${t("nextStep")}</h3>${progRow(n, esc(partName(n.part)))}` : `<p class="muted">${t("allDone")}</p>`}
+    </div>
+    <h2 class="area">${t("byLevel")}</h2>
+    <div class="card">${bars}</div>
+    <h2 class="area">${t("toReview")}</h2>
+    <div class="card">
+      ${started.length ? `<p class="small muted" style="margin-top:0">${t("toReviewSub")}</p>${started.map(l=>progRow(l, exLine(l))).join("")}` : `<p class="muted" style="margin:0">${t("reviewNone")}</p>`}
+      ${behind.length ? `<details class="behind"><summary>${t("behind",{n:behind.length})}</summary>${behind.map(l=>progRow(l, esc(partName(l.part)))).join("")}</details>` : ""}
+    </div>
+    <p class="small muted" style="margin-top:18px">${t("progRule")}</p>`;
+  $("#back").onclick = () => { S.home = "daily"; location.hash = ""; };
+  $("#lvSel").onchange = e => {
+    const lv = e.target.value; if(!CEFR.includes(lv) || lv===curLevel()) return;
+    setLevel(lv, "choice"); track("home",{d:"level-"+lv}); toast(t("levelChosen",{l:lv})); renderProgress();
+  };
+  wireTrail();
 }
 /* Página de uma área profissional: especialidades (quando houver) e lições. */
 function renderField(f){
@@ -890,7 +1035,7 @@ function renderLesson(){
   app.innerHTML = `
     <div class="crumb"><a id="back">${t("lessons")}</a> › ${fieldOf(l.area)?`<a id="backField">${esc(nameOf(fieldOf(l.area)))}</a> › `:""}${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
-    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span></div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
+    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span>${metaOf(l) && lessonState(metaOf(l)).done?`<span class="tag okt">✓ ${t("concluded")}</span>`:""}</div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
     <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">${lt("tabExpl")}</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">${lt("tabPractice")}</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">${lt("tabVocab")}</button>`:""}</div>
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { S.home = fieldOf(l.area) ? "pro" : "daily"; location.hash=""; };
@@ -961,7 +1106,15 @@ function renderMC(l, ex){
 /* Guarda a melhor nota de cada exercício (em %), que sobrevive ao "Refazer". Usada pela trilha. */
 function recordBest(p, c, tot){
   const pct = tot ? Math.round(100*c/tot) : 0;
-  if(!(p.best >= pct)){ p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(p); }
+  if(p.best >= pct) return;
+  const m = S.lesson && metaOf(S.lesson), was = m && lessonState(m).done;
+  p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(p);
+  if(m && !was && lessonState(m).done){
+    toast(t("lessonDoneToast"));
+    const tg = document.querySelector(".metarow .tags");
+    if(tg && !tg.querySelector(".okt")) tg.insertAdjacentHTML("beforeend", `<span class="tag okt">✓ ${t("concluded")}</span>`);
+  }
+  const up = checkTrail(); if(up) toast(t("levelUpToast",{l:up}));
 }
 function scoreBox(c,tt){
   const msg = c===tt ? t("perfect") : c>=tt*0.7 ? t("good") : t("retryExpl");
