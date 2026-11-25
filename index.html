@@ -301,6 +301,9 @@ const UI = { pt:{
   toNext:"Para passar ao {next}: concluir {need} das {total} lições do {lv}. Faltam {left}.", toNext1:"Para passar ao {next}: concluir {need} das {total} lições do {lv}. Falta 1.",
   toC2:"Para chegar ao C2: concluir {need} das {total} lições do C1 e todas as lições do C2.",
   levelTop:"Você está no nível mais alto da trilha.",
+  recTitle:"Próxima lição recomendada", recSub:"A primeira lição do seu nível que você ainda não começou, na ordem do livro.",
+  recSubOther:"Você já começou todas as lições do seu nível. Esta é a primeira ainda não começada de outro nível.",
+  recNone:"Você já começou todas as lições da trilha.",
   allDone:"Você concluiu todas as lições do seu nível. Veja abaixo as lições para revisar.",
   byLevel:"Por nível", lessonsDone:"{done} de {total} lições concluídas", lessonsDone1:"{done} de 1 lição concluída", current:"atual",
   toReview:"Para revisar", toReviewSub:"Lições começadas e ainda não concluídas.", exPassed:"{n} de {total} exercícios com 70% ou mais",
@@ -693,6 +696,14 @@ function checkTrail(){
 }
 /* Próximo passo: lição começada e não concluída do nível atual; senão, a primeira não concluída do nível atual
    na ordem do ebook; senão, a primeira não concluída dos níveis seguintes. */
+/* Próxima lição recomendada: a primeira ainda não começada do nível atual, na ordem do ebook;
+   depois, as dos níveis seguintes; por fim, as de níveis anteriores. */
+function recommended(){
+  const ci = CEFR.indexOf(curLevel());
+  const fresh = trailLessons().slice().sort(byBook).filter(l=>{ const s = lessonState(l); return !s.done && !s.started; });
+  const rank = l => { const d = CEFR.indexOf(l.level) - ci; return d===0 ? 0 : d>0 ? d : 10-d; };
+  return fresh.sort((a,b)=> rank(a)-rank(b) || byBook(a,b))[0] || null;
+}
 function nextStep(){
   const all = trailLessons().slice().sort(byBook), ci = CEFR.indexOf(curLevel());
   const open = all.filter(l=>!lessonState(l).done);
@@ -955,7 +966,7 @@ function progRow(l, extra){
 /* Tela de Progressão (#progressao): nível, próximo passo, barras por nível e lições para revisar. */
 function renderProgress(){
   setHeader();
-  const cur = curLevel(), ci = CEFR.indexOf(cur), n = nextStep();
+  const cur = curLevel(), ci = CEFR.indexOf(cur), rec = recommended();
   const lvs = CEFR.filter(lv => levelInfo(lv).total);
   let goal;
   if(cur==="C2") goal = t("levelTop");
@@ -977,15 +988,16 @@ function renderProgress(){
         <label class="lvpick small"><span>${t("chooseLevel")}</span><select id="lvSel">${CEFR.map(lv=>`<option value="${lv}" ${lv===cur?"selected":""}>${lv}</option>`).join("")}</select></label></div>
       ${!(S.data.levels && S.data.levels.cur) ? `<p class="small muted">${t("levelNoteDefault")}</p>` : ""}
       <p>${goal}</p>
-      ${n ? `<h3>${t("nextStep")}</h3>${progRow(n, esc(partName(n.part)))}` : `<p class="muted">${t("allDone")}</p>`}
     </div>
-    <h2 class="area">${t("byLevel")}</h2>
-    <div class="card">${bars}</div>
+    <h2 class="area">${t("recTitle")}</h2>
+    <div class="card">${rec ? `<p class="small muted" style="margin-top:0">${t(rec.level===cur?"recSub":"recSubOther")}</p>${progRow(rec, esc(partName(rec.part)))}` : `<p class="muted" style="margin:0">${t("recNone")}</p>`}</div>
     <h2 class="area">${t("toReview")}</h2>
     <div class="card">
       ${started.length ? `<p class="small muted" style="margin-top:0">${t("toReviewSub")}</p>${started.map(l=>progRow(l, exLine(l))).join("")}` : `<p class="muted" style="margin:0">${t("reviewNone")}</p>`}
       ${behind.length ? `<details class="behind"><summary>${t("behind",{n:behind.length})}</summary>${behind.map(l=>progRow(l, esc(partName(l.part)))).join("")}</details>` : ""}
     </div>
+    <h2 class="area">${t("byLevel")}</h2>
+    <div class="card">${bars}</div>
     <p class="small muted" style="margin-top:18px">${t("progRule")}</p>`;
   $("#back").onclick = () => { S.home = "daily"; location.hash = ""; };
   $("#lvSel").onchange = e => {
