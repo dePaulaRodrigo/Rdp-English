@@ -587,12 +587,48 @@ const accepts = (ex,list,v) => list.some(a=>same(ex,a,v));
 const CORRECT = {pt:"Correto.", en:"Correct.", es:"Correcto.", it:"Corretto.", fr:"Correct."};
 /* Abas e paginador da lição seguem o idioma das explicações (como o rótulo de acerto). */
 const LESSON_UI = {
-  en:{tabExpl:"Explanation", tabPractice:"Practice", tabVocab:"Vocabulary", exercises:"Exercises:"},
-  es:{tabExpl:"Explicación", tabPractice:"Práctica", tabVocab:"Vocabulario", exercises:"Ejercicios:"},
-  it:{tabExpl:"Spiegazione", tabPractice:"Pratica", tabVocab:"Vocabolario", exercises:"Esercizi:"},
-  fr:{tabExpl:"Explication", tabPractice:"Pratique", tabVocab:"Vocabulaire", exercises:"Exercices:"}
+  en:{tabExpl:"Explanation", tabPractice:"Practice", tabVocab:"Vocabulary", exercises:"Exercises:",
+    answered:"{n} of {total} answered", filled:"{n} of {total} filled in", check:"Check answers",
+    missingItem1:"1 item has no answer; it counts as a mistake.", missingItemN:"{n} items have no answer; they count as mistakes.",
+    missingBlank1:"1 blank has no answer; it counts as a mistake.", missingBlankN:"{n} blanks have no answer; they count as mistakes.",
+    perfect:"Perfect.", good:"Good result. Review the items marked in red.", retryExpl:"Review the explanation and try again.", redo:"Redo",
+    resetAsk:"↺ Erase answers and start over", resetConfirm:"Erase all your answers to this exercise?", cancel:"Cancel", erase:"Erase", erased:"Answers erased.",
+    listen:"Listen", playAll:"▶ Listen to the whole dialogue", stopAll:"■ Stop", audioFail:"The audio could not be played.",
+    showAnswers:"Show the correct answers", hideAnswers:"Show my answers",
+    blank:"Blank {n}", also:"also accepted", chooseOption:"Choose an option", clear:"Clear", close:"Close",
+    lessonDoneToast:"Lesson completed.", levelUpToast:"Congratulations: you have moved up to level {l}.", concluded:"Completed"},
+  es:{tabExpl:"Explicación", tabPractice:"Práctica", tabVocab:"Vocabulario", exercises:"Ejercicios:",
+    answered:"{n} de {total} respondidas", filled:"{n} de {total} completadas", check:"Corregir respuestas",
+    missingItem1:"Hay 1 ítem sin respuesta; cuenta como error.", missingItemN:"Hay {n} ítems sin respuesta; cuentan como errores.",
+    missingBlank1:"Hay 1 espacio sin respuesta; cuenta como error.", missingBlankN:"Hay {n} espacios sin respuesta; cuentan como errores.",
+    perfect:"Perfecto.", good:"Buen resultado. Revise los ítems marcados en rojo.", retryExpl:"Revise la explicación e inténtelo de nuevo.", redo:"Rehacer",
+    resetAsk:"↺ Borrar respuestas y empezar de nuevo", resetConfirm:"¿Borrar todas sus respuestas de este ejercicio?", cancel:"Cancelar", erase:"Borrar", erased:"Respuestas borradas.",
+    listen:"Escuchar", playAll:"▶ Escuchar el diálogo completo", stopAll:"■ Detener", audioFail:"No se pudo reproducir el audio.",
+    showAnswers:"Mostrar las respuestas correctas", hideAnswers:"Mostrar mis respuestas",
+    blank:"Espacio {n}", also:"también se acepta", chooseOption:"Elija una opción", clear:"Borrar", close:"Cerrar",
+    lessonDoneToast:"Lección completada.", levelUpToast:"Felicidades: usted pasó al nivel {l}.", concluded:"Completada"},
+  it:{tabExpl:"Spiegazione", tabPractice:"Pratica", tabVocab:"Vocabolario", exercises:"Esercizi:",
+    answered:"{n} di {total} risposte", filled:"{n} di {total} completati", check:"Correggi le risposte",
+    missingItem1:"C'è 1 domanda senza risposta; conta come errore.", missingItemN:"Ci sono {n} domande senza risposta; contano come errori.",
+    missingBlank1:"C'è 1 spazio vuoto; conta come errore.", missingBlankN:"Ci sono {n} spazi vuoti; contano come errori.",
+    perfect:"Perfetto.", good:"Buon risultato. Rivedi le voci segnate in rosso.", retryExpl:"Rivedi la spiegazione e riprova.", redo:"Rifai",
+    resetAsk:"↺ Cancella le risposte e ricomincia", resetConfirm:"Cancellare tutte le risposte di questo esercizio?", cancel:"Annulla", erase:"Cancella", erased:"Risposte cancellate.",
+    listen:"Ascolta", playAll:"▶ Ascolta tutto il dialogo", stopAll:"■ Ferma", audioFail:"Impossibile riprodurre l'audio.",
+    showAnswers:"Mostra le risposte corrette", hideAnswers:"Mostra le mie risposte",
+    blank:"Spazio {n}", also:"accettato anche", chooseOption:"Scegli un'opzione", clear:"Cancella", close:"Chiudi",
+    lessonDoneToast:"Lezione completata.", levelUpToast:"Complimenti: sei passato al livello {l}.", concluded:"Completata"},
+  fr:{tabExpl:"Explication", tabPractice:"Pratique", tabVocab:"Vocabulaire", exercises:"Exercices:",
+    answered:"{n} sur {total} répondues", filled:"{n} sur {total} remplies", check:"Corriger les réponses",
+    missingItem1:"1 question est sans réponse ; elle compte comme une erreur.", missingItemN:"{n} questions sont sans réponse ; elles comptent comme des erreurs.",
+    missingBlank1:"1 blanc est sans réponse ; il compte comme une erreur.", missingBlankN:"{n} blancs sont sans réponse ; ils comptent comme des erreurs.",
+    perfect:"Parfait.", good:"Bon résultat. Revoyez les éléments marqués en rouge.", retryExpl:"Revoyez l'explication et réessayez.", redo:"Refaire",
+    resetAsk:"↺ Effacer les réponses et recommencer", resetConfirm:"Effacer toutes vos réponses à cet exercice ?", cancel:"Annuler", erase:"Effacer", erased:"Réponses effacées.",
+    listen:"Écouter", playAll:"▶ Écouter tout le dialogue", stopAll:"■ Arrêter", audioFail:"Impossible de lire l'audio.",
+    showAnswers:"Afficher les bonnes réponses", hideAnswers:"Afficher mes réponses",
+    blank:"Blanc {n}", also:"également accepté", chooseOption:"Choisissez une option", clear:"Effacer", close:"Fermer",
+    lessonDoneToast:"Leçon terminée.", levelUpToast:"Félicitations : vous êtes passé au niveau {l}.", concluded:"Terminée"}
 };
-const lt = key => (LESSON_UI[S.lang]||{})[key] || t(key);
+const lt = (key, vars) => { const v = (LESSON_UI[S.lang]||{})[key]; if(v==null) return t(key, vars); let r=v; if(vars) for(const k in vars) r = r.split("{"+k+"}").join(vars[k]); return r; };
 const tx = v => v==null ? "" : (typeof v==="string" ? v : (v[S.lang]||v.en||v.pt||""));
 const isBi = v => v && typeof v==="object" && (v.pt||v.en);
 /* Idiomas de conteúdo, na ordem do seletor. O idioma nativo padrão do aluno é o português. */
@@ -617,7 +653,7 @@ const player = { el:null, btn:null, queue:null };
 function stopAudio(){
   if(player.el){ player.el.pause(); player.el.onended=null; }
   document.querySelectorAll(".play.on, .lines p.au.on").forEach(e=>e.classList.remove("on"));
-  const pa = $("#playAll"); if(pa) pa.textContent = t("playAll");
+  const pa = $("#playAll"); if(pa) pa.textContent = lt("playAll");
   player.btn = null; player.queue = null;
 }
 function playFile(src, btn, done){
@@ -627,25 +663,25 @@ function playFile(src, btn, done){
   player.btn = btn; if(btn){ btn.classList.add("on"); const row = btn.closest("p.au"); if(row) row.classList.add("on"); }
   a.src = src;
   a.onended = () => { if(btn){ btn.classList.remove("on"); const row = btn.closest("p.au"); if(row) row.classList.remove("on"); } player.btn=null; if(done) done(); };
-  a.play().catch(()=>{ toast(t("audioFail")); stopAudio(); });
+  a.play().catch(()=>{ toast(lt("audioFail")); stopAudio(); });
 }
 function wirePlay(root, l, ex){
   root.querySelectorAll(".play").forEach(b=> b.onclick = e => {
     e.stopPropagation();
     if(player.btn===b){ stopAudio(); return; }
-    player.queue = null; const pa = $("#playAll"); if(pa) pa.textContent = t("playAll");
+    player.queue = null; const pa = $("#playAll"); if(pa) pa.textContent = lt("playAll");
     track("audio",{l:l.id, x:ex.id, i:+b.dataset.au});
     playFile(`audio/${l.id}/${ex.id}-${b.dataset.au}.mp3`, b);
   });
   const pa = $("#playAll"); if(pa) pa.onclick = () => {
     if(player.queue){ stopAudio(); return; }
     const btns = [...root.querySelectorAll(".lines .play")]; let i = 0;
-    player.queue = true; pa.textContent = t("stopAll");
+    player.queue = true; pa.textContent = lt("stopAll");
     const next = () => { if(!player.queue || i>=btns.length){ stopAudio(); return; } const b = btns[i++]; b.scrollIntoView({block:"nearest",behavior:"smooth"}); playFile(`audio/${l.id}/${ex.id}-${b.dataset.au}.mp3`, b, next); };
     next();
   };
 }
-const playBtn = n => `<button class="play" data-au="${n}" title="${t("listen")}" aria-label="${t("listen")}">▶</button>`;
+const playBtn = n => `<button class="play" data-au="${n}" title="${lt("listen")}" aria-label="${lt("listen")}">▶</button>`;
 function exDone(lesson, ex){
   const p = (S.data.progress[lesson.id]||{})[ex.id]; if(!p) return false;
   if(ex.type==="mc") return ex.reveal==="end" ? !!p.checked : Object.keys(p.answers).length === (ex.items ? ex.items.length : ex.n);
@@ -1048,7 +1084,7 @@ function renderLesson(){
   app.innerHTML = `
     <div class="crumb"><a id="back">${t("lessons")}</a> › ${fieldOf(l.area)?`<a id="backField">${esc(nameOf(fieldOf(l.area)))}</a> › `:""}${esc(l.title)}</div>
     <h1>${l.icon} ${esc(l.title)}</h1>
-    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span>${metaOf(l) && lessonState(metaOf(l)).done?`<span class="tag okt">✓ ${t("concluded")}</span>`:""}</div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
+    <div class="metarow"><div class="tags"><span class="tag lv">${l.level}</span><span class="tag">${esc(areaLabel(l))}</span>${metaOf(l) && lessonState(metaOf(l)).done?`<span class="tag okt">✓ ${lt("concluded")}</span>`:""}</div>${bi?`<div class="langsw" title="${t("explLang")}">${langs.map(k=>`<button data-l="${k}" class="${S.lang===k?"on":""}">${k.toUpperCase()}</button>`).join("")}</div>`:""}</div>
     <div class="tabs"><button class="tab ${S.tab==="expl"?"on":""}" data-t="expl">${lt("tabExpl")}</button><button class="tab ${S.tab==="ex"?"on":""}" data-t="ex">${lt("tabPractice")}</button>${l.vocab?`<button class="tab ${S.tab==="vocab"?"on":""}" data-t="vocab">${lt("tabVocab")}</button>`:""}</div>
     <div class="card panel">${body}</div>`;
   $("#back").onclick = () => { S.home = fieldOf(l.area) ? "pro" : "daily"; location.hash=""; };
@@ -1108,7 +1144,7 @@ function renderMC(l, ex){
   });
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     const left = ex.items.length-Object.keys(p.answers).length;
-    if(left>0) toast(left===1?t("missingItem1"):t("missingItemN",{n:left}));
+    if(left>0) toast(left===1?lt("missingItem1"):lt("missingItemN",{n:left}));
     ex.items.forEach((it,i)=>{ const a=p.answers[i]; track("answer", {l:l.id, x:ex.id, i:i+1, ok: a===it.a ? 1 : 2, d: a===undefined ? "" : it.o[a]}); });
     trackDone(l, ex, p);
     p.checked=true; persist(p); renderLesson();
@@ -1123,21 +1159,21 @@ function recordBest(p, c, tot){
   const m = S.lesson && metaOf(S.lesson), was = m && lessonState(m).done;
   p.best = pct; p.bestAt = new Date().toISOString().slice(0,10); persist(p);
   if(m && !was && lessonState(m).done){
-    toast(t("lessonDoneToast"));
+    toast(lt("lessonDoneToast"));
     const tg = document.querySelector(".metarow .tags");
-    if(tg && !tg.querySelector(".okt")) tg.insertAdjacentHTML("beforeend", `<span class="tag okt">✓ ${t("concluded")}</span>`);
+    if(tg && !tg.querySelector(".okt")) tg.insertAdjacentHTML("beforeend", `<span class="tag okt">✓ ${lt("concluded")}</span>`);
   }
-  const up = checkTrail(); if(up) toast(t("levelUpToast",{l:up}));
+  const up = checkTrail(); if(up) toast(lt("levelUpToast",{l:up}));
 }
 function scoreBox(c,tt){
-  const msg = c===tt ? t("perfect") : c>=tt*0.7 ? t("good") : t("retryExpl");
-  return `<div class="score"><b>${c}/${tt}</b><span class="msg">${msg}</span><button class="btn plain" id="redo">${t("redo")}</button></div>`;
+  const msg = c===tt ? lt("perfect") : c>=tt*0.7 ? lt("good") : lt("retryExpl");
+  return `<div class="score"><b>${c}/${tt}</b><span class="msg">${msg}</span><button class="btn plain" id="redo">${lt("redo")}</button></div>`;
 }
 function mcSummary(ex,p){
   const n = Object.keys(p.answers).length, total = ex.items.length;
   if(ex.reveal==="end" && !p.checked)
-    return `<div class="center"><p class="small muted">${t("answered",{n,total})}</p><button class="btn" id="check" ${n===0?"disabled":""}>${t("check")}</button></div>`;
-  if(ex.reveal!=="end" && n<total) return `<p class="small muted center">${t("answered",{n,total})}</p>`;
+    return `<div class="center"><p class="small muted">${lt("answered",{n,total})}</p><button class="btn" id="check" ${n===0?"disabled":""}>${lt("check")}</button></div>`;
+  if(ex.reveal!=="end" && n<total) return `<p class="small muted center">${lt("answered",{n,total})}</p>`;
   const [c,tot]=exScore(ex,p);
   recordBest(p, c, tot);
   return scoreBox(c,tot);
@@ -1195,12 +1231,12 @@ function renderGap(l, ex){
     } else if(typed){
       /* O valor entra depois, pela propriedade value (nunca como HTML). Corretor e sugestões desligados: entregariam a resposta. */
       const w = Math.min(40, Math.max(6, ...accepted.map(a=>a.length)) + 2);
-      return `<span class="blank typed"><span class="n">${n}</span><input class="tin" data-n="${n}" type="text" lang="en" maxlength="${TYPED_MAX}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="next" style="width:${w}ch" aria-label="${esc(t("blank",{n}))}"></span>${hintHTML(n)}`;
+      return `<span class="blank typed"><span class="n">${n}</span><input class="tin" data-n="${n}" type="text" lang="en" maxlength="${TYPED_MAX}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="next" style="width:${w}ch" aria-label="${esc(lt("blank",{n}))}"></span>${hintHTML(n)}`;
     } else {
       if(S.activeBlank===n) cls+=" active";
       inner = `<span class="v">${v?esc(capIfStart(before,v)):"&nbsp;"}</span>`;
     }
-    return `<button class="${cls}" data-n="${n}" aria-label="${esc(t("blank",{n})+(v?": "+v:""))}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>${hintHTML(n)}`;
+    return `<button class="${cls}" data-n="${n}" aria-label="${esc(lt("blank",{n})+(v?": "+v:""))}" ${p.checked?"disabled":""}><span class="n">${n}</span>${inner}</button>${hintHTML(n)}`;
   };
   const fill = text => {
     const parts = text.split(/\[\[(\d+)\]\]/); let out="", before="";
@@ -1211,7 +1247,7 @@ function renderGap(l, ex){
   if(ex.layout==="dialogue"){
     /* O áudio entrega as respostas, então só aparece depois da correção. */
     const au = p.checked ? auOf(l, ex) : [];
-    if(au.length) html += `<button class="btn plain sm playall" id="playAll">${t("playAll")}</button>`;
+    if(au.length) html += `<button class="btn plain sm playall" id="playAll">${lt("playAll")}</button>`;
     html += `<div class="lines" lang="en">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
       ? `<p class="au">${playBtn(i+1)}<span><span class="sp">${esc(sp)}:</span> ${fill(line)}</span></p>`
       : `<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
@@ -1226,15 +1262,15 @@ function renderGap(l, ex){
   }
   const total = Object.keys(ex.answers).length, filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
   if(!p.checked){
-    html += `<div class="center"><p class="small muted" id="filledMsg">${t("filled",{n:filled,total})}</p><button class="btn" id="check" ${filled===0?"disabled":""}>${t("check")}</button></div>`;
+    html += `<div class="center"><p class="small muted" id="filledMsg">${lt("filled",{n:filled,total})}</p><button class="btn" id="check" ${filled===0?"disabled":""}>${lt("check")}</button></div>`;
   } else {
     const [c,tot] = exScore(ex,p);
     recordBest(p, c, tot);
     html += scoreBox(c,tot);
-    if(c<tot) html += `<div class="revealbar"><button class="btn plain sm" id="reveal">${reveal?t("hideAnswers"):t("showAnswers")}</button></div>`;
+    if(c<tot) html += `<div class="revealbar"><button class="btn plain sm" id="reveal">${reveal?lt("hideAnswers"):lt("showAnswers")}</button></div>`;
     html += `<div class="corr">${Object.keys(ex.answers).map(k=>{
       const acc=ex.answers[k], ok=accepts(ex, acc, p.answers[k]);
-      const alt = acc.length>1 ? ` <span class="muted small">(${t("also")}: ${esc(acc.slice(1).join(" / "))})</span>` : "";
+      const alt = acc.length>1 ? ` <span class="muted small">(${lt("also")}: ${esc(acc.slice(1).join(" / "))})</span>` : "";
       return `<div><span class="k ${ok?"ok":"no"}">${ok?"✓":"✗"} ${k}</span> ${tx(ex.why[k])}${alt}</div>`;
     }).join("")}</div>`;
   }
@@ -1246,7 +1282,7 @@ function renderGap(l, ex){
   const ck=$("#check"); if(ck) ck.onclick=()=>{
     /* Contagem refeita na hora: nas respostas digitadas, o aluno preenche sem redesenhar a tela. */
     const filled = Object.keys(ex.answers).filter(k=>p.answers[k]).length;
-    if(filled<total){ toast(total-filled===1?t("missingBlank1"):t("missingBlankN",{n:total-filled})); }
+    if(filled<total){ toast(total-filled===1?lt("missingBlank1"):lt("missingBlankN",{n:total-filled})); }
     Object.keys(ex.answers).forEach(k=>{ const v=p.answers[k]; track("answer", {l:l.id, x:ex.id, i:+k, ok: accepts(ex, ex.answers[k], v) ? 1 : 2, d: typed ? statText(v) : (v||"")}); });
     trackDone(l, ex, p);
     p.checked=true; persist(p); closeSheet(); renderLesson();
@@ -1269,7 +1305,7 @@ function wireTyped(box, ex, p, total){
       if(v.trim()) p.answers[n] = v; else delete p.answers[n];
       persist(p);
       const f = count();
-      if(msg) msg.textContent = t("filled",{n:f,total});
+      if(msg) msg.textContent = lt("filled",{n:f,total});
       if(ck) ck.disabled = f===0;
     };
     inp.onkeydown = e => {
@@ -1282,15 +1318,15 @@ function wireTyped(box, ex, p, total){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { if(S.lesson){ const e=exsOf(S.lesson)[S.ex]; if(e){ track("redo",{l:S.lesson.id, x:e.id}); S.exStart=Date.now(); } } S.reveal=null; p.answers={}; p.checked=false; if(p.optOrder){ p.prevOptOrder=p.optOrder; delete p.optOrder; } if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
+  const doReset = () => { if(S.lesson){ const e=exsOf(S.lesson)[S.ex]; if(e){ track("redo",{l:S.lesson.id, x:e.id}); S.exStart=Date.now(); } } S.reveal=null; p.answers={}; p.checked=false; if(p.optOrder){ p.prevOptOrder=p.optOrder; delete p.optOrder; } if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(lt("erased")); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;
   if(!has){ bar.innerHTML=""; return; }
   const idle = () => {
-    bar.innerHTML = `<button class="linkbtn" id="rsAsk">${t("resetAsk")}</button>`;
+    bar.innerHTML = `<button class="linkbtn" id="rsAsk">${lt("resetAsk")}</button>`;
     $("#rsAsk").onclick = () => {
-      bar.innerHTML = `<span>${t("resetConfirm")}</span><button class="btn plain sm" id="rsNo">${t("cancel")}</button><button class="btn danger sm" id="rsYes">${t("erase")}</button>`;
+      bar.innerHTML = `<span>${lt("resetConfirm")}</span><button class="btn plain sm" id="rsNo">${lt("cancel")}</button><button class="btn danger sm" id="rsYes">${lt("erase")}</button>`;
       $("#rsNo").onclick = idle; $("#rsYes").onclick = doReset;
     };
   };
@@ -1302,7 +1338,8 @@ let sheetCtx=null;
 function openSheet(l, ex, n){
   sheetCtx={l,ex}; S.activeBlank=n;
   const p = prog(l.id, ex.id);
-  $("#sheetTitle").textContent = t("blank",{n});
+  $("#sheetTitle").textContent = lt("blank",{n});
+  $("#sheetClear").textContent = lt("clear"); $("#sheetClose").textContent = lt("close");
   $("#chips").innerHTML = optionsFor(ex, p, n).map(o=>`<button class="chip ${p.answers[n]!==undefined && same(ex,p.answers[n],o)?"sel":""}" data-v="${esc(o)}">${esc(o)}</button>`).join("");
   $("#chips").querySelectorAll(".chip").forEach(c=> c.onclick=()=> pick(c.dataset.v));
   $("#sheet").classList.add("open");
