@@ -24,10 +24,65 @@ pt:`
     <h3>Used to só existe no passado</h3>
     <p>Para um hábito de hoje, use <b>usually</b> + Present Simple: "Costumo ir à academia de manhã." → I <b>usually</b> go to the gym in the morning. (<s>I use to go</s>)</p>
     <h3>Not … anymore / no longer</h3>
-    <p>I don't smoke <b>anymore</b>. = I <b>no longer</b> smoke.</p>
+    <p>As duas formas significam <b>não … mais</b>: algo que era verdade e deixou de ser. Combinam naturalmente com <i>used to</i>.</p>
+    <ul>
+      <li>My father used to smoke, but he doesn't smoke <b>anymore</b>.</li>
+      <li>My father <b>no longer</b> smokes.</li>
+    </ul>
+    <p>A diferença está na forma e no registro:</p>
+    <table>
+      <tr><th></th><th>Not … anymore</th><th>No longer</th></tr>
+      <tr><td>Verbo</td><td>na negativa</td><td>na afirmativa (o NO já nega)</td></tr>
+      <tr><td>Posição</td><td>no fim da frase</td><td>antes do verbo principal; depois de BE e dos auxiliares</td></tr>
+      <tr><td>Registro</td><td>conversa do dia a dia</td><td>mais formal, comum na escrita</td></tr>
+    </table>
+    <ul>
+      <li>My grandmother doesn't drive anymore. → My grandmother <b>no longer</b> drives.</li>
+      <li>Rio isn't the capital of Brazil anymore. → Rio <b>is no longer</b> the capital of Brazil. (Brasília é a capital desde 1960.)</li>
+      <li>My brother can't play soccer anymore. → My brother <b>can no longer</b> play soccer.</li>
+      <li>They don't live here anymore. → They <b>no longer</b> live here.</li>
+    </ul>
+    <p>Para perguntar, use <b>still</b> (ainda). Na resposta, use <i>anymore</i>:</p>
+    <ul>
+      <li>Does your father <b>still</b> smoke? — No, he doesn't smoke <b>anymore</b>.</li>
+      <li>Do you <b>still</b> live in Recife? — No, I don't live there <b>anymore</b>. I moved to São Paulo last year.</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Não junte NOT e NO LONGER</b>, que seriam duas negações: My father no longer smokes. (<s>My father doesn't no longer smoke</s>)</li>
+      <li><b>"Não mais" não é "no more".</b> <i>No more</i> fala de quantidade: There's <b>no more</b> coffee. (= Acabou o café.) Para hábitos e estados, use <i>anymore</i> ou <i>no longer</i>: I don't drink coffee anymore. (<s>I don't drink coffee no more</s>, <s>I no more drink coffee</s>)</li>
+      <li><b>Anymore é uma palavra só</b> no inglês americano. <i>Any more</i>, separado, fala de quantidade: I don't want <b>any more</b> cake. (= Não quero mais bolo.)</li>
+    </ul>
     <h3>WOULD para hábitos do passado</h3>
-    <p>Nas narrativas, <i>would</i> também indica ações repetidas: When I was a kid, we <b>would</b> go to my grandparents' farm every July.</p>
-    <p class="note">Mas não para estados (ser, ter, morar, gostar): I used to have long hair (<s>I would have</s>)<br>We used to live in Recife (<s>We would live</s>).</p>`,
+    <p>Ao contar lembranças, <i>would</i> indica <b>ações que se repetiam</b> no passado. Nesse uso, ele equivale ao pretérito imperfeito do português (<i>íamos, fazia</i>), e não ao futuro do pretérito (<i>iria, faria</i>).</p>
+    <ul>
+      <li>When I was a kid, we <b>would</b> go to my grandparents' farm every July. (= íamos)</li>
+      <li>Every Sunday, my grandfather <b>would</b> make pasta for the whole family. (= fazia)</li>
+    </ul>
+    <p>O normal é começar a lembrança com <i>used to</i> e continuar com <i>would</i>, para não repetir:</p>
+    <ul>
+      <li>We <b>used to</b> spend our summers in Ubatuba. My mother <b>would</b> wake us up early, and we <b>would</b> walk to the beach before breakfast.</li>
+    </ul>
+    <p>A forma:</p>
+    <ul>
+      <li>Afirmativa: My grandfather <b>would</b> make pasta on Sundays.</li>
+      <li>Contração: <b>We'd</b> go to the beach every summer. (Na escrita, a contração aparece mais com pronomes.)</li>
+      <li>Negativa e pergunta: aqui, prefira <i>used to</i>. My grandfather <b>didn't use to</b> cook during the week. <b>Did</b> your grandfather <b>use to</b> make pasta?</li>
+    </ul>
+    <h3>Os três WOULDs mais comuns</h3>
+    <table>
+      <tr><th>Uso</th><th>Exemplo</th><th>Em português</th></tr>
+      <tr><td>Pedido educado</td><td>I <b>would like</b> a coffee, please.</td><td>gostaria</td></tr>
+      <tr><td>Hipótese (com IF, dito ou subentendido)</td><td>If I had more time, I <b>would travel</b> more.</td><td>viajaria</td></tr>
+      <tr><td>Hábito do passado</td><td>When I was a kid, I <b>would travel</b> with my uncle every summer.</td><td>viajava</td></tr>
+    </table>
+    <p>Para saber qual é, olhe o contexto: o hábito do passado sempre vem com uma referência de tempo passado (<i>when I was a kid, back then, every summer, in the 1990s</i>). Sem essa referência, <i>would</i> soa como hipótese: "We would go to the beach" sozinho entende-se como "nós iríamos à praia".</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Só para ações, não para estados</b> (ser, ter, morar, gostar, saber, acreditar): I used to have long hair (<s>I would have</s>). We used to live in Recife (<s>We would live</s>).</li>
+      <li><b>Só para o que se repetia</b>, nunca para um fato único ou com número de vezes: Last summer, we <b>went</b> to Bahia (<s>we would go</s>). We <b>visited</b> Paris three times (<s>we would visit</s>).</li>
+      <li><b>WOULDN'T no passado costuma ser recusa:</b> My son <b>wouldn't</b> eat vegetables. (= Meu filho se recusava a comer verduras.) Para dizer só que não era hábito, use <i>didn't use to</i>.</li>
+    </ul>`,
 en:`
     <h2>Used To</h2>
     <p><b>Used to</b> describes something you did or were in the past, but <b>no longer do or are</b>.</p>
@@ -48,10 +103,65 @@ en:`
     <h3>Used to is past only</h3>
     <p>For a present habit, use <b>usually</b> + Present Simple: I <b>usually</b> go to the gym in the morning. (<s>I use to go</s>)</p>
     <h3>Not … anymore / no longer</h3>
-    <p>I don't smoke <b>anymore</b>. = I <b>no longer</b> smoke.</p>
+    <p>Both mean that something <b>was true and stopped</b>. They go naturally with <i>used to</i>.</p>
+    <ul>
+      <li>My father used to smoke, but he doesn't smoke <b>anymore</b>.</li>
+      <li>My father <b>no longer</b> smokes.</li>
+    </ul>
+    <p>The difference is in form and register:</p>
+    <table>
+      <tr><th></th><th>Not … anymore</th><th>No longer</th></tr>
+      <tr><td>Verb</td><td>negative</td><td>affirmative (NO already makes it negative)</td></tr>
+      <tr><td>Position</td><td>at the end of the sentence</td><td>before the main verb; after BE and auxiliaries</td></tr>
+      <tr><td>Register</td><td>everyday conversation</td><td>more formal, common in writing</td></tr>
+    </table>
+    <ul>
+      <li>My grandmother doesn't drive anymore. → My grandmother <b>no longer</b> drives.</li>
+      <li>Rio isn't the capital of Brazil anymore. → Rio <b>is no longer</b> the capital of Brazil. (Brasília has been the capital since 1960.)</li>
+      <li>My brother can't play soccer anymore. → My brother <b>can no longer</b> play soccer.</li>
+      <li>They don't live here anymore. → They <b>no longer</b> live here.</li>
+    </ul>
+    <p>To ask, use <b>still</b>. In the answer, use <i>anymore</i>:</p>
+    <ul>
+      <li>Does your father <b>still</b> smoke? — No, he doesn't smoke <b>anymore</b>.</li>
+      <li>Do you <b>still</b> live in Recife? — No, I don't live there <b>anymore</b>. I moved to São Paulo last year.</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Don't combine NOT and NO LONGER</b>, which would be a double negative: My father no longer smokes. (<s>My father doesn't no longer smoke</s>)</li>
+      <li><b>No more is about quantity:</b> There's <b>no more</b> coffee. (= The coffee is gone.) For habits and states, use <i>anymore</i> or <i>no longer</i>: I don't drink coffee anymore. (<s>I don't drink coffee no more</s>, <s>I no more drink coffee</s>)</li>
+      <li><b>Anymore is one word</b> in American English. <i>Any more</i>, as two words, is about quantity: I don't want <b>any more</b> cake.</li>
+    </ul>
     <h3>WOULD for past habits</h3>
-    <p>In stories, <i>would</i> also shows repeated actions: When I was a kid, we <b>would</b> go to my grandparents' farm every July.</p>
-    <p class="note">But not for states (be, have, live, like): I used to have long hair (<s>I would have</s>)<br>We used to live in Recife (<s>We would live</s>).</p>`
+    <p>When telling memories, <i>would</i> shows <b>actions that happened again and again</b> in the past.</p>
+    <ul>
+      <li>When I was a kid, we <b>would</b> go to my grandparents' farm every July.</li>
+      <li>Every Sunday, my grandfather <b>would</b> make pasta for the whole family.</li>
+    </ul>
+    <p>A memory usually starts with <i>used to</i> and continues with <i>would</i>, to avoid repetition:</p>
+    <ul>
+      <li>We <b>used to</b> spend our summers in Ubatuba. My mother <b>would</b> wake us up early, and we <b>would</b> walk to the beach before breakfast.</li>
+    </ul>
+    <p>The form:</p>
+    <ul>
+      <li>Affirmative: My grandfather <b>would</b> make pasta on Sundays.</li>
+      <li>Contraction: <b>We'd</b> go to the beach every summer. (In writing, the contraction is more common with pronouns.)</li>
+      <li>Negatives and questions: here, prefer <i>used to</i>. My grandfather <b>didn't use to</b> cook during the week. <b>Did</b> your grandfather <b>use to</b> make pasta?</li>
+    </ul>
+    <h3>The three most common WOULDs</h3>
+    <table>
+      <tr><th>Use</th><th>Example</th></tr>
+      <tr><td>Polite request</td><td>I <b>would like</b> a coffee, please.</td></tr>
+      <tr><td>Hypothesis (with IF, said or implied)</td><td>If I had more time, I <b>would travel</b> more.</td></tr>
+      <tr><td>Past habit</td><td>When I was a kid, I <b>would travel</b> with my uncle every summer.</td></tr>
+    </table>
+    <p>To tell them apart, look at the context: a past habit always comes with a past time reference (<i>when I was a kid, back then, every summer, in the 1990s</i>). Without it, <i>would</i> sounds like a hypothesis: "We would go to the beach" on its own sounds conditional.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Actions only, not states</b> (be, have, live, like, know, believe): I used to have long hair (<s>I would have</s>). We used to live in Recife (<s>We would live</s>).</li>
+      <li><b>Repeated actions only</b>, never a single event or a number of times: Last summer, we <b>went</b> to Bahia (<s>we would go</s>). We <b>visited</b> Paris three times (<s>we would visit</s>).</li>
+      <li><b>WOULDN'T in the past often means refusal:</b> My son <b>wouldn't</b> eat vegetables. (= He refused to.) To say it simply wasn't a habit, use <i>didn't use to</i>.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -124,7 +234,7 @@ en:`
         {q:"Salvador ___ the capital of Brazil until 1763.", o:["used to be","use to be","would be"], a:0, sub:"form",
          why:{pt:"Estado que acabou: used to be.", en:"A finished state: used to be."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — used to, would or usually?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — used to, would or usually?", type:"mc", reveal:"end", rev:1,
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Eu costumava ter cabelo comprido.\" → I ___ long hair.", o:["used to have","would have","use to have"], a:0, sub:"would",
@@ -154,7 +264,17 @@ en:`
         {q:"In the 1800s, most people ___ travel by horse or on foot.", o:["used to","use to","were used to"], a:0, sub:"form",
          why:{pt:"Hábito do passado que acabou: used to.", en:"A finished past habit: used to."}},
         {q:"My brother ___ calls me on Sundays. It's our tradition now.", o:["usually","used to","use to"], a:0, sub:"usually",
-         why:{pt:"Hábito de hoje: usually.", en:"Present habit: usually."}}
+         why:{pt:"Hábito de hoje: usually.", en:"Present habit: usually."}},
+        {q:"\"Não tomo mais café.\" → I don't drink coffee ___.", o:["anymore","no more","any more"], a:0, sub:"anymore",
+         why:{pt:"Para hábitos, not … anymore, numa palavra só. No more e any more falam de quantidade.", en:"For habits, not … anymore, as one word. No more and any more are about quantity."}},
+        {q:"My father ___ smokes. He quit ten years ago.", o:["no longer","doesn't no longer","no more"], a:0, sub:"anymore",
+         why:{pt:"No longer já nega: o verbo fica na afirmativa.", en:"No longer is already negative: the verb stays affirmative."}},
+        {q:"Last summer, we ___ to Bahia for two weeks.", o:["went","would go","used to go"], a:0, sub:"would",
+         why:{pt:"Fato único no passado: Past Simple. Would e used to são para o que se repetia.", en:"A single past event: Past Simple. Would and used to are for repeated actions."}},
+        {q:"\"When he was little, my son wouldn't eat vegetables.\" Here, wouldn't means ___.", o:["he refused","he would refuse in the future","he never had the chance"], a:0, sub:"would",
+         why:{pt:"Wouldn't no passado costuma indicar recusa.", en:"Wouldn't in the past often shows refusal."}},
+        {q:"\"Todo verão, meu tio nos levava para pescar.\" → Every summer, my uncle ___ us fishing.", o:["would take","would like to take","will take"], a:0, sub:"would",
+         why:{pt:"Hábito do passado, com referência de tempo (every summer): would, que aqui equivale ao imperfeito (levava).", en:"A past habit with a time reference (every summer): would."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Grandma's Childhood", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha a forma com used to ou use to. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose the form with used to or use to. Tap a blank and choose an option."},

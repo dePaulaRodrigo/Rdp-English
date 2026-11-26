@@ -907,7 +907,7 @@ const CATALOG = [
    "childhood",
    "nostalgia"
   ],
-  "v": "fa36440f",
+  "v": "b77b25a4",
   "exercises": [
    {
     "id": "mc-easy",
@@ -918,7 +918,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 19
    },
    {
     "id": "dialogue-medium",
