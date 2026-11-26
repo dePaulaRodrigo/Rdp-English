@@ -457,6 +457,7 @@ function sanitize(d){
       if(Array.isArray(e.order)) c.order = e.order;
       if(Array.isArray(e.prevOrder)) c.prevOrder = e.prevOrder;
       if(isObj(e.optOrder)) c.optOrder = e.optOrder;
+      if(isObj(e.prevOptOrder)) c.prevOptOrder = e.prevOptOrder;
       if(typeof e.best==="number" && e.best>=0 && e.best<=100){ c.best = e.best; if(typeof e.bestAt==="string") c.bestAt = e.bestAt.slice(0,10); }
       if(typeof e.t==="number") c.t = e.t;
       if(Number.isInteger(e.rev)) c.rev = e.rev;
@@ -557,7 +558,7 @@ function prog(lid, eid){
 function progEx(l, ex){
   const p = prog(l.id, ex.id), r = ex.rev||0;
   if((p.rev||0)!==r){
-    p.answers={}; p.checked=false; delete p.order; delete p.prevOrder; delete p.optOrder;
+    p.answers={}; p.checked=false; delete p.order; delete p.prevOrder; delete p.optOrder; delete p.prevOptOrder;
     if(r) p.rev=r; else delete p.rev;
     persist(p);
   }
@@ -1149,16 +1150,23 @@ function bankOf(ex){
   const set = new Set(); Object.values(ex.answers).forEach(a=>set.add(a[0]));
   const order=["up","down","in","out","by","on","off","over","away","back","around","through","along","apart"];
   if(ex.layout==="dialogue" || ![...set].every(w=>order.includes(w))){ ex._bank = [...set].sort((a,b)=>a.localeCompare(b)); }
-  else { ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); }
+  else { ex._bank=[...set].sort((a,b)=>order.indexOf(a)-order.indexOf(b)); ex._fixed=true; }
   return ex._bank;
 }
-/* Opções da lacuna: as da própria lacuna (ex.opts[n], em ordem embaralhada e fixa) ou o banco geral. */
+/* Opções da lacuna: as da própria lacuna (ex.opts[n]) ou o banco geral, sempre em ordem embaralhada.
+   A ordem fica guardada no progresso (p.optOrder; chave "b" para o banco geral) e muda a cada "Apagar respostas",
+   sem repetir a ordem anterior (p.prevOptOrder). */
+function isPerm(a, n){ return Array.isArray(a) && a.length===n && a.every(j=>Number.isInteger(j) && j>=0 && j<n) && new Set(a).size===n; }
 function optionsFor(ex, p, n){
   const own = ex.opts && ex.opts[n];
-  if(!own) return bankOf(ex);
-  p.optOrder = p.optOrder || {};
-  if(!Array.isArray(p.optOrder[n]) || p.optOrder[n].length!==own.length){ p.optOrder[n] = shuffledIdx(own.length); persist(); }
-  return p.optOrder[n].map(j=>own[j]);
+  const base = own || bankOf(ex), key = own ? String(n) : "b";
+  if(!own && ex._fixed) return base;   /* partículas (up, down, in...) ficam na ordem lógica */
+  p.optOrder = isObj(p.optOrder) ? p.optOrder : {};
+  if(!isPerm(p.optOrder[key], base.length)){
+    const prev = isObj(p.prevOptOrder) && isPerm(p.prevOptOrder[key], base.length) ? p.prevOptOrder[key] : null;
+    p.optOrder[key] = shuffledIdx(base.length, prev); persist();
+  }
+  return p.optOrder[key].map(j=>base[j]);
 }
 function capIfStart(before, val){
   if(sheetCaseSensitive) return val;
@@ -1274,7 +1282,7 @@ function wireTyped(box, ex, p, total){
 
 /* ---------- Apagar progresso do exercício ---------- */
 function wireReset(p){
-  const doReset = () => { if(S.lesson){ const e=exsOf(S.lesson)[S.ex]; if(e){ track("redo",{l:S.lesson.id, x:e.id}); S.exStart=Date.now(); } } S.reveal=null; p.answers={}; p.checked=false; delete p.optOrder; if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
+  const doReset = () => { if(S.lesson){ const e=exsOf(S.lesson)[S.ex]; if(e){ track("redo",{l:S.lesson.id, x:e.id}); S.exStart=Date.now(); } } S.reveal=null; p.answers={}; p.checked=false; if(p.optOrder){ p.prevOptOrder=p.optOrder; delete p.optOrder; } if(p.order){ p.prevOrder=p.order; delete p.order; } persist(p); closeSheet(); renderLesson(); window.scrollTo(0,0); toast(t("erased")); };
   const r = $("#redo"); if(r) r.onclick = doReset;
   const bar = $("#resetbar"); if(!bar) return;
   const has = p.checked || Object.keys(p.answers).length>0;

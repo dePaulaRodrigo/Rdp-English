@@ -39,7 +39,7 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
 - `type:"mc"`: `items:[{q:"frase com ___", o:[opções], a:índice certo, why:"explicação", sub:"subponto"}]`
 - `type:"gap"`, `layout:"dialogue"` (`lines:[["Fala", "texto com [[1]]"]]`) ou `layout:"list"` (`lines:["texto com [[1]]"]`)
   - `answers:{1:["resposta principal","alternativa aceita"]}`, `why:{1:"..."}`
-  - `opts` (opcional): `{1:["Certa","errada",...]}` — opções próprias de cada lacuna, mostradas em ordem embaralhada.
+  - `opts` (opcional): `{1:["Certa","errada",...]}` — opções próprias de cada lacuna, mostradas em ordem embaralhada. O banco geral (`bank`) também aparece embaralhado; a ordem muda a cada "Apagar respostas".
     Use só quando as opções são variações da mesma palavra (ex.: Capital Letters: China / china). Nos diálogos de
     gramática (ex.: There Be vs. Have), o padrão é o banco geral com todas as opções juntas.
   - `bank` (opcional): lista fixa de opções, permite incluir distratores. Sem ela, o banco são as respostas principais.
