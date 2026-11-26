@@ -23,7 +23,28 @@ pt:`
     <h3>Negativa e pergunta</h3>
     <p>Iguais às do To Be no passado: I wasn't sleeping.<br>Were you working at eight?<br>What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
     <p class="note">Verbos de estado não vão para o -ING: I knew the answer (<s>I was knowing</s>). Uso educado: <i>I was wondering if</i> you could help me. — Eu queria saber se você poderia me ajudar.</p>
-    <p>Diz a história que Arquimedes estava tomando banho quando entendeu como medir o volume de uma coroa: Archimedes was taking a bath when he had the idea.</p>`,
+    <p>Diz a história que Arquimedes estava tomando banho quando entendeu como medir o volume de uma coroa: Archimedes was taking a bath when he had the idea.</p>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My kids were watching TV.</td></tr>
+      <tr><td>Negativa</td><td>My kids were not watching TV.<br>My kids weren't watching TV.</td></tr>
+      <tr><td>Pergunta</td><td>Were my kids watching TV?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Were my kids not watching TV?<br>Weren't my kids watching TV?</td></tr>
+    </table>
+    <h3>Cuidado: nem todo "estava" é -ING</h3>
+    <p>O imperfeito do português (<i>estava, fazia, ia</i>) tem várias traduções. O Past Continuous é só a ação <b>em andamento</b>.</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>Eu estava cansado.</td><td>I was tired.</td><td><s>I was tiring</s></td></tr>
+      <tr><td>Eu estava em casa.</td><td>I was at home.</td><td><s>I was staying at home</s> (= fiquei em casa)</td></tr>
+      <tr><td>Eu jogava bola todo dia.</td><td>I used to play soccer every day.<br>I played soccer every day.</td><td><s>I was playing soccer every day</s></td></tr>
+      <tr><td>Eu estava jogando quando choveu.</td><td>I was playing when it rained.</td><td>—</td></tr>
+    </table>
+    <ul>
+      <li><b>Hábito do passado não é Past Continuous</b>: use <i>used to</i>, <i>would</i> ou o Past Simple.</li>
+      <li><b>WHILE vai com a ação longa</b>, não com a curta: <b>While</b> I was cooking, the phone rang. (<s>While the phone rang</s>)</li>
+    </ul>`,
 en:`
     <h2>Past Continuous</h2>
     <p><b>was / were + verb + -ING</b>: Yesterday I was talking to a foreigner.</p>
@@ -43,7 +64,28 @@ en:`
     <h3>Negatives and questions</h3>
     <p>Like To Be in the past: I wasn't sleeping.<br>Were you working at eight?<br>What were you doing when I called? — "Were you sleeping?" — "No, I wasn't."</p>
     <p class="note">Stative verbs take no -ING: I knew the answer (<s>I was knowing</s>). A polite use: <i>I was wondering if</i> you could help me.</p>
-    <p>According to the famous story, Archimedes was taking a bath when he understood how to measure the volume of a crown.</p>`
+    <p>According to the famous story, Archimedes was taking a bath when he understood how to measure the volume of a crown.</p>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My kids were watching TV.</td></tr>
+      <tr><td>Negative</td><td>My kids were not watching TV.<br>My kids weren't watching TV.</td></tr>
+      <tr><td>Question</td><td>Were my kids watching TV?</td></tr>
+      <tr><td>Negative question</td><td>Were my kids not watching TV?<br>Weren't my kids watching TV?</td></tr>
+    </table>
+    <h3>Careful: not every "estava" is -ING</h3>
+    <p>The Portuguese imperfect (<i>estava, fazia, ia</i>) has several translations. The Past Continuous is only for an action <b>in progress</b>.</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>Eu estava cansado.</td><td>I was tired.</td><td><s>I was tiring</s></td></tr>
+      <tr><td>Eu estava em casa.</td><td>I was at home.</td><td><s>I was staying at home</s> (= I stayed home)</td></tr>
+      <tr><td>Eu jogava bola todo dia.</td><td>I used to play soccer every day.<br>I played soccer every day.</td><td><s>I was playing soccer every day</s></td></tr>
+      <tr><td>Eu estava jogando quando choveu.</td><td>I was playing when it rained.</td><td>—</td></tr>
+    </table>
+    <ul>
+      <li><b>A past habit is not Past Continuous</b>: use <i>used to</i>, <i>would</i> or the Past Simple.</li>
+      <li><b>WHILE goes with the long action</b>, not the short one: <b>While</b> I was cooking, the phone rang. (<s>While the phone rang</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -116,7 +158,7 @@ en:`
         {q:"I was wondering ___ you could help me with my bags.", o:["if","that","what"], a:0, sub:"polite",
          why:{pt:"Pedido educado: I was wondering if.", en:"Polite request: I was wondering if."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — simple or continuous in the past?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — simple or continuous in the past?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"When the phone rang, I ___ it. (atendi logo depois)", o:["answered","was answering","answer"], a:0, sub:"when / while",
@@ -146,7 +188,11 @@ en:`
         {q:"It ___ when we landed, so we took a taxi.", o:["was snowing","snows","snow"], a:0, sub:"background",
          why:{pt:"Cenário no momento da chegada: Past Continuous.", en:"Background at the time of arrival: Past Continuous."}},
         {q:"\"I was wondering if…\" → ___", o:["Eu queria saber se…","Eu estava me perguntando por quê…","Eu fiquei imaginando que…"], a:0, sub:"polite",
-         why:{pt:"Fórmula educada de pedido.", en:"A polite way to ask."}}
+         why:{pt:"Fórmula educada de pedido.", en:"A polite way to ask."}},
+        {q:"\"Quando eu era criança, jogava bola todo dia.\" → When I was a kid, I ___ soccer every day.", o:["used to play","was playing","were playing"], a:0, sub:"form",
+         why:{pt:"Hábito do passado: used to (ou o Past Simple), não o Continuous.", en:"A past habit: used to (or the Past Simple), not the Continuous."}},
+        {q:"\"Eu estava muito cansado ontem.\" → I ___ very tired yesterday.", o:["was","was being","was tiring"], a:0, sub:"stative verbs",
+         why:{pt:"Estado: was + adjetivo, sem -ING.", en:"A state: was + adjective, no -ING."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Why Were You Late?", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha entre o Past Continuous e o Past Simple. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose between the Past Continuous and the Past Simple. Tap a blank and choose an option."},

@@ -38,13 +38,29 @@ pt:`
       <li>"Did you like it?" — "Yes, I did." / "No, I didn't."</li>
       <li>Where <b>did</b> you <b>go</b>?<br>Pergunta sobre o sujeito, sem DID: Who <b>called</b>?<br>What <b>happened</b>?</li>
     </ul>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My parents visited Lisbon.</td></tr>
+      <tr><td>Negativa</td><td>My parents did not visit Lisbon.<br>My parents didn't visit Lisbon.</td></tr>
+      <tr><td>Pergunta</td><td>Did my parents visit Lisbon?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Did my parents not visit Lisbon?<br>Didn't my parents visit Lisbon?</td></tr>
+    </table>
+    <p>O passado fica no DID; o verbo volta à forma base. Com irregulares, igual: My parents <b>went</b> → My parents didn't <b>go</b>.</p>
     <h3>Quando usar</h3>
     <ul>
       <li>Ação terminada, num tempo terminado: In 1876, Bell made the first phone call.<br>Princess Isabel signed the Lei Áurea in 1888.</li>
       <li>Hábito antigo: As a child, I went to karate.</li>
       <li>Narrativas: First, we took a taxi. Then we checked in. Finally, we got on the plane.</li>
     </ul>
-    <p>Expressões: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>`,
+    <p>Expressões: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O passado aparece uma vez só</b>: I <b>didn't go</b>. <b>Did</b> you <b>see</b> it? (<s>I didn't went</s>, <s>Did you saw it?</s>)</li>
+      <li><b>Não junte WAS com outro verbo</b>: I <b>went</b> to the beach. (<s>I was go to the beach</s>)</li>
+      <li><b>"Há dois anos" é TWO YEARS AGO</b>, com o AGO depois: I moved here <b>two years ago</b>. (<s>ago two years</s>, <s>there are two years</s>, <s>has two years</s>)</li>
+      <li><b>O "estava" de estado é WAS / WERE</b>, não -ING: "Eu estava cansado." → I <b>was</b> tired. (<s>I was tiring</s>)</li>
+    </ul>`,
 en:`
     <h2>Past Simple</h2>
     <h3>Regular verbs: -ED</h3>
@@ -79,13 +95,29 @@ en:`
       <li>"Did you like it?" — "Yes, I did." / "No, I didn't."</li>
       <li>Where <b>did</b> you <b>go</b>?<br>Subject questions, no DID: Who <b>called</b>?<br>What <b>happened</b>?</li>
     </ul>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My parents visited Lisbon.</td></tr>
+      <tr><td>Negative</td><td>My parents did not visit Lisbon.<br>My parents didn't visit Lisbon.</td></tr>
+      <tr><td>Question</td><td>Did my parents visit Lisbon?</td></tr>
+      <tr><td>Negative question</td><td>Did my parents not visit Lisbon?<br>Didn't my parents visit Lisbon?</td></tr>
+    </table>
+    <p>The past goes into DID; the verb returns to the base form. Irregular verbs work the same: My parents <b>went</b> → My parents didn't <b>go</b>.</p>
     <h3>When to use it</h3>
     <ul>
       <li>Finished actions at a finished time: In 1876, Bell made the first phone call.<br>Princess Isabel signed the Lei Áurea in 1888.</li>
       <li>Past habits: As a child, I went to karate.</li>
       <li>Stories: First, we took a taxi. Then we checked in. Finally, we got on the plane.</li>
     </ul>
-    <p>Expressions: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>`
+    <p>Expressions: yesterday<br>last night<br>last year<br>two years <b>ago</b><br>in 1888<br>when I was a child</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>The past appears only once</b>: I <b>didn't go</b>. <b>Did</b> you <b>see</b> it? (<s>I didn't went</s>, <s>Did you saw it?</s>)</li>
+      <li><b>Don't combine WAS with another verb</b>: I <b>went</b> to the beach. (<s>I was go to the beach</s>)</li>
+      <li><b>"Há dois anos" is TWO YEARS AGO</b>, with AGO after the time: I moved here <b>two years ago</b>. (<s>ago two years</s>, <s>there are two years</s>, <s>has two years</s>)</li>
+      <li><b>"Estava" for a state is WAS / WERE</b>, not -ING: I <b>was</b> tired. (<s>I was tiring</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -156,7 +188,7 @@ en:`
         {q:"In 1876, Alexander Graham Bell ___ the first telephone call.", o:["made","did","maked"], a:0, sub:"irregular",
          why:{pt:"Make a call; make é irregular: made.", en:"Make a call; make is irregular: made."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — stories and questions in the past", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — stories and questions in the past", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"Princess Isabel ___ the Lei Áurea in 1888.", o:["signed","signs","has signed"], a:0, sub:"uses",
@@ -186,7 +218,13 @@ en:`
         {q:"They ___ at a small hotel near the beach.", o:["stayed","staied","stay"], a:0, sub:"spelling",
          why:{pt:"Vogal + Y: ED.", en:"Vowel + Y: ED."}},
         {q:"Pedro Álvares Cabral ___ in Brazil in 1500.", o:["arrived","arrives","arrive"], a:0, sub:"uses",
-         why:{pt:"Ação terminada, data no passado: Past Simple.", en:"Finished action, past date: Past Simple."}}
+         why:{pt:"Ação terminada, data no passado: Past Simple.", en:"Finished action, past date: Past Simple."}},
+        {q:"\"Eu me mudei para cá há dois anos.\" → I moved here ___.", o:["two years ago","ago two years","there are two years"], a:0, sub:"time expressions",
+         why:{pt:"Há + tempo = tempo + ago.", en:"Há + time = time + ago."}},
+        {q:"___ you see the game last night?", o:["Did","Were","Do"], a:0, sub:"did",
+         why:{pt:"Pergunta no passado com verbo comum: did + verbo na forma base.", en:"Past question with an ordinary verb: did + base form."}},
+        {q:"Last weekend, we ___ to my grandmother's house.", o:["went","were go","did went"], a:0, sub:"irregular",
+         why:{pt:"Afirmativa: só o verbo no passado, sem was nem did.", en:"Affirmative: just the past verb, with no was or did."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: A Week in Salvador", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha o passado dele. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue. When there is a verb in parentheses, choose its past form. Tap a blank and choose the word."},

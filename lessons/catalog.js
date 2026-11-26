@@ -820,7 +820,7 @@ const CATALOG = [
    "a past trip",
    "travel"
   ],
-  "v": "8b15391c",
+  "v": "32bb9a61",
   "exercises": [
    {
     "id": "mc-easy",
@@ -831,7 +831,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 17
    },
    {
     "id": "dialogue-medium",
@@ -864,7 +864,7 @@ const CATALOG = [
    "interrupted actions",
    "commute"
   ],
-  "v": "5ed3a261",
+  "v": "ab89982d",
   "exercises": [
    {
     "id": "mc-easy",
@@ -875,7 +875,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -991,7 +991,7 @@ const CATALOG = [
    "'d had or would",
    "travel problems"
   ],
-  "v": "d0d89666",
+  "v": "10ad6e09",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1002,7 +1002,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",

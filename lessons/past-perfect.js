@@ -16,6 +16,15 @@ pt:`
     <p class="note">O particípio dos regulares é igual ao passado (worked, studied); o dos irregulares está na tabela do Past Simple (gone, eaten, written).</p>
     <h3>Pergunta e resposta curta</h3>
     <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't.<br>How long <b>had</b> she lived in London?</p>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>The movie had started.<br>The movie'd started.</td></tr>
+      <tr><td>Negativa</td><td>The movie had not started.<br>The movie hadn't started.</td></tr>
+      <tr><td>Pergunta</td><td>Had the movie started?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Had the movie not started?<br>Hadn't the movie started?</td></tr>
+    </table>
+    <p>Na escrita, a contração <i>'d</i> aparece mais com pronomes: <i>I'd, she'd, they'd</i>.</p>
     <h3>Palavras que acompanham</h3>
     <ul>
       <li><b>already</b> — When we arrived, the movie had already started.</li>
@@ -33,6 +42,12 @@ pt:`
     <ul>
       <li>'d + <b>particípio</b> → HAD: They'd left.<br>I didn't know you'd finished.</li>
       <li>'d + <b>forma base</b> → WOULD: I'd call you more often.<br>He said he'd help us.</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Uma ação só, ou várias em ordem, é Past Simple.</b> O Past Perfect só aparece quando você volta a um momento anterior ao da história: Yesterday I <b>went</b> to the beach. (<s>Yesterday I had gone to the beach</s>)</li>
+      <li><b>"Tinha" + particípio = HAD + particípio</b>; "tinha" + coisa = HAD de posse: I <b>had finished</b> (tinha terminado) × I <b>had</b> a car (tinha um carro).</li>
+      <li><b>Use o particípio, não o passado</b>: She had <b>gone</b>. They had <b>eaten</b>. (<s>She had went</s>, <s>They had ate</s>)</li>
     </ul>`,
 en:`
     <h2>Past Perfect</h2>
@@ -46,6 +61,15 @@ en:`
     <p class="note">Regular participles look like the past (worked, studied); irregular ones are in the Past Simple table (gone, eaten, written).</p>
     <h3>Questions and short answers</h3>
     <p><b>Had</b> you been there before? — Yes, I had. / No, I hadn't.<br>How long <b>had</b> she lived in London?</p>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>The movie had started.<br>The movie'd started.</td></tr>
+      <tr><td>Negative</td><td>The movie had not started.<br>The movie hadn't started.</td></tr>
+      <tr><td>Question</td><td>Had the movie started?</td></tr>
+      <tr><td>Negative question</td><td>Had the movie not started?<br>Hadn't the movie started?</td></tr>
+    </table>
+    <p>In writing, the contraction <i>'d</i> is more common with pronouns: <i>I'd, she'd, they'd</i>.</p>
     <h3>Common time words</h3>
     <ul>
       <li><b>already</b> — When we arrived, the movie had already started.</li>
@@ -63,6 +87,12 @@ en:`
     <ul>
       <li>'d + <b>past participle</b> → HAD: They'd left.<br>I didn't know you'd finished.</li>
       <li>'d + <b>base form</b> → WOULD: I'd call you more often.<br>He said he'd help us.</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>One action, or several in order, is Past Simple.</b> The Past Perfect only appears when you go back to a time before the story: Yesterday I <b>went</b> to the beach. (<s>Yesterday I had gone to the beach</s>)</li>
+      <li><b>"Tinha" + participle = HAD + participle</b>; "tinha" + a thing = HAD for possession: I <b>had finished</b> × I <b>had</b> a car.</li>
+      <li><b>Use the participle, not the past</b>: She had <b>gone</b>. They had <b>eaten</b>. (<s>She had went</s>, <s>They had ate</s>)</li>
     </ul>`
   },
   vocab:{
@@ -136,7 +166,7 @@ en:`
         {q:"By the time the Republic was proclaimed, in 1889, slavery ___ already ended in Brazil.", o:["had","has","was"], a:0, sub:"by the time",
          why:{pt:"A ação mais antiga: had + particípio.", en:"The earlier action: had + past participle."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — which came first?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — which came first?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"When I arrived, she ___. (saiu naquela hora)", o:["left","had left"], a:0, sub:"when",
@@ -166,7 +196,11 @@ en:`
         {q:"At the airport, I realized I ___ my passport at home.", o:["had left","have left","leave"], a:0, sub:"form",
          why:{pt:"A ação mais antiga: Past Perfect.", en:"The earlier action: Past Perfect."}},
         {q:"It was the first time I ___ a plane.", o:["had taken","have taken","take"], a:0, sub:"never before",
-         why:{pt:"It was the first time + Past Perfect.", en:"It was the first time + Past Perfect."}}
+         why:{pt:"It was the first time + Past Perfect.", en:"It was the first time + Past Perfect."}},
+        {q:"Yesterday I ___ to the beach with some friends. It was great.", o:["went","had gone","had went"], a:0, sub:"form",
+         why:{pt:"Uma ação só, sem outra mais recente: Past Simple.", en:"A single action, with no later one: Past Simple."}},
+        {q:"When we got to the restaurant, our friends had already ___.", o:["eaten","ate","eat"], a:0, sub:"participles",
+         why:{pt:"Had + particípio: eaten.", en:"Had + participle: eaten."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Paris Disaster", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, decida entre o Past Perfect e o Past Simple. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose between the Past Perfect and the Past Simple. Tap a blank and choose an option."},
