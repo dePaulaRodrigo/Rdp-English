@@ -40,7 +40,7 @@ pt:`
     </table>
     <p class="note">No inglês americano falado, <i>mustn't</i> é pouco usado. Para proibir, diz-se <i>can't</i> ou <i>not allowed to</i>: You can't smoke here.</p>
     <h3>Cuidado: o nosso "deve"</h3>
-    <p>"Deve" em português tem três sentidos; só um deles é MUST:</p>
+    <p>"Deve" em português tem vários sentidos. MUST só serve para regra e dedução:</p>
     <table>
       <tr><th>Português</th><th>Sentido</th><th>Inglês</th></tr>
       <tr><td>Você deve descansar um pouco.</td><td>conselho</td><td>You <b>should</b> rest a little.</td></tr>
@@ -88,7 +88,7 @@ en:`
     </table>
     <p class="note">In spoken American English, <i>mustn't</i> is rare. For prohibitions, people say <i>can't</i> or <i>not allowed to</i>: You can't smoke here.</p>
     <h3>Careful: Portuguese "deve"</h3>
-    <p>"Deve" in Portuguese has three meanings; only one of them is MUST:</p>
+    <p>"Deve" in Portuguese has several meanings. MUST is only for rules and deductions:</p>
     <table>
       <tr><th>Portuguese</th><th>Meaning</th><th>English</th></tr>
       <tr><td>Você deve descansar um pouco.</td><td>advice</td><td>You <b>should</b> rest a little.</td></tr>

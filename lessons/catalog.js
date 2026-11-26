@@ -1388,7 +1388,7 @@ const CATALOG = [
    "obligation",
    "travel rules"
   ],
-  "v": "51a20d54",
+  "v": "765a7583",
   "exercises": [
    {
     "id": "mc-easy",
