@@ -37,7 +37,7 @@ pt:`
     </table>
     <h3>Outras comparações</h3>
     <ul>
-      <li><b>as … as</b> = tão … quanto: Lisbon is <b>as old as</b> Rome? No!</li>
+      <li><b>as … as</b> = tão … quanto: My son is <b>as tall as</b> me now.</li>
       <li><b>not as … as</b> = não tão … quanto</li>
       <li><b>less</b> + incontável<br><b>fewer</b> + contável: less time<br>fewer people</li>
       <li><b>much / a lot / far</b> + comparativo = muito mais: much bigger</li>
@@ -45,7 +45,15 @@ pt:`
       <li><b>one of the</b> + superlativo + plural: one of the largest cities</li>
       <li><b>-er and -er</b> = cada vez mais: bigger and bigger<br>more and more expensive</li>
     </ul>
-    <p class="note">She's taller <b>than me</b> (informal, o mais comum) = She's taller <b>than I am</b> (formal).</p>`,
+    <p class="note">She's taller <b>than me</b> (informal, o mais comum) = She's taller <b>than I am</b> (formal).</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Nunca junte MORE com -ER</b>: This phone is <b>better</b>. Rio is <b>bigger</b>. (<s>more better</s>, <s>more bigger</s>)</li>
+      <li><b>"Do que" é THAN</b>, sem THAT nem OF: Brazil is bigger <b>than</b> Argentina. (<s>bigger that</s>, <s>bigger of</s>)</li>
+      <li><b>"Melhor" e "pior" já são comparativos</b>: <b>better</b>, <b>worse</b>. (<s>more good</s>, <s>more bad</s>)</li>
+      <li><b>No superlativo, lugar é IN</b>: the tallest building <b>in</b> the city. (<s>of the city</s>) Período ou grupo é OF: the best day <b>of</b> my life.</li>
+      <li><b>"Mais" sozinho, sem adjetivo, é MORE</b>: I need <b>more</b> time. Para "o mais", com verbo: What I like <b>most</b> is the beach.</li>
+    </ul>`,
 en:`
     <h2>Comparatives and superlatives</h2>
     <h3>Comparative: -ER or MORE + THAN</h3>
@@ -79,7 +87,7 @@ en:`
     </table>
     <h3>Other comparisons</h3>
     <ul>
-      <li><b>as … as</b>: Is Lisbon <b>as old as</b> Rome? No!</li>
+      <li><b>as … as</b>: My son is <b>as tall as</b> me now.</li>
       <li><b>not as … as</b></li>
       <li><b>less</b> + uncountable<br><b>fewer</b> + countable: less time<br>fewer people</li>
       <li><b>much / a lot / far</b> + comparative: much bigger</li>
@@ -87,7 +95,15 @@ en:`
       <li><b>one of the</b> + superlative + plural: one of the largest cities</li>
       <li><b>-er and -er</b>: bigger and bigger<br>more and more expensive</li>
     </ul>
-    <p class="note">She's taller <b>than me</b> (informal, most common) = She's taller <b>than I am</b> (formal).</p>`
+    <p class="note">She's taller <b>than me</b> (informal, most common) = She's taller <b>than I am</b> (formal).</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Never combine MORE with -ER</b>: This phone is <b>better</b>. Rio is <b>bigger</b>. (<s>more better</s>, <s>more bigger</s>)</li>
+      <li><b>"Do que" is THAN</b>, not THAT or OF: Brazil is bigger <b>than</b> Argentina. (<s>bigger that</s>, <s>bigger of</s>)</li>
+      <li><b>"Melhor" and "pior" are already comparatives</b>: <b>better</b>, <b>worse</b>. (<s>more good</s>, <s>more bad</s>)</li>
+      <li><b>In superlatives, places take IN</b>: the tallest building <b>in</b> the city. (<s>of the city</s>) A period or group takes OF: the best day <b>of</b> my life.</li>
+      <li><b>"Mais" alone, with no adjective, is MORE</b>: I need <b>more</b> time. With a verb: What I like <b>most</b> is the beach.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -160,7 +176,7 @@ en:`
         {q:"She is taller ___ me.", o:["than","that","as"], a:0, sub:"than",
          why:{pt:"Comparativo + than.", en:"Comparative + than."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — more ways to compare", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — more ways to compare", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"São Paulo is one of the largest ___ in the world.", o:["cities","city","city's"], a:0, sub:"one of the",
@@ -190,7 +206,11 @@ en:`
         {q:"My phone is the same ___ yours.", o:["as","than","like"], a:0, sub:"as … as",
          why:{pt:"The same as.", en:"The same as."}},
         {q:"This road is a bit ___ than the highway.", o:["narrower","more narrow","narrowest"], a:0, sub:"-er",
-         why:{pt:"Narrow (2 sílabas em -ow) aceita -er; é a forma mais comum.", en:"Narrow (2 syllables, -ow) takes -er; it's the most common form."}}
+         why:{pt:"Narrow (2 sílabas em -ow) aceita -er; é a forma mais comum.", en:"Narrow (2 syllables, -ow) takes -er; it's the most common form."}},
+        {q:"My new phone is ___ than my old one.", o:["better","more better","more good"], a:0, sub:"irregular",
+         why:{pt:"Good → better. Nunca more com -ER.", en:"Good → better. Never more with -ER."}},
+        {q:"\"O Brasil é maior do que a Argentina.\" → Brazil is bigger ___ Argentina.", o:["than","that","of"], a:0, sub:"than",
+         why:{pt:"Do que = than.", en:"Do que = than."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Geography Quiz", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com o comparativo ou o superlativo da palavra entre parênteses.", en:"Complete the dialogue with the comparative or superlative of the word in parentheses."},

@@ -1523,7 +1523,7 @@ const CATALOG = [
    "-ish",
    "describing home and city"
   ],
-  "v": "c1367cb3",
+  "v": "8a8a4b27",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1534,7 +1534,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -1704,7 +1704,7 @@ const CATALOG = [
    "fewer",
    "countries and cities"
   ],
-  "v": "575c63d4",
+  "v": "87f3bbb6",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1715,7 +1715,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",

@@ -32,6 +32,13 @@ pt:`
       <li><b>the + adjetivo</b> = grupo de pessoas: the rich, the poor, the elderly (<s>the riches</s>)</li>
       <li>Nacionalidade com maiúscula: Brazilian coffee<br>a Japanese car</li>
       <li><b>-ish</b> = meio, -ado: reddish (avermelhado). Com horas: at sevenish (umas sete).</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O adjetivo nunca vai para o plural</b>, nem quando vem sozinho: They are <b>tall</b>. two <b>red</b> cars. (<s>They are talls</s>, <s>reds cars</s>)</li>
+      <li><b>"Muito" + adjetivo é VERY</b>, não MUCH: The beach was <b>very</b> beautiful. (<s>much beautiful</s>) MUCH vai com incontáveis e comparativos: <i>much water, much better</i>.</li>
+      <li><b>A ordem é inversa à do português</b>, inclusive com nomes de lugares: a <b>Brazilian</b> restaurant, the <b>São Paulo</b> subway. (<s>a restaurant Brazilian</s>, <s>the subway São Paulo</s>)</li>
+      <li><b>Adjetivo não leva artigo sozinho</b>: My car is <b>new</b>. (<s>My car is a new</s>) Com substantivo, sim: It's a <b>new car</b>.</li>
     </ul>`,
 en:`
     <h2>Adjectives</h2>
@@ -61,6 +68,13 @@ en:`
       <li><b>the + adjective</b> = a group of people: the rich, the poor, the elderly (<s>the riches</s>)</li>
       <li>Nationalities take a capital letter: Brazilian coffee<br>a Japanese car</li>
       <li><b>-ish</b> = somewhat: reddish. With times: at sevenish (around seven).</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Adjectives never go plural</b>, even on their own: They are <b>tall</b>. two <b>red</b> cars. (<s>They are talls</s>, <s>reds cars</s>)</li>
+      <li><b>"Muito" + adjective is VERY</b>, not MUCH: The beach was <b>very</b> beautiful. (<s>much beautiful</s>) MUCH goes with uncountables and comparatives: <i>much water, much better</i>.</li>
+      <li><b>The order is the reverse of Portuguese</b>, also with place names: a <b>Brazilian</b> restaurant, the <b>São Paulo</b> subway. (<s>a restaurant Brazilian</s>, <s>the subway São Paulo</s>)</li>
+      <li><b>An adjective alone takes no article</b>: My car is <b>new</b>. (<s>My car is a new</s>) With a noun, it does: It's a <b>new car</b>.</li>
     </ul>`
   },
   vocab:{
@@ -134,7 +148,7 @@ en:`
         {q:"Let's meet at ___. Around seven is fine.", o:["sevenish","seven-ish o'clock","sevens"], a:0, sub:"-ish",
          why:{pt:"-ish com horas: mais ou menos.", en:"-ish with times: approximately."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — order and exceptions", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — order and exceptions", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Uma linda casa velha\" → a ___", o:["beautiful old house","old beautiful house","house beautiful old"], a:0, sub:"order",
@@ -164,7 +178,11 @@ en:`
         {q:"\"Ele está com medo.\" → He is ___.", o:["afraid","an afraid","afraids"], a:0, sub:"after the verb",
          why:{pt:"Afraid só depois do verbo.", en:"Afraid only after the verb."}},
         {q:"Which jacket? — The ___ one.", o:["black leather","leather black","blacks leather"], a:0, sub:"order",
-         why:{pt:"Cor antes de material.", en:"Color before material."}}
+         why:{pt:"Cor antes de material.", en:"Color before material."}},
+        {q:"\"A praia estava muito bonita.\" → The beach was ___ beautiful.", o:["very","much","many"], a:0, sub:"position",
+         why:{pt:"Muito + adjetivo: very.", en:"Muito + adjective: very."}},
+        {q:"My neighbors are very ___.", o:["nice","nices","a nice"], a:0, sub:"no plural",
+         why:{pt:"Adjetivo não vai para o plural nem leva artigo sozinho.", en:"Adjectives don't go plural and take no article on their own."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: My New Apartment", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. Tap a blank and choose an option."},
