@@ -14,6 +14,15 @@ pt:`
       <li>Passado: I had to work late.<br>Futuro: I'll have to work on Saturday.</li>
     </ul>
     <p class="note">Pronúncia: <i>have to</i> /ˈhæftə/ ("háfta"), <i>has to</i> /ˈhæstə/. Na fala informal: I've got to go → I gotta go.</p>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My husband has to work on Saturday.</td></tr>
+      <tr><td>Negativa</td><td>My husband does not have to work on Saturday.<br>My husband doesn't have to work on Saturday.</td></tr>
+      <tr><td>Pergunta</td><td>Does my husband have to work on Saturday?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Does my husband not have to work on Saturday?<br>Doesn't my husband have to work on Saturday?</td></tr>
+    </table>
+    <p>HAVE TO funciona como verbo comum: o DOES leva o S, e o <i>has</i> volta a <i>have</i>.</p>
     <h3>MUST</h3>
     <ul>
       <li>Obrigação forte, de quem fala, ou regras escritas: I must call my mom tonight.<br>Passengers must wear seatbelts.</li>
@@ -29,7 +38,20 @@ pt:`
       <tr><td><b>mustn't</b></td><td>proibido</td><td>You mustn't smoke here.</td></tr>
       <tr><td><b>don't have to</b><br>don't need to</td><td>não precisa, é opcional</td><td>You don't have to come tomorrow.</td></tr>
     </table>
-    <p class="note">No inglês americano falado, <i>mustn't</i> é pouco usado. Para proibir, diz-se <i>can't</i> ou <i>not allowed to</i>: You can't smoke here.</p>`,
+    <p class="note">No inglês americano falado, <i>mustn't</i> é pouco usado. Para proibir, diz-se <i>can't</i> ou <i>not allowed to</i>: You can't smoke here.</p>
+    <h3>Cuidado: o nosso "deve"</h3>
+    <p>"Deve" em português tem três sentidos; só um deles é MUST:</p>
+    <table>
+      <tr><th>Português</th><th>Sentido</th><th>Inglês</th></tr>
+      <tr><td>Você deve descansar um pouco.</td><td>conselho</td><td>You <b>should</b> rest a little.</td></tr>
+      <tr><td>Os passageiros devem usar o cinto.</td><td>regra</td><td>Passengers <b>must</b> wear seatbelts.</td></tr>
+      <tr><td>Ele deve estar cansado.</td><td>dedução</td><td>He <b>must</b> be tired.</td></tr>
+      <tr><td>Ele deve chegar às oito.</td><td>previsão</td><td>He <b>should</b> arrive at eight.</td></tr>
+    </table>
+    <ul>
+      <li><b>MUST não leva TO nem DO</b>: You <b>must</b> wear a seatbelt. (<s>You must to wear</s>, <s>Do I must…?</s>)</li>
+      <li><b>"Precisar de" + coisa é NEED, sem OF</b>: I <b>need</b> help. (<s>I need of help</s>)</li>
+    </ul>`,
 en:`
     <h2>Have To, Need, Must</h2>
     <h3>HAVE TO</h3>
@@ -40,6 +62,15 @@ en:`
       <li>Past: I had to work late.<br>Future: I'll have to work on Saturday.</li>
     </ul>
     <p class="note">Pronunciation: <i>have to</i> /ˈhæftə/, <i>has to</i> /ˈhæstə/. In informal speech: I've got to go → I gotta go.</p>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My husband has to work on Saturday.</td></tr>
+      <tr><td>Negative</td><td>My husband does not have to work on Saturday.<br>My husband doesn't have to work on Saturday.</td></tr>
+      <tr><td>Question</td><td>Does my husband have to work on Saturday?</td></tr>
+      <tr><td>Negative question</td><td>Does my husband not have to work on Saturday?<br>Doesn't my husband have to work on Saturday?</td></tr>
+    </table>
+    <p>HAVE TO works like an ordinary verb: DOES takes the S, and <i>has</i> goes back to <i>have</i>.</p>
     <h3>MUST</h3>
     <ul>
       <li>Strong obligation, from the speaker, or written rules: I must call my mom tonight.<br>Passengers must wear seatbelts.</li>
@@ -55,7 +86,20 @@ en:`
       <tr><td><b>mustn't</b></td><td>forbidden</td><td>You mustn't smoke here.</td></tr>
       <tr><td><b>don't have to</b><br>don't need to</td><td>not necessary, optional</td><td>You don't have to come tomorrow.</td></tr>
     </table>
-    <p class="note">In spoken American English, <i>mustn't</i> is rare. For prohibitions, people say <i>can't</i> or <i>not allowed to</i>: You can't smoke here.</p>`
+    <p class="note">In spoken American English, <i>mustn't</i> is rare. For prohibitions, people say <i>can't</i> or <i>not allowed to</i>: You can't smoke here.</p>
+    <h3>Careful: Portuguese "deve"</h3>
+    <p>"Deve" in Portuguese has three meanings; only one of them is MUST:</p>
+    <table>
+      <tr><th>Portuguese</th><th>Meaning</th><th>English</th></tr>
+      <tr><td>Você deve descansar um pouco.</td><td>advice</td><td>You <b>should</b> rest a little.</td></tr>
+      <tr><td>Os passageiros devem usar o cinto.</td><td>rule</td><td>Passengers <b>must</b> wear seatbelts.</td></tr>
+      <tr><td>Ele deve estar cansado.</td><td>deduction</td><td>He <b>must</b> be tired.</td></tr>
+      <tr><td>Ele deve chegar às oito.</td><td>expectation</td><td>He <b>should</b> arrive at eight.</td></tr>
+    </table>
+    <ul>
+      <li><b>MUST takes no TO or DO</b>: You <b>must</b> wear a seatbelt. (<s>You must to wear</s>, <s>Do I must…?</s>)</li>
+      <li><b>"Precisar de" + a thing is NEED, with no OF</b>: I <b>need</b> help. (<s>I need of help</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -128,7 +172,7 @@ en:`
         {q:"We ___ hurry. The flight leaves in an hour.", o:["have to","has to","must to"], a:0, sub:"have to",
          why:{pt:"Com we: have to.", en:"With we: have to."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — obligation, prohibition or choice?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — obligation, prohibition or choice?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Não precisa vir amanhã.\" → ___", o:["You don't have to come tomorrow.","You mustn't come tomorrow.","You must not to come tomorrow."], a:0, sub:"mustn't / don't have to",
@@ -158,7 +202,13 @@ en:`
         {q:"I ___ go to the bank tomorrow. Do you want to come?", o:["need to","need","needs"], a:0, sub:"need to",
          why:{pt:"Need + TO + verbo.", en:"Need + TO + verb."}},
         {q:"You ___ wear a suit. The party is casual.", o:["don't need to","mustn't","can't"], a:0, sub:"mustn't / don't have to",
-         why:{pt:"Não é necessário: don't need to.", en:"Not necessary: don't need to."}}
+         why:{pt:"Não é necessário: don't need to.", en:"Not necessary: don't need to."}},
+        {q:"\"Você deve descansar um pouco.\" (conselho) → You ___ rest a little.", o:["should","must to","have"], a:0, sub:"must",
+         why:{pt:"Conselho: should. Must é regra ou obrigação forte.", en:"Advice: should. Must is a rule or strong obligation."}},
+        {q:"___ your husband have to work on Saturday?", o:["Does","Has","Must"], a:0, sub:"have to",
+         why:{pt:"Have to é verbo comum: pergunta com does.", en:"Have to is an ordinary verb: question with does."}},
+        {q:"\"Preciso de um café.\" → I ___ a coffee.", o:["need","need of","need to"], a:0, sub:"need to",
+         why:{pt:"Need + substantivo, sem OF nem TO.", en:"Need + noun, with no OF or TO."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: At Check-In", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. Tap a blank and choose an option."},

@@ -19,6 +19,14 @@ pt:`
       <li><b>Atividade recente, com efeito visível</b>: You're all wet! Have you been swimming?<br>I'm tired because I've been working all day.</li>
       <li><b>Ações repetidas num período recente</b>: I've been going to the gym a lot lately.</li>
     </ul>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My neighbor has been playing the drums.<br>My neighbor's been playing the drums.</td></tr>
+      <tr><td>Negativa</td><td>My neighbor has not been playing the drums.<br>My neighbor hasn't been playing the drums.</td></tr>
+      <tr><td>Pergunta</td><td>Has my neighbor been playing the drums?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Has my neighbor not been playing the drums?<br>Hasn't my neighbor been playing the drums?</td></tr>
+    </table>
     <h3>Present Perfect × Present Perfect Continuous</h3>
     <table>
       <tr><th>Present Perfect</th><th>Present Perfect Continuous</th></tr>
@@ -27,7 +35,15 @@ pt:`
       <tr><td>I've written ten emails.</td><td>I've been writing emails all morning.</td></tr>
       <tr><td>She's painted the kitchen. (terminou)</td><td>She's been painting the kitchen. (tinta na roupa)</td></tr>
     </table>
-    <p class="note">Com <i>live, work, study</i> e <i>teach</i>, as duas formas quase se equivalem: I've lived here for ten years = I've been living here for ten years. Verbos de estado ficam no Present Perfect: I've known her for years (<s>I've been knowing</s>).</p>`,
+    <p class="note">Com <i>live, work, study</i> e <i>teach</i>, as duas formas quase se equivalem: I've lived here for ten years = I've been living here for ten years. Verbos de estado ficam no Present Perfect: I've known her for years (<s>I've been knowing</s>).</p>
+    <h3>Cuidado: "estou … há"</h3>
+    <p>Em português, o presente basta: "Estou esperando há uma hora." Em inglês, se a ação começou no passado e continua, o presente não serve:</p>
+    <ul>
+      <li>"Estou esperando há uma hora." → I<b>'ve been waiting</b> for an hour. (<s>I'm waiting for an hour</s>)</li>
+      <li>"Estudo inglês há dois anos." → I<b>'ve been studying</b> English for two years. (<s>I study English for two years</s>)</li>
+      <li>"Há quanto tempo você está aqui?" → How long <b>have you been</b> here? (<s>How long are you here?</s>)</li>
+    </ul>
+    <p>Com verbos de estado (<i>be, know, have</i> de posse), use o Present Perfect simples: I<b>'ve known</b> her for years.</p>`,
 en:`
     <h2>Present Perfect Continuous</h2>
     <p><b>have / has + been + verb + -ING</b> — an action that started in the past and continues, focusing on <b>duration</b>.</p>
@@ -43,6 +59,14 @@ en:`
       <li><b>Recent activity with a visible effect</b>: You're all wet! Have you been swimming?<br>I'm tired because I've been working all day.</li>
       <li><b>Repeated actions over a recent period</b>: I've been going to the gym a lot lately.</li>
     </ul>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My neighbor has been playing the drums.<br>My neighbor's been playing the drums.</td></tr>
+      <tr><td>Negative</td><td>My neighbor has not been playing the drums.<br>My neighbor hasn't been playing the drums.</td></tr>
+      <tr><td>Question</td><td>Has my neighbor been playing the drums?</td></tr>
+      <tr><td>Negative question</td><td>Has my neighbor not been playing the drums?<br>Hasn't my neighbor been playing the drums?</td></tr>
+    </table>
     <h3>Present Perfect × Present Perfect Continuous</h3>
     <table>
       <tr><th>Present Perfect</th><th>Present Perfect Continuous</th></tr>
@@ -51,7 +75,15 @@ en:`
       <tr><td>I've written ten emails.</td><td>I've been writing emails all morning.</td></tr>
       <tr><td>She's painted the kitchen. (finished)</td><td>She's been painting the kitchen. (paint on her clothes)</td></tr>
     </table>
-    <p class="note">With <i>live, work, study</i> and <i>teach</i>, both forms mean almost the same: I've lived here for ten years = I've been living here for ten years. Stative verbs stay in the Present Perfect: I've known her for years (<s>I've been knowing</s>).</p>`
+    <p class="note">With <i>live, work, study</i> and <i>teach</i>, both forms mean almost the same: I've lived here for ten years = I've been living here for ten years. Stative verbs stay in the Present Perfect: I've known her for years (<s>I've been knowing</s>).</p>
+    <h3>Careful: "estou … há"</h3>
+    <p>Portuguese uses the present here. In English, if the action started in the past and continues, the present doesn't work:</p>
+    <ul>
+      <li>I<b>'ve been waiting</b> for an hour. (<s>I'm waiting for an hour</s>)</li>
+      <li>I<b>'ve been studying</b> English for two years. (<s>I study English for two years</s>)</li>
+      <li>How long <b>have you been</b> here? (<s>How long are you here?</s>)</li>
+    </ul>
+    <p>With stative verbs (<i>be, know, have</i> for possession), use the simple Present Perfect: I<b>'ve known</b> her for years.</p>`
   },
   vocab:{
 pt:`
@@ -124,7 +156,7 @@ en:`
         {q:"I've ___ ten emails this morning.", o:["written","been writing"], a:0, sub:"result vs duration",
          why:{pt:"Quantidade: Present Perfect.", en:"Quantity: Present Perfect."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — result or duration?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — result or duration?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I've ___ this book for two weeks, and I'm on page 200.", o:["been reading","read"], a:0, sub:"result vs duration",
@@ -154,7 +186,11 @@ en:`
         {q:"Why are you out of breath? ___ running?", o:["Have you been","Did you","Are you been"], a:0, sub:"visible effect",
          why:{pt:"Atividade recente com efeito visível.", en:"Recent activity with a visible effect."}},
         {q:"I haven't ___ well lately.", o:["been feeling","feeling been","felt being"], a:0, sub:"negative",
-         why:{pt:"Haven't + been + -ING.", en:"Haven't + been + -ING."}}
+         why:{pt:"Haven't + been + -ING.", en:"Haven't + been + -ING."}},
+        {q:"\"Estudo inglês há dois anos.\" → I ___ English for two years.", o:["'ve been studying","study","'m studying"], a:0, sub:"for / since",
+         why:{pt:"Começou no passado e continua: Present Perfect Continuous, não o presente.", en:"Started in the past and continues: Present Perfect Continuous, not the present."}},
+        {q:"\"Há quanto tempo você está aqui?\" → How long ___ here?", o:["have you been","are you","were you"], a:0, sub:"questions",
+         why:{pt:"Da origem até agora: have been.", en:"From the start until now: have been."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: What Have You Been Up To?", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha a forma com -ING ou o particípio. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose the -ING form or the past participle. Tap a blank and choose an option."},

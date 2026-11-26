@@ -31,7 +31,14 @@ pt:`
     <ul><li>She's been to Paris. — foi e voltou</li><li>She's gone to Paris. — foi e está lá agora</li></ul>
     <h3>Superlativo e "primeira vez"</h3>
     <ul><li>It's the best movie I've <b>ever</b> seen.</li><li>This is the first time I've <b>been</b> to Rio. — é a primeira vez que venho ao Rio (<s>I come</s>)</li></ul>
-    <p class="note">No inglês americano informal, também se ouve o Past Simple com just, already e yet: <i>Did you eat yet?</i> As duas formas são aceitas.</p>`,
+    <p class="note">No inglês americano informal, também se ouve o Past Simple com just, already e yet: <i>Did you eat yet?</i> As duas formas são aceitas.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Tempo terminado expulsa o Present Perfect</b>: com <i>yesterday, last week, in 2019, ago, when I was a kid</i>, só o Past Simple. I <b>saw</b> him yesterday. (<s>I have seen him yesterday</s>)</li>
+      <li><b>"Há + tempo" com algo que continua é Present Perfect</b>, não presente: I<b>'ve lived</b> here for five years. (<s>I live here for five years</s>)</li>
+      <li><b>Use o particípio, não o passado</b>: I've <b>eaten</b>. She's <b>gone</b>. (<s>I've ate</s>, <s>She's went</s>)</li>
+      <li><b>BEEN TO = já foi e voltou; GONE TO = foi e está lá</b>: I've <b>been</b> to Chile (já estive). She's <b>gone</b> to Chile (está lá agora).</li>
+    </ul>`,
 en:`
     <h2>Present Perfect</h2>
     <p>The Present Perfect talks about a <b>past action without a date</b> that is still <b>connected to now</b>.</p>
@@ -59,7 +66,14 @@ en:`
     <ul><li>She's been to Paris. — went and came back</li><li>She's gone to Paris. — she's there now</li></ul>
     <h3>Superlatives and "the first time"</h3>
     <ul><li>It's the best movie I've <b>ever</b> seen.</li><li>This is the first time I've <b>been</b> to Rio. (<s>the first time I come</s>)</li></ul>
-    <p class="note">In informal American English, the Past Simple is also common with just, already and yet: <i>Did you eat yet?</i> Both are accepted.</p>`
+    <p class="note">In informal American English, the Past Simple is also common with just, already and yet: <i>Did you eat yet?</i> Both are accepted.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Finished time rules out the Present Perfect</b>: with <i>yesterday, last week, in 2019, ago, when I was a kid</i>, use only the Past Simple. I <b>saw</b> him yesterday. (<s>I have seen him yesterday</s>)</li>
+      <li><b>"Há + time" for something that continues is Present Perfect</b>, not present: I<b>'ve lived</b> here for five years. (<s>I live here for five years</s>)</li>
+      <li><b>Use the participle, not the past</b>: I've <b>eaten</b>. She's <b>gone</b>. (<s>I've ate</s>, <s>She's went</s>)</li>
+      <li><b>BEEN TO = went and came back; GONE TO = went and is there now</b>: I've <b>been</b> to Chile. She's <b>gone</b> to Chile.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -132,7 +146,7 @@ en:`
         {q:"This is the first time I ___ snow.", o:["'ve seen","see","saw"], a:0, sub:"first time",
          why:{pt:"The first time + Present Perfect.", en:"The first time + Present Perfect."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — present perfect or past simple?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — present perfect or past simple?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I ___ to Rome last year.", o:["went","have been","have gone"], a:0, sub:"golden rule",
@@ -162,7 +176,11 @@ en:`
         {q:"How long ___ you known Anna?", o:["have","did","are"], a:0, sub:"continues",
          why:{pt:"Algo que começou e continua: have + particípio.", en:"Something that started and continues: have + participle."}},
         {q:"She ___ in three countries, and now she lives in Lisbon.", o:["has lived","have lived","lived has"], a:0, sub:"experiences",
-         why:{pt:"Experiência de vida, she: has + particípio.", en:"Life experience, she: has + participle."}}
+         why:{pt:"Experiência de vida, she: has + particípio.", en:"Life experience, she: has + participle."}},
+        {q:"I ___ your brother at the mall yesterday.", o:["saw","have seen","had seen"], a:0, sub:"golden rule",
+         why:{pt:"Yesterday é tempo terminado: Past Simple.", en:"Yesterday is finished time: Past Simple."}},
+        {q:"\"Moro em Santos há cinco anos.\" → I ___ in Santos for five years.", o:["'ve lived","live","lived"], a:0, sub:"continues",
+         why:{pt:"Começou no passado e continua: Present Perfect.", en:"Started in the past and continues: Present Perfect."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Bucket Lists", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha o particípio ou a forma correta. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose the past participle or the correct form. Tap a blank and choose an option."},

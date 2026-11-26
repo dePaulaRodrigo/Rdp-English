@@ -21,6 +21,15 @@ pt:`
       <li>Não usa DO: Can you swim? (<s>Do you can swim?</s>)<br>I can't (<s>I don't can</s>).</li>
       <li>Resposta curta: "Can you help me?" — "Yes, I can." / "No, I can't."</li>
     </ul>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My grandmother can use a smartphone.</td></tr>
+      <tr><td>Negativa</td><td>My grandmother cannot use a smartphone.<br>My grandmother can't use a smartphone.</td></tr>
+      <tr><td>Pergunta</td><td>Can my grandmother use a smartphone?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Can my grandmother not use a smartphone?<br>Can't my grandmother use a smartphone?</td></tr>
+    </table>
+    <p>A negativa completa se escreve numa palavra só: <b>cannot</b>.</p>
     <h3>Com os sentidos</h3>
     <p>O CAN substitui o "estou vendo", "estou ouvindo": I can hear music (<s>I'm hearing</s>).<br>Can you see the ocean?</p>
     <h3>Pronúncia: CAN × CAN'T</h3>
@@ -31,6 +40,12 @@ pt:`
       <li>I can't stand traffic. — Não suporto trânsito.</li>
       <li>I can't help laughing. — Não consigo parar de rir.</li>
       <li>I can't believe it! — Não acredito!</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>"Saber" só vira CAN quando é saber fazer</b>: "Sei nadar." → I <b>can</b> swim. Para informação, é KNOW: "Sei a resposta." → I <b>know</b> the answer. (<s>I can the answer</s>)</li>
+      <li><b>"Pode" de possibilidade futura não é CAN</b>: "Pode chover amanhã." → It <b>might</b> rain tomorrow. / It <b>could</b> rain tomorrow. (<s>It can rain tomorrow</s> soa como uma regra geral: é possível chover.)</li>
+      <li><b>CAN não tem futuro nem particípio</b>: para isso, use <i>be able to</i>: I'll <b>be able to</b> help you tomorrow. (<s>I'll can help you</s>)</li>
     </ul>`,
 en:`
     <h2>Can</h2>
@@ -48,6 +63,15 @@ en:`
       <li>No DO: Can you swim? (<s>Do you can swim?</s>)<br>I can't (<s>I don't can</s>).</li>
       <li>Short answers: "Can you help me?" — "Yes, I can." / "No, I can't."</li>
     </ul>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My grandmother can use a smartphone.</td></tr>
+      <tr><td>Negative</td><td>My grandmother cannot use a smartphone.<br>My grandmother can't use a smartphone.</td></tr>
+      <tr><td>Question</td><td>Can my grandmother use a smartphone?</td></tr>
+      <tr><td>Negative question</td><td>Can my grandmother not use a smartphone?<br>Can't my grandmother use a smartphone?</td></tr>
+    </table>
+    <p>The full negative is written as one word: <b>cannot</b>.</p>
     <h3>With the senses</h3>
     <p>Use CAN with see, hear and smell: I can hear music (<s>I'm hearing</s>).<br>Can you see the ocean?</p>
     <h3>Pronunciation: CAN × CAN'T</h3>
@@ -58,6 +82,12 @@ en:`
       <li>I can't stand traffic.</li>
       <li>I can't help laughing.</li>
       <li>I can't believe it!</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>"Saber" is CAN only for skills</b>: I <b>can</b> swim. For information, use KNOW: I <b>know</b> the answer. (<s>I can the answer</s>)</li>
+      <li><b>"Pode" for a future possibility is not CAN</b>: It <b>might</b> rain tomorrow. / It <b>could</b> rain tomorrow. (<s>It can rain tomorrow</s> sounds like a general rule.)</li>
+      <li><b>CAN has no future or participle</b>: use <i>be able to</i>: I'll <b>be able to</b> help you tomorrow. (<s>I'll can help you</s>)</li>
     </ul>`
   },
   vocab:{
@@ -129,7 +159,7 @@ en:`
         {q:"Cheetahs ___ run at about 100 km/h.", o:["can","cans","can to"], a:0, sub:"ability",
          why:{pt:"Habilidade: can + forma base.", en:"Ability: can + base form."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — can in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — can in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Você sabe nadar?\" → ___", o:["Can you swim?","Do you can swim?","Do you know swim?"], a:0, sub:"questions",
@@ -159,7 +189,13 @@ en:`
         {q:"Kids under twelve ___ ride this roller coaster.", o:["can't","don't can","aren't can"], a:0, sub:"permission",
          why:{pt:"Proibição: can't.", en:"Prohibition: can't."}},
         {q:"My daughter is only three, but she can already ___ to ten.", o:["count","counts","counting"], a:0, sub:"ability",
-         why:{pt:"Can + forma base.", en:"Can + base form."}}
+         why:{pt:"Can + forma base.", en:"Can + base form."}},
+        {q:"\"Eu sei o endereço dela.\" → I ___ her address.", o:["know","can","can know"], a:0, sub:"ability",
+         why:{pt:"Saber uma informação: know. CAN é saber fazer.", en:"Knowing information: know. CAN is for skills."}},
+        {q:"\"Pode chover amanhã. Leve um guarda-chuva.\" → It ___ rain tomorrow.", o:["might","can","cans"], a:0, sub:"possibility",
+         why:{pt:"Possibilidade numa ocasião futura: might ou could.", en:"A possibility on a future occasion: might or could."}},
+        {q:"I'm busy today, but I'll ___ help you tomorrow.", o:["be able to","can","could"], a:0, sub:"modal rules",
+         why:{pt:"CAN não tem futuro: will be able to.", en:"CAN has no future form: will be able to."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Talent Show", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. Tap a blank and choose an option."},

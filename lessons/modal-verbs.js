@@ -32,7 +32,14 @@ pt:`
     <p>Ação em andamento: modal + be + -ING — He must be sleeping. O oposto de <i>must</i> aqui é <i>can't</i>, não <i>mustn't</i>.</p>
     <h3>Negativas</h3>
     <p>can't<br>couldn't<br>mustn't<br>shouldn't<br>may not<br>might not</p>
-    <p class="note">Para oferecer ou sugerir, o inglês americano usa <i>should</i>: Should I open the window? (<i>Shall I</i> é mais britânico.)</p>`,
+    <p class="note">Para oferecer ou sugerir, o inglês americano usa <i>should</i>: Should I open the window? (<i>Shall I</i> é mais britânico.)</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Depois do modal, o verbo vem sem TO</b>: You <b>should see</b> a doctor. (<s>You should to see</s>) Só OUGHT TO tem o TO.</li>
+      <li><b>"Talvez eu vá" não precisa de MAYBE + presente</b>: use <i>might</i>, ou <i>maybe</i> com o futuro: I <b>might</b> go. / <b>Maybe</b> I<b>'ll</b> go. (<s>Maybe I go</s>)</li>
+      <li><b>MAY de permissão é formal</b>: no dia a dia, peça com <i>can</i> ou <i>could</i>: <b>Can</b> I sit here?</li>
+      <li><b>MUSTN'T não é o contrário da dedução</b>: "Não pode ser ele" → It <b>can't</b> be him. (<s>It mustn't be him</s>)</li>
+    </ul>`,
 en:`
     <h2>Modal verbs</h2>
     <p>The modals are: can, could, must, should, may, might (and <i>shall</i>, <i>ought to</i>).</p>
@@ -61,7 +68,14 @@ en:`
     <p>For an action in progress: modal + be + -ING — He must be sleeping. The opposite of <i>must</i> here is <i>can't</i>, not <i>mustn't</i>.</p>
     <h3>Negatives</h3>
     <p>can't<br>couldn't<br>mustn't<br>shouldn't<br>may not<br>might not</p>
-    <p class="note">To offer or suggest, American English uses <i>should</i>: Should I open the window? (<i>Shall I</i> is more British.)</p>`
+    <p class="note">To offer or suggest, American English uses <i>should</i>: Should I open the window? (<i>Shall I</i> is more British.)</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>After a modal, the verb takes no TO</b>: You <b>should see</b> a doctor. (<s>You should to see</s>) Only OUGHT TO has TO.</li>
+      <li><b>"Talvez eu vá" is not MAYBE + present</b>: use <i>might</i>, or <i>maybe</i> with the future: I <b>might</b> go. / <b>Maybe</b> I<b>'ll</b> go. (<s>Maybe I go</s>)</li>
+      <li><b>MAY for permission is formal</b>: in everyday speech, ask with <i>can</i> or <i>could</i>: <b>Can</b> I sit here?</li>
+      <li><b>MUSTN'T is not the opposite of a deduction</b>: It <b>can't</b> be him. (<s>It mustn't be him</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -134,7 +148,7 @@ en:`
         {q:"You ought ___ apologize.", o:["to","—","for"], a:0, sub:"should",
          why:{pt:"Ought é o único que leva TO.", en:"Ought is the only one with TO."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — modals in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — modals in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"Modals ___ take S in the third person.", o:["never","always","sometimes"], a:0, sub:"modal rules",
@@ -164,7 +178,11 @@ en:`
         {q:"\"Shall I open the window?\" In American English, people usually say: ___", o:["Should I open the window?","Must I open the window?","Will I open the window?"], a:0, sub:"should",
          why:{pt:"Oferta no inglês americano: Should I…?", en:"Offer in American English: Should I…?"}},
         {q:"It ___ be cold in Gramado in July. It always is.", o:["must","can't","mightn't"], a:0, sub:"deduction",
-         why:{pt:"Quase certeza: must.", en:"Almost certain: must."}}
+         why:{pt:"Quase certeza: must.", en:"Almost certain: must."}},
+        {q:"You look terrible. You should ___ a doctor.", o:["see","to see","seeing"], a:0, sub:"modal rules",
+         why:{pt:"Depois de modal, verbo sem TO.", en:"After a modal, the verb takes no TO."}},
+        {q:"\"Talvez eu vá à festa.\" → I ___ go to the party.", o:["might","maybe","may be"], a:0, sub:"may / might",
+         why:{pt:"Possibilidade: might + verbo. Maybe é advérbio e pede o futuro: Maybe I'll go.", en:"Possibility: might + verb. Maybe is an adverb and needs the future: Maybe I'll go."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Patagonia Tips", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com o modal correto. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with the correct modal. Tap a blank and choose the word."},

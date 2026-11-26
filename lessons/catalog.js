@@ -1037,7 +1037,7 @@ const CATALOG = [
    "life experiences",
    "travel"
   ],
-  "v": "9fc0f1bc",
+  "v": "2d7f6ed0",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1048,7 +1048,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -1124,7 +1124,7 @@ const CATALOG = [
    "hobbies",
    "projects"
   ],
-  "v": "a0d2b0ce",
+  "v": "77f9740f",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1135,7 +1135,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -1257,7 +1257,7 @@ const CATALOG = [
    "skills",
    "hobbies"
   ],
-  "v": "922be366",
+  "v": "a084f63b",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1268,7 +1268,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 17
    },
    {
     "id": "dialogue-medium",
@@ -1302,7 +1302,7 @@ const CATALOG = [
    "childhood",
    "hotel"
   ],
-  "v": "ed7c47f5",
+  "v": "962ec9eb",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1313,7 +1313,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -1388,7 +1388,7 @@ const CATALOG = [
    "obligation",
    "travel rules"
   ],
-  "v": "99086d40",
+  "v": "51a20d54",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1399,7 +1399,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 17
    },
    {
     "id": "dialogue-medium",
@@ -1434,7 +1434,7 @@ const CATALOG = [
    "advice",
    "planning a trip"
   ],
-  "v": "f047e0f5",
+  "v": "2786e31f",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1445,7 +1445,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -1479,7 +1479,7 @@ const CATALOG = [
    "past deduction",
    "regrets"
   ],
-  "v": "a4c503b1",
+  "v": "913e66ec",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1490,7 +1490,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",

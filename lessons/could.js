@@ -24,9 +24,24 @@ pt:`
       <li>Sugestão: We could go to the beach on Saturday.</li>
       <li>Hipótese: If I could fly, I'd go to Japan every weekend.</li>
     </ul>
+    <h3>Os quatro COULDs</h3>
+    <table>
+      <tr><th>Uso</th><th>Exemplo</th><th>Em português</th></tr>
+      <tr><td>Habilidade no passado</td><td>When I was ten, I <b>could</b> swim really well.</td><td>sabia, conseguia</td></tr>
+      <tr><td>Pedido educado</td><td><b>Could</b> you open the window?</td><td>poderia</td></tr>
+      <tr><td>Possibilidade</td><td>Take a coat. It <b>could</b> get cold.</td><td>pode (ser que)</td></tr>
+      <tr><td>Sugestão</td><td>We <b>could</b> order a pizza.</td><td>podíamos, poderíamos</td></tr>
+    </table>
+    <p>Só a habilidade fala do passado. Nos outros usos, <i>could</i> fala do presente ou do futuro, apesar da forma.</p>
     <h3>Regras de modal</h3>
     <p>Sem S, sem TO, sem DO: She could swim (<s>coulds</s><br><s>could to</s>)<br>Could you…? (<s>Did you could</s>)<br>I couldn't (<s>didn't could</s>).</p>
-    <p class="note">Expressão: I couldn't care less. — Não estou nem aí.</p>`,
+    <p class="note">Expressão: I couldn't care less. — Não estou nem aí.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>"Consegui" numa ocasião não é COULD</b>: "Consegui o emprego!" → I <b>got</b> the job! "Consegui abrir a porta." → I <b>managed to</b> open the door. / I <b>was able to</b> open the door. (<s>I could open the door</s>, nesse sentido)</li>
+      <li><b>Na resposta a um pedido com COULD, use CAN</b>: "Could you help me?" — "Sure, I <b>can</b>." (<s>Yes, I could</s>)</li>
+      <li><b>COULD não leva TO nem DID</b>: <b>Could</b> you swim as a child? I <b>couldn't</b> sleep. (<s>Did you could</s>, <s>I didn't could</s>)</li>
+    </ul>`,
 en:`
     <h2>Could</h2>
     <h3>The past of CAN</h3>
@@ -47,9 +62,24 @@ en:`
       <li>Suggestion: We could go to the beach on Saturday.</li>
       <li>Hypothesis: If I could fly, I'd go to Japan every weekend.</li>
     </ul>
+    <h3>The four COULDs</h3>
+    <table>
+      <tr><th>Use</th><th>Example</th></tr>
+      <tr><td>Past ability</td><td>When I was ten, I <b>could</b> swim really well.</td></tr>
+      <tr><td>Polite request</td><td><b>Could</b> you open the window?</td></tr>
+      <tr><td>Possibility</td><td>Take a coat. It <b>could</b> get cold.</td></tr>
+      <tr><td>Suggestion</td><td>We <b>could</b> order a pizza.</td></tr>
+    </table>
+    <p>Only ability is about the past. In the other uses, <i>could</i> is about the present or the future, despite its form.</p>
     <h3>Modal rules</h3>
     <p>No S, no TO, no DO: She could swim (<s>coulds</s><br><s>could to</s>)<br>Could you…? (<s>Did you could</s>)<br>I couldn't (<s>didn't could</s>).</p>
-    <p class="note">Expression: I couldn't care less.</p>`
+    <p class="note">Expression: I couldn't care less.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>A success on one occasion is not COULD</b>: I <b>got</b> the job! I <b>managed to</b> open the door. / I <b>was able to</b> open the door. (<s>I could open the door</s>, with this meaning)</li>
+      <li><b>To answer a request with COULD, use CAN</b>: "Could you help me?" — "Sure, I <b>can</b>." (<s>Yes, I could</s>)</li>
+      <li><b>COULD takes no TO or DID</b>: <b>Could</b> you swim as a child? I <b>couldn't</b> sleep. (<s>Did you could</s>, <s>I didn't could</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -120,7 +150,7 @@ en:`
         {q:"In 1872, fewer than one in five Brazilians ___ read.", o:["could","can","were able"], a:0, sub:"past ability",
          why:{pt:"Habilidade geral no passado: could.", en:"General ability in the past: could."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — could, was able to, managed to", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — could, was able to, managed to", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"The sea was rough, but I ___ swim to the boat.", o:["was able to","could"], a:0, sub:"was able to",
@@ -150,7 +180,11 @@ en:`
         {q:"___ I have the check, please?", o:["Could","Do","Am"], a:0, sub:"requests",
          why:{pt:"Pedido educado: Could I have…?", en:"Polite request: Could I have…?"}},
         {q:"She ___ speak English when she arrived, but now she's fluent.", o:["couldn't","can't","didn't could"], a:0, sub:"past ability",
-         why:{pt:"Negativa no passado: couldn't.", en:"Past negative: couldn't."}}
+         why:{pt:"Negativa no passado: couldn't.", en:"Past negative: couldn't."}},
+        {q:"\"Consegui o emprego!\" → ___ the job!", o:["I got","I could","I could get"], a:0, sub:"was able to",
+         why:{pt:"Conquista numa ocasião: got, managed to ou was able to, não could.", en:"A success on one occasion: got, managed to or was able to, not could."}},
+        {q:"\"Podíamos pedir uma pizza hoje.\" → We ___ order a pizza tonight.", o:["could","can to","could to"], a:0, sub:"suggestions",
+         why:{pt:"Sugestão: could + verbo, sem TO.", en:"Suggestion: could + verb, no TO."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: At the Front Desk", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com could, can, couldn't ou can't. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with could, can, couldn't or can't. Tap a blank and choose the word."},

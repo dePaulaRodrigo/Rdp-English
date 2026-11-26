@@ -35,7 +35,18 @@ pt:`
     </ul>
     <h3>Na fala</h3>
     <p>should've, could've, must've (/ˈʃʊdəv/, /ˈkʊdəv/, /ˈmʌstəv/). Por isso, nativos às vezes escrevem errado <s>should of</s>: o certo é sempre <b>have</b>.</p>
-    <p class="note"><i>Would have</i> (teria) é a terceira condicional (lição Third Conditional, B2).</p>`,
+    <p class="note"><i>Would have</i> (teria) é a terceira condicional (lição Third Conditional, B2).</p>
+    <h3>Cuidado: o nosso "devia ter"</h3>
+    <p>"Ele devia ter saído" tem dois sentidos em português. Em inglês, são dois modais:</p>
+    <table>
+      <tr><th>Português</th><th>Sentido</th><th>Inglês</th></tr>
+      <tr><td>Ele devia ter saído mais cedo. Perdeu o voo.</td><td>crítica (não saiu)</td><td>He <b>should have</b> left earlier.</td></tr>
+      <tr><td>Ele deve ter saído. O carro não está aqui.</td><td>dedução (acho que saiu)</td><td>He <b>must have</b> left.</td></tr>
+    </table>
+    <ul>
+      <li><b>O HAVE nunca muda e o verbo vai no particípio</b>: She should <b>have gone</b>. (<s>should has gone</s>, <s>should have went</s>, <s>should had gone</s>)</li>
+      <li><b>Sem TO</b>: I <b>should have</b> called. (<s>I should to have called</s>)</li>
+    </ul>`,
 en:`
     <h2>Modal + have + past participle</h2>
     <p>To talk about the past with a modal: <b>modal + have + past participle</b>. <i>Have</i> never changes (<s>should has</s>, <s>should had</s>).</p>
@@ -67,7 +78,18 @@ en:`
     </ul>
     <h3>In speech</h3>
     <p>should've, could've, must've (/ˈʃʊdəv/, /ˈkʊdəv/, /ˈmʌstəv/). That's why native speakers sometimes misspell it as <s>should of</s>: the correct form is always <b>have</b>.</p>
-    <p class="note"><i>Would have</i> is the third conditional, (lesson Third Conditional, B2).</p>`
+    <p class="note"><i>Would have</i> is the third conditional, (lesson Third Conditional, B2).</p>
+    <h3>Careful: Portuguese "devia ter"</h3>
+    <p>"Ele devia ter saído" has two meanings in Portuguese. In English, they are two different modals:</p>
+    <table>
+      <tr><th>Portuguese</th><th>Meaning</th><th>English</th></tr>
+      <tr><td>Ele devia ter saído mais cedo. Perdeu o voo.</td><td>criticism (he didn't leave)</td><td>He <b>should have</b> left earlier.</td></tr>
+      <tr><td>Ele deve ter saído. O carro não está aqui.</td><td>deduction (I think he left)</td><td>He <b>must have</b> left.</td></tr>
+    </table>
+    <ul>
+      <li><b>HAVE never changes, and the verb is a participle</b>: She should <b>have gone</b>. (<s>should has gone</s>, <s>should have went</s>, <s>should had gone</s>)</li>
+      <li><b>No TO</b>: I <b>should have</b> called. (<s>I should to have called</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -140,7 +162,7 @@ en:`
         {q:"They ___ have seen us. We were hiding.", o:["can't","mustn't","needn't"], a:0, sub:"deduction",
          why:{pt:"Quase certeza de que não: can't have.", en:"Almost sure it didn't happen: can't have."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — deduction or regret?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — deduction or regret?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Eu deveria ter estudado mais.\" → ___", o:["I should have studied more.","I must have studied more.","I should studied more."], a:0, sub:"regret",
@@ -170,7 +192,11 @@ en:`
         {q:"I ___ have bought that car. It breaks down every week.", o:["shouldn't","mustn't","can't"], a:0, sub:"regret",
          why:{pt:"Arrependimento: shouldn't have.", en:"Regret: shouldn't have."}},
         {q:"He ___ have been at the party. I saw him at home all night.", o:["couldn't","mustn't","shouldn't"], a:0, sub:"deduction",
-         why:{pt:"Quase certeza de que não: couldn't have.", en:"Almost sure it didn't happen: couldn't have."}}
+         why:{pt:"Quase certeza de que não: couldn't have.", en:"Almost sure it didn't happen: couldn't have."}},
+        {q:"\"Ele devia ter saído mais cedo. Perdeu o voo.\" → He ___ left earlier.", o:["should have","must have","should had"], a:0, sub:"should × must",
+         why:{pt:"Crítica (ele não saiu): should have.", en:"Criticism (he didn't leave): should have."}},
+        {q:"She should have ___ to the doctor last week.", o:["gone","went","go"], a:0, sub:"form",
+         why:{pt:"Modal + have + particípio: gone.", en:"Modal + have + participle: gone."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Missed Flight", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a forma.", en:"Complete the dialogue. Tap a blank and choose the form."},
