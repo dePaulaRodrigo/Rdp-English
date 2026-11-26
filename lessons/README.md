@@ -64,9 +64,9 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
 
 ## Respostas aceitas (princípio do Rodrigo, 25/11/2026)
 O objetivo é o aluno transmitir a mensagem do jeito certo, e na língua quase sempre há mais de um jeito certo.
-- Toda forma que cabe na situação, no registro e na gramática conta como certa. Liste todas em `answers`
-  (resposta principal primeiro; ela é a que aparece em "Revelar respostas certas").
-- Vale para a resposta digitada e para o banco de opções: se duas opções do banco servem numa lacuna, as duas entram em `answers`.
+- Resposta digitada: toda forma que cabe na situação, no registro e na gramática conta como certa. Liste todas em `answers`
+  (resposta principal primeiro; ela é a que aparece em "Revelar respostas certas"). É aqui que o princípio é essencial.
+- Banco de opções: uma resposta por lacuna basta, desde que o banco não traga outra opção que também sirva.
 - Na múltipla escolha, ao contrário, só uma opção pode servir: os distratores precisam estar errados para quem domina a língua.
 - O `why` explica a regra; quando houver mais de uma forma, pode citá-las (ex.: "find out, check").
 
