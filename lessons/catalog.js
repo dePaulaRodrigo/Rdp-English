@@ -674,6 +674,44 @@ const CATALOG = [
   ]
  },
  {
+  "id": "imperatives",
+  "title": "Imperativo e Let's",
+  "area": "Inglês Cotidiano",
+  "icon": "👉",
+  "color": "#eef0e2",
+  "level": "A1",
+  "part": 3,
+  "order": 16.1,
+  "tags": [
+   "imperative",
+   "don't",
+   "let's",
+   "let's not",
+   "please",
+   "instructions",
+   "recipes"
+  ],
+  "v": "60969cb4",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
   "id": "present-continuous",
   "title": "Present Continuous",
   "area": "Inglês Cotidiano",
@@ -1013,6 +1051,43 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 9
+   }
+  ]
+ },
+ {
+  "id": "past-perfect-continuous",
+  "title": "Past Perfect Continuous",
+  "area": "Inglês Cotidiano",
+  "icon": "⏳",
+  "color": "#ece6f2",
+  "level": "B2",
+  "part": 4,
+  "order": 24.1,
+  "tags": [
+   "past perfect continuous",
+   "had been",
+   "for",
+   "since",
+   "how long",
+   "travel problems"
+  ],
+  "v": "662e5eac",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 5
    }
   ]
  },
@@ -1414,6 +1489,43 @@ const CATALOG = [
   ]
  },
  {
+  "id": "be-supposed-to",
+  "title": "Be Supposed To",
+  "area": "Inglês Cotidiano",
+  "icon": "📋",
+  "color": "#e6eef0",
+  "level": "B1",
+  "part": 7,
+  "order": 34.1,
+  "tags": [
+   "be supposed to",
+   "was supposed to",
+   "not supposed to",
+   "supposedly",
+   "travel rules",
+   "plans"
+  ],
+  "v": "a0903f0f",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
+   }
+  ]
+ },
+ {
   "id": "modal-verbs",
   "title": "Modal Verbs: Advice and Possibility",
   "area": "Inglês Cotidiano",
@@ -1456,6 +1568,43 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 9
+   }
+  ]
+ },
+ {
+  "id": "would-rather",
+  "title": "Would Rather, Prefer, Had Better",
+  "area": "Inglês Cotidiano",
+  "icon": "⚖️",
+  "color": "#f1ebe0",
+  "level": "B1",
+  "part": 7,
+  "order": 35.1,
+  "tags": [
+   "would rather",
+   "prefer",
+   "would prefer",
+   "had better",
+   "'d better",
+   "choosing a restaurant"
+  ],
+  "v": "cfebc76e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 8
    }
   ]
  },
@@ -2097,6 +2246,81 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 10
+   }
+  ]
+ },
+ {
+  "id": "other-another",
+  "title": "Other, Another, The Other(s)",
+  "area": "Inglês Cotidiano",
+  "icon": "🔀",
+  "color": "#e9eef6",
+  "level": "A2",
+  "part": 9,
+  "order": 49.1,
+  "tags": [
+   "other",
+   "another",
+   "the other",
+   "others",
+   "the others",
+   "shopping"
+  ],
+  "v": "cf47b657",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
+  "id": "most-almost",
+  "title": "Most, Most Of, Almost",
+  "area": "Inglês Cotidiano",
+  "icon": "📊",
+  "color": "#f3ece3",
+  "level": "A2",
+  "part": 9,
+  "order": 49.2,
+  "tags": [
+   "most",
+   "most of",
+   "almost",
+   "almost all",
+   "mostly",
+   "the majority",
+   "family routine"
+  ],
+  "v": "729992e5",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
    }
   ]
  },
@@ -2875,6 +3099,43 @@ const CATALOG = [
   ]
  },
  {
+  "id": "subjunctive",
+  "title": "The Subjunctive",
+  "area": "Inglês Cotidiano",
+  "icon": "📜",
+  "color": "#efe9f3",
+  "level": "C1",
+  "part": 13,
+  "order": 66.1,
+  "tags": [
+   "subjunctive",
+   "suggest that",
+   "insist that",
+   "it is essential that",
+   "formal English",
+   "rules and recommendations"
+  ],
+  "v": "17dde18e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 6
+   }
+  ]
+ },
+ {
   "id": "relative-clauses",
   "title": "Relative Clauses: Who, Which, That, Where",
   "area": "Inglês Cotidiano",
@@ -2962,6 +3223,82 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 8
+   }
+  ]
+ },
+ {
+  "id": "whatever-no-matter",
+  "title": "Whatever, Whoever, No Matter",
+  "area": "Inglês Cotidiano",
+  "icon": "🎲",
+  "color": "#e4eef0",
+  "level": "B2",
+  "part": 14,
+  "order": 68.1,
+  "tags": [
+   "whatever",
+   "whoever",
+   "whichever",
+   "wherever",
+   "whenever",
+   "however",
+   "no matter",
+   "cities and travel"
+  ],
+  "v": "e8fcd8f6",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
+   }
+  ]
+ },
+ {
+  "id": "participle-clauses",
+  "title": "Participle Clauses",
+  "area": "Inglês Cotidiano",
+  "icon": "✂️",
+  "color": "#f0e9e4",
+  "level": "B2",
+  "part": 14,
+  "order": 68.2,
+  "tags": [
+   "participle clauses",
+   "reduced relative clauses",
+   "having done",
+   "-ing clause",
+   "-ed clause",
+   "cities and peoples"
+  ],
+  "v": "1ae28db2",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 6
    }
   ]
  },
@@ -3245,6 +3582,44 @@ const CATALOG = [
     "id": "dialogue-hard",
     "type": "gap",
     "n": 8
+   }
+  ]
+ },
+ {
+  "id": "cleft-sentences",
+  "title": "Cleft Sentences and Emphasis",
+  "area": "Inglês Cotidiano",
+  "icon": "🔦",
+  "color": "#f2ece4",
+  "level": "C1",
+  "part": 14,
+  "order": 74.1,
+  "tags": [
+   "cleft sentences",
+   "it was … who",
+   "what I need is",
+   "all I want is",
+   "emphatic do",
+   "the reason why",
+   "memorable stories"
+  ],
+  "v": "070ffa5e",
+  "exercises": [
+   {
+    "id": "mc-easy",
+    "type": "mc",
+    "n": 10
+   },
+   {
+    "id": "mc-hard",
+    "type": "mc",
+    "reveal": "end",
+    "n": 10
+   },
+   {
+    "id": "dialogue-medium",
+    "type": "gap",
+    "n": 7
    }
   ]
  },

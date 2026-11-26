@@ -176,6 +176,20 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Clara | I hope so. Maybe we could practice together every week? |  |
 | dialogue-hard-13.mp3 | Kenji | Great idea! |  |
 
+## be-supposed-to › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Júlia | Hi, Mark. I'm a little lost. What am I supposed to do first? |  |
+| dialogue-medium-2.mp3 | Mark | Well, you are supposed to get your badge at the front desk. |  |
+| dialogue-medium-3.mp3 | Júlia | I tried, but the man there was supposed to be back at nine. It's 9:30! |  |
+| dialogue-medium-4.mp3 | Mark | Typical. Oh, and you're not supposed to eat at your desk. There's a kitchen for that. |  |
+| dialogue-medium-5.mp3 | Júlia | Good to know. Is the kitchen any good? |  |
+| dialogue-medium-6.mp3 | Mark | The coffee is supposed to be the best in the building. |  |
+| dialogue-medium-7.mp3 | Júlia | Great! And my manager? I am supposed to meet her at ten. |  |
+| dialogue-medium-8.mp3 | Mark | She's in Rio today. She was supposed to email you. |  |
+| dialogue-medium-9.mp3 | Júlia | She didn't. Oh well. I suppose I'll just wait, then. |  |
+
 ## be-used-to › dialogue-medium  (0/16)
 
 | Arquivo | Voz | Texto | Feito |
@@ -323,6 +337,19 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-11.mp3 | Rafa | At least you didn't try to fix it yourself! |  |
 | dialogue-hard-12.mp3 | Marcelo | No way. Last time I did that, I had to have the whole kitchen floor replaced. |  |
 | dialogue-hard-13.mp3 | Rafa | OK, this round's on me. And let's get you to go home early tonight! |  |
+
+## cleft-sentences › dialogue-medium  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Carla | Who broke Grandma's vase? |  |
+| dialogue-medium-2.mp3 | Davi | It was the cat that knocked it over, Mom. Not us. |  |
+| dialogue-medium-3.mp3 | Carla | The cat? What I don't understand is how it got on the shelf. |  |
+| dialogue-medium-4.mp3 | Lívia | Well, it was Davi who left the window open. |  |
+| dialogue-medium-5.mp3 | Davi | I did close it! The wind opened it. |  |
+| dialogue-medium-6.mp3 | Carla | All I care about is that nobody got hurt. |  |
+| dialogue-medium-7.mp3 | Lívia | We're fine. And the reason we didn't call you is that you were in a meeting. |  |
+| dialogue-medium-8.mp3 | Carla | OK. But next time, do call me. Even in a meeting. |  |
 
 ## collocations › dialogue-medium  (0/9)
 
@@ -978,6 +1005,22 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Bia | Do you want help? I don't have to work tomorrow, so I can go with you. |  |
 | dialogue-hard-11.mp3 | Ana | Really? You're the best! |  |
 
+## imperatives › dialogue-medium  (0/11)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Bia | Grandma, I'm in the kitchen. What do I do first? |  |
+| dialogue-medium-2.mp3 | Grandma | First, preheat the oven to 180 degrees. |  |
+| dialogue-medium-3.mp3 | Bia | Done. Now what? |  |
+| dialogue-medium-4.mp3 | Grandma | put three eggs, a cup of sugar and a cup of milk in a bowl. Don't drop the shells in! |  |
+| dialogue-medium-5.mp3 | Bia | Ha! OK. Should I use the mixer? |  |
+| dialogue-medium-6.mp3 | Grandma | Yes, but be patient. Mix for three minutes. |  |
+| dialogue-medium-7.mp3 | Bia | This is fun. Let's make this together at Christmas! |  |
+| dialogue-medium-8.mp3 | Grandma | Good idea! Now add two cups of cornmeal, slowly. |  |
+| dialogue-medium-9.mp3 | Bia | And then the oven? |  |
+| dialogue-medium-10.mp3 | Grandma | Yes, forty minutes. And don't open the oven door before thirty minutes, or the cake falls! |  |
+| dialogue-medium-11.mp3 | Bia | Got it. Thanks, Grandma! |  |
+
 ## in-on-at-time › dialogue-medium  (0/10)
 
 | Arquivo | Voz | Texto | Feito |
@@ -1268,6 +1311,20 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Paulo | Only the director. But she can't have done it. She's in Portugal this week. |  |
 | dialogue-hard-11.mp3 | Lima | Hmm. She didn't need to be here. Someone could have used her key. |  |
 
+## most-almost › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Lucas | Mom, who cooks in our house? |  |
+| dialogue-medium-2.mp3 | Mom | Me, most of the time. Your dad cooks on Sundays. |  |
+| dialogue-medium-3.mp3 | Lucas | OK. My teacher says most families eat dinner in front of the TV. Do we? |  |
+| dialogue-medium-4.mp3 | Mom | Almost never! We talk at the table. |  |
+| dialogue-medium-5.mp3 | Lucas | And what about our relatives? Do they eat together? |  |
+| dialogue-medium-6.mp3 | Mom | Most of them do, yes. Your grandparents always do. |  |
+| dialogue-medium-7.mp3 | Lucas | Last question. What do we spend most of our money on? |  |
+| dialogue-medium-8.mp3 | Mom | Food and school, mostly. And your video games! |  |
+| dialogue-medium-9.mp3 | Lucas | Ha! Almost done. Thanks, Mom. |  |
+
 ## near-synonyms › dialogue-medium  (0/8)
 
 | Arquivo | Voz | Texto | Feito |
@@ -1407,6 +1464,33 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-5.mp3 | Marcos | Hi Laura! I tested it. It's much faster than the old one. |  |
 | dialogue-hard-6.mp3 | Marcos | One thing: the login page doesn't load on my phone. Anyway, great job! |  |
 
+## other-another › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Clerk | How are those? |  |
+| dialogue-medium-2.mp3 | Paula | The left one is fine, but the other one is a little tight. |  |
+| dialogue-medium-3.mp3 | Clerk | Let me get you another pair. A size 38? |  |
+| dialogue-medium-4.mp3 | Paula | Yes, please. And do you have them in other colors? |  |
+| dialogue-medium-5.mp3 | Clerk | We have white and gray. The others are sold out. |  |
+| dialogue-medium-6.mp3 | Paula | I'll try the gray ones. My sister has white ones, and some other friends of mine too. |  |
+| dialogue-medium-7.mp3 | Clerk | Here you go. |  |
+| dialogue-medium-8.mp3 | Paula | Perfect! Oh, and I need another two pairs of socks. |  |
+| dialogue-medium-9.mp3 | Clerk | They're on the other side of the store, by the door. |  |
+
+## participle-clauses › dialogue-medium  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Guide | Welcome to Ouro Preto! Founded in the 18th century, this town was the center of the gold rush. |  |
+| dialogue-medium-2.mp3 | Guide | The church standing in front of us is São Francisco de Assis. |  |
+| dialogue-medium-3.mp3 | Guide | Its facade was designed by Aleijadinho, a sculptor known as the greatest artist of Brazilian Baroque. |  |
+| dialogue-medium-4.mp3 | Tourist | Is it true he was sick? |  |
+| dialogue-medium-5.mp3 | Guide | Yes. Suffering from a serious illness, he worked with tools tied to his hands, according to the stories. |  |
+| dialogue-medium-6.mp3 | Tourist | Amazing. Can we go inside? |  |
+| dialogue-medium-7.mp3 | Guide | Of course. Having visited the church, we'll walk to the main square. |  |
+| dialogue-medium-8.mp3 | Guide | And please, anyone wanting to take photos inside, turn off the flash. |  |
+
 ## passive-voice › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
@@ -1481,6 +1565,21 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-12.mp3 | Ana | That's adorable. And then? |  |
 | dialogue-hard-13.mp3 | Rita | We talked for an hour while we were waiting for the lights to come back. |  |
 | dialogue-hard-14.mp3 | Ana | And the rest is history! |  |
+
+## past-perfect-continuous › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Ana | So, how was the trip back? |  |
+| dialogue-medium-2.mp3 | Rafael | A disaster. We had been standing in line for an hour when they said the flight was delayed. (stand) |  |
+| dialogue-medium-3.mp3 | Ana | Oh no. For how long? |  |
+| dialogue-medium-4.mp3 | Rafael | Five hours! By the time we boarded, I had had two coffees and a terrible sandwich. (have) |  |
+| dialogue-medium-5.mp3 | Ana | At least you got home. |  |
+| dialogue-medium-6.mp3 | Rafael | I did, but my suitcase didn't. I had been waiting at the baggage belt for forty minutes when a man told me it was still in Lisbon. (wait) |  |
+| dialogue-medium-7.mp3 | Ana | You must have been exhausted. |  |
+| dialogue-medium-8.mp3 | Rafael | Completely. I hadn't been sleeping well for days before the trip, either. (not sleep) |  |
+| dialogue-medium-9.mp3 | Ana | And did the suitcase arrive? |  |
+| dialogue-medium-10.mp3 | Rafael | Two days later. The airline had called me three times to apologize by then. (call) |  |
 
 ## past-perfect › dialogue-medium  (0/16)
 
@@ -2244,6 +2343,20 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Nando | A few slices. And there's a little cheese too. |  |
 | dialogue-hard-11.mp3 | Gustavo | Perfect! Egg and cheese sandwiches. We're saved! |  |
 
+## subjunctive › dialogue-medium  (0/9)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Helena | Before we start, the owners have requested that everyone be here by six. |  |
+| dialogue-medium-2.mp3 | Diego | Six? Is it really necessary that we arrive that early? |  |
+| dialogue-medium-3.mp3 | Helena | It is. They also insist that the tables be set by 6:30. |  |
+| dialogue-medium-4.mp3 | Diego | Fair enough. What about the music? |  |
+| dialogue-medium-5.mp3 | Helena | I suggest that the band not play too loud. Many guests are elderly. |  |
+| dialogue-medium-6.mp3 | Diego | And if it rains? |  |
+| dialogue-medium-7.mp3 | Helena | Then we'll move everything indoors, if need be. |  |
+| dialogue-medium-8.mp3 | Diego | Anything else? |  |
+| dialogue-medium-9.mp3 | Helena | Yes. It's essential that nobody enter the guests' rooms without permission. |  |
+
 ## the-more-the-better › dialogue-medium  (0/12)
 
 | Arquivo | Voz | Texto | Feito |
@@ -2546,6 +2659,21 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-10.mp3 | Hugo | Fair enough. I suggest starting with fifteen minutes a day. |  |
 | dialogue-hard-11.mp3 | Isa | Deal. And I promise not to cry if I lose! |  |
 
+## whatever-no-matter › dialogue-medium  (0/10)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Dad | So, do we leave on Friday or Saturday? |  |
+| dialogue-medium-2.mp3 | Tiago | Whichever day is better for you. I'm on vacation. |  |
+| dialogue-medium-3.mp3 | Dad | Friday, then. And where do we stay in Gramado? |  |
+| dialogue-medium-4.mp3 | Tiago | We can stay wherever you want. You choose. |  |
+| dialogue-medium-5.mp3 | Dad | OK. Whatever happens, we're not driving at night. The roads are dangerous. |  |
+| dialogue-medium-6.mp3 | Tiago | Agreed. And whoever gets tired drives less the next day. |  |
+| dialogue-medium-7.mp3 | Dad | Fair. Oh, and the restaurant my friend told me about is expensive. |  |
+| dialogue-medium-8.mp3 | Tiago | However expensive it is, we're going. It's your birthday! |  |
+| dialogue-medium-9.mp3 | Dad | Ha! And I'll pay for gas, no matter what you say. |  |
+| dialogue-medium-10.mp3 | Tiago | Whatever. Let's just go! |  |
+
 ## whose › dialogue-medium  (0/13)
 
 | Arquivo | Voz | Texto | Feito |
@@ -2647,3 +2775,16 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-9.mp3 | Mari | Thanks. Honestly, I'd rather he didn't invite his friends over every night, too. |  |
 | dialogue-hard-10.mp3 | Lia | It's time you set some rules together. |  |
 | dialogue-hard-11.mp3 | Mari | You're right. I wish I were better at confrontation! |  |
+
+## would-rather › dialogue-medium  (0/8)
+
+| Arquivo | Voz | Texto | Feito |
+| --- | --- | --- | --- |
+| dialogue-medium-1.mp3 | Felipe | So, would you rather go to the Italian place or try the new Japanese one? |  |
+| dialogue-medium-2.mp3 | Marina | Hmm. I usually prefer Italian to Japanese, but I'm curious about the new one. |  |
+| dialogue-medium-3.mp3 | Felipe | Me too. But we'd better book a table. It's always full on Fridays. |  |
+| dialogue-medium-4.mp3 | Marina | Good point. Can you call them? I'd rather not talk on the phone. |  |
+| dialogue-medium-5.mp3 | Felipe | Fine. Do you prefer eating at seven or at eight? |  |
+| dialogue-medium-6.mp3 | Marina | Eight. I'd rather go home first and change. |  |
+| dialogue-medium-7.mp3 | Felipe | OK. And we'd better not take the car. Parking there is impossible. |  |
+| dialogue-medium-8.mp3 | Marina | True. I'd rather take a taxi than drive around for an hour. |  |

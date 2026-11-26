@@ -41,7 +41,7 @@ for (const f of files) {
     else if (L.sub && !fd.subs.some(x => x.id === L.sub)) err(f, `sub "${L.sub}" não existe na área ${L.area}`);
   } else if (L.sub) err(f, "sub só vale para o Inglês Profissional");
   if (!PARTS.some(p => p.n === L.part)) err(f, `part "${L.part}" não existe em _parts.json`);
-  if (!Number.isInteger(L.order)) err(f, "falta order (número do capítulo no ebook)");
+  if (!(Number.isFinite(L.order) && L.order > 0)) err(f, "falta order (número do capítulo no ebook; capítulo curto 49A = 49.1)");
   if (!textOk(L.explanation)) err(f, "explanation vazia ou bilíngue sem pt/en");
   if (L.vocab !== undefined && !textOk(L.vocab)) err(f, "vocab vazio ou bilíngue sem pt/en");
   if (!Array.isArray(L.exercises) || !L.exercises.length) { err(f, "sem exercícios"); continue; }
