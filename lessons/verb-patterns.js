@@ -23,7 +23,21 @@ pt:`
     <h3>A negativa</h3>
     <p><b>not</b> antes do TO ou do -ING: I decided <b>not to</b> go.<br>I enjoy <b>not working</b> on Sundays.</p>
     <h3>TO = para (finalidade)</h3>
-    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = serve para: This app is good <b>for learning</b> words.</p>`,
+    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = serve para: This app is good <b>for learning</b> words.</p>
+    <h3>Cuidado: "quero que você…"</h3>
+    <p>O português usa <i>que</i> + subjuntivo; com <i>want</i>, <i>would like</i>, <i>ask</i> e <i>tell</i>, o inglês usa <b>pessoa + TO + verbo</b>:</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>Quero que você venha.</td><td>I want <b>you to come</b>.</td><td><s>I want that you come</s></td></tr>
+      <tr><td>Eu gostaria que vocês ficassem.</td><td>I'd like <b>you to stay</b>.</td><td><s>I'd like that you stay</s></td></tr>
+      <tr><td>Ela me pediu para ligar.</td><td>She asked <b>me to call</b>.</td><td><s>She asked me for call</s></td></tr>
+      <tr><td>Ele me disse para esperar.</td><td>He told <b>me to wait</b>.</td><td><s>He said me to wait</s></td></tr>
+    </table>
+    <ul>
+      <li><b>Na negativa, o NOT vem antes do TO</b>: She asked me <b>not to</b> tell anyone.</li>
+      <li><b>SUGGEST e RECOMMEND não seguem esse padrão</b>: I suggest <b>taking</b> a taxi. / I suggest <b>that you take</b> a taxi. (<s>I suggest you to take</s>)</li>
+      <li><b>"Para" + verbo, de finalidade, é TO</b>: I went out <b>to buy</b> bread. (<s>for buy</s>, <s>for to buy</s>)</li>
+    </ul>`,
 en:`
     <h2>Two verbs together: the three patterns</h2>
     <p>When two verbs appear together, the second follows one of these patterns:</p>
@@ -43,7 +57,21 @@ en:`
     <h3>Negatives</h3>
     <p><b>not</b> before TO or -ING: I decided <b>not to</b> go.<br>I enjoy <b>not working</b> on Sundays.</p>
     <h3>TO for purpose</h3>
-    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = used for: This app is good <b>for learning</b> words.</p>`
+    <p>I study English <b>to get</b> a better job (<s>for get</s>).<br><b>for</b> + -ING = used for: This app is good <b>for learning</b> words.</p>
+    <h3>Careful: "quero que você…"</h3>
+    <p>Portuguese uses <i>que</i> + subjunctive; with <i>want</i>, <i>would like</i>, <i>ask</i> and <i>tell</i>, English uses <b>person + TO + verb</b>:</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>Quero que você venha.</td><td>I want <b>you to come</b>.</td><td><s>I want that you come</s></td></tr>
+      <tr><td>Eu gostaria que vocês ficassem.</td><td>I'd like <b>you to stay</b>.</td><td><s>I'd like that you stay</s></td></tr>
+      <tr><td>Ela me pediu para ligar.</td><td>She asked <b>me to call</b>.</td><td><s>She asked me for call</s></td></tr>
+      <tr><td>Ele me disse para esperar.</td><td>He told <b>me to wait</b>.</td><td><s>He said me to wait</s></td></tr>
+    </table>
+    <ul>
+      <li><b>In the negative, NOT comes before TO</b>: She asked me <b>not to</b> tell anyone.</li>
+      <li><b>SUGGEST and RECOMMEND don't follow this pattern</b>: I suggest <b>taking</b> a taxi. / I suggest <b>that you take</b> a taxi. (<s>I suggest you to take</s>)</li>
+      <li><b>"Para" + verb, for purpose, is TO</b>: I went out <b>to buy</b> bread. (<s>for buy</s>, <s>for to buy</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -116,7 +144,7 @@ en:`
         {q:"She gave up ___ the piano.", o:["playing","to play","play"], a:0, sub:"-ing",
          why:{pt:"Give up + -ING.", en:"Give up + -ING."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — patterns and negatives", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — patterns and negatives", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I suggest ___ the subway. It's faster.", o:["taking","to take","take"], a:0, sub:"-ing",
@@ -146,7 +174,13 @@ en:`
         {q:"It started ___ during the picnic. (os dois estão certos)", o:["raining / to rain","rain","to raining"], a:0, sub:"both",
          why:{pt:"Start aceita TO e -ING.", en:"Start takes TO and -ING."}},
         {q:"You'd better ___ now.", o:["leave","to leave","leaving"], a:0, sub:"bare",
-         why:{pt:"Had better + verbo sem TO.", en:"Had better + verb without TO."}}
+         why:{pt:"Had better + verbo sem TO.", en:"Had better + verb without TO."}},
+        {q:"\"Quero que você conheça os meus pais.\" → I want ___ my parents.", o:["you to meet","that you meet","you meet"], a:0, sub:"to",
+         why:{pt:"Want + pessoa + TO + verbo. Sem THAT.", en:"Want + person + TO + verb. No THAT."}},
+        {q:"The doctor told me ___ so much coffee.", o:["not to drink","to not drinking","don't drink"], a:0, sub:"negative",
+         why:{pt:"Tell + pessoa + NOT TO + verbo.", en:"Tell + person + NOT TO + verb."}},
+        {q:"I suggest ___ the subway. It's faster.", o:["taking","you to take","to take"], a:0, sub:"-ing",
+         why:{pt:"Suggest + -ING (ou suggest that you take).", en:"Suggest + -ING (or suggest that you take)."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: A New Hobby", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma certa do verbo entre parênteses.", en:"Complete the dialogue with the correct form of the verb in parentheses."},

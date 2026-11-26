@@ -36,6 +36,20 @@ pt:`
     <ul>
       <li>I don't drink coffee (a bebida).<br>Two coffees, please (duas xícaras).</li>
       <li>I don't have time (tempo).<br>I went there three times (vezes).</li>
+    </ul>
+    <h3>Cuidado: o nosso "muito"</h3>
+    <p>O português usa <i>muito</i> para tudo; o inglês escolhe pela palavra que vem depois:</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>muito bonito (+ adjetivo)</td><td><b>very</b> beautiful</td><td><s>much beautiful</s></td></tr>
+      <tr><td>muitos amigos (+ contável)</td><td><b>a lot of</b> friends / <b>many</b> friends</td><td><s>much friends</s></td></tr>
+      <tr><td>muito dinheiro (+ incontável)</td><td><b>a lot of</b> money / <b>much</b> money (na negativa)</td><td><s>many money</s></td></tr>
+      <tr><td>gosto muito (+ verbo)</td><td>I like it <b>a lot</b>. / I like it <b>very much</b>.</td><td><s>I like very it</s>, <s>I very like it</s></td></tr>
+      <tr><td>muito melhor (+ comparativo)</td><td><b>much</b> better / <b>a lot</b> better</td><td><s>very better</s></td></tr>
+    </table>
+    <ul>
+      <li><b>"Muito" de "demais" é TOO</b>: It's <b>too</b> expensive. I can't buy it. (<i>very expensive</i> = caro, mas talvez dê)</li>
+      <li><b>VERY MUCH vai no fim</b>, depois do objeto: Thank you <b>very much</b>. I like this song <b>very much</b>.</li>
     </ul>`,
 en:`
     <h2>Many, much, a lot of</h2>
@@ -69,6 +83,20 @@ en:`
     <ul>
       <li>I don't drink coffee (the drink).<br>Two coffees, please (two cups).</li>
       <li>I don't have time.<br>I went there three times.</li>
+    </ul>
+    <h3>Careful: Portuguese "muito"</h3>
+    <p>Portuguese uses <i>muito</i> for everything; English chooses by the word that follows:</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>muito bonito (+ adjective)</td><td><b>very</b> beautiful</td><td><s>much beautiful</s></td></tr>
+      <tr><td>muitos amigos (+ countable)</td><td><b>a lot of</b> friends / <b>many</b> friends</td><td><s>much friends</s></td></tr>
+      <tr><td>muito dinheiro (+ uncountable)</td><td><b>a lot of</b> money / <b>much</b> money (in negatives)</td><td><s>many money</s></td></tr>
+      <tr><td>gosto muito (+ verb)</td><td>I like it <b>a lot</b>. / I like it <b>very much</b>.</td><td><s>I like very it</s>, <s>I very like it</s></td></tr>
+      <tr><td>muito melhor (+ comparative)</td><td><b>much</b> better / <b>a lot</b> better</td><td><s>very better</s></td></tr>
+    </table>
+    <ul>
+      <li><b>"Muito" meaning "too much" is TOO</b>: It's <b>too</b> expensive. I can't buy it. (<i>very expensive</i> = expensive, but maybe possible)</li>
+      <li><b>VERY MUCH goes at the end</b>, after the object: Thank you <b>very much</b>. I like this song <b>very much</b>.</li>
     </ul>`
   },
   vocab:{
@@ -142,7 +170,7 @@ en:`
         {q:"How ___ bags of rice do we need?", o:["many","much","lot"], a:0, sub:"how many",
          why:{pt:"Bags é contável: how many.", en:"Bags is countable: how many."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — countable or uncountable?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — countable or uncountable?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"She gave me some good ___.", o:["advice","advices","an advice"], a:0, sub:"uncountables",
@@ -172,7 +200,11 @@ en:`
         {q:"I have two ___. I work day and night.", o:["jobs","works","job"], a:0, sub:"meaning",
          why:{pt:"Job é contável; work é incontável.", en:"Job is countable; work is uncountable."}},
         {q:"Thank you very ___!", o:["much","many","lot"], a:0, sub:"much",
-         why:{pt:"Expressão fixa: thank you very much.", en:"Fixed phrase: thank you very much."}}
+         why:{pt:"Expressão fixa: thank you very much.", en:"Fixed phrase: thank you very much."}},
+        {q:"\"Gosto muito desta música.\" → I like this song ___.", o:["a lot","very","much a lot"], a:0, sub:"a lot",
+         why:{pt:"Muito com verbo: a lot ou very much, no fim.", en:"Muito with a verb: a lot or very much, at the end."}},
+        {q:"Your English is ___ better than last year!", o:["much","very","many"], a:0, sub:"much",
+         why:{pt:"Muito + comparativo: much (ou a lot), não very.", en:"Muito + comparative: much (or a lot), not very."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Shopping List", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. Tap a blank and choose an option."},

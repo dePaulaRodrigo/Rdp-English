@@ -1931,7 +1931,7 @@ const CATALOG = [
    "news",
    "at the supermarket"
   ],
-  "v": "a71d683a",
+  "v": "faddf957",
   "exercises": [
    {
     "id": "mc-easy",
@@ -1942,7 +1942,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -2260,7 +2260,7 @@ const CATALOG = [
    "to = para",
    "hobbies"
   ],
-  "v": "38c4b338",
+  "v": "1ab43516",
   "exercises": [
    {
     "id": "mc-easy",
@@ -2271,7 +2271,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 17
    },
    {
     "id": "dialogue-medium",
