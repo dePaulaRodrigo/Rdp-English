@@ -43,6 +43,12 @@ pt:`
       <li>Antes de substantivo → posse: my brother's car</li>
       <li>Antes de adjetivo, -ing, lugar ou artigo → is: my brother's nice<br>my brother's working<br>my brother's a doctor</li>
       <li>Antes de <i>got</i> ou de particípio → has: my brother's got two kids<br>my brother's been to Japan</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Não traduza "a casa da Maria" palavra por palavra.</b> Com pessoas, use o 's: <b>Maria's house</b>. (<s>the house of Maria</s>)</li>
+      <li><b>O dono não leva artigo antes do 's</b> quando é nome próprio: <b>Pedro's</b> car. (<s>the Pedro's car</s>) Com substantivo comum, o artigo é do dono: <b>the</b> teacher's car (o carro do professor).</li>
+      <li><b>Its, de coisa, não tem apóstrofo</b>: The company changed <b>its</b> name. (<i>it's</i> = it is)</li>
     </ul>`,
 en:`
     <h2>Possessive 's</h2>
@@ -83,6 +89,12 @@ en:`
       <li>Before a noun → possession: my brother's car</li>
       <li>Before an adjective, -ing, a place or an article → is: my brother's nice<br>my brother's working<br>my brother's a doctor</li>
       <li>Before <i>got</i> or a past participle → has: my brother's got two kids<br>my brother's been to Japan</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Don't translate "a casa da Maria" word for word.</b> With people, use 's: <b>Maria's house</b>. (<s>the house of Maria</s>)</li>
+      <li><b>A name takes no article before 's</b>: <b>Pedro's</b> car. (<s>the Pedro's car</s>) With a common noun, the article belongs to the owner: <b>the</b> teacher's car.</li>
+      <li><b>Its, for things, has no apostrophe</b>: The company changed <b>its</b> name. (<i>it's</i> = it is)</li>
     </ul>`
   },
   vocab:{
@@ -178,7 +190,7 @@ en:`
         {q:"In 1705, Edmond Halley predicted the comet's return. → ___ Comet", o:["Halley's","Halleys","Halley"], a:0, sub:"singular 's",
          why:{pt:"Nomes de descobertas costumam levar 's.", en:"Names of discoveries often take 's."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — possession, is and has", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — possession, is and has", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I spent the weekend at my ___. She has a house on the beach.", o:["aunt's","aunt","aunts"], a:0, sub:"'s without noun",
@@ -212,7 +224,9 @@ en:`
         {q:"\"Is this your umbrella?\" — \"No, it's my ___.\"", o:["husband's","husband","husbands'"], a:0, sub:"'s without noun",
          why:{pt:"O 's pode aparecer sem o substantivo, quando ele já foi dito.", en:"'s can stand without the noun when it has already been mentioned."}},
         {q:"He's been to Japan twice. → Here, He's = ___", o:["He has","He is","His"], a:0, sub:"'s = has",
-         why:{pt:"Antes de particípio (been), 's é has.", en:"Before a past participle (been), 's is has."}}
+         why:{pt:"Antes de particípio (been), 's é has.", en:"Before a past participle (been), 's is has."}},
+        {q:"\"Fomos à casa da Maria ontem.\" → We went to ___ yesterday.", o:["Maria's house","the house of Maria","the Maria's house"], a:0, sub:"singular 's",
+         why:{pt:"Com pessoas, use o 's, sem artigo antes do nome.", en:"With people, use 's, with no article before the name."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Family Tree", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma de posse da palavra entre parênteses. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue with the possessive form of the word in parentheses. Tap a blank and choose an option."},

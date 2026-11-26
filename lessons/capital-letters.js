@@ -29,6 +29,20 @@ pt:`
       <li>I am from <b>Brazil</b>. I am <b>Brazilian</b>.</li>
       <li>John is from <b>England</b>. He is <b>English</b>.</li>
     </ul>
+    <h3>Nacionalidade × idioma</h3>
+    <p>Em geral, o idioma tem o mesmo nome da nacionalidade: Japanese, Italian, German. Quando não tem, cuidado:</p>
+    <table>
+      <tr><th>País</th><th>Nacionalidade</th><th>Idioma</th></tr>
+      <tr><td>Brazil</td><td>Brazilian</td><td>Portuguese</td></tr>
+      <tr><td>USA</td><td>American</td><td>English</td></tr>
+      <tr><td>Mexico</td><td>Mexican</td><td>Spanish</td></tr>
+      <tr><td>Argentina</td><td>Argentinian</td><td>Spanish</td></tr>
+    </table>
+    <ul>
+      <li>I'm <b>Brazilian</b>, so I speak <b>Portuguese</b>. (<s>I speak Brazilian</s>)</li>
+      <li>My neighbor is <b>Mexican</b>. She speaks <b>Spanish</b> and English.</li>
+    </ul>
+    <p>A nacionalidade também pode ser substantivo, e a maiúscula continua: She is a <b>Brazilian</b>. Many <b>Brazilians</b> live in Portugal. As terminadas em -ESE ou -CH não vão para o plural; usa-se THE: the <b>Japanese</b>, the <b>French</b>.</p>
     <h3>Outros casos</h3>
     <ul>
       <li><b>eu → I</b>, sempre maiúsculo: <i>I think I am right.</i></li>
@@ -50,7 +64,14 @@ pt:`
       <li><b>siglas</b>: USA, NASA, CEO. Exceção: a.m. e p.m.</li>
       <li><b>nacionalidade como substantivo</b>: a Brazilian, the Japanese</li>
     </ul>
-    <p class="note">As estações do ano <b>não</b> levam maiúscula: summer, winter, spring, fall. Matérias escolares também não, exceto os idiomas: math, history, English. Pontos cardeais como direção ficam em minúscula: drive north.</p>`,
+    <p class="note">As estações do ano <b>não</b> levam maiúscula: summer, winter, spring, fall. Matérias escolares também não, exceto os idiomas: math, history, English. Pontos cardeais como direção ficam em minúscula: drive north.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Nacionalidade é maiúscula mesmo como adjetivo</b>, ao contrário do português: <b>Brazilian</b> food, an <b>Italian</b> restaurant. (<s>brazilian food</s>)</li>
+      <li><b>Meses e dias levam maiúscula; estações, não</b>: My birthday is in <b>July</b>, in the winter. (<s>in july, in the Winter</s>)</li>
+      <li><b>I é sempre maiúsculo</b>, mesmo no meio da frase: Yesterday <b>I</b> called my mom. (<s>yesterday i called</s>)</li>
+      <li><b>O idioma como matéria</b> continua maiúsculo; as outras matérias, não: I have <b>English</b> and math today.</li>
+    </ul>`,
 en:`
     <h2>Capital letters</h2>
     <p>Portuguese uses lowercase letters for many words that English writes with a capital letter.</p>
@@ -76,6 +97,20 @@ en:`
       <li>I am from <b>Brazil</b>. I am <b>Brazilian</b>.</li>
       <li>John is from <b>England</b>. He is <b>English</b>.</li>
     </ul>
+    <h3>Nationality × language</h3>
+    <p>The language usually has the same name as the nationality: Japanese, Italian, German. When it doesn't, be careful:</p>
+    <table>
+      <tr><th>Country</th><th>Nationality</th><th>Language</th></tr>
+      <tr><td>Brazil</td><td>Brazilian</td><td>Portuguese</td></tr>
+      <tr><td>USA</td><td>American</td><td>English</td></tr>
+      <tr><td>Mexico</td><td>Mexican</td><td>Spanish</td></tr>
+      <tr><td>Argentina</td><td>Argentinian</td><td>Spanish</td></tr>
+    </table>
+    <ul>
+      <li>I'm <b>Brazilian</b>, so I speak <b>Portuguese</b>. (<s>I speak Brazilian</s>)</li>
+      <li>My neighbor is <b>Mexican</b>. She speaks <b>Spanish</b> and English.</li>
+    </ul>
+    <p>A nationality can also be a noun, and it keeps the capital letter: She is a <b>Brazilian</b>. Many <b>Brazilians</b> live in Portugal. Those ending in -ESE or -CH have no plural; use THE: the <b>Japanese</b>, the <b>French</b>.</p>
     <h3>Other cases</h3>
     <ul>
       <li><b>I</b> (the pronoun) is always a capital letter: <i>I think I am right.</i></li>
@@ -97,7 +132,14 @@ en:`
       <li><b>abbreviations</b>: USA, NASA, CEO. Exception: a.m. and p.m.</li>
       <li><b>nationalities as nouns</b>: a Brazilian, the Japanese</li>
     </ul>
-    <p class="note">The seasons do <b>not</b> take a capital letter: summer, winter, spring, fall. Neither do school subjects, except languages: math, history, English. Compass directions are lowercase: drive north.</p>`
+    <p class="note">The seasons do <b>not</b> take a capital letter: summer, winter, spring, fall. Neither do school subjects, except languages: math, history, English. Compass directions are lowercase: drive north.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Nationalities are capitalized even as adjectives</b>: <b>Brazilian</b> food, an <b>Italian</b> restaurant. (<s>brazilian food</s>)</li>
+      <li><b>Months and days take capitals; seasons don't</b>: My birthday is in <b>July</b>, in the winter. (<s>in july, in the Winter</s>)</li>
+      <li><b>I is always capitalized</b>, even in the middle of a sentence: Yesterday <b>I</b> called my mom. (<s>yesterday i called</s>)</li>
+      <li><b>A language as a school subject</b> keeps its capital; other subjects don't: I have <b>English</b> and math today.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -260,7 +302,7 @@ en:`
         {q:"We go to church on ___.", o:["Sundays","sundays"], a:0, sub:"days",
          why:{pt:"Dias da semana levam maiúscula, também no plural.", en:"Days of the week take a capital letter, in the plural too."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — hard", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — hard", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas. Cada opção tem várias palavras: confira todas.", en:"Choose the correct option for every item, then tap Corrigir respostas. Each option has several words: check all of them."},
       items:[
         {q:"My cousin moved to ___ last year.", o:["toronto, canada","Toronto, Canada","Toronto, canada","toronto, Canada"], a:1, sub:"cities; countries",
@@ -292,7 +334,11 @@ en:`
         {q:"My friends from ___ love Brazilian music.", o:["Mexico and Chile","mexico and chile","Mexico and chile","mexico and Chile"], a:0, sub:"countries",
          why:{pt:"Países levam maiúscula.", en:"Countries take a capital letter."}},
         {q:"Choose the correct sentence: ___", o:["Sofia is Italian, but she lives in London.","Sofia is italian, but she lives in London.","Sofia is Italian, but she lives in london.","sofia is Italian, but she lives in London."], a:0, sub:"names; nationality; cities",
-         why:{pt:"Nomes de pessoas, nacionalidades e cidades levam maiúscula.", en:"Names of people, nationalities and cities take capital letters."}}
+         why:{pt:"Nomes de pessoas, nacionalidades e cidades levam maiúscula.", en:"Names of people, nationalities and cities take capital letters."}},
+        {q:"I'm from Recife, so I speak ___.", o:["Portuguese","Brazilian","portuguese","brazilian"], a:0, sub:"languages",
+         why:{pt:"O idioma do Brasil é o Portuguese, com maiúscula. Brazilian é a nacionalidade.", en:"Brazil's language is Portuguese, with a capital letter. Brazilian is the nationality."}},
+        {q:"Today I have ___ at school.", o:["English and math","english and math","English and Math","english and Math"], a:0, sub:"languages",
+         why:{pt:"Idiomas levam maiúscula, também como matéria; as outras matérias, não.", en:"Languages are capitalized, also as school subjects; other subjects aren't."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: First Day of Class", type:"gap", layout:"dialogue", caseSensitive:true,
       instructions:{pt:"Complete o diálogo. Toque em uma lacuna e escolha a forma correta: com ou sem maiúscula.", en:"Complete the dialogue. Tap a blank and choose the correct form: with or without a capital letter."},

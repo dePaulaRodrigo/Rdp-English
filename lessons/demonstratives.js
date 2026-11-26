@@ -50,7 +50,14 @@ pt:`
       <tr><td>That's why…<br>That's how…</td><td>É por isso que…<br>É assim que…</td></tr>
       <tr><td>That's where she lives.</td><td>É lá que ela mora.</td></tr>
       <tr><td>This is it!</td><td>É agora!<br>É este!</td></tr>
-    </table>`,
+    </table>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O demonstrativo concorda em número com o substantivo</b>, inclusive com as palavras que em inglês são sempre plurais: <b>these</b> jeans, <b>those</b> pants, <b>these</b> scissors, <b>those</b> glasses (óculos). (<s>this jeans</s>, <s>that pants</s>)</li>
+      <li><b>People é plural</b>: <b>These</b> people are my neighbors. (<s>This people is</s>)</li>
+      <li><b>THIS / THESE não são a mesma palavra com sotaque diferente.</b> Alongue o I do plural: <i>these</i> /ðiːz/. Com o I curto, o ouvinte entende <i>this</i>.</li>
+      <li><b>Ao telefone, não use I AM para se apresentar</b>: Hi, <b>this is</b> Ana. Na mensagem de voz ou no e-mail, também: <i>This is</i> Ana from the bank.</li>
+    </ul>`,
 en:`
     <h2>Demonstratives</h2>
     <table>
@@ -93,7 +100,14 @@ en:`
       <tr><td>That's why…<br>That's how…</td><td>This is the reason…<br>This is the way…</td></tr>
       <tr><td>That's where she lives.</td><td>She lives in that place.</td></tr>
       <tr><td>This is it!</td><td>This is the moment!<br>This is the one!</td></tr>
-    </table>`
+    </table>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>The demonstrative agrees in number with the noun</b>, including words that are always plural in English: <b>these</b> jeans, <b>those</b> pants, <b>these</b> scissors, <b>those</b> glasses. (<s>this jeans</s>, <s>that pants</s>)</li>
+      <li><b>People is plural</b>: <b>These</b> people are my neighbors. (<s>This people is</s>)</li>
+      <li><b>THIS and THESE are different words.</b> Make the I in the plural long: <i>these</i> /ðiːz/. With a short I, the listener hears <i>this</i>.</li>
+      <li><b>On the phone, don't introduce yourself with I AM</b>: Hi, <b>this is</b> Ana. In voicemails and emails, too: <i>This is</i> Ana from the bank.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -176,7 +190,7 @@ en:`
         {q:"(na loja, ao ver o vestido) ___ is it! The perfect dress!", o:["This","These","Those"], a:0, sub:"expressions",
          why:{pt:"Expressão fixa: this is it.", en:"Fixed expression: this is it."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — demonstratives in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — demonstratives in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"___ cookies you baked last weekend were delicious.", o:["Those","These","This"], a:0, sub:"time",
@@ -210,7 +224,11 @@ en:`
         {q:"You fold the paper twice, then turn it. That's ___ you do it!", o:["how","what","where"], a:0, sub:"expressions",
          why:{pt:"That's how = é assim que.", en:"That's how = that is the way."}},
         {q:"\"$200 for this coat?\" — \"Relax, it's not ___ expensive. It's real wool.\"", o:["that","those","these"], a:0, sub:"that = so",
-         why:{pt:"Na fala, that pode significar tão.", en:"In speech, that can mean so."}}
+         why:{pt:"Na fala, that pode significar tão.", en:"In speech, that can mean so."}},
+        {q:"I love ___ jeans. Where did you buy them?", o:["those","that","this"], a:0, sub:"far / plural",
+         why:{pt:"Jeans é plural em inglês: these ou those.", en:"Jeans is plural in English: these or those."}},
+        {q:"___ people over there are waiting for the bus.", o:["Those","That","This"], a:0, sub:"far / plural",
+         why:{pt:"People é plural, e estão longe: those.", en:"People is plural, and they are far: those."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: A Gift for Dad", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com this, that, these, those, this one ou that one. Preste atenção a quem está perto de cada coisa.", en:"Complete the dialogue with this, that, these, those, this one or that one. Pay attention to who is near each thing."},

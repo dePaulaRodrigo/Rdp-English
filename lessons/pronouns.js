@@ -53,7 +53,14 @@ pt:`
       <tr><td>your<br>you're</td><td>seu<br>you are</td></tr>
       <tr><td>here<br>hear</td><td>aqui<br>ouvir</td></tr>
     </table>
-    <p class="note">Truque: se der para trocar por <i>it is</i>, <i>they are</i> ou <i>you are</i>, é com apóstrofo.</p>`,
+    <p class="note">Truque: se der para trocar por <i>it is</i>, <i>they are</i> ou <i>you are</i>, é com apóstrofo.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>HIS e HER concordam com o dono, não com a coisa.</b> Em português, "sua irmã" concorda com irmã; em inglês, vale quem é o dono: Paulo visited <b>his</b> sister. (<s>Paulo visited her sister</s>) Ana called <b>her</b> brother. (<s>Ana called his brother</s>)</li>
+      <li><b>Sujeito com outra pessoa: I, não ME.</b> My friend and <b>I</b> went to the beach. (<s>Me and my friend went</s>) Teste: tire "my friend" e veja se a frase fica de pé: <i>I went</i>.</li>
+      <li><b>Nunca comece sem sujeito</b>, nem com o tempo ou a distância: <b>It</b>'s hot today. <b>It</b> takes two hours. (<s>Is hot today</s>, <s>Takes two hours</s>)</li>
+      <li><b>Coisa é IT, mesmo que em português seja "ele" ou "ela"</b>: "A mesa é nova; ela é de madeira." → The table is new. <b>It</b>'s made of wood. (<s>She's made of wood</s>)</li>
+    </ul>`,
 en:`
     <h2>Personal pronouns and possessive adjectives</h2>
     <table>
@@ -103,7 +110,14 @@ en:`
       <tr><td>your<br>you're</td><td>belonging to you<br>you are</td></tr>
       <tr><td>here<br>hear</td><td>in this place<br>to perceive sound</td></tr>
     </table>
-    <p class="note">Tip: if you can replace it with <i>it is</i>, <i>they are</i> or <i>you are</i>, use the apostrophe.</p>`
+    <p class="note">Tip: if you can replace it with <i>it is</i>, <i>they are</i> or <i>you are</i>, use the apostrophe.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>HIS and HER agree with the owner, not the thing.</b> Paulo visited <b>his</b> sister. (<s>Paulo visited her sister</s>) Ana called <b>her</b> brother. (<s>Ana called his brother</s>)</li>
+      <li><b>A subject with another person: I, not ME.</b> My friend and <b>I</b> went to the beach. (<s>Me and my friend went</s>) Test: remove "my friend" and see if it still works: <i>I went</i>.</li>
+      <li><b>Never start without a subject</b>, not even for weather or distance: <b>It</b>'s hot today. <b>It</b> takes two hours. (<s>Is hot today</s>, <s>Takes two hours</s>)</li>
+      <li><b>Things are IT</b>, even when Portuguese uses "ele" or "ela": The table is new. <b>It</b>'s made of wood. (<s>She's made of wood</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -190,7 +204,7 @@ en:`
         {q:"Do you ___ that noise?", o:["hear","here","her"], a:0, sub:"here / hear",
          why:{pt:"Hear é ouvir; here é aqui.", en:"Hear is the verb; here is a place."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — pronouns in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — pronouns in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Está frio hoje.\" → ___ cold today.", o:["It's","Is","Its"], a:0, sub:"dummy it",
@@ -224,7 +238,13 @@ en:`
         {q:"My cousins are coming? Tell ___ I said hi!", o:["them","they","their"], a:0, sub:"object",
          why:{pt:"Depois do verbo, usa-se o objeto.", en:"After the verb, use the object form."}},
         {q:"\"Ela nos convidou para o casamento.\" → She invited ___ to the wedding.", o:["us","we","our"], a:0, sub:"word order",
-         why:{pt:"O objeto vem depois do verbo.", en:"The object comes after the verb."}}
+         why:{pt:"O objeto vem depois do verbo.", en:"The object comes after the verb."}},
+        {q:"Paulo is in Curitiba this week. He's visiting ___ sister.", o:["his","her","its"], a:0, sub:"possessive",
+         why:{pt:"O possessivo concorda com o dono (Paulo): his.", en:"The possessive agrees with the owner (Paulo): his."}},
+        {q:"My cousin and ___ went to the beach last weekend.", o:["I","me","my"], a:0, sub:"subject",
+         why:{pt:"Sujeito: I. Teste: I went to the beach.", en:"Subject: I. Test: I went to the beach."}},
+        {q:"\"A mesa é nova. Ela é de madeira.\" → The table is new. ___ made of wood.", o:["It's","She's","Is"], a:0, sub:"subject",
+         why:{pt:"Coisa: it. E o sujeito é obrigatório.", en:"A thing: it. And the subject is required."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Family Photos", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com o pronome ou o possessivo correto. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with the correct pronoun or possessive. Tap a blank and choose the word."},

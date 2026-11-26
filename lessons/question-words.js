@@ -43,7 +43,21 @@ pt:`
     <p>Where are you <b>from</b>?<br>What are you talking <b>about</b>?<br>Who is the gift <b>for</b>?</p>
     <h3>Pergunta indireta</h3>
     <p>Depois de <i>Could you tell me…</i> ou <i>Do you know…</i>, volta a ordem normal: Could you tell me where <b>the station is</b>? (<s>where is the station</s>)</p>
-    <p class="note">Sugestões: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>`,
+    <p class="note">Sugestões: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>
+    <h3>Cuidado</h3>
+    <p>Algumas perguntas comuns não se traduzem palavra por palavra:</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>Qual é o seu nome?</td><td>What's your name?</td><td><s>Which is your name?</s></td></tr>
+      <tr><td>Quantos anos você tem?</td><td>How old are you?</td><td><s>How many years do you have?</s></td></tr>
+      <tr><td>Como se diz "saudade" em inglês?</td><td>How do you say "saudade" in English?</td><td><s>How do you call…?</s></td></tr>
+      <tr><td>Como se chama isto?</td><td>What do you call this?</td><td><s>How do you call this?</s></td></tr>
+      <tr><td>Qual é a diferença?</td><td>What's the difference?</td><td><s>Which is the difference?</s></td></tr>
+    </table>
+    <ul>
+      <li><b>"Qual" só vira WHICH quando há opções conhecidas</b>: <b>Which</b> bus goes downtown, the 15 or the 22? Sem opções à vista, é WHAT.</li>
+      <li><b>WHY pergunta; BECAUSE responde.</b> São palavras diferentes, ao contrário de "por que" e "porque": <b>Why</b> are you late? — <b>Because</b> the bus broke down.</li>
+    </ul>`,
 en:`
     <h2>Question words</h2>
     <table>
@@ -83,7 +97,21 @@ en:`
     <p>Where are you <b>from</b>?<br>What are you talking <b>about</b>?<br>Who is the gift <b>for</b>?</p>
     <h3>Indirect questions</h3>
     <p>After <i>Could you tell me…</i> or <i>Do you know…</i>, use normal word order: Could you tell me where <b>the station is</b>? (<s>where is the station</s>)</p>
-    <p class="note">Suggestions: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>`
+    <p class="note">Suggestions: <b>Why don't we</b> take a taxi?<br><b>What about</b> / <b>How about</b> a pizza tonight?</p>
+    <h3>Careful</h3>
+    <p>Some common questions can't be translated word for word from Portuguese:</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>Qual é o seu nome?</td><td>What's your name?</td><td><s>Which is your name?</s></td></tr>
+      <tr><td>Quantos anos você tem?</td><td>How old are you?</td><td><s>How many years do you have?</s></td></tr>
+      <tr><td>Como se diz "saudade" em inglês?</td><td>How do you say "saudade" in English?</td><td><s>How do you call…?</s></td></tr>
+      <tr><td>Como se chama isto?</td><td>What do you call this?</td><td><s>How do you call this?</s></td></tr>
+      <tr><td>Qual é a diferença?</td><td>What's the difference?</td><td><s>Which is the difference?</s></td></tr>
+    </table>
+    <ul>
+      <li><b>"Qual" becomes WHICH only with known options</b>: <b>Which</b> bus goes downtown, the 15 or the 22? With no options in view, use WHAT.</li>
+      <li><b>WHY asks; BECAUSE answers.</b> They are different words: <b>Why</b> are you late? — <b>Because</b> the bus broke down.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -160,7 +188,7 @@ en:`
         {q:"\"___ is your hometown like?\" — \"Small and quiet.\"", o:["What","How","Which"], a:0, sub:"what… like",
          why:{pt:"Características: What… like?", en:"Characteristics: What… like?"}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — building questions", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — building questions", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Como é a sua cidade?\" → ___", o:["What's your city like?","How is your city?","How's your city like?"], a:0, sub:"what… like",
@@ -194,7 +222,13 @@ en:`
         {q:"___ about a pizza tonight?", o:["What","Why","Where"], a:0, sub:"suggestions",
          why:{pt:"Sugestão: What about… ou How about…?", en:"Suggestion: What about… or How about…?"}},
         {q:"Who is this beautiful gift ___?", o:["for","to","of"], a:0, sub:"prepositions at the end",
-         why:{pt:"Para quem: who… for, com a preposição no fim.", en:"Who… for, with the preposition at the end."}}
+         why:{pt:"Para quem: who… for, com a preposição no fim.", en:"Who… for, with the preposition at the end."}},
+        {q:"\"Qual é o seu nome?\" → ___ your name?", o:["What's","Which is","How is"], a:0, sub:"what / which",
+         why:{pt:"Sem opções à vista: what.", en:"No options in view: what."}},
+        {q:"\"Quantos anos o seu filho tem?\" → ___ your son?", o:["How old is","How many years has","How many years does"], a:0, sub:"how + adjective",
+         why:{pt:"Idade: how old + to be.", en:"Age: how old + to be."}},
+        {q:"\"Como se chama isto em inglês?\" → ___ this in English?", o:["What do you call","How do you call","How is called"], a:0, sub:"wh-words",
+         why:{pt:"Para o nome de algo: what do you call…? Para uma palavra: how do you say…?", en:"For the name of something: what do you call…? For a word: how do you say…?"}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Meeting at a Party", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a palavra interrogativa correta. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with the correct question word. Tap a blank and choose the word."},

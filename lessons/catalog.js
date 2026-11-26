@@ -17,7 +17,7 @@ const CATALOG = [
    "days and months",
    "travel"
   ],
-  "v": "3ab9df8a",
+  "v": "e04dcd83",
   "exercises": [
    {
     "id": "mc-easy",
@@ -28,7 +28,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 15
+    "n": 17
    },
    {
     "id": "dialogue-medium",
@@ -149,7 +149,7 @@ const CATALOG = [
    "neighborhood",
    "directions"
   ],
-  "v": "064c4ac1",
+  "v": "a42169fe",
   "exercises": [
    {
     "id": "mc-easy",
@@ -160,7 +160,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",
@@ -192,7 +192,7 @@ const CATALOG = [
    "it's",
    "family"
   ],
-  "v": "f1fe4b16",
+  "v": "5b90880f",
   "exercises": [
    {
     "id": "mc-easy",
@@ -203,7 +203,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",
@@ -233,7 +233,7 @@ const CATALOG = [
    "family tree",
    "belongings"
   ],
-  "v": "86c2a579",
+  "v": "ba39a099",
   "exercises": [
    {
     "id": "mc-easy",
@@ -244,7 +244,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 17
    },
    {
     "id": "dialogue-medium",
@@ -276,7 +276,7 @@ const CATALOG = [
    "one",
    "shopping"
   ],
-  "v": "021e67fb",
+  "v": "44244263",
   "exercises": [
    {
     "id": "mc-easy",
@@ -287,7 +287,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 18
    },
    {
     "id": "dialogue-medium",
@@ -406,7 +406,7 @@ const CATALOG = [
    "subject questions",
    "meeting people"
   ],
-  "v": "3ba615b3",
+  "v": "fe7d1bbe",
   "exercises": [
    {
     "id": "mc-easy",
@@ -417,7 +417,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",

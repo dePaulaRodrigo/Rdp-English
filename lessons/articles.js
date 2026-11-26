@@ -48,7 +48,16 @@ pt:`
     </ul>
     <p class="note">Compare: <i>We go to church on Sundays</i> (para a missa) × <i>The church on our street is old</i> (o prédio). <i>Home</i> não leva artigo nem <i>to</i>: I'm going home. No inglês americano, <i>hospital</i> leva artigo: She is in <b>the</b> hospital.</p>
     <h3>Preposição + artigo</h3>
-    <p>O português junta preposição e artigo; o inglês mantém separados: na → in the / on the<br>da → of the<br>num → in a. "O melhor do mundo" → the best <b>in the</b> world.</p>`,
+    <p>O português junta preposição e artigo; o inglês mantém separados: na → in the / on the<br>da → of the<br>num → in a. "O melhor do mundo" → the best <b>in the</b> world.</p>
+    <h3>Cuidado</h3>
+    <p>Os erros mais comuns de brasileiros vêm de traduzir o artigo do português:</p>
+    <ul>
+      <li><b>Ideia em geral não leva THE</b>, mesmo quando o português usa artigo: I love <b>music</b>. <b>Coffee</b> is popular in Brazil. (<s>I love the music</s>, <s>The coffee is popular</s>) Com THE, fala-se de algo específico: <b>The coffee</b> at this bakery is great.</li>
+      <li><b>Nome de pessoa não leva artigo</b>: I talked to <b>Ana</b> yesterday. (<s>I talked to the Ana</s>)</li>
+      <li><b>Possessivo não leva artigo</b>: <b>My</b> car is old. (<s>The my car</s>)</li>
+      <li><b>Profissão leva A / AN</b>: My brother is <b>an</b> engineer. (<s>My brother is engineer</s>)</li>
+      <li><b>A / AN não vai com incontáveis nem com plurais</b>: I need <b>some</b> advice. They are <b>doctors</b>. (<s>an advice</s>, <s>a doctors</s>)</li>
+    </ul>`,
 en:`
     <h2>Articles</h2>
     <ul>
@@ -93,7 +102,16 @@ en:`
     </ul>
     <p class="note">Compare: <i>We go to church on Sundays</i> (for Mass) × <i>The church on our street is old</i> (the building). <i>Home</i> takes no article and no <i>to</i>: I'm going home. In American English, <i>hospital</i> takes the article: She is in <b>the</b> hospital.</p>
     <h3>Preposition + article</h3>
-    <p>Portuguese merges prepositions and articles; English keeps them apart: in the<br>on the<br>of the<br>in a. The best <b>in the</b> world.</p>`
+    <p>Portuguese merges prepositions and articles; English keeps them apart: in the<br>on the<br>of the<br>in a. The best <b>in the</b> world.</p>
+    <h3>Careful</h3>
+    <p>The most common mistakes come from translating the Portuguese article:</p>
+    <ul>
+      <li><b>Ideas in general take no THE</b>: I love <b>music</b>. <b>Coffee</b> is popular in Brazil. (<s>I love the music</s>, <s>The coffee is popular</s>) With THE, it's something specific: <b>The coffee</b> at this bakery is great.</li>
+      <li><b>People's names take no article</b>: I talked to <b>Ana</b> yesterday. (<s>I talked to the Ana</s>)</li>
+      <li><b>Possessives take no article</b>: <b>My</b> car is old. (<s>The my car</s>)</li>
+      <li><b>Jobs take A / AN</b>: My brother is <b>an</b> engineer. (<s>My brother is engineer</s>)</li>
+      <li><b>A / AN never goes with uncountables or plurals</b>: I need <b>some</b> advice. They are <b>doctors</b>. (<s>an advice</s>, <s>a doctors</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -200,7 +218,7 @@ en:`
         {q:"Excuse me, where is ___ nearest bus stop?", o:["a","an","the","—"], a:2, sub:"superlatives",
          why:{pt:"Superlativos levam the.", en:"Superlatives take the."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — articles in the city", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — articles in the city", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas. O traço (—) significa sem artigo.", en:"Choose the correct option for every item, then tap Corrigir respostas. The dash (—) means no article."},
       items:[
         {q:"I bought a map of the city. ___ map shows all the museums.", o:["The","A","—"], a:0, sub:"second mention",
@@ -234,7 +252,13 @@ en:`
         {q:"I'm reading a book about ___ history of New York.", o:["the","—","a"], a:0, sub:"general ideas",
          why:{pt:"Ideia delimitada (of New York) leva the.", en:"A limited idea (of New York) takes the."}},
         {q:"I don't have ___ car, so I take the subway.", o:["a","—","the"], a:0, sub:"singular countable",
-         why:{pt:"Contável no singular nunca fica sozinho.", en:"A singular countable noun never stands alone."}}
+         why:{pt:"Contável no singular nunca fica sozinho.", en:"A singular countable noun never stands alone."}},
+        {q:"I love ___ music, especially jazz.", o:["—","the","a"], a:0, sub:"general ideas",
+         why:{pt:"Ideia em geral: sem artigo.", en:"An idea in general: no article."}},
+        {q:"___ coffee at this bakery is the best on the street.", o:["The","—","A"], a:0, sub:"specific",
+         why:{pt:"Café específico (o desta padaria): THE.", en:"Specific coffee (at this bakery): THE."}},
+        {q:"Can you give me ___ advice about my trip?", o:["some","an","a"], a:0, sub:"a / an",
+         why:{pt:"Advice é incontável: não leva A / AN.", en:"Advice is uncountable: no A / AN."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Directions in New York", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a, an, the ou — (sem artigo). Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue with a, an, the or — (no article). Tap a blank and choose an option."},
