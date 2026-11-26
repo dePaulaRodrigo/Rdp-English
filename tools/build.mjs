@@ -98,7 +98,7 @@ for (const f of files) {
     const have = audioOf(L.id, ex.id);
     let rows = [];
     if (ex.type === "gap" && ex.layout === "dialogue")
-      rows = ex.lines.map(([sp, line], i) => [i + 1, sp, line.replace(/\[\[(\d+)\]\]/g, (_, n) => ex.answers[n][0])]);
+      rows = ex.lines.map(([sp, line], i) => [i + 1, sp, line.replace(/\[\[(\d+)\]\]/g, (_, n) => ex.answers[n][0])]).filter(r => r[1]); // narração (sem personagem) não tem áudio
     else if (ex.listen) rows = ex.items.map((it, i) => [i + 1, "", it.say]);
     if (rows.length) script.push({ lesson: L.id, ex: ex.id, rows, have });
     ex._au = have;

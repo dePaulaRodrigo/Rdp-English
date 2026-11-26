@@ -3356,28 +3356,28 @@ const CATALOG = [
    "emails",
    "making plans"
   ],
-  "v": "6c38a1ad",
+  "v": "6932dc83",
   "exercises": [
    {
     "id": "mc-easy",
     "type": "mc",
-    "n": 10
+    "n": 20
    },
    {
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 10
+    "n": 20
    },
    {
     "id": "dialogue-medium",
     "type": "gap",
-    "n": 7
+    "n": 18
    },
    {
     "id": "dialogue-hard",
     "type": "gap",
-    "n": 6
+    "n": 17
    }
   ]
  },

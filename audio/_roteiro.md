@@ -1993,17 +1993,26 @@ Salve cada áudio em `audio/<lição>/<arquivo>` (mp3) e rode `node tools/build.
 | dialogue-hard-16.mp3 | Nina | Then pottery is perfect. Your hands are busy, so you relax completely. |  |
 | dialogue-hard-17.mp3 | Lia | OK, you convinced me. Let's meet at the studio on Saturday. |  |
 
-## register › dialogue-hard  (0/7)
+## register › dialogue-hard  (0/16)
 
 | Arquivo | Voz | Texto | Feito |
 | --- | --- | --- | --- |
-| dialogue-hard-1.mp3 | Lucas | Hey! Did you find out what time the barbecue starts? |  |
-| dialogue-hard-2.mp3 | Bia | Around 4. Can you buy some ice on the way? |  |
-| dialogue-hard-3.mp3 | Lucas | Sure. Do you need me to help with anything else? |  |
-| dialogue-hard-4.mp3 | Bia | Could you bring your speaker? Mine is broken. |  |
-| dialogue-hard-5.mp3 | Lucas | No problem. When does the game start? |  |
-| dialogue-hard-6.mp3 | Bia | At 6. Come early, OK? |  |
-| dialogue-hard-7.mp3 | Lucas | Great. I'll see you there! |  |
+| dialogue-hard-1.mp3 | Jake | Dude, did you find out what's on the exam? |  |
+| dialogue-hard-2.mp3 | Tom | Nope. I was gonna ask Professor Harris, but I keep forgetting. |  |
+| dialogue-hard-3.mp3 | Jake | You should. I'm totally freaking out about it. |  |
+| dialogue-hard-4.mp3 | Tom | Same. Do you want to meet up at the library tonight and study? |  |
+| dialogue-hard-5.mp3 | Jake | Sure. I'll grab some coffee on the way. |  |
+| dialogue-hard-6.mp3 | Tom | Cool. I've got to go now. Class starts in five. |  |
+| dialogue-hard-7.mp3 | Jake | OK, see you! |  |
+| dialogue-hard-9.mp3 | Prof. Harris | Good morning, Tom. I was hoping to see you. |  |
+| dialogue-hard-10.mp3 | Tom | Good morning, Professor Harris. I would like to ask you about the exam. |  |
+| dialogue-hard-11.mp3 | Prof. Harris | Certainly. What would you like to know? |  |
+| dialogue-hard-12.mp3 | Tom | Could you tell me which chapters it will cover? |  |
+| dialogue-hard-13.mp3 | Prof. Harris | It will cover chapters 4 to 7. I would also advise you to review your lecture notes carefully. |  |
+| dialogue-hard-14.mp3 | Tom | Thank you. Would it be possible to attend your office hours on Friday? |  |
+| dialogue-hard-15.mp3 | Prof. Harris | Of course. Please notify me by email beforehand. |  |
+| dialogue-hard-16.mp3 | Tom | I will. I really appreciate your help. |  |
+| dialogue-hard-17.mp3 | Prof. Harris | You are most welcome. I look forward to seeing you on Friday. |  |
 
 ## relative-clauses-2 › dialogue-medium  (0/13)
 

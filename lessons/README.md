@@ -38,6 +38,8 @@ Quatro exercícios, ids fixos: `mc-easy`, `mc-hard`, `dialogue-medium`, `dialogu
 - `type:"mc"`, `reveal:"end"` (opcional, usado no `mc-hard`): o aluno responde tudo e só vê a correção no final, com o botão Corrigir respostas.
 - `type:"mc"`: `items:[{q:"frase com ___", o:[opções], a:índice certo, why:"explicação", sub:"subponto"}]`
 - `type:"gap"`, `layout:"dialogue"` (`lines:[["Fala", "texto com [[1]]"]]`) ou `layout:"list"` (`lines:["texto com [[1]]"]`)
+  - No `dialogue`, uma fala com personagem vazio (`["", "Tom turns the corner..."]`) aparece como narração, em itálico e sem áudio.
+  - No `text`, uma linha que começa com `"## "` aparece como título de seção (ex.: dois textos no mesmo exercício, com o mesmo banco).
   - `answers:{1:["resposta principal","alternativa aceita"]}`, `why:{1:"..."}`
   - `opts` (opcional): `{1:["Certa","errada",...]}` — opções próprias de cada lacuna, mostradas em ordem embaralhada. O banco geral (`bank`) também aparece embaralhado; a ordem muda a cada "Apagar respostas".
     Use só quando as opções são variações da mesma palavra (ex.: Capital Letters: China / china). Nos diálogos de

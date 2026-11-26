@@ -119,6 +119,9 @@ input.code:focus{outline:2px solid var(--focus);border-color:transparent}
 .tin:focus{outline:none;border-color:var(--sel);background:var(--sel-soft)}
 .hint{font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--muted);margin-left:4px}
 .lines.text p{margin:0 0 12px;line-height:2}
+.lines p.narr{font-style:italic;color:var(--muted);margin:14px 0}
+.lines .tsub{font-size:16px;font-weight:600;margin:24px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+.lines .tsub:first-child{margin-top:0;padding-top:0;border-top:0}
 .tf{padding:10px 0 12px;border-top:1px solid var(--line)}
 .tf:first-child{border-top:0;padding-top:0}
 .tf .src{margin:0 0 6px}
@@ -1248,12 +1251,14 @@ function renderGap(l, ex){
     /* O áudio entrega as respostas, então só aparece depois da correção. */
     const au = p.checked ? auOf(l, ex) : [];
     if(au.length) html += `<button class="btn plain sm playall" id="playAll">${lt("playAll")}</button>`;
-    html += `<div class="lines" lang="en">${ex.lines.map(([sp,line],i)=> au.includes(i+1)
+    /* Fala sem personagem (sp vazio) = narração, em itálico e sem áudio. */
+    html += `<div class="lines" lang="en">${ex.lines.map(([sp,line],i)=> !sp ? `<p class="narr">${fill(line)}</p>` : au.includes(i+1)
       ? `<p class="au">${playBtn(i+1)}<span><span class="sp">${esc(sp)}:</span> ${fill(line)}</span></p>`
       : `<p><span class="sp">${esc(sp)}:</span> ${fill(line)}</p>`).join("")}</div>`;
   } else if(ex.layout==="text"){
     /* Texto corrido, sem numeração (ex.: open cloze). */
-    html += `<div class="lines text" lang="en">${ex.lines.map(line=>`<p>${fill(line)}</p>`).join("")}</div>`;
+    /* Linha que começa com "## " = título de seção (ex.: dois textos no mesmo exercício). */
+    html += `<div class="lines text" lang="en">${ex.lines.map(line=> line.startsWith("## ") ? `<h4 class="tsub">${esc(line.slice(3))}</h4>` : `<p>${fill(line)}</p>`).join("")}</div>`;
   } else if(ex.layout==="transform"){
     /* Reescrita com palavra-chave: frase original, palavra-chave e frase nova com a lacuna. */
     html += `<div class="lines" lang="en">${ex.lines.map((it,i)=>`<div class="tf"><p class="src"><span class="num muted">${i+1}.</span> ${esc(it.src)}</p><p class="key">${esc(it.key)}</p><p class="tgt">${fill(it.text)}</p></div>`).join("")}</div>`;
