@@ -43,6 +43,13 @@ pt:`
       <li>There are 26 states and one federal district in Brazil.</li>
       <li>In 1850, there were no cars in the streets of São Paulo.</li>
       <li>There must be a mistake. — Deve haver algum engano.</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Não existe THERE HAVE nem THERE HAS</b> no sentido de "tem": <b>There are</b> two banks on this street. (<s>There have two banks</s>) <i>There has been</i> e <i>there have been</i> existem, mas são o Present Perfect: There <b>has been</b> an accident.</li>
+      <li><b>"Tem que" não é There Be</b>, é obrigação: "Tem que pagar na entrada." → <b>You have to</b> pay at the entrance. (<s>There is to pay</s>)</li>
+      <li><b>O verbo concorda com o que existe</b>, não com o lugar: In my building, <b>there are</b> two elevators. (<s>there is two elevators</s>)</li>
+      <li><b>Quando a coisa já é conhecida, use IT</b>, não THERE: "Where's the bank?" — "<b>It's</b> on Main Street." (<s>There's on Main Street</s>)</li>
     </ul>`,
 en:`
     <h2>There Be</h2>
@@ -83,6 +90,13 @@ en:`
       <li>There are 26 states and one federal district in Brazil.</li>
       <li>In 1850, there were no cars in the streets of São Paulo.</li>
       <li>There must be a mistake.</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>There is no THERE HAVE or THERE HAS</b> meaning "tem": <b>There are</b> two banks on this street. (<s>There have two banks</s>) <i>There has been</i> and <i>there have been</i> exist, but they are the Present Perfect: There <b>has been</b> an accident.</li>
+      <li><b>"Tem que" is not There Be</b>, it's obligation: <b>You have to</b> pay at the entrance. (<s>There is to pay</s>)</li>
+      <li><b>The verb agrees with what exists</b>, not with the place: In my building, <b>there are</b> two elevators. (<s>there is two elevators</s>)</li>
+      <li><b>When the thing is already known, use IT</b>, not THERE: "Where's the bank?" — "<b>It's</b> on Main Street." (<s>There's on Main Street</s>)</li>
     </ul>`
   },
   vocab:{
@@ -174,7 +188,7 @@ en:`
         {q:"There ___ an accident on the highway this morning.", o:["was","were"], a:0, sub:"past",
          why:{pt:"Singular, no passado: there was.", en:"Singular, past: there was."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — there be in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — there be in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"There ___ 26 states and one federal district in Brazil.", o:["are","is"], a:0, sub:"is / are",
@@ -208,7 +222,11 @@ en:`
         {q:"There ___ always a long line at that bakery on Sundays.", o:["is","are"], a:0, sub:"is / are",
          why:{pt:"A long line é singular: there is.", en:"A long line is singular: there is."}},
         {q:"\"Não tem nada para comer.\" → ___ nothing to eat.", o:["There's","It has","Have"], a:0, sub:"there be / have",
-         why:{pt:"\"Tem\" no sentido de existir é there is.", en:"Existence: there is."}}
+         why:{pt:"\"Tem\" no sentido de existir é there is.", en:"Existence: there is."}},
+        {q:"\"Tem dois bancos nesta rua.\" → ___ two banks on this street.", o:["There are","There have","Have"], a:0, sub:"there be / have",
+         why:{pt:"Tem (existe) = there is / there are. There have não existe nesse sentido.", en:"Tem (exists) = there is / there are. There have doesn't exist with this meaning."}},
+        {q:"\"Tem que pagar na entrada.\" → ___ pay at the entrance.", o:["You have to","There is to","There has to"], a:0, sub:"there be / have",
+         why:{pt:"\"Tem que\" é obrigação: have to.", en:"\"Tem que\" is obligation: have to."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Apartment Hunting", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma correta do There Be. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue with the correct form of There Be. Tap a blank and choose an option."},

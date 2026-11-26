@@ -20,6 +20,14 @@ pt:`
       <li><b>Was she</b> nice?<br><b>Were they</b> at the party?<br>Where <b>were</b> you last weekend?</li>
       <li>"Were you at home?" — "Yes, I was." / "No, I wasn't."</li>
     </ul>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My parents were at home.</td></tr>
+      <tr><td>Negativa</td><td>My parents were not at home.<br>My parents weren't at home.</td></tr>
+      <tr><td>Pergunta</td><td>Were my parents at home?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Were my parents not at home?<br>Weren't my parents at home?</td></tr>
+    </table>
     <h3>Nascer = BE BORN</h3>
     <p>"Eu nasci em 1998." → I <b>was born</b> in 1998. (<s>I born</s><br><s>I am born</s>)<br>Where <b>were</b> you <b>born</b>?</p>
     <h3>Expressões de passado</h3>
@@ -35,7 +43,14 @@ pt:`
       <li>I <b>will be</b> there. = I'm going to be there.<br>I'll be 30 next year.</li>
       <li>Negativa: <b>won't be</b><br>Pergunta: <b>Will</b> you <b>be</b> at home tomorrow?</li>
     </ul>
-    <p class="note">Na fala, <i>was</i> e <i>were</i> soam fracos, quase /wəz/ e /wər/. Nas respostas curtas, soam fortes: Yes, I <b>was</b>.</p>`,
+    <p class="note">Na fala, <i>was</i> e <i>were</i> soam fracos, quase /wəz/ e /wər/. Nas respostas curtas, soam fortes: Yes, I <b>was</b>.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Nascer é sempre WAS / WERE BORN</b>: My daughter <b>was born</b> in May. (<s>My daughter born in May</s>, <s>My daughter is born in May</s>)</li>
+      <li><b>Na pergunta, o verbo vem antes do sujeito</b>, também com WH: Where <b>were you</b> born? (<s>Where you were born?</s>)</li>
+      <li><b>YOU é sempre WERE</b>, mesmo para uma pessoa só: <b>You were</b> right. (<s>You was right</s>)</li>
+      <li><b>Não junte WAS com DID</b>: <b>Was</b> it expensive? It <b>wasn't</b> expensive. (<s>Did it was expensive?</s>, <s>It didn't was</s>)</li>
+    </ul>`,
 en:`
     <h2>To Be in the past</h2>
     <table>
@@ -52,6 +67,14 @@ en:`
       <li><b>Was she</b> nice?<br><b>Were they</b> at the party?<br>Where <b>were</b> you last weekend?</li>
       <li>"Were you at home?" — "Yes, I was." / "No, I wasn't."</li>
     </ul>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My parents were at home.</td></tr>
+      <tr><td>Negative</td><td>My parents were not at home.<br>My parents weren't at home.</td></tr>
+      <tr><td>Question</td><td>Were my parents at home?</td></tr>
+      <tr><td>Negative question</td><td>Were my parents not at home?<br>Weren't my parents at home?</td></tr>
+    </table>
     <h3>BE BORN</h3>
     <p>I <b>was born</b> in 1998. (<s>I born</s><br><s>I am born</s>)<br>Where <b>were</b> you <b>born</b>?</p>
     <h3>Past time expressions</h3>
@@ -67,7 +90,14 @@ en:`
       <li>I <b>will be</b> there. = I'm going to be there.<br>I'll be 30 next year.</li>
       <li>Negative: <b>won't be</b><br>Question: <b>Will</b> you <b>be</b> at home tomorrow?</li>
     </ul>
-    <p class="note">In speech, <i>was</i> and <i>were</i> are usually weak, close to /wəz/ and /wər/. In short answers, they are strong: Yes, I <b>was</b>.</p>`
+    <p class="note">In speech, <i>was</i> and <i>were</i> are usually weak, close to /wəz/ and /wər/. In short answers, they are strong: Yes, I <b>was</b>.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>"To be born" is always WAS / WERE BORN</b>: My daughter <b>was born</b> in May. (<s>My daughter born in May</s>, <s>My daughter is born in May</s>)</li>
+      <li><b>In questions, the verb comes before the subject</b>, also after a WH-word: Where <b>were you</b> born? (<s>Where you were born?</s>)</li>
+      <li><b>YOU always takes WERE</b>, even for one person: <b>You were</b> right. (<s>You was right</s>)</li>
+      <li><b>Don't combine WAS with DID</b>: <b>Was</b> it expensive? It <b>wasn't</b> expensive. (<s>Did it was expensive?</s>, <s>It didn't was</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -156,7 +186,7 @@ en:`
         {q:"\"Vou fazer 30 anos no ano que vem.\" → I ___ 30 next year.", o:["will be","was","am be"], a:0, sub:"future",
          why:{pt:"Futuro do To Be: will be.", en:"Future of To Be: will be."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — past, born and future", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — past, born and future", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Eu nasci em Recife.\" → ___", o:["I was born in Recife.","I born in Recife.","I am born in Recife."], a:0, sub:"be born",
@@ -190,7 +220,13 @@ en:`
         {q:"The hike ___ easy, but the view was worth it.", o:["wasn't","weren't","didn't"], a:0, sub:"negative",
          why:{pt:"Negativa com sujeito no singular: wasn't.", en:"Negative with a singular subject: wasn't."}},
         {q:"___ you at work when I called?", o:["Were","Was","Did"], a:0, sub:"questions",
-         why:{pt:"Pergunta com you: were.", en:"Question with you: were."}}
+         why:{pt:"Pergunta com you: were.", en:"Question with you: were."}},
+        {q:"\"Onde o seu pai nasceu?\" → Where ___?", o:["was your father born","your father was born","did your father born"], a:0, sub:"be born",
+         why:{pt:"Pergunta: WH + was + sujeito + born.", en:"Question: WH + was + subject + born."}},
+        {q:"\"O jantar foi caro?\" → ___ expensive?", o:["Was the dinner","Did the dinner was","Did the dinner be"], a:0, sub:"questions",
+         why:{pt:"Com o To Be, não se usa DID: was + sujeito.", en:"With To Be, no DID: was + subject."}},
+        {q:"You ___ right about the restaurant. It was great!", o:["were","was","did"], a:0, sub:"was / were",
+         why:{pt:"You é sempre were.", en:"You always takes were."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Monday Morning", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com was, were, wasn't, weren't ou o To Be no presente. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with was, were, wasn't, weren't or To Be in the present. Tap a blank and choose the word."},

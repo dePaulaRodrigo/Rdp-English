@@ -450,7 +450,7 @@ const CATALOG = [
    "introductions",
    "family"
   ],
-  "v": "b722f383",
+  "v": "d8e2ff40",
   "exercises": [
    {
     "id": "mc-easy",
@@ -461,7 +461,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",
@@ -493,7 +493,7 @@ const CATALOG = [
    "last weekend",
    "memories"
   ],
-  "v": "ef985f35",
+  "v": "ca65f42a",
   "exercises": [
    {
     "id": "mc-easy",
@@ -504,7 +504,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",
@@ -537,7 +537,7 @@ const CATALOG = [
    "neighborhood",
    "city"
   ],
-  "v": "6af8d12f",
+  "v": "054375d5",
   "exercises": [
    {
     "id": "mc-easy",
@@ -548,7 +548,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 18
    },
    {
     "id": "dialogue-medium",
@@ -648,7 +648,7 @@ const CATALOG = [
    "routine",
    "commute"
   ],
-  "v": "9a8b23ca",
+  "v": "c60096da",
   "exercises": [
    {
     "id": "mc-easy",
@@ -659,7 +659,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",
@@ -691,7 +691,7 @@ const CATALOG = [
    "right now",
    "home"
   ],
-  "v": "6bd6a698",
+  "v": "e930b96e",
   "exercises": [
    {
     "id": "mc-easy",
@@ -702,7 +702,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 18
    },
    {
     "id": "dialogue-medium",
@@ -734,7 +734,7 @@ const CATALOG = [
    "guests",
    "restaurant"
   ],
-  "v": "37ec30bb",
+  "v": "966ccf70",
   "exercises": [
    {
     "id": "mc-easy",
@@ -745,7 +745,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 16
+    "n": 19
    },
    {
     "id": "dialogue-medium",

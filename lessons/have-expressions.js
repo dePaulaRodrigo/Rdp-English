@@ -31,7 +31,22 @@ pt:`
       <li>take the bus<br>take a taxi<br>take a photo<br>take a test<br>take medicine<br>take care</li>
     </ul>
     <p class="note">No inglês americano, algumas ações usam TAKE onde o britânico usa HAVE: <b>take</b> a shower<br><b>take</b> a nap<br><b>take</b> a break<br><b>take</b> a look.</p>
-    <p>It takes about eight minutes for sunlight to reach the Earth.</p>`,
+    <p>It takes about eight minutes for sunlight to reach the Earth.</p>
+    <h3>Cuidado: o nosso "tomar"</h3>
+    <p>O português usa <i>tomar</i> para tudo; o inglês divide entre HAVE (comer e beber) e TAKE (ações e remédios):</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>tomar café da manhã</td><td>have breakfast</td><td><s>take breakfast</s></td></tr>
+      <tr><td>tomar um café, uma cerveja</td><td>have a coffee, a beer</td><td><s>take a coffee</s></td></tr>
+      <tr><td>tomar banho</td><td>take a shower</td><td><s>take a bath</s> (= banho de banheira)</td></tr>
+      <tr><td>tomar remédio</td><td>take medicine</td><td><s>drink medicine</s></td></tr>
+      <tr><td>tomar sol</td><td>sunbathe, get some sun</td><td><s>take sun</s></td></tr>
+      <tr><td>tomar uma decisão</td><td>make a decision</td><td><s>take a decision</s> (britânico)</td></tr>
+    </table>
+    <ul>
+      <li><b>HAVE de posse não vai para o -ING</b>; HAVE de comer, sim: I <b>have</b> a car. We<b>'re having</b> lunch. (<s>I'm having a car</s>)</li>
+      <li><b>"Eu levo" + tempo é IT TAKES ME</b>: <b>It takes me</b> an hour to get to work. (<s>I take an hour</s>)</li>
+    </ul>`,
 en:`
     <h2>Expressions with HAVE</h2>
     <h3>Possession</h3>
@@ -59,7 +74,22 @@ en:`
       <li>take the bus<br>take a taxi<br>take a photo<br>take a test<br>take medicine<br>take care</li>
     </ul>
     <p class="note">In American English, some actions use TAKE where British English uses HAVE: <b>take</b> a shower<br><b>take</b> a nap<br><b>take</b> a break<br><b>take</b> a look.</p>
-    <p>It takes about eight minutes for sunlight to reach the Earth.</p>`
+    <p>It takes about eight minutes for sunlight to reach the Earth.</p>
+    <h3>Careful: Portuguese "tomar"</h3>
+    <p>Portuguese uses <i>tomar</i> for everything; English splits it between HAVE (eating and drinking) and TAKE (actions and medicine):</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>tomar café da manhã</td><td>have breakfast</td><td><s>take breakfast</s></td></tr>
+      <tr><td>tomar um café, uma cerveja</td><td>have a coffee, a beer</td><td><s>take a coffee</s></td></tr>
+      <tr><td>tomar banho</td><td>take a shower</td><td><s>take a bath</s> (= in a bathtub)</td></tr>
+      <tr><td>tomar remédio</td><td>take medicine</td><td><s>drink medicine</s></td></tr>
+      <tr><td>tomar sol</td><td>sunbathe, get some sun</td><td><s>take sun</s></td></tr>
+      <tr><td>tomar uma decisão</td><td>make a decision</td><td><s>take a decision</s> (British)</td></tr>
+    </table>
+    <ul>
+      <li><b>HAVE for possession doesn't take -ING</b>; HAVE for eating does: I <b>have</b> a car. We<b>'re having</b> lunch. (<s>I'm having a car</s>)</li>
+      <li><b>"Eu levo" + time is IT TAKES ME</b>: <b>It takes me</b> an hour to get to work. (<s>I take an hour</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -148,7 +178,7 @@ en:`
         {q:"Don't forget to ___ your medicine.", o:["take","have","drink"], a:0, sub:"take: actions",
          why:{pt:"Tomar remédio: take medicine.", en:"Take medicine."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — have and take in context", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — have and take in context", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Recebemos amigos em casa toda sexta.\" → We ___ every Friday.", o:["have friends over","receive friends","take friends over"], a:0, sub:"have someone over",
@@ -182,7 +212,13 @@ en:`
         {q:"We usually ___ guests on Sundays: my parents come for lunch.", o:["have","take","make"], a:0, sub:"have someone over",
          why:{pt:"Receber visitas: have guests.", en:"Have guests."}},
         {q:"Let's ___ a look at the menu before we order.", o:["take","make","do"], a:0, sub:"take: actions",
-         why:{pt:"No inglês americano: take a look.", en:"In American English: take a look."}}
+         why:{pt:"No inglês americano: take a look.", en:"In American English: take a look."}},
+        {q:"\"Vamos tomar um café?\" → Shall we ___ a coffee?", o:["have","take","make"], a:0, sub:"have: meals",
+         why:{pt:"Comer e beber: have.", en:"Eating and drinking: have."}},
+        {q:"\"Tomo remédio para pressão todo dia.\" → I ___ blood pressure medicine every day.", o:["take","have","drink"], a:0, sub:"take: actions",
+         why:{pt:"Remédio: take.", en:"Medicine: take."}},
+        {q:"We need to ___ a decision about the trip today.", o:["make","take","have"], a:0, sub:"take: actions",
+         why:{pt:"No inglês americano, decisão é make a decision.", en:"In American English, it's make a decision."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: Sunday Lunch", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com have, has, take ou takes. Toque em uma lacuna e escolha o verbo.", en:"Complete the dialogue with have, has, take or takes. Tap a blank and choose the verb."},

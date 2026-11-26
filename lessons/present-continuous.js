@@ -19,6 +19,14 @@ pt:`
       <li><b>Planos marcados</b>: I'm meeting Ana tomorrow.</li>
     </ul>
     <p>Expressões típicas: now<br>right now<br>at the moment<br>today<br>this week<br>these days<br>Look!<br>Listen!</p>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My son is studying for a test.<br>My son's studying for a test.</td></tr>
+      <tr><td>Negativa</td><td>My son is not studying for a test.<br>My son isn't studying for a test.</td></tr>
+      <tr><td>Pergunta</td><td>Is my son studying for a test?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Is my son not studying for a test?<br>Isn't my son studying for a test?</td></tr>
+    </table>
     <h3>A grafia do -ING</h3>
     <ul>
       <li>E mudo cai: make → making<br>write → writing (mas: see → seeing)</li>
@@ -38,7 +46,14 @@ pt:`
     <p>Não costumam ir para o -ING: know<br>like<br>love<br>hate<br>want<br>need<br>prefer<br>understand<br>believe<br>belong<br>own<br>seem. I know the answer (<s>I'm knowing</s>).</p>
     <p class="note">Alguns mudam de sentido: I <b>have</b> a car (posse) × I'm <b>having</b> lunch (comer)<br>I <b>think</b> so (opinião) × I'm <b>thinking</b> about it (refletir).</p>
     <h3>Being: "estar sendo"</h3>
-    <p>Para um comportamento do momento: You're being rude.<br>She's being a good boss to me.</p>`,
+    <p>Para um comportamento do momento: You're being rude.<br>She's being a good boss to me.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O To Be nunca sai</b>: I<b>'m</b> looking for a job. (<s>I looking for a job</s>)</li>
+      <li><b>Verbo de estado não vai para o -ING</b>, mesmo com "estou" em português: "Estou precisando de ajuda." → I <b>need</b> help. (<s>I'm needing help</s>)</li>
+      <li><b>"Estou" + situação permanente = Present Simple</b>: "Estou trabalhando na Natura" (é o meu emprego) → I <b>work</b> at Natura. Se for temporário, o -ING vale: I'm working at Natura this summer.</li>
+      <li><b>Hábito não vai para o -ING</b>: I <b>go</b> to the gym every day. (<s>I'm going to the gym every day</s>)</li>
+    </ul>`,
 en:`
     <h2>Present Continuous</h2>
     <p><b>am / is / are + verb + -ING</b>.</p>
@@ -54,6 +69,14 @@ en:`
       <li><b>Fixed plans</b>: I'm meeting Ana tomorrow.</li>
     </ul>
     <p>Typical expressions: now<br>right now<br>at the moment<br>today<br>this week<br>these days<br>Look!<br>Listen!</p>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My son is studying for a test.<br>My son's studying for a test.</td></tr>
+      <tr><td>Negative</td><td>My son is not studying for a test.<br>My son isn't studying for a test.</td></tr>
+      <tr><td>Question</td><td>Is my son studying for a test?</td></tr>
+      <tr><td>Negative question</td><td>Is my son not studying for a test?<br>Isn't my son studying for a test?</td></tr>
+    </table>
     <h3>-ING spelling</h3>
     <ul>
       <li>Silent E drops: make → making<br>write → writing (but: see → seeing)</li>
@@ -73,7 +96,14 @@ en:`
     <p>They are not usually used with -ING: know<br>like<br>love<br>hate<br>want<br>need<br>prefer<br>understand<br>believe<br>belong<br>own<br>seem. I know the answer (<s>I'm knowing</s>).</p>
     <p class="note">Some change meaning: I <b>have</b> a car (possession) × I'm <b>having</b> lunch (eating)<br>I <b>think</b> so (opinion) × I'm <b>thinking</b> about it (considering).</p>
     <h3>Being</h3>
-    <p>For behavior at the moment: You're being rude.<br>She's being a good boss to me.</p>`
+    <p>For behavior at the moment: You're being rude.<br>She's being a good boss to me.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Never drop To Be</b>: I<b>'m</b> looking for a job. (<s>I looking for a job</s>)</li>
+      <li><b>Stative verbs don't take -ING</b>, even when Portuguese uses "estou": I <b>need</b> help. (<s>I'm needing help</s>)</li>
+      <li><b>"Estou" + a permanent situation = Present Simple</b>: I <b>work</b> at Natura (it's my job). If it's temporary, -ING works: I'm working at Natura this summer.</li>
+      <li><b>Habits don't take -ING</b>: I <b>go</b> to the gym every day. (<s>I'm going to the gym every day</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -162,7 +192,7 @@ en:`
         {q:"visit → ___", o:["visiting","visitting","visitng"], a:0, sub:"spelling",
          why:{pt:"A sílaba forte não é a última (VIsit): não dobra.", en:"The stress is not on the last syllable (VIsit): no doubling."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — simple or continuous?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — simple or continuous?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I usually drink coffee, but today I ___ tea.", o:["'m drinking","drink","drinking"], a:0, sub:"simple vs continuous",
@@ -196,7 +226,11 @@ en:`
         {q:"She ___ this dress. She wears it all the time.", o:["loves","is loving"], a:0, sub:"stative verbs",
          why:{pt:"Love é verbo de estado: sem -ING.", en:"Love is a stative verb: no -ING."}},
         {q:"begin → ___", o:["beginning","begining","beginnig"], a:0, sub:"spelling",
-         why:{pt:"Sílaba forte no fim (beGIN): dobra.", en:"Stress at the end (beGIN): double."}}
+         why:{pt:"Sílaba forte no fim (beGIN): dobra.", en:"Stress at the end (beGIN): double."}},
+        {q:"\"Estou precisando de ajuda com a mudança.\" → I ___ help with the move.", o:["need","'m needing","needing"], a:0, sub:"stative verbs",
+         why:{pt:"Need é verbo de estado: sem -ING.", en:"Need is a stative verb: no -ING."}},
+        {q:"My sister ___ for a new job at the moment.", o:["is looking","looking","looks"], a:0, sub:"form",
+         why:{pt:"Agora, temporário: To Be + -ING. O To Be não pode sair.", en:"Now, temporary: To Be + -ING. To Be can't be dropped."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: On the Bus", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha a forma com -ING ou com o To Be. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose the -ING form or the form with To Be. Tap a blank and choose an option."},

@@ -33,12 +33,28 @@ pt:`
       <li>Pergunta sobre o sujeito, sem auxiliar: Who <b>lives</b> here?</li>
       <li>O To Be não usa DO: You aren't from Minas.<br>Are you tired?</li>
     </ul>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>I, you, we, they</th><th>He, she, it</th></tr>
+      <tr><td>Afirmativa</td><td>My parents live in Santos.</td><td>My brother lives in Santos.</td></tr>
+      <tr><td>Negativa</td><td>My parents do not live in Santos.<br>My parents don't live in Santos.</td><td>My brother does not live in Santos.<br>My brother doesn't live in Santos.</td></tr>
+      <tr><td>Pergunta</td><td>Do my parents live in Santos?</td><td>Does my brother live in Santos?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Do my parents not live in Santos?<br>Don't my parents live in Santos?</td><td>Does my brother not live in Santos?<br>Doesn't my brother live in Santos?</td></tr>
+    </table>
+    <p>Repare: o S sai do verbo e vai para o DOES. Ele aparece uma vez só.</p>
     <h3>Advérbios de frequência</h3>
     <p>always<br>usually<br>often<br>sometimes<br>rarely<br>never</p>
     <ul>
       <li><b>Antes</b> do verbo principal: I <b>always</b> wake up early.</li>
       <li><b>Depois</b> do To Be: He is <b>always</b> late.</li>
       <li>Expressões no fim: every day<br>once a week<br>twice a month<br>on Mondays.</li>
+    </ul>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>Não esqueça o S de he, she, it</b>, nem com nomes: My sister <b>works</b> at a hospital. (<s>My sister work</s>)</li>
+      <li><b>O S aparece uma vez só</b>: <b>Does</b> she <b>work</b> here? She <b>doesn't work</b> here. (<s>Does she works</s>, <s>She doesn't works</s>)</li>
+      <li><b>Não junte To Be com outro verbo</b>: I <b>work</b> at a bank. (<s>I am work at a bank</s>) Do you <b>like</b> coffee? (<s>Are you like coffee?</s>)</li>
+      <li><b>Situação permanente não vai para o -ING</b>, mesmo com "estou" em português: "Estou morando em Curitiba" (moro lá) → I <b>live</b> in Curitiba.</li>
     </ul>`,
 en:`
     <h2>Present Simple</h2>
@@ -69,12 +85,28 @@ en:`
       <li>Subject questions, no auxiliary: Who <b>lives</b> here?</li>
       <li>To Be does not use DO: You aren't from Minas.<br>Are you tired?</li>
     </ul>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>I, you, we, they</th><th>He, she, it</th></tr>
+      <tr><td>Affirmative</td><td>My parents live in Santos.</td><td>My brother lives in Santos.</td></tr>
+      <tr><td>Negative</td><td>My parents do not live in Santos.<br>My parents don't live in Santos.</td><td>My brother does not live in Santos.<br>My brother doesn't live in Santos.</td></tr>
+      <tr><td>Question</td><td>Do my parents live in Santos?</td><td>Does my brother live in Santos?</td></tr>
+      <tr><td>Negative question</td><td>Do my parents not live in Santos?<br>Don't my parents live in Santos?</td><td>Does my brother not live in Santos?<br>Doesn't my brother live in Santos?</td></tr>
+    </table>
+    <p>Note: the S leaves the verb and goes to DOES. It appears only once.</p>
     <h3>Frequency adverbs</h3>
     <p>always<br>usually<br>often<br>sometimes<br>rarely<br>never</p>
     <ul>
       <li><b>Before</b> the main verb: I <b>always</b> wake up early.</li>
       <li><b>After</b> To Be: He is <b>always</b> late.</li>
       <li>Expressions at the end: every day<br>once a week<br>twice a month<br>on Mondays.</li>
+    </ul>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>Don't forget the S with he, she, it</b>, also with names: My sister <b>works</b> at a hospital. (<s>My sister work</s>)</li>
+      <li><b>The S appears only once</b>: <b>Does</b> she <b>work</b> here? She <b>doesn't work</b> here. (<s>Does she works</s>, <s>She doesn't works</s>)</li>
+      <li><b>Don't combine To Be with another verb</b>: I <b>work</b> at a bank. (<s>I am work at a bank</s>) Do you <b>like</b> coffee? (<s>Are you like coffee?</s>)</li>
+      <li><b>A permanent situation doesn't take -ING</b>: I <b>live</b> in Curitiba (it's my home).</li>
     </ul>`
   },
   vocab:{
@@ -168,7 +200,7 @@ en:`
         {q:"Water ___ at 100 °C at sea level.", o:["boils","boil","is boil"], a:0, sub:"uses",
          why:{pt:"Fatos: Present Simple.", en:"Facts: Present Simple."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — routines and facts", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — routines and facts", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Trabalho num banco.\" (é o meu emprego) → ___", o:["I work at a bank.","I'm working at a bank.","I working at a bank."], a:0, sub:"uses",
@@ -202,7 +234,13 @@ en:`
         {q:"How long ___ it take to get to work?", o:["does","do","is"], a:0, sub:"questions",
          why:{pt:"It: does.", en:"It: does."}},
         {q:"My parents ___ coffee. They prefer tea.", o:["don't drink","doesn't drink","don't drinks"], a:0, sub:"negative",
-         why:{pt:"They: don't + forma base.", en:"They: don't + base form."}}
+         why:{pt:"They: don't + forma base.", en:"They: don't + base form."}},
+        {q:"\"Você gosta de café?\" → ___ coffee?", o:["Do you like","Are you like","You like"], a:0, sub:"questions",
+         why:{pt:"Pergunta com verbo comum: do + sujeito + verbo.", en:"Question with an ordinary verb: do + subject + verb."}},
+        {q:"___ your brother still live in Santos?", o:["Does","Do","Is"], a:0, sub:"questions",
+         why:{pt:"He / she / it na pergunta: does, e o verbo sem S.", en:"He / she / it in questions: does, and the verb without S."}},
+        {q:"I ___ as a nurse at a hospital downtown.", o:["work","am work","working"], a:0, sub:"uses",
+         why:{pt:"Emprego, situação permanente: Present Simple, sem To Be.", en:"A job, a permanent situation: Present Simple, with no To Be."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Commute", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo. Quando houver um verbo entre parênteses, escolha a forma correta dele. Toque em uma lacuna e escolha a opção.", en:"Complete the dialogue. When there is a verb in parentheses, choose its correct form. Tap a blank and choose an option."},

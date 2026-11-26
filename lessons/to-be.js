@@ -33,7 +33,23 @@ pt:`
     <p class="note">Cuidado: <i>agree</i> e <i>depend</i> são verbos, sem To Be: I agree (<s>I am agree</s>)<br>It depends (<s>It's depend</s>). E o To Be nunca some: She <b>is</b> very tall.</p>
     <h3>Pergunta e resposta curta</h3>
     <p>Na pergunta, o verbo vem antes do sujeito: You are Brazilian. → <b>Are you</b> Brazilian?<br>Where <b>is</b> the bathroom?</p>
-    <p>Resposta curta: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." Na afirmativa, sem contração: Yes, I am (<s>Yes, I'm</s>).</p>`,
+    <p>Resposta curta: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." Na afirmativa, sem contração: Yes, I am (<s>Yes, I'm</s>).</p>
+    <h3>Uma frase em todas as formas</h3>
+    <table>
+      <tr><th>Forma</th><th>Exemplo</th></tr>
+      <tr><td>Afirmativa</td><td>My sister is a nurse.<br>My sister's a nurse.</td></tr>
+      <tr><td>Negativa</td><td>My sister is not a nurse.<br>My sister isn't a nurse.</td></tr>
+      <tr><td>Pergunta</td><td>Is my sister a nurse?</td></tr>
+      <tr><td>Pergunta negativa</td><td>Is my sister not a nurse?<br>Isn't my sister a nurse?</td></tr>
+    </table>
+    <p>A pergunta negativa mostra surpresa ou pede confirmação: <i>Isn't your sister a nurse?</i> = "A sua irmã não é enfermeira?"</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O "é" sem sujeito precisa de IT</b>: "É difícil." → <b>It's</b> difficult. "É verdade." → <b>It's</b> true. (<s>Is difficult</s>)</li>
+      <li><b>Idade é com To Be</b>: My son <b>is</b> five. (<s>My son has five years</s>)</li>
+      <li><b>Agree e depend são verbos</b>, sem To Be: I <b>agree</b>. It <b>depends</b>. (<s>I am agree</s>, <s>It's depend</s>)</li>
+      <li><b>People é plural</b>: People <b>are</b> friendly here. (<s>People is friendly</s>) Já <i>news</i> é singular: The news <b>is</b> good.</li>
+    </ul>`,
 en:`
     <h2>The verb To Be</h2>
     <p>To Be covers both <i>ser</i> and <i>estar</i> in Portuguese; the context shows which one.</p>
@@ -63,7 +79,23 @@ en:`
     <p class="note">Careful: <i>agree</i> and <i>depend</i> are verbs, with no To Be: I agree (<s>I am agree</s>)<br>It depends (<s>It's depend</s>). And To Be never disappears: She <b>is</b> very tall.</p>
     <h3>Questions and short answers</h3>
     <p>In questions, the verb comes before the subject: You are Brazilian. → <b>Are you</b> Brazilian?<br>Where <b>is</b> the bathroom?</p>
-    <p>Short answers: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." No contraction in affirmative short answers: Yes, I am (<s>Yes, I'm</s>).</p>`
+    <p>Short answers: "Are you Brazilian?" — "Yes, I am." / "No, I'm not." No contraction in affirmative short answers: Yes, I am (<s>Yes, I'm</s>).</p>
+    <h3>One sentence in every form</h3>
+    <table>
+      <tr><th>Form</th><th>Example</th></tr>
+      <tr><td>Affirmative</td><td>My sister is a nurse.<br>My sister's a nurse.</td></tr>
+      <tr><td>Negative</td><td>My sister is not a nurse.<br>My sister isn't a nurse.</td></tr>
+      <tr><td>Question</td><td>Is my sister a nurse?</td></tr>
+      <tr><td>Negative question</td><td>Is my sister not a nurse?<br>Isn't my sister a nurse?</td></tr>
+    </table>
+    <p>A negative question shows surprise or checks something: <i>Isn't your sister a nurse?</i></p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>"É" with no subject needs IT</b>: <b>It's</b> difficult. <b>It's</b> true. (<s>Is difficult</s>)</li>
+      <li><b>Age uses To Be</b>: My son <b>is</b> five. (<s>My son has five years</s>)</li>
+      <li><b>Agree and depend are verbs</b>, with no To Be: I <b>agree</b>. It <b>depends</b>. (<s>I am agree</s>, <s>It's depend</s>)</li>
+      <li><b>People is plural</b>: People <b>are</b> friendly here. (<s>People is friendly</s>) But <i>news</i> is singular: The news <b>is</b> good.</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -138,7 +170,7 @@ en:`
         {q:"The keys ___ in my bag.", o:["are","is"], a:0, sub:"conjugation",
          why:{pt:"Sujeito no plural: are.", en:"Plural subject: are."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — To Be where Portuguese uses other verbs", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — To Be where Portuguese uses other verbs", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"Tenho medo de altura.\" → I ___ afraid of heights.", o:["am","have","'m have"], a:0, sub:"be + adjective",
@@ -172,7 +204,13 @@ en:`
         {q:"\"Estou com sono.\" → I'm ___.", o:["sleepy","with sleep","sleep"], a:0, sub:"be + adjective",
          why:{pt:"Estar com sono é be sleepy.", en:"Be sleepy."}},
         {q:"Why ___ you sad?", o:["are","do","is"], a:0, sub:"questions",
-         why:{pt:"WH + To Be + sujeito.", en:"WH + To Be + subject."}}
+         why:{pt:"WH + To Be + sujeito.", en:"WH + To Be + subject."}},
+        {q:"\"A sua irmã não é enfermeira?\" → ___ a nurse?", o:["Isn't your sister","Your sister isn't","Doesn't your sister"], a:0, sub:"questions",
+         why:{pt:"Pergunta negativa: isn't + sujeito.", en:"Negative question: isn't + subject."}},
+        {q:"People in this city ___ very friendly.", o:["are","is","be"], a:0, sub:"common mistakes",
+         why:{pt:"People é plural: are.", en:"People is plural: are."}},
+        {q:"\"É verdade.\" → ___ true.", o:["It's","Is","This"], a:0, sub:"common mistakes",
+         why:{pt:"O sujeito é obrigatório: it's.", en:"The subject is required: it's."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: First Day of Class", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma correta do To Be. Toque em uma lacuna e escolha a palavra.", en:"Complete the dialogue with the correct form of To Be. Tap a blank and choose the word."},
