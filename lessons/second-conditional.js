@@ -33,7 +33,14 @@ pt:`
     <p>I'd <b>go</b> (forma base) = I would go<br>I'd <b>gone</b> (particípio) = I had gone</p>
     <h3>What if e suppose</h3>
     <p><b>What if</b> you lost your job?<br><b>Suppose</b> you could speak any language.</p>
-    <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>`,
+    <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>
+    <h3>Cuidado</h3>
+    <ul>
+      <li><b>O "-ava" da fala não é passado em inglês.</b> No português informal, dizemos "Se eu ganhasse, eu <i>comprava</i> uma casa". Em inglês, a consequência é sempre WOULD: If I won, I <b>would buy</b> a house. (<s>If I won, I bought a house</s>)</li>
+      <li><b>"Se eu tivesse" é IF I HAD</b>: If I <b>had</b> time, I'd help you. (<s>If I would have time</s>, <s>If I have had</s>)</li>
+      <li><b>WOULD só aparece numa parte</b>, a da consequência. (<s>If I would know, I would tell you</s>)</li>
+      <li><b>Com WISH, a mesma lógica</b>: I wish I <b>had</b> a car. (<s>I wish I would have a car</s>)</li>
+    </ul>`,
 en:`
     <h2>Hypotheses: the second conditional</h2>
     <p><b>if + past, would / could / might + verb</b></p>
@@ -63,7 +70,14 @@ en:`
     <p>I'd <b>go</b> (base form) = I would go<br>I'd <b>gone</b> (participle) = I had gone</p>
     <h3>What if and suppose</h3>
     <p><b>What if</b> you lost your job?<br><b>Suppose</b> you could speak any language.</p>
-    <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>`
+    <p class="note">If ice didn't float, lakes would freeze from the bottom up, and most fish would die in winter.</p>
+    <h3>Careful</h3>
+    <ul>
+      <li><b>The spoken Portuguese "-ava" is not a past in English.</b> Informal Portuguese says "Se eu ganhasse, eu <i>comprava</i> uma casa". In English, the result is always WOULD: If I won, I <b>would buy</b> a house. (<s>If I won, I bought a house</s>)</li>
+      <li><b>"Se eu tivesse" is IF I HAD</b>: If I <b>had</b> time, I'd help you. (<s>If I would have time</s>, <s>If I have had</s>)</li>
+      <li><b>WOULD appears in only one part</b>, the result. (<s>If I would know, I would tell you</s>)</li>
+      <li><b>WISH follows the same logic</b>: I wish I <b>had</b> a car. (<s>I wish I would have a car</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -134,7 +148,7 @@ en:`
         {q:"\"I'd go\" means: ___", o:["I would go","I had go","I did go"], a:0, sub:"'d",
          why:{pt:"'d + forma base = would.", en:"'d + base form = would."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — first or second?", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — first or second?", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"I bought a ticket. If I ___ the lottery, I'll buy a house.", o:["win","won","would win"], a:0, sub:"first × second",
@@ -164,7 +178,9 @@ en:`
         {q:"Suppose you ___ speak any language. Which would you choose?", o:["could","can","will"], a:0, sub:"what if",
          why:{pt:"Suppose + passado (could).", en:"Suppose + past (could)."}},
         {q:"If my grandparents ___ alive, they'd be 100 this year.", o:["were","are","would be"], a:0, sub:"if I were",
-         why:{pt:"Hipótese irreal no presente: were.", en:"Unreal present: were."}}
+         why:{pt:"Hipótese irreal no presente: were.", en:"Unreal present: were."}},
+        {q:"\"Se eu ganhasse na loteria, eu comprava uma fazenda.\" → If I won the lottery, I ___ a farm.", o:["would buy","bought","will buy"], a:0, sub:"form",
+         why:{pt:"Consequência hipotética: would + verbo, mesmo que a fala use \"comprava\".", en:"Hypothetical result: would + verb."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Lottery Ticket", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma certa do verbo entre parênteses.", en:"Complete the dialogue with the correct form of the verb in parentheses."},

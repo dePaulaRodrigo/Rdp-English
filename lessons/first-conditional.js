@@ -36,7 +36,20 @@ pt:`
       <tr><td><b>as long as</b></td><td>desde que</td><td>You can borrow my car as long as you're careful.</td></tr>
       <tr><td><b>in case</b></td><td>caso, por precaução</td><td>Take an umbrella in case it rains.</td></tr>
     </table>
-    <p class="note"><i>Unless</i> já é negativo: Unless you hurry (<s>Unless you don't hurry</s>).</p>`,
+    <p class="note"><i>Unless</i> já é negativo: Unless you hurry (<s>Unless you don't hurry</s>).</p>
+    <h3>Cuidado: o futuro do subjuntivo</h3>
+    <p>Onde o português usa o futuro do subjuntivo (<i>se você vier, quando eu chegar</i>), o inglês usa o <b>presente</b>:</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th><th>Não diga</th></tr>
+      <tr><td>Se você vier, traga a sua irmã.</td><td>If you <b>come</b>, bring your sister.</td><td><s>If you will come</s></td></tr>
+      <tr><td>Quando eu chegar, te ligo.</td><td>When I <b>get</b> there, I'll call you.</td><td><s>When I will get there</s></td></tr>
+      <tr><td>Assim que eu souber, te aviso.</td><td>As soon as I <b>know</b>, I'll tell you.</td><td><s>As soon as I will know</s></td></tr>
+      <tr><td>Enquanto você estiver aqui…</td><td>While you <b>are</b> here…</td><td><s>While you will be</s></td></tr>
+    </table>
+    <ul>
+      <li><b>O WILL vai na outra parte</b>, a da consequência: If it rains, I<b>'ll</b> stay home.</li>
+      <li><b>He, she, it com S</b>, também depois do IF: If my boss <b>calls</b>, tell him I'm out. (<s>If my boss call</s>)</li>
+    </ul>`,
 en:`
     <h2>Condition and result</h2>
     <p>Every conditional sentence has two parts: the <b>condition</b> (with <i>if</i>) and the <b>result</b>. The order can change.</p>
@@ -69,7 +82,20 @@ en:`
       <tr><td><b>as long as</b></td><td>only if</td><td>You can borrow my car as long as you're careful.</td></tr>
       <tr><td><b>in case</b></td><td>as a precaution</td><td>Take an umbrella in case it rains.</td></tr>
     </table>
-    <p class="note"><i>Unless</i> is already negative: Unless you hurry (<s>Unless you don't hurry</s>).</p>`
+    <p class="note"><i>Unless</i> is already negative: Unless you hurry (<s>Unless you don't hurry</s>).</p>
+    <h3>Careful: the Portuguese future subjunctive</h3>
+    <p>Where Portuguese uses the future subjunctive (<i>se você vier, quando eu chegar</i>), English uses the <b>present</b>:</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th><th>Don't say</th></tr>
+      <tr><td>Se você vier, traga a sua irmã.</td><td>If you <b>come</b>, bring your sister.</td><td><s>If you will come</s></td></tr>
+      <tr><td>Quando eu chegar, te ligo.</td><td>When I <b>get</b> there, I'll call you.</td><td><s>When I will get there</s></td></tr>
+      <tr><td>Assim que eu souber, te aviso.</td><td>As soon as I <b>know</b>, I'll tell you.</td><td><s>As soon as I will know</s></td></tr>
+      <tr><td>Enquanto você estiver aqui…</td><td>While you <b>are</b> here…</td><td><s>While you will be</s></td></tr>
+    </table>
+    <ul>
+      <li><b>WILL goes in the other part</b>, the result: If it rains, I<b>'ll</b> stay home.</li>
+      <li><b>He, she, it take S</b>, also after IF: If my boss <b>calls</b>, tell him I'm out. (<s>If my boss call</s>)</li>
+    </ul>`
   },
   vocab:{
 pt:`
@@ -140,7 +166,7 @@ en:`
         {q:"I'll text you as soon as I ___.", o:["arrive","will arrive","arrived"], a:0, sub:"no will after if",
          why:{pt:"Depois de as soon as: presente.", en:"After as soon as: present."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — if, when, unless, in case", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — if, when, unless, in case", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"A menos que você corra, vai perder o ônibus.\" → ___", o:["Unless you hurry, you'll miss the bus.","Unless you don't hurry, you'll miss the bus.","If you hurry, you'll miss the bus."], a:0, sub:"unless",
@@ -170,7 +196,11 @@ en:`
         {q:"If he doesn't book in advance, he ___ a seat.", o:["won't get","doesn't will get","not get"], a:0, sub:"first",
          why:{pt:"Consequência futura negativa: won't.", en:"Negative future result: won't."}},
         {q:"Call me ___ you need anything. I'll be home.", o:["if","unless","until"], a:0, sub:"first",
-         why:{pt:"Condição simples: if.", en:"Simple condition: if."}}
+         why:{pt:"Condição simples: if.", en:"Simple condition: if."}},
+        {q:"\"Assim que eu souber, te aviso.\" → As soon as I ___, I'll tell you.", o:["know","will know","knew"], a:0, sub:"no will after if",
+         why:{pt:"Futuro do subjuntivo = presente em inglês.", en:"Portuguese future subjunctive = English present."}},
+        {q:"If my boss ___, tell him I'm in a meeting.", o:["calls","call","will call"], a:0, sub:"first",
+         why:{pt:"Presente depois do IF, com o S de he / she / it.", en:"Present after IF, with the S for he / she / it."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The Weekend Plan", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a forma certa do verbo entre parênteses.", en:"Complete the dialogue with the correct form of the verb in parentheses."},

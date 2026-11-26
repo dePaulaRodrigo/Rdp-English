@@ -2580,7 +2580,7 @@ const CATALOG = [
    "it is said that",
    "inventions and buildings"
   ],
-  "v": "a14f6a33",
+  "v": "0db4ce9b",
   "exercises": [
    {
     "id": "mc-easy",
@@ -2591,7 +2591,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -2670,7 +2670,7 @@ const CATALOG = [
    "in case",
    "plans and consequences"
   ],
-  "v": "3e13226a",
+  "v": "eb795743",
   "exercises": [
    {
     "id": "mc-easy",
@@ -2681,7 +2681,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 16
    },
    {
     "id": "dialogue-medium",
@@ -2715,7 +2715,7 @@ const CATALOG = [
    "what if",
    "dreams"
   ],
-  "v": "a71433bb",
+  "v": "e7514c1b",
   "exercises": [
    {
     "id": "mc-easy",
@@ -2726,7 +2726,7 @@ const CATALOG = [
     "id": "mc-hard",
     "type": "mc",
     "reveal": "end",
-    "n": 14
+    "n": 15
    },
    {
     "id": "dialogue-medium",

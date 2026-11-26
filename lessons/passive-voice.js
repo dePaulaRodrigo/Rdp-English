@@ -37,6 +37,20 @@ pt:`
       <li><b>I was born</b> é passiva: por isso leva <i>was</i>.</li>
       <li>Phrasal verbs mantêm a partícula: The meeting was called off.</li>
       <li>Opiniões gerais: <b>It is said that</b>…<br>He <b>is said to be</b> rich.</li>
+    </ul>
+    <h3>Cuidado: o nosso "se"</h3>
+    <p>O português faz muita passiva com <i>se</i> ou com sujeito indeterminado. Em inglês, use a passiva com BE, ou um sujeito genérico (<i>you, they, people</i>):</p>
+    <table>
+      <tr><th>Português</th><th>Inglês</th></tr>
+      <tr><td>Aqui se fala inglês.</td><td>English <b>is spoken</b> here.</td></tr>
+      <tr><td>Vende-se esta casa.</td><td>This house <b>is for sale</b>.</td></tr>
+      <tr><td>Roubaram o meu carro.</td><td>My car <b>was stolen</b>.</td></tr>
+      <tr><td>Como se escreve isso?</td><td>How <b>do you spell</b> that? / How <b>is</b> that <b>spelled</b>?</td></tr>
+      <tr><td>Dizem que ele é rico.</td><td><b>People say</b> he's rich. / He <b>is said</b> to be rich.</td></tr>
+    </table>
+    <ul>
+      <li><b>O BE nunca sai</b>: The house <b>was built</b> in 1900. (<s>The house built in 1900</s>, que diz que a casa construiu algo)</li>
+      <li><b>Use o particípio</b>: The letter was <b>written</b>. (<s>was wrote</s>)</li>
     </ul>`,
 en:`
     <h2>The passive voice</h2>
@@ -71,6 +85,20 @@ en:`
       <li><b>I was born</b> is passive: that's why it takes <i>was</i>.</li>
       <li>Phrasal verbs keep the particle: The meeting was called off.</li>
       <li>General opinions: <b>It is said that</b>…<br>He <b>is said to be</b> rich.</li>
+    </ul>
+    <h3>Careful: Portuguese "se"</h3>
+    <p>Portuguese often makes passives with <i>se</i> or an unstated subject. In English, use the passive with BE, or a general subject (<i>you, they, people</i>):</p>
+    <table>
+      <tr><th>Portuguese</th><th>English</th></tr>
+      <tr><td>Aqui se fala inglês.</td><td>English <b>is spoken</b> here.</td></tr>
+      <tr><td>Vende-se esta casa.</td><td>This house <b>is for sale</b>.</td></tr>
+      <tr><td>Roubaram o meu carro.</td><td>My car <b>was stolen</b>.</td></tr>
+      <tr><td>Como se escreve isso?</td><td>How <b>do you spell</b> that? / How <b>is</b> that <b>spelled</b>?</td></tr>
+      <tr><td>Dizem que ele é rico.</td><td><b>People say</b> he's rich. / He <b>is said</b> to be rich.</td></tr>
+    </table>
+    <ul>
+      <li><b>Never drop BE</b>: The house <b>was built</b> in 1900. (<s>The house built in 1900</s>, which says the house built something)</li>
+      <li><b>Use the participle</b>: The letter was <b>written</b>. (<s>was wrote</s>)</li>
     </ul>`
   },
   vocab:{
@@ -144,7 +172,7 @@ en:`
         {q:"These cars ___ in Germany.", o:["are made","are making","make"], a:0, sub:"present simple",
          why:{pt:"Are + particípio (plural).", en:"Are + past participle (plural)."}}
       ]},
-    { id:"mc-hard", title:"Multiple choice — tricky passives", type:"mc", reveal:"end",
+    { id:"mc-hard", title:"Multiple choice — tricky passives", type:"mc", rev:1, reveal:"end",
       instructions:{pt:"Escolha a opção correta em todos os itens e depois toque em Corrigir respostas.", en:"Choose the correct option for every item, then tap Corrigir respostas."},
       items:[
         {q:"\"They gave me a gift.\" → ___ (o mais natural)", o:["I was given a gift.","I gave a gift.","A gift gave me."], a:0, sub:"two objects",
@@ -174,7 +202,11 @@ en:`
         {q:"\"He was arrested.\" There is no \"by\" because ___", o:["the doer (the police) is obvious.","it's a mistake.","arrest has no passive."], a:0, sub:"when to use",
          why:{pt:"Quem fez é óbvio.", en:"The doer is obvious."}},
         {q:"She ___ a job in Lisbon last month.", o:["was offered","offered","was offering"], a:0, sub:"two objects",
-         why:{pt:"Pessoa como sujeito: was offered.", en:"Person as subject: was offered."}}
+         why:{pt:"Pessoa como sujeito: was offered.", en:"Person as subject: was offered."}},
+        {q:"\"Roubaram o meu celular no ônibus.\" → My phone ___ on the bus.", o:["was stolen","stole","was stole"], a:0, sub:"past simple",
+         why:{pt:"Quem roubou é desconhecido: passiva, was + particípio.", en:"Unknown agent: passive, was + participle."}},
+        {q:"This church ___ in the 18th century.", o:["was built","built","was build"], a:0, sub:"past simple",
+         why:{pt:"A igreja não construiu nada: passiva, com BE.", en:"The church didn't build anything: passive, with BE."}}
       ]},
     { id:"dialogue-medium", title:"Dialogue: The City Tour", type:"gap", layout:"dialogue",
       instructions:{pt:"Complete o diálogo com a passiva do verbo entre parênteses.", en:"Complete the dialogue with the passive of the verb in parentheses."},
